@@ -1,0 +1,45 @@
+{
+  "category_id": "camelids",
+  "label": "Camelid identification and traceability",
+  "description": "Alpaca, llama, camel, and camelid identification using ear tags, microchips, tattoos, and herd records. Covers registration, traceability, welfare, husbandry, and disease management aligned with wider livestock control frameworks.",
+  "synonyms": [
+    "camelid",
+    "camelids",
+    "alpaca",
+    "alpacas",
+    "llama",
+    "llamas",
+    "camel",
+    "camels",
+    "ear tag",
+    "ear tags",
+    "microchip",
+    "microchips",
+    "tattoo",
+    "tattoos",
+    "herd record",
+    "herd records",
+    "holding register",
+    "registration",
+    "keeper",
+    "husbandry",
+    "livestock control"
+  ],
+  "exclusions": [
+    "camel tourism",
+    "alpaca walking experiences",
+    "textile fibre marketing only"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "camelids",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

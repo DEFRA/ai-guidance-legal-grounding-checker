@@ -1,0 +1,13 @@
+[
+  {
+    "id": "prop-eval-fail-cite",
+    "proposition_text": "These Regulations may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018.",
+    "legal_subject": "These Regulations",
+    "action": "must be cited as",
+    "conditions": [],
+    "legal_effect_type": "obligation",
+    "proposition_tier": "substantive_rule",
+    "is_compliance_relevant": true,
+    "notes": "judit_extraction_meta:{\"evidence_quote\": \"may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018\"}"
+  }
+]

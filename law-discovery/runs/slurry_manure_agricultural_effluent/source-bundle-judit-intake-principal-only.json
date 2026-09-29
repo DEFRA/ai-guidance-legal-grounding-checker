@@ -1,0 +1,709 @@
+{
+  "bundle_id": "9a8e4c53-cef4-4284-8493-55f3bee3c1cf",
+  "category_id": "slurry_manure_agricultural_effluent",
+  "created_at": "2026-06-01T16:52:43.008268Z",
+  "principal_sources": [
+    {
+      "source_id": "lex-bea8f4984911a27c",
+      "title": "Council Directive of 12 December 1991 concerning the protection of waters against pollution caused by nitrates from agricultural sources (91/676/EEC)",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eudr/1991/676",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Slurry, manure, and agricultural effluent management UK legal controls on the storage, handling, spreading, land application, disposal, and pollution prevention of livestock slurry, manure, farmyard manure, poultry manure, pig slurry, liquid manure, silage effluent, agricultural effluent, farm effluent, digestate, and other livestock waste. Core sources include instruments that directly regulate slurry or manure storage infrastructure, silage effluent, agricultural pollution, nitrate vulnerable zones, nutrient action programmes, agricultural diffuse pollution, organic manure application, closed periods, application rates, buffer zones, runoff prevention, and ammonia or water pollution from livestock waste. Treat generic engineering or environmental terms such as freeboard, structural integrity, secondary containment, controlled waters, groundwater protection, buffer zones, and water pollution as supporting signals only: they are not enough on their own unless clearly connected to agricultural slurry, manure, livestock waste, silage effluent, agricultural pollution, or nitrate controls.",
+        "farm effluent",
+        "agricultural runoff",
+        "agricultural nitrate pollution",
+        "agricultural diffuse pollution",
+        "water pollution from agricultural sources"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Council Directive of 12 December 1991 concerning the protection of waters against pollution caused by nitrates from agricultural sources (91/676/EEC)",
+          "uri": "http://www.legislation.gov.uk/id/eudr/1991/676",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: Council Directive 91/676/EEC (Nitrates Directive) concerning protection of waters against pollution caused by nitrates from agricultural sources. This is the foundational EU Nitrates Directive that underpins UK nitrate vulnerable zone (NVZ) regimes, nutrient action programmes, and agricultural diffuse pollution controls. Title and extensive matched terms clearly align with category core scope. Triage guidance indicates 'foundational assimilated EU or EU-derived instruments only where they underpin UK nitrate, agricultural pollution, or manure/slurry controls' should be likely_accept. This is a cornerstone instrument for the category.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Foundational EU Nitrates Directive underpinning UK NVZ and agricultural pollution regimes\n- Title explicitly addresses protection of waters against pollution by nitrates from agricultural sources\n- Extensive matched terms covering slurry, manure, agricultural effluent, farm effluent, agricultural runoff, nitrate pollution, agricultural diffuse pollution, water pollution from agricultural sources\n\nEvidence limitations:\n- Source type listed as 'unknown' rather than assimilated EU law, but canonical URI and title clearly identify it as the Nitrates Directive",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Council Directive 91/676/EEC (Nitrates Directive) concerning protection of waters against pollution caused by nitrates from agricultural sources. This is the foundational EU Nitrates Directive that underpins UK nitrate vulnerable zone (NVZ) regimes, nutrient action programmes, and agricultural diffuse pollution controls. Title and extensive matched terms clearly align with category core scope. Triage guidance indicates 'foundational assimilated EU or EU-derived instruments only where they underpin UK nitrate, agricultural pollution, or manure/slurry controls' should be likely_accept. This is a cornerstone instrument for the category.",
+        "supporting_signals": [
+          "Foundational EU Nitrates Directive underpinning UK NVZ and agricultural pollution regimes",
+          "Title explicitly addresses protection of waters against pollution by nitrates from agricultural sources",
+          "Extensive matched terms covering slurry, manure, agricultural effluent, farm effluent, agricultural runoff, nitrate pollution, agricultural diffuse pollution, water pollution from agricultural sources"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Source type listed as 'unknown' rather than assimilated EU law, but canonical URI and title clearly identify it as the Nitrates Directive"
+        ],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-4e4b6c314950449b",
+      "title": "The Action Programme for Nitrate Vulnerable Zones (England and Wales) Regulations 1998",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/1998/1202",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "nitrates action programme"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Action Programme for Nitrate Vulnerable Zones (England and Wales) Regulations 1998",
+          "uri": "http://www.legislation.gov.uk/id/uksi/1998/1202",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Action Programme for Nitrate Vulnerable Zones (England and Wales) Regulations 1998. Title explicitly addresses nitrate vulnerable zones action programme for England and Wales. This is a core UK statutory instrument directly regulating NVZs and nutrient action programmes. Triage guidance indicates 'UK, England, Wales, Scotland, or Northern Ireland instruments directly regulating NVZs, nutrient action programmes, or agricultural diffuse pollution' should be likely_accept. Relationship already marked as 'directly_regulates'. This is a principal regulation for the category.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly addresses Action Programme for Nitrate Vulnerable Zones (England and Wales)\n- Matched term: nitrates action programme\n- UK statutory instrument (UKSI) directly regulating NVZ action programme\n- Foundational instrument for England and Wales NVZ regime",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Action Programme for Nitrate Vulnerable Zones (England and Wales) Regulations 1998. Title explicitly addresses nitrate vulnerable zones action programme for England and Wales. This is a core UK statutory instrument directly regulating NVZs and nutrient action programmes. Triage guidance indicates 'UK, England, Wales, Scotland, or Northern Ireland instruments directly regulating NVZs, nutrient action programmes, or agricultural diffuse pollution' should be likely_accept. Relationship already marked as 'directly_regulates'. This is a principal regulation for the category.",
+        "supporting_signals": [
+          "Title explicitly addresses Action Programme for Nitrate Vulnerable Zones (England and Wales)",
+          "Matched term: nitrates action programme",
+          "UK statutory instrument (UKSI) directly regulating NVZ action programme",
+          "Foundational instrument for England and Wales NVZ regime"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-6b4134fbd242a568",
+      "title": "The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 1998",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/1998/2927",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "nitrates action programme"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 1998",
+          "uri": "http://www.legislation.gov.uk/id/uksi/1998/2927",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 1998. Title explicitly addresses nitrate vulnerable zones action programme for Scotland. This is a core UK statutory instrument directly regulating NVZs and nutrient action programmes. Triage guidance indicates 'UK, England, Wales, Scotland, or Northern Ireland instruments directly regulating NVZs, nutrient action programmes, or agricultural diffuse pollution' should be likely_accept. Relationship already marked as 'directly_regulates'. This is a principal regulation for Scotland equivalent to the England and Wales 1998 regulations.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly addresses Action Programme for Nitrate Vulnerable Zones (Scotland)\n- Matched term: nitrates action programme\n- UK statutory instrument (UKSI) directly regulating NVZ action programme\n- Foundational instrument for Scotland NVZ regime",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 1998. Title explicitly addresses nitrate vulnerable zones action programme for Scotland. This is a core UK statutory instrument directly regulating NVZs and nutrient action programmes. Triage guidance indicates 'UK, England, Wales, Scotland, or Northern Ireland instruments directly regulating NVZs, nutrient action programmes, or agricultural diffuse pollution' should be likely_accept. Relationship already marked as 'directly_regulates'. This is a principal regulation for Scotland equivalent to the England and Wales 1998 regulations.",
+        "supporting_signals": [
+          "Title explicitly addresses Action Programme for Nitrate Vulnerable Zones (Scotland)",
+          "Matched term: nitrates action programme",
+          "UK statutory instrument (UKSI) directly regulating NVZ action programme",
+          "Foundational instrument for Scotland NVZ regime"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-1248a593cdac5280",
+      "title": "The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 2003",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ssi/2003/51",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "nitrates action programme"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 2003",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2003/51",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 2003 directly implements nutrient action programmes for NVZs in Scotland. The title explicitly references 'Action Programme for Nitrate Vulnerable Zones', which is a core component of the category. These instruments typically regulate organic manure application, closed periods, application rates, and buffer zones—all central to slurry and manure management.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references nitrate vulnerable zones action programme\n- Scotland jurisdiction matches category scope\n- Nitrates action programme is listed in category synonyms\n- Directly regulates agricultural pollution from nutrients including manure/slurry\n\nEvidence limitations:\n- Only title evidence available; no content inspection",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 2003 directly implements nutrient action programmes for NVZs in Scotland. The title explicitly references 'Action Programme for Nitrate Vulnerable Zones', which is a core component of the category. These instruments typically regulate organic manure application, closed periods, application rates, and buffer zones—all central to slurry and manure management.",
+        "supporting_signals": [
+          "Title explicitly references nitrate vulnerable zones action programme",
+          "Scotland jurisdiction matches category scope",
+          "Nitrates action programme is listed in category synonyms",
+          "Directly regulates agricultural pollution from nutrients including manure/slurry"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Only title evidence available; no content inspection"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-53b602a682abde11",
+      "title": "The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 2008",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ssi/2008/298",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Slurry, manure, and agricultural effluent management UK legal controls on the storage, handling, spreading, land application, disposal, and pollution prevention of livestock slurry, manure, farmyard manure, poultry manure, pig slurry, liquid manure, silage effluent, agricultural effluent, farm effluent, digestate, and other livestock waste. Core sources include instruments that directly regulate slurry or manure storage infrastructure, silage effluent, agricultural pollution, nitrate vulnerable zones, nutrient action programmes, agricultural diffuse pollution, organic manure application, closed periods, application rates, buffer zones, runoff prevention, and ammonia or water pollution from livestock waste. Treat generic engineering or environmental terms such as freeboard, structural integrity, secondary containment, controlled waters, groundwater protection, buffer zones, and water pollution as supporting signals only: they are not enough on their own unless clearly connected to agricultural slurry, manure, livestock waste, silage effluent, agricultural pollution, or nitrate controls.",
+        "Slurry, manure, and agricultural effluent management",
+        "slurry",
+        "slurries",
+        "manure",
+        "livestock manure",
+        "farmyard manure",
+        "pig slurry",
+        "poultry manure",
+        "farm effluent",
+        "silage effluent",
+        "organic manure",
+        "slurry store",
+        "slurry stores",
+        "manure spreading",
+        "slurry spreading",
+        "Slurry, manure, and agricultural effluent management Scotland",
+        "Slurry, manure, and agricultural effluent management Northern Ireland",
+        "slurries regulations",
+        "manure regulations"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 2008",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2008/298",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 2008 is a principal or successor instrument regulating NVZ action programmes in Scotland. The extensive matched terms include slurry, manure, livestock waste, organic manure, closed periods, application rates, and other core category concepts. This is a foundational instrument for agricultural pollution control.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references nitrate vulnerable zones action programme\n- Extensive matched terms covering slurry, manure, silage effluent, spreading, storage\n- Scotland jurisdiction matches category scope\n- Likely successor to the 2003 NVZ regulations\n\nEvidence limitations:\n- Only title and matched terms available; no content inspection",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Action Programme for Nitrate Vulnerable Zones (Scotland) Regulations 2008 is a principal or successor instrument regulating NVZ action programmes in Scotland. The extensive matched terms include slurry, manure, livestock waste, organic manure, closed periods, application rates, and other core category concepts. This is a foundational instrument for agricultural pollution control.",
+        "supporting_signals": [
+          "Title explicitly references nitrate vulnerable zones action programme",
+          "Extensive matched terms covering slurry, manure, silage effluent, spreading, storage",
+          "Scotland jurisdiction matches category scope",
+          "Likely successor to the 2003 NVZ regulations"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Only title and matched terms available; no content inspection"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-1b35597db9cc60db",
+      "title": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 1991",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/1991/346",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Slurry, manure, and agricultural effluent management",
+        "silage effluent",
+        "slurry storage",
+        "slurry store",
+        "slurry stores",
+        "slurry tank",
+        "slurry tanks",
+        "slurry lagoon",
+        "slurry lagoons",
+        "slurry spreading",
+        "silage slurry and agricultural fuel oil",
+        "Slurry, manure, and agricultural effluent management UK",
+        "Slurry, manure, and agricultural effluent management Great Britain",
+        "Slurry, manure, and agricultural effluent management England",
+        "Slurry, manure, and agricultural effluent management Wales",
+        "Slurry, manure, and agricultural effluent management Scotland",
+        "slurry regulations",
+        "slurry order",
+        "slurry act",
+        "slurries regulations",
+        "slurries order",
+        "slurries act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 1991",
+          "uri": "http://www.legislation.gov.uk/id/uksi/1991/346",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 1991 is a foundational SSAFO instrument for Scotland. The title and extensive matched terms clearly indicate this directly regulates slurry storage infrastructure, silage effluent, and agricultural pollution prevention—all core to the category. This is a principal regulation for slurry and agricultural effluent management in Scotland.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'\n- Extensive matched terms covering slurry storage, tanks, lagoons, silage effluent, spreading\n- Scotland jurisdiction matches category scope\n- SSAFO is listed in category synonyms\n- Foundational 1991 instrument\n\nEvidence limitations:\n- Only title and matched terms available; no content inspection",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 1991 is a foundational SSAFO instrument for Scotland. The title and extensive matched terms clearly indicate this directly regulates slurry storage infrastructure, silage effluent, and agricultural pollution prevention—all core to the category. This is a principal regulation for slurry and agricultural effluent management in Scotland.",
+        "supporting_signals": [
+          "Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'",
+          "Extensive matched terms covering slurry storage, tanks, lagoons, silage effluent, spreading",
+          "Scotland jurisdiction matches category scope",
+          "SSAFO is listed in category synonyms",
+          "Foundational 1991 instrument"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Only title and matched terms available; no content inspection"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-6a42c8adbfe30124",
+      "title": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 2001",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ssi/2001/206",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "silage effluent",
+        "slurry storage",
+        "slurry store",
+        "slurry stores",
+        "slurry tank",
+        "slurry tanks",
+        "slurry lagoon",
+        "slurry lagoons",
+        "silage slurry and agricultural fuel oil",
+        "Slurry, manure, and agricultural effluent management Scotland",
+        "slurry regulations",
+        "slurry order",
+        "slurry act",
+        "slurries regulations",
+        "slurries order",
+        "slurries act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 2001",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2001/206",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 2001 is a principal SSAFO instrument for Scotland. The title explicitly references silage, slurry and agricultural fuel oil, and the matched terms include slurry storage infrastructure (stores, tanks, lagoons), silage effluent, and SSAFO. This directly regulates slurry and agricultural effluent management and is likely a successor or amendment to the 1991 Scotland SSAFO Regulations.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'\n- Extensive matched terms covering slurry storage, tanks, lagoons, silage effluent\n- Scotland jurisdiction matches category scope\n- SSAFO is listed in category synonyms\n- Likely successor to 1991 SSAFO Scotland Regulations\n\nEvidence limitations:\n- Only title and matched terms available; no content inspection",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 2001 is a principal SSAFO instrument for Scotland. The title explicitly references silage, slurry and agricultural fuel oil, and the matched terms include slurry storage infrastructure (stores, tanks, lagoons), silage effluent, and SSAFO. This directly regulates slurry and agricultural effluent management and is likely a successor or amendment to the 1991 Scotland SSAFO Regulations.",
+        "supporting_signals": [
+          "Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'",
+          "Extensive matched terms covering slurry storage, tanks, lagoons, silage effluent",
+          "Scotland jurisdiction matches category scope",
+          "SSAFO is listed in category synonyms",
+          "Likely successor to 1991 SSAFO Scotland Regulations"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Only title and matched terms available; no content inspection"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-96613ffe71589e1e",
+      "title": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 2003",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ssi/2003/531",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Slurry, manure, and agricultural effluent management UK legal controls on the storage, handling, spreading, land application, disposal, and pollution prevention of livestock slurry, manure, farmyard manure, poultry manure, pig slurry, liquid manure, silage effluent, agricultural effluent, farm effluent, digestate, and other livestock waste. Core sources include instruments that directly regulate slurry or manure storage infrastructure, silage effluent, agricultural pollution, nitrate vulnerable zones, nutrient action programmes, agricultural diffuse pollution, organic manure application, closed periods, application rates, buffer zones, runoff prevention, and ammonia or water pollution from livestock waste. Treat generic engineering or environmental terms such as freeboard, structural integrity, secondary containment, controlled waters, groundwater protection, buffer zones, and water pollution as supporting signals only: they are not enough on their own unless clearly connected to agricultural slurry, manure, livestock waste, silage effluent, agricultural pollution, or nitrate controls.",
+        "farm effluent",
+        "slurry storage",
+        "slurry store",
+        "slurry stores",
+        "slurry tank",
+        "slurry tanks",
+        "slurry lagoon",
+        "slurry lagoons",
+        "silage slurry and agricultural fuel oil",
+        "Slurry, manure, and agricultural effluent management Scotland",
+        "slurry regulations",
+        "slurry act",
+        "slurries regulations",
+        "slurries act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 2003",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2003/531",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 2003 is a principal SSAFO instrument for Scotland. The title explicitly references silage, slurry and agricultural fuel oil, and the extensive matched terms include farm effluent, slurry storage infrastructure (stores, tanks, lagoons), and SSAFO. This directly regulates slurry and agricultural effluent management and is likely a successor to the 2001 Scotland SSAFO Regulations.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'\n- Extensive matched terms covering slurry storage, tanks, lagoons, farm effluent\n- Scotland jurisdiction matches category scope\n- SSAFO is listed in category synonyms\n- Likely successor to 2001 SSAFO Scotland Regulations\n\nEvidence limitations:\n- Only title and matched terms available; no content inspection",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) (Scotland) Regulations 2003 is a principal SSAFO instrument for Scotland. The title explicitly references silage, slurry and agricultural fuel oil, and the extensive matched terms include farm effluent, slurry storage infrastructure (stores, tanks, lagoons), and SSAFO. This directly regulates slurry and agricultural effluent management and is likely a successor to the 2001 Scotland SSAFO Regulations.",
+        "supporting_signals": [
+          "Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'",
+          "Extensive matched terms covering slurry storage, tanks, lagoons, farm effluent",
+          "Scotland jurisdiction matches category scope",
+          "SSAFO is listed in category synonyms",
+          "Likely successor to 2001 SSAFO Scotland Regulations"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Only title and matched terms available; no content inspection"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-d14d098fa3ab9772",
+      "title": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) Regulations (Northern Ireland) 2003",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/nisr/2003/319",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Slurry, manure, and agricultural effluent management",
+        "agricultural effluent",
+        "farm effluent",
+        "silage effluent",
+        "slurry storage",
+        "slurry store",
+        "slurry stores",
+        "slurry tank",
+        "slurry tanks",
+        "slurry lagoon",
+        "slurry lagoons",
+        "slurry spreading",
+        "silage slurry and agricultural fuel oil",
+        "Slurry, manure, and agricultural effluent management UK",
+        "Slurry, manure, and agricultural effluent management Great Britain",
+        "Slurry, manure, and agricultural effluent management England",
+        "Slurry, manure, and agricultural effluent management Wales",
+        "Slurry, manure, and agricultural effluent management Scotland",
+        "Slurry, manure, and agricultural effluent management Northern Ireland",
+        "slurry regulations",
+        "slurry act",
+        "slurries regulations",
+        "slurries act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) Regulations (Northern Ireland) 2003",
+          "uri": "http://www.legislation.gov.uk/id/nisr/2003/319",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) Regulations (Northern Ireland) 2003 is a principal SSAFO instrument for Northern Ireland. The title explicitly references silage, slurry and agricultural fuel oil, and the extensive matched terms include agricultural effluent, farm effluent, silage effluent, slurry storage infrastructure (stores, tanks, lagoons), slurry spreading, and SSAFO. This directly regulates slurry and agricultural effluent management in Northern Ireland.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'\n- Extensive matched terms covering agricultural effluent, silage effluent, slurry storage, tanks, lagoons, spreading\n- Northern Ireland jurisdiction matches category scope\n- SSAFO is listed in category synonyms\n- Principal 2003 SSAFO Regulations for Northern Ireland\n\nEvidence limitations:\n- Only title and matched terms available; no content inspection",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) Regulations (Northern Ireland) 2003 is a principal SSAFO instrument for Northern Ireland. The title explicitly references silage, slurry and agricultural fuel oil, and the extensive matched terms include agricultural effluent, farm effluent, silage effluent, slurry storage infrastructure (stores, tanks, lagoons), slurry spreading, and SSAFO. This directly regulates slurry and agricultural effluent management in Northern Ireland.",
+        "supporting_signals": [
+          "Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'",
+          "Extensive matched terms covering agricultural effluent, silage effluent, slurry storage, tanks, lagoons, spreading",
+          "Northern Ireland jurisdiction matches category scope",
+          "SSAFO is listed in category synonyms",
+          "Principal 2003 SSAFO Regulations for Northern Ireland"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Only title and matched terms available; no content inspection"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-ef4def83c76fde97",
+      "title": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) Regulations 1991",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/1991/324",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "slurry",
+        "slurries",
+        "silage effluent",
+        "slurry storage",
+        "slurry store",
+        "slurry stores",
+        "slurry tank",
+        "slurry tanks",
+        "slurry lagoon",
+        "slurry lagoons",
+        "slurry spreading",
+        "silage slurry and agricultural fuel oil",
+        "Slurry, manure, and agricultural effluent management Great Britain",
+        "Slurry, manure, and agricultural effluent management England",
+        "slurry regulations",
+        "slurry order",
+        "slurry act",
+        "slurries regulations",
+        "slurries act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) Regulations 1991",
+          "uri": "http://www.legislation.gov.uk/id/uksi/1991/324",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) Regulations 1991 is the foundational SSAFO instrument for England and Wales (and potentially Great Britain). The title explicitly references silage, slurry and agricultural fuel oil, and the extensive matched terms include slurry, slurries, silage effluent, slurry storage infrastructure (stores, tanks, lagoons), slurry spreading, and SSAFO. This is a principal regulation directly regulating slurry and agricultural effluent management.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'\n- Extensive matched terms covering slurry, silage effluent, slurry storage, tanks, lagoons, spreading\n- Great Britain/England jurisdiction matches category scope\n- SSAFO is listed in category synonyms\n- Foundational 1991 SSAFO Regulations\n\nEvidence limitations:\n- Only title and matched terms available; no content inspection",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Control of Pollution (Silage, Slurry and Agricultural Fuel Oil) Regulations 1991 is the foundational SSAFO instrument for England and Wales (and potentially Great Britain). The title explicitly references silage, slurry and agricultural fuel oil, and the extensive matched terms include slurry, slurries, silage effluent, slurry storage infrastructure (stores, tanks, lagoons), slurry spreading, and SSAFO. This is a principal regulation directly regulating slurry and agricultural effluent management.",
+        "supporting_signals": [
+          "Title explicitly references 'Silage, Slurry and Agricultural Fuel Oil'",
+          "Extensive matched terms covering slurry, silage effluent, slurry storage, tanks, lagoons, spreading",
+          "Great Britain/England jurisdiction matches category scope",
+          "SSAFO is listed in category synonyms",
+          "Foundational 1991 SSAFO Regulations"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Only title and matched terms available; no content inspection"
+        ],
+        "assessment_confidence": null
+      }
+    }
+  ],
+  "amending_sources": [],
+  "commencement_sources": [],
+  "correction_sources": [],
+  "revocation_sources": [],
+  "interpretive_sources": [],
+  "guidance_sources": [],
+  "form_sources": [],
+  "contextual_sources": [],
+  "rejected_sources": [],
+  "relationships": [],
+  "metadata": {
+    "source_register_id": "ada-register-slurry_manure_agricultural_effluent",
+    "related_run_id": "ada-related-slurry_manure_agricultural_effluent-20260601T152740Z",
+    "intake": {
+      "kind": "judit_intake",
+      "source_bundle_id": "61aebf50-bf93-4af8-9018-4d041bca2040",
+      "filter_policy": {
+        "principal_sources": [
+          "accepted"
+        ],
+        "amending_sources": [],
+        "revocation_sources": [],
+        "relationships": [],
+        "contextual_sources": [],
+        "rejected_sources": [],
+        "principal_only": true,
+        "max_principal_sources": 10
+      },
+      "excluded_counts": {
+        "principal_sources": 14,
+        "amending_sources": 29,
+        "revocation_sources": 5,
+        "contextual_sources": 93,
+        "rejected_sources": 16,
+        "relationships": 95
+      }
+    }
+  }
+}

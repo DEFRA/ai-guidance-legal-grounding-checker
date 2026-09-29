@@ -1,0 +1,119 @@
+direction: down
+
+classes: {
+  mode: {
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#4338CA"
+      stroke-width: 2
+      border-radius: 10
+    }
+  }
+  detail: {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#64748B"
+      border-radius: 8
+    }
+  }
+  output: {
+    style: {
+      fill: "#F5F3FF"
+      stroke: "#7C3AED"
+      border-radius: 10
+    }
+  }
+  note: {
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#D97706"
+      border-radius: 8
+    }
+  }
+}
+
+title: "Fragment selection modes"
+
+modes: {
+  direction: right
+
+  required_only: {
+    label: "required_only"
+    class: mode
+    direction: down
+
+    ro_required: "required_fragment_locators"
+    ro_required.class: detail
+
+    ro_annex: "explicit annex inclusion"
+    ro_annex.class: detail
+
+    ro_no_focus: "no focus-term auto-selection"
+    ro_no_focus.class: detail
+
+    ro_best_for: "best for staged reviewable profiles"
+    ro_best_for.class: detail
+  }
+
+  required_plus_focus: {
+    label: "required_plus_focus"
+    class: mode
+    direction: down
+
+    rpf_required: "required locators"
+    rpf_required.class: detail
+
+    rpf_focus: "focus term matches"
+    rpf_focus.class: detail
+
+    rpf_explore: "broader exploratory profile"
+    rpf_explore.class: detail
+  }
+
+  all_matching: {
+    label: "all_matching"
+    class: mode
+    direction: down
+
+    am_broad: "broad matching/current broad behavior"
+    am_broad.class: detail
+
+    am_explore: "useful for exploration"
+    am_explore.class: detail
+
+    am_risk: "higher cost/noise risk"
+    am_risk.class: detail
+  }
+}
+
+selection_audit: {
+  label: "Selection decision + audit output"
+  class: output
+  direction: down
+
+  selected_for_extraction: "selected_for_extraction"
+  selected_for_extraction.class: detail
+
+  selection_reason: "selection_reason"
+  selection_reason.class: detail
+
+  skip_reason: "skip_reason"
+  skip_reason.class: detail
+
+  jobs_artifact: "proposition_extraction_jobs.json"
+  jobs_artifact.class: output
+}
+
+required_only -> selection_audit.selected_for_extraction: "mode policy"
+required_plus_focus -> selection_audit.selected_for_extraction: "mode policy"
+all_matching -> selection_audit.selected_for_extraction: "mode policy"
+
+selection_audit.selected_for_extraction -> selection_audit.selection_reason
+selection_audit.selected_for_extraction -> selection_audit.skip_reason
+selection_audit.selection_reason -> selection_audit.jobs_artifact
+selection_audit.skip_reason -> selection_audit.jobs_artifact
+
+governance_note: "Selection controls cost, noise, and reviewability."
+governance_note.class: note
+
+selection_audit.jobs_artifact -> governance_note

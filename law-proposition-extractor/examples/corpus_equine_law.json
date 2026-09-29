@@ -1,0 +1,54 @@
+{
+  "corpus_id": "equine_law",
+  "focus_scopes": ["equine", "equidae", "equid", "horse"],
+  "max_propositions_per_source": 12,
+  "extraction_mode": "frontier",
+  "extraction_fallback": "mark_needs_review",
+  "divergence_reasoning": "none",
+  "seed_instruments": [
+    "Regulation (EU) 2016/429 — Animal Health Law — consolidated / in-force EU presentation (EUR-Lex)",
+    "Commission Implementing Regulation (EU) 2015/262 — equine passport / identification (historically operative; annexes via EUR-Lex)",
+    "Commission Delegated Regulation (EU) 2019/2035 and Commission Implementing Regulation (EU) 2021/963 — AHL-linked identification/regulatory detail (EU downstream layer)",
+    "Commission Delegated Regulations (EU) 2020/688 and (EU) 2020/692 — movement certificates and Union entry regimes (scope-scan before ingestion)",
+    "UK retained / assimilated presentation on legislation.gov.uk where published",
+    "UK domestic equine passport / identification — only once a concrete instrument URL is curated"
+  ],
+  "source_family_focus_celex": [
+    "32016R0429",
+    "32015R0262",
+    "32015R0262R(02)",
+    "32019R2035",
+    "32021R0963",
+    "32020R0688",
+    "32020R0692"
+  ],
+  "related_source_discovery": {
+    "enabled": true,
+    "seed_registry_entries": [
+      {
+        "registry_id": "corpus-equine-seed-eur-2016-429",
+        "reference": {
+          "authority_source_id": "eur/2016/429",
+          "title": "Regulation (EU) 2016/429 on animal health (Animal Health Law)"
+        }
+      }
+    ]
+  },
+  "inclusion_criteria": [
+    "Article 109 database obligations touching kept equidae / equine species data fields",
+    "Article 114 equine identification and registration operators’ duties",
+    "Concrete cross-referenced articles that are operative and citation-stable (e.g. Article 110 for identification documents tied to Article 114)",
+    "EU base instrument excerpts paired with UK retained assimilated counterparts where both exist as published fragments"
+  ],
+  "exclusion_criteria": [
+    "Developer pipeline fixtures (fixture-* sources)",
+    "Auto-ingestion of every discovery candidate — candidates remain pending until reviewed and registered",
+    "Broad thematic siblings (delegated acts, guidance, annex excerpts) unless narrowed, sourced, and deliberately registered",
+    "Claims of exhaustive equine animal health law coverage"
+  ],
+  "candidate_handling": {
+    "pending_discovery_rows": "Family-discovery outputs stay as source_family_candidates / CSV rows until validated.",
+    "conceptual_or_uncertain": "Attach via discovery metadata and textual hooks only; do not treat placeholder identifiers as registry facts."
+  },
+  "source_case_path": "examples/equine_law_corpus_case.json"
+}

@@ -1,0 +1,262 @@
+# Canonical end-to-end Guidance to Law Comparison process view (not C4).
+# Audience: content designers, legal specialists, product, new developers, stakeholders.
+# Regenerate: just diagrams (repo root)
+#
+# Shows journey: scope → guidance/law paths → propositions → match → review → present.
+# Distinguishes processes from conceptual artefacts. Does not centre the FS store or LLM plumbing.
+
+...@../shared/classes.d2
+
+direction: down
+
+title: |md
+  **Guidance to Law Comparison — end-to-end journey**
+  *Current Guidance → Law implementation*
+|
+title.style.font-size: 18
+
+legend: {
+  label: "Legend"
+  class: phase
+  direction: right
+
+  l_process: "Process / stage"
+  l_process.class: process
+
+  l_artefact: "Information produced"
+  l_artefact.class: artefact
+
+  l_person: "Human"
+  l_person.class: person
+
+  l_external: "External source"
+  l_external.class: external
+}
+
+# --- Scope -----------------------------------------------------------------
+
+setup: {
+  label: "1. Scope"
+  class: phase
+  direction: down
+
+  operator: |md
+    **Operator**
+    Chooses the audit topic
+  |
+  operator.class: person
+
+  scope: |md
+    **Audit scope**
+    Topic and category brief
+  |
+  scope.class: artefact
+
+  operator -> scope: defines
+}
+
+# --- Parallel source paths -------------------------------------------------
+
+paths: {
+  label: "2. Two source paths (can run in parallel)"
+  class: phase
+  direction: right
+
+  guidance_path: {
+    label: "Guidance path"
+    class: path
+    direction: down
+
+    govuk: |md
+      **GOV.UK**
+      Official guidance
+    |
+    govuk.class: external
+
+    discover_guidance: |md
+      **Discover guidance**
+      Find and fetch guidance pages
+    |
+    discover_guidance.class: process
+
+    guidance_corpus: |md
+      **Guidance corpus**
+      Candidate guidance pages
+    |
+    guidance_corpus.class: artefact
+
+    filter_guidance: |md
+      **Filter for relevance**
+      Keep pages on-topic for the audit
+    |
+    filter_guidance.class: process
+
+    on_topic_guidance: |md
+      **On-topic guidance**
+      Pages in scope for the topic
+    |
+    on_topic_guidance.class: artefact
+
+    extract_guidance_props: |md
+      **Extract guidance propositions**
+      Break guidance into atomic claims
+    |
+    extract_guidance_props.class: process
+
+    guidance_propositions: |md
+      **Guidance propositions**
+      Atomic claims from guidance
+    |
+    guidance_propositions.class: artefact
+
+    govuk -> discover_guidance: supplies pages
+    discover_guidance -> guidance_corpus
+    guidance_corpus -> filter_guidance
+    filter_guidance -> on_topic_guidance
+    on_topic_guidance -> extract_guidance_props
+    extract_guidance_props -> guidance_propositions
+  }
+
+  law_path: {
+    label: "Law path"
+    class: path
+    direction: down
+
+    legislation_sources: |md
+      **Legislation sources**
+      Lex search and legislation.gov.uk
+    |
+    legislation_sources.class: external
+
+    discover_law: |md
+      **Discover legislation**
+      Find candidate instruments
+    |
+    discover_law.class: process
+
+    candidate_law: |md
+      **Candidate legislation**
+      Instruments proposed for the topic
+    |
+    candidate_law.class: artefact
+
+    law_reviewer: |md
+      **Operator / reviewer**
+      Accepts or parks candidates
+    |
+    law_reviewer.class: person
+
+    selected_law: |md
+      **Selected legislation**
+      Accepted sources for extraction
+    |
+    selected_law.class: artefact
+
+    extract_law_props: |md
+      **Extract law propositions**
+      Break legislation into atomic rules
+    |
+    extract_law_props.class: process
+
+    law_propositions: |md
+      **Law propositions**
+      Atomic rules from legislation
+    |
+    law_propositions.class: artefact
+
+    legislation_sources -> discover_law: supplies instruments
+    discover_law -> candidate_law
+    candidate_law -> law_reviewer: reviews
+    law_reviewer -> selected_law: accepts
+    selected_law -> extract_law_props
+    extract_law_props -> law_propositions
+  }
+}
+
+setup.scope -> paths.guidance_path.discover_guidance: scopes
+setup.scope -> paths.law_path.discover_law: scopes
+
+# --- Comparison ------------------------------------------------------------
+
+comparison: {
+  label: "3. Compare at proposition level"
+  class: phase
+  direction: down
+
+  match: |md
+    **Match propositions**
+    For each guidance proposition, find related law propositions
+    and label each pair
+  |
+  match.class: process
+
+  pair_results: |md
+    **Pair-level results**
+    Each guidance proposition ↔ law proposition pair
+    has its own result
+    (e.g. GROUNDED, CONFLICTS, GUIDANCE_INCOMPLETE,
+    GUIDANCE_BROADER, GUIDANCE_MISSING, UNGROUNDED)
+  |
+  pair_results.class: artefact
+
+  aggregate_status: |md
+    **Guidance-proposition status**
+    Overall result for each guidance proposition
+    derived from its set of pair results
+  |
+  aggregate_status.class: artefact
+
+  match -> pair_results: produces
+  match -> aggregate_status: produces
+}
+
+paths.guidance_path.guidance_propositions -> comparison.match: guidance side
+paths.law_path.law_propositions -> comparison.match: law side
+
+# --- Review and present ----------------------------------------------------
+
+review_present: {
+  label: "4. Review and present"
+  class: phase
+  direction: down
+
+  adjudicate: |md
+    **Adjudicate flagged pairs**
+    Re-check uncertain top matches with page context
+  |
+  adjudicate.class: process
+
+  reviewed_results: |md
+    **Reviewed comparison results**
+    Pair results (updated where re-checked)
+    plus guidance-proposition status
+  |
+  reviewed_results.class: artefact
+
+  assemble: |md
+    **Assemble audit**
+    Join comparison outputs for presentation
+  |
+  assemble.class: process
+
+  audit_pack: |md
+    **Audit pack**
+    Frontend-ready comparison view
+  |
+  audit_pack.class: artefact
+
+  frontend_reviewer: |md
+    **Reviewer**
+    Inspects findings in the audit frontend
+  |
+  frontend_reviewer.class: person
+
+  adjudicate -> reviewed_results
+  reviewed_results -> assemble
+  assemble -> audit_pack
+  audit_pack -> frontend_reviewer: reviews
+}
+
+comparison.pair_results -> review_present.adjudicate
+comparison.aggregate_status -> review_present.adjudicate
+

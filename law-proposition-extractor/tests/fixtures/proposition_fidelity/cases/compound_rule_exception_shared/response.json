@@ -1,0 +1,57 @@
+{
+  "propositions": [
+    {
+      "proposition_text": "A person must not store slurry within 10 metres of a watercourse unless the storage is covered and the person keeps a written risk assessment.",
+      "display_label": "Slurry storage proximity prohibition",
+      "subject": "A person",
+      "rule": "must not store slurry within 10 metres of a watercourse",
+      "object": "slurry",
+      "conditions": [],
+      "exceptions": [
+        "unless the storage is covered and the person keeps a written risk assessment"
+      ],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "regulation:synthetic:paragraph:1",
+      "evidence_text": "A person must not store slurry within 10 metres of a watercourse unless the storage is covered and the person keeps a written risk assessment.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Core prohibition with inline unless-clause."
+    },
+    {
+      "proposition_text": "Where the storage is covered and the person keeps a written risk assessment, the proximity prohibition does not apply.",
+      "display_label": "Covered storage exception",
+      "subject": "the prohibition in the preceding sentence",
+      "rule": "does not apply",
+      "object": "proximity prohibition",
+      "conditions": [
+        "storage is covered",
+        "written risk assessment"
+      ],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "exception",
+      "source_locator": "regulation:synthetic:paragraph:2",
+      "evidence_text": "Where those conditions are met, the prohibition in the preceding sentence does not apply.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Distinct exception sentence."
+    },
+    {
+      "proposition_text": "A person keeps a written risk assessment as a condition of the covered-storage exception.",
+      "display_label": "Risk assessment condition",
+      "subject": "A person",
+      "rule": "keeps a written risk assessment",
+      "object": "written risk assessment",
+      "conditions": ["storage is covered"],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "regulation:synthetic:paragraph:1",
+      "evidence_text": "the person keeps a written risk assessment",
+      "completeness_status": "context_dependent",
+      "confidence": "medium",
+      "reason": "Condition extracted as its own reviewable unit; completeness is context-dependent."
+    }
+  ]
+}

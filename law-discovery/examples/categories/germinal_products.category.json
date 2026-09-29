@@ -1,0 +1,45 @@
+{
+  "category_id": "germinal_products",
+  "label": "Germinal products identification, certification and traceability",
+  "description": "Germinal Products covers identification, certification, storage, movement tracking, and traceability of semen, ova, embryos, and reproductive materials used in breeding and trade. Supports biosecurity, veterinary standards, genetic quality, and disease prevention.",
+  "synonyms": [
+    "germinal products",
+    "semen",
+    "ova",
+    "ovum",
+    "embryo",
+    "embryos",
+    "reproductive material",
+    "reproductive materials",
+    "breeding material",
+    "artificial insemination",
+    "embryo transfer",
+    "storage",
+    "movement tracking",
+    "traceability",
+    "certification",
+    "health certificate",
+    "veterinary standards",
+    "genetic quality",
+    "disease prevention",
+    "biosecurity"
+  ],
+  "exclusions": [
+    "human fertility treatment",
+    "plant germination",
+    "seed certification for plants"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland",
+    "Northern Ireland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "germinal_products",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

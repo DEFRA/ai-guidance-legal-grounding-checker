@@ -1,0 +1,1 @@
+![Legal Comparison](infographic/Legal%20Comparison.png)

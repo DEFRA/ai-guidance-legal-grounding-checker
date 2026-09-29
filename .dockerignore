@@ -1,0 +1,24 @@
+# Build context is the repo root (sibling path-dep). Keep only the two packages.
+*
+
+!guidance-relevance-filter/
+!guidance-relevance-filter/**
+
+!guidance-relevance-web/
+!guidance-relevance-web/**
+
+**/.venv/
+**/.git/
+**/.env
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.ruff_cache/
+**/.DS_Store
+
+guidance-relevance-filter/tests/
+guidance-relevance-web/tests/
+guidance-relevance-web/data/jobs/
+guidance-relevance-web/data/corpus/with_body.json
+guidance-relevance-web/data/corpus/funnel.json
+guidance-relevance-web/data/corpus/stem_index/

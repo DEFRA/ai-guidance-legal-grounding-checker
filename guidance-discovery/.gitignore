@@ -1,0 +1,16 @@
+# Guidance Discovery run outputs (data assets — they live in content-audit-data-assets, not here).
+# These files double as the restart "cache": stage 2 skips URLs already fetched.
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Tooling (uv / ruff / pytest)
+.venv/
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment
+.env

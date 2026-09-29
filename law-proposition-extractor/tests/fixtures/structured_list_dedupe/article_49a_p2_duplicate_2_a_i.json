@@ -1,0 +1,74 @@
+{
+  "description": "Regression shape for Article 49a paragraph 2(a)(i) acceptance duplicates (prop:de4afd050b06378b vs prop:939e14fac21b4b16). Two frontier rows for path 2-a-i: deterministic list locator + LLM marker paraphrase. Also includes standalone 2-a-ii and 2-b rows. Signals that establish duplicates: same terminal draft path, structured_list_leaf composition, shared stem/branch/leaf components, shall-not-apply effect, high leaf-species token overlap, paraphrase vs composed claim — not path alone.",
+  "base_locator": "article:49a:paragraph:2",
+  "source_record_id": "src-eur-2009-1224",
+  "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+  "source_fragment_id": "frag-src-eur-2009-1224-188",
+  "fragment_text": "(2) Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species— (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes); (b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+  "frontier_rows": [
+    {
+      "row_id": "cand-deterministic-2-a-i",
+      "proposition_text": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more of the following species mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries)",
+      "display_label": "Structured list (a)->(i)",
+      "provision_type": "exception",
+      "source_locator": "article:49a:paragraph:2:list:2-a-i",
+      "evidence_text": "mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries)",
+      "conditions": [
+        "where the catches contain more than 80% of one or more of the following species",
+        "mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries)"
+      ],
+      "exceptions": [],
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Deterministic structured-list leaf composition (stem+branch+leaf); components: ['stem', 'branch', 'leaf']"
+    },
+    {
+      "row_id": "cand-llm-paraphrase-2-a-i",
+      "proposition_text": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more small pelagic species (mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat).",
+      "display_label": "Art. 49a(2)(a)(i) – Small pelagic species exception",
+      "provision_type": "exception",
+      "source_locator": "article:49a:paragraph:2:(a)(i)",
+      "evidence_text": "where the catches contain more than 80% of one or more of the following species— (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries)",
+      "conditions": [
+        "catches contain more than 80% of one or more of: mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat"
+      ],
+      "exceptions": [],
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Terminal leaf (a)(i) carries forward the governing stem 'Paragraph 1 shall not apply' and the intermediate branch condition of >80% species composition."
+    },
+    {
+      "row_id": "cand-2-a-ii",
+      "proposition_text": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more of the following species capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes)",
+      "display_label": "Structured list (a)->(ii)",
+      "provision_type": "exception",
+      "source_locator": "article:49a:paragraph:2:list:2-a-ii",
+      "evidence_text": "capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes)",
+      "conditions": [
+        "where the catches contain more than 80% of one or more of the following species",
+        "capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes)"
+      ],
+      "exceptions": [],
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Deterministic structured-list leaf composition (stem+branch+leaf); components: ['stem', 'branch', 'leaf']"
+    },
+    {
+      "row_id": "cand-2-b",
+      "proposition_text": "Paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+      "display_label": "Structured list (b)",
+      "provision_type": "exception",
+      "source_locator": "article:49a:paragraph:2:list:2-b",
+      "evidence_text": "to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+      "conditions": [
+        "to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation."
+      ],
+      "exceptions": [],
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Deterministic structured-list leaf composition (stem+branch+leaf); components: ['stem', 'leaf']"
+    }
+  ],
+  "expected_winner_source_locator": "article:49a:paragraph:2:list:2-a-i",
+  "expected_paths": ["2-a-i", "2-a-ii", "2-b"]
+}

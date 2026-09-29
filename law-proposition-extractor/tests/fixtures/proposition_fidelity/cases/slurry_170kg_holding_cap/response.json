@@ -1,0 +1,55 @@
+{
+  "propositions": [
+    {
+      "proposition_text": "The occupier of a holding must ensure that, in any calendar year, the total amount of nitrogen in livestock manure applied to the holding does not exceed 170kg multiplied by the area of the holding in hectares.",
+      "display_label": "Regulation 7(1) — 170kg N/ha holding cap",
+      "subject": "The occupier of a holding",
+      "rule": "must ensure that the total amount of nitrogen in livestock manure applied does not exceed 170kg per hectare",
+      "object": "nitrogen in livestock manure applied to the holding",
+      "conditions": [
+        "in any calendar year",
+        "whether applied directly by an animal or by spreading"
+      ],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "regulation:7:paragraph:1",
+      "evidence_text": "The occupier of a holding must ensure that, in any calendar year, the total amount of nitrogen in livestock manure applied to the holding, whether directly by an animal or by spreading, does not exceed 170kg multiplied by the area of the holding in hectares.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Core quantified obligation."
+    },
+    {
+      "proposition_text": "Paragraph (1) does not apply where the occupier has been granted a derogation.",
+      "display_label": "Regulation 7(2) — derogation from holding cap",
+      "subject": "Paragraph (1)",
+      "rule": "does not apply",
+      "object": "where the occupier has been granted a derogation",
+      "conditions": ["the occupier has been granted a derogation"],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "exception",
+      "source_locator": "regulation:7:paragraph:2",
+      "evidence_text": "Paragraph (1) does not apply where the occupier has been granted a derogation.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Distinct exception/derogation from paragraph 1."
+    },
+    {
+      "proposition_text": "For the purposes of this regulation, the amount of nitrogen is to be calculated in accordance with Schedule 1.",
+      "display_label": "Regulation 7(3) — Schedule 1 calculation cross-reference",
+      "subject": "the amount of nitrogen",
+      "rule": "is to be calculated in accordance with Schedule 1",
+      "object": "nitrogen",
+      "conditions": [],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "cross_reference",
+      "source_locator": "regulation:7:paragraph:3",
+      "evidence_text": "the amount of nitrogen is to be calculated in accordance with Schedule 1",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Cross-reference to Schedule 1 calculation method."
+    }
+  ]
+}

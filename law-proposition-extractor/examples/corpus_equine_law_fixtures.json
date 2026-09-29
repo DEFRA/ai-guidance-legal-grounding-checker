@@ -1,0 +1,34 @@
+{
+  "corpus_id": "equine_law",
+  "focus_scopes": ["equine"],
+  "seed_instruments": [
+    "Regulation (EU) 2016/429",
+    "UK retained / current assimilated presentation where available"
+  ],
+  "related_source_discovery": {
+    "enabled": true,
+    "seed_registry_entries": [
+      {
+        "registry_id": "corpus-equine-seed-eur-2016-429",
+        "reference": {
+          "authority_source_id": "eur/2016/429",
+          "title": "Regulation (EU) 2016/429 on animal health (Animal Health Law)"
+        }
+      }
+    ]
+  },
+  "inclusion_criteria": [
+    "direct equine references",
+    "equidae / equid / horse synonyms",
+    "identification and traceability",
+    "establishments, operators, keepers",
+    "movement control",
+    "certification",
+    "disease control",
+    "germinal products where equine-specific"
+  ],
+  "exclusion_criteria": [
+    "purely non-equine species provisions unless needed for context or comparison"
+  ],
+  "source_case_path": "examples/equine_corpus_fixture_case.json"
+}

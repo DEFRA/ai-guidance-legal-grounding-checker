@@ -1,0 +1,223 @@
+# explainability-diagram: divergence-workflow
+# compatible-registry-version: 1
+# compatible-fixture-hash: 1773194120d6
+# authorship: mixed
+# title: Legal divergence workflow
+# audience: product stakeholders, lawyers, developers
+# purpose: Show proposition/effective-law comparison path and truthful implementation status.
+# source-of-truth: docs/decisions/adr-0006; compare.py; divergence-implementation-status.json
+
+direction: down
+
+classes: {
+  section: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#94A3B8"
+      border-radius: 10
+    }
+  }
+  family: {
+    shape: rectangle
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#3730A3"
+      stroke-width: 2
+      border-radius: 6
+      font-size: 12
+    }
+  }
+  flow: {
+    shape: rectangle
+    style: {
+      fill: "#ECFDF5"
+      stroke: "#166534"
+      stroke-width: 2
+      border-radius: 4
+      font-size: 12
+    }
+  }
+  status_implemented: {
+    shape: rectangle
+    style: {
+      fill: "#ECFDF5"
+      stroke: "#166534"
+      stroke-width: 2
+      border-radius: 4
+      font-size: 11
+    }
+  }
+  status_partially_implemented: {
+    shape: rectangle
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#B45309"
+      stroke-width: 2
+      stroke-dash: 4
+      border-radius: 4
+      font-size: 11
+    }
+  }
+  status_planned: {
+    shape: rectangle
+    style: {
+      fill: "#F1F5F9"
+      stroke: "#64748B"
+      stroke-width: 1
+      stroke-dash: 5
+      border-radius: 4
+      font-size: 11
+    }
+  }
+  note: {
+    shape: page
+    style: {
+      fill: "#FFF7ED"
+      stroke: "#C2410C"
+      font-size: 12
+    }
+  }
+}
+
+title: |md
+  **Legal divergence workflow** — compare propositions / effective-law statements, not document redlines
+|
+title.style.font-size: 15
+
+families: {
+  label: "Common source family"
+  class: section
+
+  baseline: "shared baseline snapshot"
+  baseline.class: family
+  eu: "EU current source family"
+  eu.class: family
+  uk: "UK current source family"
+  uk.class: family
+
+  baseline -> eu
+  baseline -> uk
+}
+
+process: {
+  label: "Comparison process (proposition / effective-law based)"
+  class: section
+
+  p1: "source snapshots"
+  p1.class: flow
+  p2: "propositions"
+  p2.class: flow
+  p3: "effective-law statements"
+  p3.class: flow
+  p4: "baseline/current alignment"
+  p4.class: flow
+  p5: "unchanged rules removed"
+  p5.class: flow
+  p6: "candidate divergence"
+  p6.class: flow
+  p7: "scope-resolution review"
+  p7.class: flow
+  p8: "divergence review"
+  p8.class: flow
+  p9: "guidance eligibility"
+  p9.class: flow
+  p10: "Proposition Matcher comparison"
+  p10.class: flow
+
+  p1 -> p2 -> p3 -> p4 -> p5 -> p6 -> p7 -> p8 -> p9 -> p10
+}
+
+principle: |md
+  **Principle:** Divergence can arise from the wider legal environment, not merely changed wording.
+  Comparison is proposition / effective-law based rather than document-redline based.
+  Status tags below distinguish current Law Proposition Extractor functionality from planned workflow.
+|
+principle.class: note
+
+legend: |md
+  **Status legend:** `[IMPL]` implemented · `[PARTIAL]` partially implemented · `[PLANNED]` planned
+  Shape encoding: solid green = implemented · dashed amber = partial · dashed grey = planned
+|
+legend.class: note
+
+# BEGIN GENERATED: divergence-status-data
+# compatible-registry-version: 1
+# compatible-fixture-hash: 1773194120d6
+# status tags: [IMPL]=implemented [PARTIAL]=partially implemented [PLANNED]=planned
+
+mechanisms: {
+  label: "Divergence mechanisms (status from committed manifest)"
+  class: section
+
+  textual: "[IMPL] textual"
+  textual.class: status_implemented
+
+  structural: "[IMPL] structural"
+  structural.class: status_implemented
+
+  dynamic_reference: "[PLANNED] dynamic-reference"
+  dynamic_reference.class: status_planned
+
+  territorial: "[PLANNED] territorial"
+  territorial.class: status_planned
+
+  institutional: "[IMPL] institutional"
+  institutional.class: status_implemented
+
+  procedural: "[IMPL] procedural"
+  procedural.class: status_implemented
+
+  annex_model_certificate: "[IMPL] annex/model/certificate"
+  annex_model_certificate.class: status_implemented
+
+  definitional: "[IMPL] definitional"
+  definitional.class: status_implemented
+
+  revocation_replacement: "[PLANNED] revocation/replacement"
+  revocation_replacement.class: status_planned
+
+}
+
+workflow_status: {
+  label: "Workflow stage status"
+  class: section
+
+  wf_source_snapshots: "[IMPL] source snapshots"
+  wf_source_snapshots.class: status_implemented
+
+  wf_propositions: "[IMPL] propositions"
+  wf_propositions.class: status_implemented
+
+  wf_effective_law_statements: "[IMPL] effective-law statements"
+  wf_effective_law_statements.class: status_implemented
+
+  wf_baseline_current_alignment: "[PARTIAL] baseline/current alignment"
+  wf_baseline_current_alignment.class: status_partially_implemented
+
+  wf_unchanged_rules_removed: "[PARTIAL] unchanged rules removed"
+  wf_unchanged_rules_removed.class: status_partially_implemented
+
+  wf_candidate_divergence: "[IMPL] candidate divergence"
+  wf_candidate_divergence.class: status_implemented
+
+  wf_scope_resolution_review: "[PLANNED] scope-resolution review"
+  wf_scope_resolution_review.class: status_planned
+
+  wf_divergence_review: "[PARTIAL] divergence review"
+  wf_divergence_review.class: status_partially_implemented
+
+  wf_guidance_eligibility: "[PLANNED] guidance eligibility"
+  wf_guidance_eligibility.class: status_planned
+
+  wf_beatrice_comparison: "[PARTIAL] Proposition Matcher comparison"
+  wf_beatrice_comparison.class: status_partially_implemented
+
+}
+
+mechanisms -> workflow_status: "same status legend"
+# END GENERATED: divergence-status-data
+
+families -> process
+process -> principle
+principle -> legend
+legend -> mechanisms

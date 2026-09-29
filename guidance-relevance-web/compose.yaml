@@ -1,0 +1,25 @@
+services:
+  web:
+    build:
+      context: ..
+      dockerfile: guidance-relevance-web/Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      GRF_HOST: 0.0.0.0
+      GRF_PORT: 8000
+      GRF_CORPUS: /data/corpus
+      GRF_JOBS: /data/jobs
+    volumes:
+      # rw: first preview writes stem_index/<sha>.sqlite next to with_body.json
+      - ./data/corpus:/data/corpus
+      - ./data/jobs:/data/jobs
+      # Live-edit JS/CSS/HTML without rebuilding. Restart for .py changes.
+      - ./src/guidance_relevance_web/static:/src/guidance-relevance-web/.venv/lib/python3.12/site-packages/guidance_relevance_web/static
+      - ./src/guidance_relevance_web/templates:/src/guidance-relevance-web/.venv/lib/python3.12/site-packages/guidance_relevance_web/templates
+    restart: unless-stopped
+    # One replica only. In-process worker + disk queue — two containers
+    # sharing GRF_JOBS will double-run the same job.

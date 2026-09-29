@@ -1,0 +1,55 @@
+{
+  "category_id": "exotics_and_other_species",
+  "label": "Exotic and other species identification and traceability",
+  "description": "Covers all animal species not included in other specific animal groupings, including zoo animals, reptiles, amphibians, exotic pets, specialist farmed species, wildlife collections, and emerging commercial species. Identification may include microchips, tattoos, rings, transponders, passports, permits, or specialist registration systems. Covers import controls, traceability, welfare, conservation, and emerging disease risks.",
+  "synonyms": [
+    "zoo animal",
+    "zoo animals",
+    "reptile",
+    "reptiles",
+    "amphibian",
+    "amphibians",
+    "exotic pet",
+    "exotic pets",
+    "specialist farmed species",
+    "wildlife collection",
+    "wildlife collections",
+    "emerging commercial species",
+    "microchip",
+    "microchips",
+    "tattoo",
+    "tattoos",
+    "ring",
+    "rings",
+    "transponder",
+    "transponders",
+    "passport",
+    "permit",
+    "permits",
+    "registration system",
+    "import controls",
+    "conservation",
+    "traceability",
+    "welfare",
+    "emerging disease"
+  ],
+  "exclusions": [
+    "plants",
+    "zoo tourism only",
+    "wildlife photography",
+    "fictional creatures"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland",
+    "Northern Ireland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "exotics_and_other_species",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

@@ -1,0 +1,24 @@
+```json
+{
+  "propositions": [
+    {
+      "proposition_text": "In the cases referred to in Article 49a(2), a fisheries administration must monitor the catch composition by way of sampling.",
+      "display_label": "Article 49a(3) — Mandatory catch composition monitoring by sampling",
+      "subject": "fisheries administration",
+      "rule": "must monitor the catch composition by way of sampling",
+      "object": "catch composition",
+      "conditions": [
+        "The case falls within one of the cases referred to in paragraph 2 of Article 49a"
+      ],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "article:49a:paragraph:3",
+      "evidence_text": "In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+      "completeness_status": "context_dependent",
+      "confidence": "high",
+      "reason": "The obligation is clear and self-contained within paragraph 3, but its triggering conditions are defined by cross-reference to paragraph 2, making it context_dependent for full application. No omissions required as only one legally distinct proposition is present in this fragment."
+    }
+  ]
+}
+```

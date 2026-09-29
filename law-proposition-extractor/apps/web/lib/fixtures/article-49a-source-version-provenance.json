@@ -1,0 +1,56 @@
+{
+  "source_records": [
+    {
+      "id": "src-control-regulation-demo",
+      "title": "Council Regulation (EC) No 1224/2009",
+      "citation": "Council Regulation (EC) No 1224/2009",
+      "jurisdiction": "EU",
+      "kind": "regulation",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "as_of_date": null,
+      "retrieved_at": "2026-07-14T15:42:00Z",
+      "content_hash": "abc123def4567890aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "version_id": "v1",
+      "current_snapshot_id": "snap-demo-1224-v1"
+    }
+  ],
+  "source_snapshots": [
+    {
+      "id": "snap-demo-1224-v1",
+      "source_record_id": "src-control-regulation-demo",
+      "version_id": "v1",
+      "as_of_date": null,
+      "retrieved_at": "2026-07-14T15:42:00Z",
+      "content_hash": "abc123def4567890aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "raw_artifact_uri": "file:///private/var/folders/zg/example/T/law-proposition-extractor/source-snapshots/example.json",
+      "parser_name": "legislation_gov_uk_data_xml_v1",
+      "parser_version": "v1",
+      "authority": "legislation_gov_uk",
+      "provenance": "law-discovery.judit_intake",
+      "authoritative_locator": "document:full",
+      "has_authoritative_text": false,
+      "authoritative_text": null
+    }
+  ],
+  "source_fragments": [
+    {
+      "id": "frag-demo-49a-p1",
+      "fragment_id": "frag-demo-49a-p1",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-demo-1224-v1",
+      "locator": "article:49a:paragraph:1",
+      "fragment_text": "1. Without prejudice to Article 44, all catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be kept separately identifiable from other catches.",
+      "fragment_hash": "fraghash49ap1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ],
+  "propositions": [
+    {
+      "id": "prop-demo-49a-p1-separate",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-demo-1224-v1",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "proposition_text": "Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be kept separately identifiable from other catches."
+    }
+  ]
+}

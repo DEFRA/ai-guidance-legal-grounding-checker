@@ -1,0 +1,148 @@
+# explainability-diagram: source-to-statement-pipeline
+# compatible-registry-version: 1
+# compatible-fixture-hash: 1773194120d6
+# authorship: hand-authored
+# title: Source-to-statement pipeline
+# audience: developers, auditors, lawyers
+# purpose: Show current stage order and which stages are config, deterministic, LLM, or human.
+# source-of-truth: docs/explainability/pipeline.md; law_proposition_extractor_pipeline.runner
+
+direction: down
+
+classes: {
+  cfg: {
+    shape: parallelogram
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#475569"
+      stroke-dash: 4
+      stroke-width: 2
+      font-size: 12
+    }
+  }
+  det: {
+    shape: rectangle
+    style: {
+      fill: "#ECFDF5"
+      stroke: "#166534"
+      stroke-width: 2
+      border-radius: 4
+      font-size: 12
+    }
+  }
+  llm: {
+    shape: diamond
+    style: {
+      fill: "#FFF7ED"
+      stroke: "#C2410C"
+      stroke-width: 2
+      stroke-dash: 5
+      font-size: 12
+    }
+  }
+  hum: {
+    shape: person
+    style: {
+      fill: "#F0F9FF"
+      stroke: "#0369A1"
+      stroke-width: 2
+      font-size: 12
+    }
+  }
+  boundary: {
+    shape: rectangle
+    style: {
+      fill: "#FEF2F2"
+      stroke: "#B91C1C"
+      stroke-width: 3
+      border-radius: 6
+      font-size: 13
+      bold: true
+    }
+  }
+  legend_box: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#94A3B8"
+      border-radius: 8
+    }
+  }
+}
+
+title: |md
+  **Source-to-statement pipeline** — model proposes; deterministic code validates, classifies, groups, links, and composes context
+|
+title.style.font-size: 15
+
+legend: {
+  label: "Legend (shape + label — readable in greyscale / print)"
+  class: legend_box
+
+  l_cfg: "[CFG] Configuration — parallelogram + dashed stroke"
+  l_cfg.class: cfg
+  l_det: "[DET] Deterministic processing — solid rectangle"
+  l_det.class: det
+  l_llm: "[LLM] LLM-assisted proposal — diamond + dashed stroke"
+  l_llm.class: llm
+  l_hum: "[HUM] Human review — person shape"
+  l_hum.class: hum
+}
+
+config: {
+  label: "Configuration inputs"
+  style.fill: "#F8FAFC"
+
+  cfg_loc: "[CFG] Required locators / extraction mode"
+  cfg_loc.class: cfg
+}
+
+flow: {
+  label: "Current pipeline stages"
+  style.fill: "#FFFFFF"
+  style.stroke: "#CBD5E1"
+
+  s1: "[DET] SourceRecord"
+  s1.class: det
+  s2: "[DET] SourceSnapshot"
+  s2.class: det
+  s3: "[DET] SourceFragment"
+  s3.class: det
+  s4: "[CFG]+[DET] Extraction selection"
+  s4.class: cfg
+  s5: "[DET] Structural extraction frontier"
+  s5.class: det
+  s6: "[LLM] Model extraction proposal"
+  s6.class: llm
+
+  boundary: |md
+    **CRITICAL BOUNDARY**
+    Model proposes extraction content.
+    Deterministic code validates, reconciles, classifies, groups, links
+    and composes reviewer-facing legal context.
+  |
+  boundary.class: boundary
+
+  s7: "[DET] Deterministic validation / reconciliation"
+  s7.class: det
+  s8: "[DET] Proposition"
+  s8.class: det
+  s9: "[DET] Legal-effect classification"
+  s9.class: det
+  s10: "[DET] LegalRuleGroup"
+  s10.class: det
+  s11: "[DET] typed legal relationship\n(exception_to / triggered_by)"
+  s11.class: det
+  s12: "[DET] EffectiveLawStatement"
+  s12.class: det
+  s13: "[DET] required context"
+  s13.class: det
+  s14: "[DET] Proposition Matcher candidate"
+  s14.class: det
+  s15: "[HUM] Workbench review"
+  s15.class: hum
+
+  s1 -> s2 -> s3 -> s4 -> s5 -> s6 -> boundary -> s7 -> s8 -> s9 -> s10 -> s11 -> s12 -> s13 -> s14 -> s15
+}
+
+config.cfg_loc -> flow.s4: "selects frontier policy"
+legend -> flow: "method encoding"

@@ -1,0 +1,1606 @@
+{
+  "bundle_id": "46f18b36-14a5-4df2-ad80-06356c198663",
+  "category_id": "fish",
+  "created_at": "2026-06-29T10:16:00.329633Z",
+  "principal_sources": [
+    {
+      "source_id": "lex-83a291a8360fedb0",
+      "title": "Fisheries Act 2020",
+      "citation": null,
+      "source_type": "ukpga",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ukpga/2020/22",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "fisheries",
+        "marine fisheries",
+        "common fisheries policy",
+        "fishery management",
+        "fisheries management plan",
+        "fish quota",
+        "fish quotas",
+        "fisheries quota",
+        "fisheries quotas",
+        "fishing quota",
+        "fishing quotas",
+        "sea fishing licence"
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: Title 'Fisheries Act 2020' with matched terms 'fisheries, marine fisheries, common fisheries policy, fishery management, fisheries management plan, fish quota, fish quotas, fisheries quota, fisheries quotas, fishing quota, fishing quotas, sea fishing licence' very strongly align with the category. This is the recent UK primary Fisheries Act regulating post-Brexit UK fisheries. The matched terms cover fisheries management, quotas, fishing opportunities, vessel licensing and enforcement — all core elements of the category. Fits triage_guidance 'likely_accept': 'UK, Great Britain, England, Wales, Scotland, Northern Ireland, assimilated EU or retained EU instruments directly regulating commercial catching, landing, sale or marketing of fish or shellfish' and 'Fisheries management instruments that materially regulate commercial catching, fish stocks, quotas or TACs, fishing opportunities or effort, landings, gear restrictions, fishing vessel licensing or monitoring, fisheries enforcement, or market supply or sale.' No exclusion markers present.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Fisheries Act 2020 is the principal UK post-Brexit fisheries primary legislation\n- Fish quota, fisheries quota, fishing quota match quota and TAC regulation scope\n- Fisheries management plan, fishery management match fisheries management scope\n- Sea fishing licence matches fishing vessel licensing scope\n- Marine fisheries and common fisheries policy match commercial fisheries regulation\n- Deterministic confidence already high",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Title 'Fisheries Act 2020' with matched terms 'fisheries, marine fisheries, common fisheries policy, fishery management, fisheries management plan, fish quota, fish quotas, fisheries quota, fisheries quotas, fishing quota, fishing quotas, sea fishing licence' very strongly align with the category. This is the recent UK primary Fisheries Act regulating post-Brexit UK fisheries. The matched terms cover fisheries management, quotas, fishing opportunities, vessel licensing and enforcement — all core elements of the category. Fits triage_guidance 'likely_accept': 'UK, Great Britain, England, Wales, Scotland, Northern Ireland, assimilated EU or retained EU instruments directly regulating commercial catching, landing, sale or marketing of fish or shellfish' and 'Fisheries management instruments that materially regulate commercial catching, fish stocks, quotas or TACs, fishing opportunities or effort, landings, gear restrictions, fishing vessel licensing or monitoring, fisheries enforcement, or market supply or sale.' No exclusion markers present.",
+        "supporting_signals": [
+          "Fisheries Act 2020 is the principal UK post-Brexit fisheries primary legislation",
+          "Fish quota, fisheries quota, fishing quota match quota and TAC regulation scope",
+          "Fisheries management plan, fishery management match fisheries management scope",
+          "Sea fishing licence matches fishing vessel licensing scope",
+          "Marine fisheries and common fisheries policy match commercial fisheries regulation",
+          "Deterministic confidence already high"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-9d099c48e30e9000",
+      "title": "Regulation (EU) No 1380/2013 of the European Parliament and of the Council of 11 December 2013 on the Common Fisheries Policy, amending Council Regulations (EC) No 1954/2003 and (EC) No 1224/2009 and repealing Council Regulations (EC) No 2371/2002 and (EC) No 639/2004 and Council Decision 2004/585/EC",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2013/1380",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "landing obligation",
+        "fishery management",
+        "fishing opportunities",
+        "fish stocks",
+        "aquaculture"
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: Core EU Common Fisheries Policy regulation. Title and matched terms (landing obligation, fishery management, fishing opportunities, fish stocks, aquaculture) directly align with category scope. This is a foundational instrument regulating commercial catching, fisheries management, quotas, fishing effort, fish stocks, and aquaculture. Assimilated EU law applicable in UK. Strong alignment with triage_guidance likely_accept criteria for commercial catching, fisheries management, fish stocks, quotas/TACs, fishing opportunities, and aquaculture.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references Common Fisheries Policy\n- Matched terms include core fisheries management concepts: landing obligation, fishing opportunities, fish stocks, aquaculture\n- Assimilated EU law with direct UK application\n- High deterministic confidence with directly_regulates relationship",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Core EU Common Fisheries Policy regulation. Title and matched terms (landing obligation, fishery management, fishing opportunities, fish stocks, aquaculture) directly align with category scope. This is a foundational instrument regulating commercial catching, fisheries management, quotas, fishing effort, fish stocks, and aquaculture. Assimilated EU law applicable in UK. Strong alignment with triage_guidance likely_accept criteria for commercial catching, fisheries management, fish stocks, quotas/TACs, fishing opportunities, and aquaculture.",
+        "supporting_signals": [
+          "Title explicitly references Common Fisheries Policy",
+          "Matched terms include core fisheries management concepts: landing obligation, fishing opportunities, fish stocks, aquaculture",
+          "Assimilated EU law with direct UK application",
+          "High deterministic confidence with directly_regulates relationship"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-fb482060f2991955",
+      "title": "Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy, amending Regulations (EC) No 847/96, (EC) No 2371/2002, (EC) No 811/2004, (EC) No 768/2005, (EC) No 2115/2005, (EC) No 2166/2005, (EC) No 388/2006, (EC) No 509/2007, (EC) No 676/2007, (EC) No 1098/2007, (EC) No 1300/2008, (EC) No 1342/2008 and repealing Regulations (EEC) No 2847/93, (EC) No 1627/94 and (EC) No 1966/2006",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2009/1224",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "fishery products",
+        "fisheries products",
+        "fish catching",
+        "first sale fish",
+        "fishery products traceability catch certificate",
+        "catch certificate",
+        "common fisheries policy",
+        "fisheries control",
+        "fishing effort",
+        "fisheries quota",
+        "fisheries quotas",
+        "fishing vessels",
+        "fishing vessel licence",
+        "fish processing",
+        "processed fish",
+        "processed fish products",
+        "fish by-products"
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: Council Regulation establishing a Union control system for ensuring compliance with the rules of the common fisheries policy. Title and matched terms (fishery products, fish catching, first sale fish, fishery products traceability catch certificate, catch certificate, common fisheries policy, fisheries control, fishing effort, fisheries quotas, fishing vessels, fishing vessel licence, fish processing, processed fish products, fish by-products) demonstrate this is a core fisheries-management and control instrument. Directly regulates commercial catching, landing, vessel licensing, quotas, traceability and enforcement—all within category scope.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references 'common fisheries policy' and 'control system'\n- Multiple strong matched terms: fishery products, fish catching, catch certificate, fisheries control, fishing effort, fisheries quotas, fishing vessels, fishing vessel licence\n- Regulates fishery products traceability, fish processing, first sale, fish by-products\n- Core fisheries management and enforcement instrument",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Council Regulation establishing a Union control system for ensuring compliance with the rules of the common fisheries policy. Title and matched terms (fishery products, fish catching, first sale fish, fishery products traceability catch certificate, catch certificate, common fisheries policy, fisheries control, fishing effort, fisheries quotas, fishing vessels, fishing vessel licence, fish processing, processed fish products, fish by-products) demonstrate this is a core fisheries-management and control instrument. Directly regulates commercial catching, landing, vessel licensing, quotas, traceability and enforcement—all within category scope.",
+        "supporting_signals": [
+          "Title explicitly references 'common fisheries policy' and 'control system'",
+          "Multiple strong matched terms: fishery products, fish catching, catch certificate, fisheries control, fishing effort, fisheries quotas, fishing vessels, fishing vessel licence",
+          "Regulates fishery products traceability, fish processing, first sale, fish by-products",
+          "Core fisheries management and enforcement instrument"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-01e77542fcd2a3c7",
+      "title": "Council Regulation (EC) No 1005/2008 of 29 September 2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and unregulated fishing, amending Regulations (EEC) No 2847/93, (EC) No 1936/2001 and (EC) No 601/2004 and repealing Regulations (EC) No 1093/94 and (EC) No 1447/1999",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2008/1005",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "fishery products",
+        "fisheries products",
+        "fish export",
+        "fish exports",
+        "export of fish",
+        "import of fishery products",
+        "export of fishery products",
+        "fishery products traceability catch certificate",
+        "catch certificate",
+        "IUU fishing",
+        "dried fish",
+        "frozen fish",
+        "chilled fish",
+        "fish flours"
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: Council Regulation (EC) No 1005/2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and unregulated fishing. Title and extensive matched terms (fishery products, fisheries products, fish export, fish exports, export of fish, import of fishery products, export of fishery products, fishery products traceability catch certificate, catch certificate, IUU fishing, dried fish, frozen fish, chilled fish, fish flours) strongly align with the category. Already classified as source_type 'assimilated_eu_law' and deterministic relationship_to_category 'directly_regulates'. The triage_guidance likely_accept section includes 'Instruments regulating import, export, trade, certification, traceability or border controls for fish, shellfish, seafood or fishery products.' and the borderline_guidance confirms 'IUU fishing and catch-certificate rules are in scope where they regulate commercial fish imports, exports, landings, traceability or trade.' This is a core fisheries control regulation covering trade, import, export, certification and traceability of fish and fishery products.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly establishes IUU fishing control system\n- Extensive matched category terms: fishery products, catch certificate, fish export/import, traceability, dried/frozen/chilled fish, fish flours\n- Assimilated EU law directly regulating commercial fish trade, import, export and traceability\n- Core instrument for fishery products border controls and certification",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Council Regulation (EC) No 1005/2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and unregulated fishing. Title and extensive matched terms (fishery products, fisheries products, fish export, fish exports, export of fish, import of fishery products, export of fishery products, fishery products traceability catch certificate, catch certificate, IUU fishing, dried fish, frozen fish, chilled fish, fish flours) strongly align with the category. Already classified as source_type 'assimilated_eu_law' and deterministic relationship_to_category 'directly_regulates'. The triage_guidance likely_accept section includes 'Instruments regulating import, export, trade, certification, traceability or border controls for fish, shellfish, seafood or fishery products.' and the borderline_guidance confirms 'IUU fishing and catch-certificate rules are in scope where they regulate commercial fish imports, exports, landings, traceability or trade.' This is a core fisheries control regulation covering trade, import, export, certification and traceability of fish and fishery products.",
+        "supporting_signals": [
+          "Title explicitly establishes IUU fishing control system",
+          "Extensive matched category terms: fishery products, catch certificate, fish export/import, traceability, dried/frozen/chilled fish, fish flours",
+          "Assimilated EU law directly regulating commercial fish trade, import, export and traceability",
+          "Core instrument for fishery products border controls and certification"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-f20bfdf3e99a2264",
+      "title": "Regulation (EU) No 1379/2013 of the European Parliament and of the Council of 11 December 2013 on the common organisation of the markets in fishery and aquaculture products, amending Council Regulations (EC) No 1184/2006 and (EC) No 1224/2009 and repealing Council Regulation (EC) No 104/2000",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2013/1379",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "Fish, shellfish and fish-derived food and feed products Laws and official materials about the catching, trade, import, export, production, processing, management, marketing and labelling of fish, shellfish and fish-derived products. This includes seafood products from wild-caught, freshwater, harvested, aquaculture and farmed sources; live shellfish intended for human consumption; processed fish products used as human food or animal feed; and fish by-products used in food, beverage or feed production.",
+        "seafood labelling"
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: EU common market organisation for fishery and aquaculture products. Title and matched terms are an exact match for the category: regulation of markets, trade, marketing, labelling, production, processing, import, export of fishery and aquaculture products. The matched terms include the entire category label and description text plus seafood labelling. This is a core instrument directly regulating commercial organisation of markets in fishery and aquaculture products, including marketing, labelling, trade, import, export, production, processing, wild-caught, farmed and aquaculture sources. Perfect alignment with category scope.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly covers common organisation of markets in fishery and aquaculture products\n- Matched terms include entire category label and description\n- Matched term: seafood labelling\n- Assimilated EU law\n- Amends and repeals other fisheries market regulations",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "EU common market organisation for fishery and aquaculture products. Title and matched terms are an exact match for the category: regulation of markets, trade, marketing, labelling, production, processing, import, export of fishery and aquaculture products. The matched terms include the entire category label and description text plus seafood labelling. This is a core instrument directly regulating commercial organisation of markets in fishery and aquaculture products, including marketing, labelling, trade, import, export, production, processing, wild-caught, farmed and aquaculture sources. Perfect alignment with category scope.",
+        "supporting_signals": [
+          "Title explicitly covers common organisation of markets in fishery and aquaculture products",
+          "Matched terms include entire category label and description",
+          "Matched term: seafood labelling",
+          "Assimilated EU law",
+          "Amends and repeals other fisheries market regulations"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-59be772b83070d26",
+      "title": "The Fish Labelling Regulations 2013",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2013/1768",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "fish labelling"
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: The Fish Labelling Regulations 2013 is a UK statutory instrument that directly regulates fish labelling. The title explicitly identifies this as a fish labelling instrument. The matched term 'fish labelling' is a core synonym in the category. The deterministic system already assessed this as 'directly_regulates', which is correct. This instrument falls squarely within the category's likely_accept guidance ('Seafood hygiene, processing, labelling, marketing standards or official controls for fish or shellfish for human consumption').\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references fish labelling\n- UK statutory instrument aligns with jurisdiction hints\n- Matched term 'fish labelling' is a core category synonym\n- Deterministic assessment already identified as directly_regulates\n- Fish labelling is a core inclusion test in the category",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Fish Labelling Regulations 2013 is a UK statutory instrument that directly regulates fish labelling. The title explicitly identifies this as a fish labelling instrument. The matched term 'fish labelling' is a core synonym in the category. The deterministic system already assessed this as 'directly_regulates', which is correct. This instrument falls squarely within the category's likely_accept guidance ('Seafood hygiene, processing, labelling, marketing standards or official controls for fish or shellfish for human consumption').",
+        "supporting_signals": [
+          "Title explicitly references fish labelling",
+          "UK statutory instrument aligns with jurisdiction hints",
+          "Matched term 'fish labelling' is a core category synonym",
+          "Deterministic assessment already identified as directly_regulates",
+          "Fish labelling is a core inclusion test in the category"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-bba56f07da7a7b26",
+      "title": "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2004/853",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "Fish, shellfish and fish-derived food and feed products Laws and official materials about the catching, trade, import, export, production, processing, management, marketing and labelling of fish, shellfish and fish-derived products. This includes seafood products from wild-caught, freshwater, harvested, aquaculture and farmed sources; live shellfish intended for human consumption; processed fish products used as human food or animal feed; and fish by-products used in food, beverage or feed production."
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: Regulation (EC) No 853/2004 laying down specific hygiene rules for food of animal origin directly regulates production, processing, labelling, hygiene and marketing standards for fish and shellfish for human consumption. This instrument is a cornerstone of seafood hygiene and official controls in the EU/UK regime. The title and extensive matched terms (fish, shellfish, fish-derived food, processing, production, marketing, labelling, aquaculture, farmed, live shellfish, processed fish, seafood products) align strongly with the category's inclusion tests: 'Does it regulate processing, labelling, presentation, hygiene, marketing standards or production of fish or shellfish for human consumption?' This is a core seafood hygiene instrument squarely within the likely_accept guidance: 'Seafood hygiene, processing, labelling, marketing standards or official controls for fish or shellfish for human consumption.'\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references hygiene rules for food of animal origin, which includes fish and shellfish.\n- Matched terms include fish, shellfish, processing, production, marketing, labelling, live shellfish, aquaculture, farmed sources, processed fish, seafood products.\n- Assimilated EU law, retained EU regime in UK fisheries/seafood hygiene framework.\n\nEvidence limitations:\n- No full text or detailed section headings provided, but title and matched terms are highly specific and aligned.",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Regulation (EC) No 853/2004 laying down specific hygiene rules for food of animal origin directly regulates production, processing, labelling, hygiene and marketing standards for fish and shellfish for human consumption. This instrument is a cornerstone of seafood hygiene and official controls in the EU/UK regime. The title and extensive matched terms (fish, shellfish, fish-derived food, processing, production, marketing, labelling, aquaculture, farmed, live shellfish, processed fish, seafood products) align strongly with the category's inclusion tests: 'Does it regulate processing, labelling, presentation, hygiene, marketing standards or production of fish or shellfish for human consumption?' This is a core seafood hygiene instrument squarely within the likely_accept guidance: 'Seafood hygiene, processing, labelling, marketing standards or official controls for fish or shellfish for human consumption.'",
+        "supporting_signals": [
+          "Title explicitly references hygiene rules for food of animal origin, which includes fish and shellfish.",
+          "Matched terms include fish, shellfish, processing, production, marketing, labelling, live shellfish, aquaculture, farmed sources, processed fish, seafood products.",
+          "Assimilated EU law, retained EU regime in UK fisheries/seafood hygiene framework."
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "No full text or detailed section headings provided, but title and matched terms are highly specific and aligned."
+        ],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-574221db1516c47e",
+      "title": "Marine and Coastal Access Act 2009",
+      "citation": null,
+      "source_type": "ukpga",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ukpga/2009/23",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "fish",
+        "freshwater fish",
+        "commercial fisheries",
+        "fisheries",
+        "sea fisheries",
+        "sea fisheries act",
+        "marine fisheries",
+        "fishery management",
+        "fish reared from roe",
+        "fish roe",
+        "fish act",
+        "sea fish act",
+        "freshwater fish order",
+        "freshwater fish act"
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: The Marine and Coastal Access Act 2009 is a major UK statute regulating marine affairs. The title and matched terms ('fish', 'freshwater fish', 'commercial fisheries', 'fisheries', 'sea fisheries', 'marine fisheries', 'fishery management', 'fish reared from roe') strongly align with the category scope. This Act is known to contain provisions regulating commercial fisheries, sea fisheries, fishery management, conservation and enforcement, fishing vessels, and fisheries-related marine planning. The evidence strongly supports likely acceptance as core fisheries legislation directly regulating commercial catching, landings, fisheries management, fishing opportunities, marine fisheries policy, and fishery enforcement within the UK jurisdiction. The Act operationalises fisheries management mechanisms materially relevant to commercial catching, fish stocks, fishing effort and seafood supply.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title 'Marine and Coastal Access Act 2009' is a major UK marine and fisheries statute\n- Multiple strong matched terms including 'commercial fisheries', 'sea fisheries', 'fishery management', 'fish', 'freshwater fish', 'fish reared from roe'\n- Known to regulate fisheries management, commercial catching, fishing vessels, marine planning, conservation and enforcement in the UK\n- Core fisheries legislation directly relevant to catching, landing, quota, fishing effort, vessel licensing and enforcement\n- Matches triage guidance for fisheries management instruments that materially regulate commercial catching, fish stocks, fishing opportunities or effort, landings, vessel licensing or monitoring, fisheries enforcement, or market supply",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Marine and Coastal Access Act 2009 is a major UK statute regulating marine affairs. The title and matched terms ('fish', 'freshwater fish', 'commercial fisheries', 'fisheries', 'sea fisheries', 'marine fisheries', 'fishery management', 'fish reared from roe') strongly align with the category scope. This Act is known to contain provisions regulating commercial fisheries, sea fisheries, fishery management, conservation and enforcement, fishing vessels, and fisheries-related marine planning. The evidence strongly supports likely acceptance as core fisheries legislation directly regulating commercial catching, landings, fisheries management, fishing opportunities, marine fisheries policy, and fishery enforcement within the UK jurisdiction. The Act operationalises fisheries management mechanisms materially relevant to commercial catching, fish stocks, fishing effort and seafood supply.",
+        "supporting_signals": [
+          "Title 'Marine and Coastal Access Act 2009' is a major UK marine and fisheries statute",
+          "Multiple strong matched terms including 'commercial fisheries', 'sea fisheries', 'fishery management', 'fish', 'freshwater fish', 'fish reared from roe'",
+          "Known to regulate fisheries management, commercial catching, fishing vessels, marine planning, conservation and enforcement in the UK",
+          "Core fisheries legislation directly relevant to catching, landing, quota, fishing effort, vessel licensing and enforcement",
+          "Matches triage guidance for fisheries management instruments that materially regulate commercial catching, fish stocks, fishing opportunities or effort, landings, vessel licensing or monitoring, fisheries enforcement, or market supply"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-94cb8d40849fefcb",
+      "title": "Council Directive 2006/88/EC of 24 October 2006 on animal health requirements for aquaculture animals and products thereof, and on the prevention and control of certain diseases in aquatic animals",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eudr/2006/88",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "Fish, shellfish and fish-derived food and feed products Laws and official materials about the catching, trade, import, export, production, processing, management, marketing and labelling of fish, shellfish and fish-derived products. This includes seafood products from wild-caught, freshwater, harvested, aquaculture and farmed sources; live shellfish intended for human consumption; processed fish products used as human food or animal feed; and fish by-products used in food, beverage or feed production.",
+        "aquatic molluscs",
+        "aquatic crustaceans",
+        "aquaculture",
+        "aquatic food products"
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: Council Directive 2006/88/EC on animal health requirements for aquaculture animals and products. Title and matched terms (aquaculture, aquatic molluscs, aquatic crustaceans, aquatic food products) strongly align with the category scope. The category explicitly includes aquaculture, fish farms, farmed fish, live shellfish intended for human consumption, and aquatic molluscs/crustaceans. The borderline_guidance confirms that 'Aquatic animal health rules are in scope where they materially regulate aquaculture, farmed fish, live shellfish for consumption, seafood movements or fish production.' This directive regulates aquaculture animals and products, directly covering production, trade and disease control for fish and shellfish. The triage_guidance lists 'Aquaculture, fish farms, farmed fish, aquaculture fish hatcheries...' under likely_accept.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly mentions 'aquaculture animals and products thereof'\n- Matched terms include aquaculture, aquatic molluscs, aquatic crustaceans, aquatic food products\n- Directly regulates production and trade of fish and shellfish from aquaculture\n- Assimilated/retained EU law for UK\n- Material coverage of farmed fish, shellfish and aquaculture production",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Council Directive 2006/88/EC on animal health requirements for aquaculture animals and products. Title and matched terms (aquaculture, aquatic molluscs, aquatic crustaceans, aquatic food products) strongly align with the category scope. The category explicitly includes aquaculture, fish farms, farmed fish, live shellfish intended for human consumption, and aquatic molluscs/crustaceans. The borderline_guidance confirms that 'Aquatic animal health rules are in scope where they materially regulate aquaculture, farmed fish, live shellfish for consumption, seafood movements or fish production.' This directive regulates aquaculture animals and products, directly covering production, trade and disease control for fish and shellfish. The triage_guidance lists 'Aquaculture, fish farms, farmed fish, aquaculture fish hatcheries...' under likely_accept.",
+        "supporting_signals": [
+          "Title explicitly mentions 'aquaculture animals and products thereof'",
+          "Matched terms include aquaculture, aquatic molluscs, aquatic crustaceans, aquatic food products",
+          "Directly regulates production and trade of fish and shellfish from aquaculture",
+          "Assimilated/retained EU law for UK",
+          "Material coverage of farmed fish, shellfish and aquaculture production"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": "high"
+      }
+    },
+    {
+      "source_id": "lex-8857a84dcad0d639",
+      "title": "Fisheries Act 1981",
+      "citation": null,
+      "source_type": "ukpga",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ukpga/1981/29",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [],
+      "matched_terms": [
+        "sea fish",
+        "fish import",
+        "sea fish act"
+      ],
+      "evidence": [],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": "Review decision: Accepted per AI triage likely_accept.\n\nAI triage rationale: Title 'Fisheries Act 1981' with matched terms 'sea fish, fish import, sea fish act' strongly align with the category. A UK primary Act titled Fisheries Act is a core fisheries instrument. 'Sea fish' and 'fish import' match commercial fisheries, trade and import controls. Fits triage_guidance 'likely_accept': 'UK, Great Britain, England, Wales, Scotland, Northern Ireland, assimilated EU or retained EU instruments directly regulating commercial catching, landing, sale or marketing of fish or shellfish' and 'Instruments regulating import, export, trade, certification, traceability or border controls for fish, shellfish, seafood or fishery products.' No exclusion markers present.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Fisheries Act title indicates core primary fisheries legislation for the UK\n- Sea fish matches commercial sea-fish catching and landing scope\n- Fish import matches import regulation scope\n- Deterministic confidence already high\n\nEvidence limitations:\n- No body text or provision detail to confirm full scope or whether any portions concern excluded matters",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Title 'Fisheries Act 1981' with matched terms 'sea fish, fish import, sea fish act' strongly align with the category. A UK primary Act titled Fisheries Act is a core fisheries instrument. 'Sea fish' and 'fish import' match commercial fisheries, trade and import controls. Fits triage_guidance 'likely_accept': 'UK, Great Britain, England, Wales, Scotland, Northern Ireland, assimilated EU or retained EU instruments directly regulating commercial catching, landing, sale or marketing of fish or shellfish' and 'Instruments regulating import, export, trade, certification, traceability or border controls for fish, shellfish, seafood or fishery products.' No exclusion markers present.",
+        "supporting_signals": [
+          "Fisheries Act title indicates core primary fisheries legislation for the UK",
+          "Sea fish matches commercial sea-fish catching and landing scope",
+          "Fish import matches import regulation scope",
+          "Deterministic confidence already high"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "No body text or provision detail to confirm full scope or whether any portions concern excluded matters"
+        ],
+        "assessment_confidence": "high"
+      }
+    }
+  ],
+  "amending_sources": [
+    {
+      "source_id": "lex-6704406fee2f40bd",
+      "title": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/739",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Regulation (EC) No 1010/2009 of 22 October 2009 laying down detailed rules for the implementation of Council Regulation (EC) No 1005/2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and",
+        "Council Regulation (EC) No 1005/2008 of 29 September 2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and unregulated fishing, amending Regulations (EEC) No 2847/93, (EC) No 1936/2001 and (EC) No",
+        "Regulation (EU) No 1379/2013 of the European Parliament and of the Council of 11 December 2013 on the common organisation of the markets in fishery and aquaculture products, amending Council Regulations (EC) No 1184/2006 and (EC) No",
+        "Council Implementing Decision of 24 March 2014 establishing a list of non-cooperating third countries in fighting IUU fishing pursuant to Regulation (EC) No 1005/2008 establishing a Community system to prevent, deter and eliminate illegal,",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 commencement",
+        "Commission Implementing Regulation (EU) No 404/2011 of 8 April 2011 laying down detailed rules for the implementation of Council Regulation (EC) No 1224/2009 establishing a Community control system for ensuring compliance with the rules of",
+        "Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy, amending Regulations (EC) No 847/96, (EC) No 2371/2002, (EC) No 811/2004,"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/739",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-970feca6a6cb49a8",
+      "title": "The Common Fisheries Policy (Amendment etc.) (EU Exit) (No. 2) Regulations 2020",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2020/1599",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Regulation (EC) No 1010/2009 of 22 October 2009 laying down detailed rules for the implementation of Council Regulation (EC) No 1005/2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and",
+        "Commission Regulation (EU) No 202/2011 of 1 March 2011 amending Annex I to Council Regulation (EC) No 1005/2008 as regards the definition of fishery products and amending Regulation (EC) No 1010/2009 as regards prior notification templates,",
+        "Council Regulation (EC) No 1005/2008 of 29 September 2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and unregulated fishing, amending Regulations (EEC) No 2847/93, (EC) No 1936/2001 and (EC) No"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) (No. 2) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2020/1599",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-9cc294c9aca01db8",
+      "title": "Commission Regulation (EU) No 395/2010 of 7 May 2010 amending Commission Regulation (EC) No 1010/2009 as regards administrative arrangements on catch certificates",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2010/395",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Regulation (EC) No 1010/2009 of 22 October 2009 laying down detailed rules for the implementation of Council Regulation (EC) No 1005/2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Commission Regulation (EU) No 395/2010 of 7 May 2010 amending Commission Regulation (EC) No 1010/2009 as regards administrative arrangements on catch certificates",
+          "uri": "http://www.legislation.gov.uk/id/eur/2010/395",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-e765bc0036b75601",
+      "title": "Regulation (EU) 2020/560 of the European Parliament and of the Council of 23 April 2020 amending Regulations (EU) No 508/2014 and (EU) No 1379/2013 as regards specific measures to mitigate the impact of the COVID‐19 outbreak in the fishery and aquaculture sector",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2020/560",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Regulation (EU) No 1379/2013 of the European Parliament and of the Council of 11 December 2013 on the common organisation of the markets in fishery and aquaculture products, amending Council Regulations (EC) No 1184/2006 and (EC) No"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Regulation (EU) 2020/560 of the European Parliament and of the Council of 23 April 2020 amending Regulations (EU) No 508/2014 and (EU) No 1379/2013 as regards specific measures to mitigate the impact of the COVID‐19 outbreak in the fishery and aquaculture sector",
+          "uri": "http://www.legislation.gov.uk/id/eur/2020/560",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-b5be4907f680752a",
+      "title": "The Common Fisheries Policy and Animals (Amendment etc.) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/1312",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 amendment regulations",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 revocation",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 commencement",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 correction slip",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 explanatory note",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 explanatory memorandum",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 impact assessment",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 guidance",
+        "Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy, amending Regulations (EC) No 847/96, (EC) No 2371/2002, (EC) No 811/2004,"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy and Animals (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1312",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-6deac13df85eb723",
+      "title": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2020",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2020/1542",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 amendment regulations",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 revocation",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 correction slip",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 explanatory note",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 explanatory memorandum",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 impact assessment",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2020/1542",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-7d7c8dabf5b23341",
+      "title": "The Food and Feed Hygiene and Safety (Miscellaneous Amendments) (EU Exit) Regulations 2019 (revoked)",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/1013",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Regulation (EC) No 2074/2005 of 5 December 2005 laying down implementing measures for certain products under Regulation (EC) No 853/2004 of the European Parliament and of the Council and for the organisation of official controls",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin amendment regulations",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin revocation",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin commencement",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin correction slip",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin explanatory note",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin explanatory memorandum",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin impact assessment",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Food and Feed Hygiene and Safety (Miscellaneous Amendments) (EU Exit) Regulations 2019 (revoked)",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1013",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-f3dc0b0810b676d5",
+      "title": "The Specific Food Hygiene (Amendment etc.) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/640",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Regulation (EC) No 2074/2005 of 5 December 2005 laying down implementing measures for certain products under Regulation (EC) No 853/2004 of the European Parliament and of the Council and for the organisation of official controls",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin amendment regulations",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin commencement",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin explanatory note",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Specific Food Hygiene (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/640",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-70eb2c4a481eaedf",
+      "title": "Regulation (EU) 2015/812 of the European Parliament and of the Council of 20 May 2015 amending Council Regulations (EC) No 850/98, (EC) No 2187/2005, (EC) No 1967/2006, (EC) No 1098/2007, (EC) No 254/2002, (EC) No 2347/2002 and (EC) No 1224/2009, and Regulations (EU) No 1379/2013 and (EU) No 1380/2013 of the European Parliament and of the Council, as regards the landing obligation, and repealing Council Regulation (EC) No 1434/98",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2015/812",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy, amending Regulations (EC) No 847/96, (EC) No 2371/2002, (EC) No 811/2004,"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Regulation (EU) 2015/812 of the European Parliament and of the Council of 20 May 2015 amending Council Regulations (EC) No 850/98, (EC) No 2187/2005, (EC) No 1967/2006, (EC) No 1098/2007, (EC) No 254/2002, (EC) No 2347/2002 and (EC) No 1224/2009, and Regulations (EU) No 1379/2013 and (EU) No 1380/2013 of the European Parliament and of the Council, as regards the landing obligation, and repealing Council Regulation (EC) No 1434/98",
+          "uri": "http://www.legislation.gov.uk/id/eur/2015/812",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-c0936e9ec1554c50",
+      "title": "The Specific Food Hygiene (Regulation (EC) No. 853/2004) (Amendment) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/1247",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin amendment regulations",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin revocation",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin commencement",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin correction slip",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin explanatory note",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin explanatory memorandum",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin impact assessment",
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Specific Food Hygiene (Regulation (EC) No. 853/2004) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1247",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-5d68d58988f41b40",
+      "title": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ssi/2019/71",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Regulation (EC) No 853/2004 of the European Parliament and of the Council of 29 April 2004 laying down specific hygiene rules for food of animal origin amendment regulations"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2019/71",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "parked",
+      "notes": "Generic EU Exit amendment material; requires legal review before treating as related.",
+      "ai_triage": null
+    }
+  ],
+  "commencement_sources": [],
+  "correction_sources": [],
+  "revocation_sources": [],
+  "interpretive_sources": [],
+  "guidance_sources": [],
+  "form_sources": [],
+  "contextual_sources": [
+    {
+      "source_id": "lex-87d3d001cfd651ba",
+      "title": "The Aquatic Animal Health and Alien Species in Aquaculture, Animals, and Marketing of Seed, Plant and Propagating Material (Legislative Functions and Miscellaneous Provisions) (Amendment) (EU Exit) Regulations 2020",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2020/1463",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 amendment regulations",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 commencement",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 correction slip",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 explanatory note",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 explanatory memorandum",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 impact assessment",
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Aquatic Animal Health and Alien Species in Aquaculture, Animals, and Marketing of Seed, Plant and Propagating Material (Legislative Functions and Miscellaneous Provisions) (Amendment) (EU Exit) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2020/1463",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "parked",
+      "notes": "Generic EU Exit amendment material; requires legal review before treating as related.",
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-61a86f9486e7fd6b",
+      "title": "The Fisheries, Aquaculture and Marine (Functions Exercisable in or as Regards Scotland) (Amendment) (EU Exit) (No. 2) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/1272",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "United Kingdom",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "European Union",
+        "retained EU law",
+        "assimilated law",
+        "third countries"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 revocation"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Fisheries, Aquaculture and Marine (Functions Exercisable in or as Regards Scotland) (Amendment) (EU Exit) (No. 2) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1272",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "parked",
+      "notes": "Generic EU Exit amendment material; requires legal review before treating as related.",
+      "ai_triage": null
+    }
+  ],
+  "rejected_sources": [],
+  "relationships": [
+    {
+      "relationship_id": "rel:lex-c4dfeb90d697b1d4:lex-6704406fee2f40bd",
+      "from_source_id": "lex-c4dfeb90d697b1d4",
+      "to_source_id": "lex-6704406fee2f40bd",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/739",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Both instruments are 2019 UK exit regulations amending retained EU fisheries law. The seed (SI 2019/753) is 'The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019' and the candidate (SI 2019/739) is 'The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019'. The matched terms show the candidate amends core fisheries instruments including IUU fishing regulations (EC 1005/2008, EC 1010/2009), fisheries control (EC 1224/2009, EU 404/2011) and market organisation (EU 1379/2013). The evidence includes a matched term 'The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 commencement', strongly suggesting the candidate references or amends the seed. Both instruments operate within the same exit-law framework addressing common fisheries policy. The candidate appears to amend the seed as part of the coordinated EU exit amendment regime."
+    },
+    {
+      "relationship_id": "rel:lex-01e77542fcd2a3c7:lex-6704406fee2f40bd",
+      "from_source_id": "lex-01e77542fcd2a3c7",
+      "to_source_id": "lex-6704406fee2f40bd",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/739",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The seed is Council Regulation (EC) No 1005/2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and unregulated (IUU) fishing. The candidate is The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019. The matched terms include multiple explicit references to 'Council Regulation (EC) No 1005/2008 establishing a Community system to prevent, deter and eliminate illegal, unreported and unregulated fishing' and implementing regulations (EC 1010/2009, EU 404/2011) plus related fisheries control (EC 1224/2009) and market instruments (EU 1379/2013). The candidate is a UK exit instrument that appears to amend retained EU law forms of EC 1005/2008 and related IUU fishing instruments to ensure operability post-exit. Both regulate IUU fishing, catch certification, traceability and fishery-product import/export controls, all of which are core to the fish category."
+    },
+    {
+      "relationship_id": "rel:lex-f20bfdf3e99a2264:lex-6704406fee2f40bd",
+      "from_source_id": "lex-f20bfdf3e99a2264",
+      "to_source_id": "lex-6704406fee2f40bd",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/739",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The seed is Regulation (EU) No 1379/2013 on the common organisation of the markets in fishery and aquaculture products. The candidate is The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019. The matched terms include an explicit reference to 'Regulation (EU) No 1379/2013 of the European Parliament and of the Council of 11 December 2013 on the common organisation of the markets in fishery and aquaculture products, amending Council Regulations (EC) No 1184/2006 and (EC) No'. The candidate is a UK exit instrument that appears to amend the retained EU law form of EU 1379/2013 concerning fishery and aquaculture product markets, marketing, labelling, trade and organisation. Both regulate fishery-product and aquaculture-product markets, trade, marketing and labelling, all of which are core to the fish category per the inclusion tests and triage guidance."
+    },
+    {
+      "relationship_id": "rel:lex-c4dfeb90d697b1d4:lex-970feca6a6cb49a8",
+      "from_source_id": "lex-c4dfeb90d697b1d4",
+      "to_source_id": "lex-970feca6a6cb49a8",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) (No. 2) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2020/1599",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The seed is The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 (SI 2019/753). The candidate is The Common Fisheries Policy (Amendment etc.) (EU Exit) (No. 2) Regulations 2020 (SI 2020/1599). Both are UK exit instruments amending retained EU fisheries law. The matched terms show the candidate addresses IUU fishing regulations (EC 1005/2008, EC 1010/2009, EU 202/2011) concerning fishery products, catch documentation and prior notification. The '(No. 2) Regulations 2020' title and 2020 enactment date strongly suggest the candidate is a follow-up amendment to earlier 2019 CFP exit regulations. Given the overlap in subject matter (CFP, IUU fishing, fishery products) and the sequential numbering, the candidate appears to amend the seed or a closely related 2019 CFP exit instrument as part of the coordinated EU exit amendment regime."
+    },
+    {
+      "relationship_id": "rel:lex-0ccefcdcd50caea4:lex-970feca6a6cb49a8",
+      "from_source_id": "lex-0ccefcdcd50caea4",
+      "to_source_id": "lex-970feca6a6cb49a8",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) (No. 2) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2020/1599",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The seed is Commission Regulation (EU) No 202/2011 amending Annex I to Council Regulation (EC) No 1005/2008 as regards the definition of fishery products and amending Regulation (EC) No 1010/2009 as regards prior notification templates, benchmarks for port inspections and recognised catch documentation schemes. The candidate is The Common Fisheries Policy (Amendment etc.) (EU Exit) (No. 2) Regulations 2020. The matched terms include an explicit reference to 'Commission Regulation (EU) No 202/2011 of 1 March 2011 amending Annex I to Council Regulation (EC) No 1005/2008 as regards the definition of fishery products and amending Regulation (EC) No 1010/2009 as regards prior notification templates'. The candidate is a UK exit instrument that appears to amend the retained EU law form of EU 202/2011, which itself implements the IUU fishing regime (EC 1005/2008, EC 1010/2009). All instruments regulate fishery products, catch documentation, port inspections, prior notification and IUU fishing controls, all of which are core to the fish category per the triage guidance on IUU fishing, catch certificates, traceability and fishery-product import/export controls."
+    },
+    {
+      "relationship_id": "rel:lex-01e77542fcd2a3c7:lex-970feca6a6cb49a8",
+      "from_source_id": "lex-01e77542fcd2a3c7",
+      "to_source_id": "lex-970feca6a6cb49a8",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) (No. 2) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2020/1599",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Seed lex-01e77542fcd2a3c7 is Council Regulation (EC) No 1005/2008 establishing the EU IUU fishing system. Candidate lex-970feca6a6cb49a8 is a UK SI titled 'The Common Fisheries Policy (Amendment etc.) (EU Exit) (No. 2) Regulations 2020', a UK EU-exit transposition instrument. The matched_terms evidence explicitly lists Council Regulation (EC) No 1005/2008 and Commission Regulation (EC) No 1010/2009 (laying down detailed rules for implementing 1005/2008). This is a typical EU-exit transposition SI that appears to amend (or domesticate) retained EU law including the IUU Regulation as part of the UK's post-Brexit fisheries regime. The relationship is amended_by (the EU Regulation was brought into UK law and then amended by this UK SI on exit). Both sources are core fisheries-management instruments regulating IUU fishing, catch certificates, traceability and trade of fishery products — all within scope per the triage_guidance: import, export, certification, traceability and fisheries enforcement. High relevance and high confidence."
+    },
+    {
+      "relationship_id": "rel:lex-4b47b291f898f631:lex-9cc294c9aca01db8",
+      "from_source_id": "lex-4b47b291f898f631",
+      "to_source_id": "lex-9cc294c9aca01db8",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Commission Regulation (EU) No 395/2010 of 7 May 2010 amending Commission Regulation (EC) No 1010/2009 as regards administrative arrangements on catch certificates",
+          "uri": "http://www.legislation.gov.uk/id/eur/2010/395",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Seed lex-4b47b291f898f631 is Commission Regulation (EC) No 1010/2009 laying down detailed implementation rules for Council Regulation (EC) No 1005/2008 (IUU fishing). Candidate lex-9cc294c9aca01db8 is Commission Regulation (EU) No 395/2010 amending Commission Regulation (EC) No 1010/2009 as regards administrative arrangements on catch certificates. The title and matched_terms are explicit and deterministic: the candidate amends the seed specifically on catch certificates. Catch certificates and IUU fishing are explicitly in scope per triage_guidance ('IUU fishing and catch-certificate rules are in scope where they regulate commercial fish imports, exports, landings, traceability or trade'). Both sources regulate fishery products traceability, catch certification and enforcement. The relationship is clearly amended_by. High relevance and high confidence."
+    },
+    {
+      "relationship_id": "rel:lex-f20bfdf3e99a2264:lex-e765bc0036b75601",
+      "from_source_id": "lex-f20bfdf3e99a2264",
+      "to_source_id": "lex-e765bc0036b75601",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Regulation (EU) 2020/560 of the European Parliament and of the Council of 23 April 2020 amending Regulations (EU) No 508/2014 and (EU) No 1379/2013 as regards specific measures to mitigate the impact of the COVID‐19 outbreak in the fishery and aquaculture sector",
+          "uri": "http://www.legislation.gov.uk/id/eur/2020/560",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Seed lex-f20bfdf3e99a2264 is Regulation (EU) No 1379/2013 on the common organisation of the markets in fishery and aquaculture products. Candidate lex-e765bc0036b75601 is Regulation (EU) 2020/560 amending Regulations (EU) No 508/2014 and (EU) No 1379/2013 as regards specific measures to mitigate the impact of the COVID-19 outbreak in the fishery and aquaculture sector. The title and matched_terms are explicit: the candidate amends the seed (1379/2013) to address COVID-19 impacts on fishery and aquaculture markets. Both sources regulate the common organisation of the markets in fishery and aquaculture products, marketing, trade and production — all core in-scope subjects per triage_guidance. The relationship is clearly amended_by. High relevance and high confidence."
+    },
+    {
+      "relationship_id": "rel:lex-c4dfeb90d697b1d4:lex-b5be4907f680752a",
+      "from_source_id": "lex-c4dfeb90d697b1d4",
+      "to_source_id": "lex-b5be4907f680752a",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy and Animals (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1312",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Seed lex-c4dfeb90d697b1d4 is The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019. Candidate lex-b5be4907f680752a is The Common Fisheries Policy and Animals (Amendment etc.) (EU Exit) Regulations 2019. Both are UK EU-exit instruments amending the Common Fisheries Policy regime on exit. The matched_terms explicitly list 'The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 amendment regulations', 'revocation', 'commencement' and 'explanatory memorandum', strongly indicating that the candidate amends (or corrects/supplements) the seed as part of a coordinated EU-exit transposition package. Both SIs are part of the post-Brexit fisheries and aquaculture regulatory framework, regulating Common Fisheries Policy, fisheries control, aquaculture and compliance — all core in-scope subjects. The relationship is amended_by (the later SI lex-b5be4907f680752a appears to amend the earlier SI lex-c4dfeb90d697b1d4). High relevance and high confidence."
+    },
+    {
+      "relationship_id": "rel:lex-fb482060f2991955:lex-b5be4907f680752a",
+      "from_source_id": "lex-fb482060f2991955",
+      "to_source_id": "lex-b5be4907f680752a",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy and Animals (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1312",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Seed lex-fb482060f2991955 is Council Regulation (EC) No 1224/2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy. Candidate lex-b5be4907f680752a is The Common Fisheries Policy and Animals (Amendment etc.) (EU Exit) Regulations 2019. The matched_terms explicitly list 'Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy, amending Regulations (EC) No 847/96, (EC) No 2371/2002, (EC) No 811/2004…'. This is a UK EU-exit transposition SI that appears to amend (or domesticate) retained EU fisheries-control regulations including Council Regulation 1224/2009 as part of the post-Brexit UK regime. The seed regulates fisheries control, enforcement, vessel licensing and monitoring, and compliance with fisheries management rules — all core in-scope subjects per triage_guidance. The relationship is amended_by. High relevance and high confidence."
+    },
+    {
+      "relationship_id": "rel:lex-c4dfeb90d697b1d4:lex-87d3d001cfd651ba",
+      "from_source_id": "lex-c4dfeb90d697b1d4",
+      "to_source_id": "lex-87d3d001cfd651ba",
+      "relationship_type": "unknown",
+      "confidence": "low",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Aquatic Animal Health and Alien Species in Aquaculture, Animals, and Marketing of Seed, Plant and Propagating Material (Legislative Functions and Miscellaneous Provisions) (Amendment) (EU Exit) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2020/1463",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "needs_more_research",
+      "notes": "The seed is The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 (SI 2019/753). The candidate is The Aquatic Animal Health and Alien Species in Aquaculture, Animals, and Marketing of Seed, Plant and Propagating Material (Legislative Functions and Miscellaneous Provisions) (Amendment) (EU Exit) Regulations 2020 (SI 2020/1463). Both instruments concern aquaculture and EU Exit amendments. The candidate title includes 'Aquaculture' and 'Animals' together with 'Seed, Plant and Propagating Material', suggesting a broad mixed-purpose instrument. Under the triage guidance, aquatic animal health rules are in scope where they materially regulate aquaculture, farmed fish or fish production; seed/plant traceability instruments are out of scope unless they materially regulate fish or fish-derived products. The candidate's title suggests it may touch aquaculture (in scope) but also includes plant/seed marketing (potentially out of scope). The matched_terms reference guidance and explanatory materials for the seed instrument but provide no detail about whether the candidate amends, cites, or otherwise relates to the seed. The evidence is title-only. Without the candidate's text or an explanatory note confirming a substantive relationship, this is ambiguous. Recommend human review to determine whether the candidate materially amends or cites the seed and whether the aquaculture provisions in the candidate fall within the fish/aquaculture food/feed scope or are incidental."
+    },
+    {
+      "relationship_id": "rel:lex-c4dfeb90d697b1d4:lex-6deac13df85eb723",
+      "from_source_id": "lex-c4dfeb90d697b1d4",
+      "to_source_id": "lex-6deac13df85eb723",
+      "relationship_type": "amended_by",
+      "confidence": "medium",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2020/1542",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The seed is The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 (SI 2019/753). The candidate is The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2020 (SI 2020/1542). Both titles share the Common Fisheries Policy and EU Exit theme. The candidate is dated 2020, post-seed, and the matched_terms include 'amendment regulations' and 'revocation', strongly suggesting the candidate amends or revokes provisions of the seed. The deterministic guess is amended_by (medium confidence), consistent with the pattern of a later CFP EU Exit instrument amending an earlier one. The Common Fisheries Policy is core in-scope under the fish category (commercial catching, landing, quotas, TAC, fishing vessels, enforcement, fisheries management). Both instruments appear to concern the EU Exit transition of CFP law. Accept as amended_by: the candidate appears to amend the seed CFP and Aquaculture EU Exit Regulations, and both are central to the fish/fisheries scope."
+    },
+    {
+      "relationship_id": "rel:lex-c4dfeb90d697b1d4:lex-61a86f9486e7fd6b",
+      "from_source_id": "lex-c4dfeb90d697b1d4",
+      "to_source_id": "lex-61a86f9486e7fd6b",
+      "relationship_type": "unknown",
+      "confidence": "low",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Fisheries, Aquaculture and Marine (Functions Exercisable in or as Regards Scotland) (Amendment) (EU Exit) (No. 2) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1272",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "needs_more_research",
+      "notes": "The seed is The Common Fisheries Policy and Aquaculture (Amendment etc.) (EU Exit) Regulations 2019 (SI 2019/753). The candidate is The Fisheries, Aquaculture and Marine (Functions Exercisable in or as Regards Scotland) (Amendment) (EU Exit) (No. 2) Regulations 2019 (SI 2019/1272). Both instruments concern fisheries, aquaculture and EU Exit. The candidate is dated 2019 and specifically addresses functions exercisable in or as regards Scotland. The matched_terms include 'revocation', suggesting the candidate may revoke or amend provisions in the seed, or they may share a common parent. The candidate's focus on Scottish functions and the seed's UK-wide (or GB) scope suggest they may be related in a complex devolution-driven way, or the candidate may amend the seed to clarify Scottish ministers' functions. The evidence is title-only and the deterministic guess is unknown (low confidence). Without the candidate's text or explanatory note, it is unclear whether the candidate amends, cites, or is merely adjacent to the seed. Recommend human review to determine the nature of the relationship and confirm relevance to the fish/aquaculture scope (both titles are in scope)."
+    },
+    {
+      "relationship_id": "rel:lex-210b20412c9f2b5b:lex-7d7c8dabf5b23341",
+      "from_source_id": "lex-210b20412c9f2b5b",
+      "to_source_id": "lex-7d7c8dabf5b23341",
+      "relationship_type": "amended_by",
+      "confidence": "medium",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Food and Feed Hygiene and Safety (Miscellaneous Amendments) (EU Exit) Regulations 2019 (revoked)",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1013",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The seed is Commission Regulation (EC) No 2074/2005, which lays down implementing measures for certain products under Regulation (EC) No 853/2004 (food of animal origin hygiene) and organises official controls. The seed explicitly covers fish and fishery products: Annex III (TSE testing criteria for food chains including fishmeal), Annex IV (live bivalve molluscs and fishery products), and histamine limits in fish. The candidate is The Food and Feed Hygiene and Safety (Miscellaneous Amendments) (EU Exit) Regulations 2019 (SI 2019/1013), now revoked. The matched_terms reference Regulation (EC) No 853/2004 and Commission Regulation (EC) No 2074/2005, and include amendment/revocation signals. The candidate is a UK SI amending retained EU hygiene law for EU Exit, and it is highly likely it amended or revoked provisions of the seed (or the seed as retained). The seed's fishery-products hygiene and live-bivalve-mollusc official-control provisions are in scope (seafood hygiene, processing, official controls for fish/shellfish for human consumption). Accept as amended_by: the candidate appears to amend the seed (or the seed as retained EU law) in the context of EU Exit. Note the candidate is itself revoked, so legal effect requires further review, but the relationship is material."
+    },
+    {
+      "relationship_id": "rel:lex-bba56f07da7a7b26:lex-7d7c8dabf5b23341",
+      "from_source_id": "lex-bba56f07da7a7b26",
+      "to_source_id": "lex-7d7c8dabf5b23341",
+      "relationship_type": "amended_by",
+      "confidence": "medium",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Food and Feed Hygiene and Safety (Miscellaneous Amendments) (EU Exit) Regulations 2019 (revoked)",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1013",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The seed is Regulation (EC) No 853/2004 of the European Parliament and of the Council laying down specific hygiene rules for food of animal origin. Section VIII of Annex III covers fishery products (chilling, parasites, organoleptic examination, sensory tests, sampling, wrapping, packaging, histamine limits, fishery-product processing establishments). The seed is core in-scope for the fish category (seafood hygiene, processing, labelling, production for human consumption). The candidate is The Food and Feed Hygiene and Safety (Miscellaneous Amendments) (EU Exit) Regulations 2019 (SI 2019/1013), now revoked. The matched_terms explicitly reference 'Regulation (EC) No 853/2004 … laying down specific hygiene rules for food of animal origin' and include amendment/revocation signals. The candidate is a UK SI amending retained EU hygiene law for EU Exit, and almost certainly amended or revoked provisions of the seed (or the seed as retained). Accept as amended_by: the candidate appears to amend the seed (or the seed as retained EU law) in the context of EU Exit. Note the candidate is itself revoked, so legal effect requires further review, but the relationship is material."
+    },
+    {
+      "relationship_id": "rel:lex-210b20412c9f2b5b:lex-f3dc0b0810b676d5",
+      "from_source_id": "lex-210b20412c9f2b5b",
+      "to_source_id": "lex-f3dc0b0810b676d5",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Specific Food Hygiene (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/640",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Commission Regulation (EC) No 2074/2005 lays down implementing measures for certain products under Regulation (EC) No 853/2004, including specific hygiene rules for food of animal origin, which materially covers fish and shellfish for human consumption. The candidate UKSI 2019/640 is titled 'The Specific Food Hygiene (Amendment etc.) (EU Exit) Regulations 2019' and explicitly references both Reg 853/2004 and Reg 2074/2005 in matched terms. The title signals EU Exit amendments to the specific food hygiene regime, and the matched terms demonstrate direct engagement with the seed regulation. Fish hygiene, processing, labelling and official controls are core category topics. This is a clear EU Exit amendment to the retained/assimilated hygiene regime."
+    },
+    {
+      "relationship_id": "rel:lex-bba56f07da7a7b26:lex-f3dc0b0810b676d5",
+      "from_source_id": "lex-bba56f07da7a7b26",
+      "to_source_id": "lex-f3dc0b0810b676d5",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Specific Food Hygiene (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/640",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Regulation (EC) No 853/2004 lays down specific hygiene rules for food of animal origin, which materially covers fish, shellfish, seafood processing, labelling and marketing standards—all core category topics. The candidate UKSI 2019/640 is titled 'The Specific Food Hygiene (Amendment etc.) (EU Exit) Regulations 2019' and matched terms include multiple verbatim references to Reg 853/2004 (amendment regulations, commencement, explanatory note, guidance). The title and matched terms demonstrate that this is an EU Exit amendment instrument specifically targeting the hygiene regime established by the seed regulation. Fish and shellfish hygiene, processing and official controls are materially within scope."
+    },
+    {
+      "relationship_id": "rel:lex-fb482060f2991955:lex-70eb2c4a481eaedf",
+      "from_source_id": "lex-fb482060f2991955",
+      "to_source_id": "lex-70eb2c4a481eaedf",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Regulation (EU) 2015/812 of the European Parliament and of the Council of 20 May 2015 amending Council Regulations (EC) No 850/98, (EC) No 2187/2005, (EC) No 1967/2006, (EC) No 1098/2007, (EC) No 254/2002, (EC) No 2347/2002 and (EC) No 1224/2009, and Regulations (EU) No 1379/2013 and (EU) No 1380/2013 of the European Parliament and of the Council, as regards the landing obligation, and repealing Council Regulation (EC) No 1434/98",
+          "uri": "http://www.legislation.gov.uk/id/eur/2015/812",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Council Regulation (EC) No 1224/2009 establishes the Union control system for ensuring compliance with the common fisheries policy, materially regulating fisheries control, enforcement, landing obligation, fishing vessel licensing and monitoring—all core category topics. The candidate Regulation (EU) 2015/812 is titled 'Regulation (EU) 2015/812 of the European Parliament and of the Council of 20 May 2015 amending Council Regulations (EC) No 850/98, (EC) No 2187/2005, (EC) No 1967/2006, (EC) No 1098/2007, (EC) No 254/2002, (EC) No 2347/2002 and (EC) No 1224/2009…as regards the landing obligation'. The title explicitly lists Reg 1224/2009 among the regulations amended and references the landing obligation—a central fisheries-control mechanism. The matched terms confirm engagement with the seed regulation. This is a clear amendment."
+    },
+    {
+      "relationship_id": "rel:lex-bba56f07da7a7b26:lex-c0936e9ec1554c50",
+      "from_source_id": "lex-bba56f07da7a7b26",
+      "to_source_id": "lex-c0936e9ec1554c50",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Specific Food Hygiene (Regulation (EC) No. 853/2004) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1247",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Regulation (EC) No 853/2004 lays down specific hygiene rules for food of animal origin, materially covering fish, shellfish, seafood processing, labelling and marketing—all core category topics. The candidate UKSI 2019/1247 is titled 'The Specific Food Hygiene (Regulation (EC) No. 853/2004) (Amendment) (EU Exit) Regulations 2019', explicitly naming Reg 853/2004 in parentheses and signaling 'Amendment' and 'EU Exit'. Matched terms include 'Regulation (EC) No 853/2004 amendment regulations', 'revocation', 'commencement', 'correction slip', 'explanatory note', 'explanatory memorandum', 'impact assessment' and 'guidance'. The title and matched terms demonstrate that this is a dedicated EU Exit amendment instrument for the specific hygiene regime. Fish and shellfish hygiene, processing and official controls are materially within scope."
+    },
+    {
+      "relationship_id": "rel:lex-bba56f07da7a7b26:lex-5d68d58988f41b40",
+      "from_source_id": "lex-bba56f07da7a7b26",
+      "to_source_id": "lex-5d68d58988f41b40",
+      "relationship_type": "amended_by",
+      "confidence": "medium",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2019/71",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "needs_more_research",
+      "notes": "Regulation (EC) No 853/2004 lays down specific hygiene rules for food of animal origin, materially covering fish and shellfish for human consumption. The candidate SSI 2019/71 is titled 'The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019', a general animal-health title, and the only matched term is 'Regulation (EC) No 853/2004 amendment regulations'. The title signals EU Exit amendment but does not explicitly reference fish, shellfish, seafood or specific food hygiene. However, Reg 853/2004 is materially within category scope (fish/shellfish hygiene), and animal-health rules may be linked to aquaculture, farmed fish or live shellfish for consumption (triage_guidance borderline: 'aquatic animal health rules are in scope where they materially regulate aquaculture, farmed fish, live shellfish for consumption, seafood movements or fish production'). Without body text or table of amendments, it is unclear whether this Scotland-specific amendment materially engages fish/shellfish/aquaculture provisions of Reg 853/2004 or concerns only terrestrial animal health. Human review recommended to confirm materiality."
+    }
+  ],
+  "metadata": {
+    "source_register_id": "ada-register-fish-pilot-principal",
+    "related_run_id": "ada-related-fish-20260628T221041Z"
+  }
+}

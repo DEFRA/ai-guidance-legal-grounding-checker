@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "ready_for_adjudication": false,
+  "input_guidance_count": 217,
+  "result_guidance_count": 217,
+  "distinct_result_ids": 217,
+  "classification_counts": {
+    "complete": 208,
+    "failed": 7,
+    "partial": 2
+  },
+  "incomplete_guidance_proposition_ids": [
+    "susan-41dbc58cc6ea1113-14",
+    "susan-41dbc58cc6ea1113-15",
+    "susan-41dbc58cc6ea1113-16",
+    "susan-41dbc58cc6ea1113-17",
+    "susan-41dbc58cc6ea1113-40",
+    "susan-41dbc58cc6ea1113-58",
+    "susan-41dbc58cc6ea1113-63",
+    "susan-b5cccee08ec65fb7-7",
+    "susan-b5cccee08ec65fb7-79"
+  ],
+  "candidate_count_mismatches": [],
+  "duplicate_pairs": [],
+  "unknown_relationships": [],
+  "unresolved_law_ids": [],
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,26 @@
+[project]
+name = "law-proposition-extractor-pipeline"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+  "law-proposition-extractor-domain",
+  "law-proposition-extractor-exporters",
+  "law-proposition-extractor-llm",
+  "rich>=14.0.0",
+  "typer>=0.16.0",
+]
+
+[project.scripts]
+law-proposition-extractor-demo = "law_proposition_extractor_pipeline.cli:demo_command"
+law-proposition-extractor-run-case = "law_proposition_extractor_pipeline.cli:run_case_command"
+law-proposition-extractor-export-case = "law_proposition_extractor_pipeline.cli:export_case_command"
+judit-demo = "compat.legacy_cli:judit_demo"  # COMPAT_LEGACY_NAME
+judit-run-case = "compat.legacy_cli:judit_run_case"  # COMPAT_LEGACY_NAME
+judit-export-case = "compat.legacy_cli:judit_export_case"  # COMPAT_LEGACY_NAME
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/law_proposition_extractor_pipeline"]

@@ -1,0 +1,232 @@
+{
+  "registry_version": "1",
+  "heuristics": [
+    {
+      "rule_id": "classification.derive_legal_effect",
+      "version": "1",
+      "name": "Derive legal-effect type",
+      "plain_english_summary": "Assign legal_effect_type for a retained proposition using deterministic precedence: explicit priority cues, boilerplate, definition structure, substantive textual modals, extracted provision_type (non-cross-reference), cross-reference-only cues, then deferred provision_type cross_reference, else unknown.",
+      "stage": "classification",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_domain.proposition_classification.derive_legal_effect_with_basis",
+        "law_proposition_extractor_domain.proposition_classification.apply_post_extraction_classification",
+        "law_proposition_extractor_pipeline.heuristics.classification_explanations.build_classification_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_classification_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a E2 (path 2-a-ii): priority cue 'shall not apply' wins as explicit_exception_cue \u2192 derogation, even when the model proposed provision_type=exception."
+    },
+    {
+      "rule_id": "effective_law.attach_applicable_exception",
+      "version": "1",
+      "name": "Attach applicable exception context",
+      "plain_english_summary": "When an exception_to relationship targets a LegalRuleGroup (or proposition), the effective-law composer attaches the exception proposition as applicable_exception on each expanded target member. This is a presentation/context projection of the existing typed relationship, not a new inferred edge.",
+      "stage": "effective_law",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.effective_law._collect_typed_required_contexts",
+        "law_proposition_extractor_pipeline.heuristics.effective_law_explanations.build_effective_law_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_effective_law_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a: E1/E2/E3 become applicable_exception on P1 and P2 via the paragraph-1 group."
+    },
+    {
+      "rule_id": "effective_law.attach_exception_target",
+      "version": "1",
+      "name": "Attach exception-target context",
+      "plain_english_summary": "For each exception_to expansion, attach the displaced rule propositions as exception_target on the exception proposition. Members come from the targeted group (or the direct proposition target). This projects the existing exception_to relationship into reviewer-facing context; it is not a separate inferred relationship.",
+      "stage": "effective_law",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.effective_law._collect_typed_required_contexts",
+        "law_proposition_extractor_pipeline.heuristics.effective_law_explanations.build_effective_law_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_effective_law_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a: P1 and P2 appear as exception_target on E1, E2, and E3."
+    },
+    {
+      "rule_id": "effective_law.attach_trigger_condition",
+      "version": "1",
+      "name": "Attach trigger-condition context",
+      "plain_english_summary": "When a triggered_by relationship targets a LegalRuleGroup (or proposition), attach each expanded target member as trigger_condition on the relationship source only. Current semantics are source-only: no reverse trigger context is projected onto the trigger propositions.",
+      "stage": "effective_law",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.effective_law._collect_typed_required_contexts",
+        "law_proposition_extractor_pipeline.heuristics.effective_law_explanations.build_effective_law_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_effective_law_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a: E1/E2/E3 become trigger_condition on P3; P3 is not projected backwards onto E1/E2/E3."
+    },
+    {
+      "rule_id": "effective_law.prefer_typed_context_over_generic_locator",
+      "version": "1",
+      "name": "Prefer typed context over generic locator",
+      "plain_english_summary": "When a generic locator required-context entry resolves only to propositions already represented by typed legal-relationship context on the same statement, omit that generic duplicate. Typed context has priority only where the generic entry represents the same source/target legal connection. Unrelated ordinary references (for example Article 14 beside a paragraph-1 exception) remain.",
+      "stage": "effective_law",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.effective_law._dedupe_locator_context_against_typed",
+        "law_proposition_extractor_pipeline.heuristics.effective_law_explanations.build_effective_law_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_effective_law_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a E3: paragraph-1 generic locator suppressed; Article 14 ordinary referenced_locator retained."
+    },
+    {
+      "rule_id": "grouping.create_shared_fragment_rule_group",
+      "version": "1",
+      "name": "Create shared-fragment LegalRuleGroup",
+      "plain_english_summary": "Law Proposition Extractor groups two or more retained propositions that share the same source_record_id, source_snapshot_id, and source_fragment_id when that fragment has a reliable canonical locator. Grouping is structural (shared source fragment), not textual similarity, shared topic, shared legal-effect classification, or model judgment. Members are ordered by deterministic source order. Single-member fragments, unreliable locators, mixed source/snapshot/fragment buckets, article-level aggregates, and descendant roll-ups do not form groups.",
+      "stage": "grouping",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.legal_rule_groups.build_legal_rule_groups",
+        "law_proposition_extractor_pipeline.heuristics.grouping_explanations.build_grouping_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_grouping_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a paragraph 1 yields one group for P1+P2; paragraph 3 alone does not form a group."
+    },
+    {
+      "rule_id": "relationship.infer_exception_to",
+      "version": "1",
+      "name": "Infer exception_to relationship",
+      "plain_english_summary": "When a derogation/exception proposition contains a supported exception cue, bind the reference inside that cue span and infer an exception_to relationship to the safely resolved target. References outside the cue-target association remain ordinary contextual references.",
+      "stage": "relationship",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.legal_rule_relationships.build_legal_rule_relationships",
+        "law_proposition_extractor_pipeline.legal_rule_relationships._try_build_for_cue",
+        "law_proposition_extractor_pipeline.heuristics.relationship_explanations.build_relationship_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_relationship_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a E3: 'Paragraph 1 shall not apply' \u2192 exception_to article:49a:paragraph:1; Article 14 stays ordinary."
+    },
+    {
+      "rule_id": "relationship.infer_triggered_by",
+      "version": "1",
+      "name": "Infer triggered_by relationship",
+      "plain_english_summary": "When a proposition contains supported trigger phrasing such as 'in the cases referred to in \u2026', bind the cue-span reference and infer a triggered_by relationship to the safely resolved target.",
+      "stage": "relationship",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.legal_rule_relationships.build_legal_rule_relationships",
+        "law_proposition_extractor_pipeline.legal_rule_relationships._try_build_for_cue",
+        "law_proposition_extractor_pipeline.heuristics.relationship_explanations.build_relationship_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_relationship_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a P3: 'in the cases referred to in Article 49a(2)' \u2192 triggered_by article:49a:paragraph:2."
+    },
+    {
+      "rule_id": "relationship.prefer_group_target",
+      "version": "1",
+      "name": "Prefer LegalRuleGroup as relationship target",
+      "plain_english_summary": "Where the resolved provision has one persisted LegalRuleGroup in the same source/snapshot scope, Law Proposition Extractor targets the group so downstream context can be inherited by all of its member propositions. Falls back to a unique retained proposition; never fans out to multiple targets.",
+      "stage": "relationship",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.legal_rule_relationships._select_target",
+        "law_proposition_extractor_pipeline.heuristics.relationship_explanations.build_relationship_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_relationship_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a exception_to targets the paragraph-1 group (P1+P2), not either paragraph-1 proposition individually."
+    },
+    {
+      "rule_id": "selection.prefer_required_ancestor",
+      "version": "1",
+      "name": "Prefer required ancestor over focus descendant",
+      "plain_english_summary": "Suppress a focus-selected descendant when an explicitly required selected ancestor already covers its operative text and structured-list terminals.",
+      "stage": "selection",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.structural_extraction_frontier.apply_required_ancestor_extraction_frontier",
+        "law_proposition_extractor_pipeline.structural_extraction_frontier.establish_ancestor_coverage"
+      ],
+      "test_references": [
+        "tests/unit/test_structural_extraction_frontier.py",
+        "tests/unit/test_selection_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a paragraph 2(a) is not separately extracted because required paragraph 2 covers its structured-list terminals."
+    },
+    {
+      "rule_id": "selection.prefer_required_children",
+      "version": "1",
+      "name": "Prefer selected structural children",
+      "plain_english_summary": "Suppress extraction of a selected parent when every substantive direct child is selected and those children collectively cover the parent's operative text.",
+      "stage": "selection",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.structural_child_extraction_preference.apply_structural_child_extraction_preference",
+        "law_proposition_extractor_pipeline.structural_child_extraction_preference.children_cover_parent_operative_text"
+      ],
+      "test_references": [
+        "tests/unit/test_structural_child_extraction_preference.py",
+        "tests/unit/test_selection_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a is not extracted because paragraphs 1\u20133 cover its operative text."
+    },
+    {
+      "rule_id": "selection.required_locator",
+      "version": "1",
+      "name": "Required locator selection",
+      "plain_english_summary": "Select a fragment for extraction when its locator is listed in the run's required locators configuration.",
+      "stage": "selection",
+      "method": "configuration",
+      "code_references": [
+        "law_proposition_extractor_pipeline.runner._select_fragment_for_extraction"
+      ],
+      "test_references": [
+        "tests/unit/test_selection_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a paragraph 1 is selected because the case requires article:49a:paragraph:1."
+    },
+    {
+      "rule_id": "structured_list.compose_terminal_leaf",
+      "version": "1",
+      "name": "Compose structured-list terminal leaf",
+      "plain_english_summary": "Compose the operative rule represented by a terminal structured-list path by combining the governing stem, any intermediate branch context, and the terminal leaf; attach canonical structured-list metadata and retain the composed candidate as a proposition.",
+      "stage": "extraction",
+      "method": "deterministic",
+      "code_references": [
+        "law_proposition_extractor_pipeline.structured_list_decomposition.merge_structured_leaf_rows",
+        "law_proposition_extractor_pipeline.structured_list_decomposition._compose_effect",
+        "law_proposition_extractor_pipeline.heuristics.structured_list_explanations.build_structured_list_decision_explanations"
+      ],
+      "test_references": [
+        "tests/unit/test_structured_list_decision_explanations.py",
+        "tests/acceptance/test_article_49a_legal_structure.py"
+      ],
+      "example_summary": "Article 49a path 2-a-ii is retained by combining the paragraph-2 stem, branch (a), and terminal point (ii)."
+    }
+  ],
+  "heuristic_count": 13
+}

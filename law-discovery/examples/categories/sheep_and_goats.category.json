@@ -1,0 +1,52 @@
+{
+  "category_id": "sheep_and_goats",
+  "label": "Sheep and goats identification and traceability",
+  "description": "Sheep, lambs, goats, and caprines identification using electronic ear tags, RFID tags, tattoos, paint marks, and movement records. Covers traceability, grazing system management, disease surveillance, and outbreak response including Scrapie, Foot and Mouth Disease, and Bluetongue.",
+  "synonyms": [
+    "sheep",
+    "lamb",
+    "lambs",
+    "goat",
+    "goats",
+    "caprine",
+    "caprines",
+    "ovine",
+    "ovines",
+    "electronic identification",
+    "EID",
+    "electronic ear tag",
+    "ear tag",
+    "ear tags",
+    "RFID tag",
+    "tattoo",
+    "tattoos",
+    "paint mark",
+    "paint marks",
+    "movement record",
+    "movement reporting",
+    "flock register",
+    "herd register",
+    "keeper",
+    "Scrapie",
+    "Foot and Mouth Disease",
+    "FMD",
+    "Bluetongue"
+  ],
+  "exclusions": [
+    "wool product labelling only",
+    "goat cheese marketing only",
+    "mountain goats tourism"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "sheep_and_goats",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

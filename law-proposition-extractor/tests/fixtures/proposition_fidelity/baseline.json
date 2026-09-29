@@ -1,0 +1,3113 @@
+{
+  "benchmark_version": "1",
+  "cases": [
+    {
+      "accepted_limitations": [],
+      "case_id": "article_49a",
+      "case_status": "pass",
+      "diagnostics": [
+        "runner=article_49a_pipeline",
+        "opaque_roles=['E1', 'E2', 'E3', 'P1', 'P2', 'P3']",
+        "response fixtures: article_49a frontier_responses (prompt v2-shaped; predate prompt v3)"
+      ],
+      "dimension_results": [
+        {
+          "actual": "",
+          "detail": "all expected roles present or ambiguous",
+          "dimension": "coverage",
+          "expected": "",
+          "likely_pipeline_stage": "",
+          "severity_policy": "hard_failure",
+          "status": "pass"
+        }
+      ],
+      "expected_roles": [
+        "separate-identification-obligation",
+        "prohibited-mixing-rule",
+        "small-pelagic-derogation",
+        "industrial-species-derogation",
+        "small-vessel-derogation",
+        "inspection-trigger"
+      ],
+      "matched_roles": [
+        "separate-identification-obligation",
+        "prohibited-mixing-rule",
+        "small-pelagic-derogation",
+        "industrial-species-derogation",
+        "small-vessel-derogation",
+        "inspection-trigger"
+      ],
+      "missing_roles": [],
+      "produced_count": 6,
+      "role_results": [
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched separate-identification-obligation",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "must place sub-MCRS catches in boxes, compartments or containers so that they are identifiable from other boxes, compartments or containers",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "placed in boxes"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "placed in boxes",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.",
+          "notes": "via identify_article_49a_propositions(P1)",
+          "proposition_id": "prop:700e513c107639cf",
+          "role": "separate-identification-obligation",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched prohibited-mixing-rule",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "must not mix sub-MCRS catches with any other fishery products",
+              "audit": {
+                "accepted_surface_basis": [
+                  "normalized:mix/negative/prohibition/passive"
+                ],
+                "actual_legal_effect": "prohibition",
+                "detected_polarity": "negative",
+                "detected_predicates": [
+                  "mix"
+                ],
+                "detected_voice": "passive",
+                "evaluation_mode": "structured_action_expectation",
+                "expected_legal_effect": "prohibition",
+                "expected_polarity": "negative",
+                "expected_predicates": [
+                  "mix"
+                ],
+                "expected_voice": "either",
+                "matched_actor_markers": [],
+                "matched_object_markers": [
+                  "catches",
+                  "other catch"
+                ],
+                "required_actor_markers": [],
+                "required_object_markers": [
+                  "catches",
+                  "other catch"
+                ]
+              },
+              "detail": "The gold contract expects the canonical action `mix`, negative polarity, a prohibition legal effect, and the relevant catches/other catch object. The live proposition states 'must not mix sub-MCRS catches with any other fishery products' / 'Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must '. The live wording is a passive expression of the same prohibited action. Modal surface form (shall/must) is disregarded only after confirming legal effect and polarity. Action fidelity therefore passes.",
+              "dimension": "action_fidelity",
+              "expected": "predicates=['mix']; polarity=negative; legal_effect=prohibition; voice=either; objects=['catches', 'other catch']",
+              "likely_pipeline_stage": "extraction",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "Those catches shall not be mixed with any other fishery products.",
+          "notes": "via identify_article_49a_propositions(P2)",
+          "proposition_id": "prop:0aee10e5464a0577",
+          "role": "prohibited-mixing-rule",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched small-pelagic-derogation",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "shall not apply",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "shall not apply"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "shall not apply",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries)",
+          "notes": "via identify_article_49a_propositions(E1)",
+          "proposition_id": "prop:0e651904382dad28",
+          "role": "small-pelagic-derogation",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched industrial-species-derogation",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "shall not apply",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "shall not apply"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "shall not apply",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "(ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes)",
+          "notes": "via identify_article_49a_propositions(E2)",
+          "proposition_id": "prop:4f1c02b9aa8931ca",
+          "role": "industrial-species-derogation",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched small-vessel-derogation",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "shall not apply",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "shall not apply"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "shall not apply",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+          "notes": "via identify_article_49a_propositions(E3)",
+          "proposition_id": "prop:a59c469e896bdc42",
+          "role": "small-vessel-derogation",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched inspection-trigger",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "must monitor the catch composition by way of sampling",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "monitor the catch composition"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "monitor the catch composition",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+          "notes": "via identify_article_49a_propositions(P3)",
+          "proposition_id": "prop:36cacb6e3e555066",
+          "role": "inspection-trigger",
+          "status": "matched"
+        }
+      ],
+      "structural_pattern": "compound_paragraph + structured_list_derogations + trigger + headed_article",
+      "unexpected_propositions": []
+    },
+    {
+      "accepted_limitations": [],
+      "case_id": "uk_regulation_12_spread",
+      "case_status": "pass",
+      "diagnostics": [
+        "prompt_version_production=v3; response_fixture_prompt=v3; reflects_prompt_v3=True"
+      ],
+      "dimension_results": [
+        {
+          "actual": "",
+          "detail": "all expected roles present or ambiguous",
+          "dimension": "coverage",
+          "expected": "",
+          "likely_pipeline_stage": "",
+          "severity_policy": "hard_failure",
+          "status": "pass"
+        }
+      ],
+      "expected_roles": [
+        "organic-manure-spread-prohibition"
+      ],
+      "matched_roles": [
+        "organic-manure-spread-prohibition"
+      ],
+      "missing_roles": [],
+      "produced_count": 1,
+      "role_results": [
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched organic-manure-spread-prohibition",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "must not spread organic manure within 10 metres of surface water",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "must not spread"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "must not spread",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "An occupier of a holding must not spread organic manure within 10 metres of surface water.",
+          "notes": "score=123",
+          "proposition_id": "prop-pf-uk-regulation-12-spread-frag-uk-regulation-12-spread-001",
+          "role": "organic-manure-spread-prohibition",
+          "status": "matched"
+        }
+      ],
+      "structural_pattern": "regulation_heading + actor + prohibition + threshold + paragraph_hierarchy",
+      "unexpected_propositions": []
+    },
+    {
+      "accepted_limitations": [],
+      "case_id": "uk_regulation_13_control",
+      "case_status": "pass",
+      "diagnostics": [
+        "prompt_version_production=v3; response_fixture_prompt=v3; reflects_prompt_v3=True"
+      ],
+      "dimension_results": [
+        {
+          "actual": "",
+          "detail": "all expected roles present or ambiguous",
+          "dimension": "coverage",
+          "expected": "",
+          "likely_pipeline_stage": "",
+          "severity_policy": "hard_failure",
+          "status": "pass"
+        },
+        {
+          "actual": "",
+          "detail": "control remains single proposition",
+          "dimension": "no_false_split",
+          "expected": "",
+          "likely_pipeline_stage": "",
+          "severity_policy": "hard_failure",
+          "status": "pass"
+        }
+      ],
+      "expected_roles": [
+        "unheaded-regulation-validity-statement"
+      ],
+      "matched_roles": [
+        "unheaded-regulation-validity-statement"
+      ],
+      "missing_roles": [],
+      "produced_count": 1,
+      "role_results": [
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched unheaded-regulation-validity-statement",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "remains valid without a heading",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "remains valid"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "remains valid",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "unheaded provision \u2014 normal extraction",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "Regulation 13 has no group Title and remains valid without a heading.",
+          "notes": "score=113",
+          "proposition_id": "prop-pf-uk-regulation-13-control-frag-uk-regulation-13-control-001",
+          "role": "unheaded-regulation-validity-statement",
+          "status": "matched"
+        }
+      ],
+      "structural_pattern": "exactly_one_control + unheaded_regulation",
+      "unexpected_propositions": []
+    },
+    {
+      "accepted_limitations": [],
+      "case_id": "wsi_regulation_36_4",
+      "case_status": "pass",
+      "diagnostics": [
+        "unheaded provision \u2014 prompt-v3 heading block absent as expected"
+      ],
+      "dimension_results": [
+        {
+          "actual": "",
+          "detail": "all expected roles present or ambiguous",
+          "dimension": "coverage",
+          "expected": "",
+          "likely_pipeline_stage": "",
+          "severity_policy": "hard_failure",
+          "status": "pass"
+        }
+      ],
+      "expected_roles": [
+        "record-retention-calculations"
+      ],
+      "matched_roles": [
+        "record-retention-calculations"
+      ],
+      "missing_roles": [],
+      "produced_count": 1,
+      "role_results": [
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched record-retention-calculations",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "must make a record of the calculations and how the final figures were arrived at",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "must make a record"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "must make a record",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "unheaded provision \u2014 normal extraction",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "The occupier must make a record of the calculations and how the final figures were arrived at.",
+          "notes": "score=113",
+          "proposition_id": "prop-pf-wsi-regulation-36-4-frag-wsi-regulation-36-4-001",
+          "role": "record-retention-calculations",
+          "status": "matched"
+        }
+      ],
+      "structural_pattern": "regulation_paragraph_hierarchy + record_obligation + missing_regulation_heading",
+      "unexpected_propositions": []
+    },
+    {
+      "accepted_limitations": [
+        "uk_schedule_1_nitrogen_descriptive_only: UK headed Schedule 1 text is descriptive calculation framing without a clear standalone operative duty; WSI schedule paragraph used instead."
+      ],
+      "case_id": "wsi_schedule_inspection_power",
+      "case_status": "pass",
+      "diagnostics": [
+        "prompt_version_production=v3; response_fixture_prompt=v3; reflects_prompt_v3=True"
+      ],
+      "dimension_results": [
+        {
+          "actual": "",
+          "detail": "all expected roles present or ambiguous",
+          "dimension": "coverage",
+          "expected": "",
+          "likely_pipeline_stage": "",
+          "severity_policy": "hard_failure",
+          "status": "pass"
+        }
+      ],
+      "expected_roles": [
+        "inspector-entry-power"
+      ],
+      "matched_roles": [
+        "inspector-entry-power"
+      ],
+      "missing_roles": [],
+      "produced_count": 1,
+      "role_results": [
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched inspector-entry-power",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "may enter premises for enforcement",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "may enter premises"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "may enter premises",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "Inspectors may enter premises for enforcement.",
+          "notes": "score=113",
+          "proposition_id": "prop-pf-wsi-schedule-inspection-power-frag-wsi-schedule-inspection-power-001",
+          "role": "inspector-entry-power",
+          "status": "matched"
+        }
+      ],
+      "structural_pattern": "schedule_heading + schedule_paragraph + structural_title_vs_operative",
+      "unexpected_propositions": []
+    },
+    {
+      "accepted_limitations": [],
+      "case_id": "uk_compound_spread_and_measure",
+      "case_status": "pass",
+      "diagnostics": [
+        "prompt_version_production=v3; response_fixture_prompt=v3; reflects_prompt_v3=True"
+      ],
+      "dimension_results": [
+        {
+          "actual": "",
+          "detail": "all expected roles present or ambiguous",
+          "dimension": "coverage",
+          "expected": "",
+          "likely_pipeline_stage": "",
+          "severity_policy": "hard_failure",
+          "status": "pass"
+        }
+      ],
+      "expected_roles": [
+        "organic-manure-spread-prohibition",
+        "distance-measurement-restatement"
+      ],
+      "matched_roles": [
+        "organic-manure-spread-prohibition",
+        "distance-measurement-restatement"
+      ],
+      "missing_roles": [],
+      "produced_count": 2,
+      "role_results": [
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched organic-manure-spread-prohibition",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "must not spread organic manure within 10 metres of surface water",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "must not spread"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "must not spread",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "An occupier of a holding must not spread organic manure within 10 metres of surface water.",
+          "notes": "score=123",
+          "proposition_id": "prop-pf-uk-compound-spread-and-measure-frag-uk-compound-spread-and-measure-001",
+          "role": "organic-manure-spread-prohibition",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched distance-measurement-restatement",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "must measure the distance from the edge of the surface water before spreading organic manure",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "must measure"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "must measure",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "The distance is measured from the edge of the surface water.",
+          "notes": "score=113",
+          "proposition_id": "prop-pf-uk-compound-spread-and-measure-frag-uk-compound-spread-and-measure-002",
+          "role": "distance-measurement-restatement",
+          "status": "matched"
+        }
+      ],
+      "structural_pattern": "compound_obligation_style_restatement + shared_distance_condition",
+      "unexpected_propositions": []
+    },
+    {
+      "accepted_limitations": [],
+      "case_id": "slurry_170kg_holding_cap",
+      "case_status": "pass",
+      "diagnostics": [
+        "unheaded provision \u2014 prompt-v3 heading block absent as expected"
+      ],
+      "dimension_results": [
+        {
+          "actual": "",
+          "detail": "all expected roles present or ambiguous",
+          "dimension": "coverage",
+          "expected": "",
+          "likely_pipeline_stage": "",
+          "severity_policy": "hard_failure",
+          "status": "pass"
+        }
+      ],
+      "expected_roles": [
+        "livestock-nitrogen-holding-cap",
+        "derogation-from-holding-cap",
+        "schedule-1-nitrogen-calculation-crossref"
+      ],
+      "matched_roles": [
+        "livestock-nitrogen-holding-cap",
+        "derogation-from-holding-cap",
+        "schedule-1-nitrogen-calculation-crossref"
+      ],
+      "missing_roles": [],
+      "produced_count": 3,
+      "role_results": [
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched livestock-nitrogen-holding-cap",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "must ensure that the total amount of nitrogen in livestock manure applied does not exceed 170kg per hectare",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "must ensure"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "must ensure",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "unheaded provision \u2014 normal extraction",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "The occupier of a holding must ensure that, in any calendar year, the total amount of nitrogen in livestock manure applied to the holding, whether directly by an animal or by spreading, does not exceed 170kg multiplied by the area of the holding in hectares.",
+          "notes": "score=123",
+          "proposition_id": "prop-pf-slurry-170kg-holding-cap-frag-slurry-170kg-holding-cap-001",
+          "role": "livestock-nitrogen-holding-cap",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched derogation-from-holding-cap",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "does not apply",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "does not apply"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "does not apply",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "unheaded provision \u2014 normal extraction",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "Paragraph (1) does not apply where the occupier has been granted a derogation.",
+          "notes": "score=98",
+          "proposition_id": "prop-pf-slurry-170kg-holding-cap-frag-slurry-170kg-holding-cap-002",
+          "role": "derogation-from-holding-cap",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched schedule-1-nitrogen-calculation-crossref",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "is to be calculated in accordance with Schedule 1",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "calculated in accordance with Schedule 1"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "calculated in accordance with Schedule 1",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "unheaded provision \u2014 normal extraction",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "the amount of nitrogen is to be calculated in accordance with Schedule 1",
+          "notes": "score=98",
+          "proposition_id": "prop-pf-slurry-170kg-holding-cap-frag-slurry-170kg-holding-cap-003",
+          "role": "schedule-1-nitrogen-calculation-crossref",
+          "status": "matched"
+        }
+      ],
+      "structural_pattern": "obligation + exception + schedule_cross_reference + threshold",
+      "unexpected_propositions": []
+    },
+    {
+      "accepted_limitations": [],
+      "case_id": "compound_rule_exception_shared",
+      "case_status": "pass",
+      "diagnostics": [
+        "unheaded provision \u2014 prompt-v3 heading block absent as expected"
+      ],
+      "dimension_results": [
+        {
+          "actual": "",
+          "detail": "all expected roles present or ambiguous",
+          "dimension": "coverage",
+          "expected": "",
+          "likely_pipeline_stage": "",
+          "severity_policy": "hard_failure",
+          "status": "pass"
+        }
+      ],
+      "expected_roles": [
+        "slurry-storage-proximity-prohibition",
+        "covered-storage-exception",
+        "risk-assessment-condition"
+      ],
+      "matched_roles": [
+        "slurry-storage-proximity-prohibition",
+        "covered-storage-exception",
+        "risk-assessment-condition"
+      ],
+      "missing_roles": [],
+      "produced_count": 3,
+      "role_results": [
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched slurry-storage-proximity-prohibition",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "must not store slurry within 10 metres of a watercourse",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "must not store"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "must not store",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "unheaded provision \u2014 normal extraction",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "A person must not store slurry within 10 metres of a watercourse unless the storage is covered and the person keeps a written risk assessment.",
+          "notes": "score=123",
+          "proposition_id": "prop-pf-compound-rule-exception-shared-frag-compound-rule-exception-shared-001",
+          "role": "slurry-storage-proximity-prohibition",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched covered-storage-exception",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "does not apply",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "does not apply"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "does not apply",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "unheaded provision \u2014 normal extraction",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "Where those conditions are met, the prohibition in the preceding sentence does not apply.",
+          "notes": "score=98",
+          "proposition_id": "prop-pf-compound-rule-exception-shared-frag-compound-rule-exception-shared-002",
+          "role": "covered-storage-exception",
+          "status": "matched"
+        },
+        {
+          "competing_candidates": [],
+          "dimension_results": [
+            {
+              "actual": "",
+              "detail": "matched risk-assessment-condition",
+              "dimension": "coverage",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "atomicity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_merge",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "no_false_split",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "actor_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "keeps a written risk assessment",
+              "audit": {
+                "equivalence_basis": "normalized_substring",
+                "evaluation_mode": "legacy_required_action",
+                "required_action": "keeps a written risk assessment"
+              },
+              "detail": "legacy required_action substring match",
+              "dimension": "action_fidelity",
+              "expected": "keeps a written risk assessment",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "object_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "condition_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "exception_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "threshold_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "cross_reference_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "informational",
+              "status": "not_applicable"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "evidence_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "unheaded provision \u2014 normal extraction",
+              "dimension": "structural_context_boundary",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "legal_effect_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            },
+            {
+              "actual": "",
+              "detail": "",
+              "dimension": "completeness_fidelity",
+              "expected": "",
+              "likely_pipeline_stage": "",
+              "severity_policy": "hard_failure",
+              "status": "pass"
+            }
+          ],
+          "evidence": "the person keeps a written risk assessment",
+          "notes": "score=113",
+          "proposition_id": "prop-pf-compound-rule-exception-shared-frag-compound-rule-exception-shared-003",
+          "role": "risk-assessment-condition",
+          "status": "matched"
+        }
+      ],
+      "structural_pattern": "rule_plus_exception + shared_condition + threshold",
+      "unexpected_propositions": []
+    }
+  ],
+  "dimension_totals": {
+    "action_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 18,
+      "warning": 0
+    },
+    "actor_fidelity": {
+      "fail": 0,
+      "not_applicable": 6,
+      "pass": 12,
+      "warning": 0
+    },
+    "atomicity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 18,
+      "warning": 0
+    },
+    "completeness_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 18,
+      "warning": 0
+    },
+    "condition_fidelity": {
+      "fail": 0,
+      "not_applicable": 9,
+      "pass": 9,
+      "warning": 0
+    },
+    "coverage": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 26,
+      "warning": 0
+    },
+    "cross_reference_fidelity": {
+      "fail": 0,
+      "not_applicable": 15,
+      "pass": 3,
+      "warning": 0
+    },
+    "evidence_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 18,
+      "warning": 0
+    },
+    "exception_fidelity": {
+      "fail": 0,
+      "not_applicable": 12,
+      "pass": 6,
+      "warning": 0
+    },
+    "legal_effect_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 18,
+      "warning": 0
+    },
+    "no_false_merge": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 18,
+      "warning": 0
+    },
+    "no_false_split": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 19,
+      "warning": 0
+    },
+    "object_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 18,
+      "warning": 0
+    },
+    "structural_context_boundary": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 18,
+      "warning": 0
+    },
+    "threshold_fidelity": {
+      "fail": 0,
+      "not_applicable": 11,
+      "pass": 7,
+      "warning": 0
+    }
+  },
+  "failures": [],
+  "runtime_seconds": 3.265,
+  "totals": {
+    "cases": 8,
+    "expected_propositions": 18,
+    "failed_roles": 0,
+    "fully_passing_roles": 18,
+    "produced_propositions": 18,
+    "unexpected_propositions": 0,
+    "warning_roles": 0
+  },
+  "warnings": []
+}

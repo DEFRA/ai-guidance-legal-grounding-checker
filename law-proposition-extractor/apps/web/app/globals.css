@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+}
+
+@layer components {
+  /* Review workbench frame */
+  .rw-frame {
+    @apply min-h-screen bg-rw-frame;
+  }
+
+  .rw-nav {
+    @apply border-b border-navy-border bg-navy text-navy-foreground;
+  }
+
+  .rw-nav-link {
+    @apply rounded border border-navy-border bg-navy-muted px-2 py-1 text-[11px] font-medium text-navy-foreground/80 transition hover:bg-navy-border hover:text-navy-foreground;
+  }
+
+  .rw-nav-link-active {
+    @apply border-navy-foreground/30 bg-navy-foreground/15 text-navy-foreground;
+  }
+
+  .rw-card {
+    @apply rounded-lg border border-border/80 bg-rw-card shadow-sm;
+  }
+
+  .rw-card-header {
+    @apply border-b border-border/60 px-4 py-3;
+  }
+
+  .rw-card-title {
+    @apply text-[10px] font-semibold uppercase tracking-[0.08em] text-muted-foreground;
+  }
+
+  .rw-card-body {
+    @apply p-4;
+  }
+
+  .rw-section-header {
+    @apply flex flex-wrap items-center justify-between gap-3 border-b border-navy-border bg-navy px-4 py-3 text-navy-foreground;
+  }
+
+  .rw-section-header-label {
+    @apply text-[11px] font-medium text-navy-foreground/75;
+  }
+
+  .rw-section-header-status {
+    @apply rounded border px-2 py-0.5 text-[10px] font-medium;
+  }
+
+  .rw-section-header-status-unreviewed {
+    @apply border-navy-border bg-navy-muted text-navy-foreground/70;
+  }
+
+  .rw-section-header-status-draft {
+    @apply border-amber-500/50 bg-amber-500/20 text-amber-100;
+  }
+
+  .rw-section-header-status-complete {
+    @apply border-emerald-500/50 bg-emerald-500/20 text-emerald-100;
+  }
+
+  /* Evidence panels */
+  .rw-panel-statement {
+    @apply rounded-lg border border-border bg-rw-panel-statement p-4 text-rw-legal-text shadow-sm;
+  }
+
+  .rw-panel-sources {
+    @apply mt-4 rounded-lg border border-slate-300/80 bg-rw-panel-sources px-3 py-3 text-rw-legal-text shadow-sm;
+  }
+
+  .rw-panel-context {
+    @apply mt-4 rounded-lg border border-amber-300/70 bg-rw-panel-context px-3 py-3 text-rw-legal-text shadow-sm;
+  }
+
+  .rw-panel-journey {
+    @apply rounded-lg border border-slate-300/60 border-dashed bg-rw-panel-journey p-4;
+  }
+
+  .rw-panel-journey-inner {
+    @apply space-y-3 rounded-lg border border-slate-300/70 bg-rw-card p-3 text-rw-legal-text shadow-sm;
+  }
+
+  .rw-panel-verdict {
+    @apply rounded-lg border border-navy-border bg-rw-panel-verdict p-4 text-navy-foreground shadow-md;
+  }
+
+  .rw-stage-label {
+    @apply text-[10px] font-semibold uppercase tracking-[0.1em] text-muted-foreground;
+  }
+
+  .rw-stage-label-on-dark {
+    @apply text-[10px] font-semibold uppercase tracking-[0.1em] text-navy-foreground/60;
+  }
+
+  .rw-legal-excerpt {
+    @apply text-[13px] leading-relaxed text-rw-legal-text;
+  }
+
+  .rw-panel-highlight {
+    @apply ring-2 ring-priguidance-discovery/50 bg-priguidance-discovery/10;
+  }
+
+  /* Buttons */
+  .rw-btn-primary {
+    @apply rounded border border-navy bg-navy px-2 py-1 text-[11px] font-medium text-navy-foreground transition hover:bg-navy/90 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .rw-btn-secondary {
+    @apply rounded border border-navy-border bg-navy-muted px-2 py-1 text-[11px] font-medium text-navy-foreground transition hover:bg-navy-border disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .rw-btn-cta-on-dark {
+    @apply rounded border border-navy-foreground/20 bg-navy-foreground px-2 py-1 text-[11px] font-medium text-navy transition hover:bg-navy-foreground/90 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .rw-btn-secondary-on-light {
+    @apply rounded border border-border/80 bg-background px-2 py-1 text-[11px] font-medium text-foreground transition hover:bg-muted/50 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .rw-btn-preset-active {
+    @apply rounded border border-navy bg-navy px-2 py-1 text-[11px] font-medium text-navy-foreground shadow-sm;
+  }
+
+  .rw-btn-preset-idle {
+    @apply rounded border border-border/80 bg-background px-2 py-1 text-[11px] font-medium text-foreground/85 transition hover:bg-muted/50;
+  }
+
+  .rw-btn-toggle-idle {
+    @apply rounded border border-border/80 bg-background text-foreground/85 transition hover:bg-muted/50;
+  }
+
+  .rw-btn-toggle-active {
+    @apply rounded border border-navy/70 bg-navy/10 text-navy shadow-sm;
+  }
+
+  .rw-chip {
+    @apply rounded border border-border/70 bg-muted/80 px-2 py-0.5 font-mono text-[11px] leading-5 text-foreground/85;
+  }
+
+  .rw-chip-warn {
+    @apply rounded border border-amber-700/35 bg-amber-950/10 px-2 py-0.5 text-[10px] font-medium text-amber-950;
+  }
+
+  .rw-summary-chip {
+    @apply rounded border border-border/70 px-2 py-0.5 text-[11px];
+  }
+
+  /* Verdict buttons — semantic colours */
+  .rw-verdict-btn {
+    @apply rounded border px-2 py-1 text-[12px] font-medium transition;
+  }
+
+  .rw-verdict-btn-idle {
+    @apply border-border/80 bg-background text-foreground/85 hover:bg-muted/50;
+  }
+
+  .rw-verdict-btn-accurate.rw-verdict-btn-active {
+    @apply border-verdict-accurate bg-verdict-accurate text-white shadow-sm;
+  }
+
+  .rw-verdict-btn-incomplete.rw-verdict-btn-active {
+    @apply border-verdict-incomplete bg-verdict-incomplete text-white shadow-sm;
+  }
+
+  .rw-verdict-btn-overreaching.rw-verdict-btn-active {
+    @apply border-verdict-overreaching bg-verdict-overreaching text-white shadow-sm;
+  }
+
+  .rw-verdict-btn-bad_merge.rw-verdict-btn-active {
+    @apply border-verdict-bad-merge bg-verdict-bad-merge text-white shadow-sm;
+  }
+
+  .rw-verdict-btn-missing_propositions.rw-verdict-btn-active {
+    @apply border-verdict-missing-propositions bg-verdict-missing-propositions text-white shadow-sm;
+  }
+
+  .rw-quality-banner-complete {
+    @apply rounded-lg border border-emerald-500/40 bg-emerald-500/15 px-3 py-2 text-[11px] font-medium text-emerald-100;
+  }
+
+  .rw-quality-banner-draft {
+    @apply rounded-lg border border-amber-500/40 bg-amber-500/15 px-3 py-2 text-[11px] font-medium text-amber-100;
+  }
+
+  .rw-quality-banner-unreviewed {
+    @apply rounded-lg border border-navy-border bg-navy-muted px-3 py-2 text-[11px] text-navy-foreground/70;
+  }
+
+  .rw-journey-arrow {
+    @apply flex justify-center py-1 text-muted-foreground/60;
+  }
+}

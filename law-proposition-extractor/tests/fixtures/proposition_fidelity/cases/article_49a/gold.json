@@ -1,0 +1,107 @@
+{
+  "case_id": "article_49a",
+  "expected_propositions": [
+    {
+      "role": "separate-identification-obligation",
+      "article_49a_role": "P1",
+      "source_locator": "article:49a:paragraph:1",
+      "short_legal_description": "Sub-MCRS catches retained on board must be stowed so they are identifiable.",
+      "legal_effect_type": "obligation",
+      "required_actor": "United Kingdom fishing vessel",
+      "required_action": "placed in boxes",
+      "object": "catches below the applicable minimum conservation reference size",
+      "conditions": [
+        "below the applicable minimum conservation reference size",
+        "retained on board"
+      ],
+      "thresholds": [],
+      "evidence_markers": ["identifiable from other boxes"],
+      "expected_completeness": "complete",
+      "may_share_source_fragment_with": ["prohibited-mixing-rule"]
+    },
+    {
+      "role": "prohibited-mixing-rule",
+      "article_49a_role": "P2",
+      "source_locator": "article:49a:paragraph:1",
+      "short_legal_description": "Sub-MCRS catches must not be mixed with other fishery products.",
+      "legal_effect_type": "prohibition",
+      "required_actor": "United Kingdom fishing vessel",
+      "action_expectation": {
+        "predicates": ["mix"],
+        "polarity": "negative",
+        "legal_effect": "prohibition",
+        "voice": "either",
+        "required_object_markers": ["catches", "other catch"]
+      },
+      "object": "any other fishery products",
+      "conditions": [
+        "below the applicable minimum conservation reference size"
+      ],
+      "evidence_markers": ["shall not be mixed"],
+      "expected_completeness": "complete",
+      "may_share_source_fragment_with": ["separate-identification-obligation"]
+    },
+    {
+      "role": "small-pelagic-derogation",
+      "article_49a_role": "E1",
+      "source_locator": "article:49a:paragraph:2",
+      "short_legal_description": "Paragraph 1 does not apply where catches are >80% small pelagic species.",
+      "legal_effect_type": "derogation",
+      "required_action": "shall not apply",
+      "object": "small pelagic",
+      "conditions": ["80%"],
+      "thresholds": ["80%"],
+      "structured_list_path": "2-a-i",
+      "exceptions": ["Paragraph 1 shall not apply"],
+      "evidence_markers": ["mackerel"],
+      "expected_completeness": "complete"
+    },
+    {
+      "role": "industrial-species-derogation",
+      "article_49a_role": "E2",
+      "source_locator": "article:49a:paragraph:2",
+      "short_legal_description": "Paragraph 1 does not apply where catches are >80% industrial-purpose species.",
+      "legal_effect_type": "derogation",
+      "required_action": "shall not apply",
+      "object": "industrial",
+      "conditions": ["80%"],
+      "thresholds": ["80%"],
+      "structured_list_path": "2-a-ii",
+      "exceptions": ["Paragraph 1 shall not apply"],
+      "evidence_markers": ["capelin"],
+      "expected_completeness": "complete"
+    },
+    {
+      "role": "small-vessel-derogation",
+      "article_49a_role": "E3",
+      "source_locator": "article:49a:paragraph:2",
+      "short_legal_description": "Paragraph 1 does not apply to vessels under 12m LOA with Article 14 recording.",
+      "legal_effect_type": "derogation",
+      "required_action": "shall not apply",
+      "object": "fishing vessels of less than 12 metres",
+      "conditions": ["12 metres", "Article 14"],
+      "thresholds": ["12"],
+      "structured_list_path": "2-b",
+      "cross_references": ["Article 14"],
+      "exceptions": ["Paragraph 1 shall not apply"],
+      "evidence_markers": ["12 metres"],
+      "expected_completeness": "complete"
+    },
+    {
+      "role": "inspection-trigger",
+      "article_49a_role": "P3",
+      "source_locator": "article:49a:paragraph:3",
+      "short_legal_description": "Fisheries administration must monitor catch composition by sampling when paragraph 2 applies.",
+      "legal_effect_type": "obligation",
+      "required_actor": "fisheries administration",
+      "required_action": "monitor the catch composition",
+      "object": "catch composition",
+      "conditions": ["paragraph 2"],
+      "cross_references": ["paragraph 2"],
+      "evidence_markers": ["by way of sampling"],
+      "expected_completeness": "context_dependent",
+      "completeness_severity": "warning",
+      "context_dependencies": ["article:49a:paragraph:2"]
+    }
+  ]
+}

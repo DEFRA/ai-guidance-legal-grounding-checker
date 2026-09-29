@@ -1,0 +1,218 @@
+[
+  {
+    "query": "Animal by-products traceability and controls Animal By-Products covers identification, tracking, transport documentation, batch traceability, processing records, and disposal controls for materials not intended for human consumption. Includes rendering, fallen stock, pet food manufacture, environmental protection, and disease transmission controls.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Animal by-products traceability and controls",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "animal by-products",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: animal by-products"
+  },
+  {
+    "query": "animal by products",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: animal by products"
+  },
+  {
+    "query": "ABP",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ABP"
+  },
+  {
+    "query": "ABPs",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ABPs"
+  },
+  {
+    "query": "not intended for human consumption",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: not intended for human consumption"
+  },
+  {
+    "query": "fallen stock",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: fallen stock"
+  },
+  {
+    "query": "rendering",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: rendering"
+  },
+  {
+    "query": "pet food manufacture",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pet food manufacture"
+  },
+  {
+    "query": "transport documentation",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: transport documentation"
+  },
+  {
+    "query": "commercial document",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: commercial document"
+  },
+  {
+    "query": "batch traceability",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: batch traceability"
+  },
+  {
+    "query": "processing record",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: processing record"
+  },
+  {
+    "query": "processing records",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: processing records"
+  },
+  {
+    "query": "disposal controls",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: disposal controls"
+  },
+  {
+    "query": "category 1 material",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: category 1 material"
+  },
+  {
+    "query": "category 2 material",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: category 2 material"
+  },
+  {
+    "query": "category 3 material",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: category 3 material"
+  },
+  {
+    "query": "disease transmission",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: disease transmission"
+  },
+  {
+    "query": "environmental protection",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: environmental protection"
+  },
+  {
+    "query": "Animal by-products traceability and controls UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Animal by-products traceability and controls Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Animal by-products traceability and controls England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Animal by-products traceability and controls Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Animal by-products traceability and controls Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Animal by-products traceability and controls Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "animal by-products regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): animal by-products"
+  },
+  {
+    "query": "animal by-products order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): animal by-products"
+  },
+  {
+    "query": "animal by-products act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): animal by-products"
+  },
+  {
+    "query": "animal by products regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): animal by products"
+  },
+  {
+    "query": "animal by products order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): animal by products"
+  },
+  {
+    "query": "animal by products act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): animal by products"
+  },
+  {
+    "query": "ABP regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): ABP"
+  },
+  {
+    "query": "ABP order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): ABP"
+  },
+  {
+    "query": "ABP act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): ABP"
+  }
+]

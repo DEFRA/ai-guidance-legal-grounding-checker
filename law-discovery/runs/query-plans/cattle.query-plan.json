@@ -1,0 +1,266 @@
+[
+  {
+    "query": "Cattle identification and traceability Cattle, bovines, cows, calves, and bison identification using ear tags, RFID tags, passports, and digital movement records. Covers traceability, movement reporting, welfare, trade assurance, farm compliance, and disease control including bovine tuberculosis (bTB), Bluetongue, and Foot and Mouth Disease.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Cattle identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "cattle",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cattle"
+  },
+  {
+    "query": "bovine",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bovine"
+  },
+  {
+    "query": "bovines",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bovines"
+  },
+  {
+    "query": "cow",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cow"
+  },
+  {
+    "query": "cows",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cows"
+  },
+  {
+    "query": "calf",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: calf"
+  },
+  {
+    "query": "calves",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: calves"
+  },
+  {
+    "query": "bison",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bison"
+  },
+  {
+    "query": "ear tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tag"
+  },
+  {
+    "query": "ear tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tags"
+  },
+  {
+    "query": "cattle passport",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cattle passport"
+  },
+  {
+    "query": "cattle passports",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cattle passports"
+  },
+  {
+    "query": "RFID tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: RFID tag"
+  },
+  {
+    "query": "RFID tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: RFID tags"
+  },
+  {
+    "query": "digital movement record",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: digital movement record"
+  },
+  {
+    "query": "movement reporting",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement reporting"
+  },
+  {
+    "query": "cattle tracing system",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cattle tracing system"
+  },
+  {
+    "query": "CTS",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: CTS"
+  },
+  {
+    "query": "British Cattle Movement Service",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: British Cattle Movement Service"
+  },
+  {
+    "query": "BCMS",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: BCMS"
+  },
+  {
+    "query": "holding register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: holding register"
+  },
+  {
+    "query": "herd register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: herd register"
+  },
+  {
+    "query": "keeper",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: keeper"
+  },
+  {
+    "query": "bovine tuberculosis",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bovine tuberculosis"
+  },
+  {
+    "query": "bTB",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bTB"
+  },
+  {
+    "query": "Bluetongue",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Bluetongue"
+  },
+  {
+    "query": "Foot and Mouth Disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Foot and Mouth Disease"
+  },
+  {
+    "query": "FMD",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: FMD"
+  },
+  {
+    "query": "Cattle identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Cattle identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Cattle identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Cattle identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Cattle identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "cattle regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): cattle"
+  },
+  {
+    "query": "cattle order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): cattle"
+  },
+  {
+    "query": "cattle act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): cattle"
+  },
+  {
+    "query": "bovine regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): bovine"
+  },
+  {
+    "query": "bovine order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): bovine"
+  },
+  {
+    "query": "bovine act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): bovine"
+  },
+  {
+    "query": "bovines regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): bovines"
+  },
+  {
+    "query": "bovines order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): bovines"
+  },
+  {
+    "query": "bovines act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): bovines"
+  }
+]

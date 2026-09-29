@@ -1,0 +1,147 @@
+{
+  "article_49a_detail": null,
+  "benchmark_result": {
+    "accepted_limitations": [],
+    "case_id": "wsi_regulation_36_4",
+    "case_status": "pass",
+    "diagnostics": [
+      "sample fixture"
+    ],
+    "dimension_results": [],
+    "expected_roles": [
+      "record-retention-calculations"
+    ],
+    "matched_roles": [
+      "record-retention-calculations"
+    ],
+    "missing_roles": [],
+    "produced_count": 1,
+    "role_results": [
+      {
+        "competing_candidates": [],
+        "dimension_results": [
+          {
+            "actual": "",
+            "detail": "",
+            "dimension": "coverage",
+            "expected": "",
+            "likely_pipeline_stage": "",
+            "severity_policy": "hard_failure",
+            "status": "pass"
+          }
+        ],
+        "evidence": "sample evidence",
+        "notes": "",
+        "proposition_id": "prop-record-retention-calculations",
+        "role": "record-retention-calculations",
+        "status": "matched"
+      }
+    ],
+    "structural_pattern": "fixture",
+    "unexpected_propositions": []
+  },
+  "calibration_run_id": "sample_run",
+  "case_id": "wsi_regulation_36_4",
+  "diagnostics": [
+    "sample fixture"
+  ],
+  "ended_at": "2026-07-15T00:00:01+00:00",
+  "failure_origins": [],
+  "final_propositions": [
+    {
+      "evidence_quote": "operative",
+      "fragment_locator": "wsi_regulation_36_4",
+      "id": "prop-wsi_regulation_36_4-1",
+      "legal_effect_type": "obligation",
+      "proposition_text": "sample wsi_regulation_36_4"
+    }
+  ],
+  "focus_terms": [],
+  "heading_boundary": {
+    "findings": [],
+    "heading_present": false
+  },
+  "json_repair_applied": false,
+  "json_repair_method": null,
+  "latency_seconds": 1.0,
+  "legislative_heading": null,
+  "model_alias": "frontier_extract",
+  "operative_source_excerpt": "operative sample text",
+  "parser_result": {
+    "parse_status": "ok",
+    "raw_row_count": 1
+  },
+  "prompt_template_identifier": "_v2_model_prompt / EXTRACTION_PROMPT_VERSION=v3",
+  "prompt_text": "Operative source text: sample",
+  "prompt_version": "v3",
+  "provider_calls": [
+    {
+      "call_index": 1,
+      "ended_at": "2026-07-15T00:00:01+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "fragment_locator_hint": "wsi_regulation_36_4",
+      "is_retry": false,
+      "latency_seconds": 1.0,
+      "model_alias": "frontier_extract",
+      "prompt_chars": 20,
+      "prompt_excerpt": "Operative source text: sample",
+      "provider_request_id": "req-sample",
+      "raw_response": "{\"propositions\": [{\"evidence_text\": \"operative\", \"text\": \"wsi_regulation_36_4-1\"}]}",
+      "resolved_model": "claude-sonnet-4-5-20250929",
+      "response_format": {
+        "type": "json_object"
+      },
+      "started_at": "2026-07-15T00:00:00+00:00",
+      "system_prompt": "You extract legal propositions as strict JSON only.",
+      "temperature": 0.0,
+      "token_usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 10,
+        "total_tokens": 15
+      }
+    }
+  ],
+  "provider_request_ids": [
+    "req-sample"
+  ],
+  "raw_response_status": "ok",
+  "raw_rows": [
+    {
+      "evidence_text": "operative",
+      "proposition_text": "wsi_regulation_36_4-1"
+    }
+  ],
+  "raw_structured_response": [
+    "{\"propositions\": [{\"evidence_text\": \"operative\", \"text\": \"wsi_regulation_36_4-1\"}]}"
+  ],
+  "rejected_rows": [],
+  "repetition": 1,
+  "request_parameters": {
+    "prompt_version": "v3",
+    "seed": null,
+    "temperature": 0.0
+  },
+  "required_locators": [
+    "wsi_regulation_36_4"
+  ],
+  "resolved_provider_model": "anthropic/claude-sonnet-4-5-20250929",
+  "source_fragment_ids": [
+    "frag-wsi_regulation_36_4"
+  ],
+  "source_snapshot_id": "snap-wsi_regulation_36_4",
+  "started_at": "2026-07-15T00:00:00+00:00",
+  "token_usage": {
+    "completion_tokens": 5,
+    "prompt_tokens": 10,
+    "total_tokens": 15
+  },
+  "validated_rows": [
+    {
+      "evidence_text": "operative",
+      "proposition_text": "wsi_regulation_36_4-1"
+    }
+  ],
+  "validation_diagnostics": [],
+  "validation_status": "ok"
+}

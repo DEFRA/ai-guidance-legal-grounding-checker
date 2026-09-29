@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "note": "Substantive fingerprint baseline for component rename AC-10",
+  "files": [
+    {
+      "path": "law-proposition-extractor/data/demo/case.json",
+      "sha256": "ae44743e5e935fb06b22133ac7025124f7c745f89013cb71ef62a9fea6bd9335",
+      "bytes": 2558,
+      "id_count": 2,
+      "ids_sha256": "f410a543d766576176272587c69ac9ab7b0df5cdd6ecdc01f42e701954113709"
+    },
+    {
+      "path": "law-proposition-extractor/data/demo/example_case.json",
+      "sha256": "9d934fa6024f0e406e1248f5aa92b0f2d52c4c7eb2c201acd1fb27594ab41c03",
+      "bytes": 1939,
+      "id_count": 2,
+      "ids_sha256": "f410a543d766576176272587c69ac9ab7b0df5cdd6ecdc01f42e701954113709"
+    },
+    {
+      "path": "law-proposition-extractor/data/demo/realistic_case.json",
+      "sha256": "b9e65c96b82597c65eecd6a35c840b1ca8ecc9dd87d7885d20bec4a0f79049dc",
+      "bytes": 2708,
+      "id_count": 2,
+      "ids_sha256": "819bda30289c2f093d1b43cfe9d9049fd1526321edf4d24bfb4bd02efbf68bc5"
+    },
+    {
+      "path": "law-proposition-extractor/data/demo/run_bundle.json",
+      "sha256": "b82244b89a27af4b31186084f2239c60263d96695659ee7e324a5b58097e8c50",
+      "bytes": 90459,
+      "id_count": 90,
+      "ids_sha256": "56b7eca38938ea4dfc81450502b38770f48a4f5edd5cc73c490fc163ef67f372",
+      "proposition_count": 4
+    },
+    {
+      "path": "law-proposition-extractor/data/demo/single_jurisdiction_case.json",
+      "sha256": "aff50c349831912dd099bc03785c7679e4f5b0455f311a8553a76969f21bed68",
+      "bytes": 1395,
+      "id_count": 1,
+      "ids_sha256": "a2e12477d4c59677bb2419cfd61c3b9f0fa5438d791076bb7ed1e7a6c50bd0d8"
+    },
+    {
+      "path": "law-proposition-extractor/data/demo/case.json",
+      "sha256": "ae44743e5e935fb06b22133ac7025124f7c745f89013cb71ef62a9fea6bd9335",
+      "bytes": 2558,
+      "id_count": 2,
+      "ids_sha256": "f410a543d766576176272587c69ac9ab7b0df5cdd6ecdc01f42e701954113709"
+    },
+    {
+      "path": "law-proposition-extractor/data/demo/example_case.json",
+      "sha256": "9d934fa6024f0e406e1248f5aa92b0f2d52c4c7eb2c201acd1fb27594ab41c03",
+      "bytes": 1939,
+      "id_count": 2,
+      "ids_sha256": "f410a543d766576176272587c69ac9ab7b0df5cdd6ecdc01f42e701954113709"
+    },
+    {
+      "path": "law-proposition-extractor/data/demo/realistic_case.json",
+      "sha256": "b9e65c96b82597c65eecd6a35c840b1ca8ecc9dd87d7885d20bec4a0f79049dc",
+      "bytes": 2708,
+      "id_count": 2,
+      "ids_sha256": "819bda30289c2f093d1b43cfe9d9049fd1526321edf4d24bfb4bd02efbf68bc5"
+    },
+    {
+      "path": "law-proposition-extractor/data/demo/run_bundle.json",
+      "sha256": "b82244b89a27af4b31186084f2239c60263d96695659ee7e324a5b58097e8c50",
+      "bytes": 90459,
+      "id_count": 90,
+      "ids_sha256": "56b7eca38938ea4dfc81450502b38770f48a4f5edd5cc73c490fc163ef67f372",
+      "proposition_count": 4
+    },
+    {
+      "path": "law-proposition-extractor/data/demo/single_jurisdiction_case.json",
+      "sha256": "aff50c349831912dd099bc03785c7679e4f5b0455f311a8553a76969f21bed68",
+      "bytes": 1395,
+      "id_count": 1,
+      "ids_sha256": "a2e12477d4c59677bb2419cfd61c3b9f0fa5438d791076bb7ed1e7a6c50bd0d8"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/beatrice_law_candidates.json",
+      "sha256": "72a17edcc42719eb35920f1b48683eff27f559d825f800bd11bacef1d3062cda",
+      "bytes": 36932,
+      "id_count": 6,
+      "ids_sha256": "def098eaad65414271f922253fd9a091482d0a9349adc88cc96326b3edcdb9dd"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/decision_explanations.json",
+      "sha256": "09aed39cd0b54908ac962331c5baa7240455988435bc8f4e3ca2a3d2b2530127",
+      "bytes": 416618,
+      "id_count": 748,
+      "ids_sha256": "14f3cbd035e07c64676df2712b769549c71f824c6ed09dc89f74535b9236c261"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/effective_law_statements.json",
+      "sha256": "5ccddc13288098d37dd60a62448778d754e2eb78d6e7f3f09edcf32c3cf9d7b8",
+      "bytes": 35248,
+      "id_count": 6,
+      "ids_sha256": "3fdb3e6af469ffcf37efec7ecb292d7f5b1ff2d123713c8cb00e628e83df58f3"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/legal_rule_groups.json",
+      "sha256": "002421f7ebcec68976aeaba5c90644427f29216130170927c937d2aa3d50e57e",
+      "bytes": 1181,
+      "id_count": 2,
+      "ids_sha256": "ee7dbefae6a25a3458ed93439eab83349e559d141af9b065eac070ee3dd79d9f"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/legal_rule_relationships.json",
+      "sha256": "d49bcb73fc1e285c907e16dcfa9c7650041df1e31a7293deba65bbf5b4a4d032",
+      "bytes": 4218,
+      "id_count": 4,
+      "ids_sha256": "ba8b00ccfd95bab303bed2773d2f75ee9eb44d3c290e8514ac4bb657e8965ef1"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/propositions.json",
+      "sha256": "e668e8fd0a454309f26c28b9b3aa43e1fffc8a1b507b6dec683a714399129294",
+      "bytes": 25998,
+      "id_count": 6,
+      "ids_sha256": "e5a53659194c456fb0e9c1288e041e4fefbcfc0b5f8d117e280f5f63d31f7c64",
+      "list_len": 6
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/source_fragments.slim.json",
+      "sha256": "16e2350353a3f0eadd86388aa6fd3c97a7c040752e5fed529af3807243ad77f4",
+      "bytes": 37714,
+      "id_count": 10,
+      "ids_sha256": "ac158446f583d08b3893ecf446ac57e998d1a4fa4da6dc1c72cd1caee8f1f614",
+      "list_len": 10
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/source_legal_effects.json",
+      "sha256": "0a1c5b8f2f4c8a2362f506f9fd9dc121e986d077fbb0aab5669bdb313563b2f8",
+      "bytes": 63426,
+      "id_count": 49,
+      "ids_sha256": "2e23163858ac9bfd3fc480a1d71fa3291fbfe9bcf0e43be537479fac3ac8821c"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/source_snapshots.json",
+      "sha256": "b83225ddaaf00846d041c15253db4a210dc421ac82072fb634560ae79e073c91",
+      "bytes": 68137,
+      "id_count": 50,
+      "ids_sha256": "dc5d51b64e72639d9df7216644a0c2e664b84e23a06474438036377769a63a95",
+      "list_len": 1
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/sources.json",
+      "sha256": "134f2fd832b5968c96e181e9f2945e052e63ee3281069dc97ad37bf02dde71d1",
+      "bytes": 6485,
+      "id_count": 1,
+      "ids_sha256": "c694344e5e1afe69ff969972659a125647843f294a890f5d6b06c5bdc89e5ab0",
+      "list_len": 1
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/beatrice_law_candidates.json",
+      "sha256": "72a17edcc42719eb35920f1b48683eff27f559d825f800bd11bacef1d3062cda",
+      "bytes": 36932,
+      "id_count": 6,
+      "ids_sha256": "def098eaad65414271f922253fd9a091482d0a9349adc88cc96326b3edcdb9dd"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/decision_explanations.json",
+      "sha256": "09aed39cd0b54908ac962331c5baa7240455988435bc8f4e3ca2a3d2b2530127",
+      "bytes": 416618,
+      "id_count": 748,
+      "ids_sha256": "14f3cbd035e07c64676df2712b769549c71f824c6ed09dc89f74535b9236c261"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/effective_law_statements.json",
+      "sha256": "5ccddc13288098d37dd60a62448778d754e2eb78d6e7f3f09edcf32c3cf9d7b8",
+      "bytes": 35248,
+      "id_count": 6,
+      "ids_sha256": "3fdb3e6af469ffcf37efec7ecb292d7f5b1ff2d123713c8cb00e628e83df58f3"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/legal_rule_groups.json",
+      "sha256": "002421f7ebcec68976aeaba5c90644427f29216130170927c937d2aa3d50e57e",
+      "bytes": 1181,
+      "id_count": 2,
+      "ids_sha256": "ee7dbefae6a25a3458ed93439eab83349e559d141af9b065eac070ee3dd79d9f"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/legal_rule_relationships.json",
+      "sha256": "d49bcb73fc1e285c907e16dcfa9c7650041df1e31a7293deba65bbf5b4a4d032",
+      "bytes": 4218,
+      "id_count": 4,
+      "ids_sha256": "ba8b00ccfd95bab303bed2773d2f75ee9eb44d3c290e8514ac4bb657e8965ef1"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/propositions.json",
+      "sha256": "e668e8fd0a454309f26c28b9b3aa43e1fffc8a1b507b6dec683a714399129294",
+      "bytes": 25998,
+      "id_count": 6,
+      "ids_sha256": "e5a53659194c456fb0e9c1288e041e4fefbcfc0b5f8d117e280f5f63d31f7c64",
+      "list_len": 6
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/source_fragments.slim.json",
+      "sha256": "16e2350353a3f0eadd86388aa6fd3c97a7c040752e5fed529af3807243ad77f4",
+      "bytes": 37714,
+      "id_count": 10,
+      "ids_sha256": "ac158446f583d08b3893ecf446ac57e998d1a4fa4da6dc1c72cd1caee8f1f614",
+      "list_len": 10
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/source_legal_effects.json",
+      "sha256": "0a1c5b8f2f4c8a2362f506f9fd9dc121e986d077fbb0aab5669bdb313563b2f8",
+      "bytes": 63426,
+      "id_count": 49,
+      "ids_sha256": "2e23163858ac9bfd3fc480a1d71fa3291fbfe9bcf0e43be537479fac3ac8821c"
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/source_snapshots.json",
+      "sha256": "b83225ddaaf00846d041c15253db4a210dc421ac82072fb634560ae79e073c91",
+      "bytes": 68137,
+      "id_count": 50,
+      "ids_sha256": "dc5d51b64e72639d9df7216644a0c2e664b84e23a06474438036377769a63a95",
+      "list_len": 1
+    },
+    {
+      "path": "law-proposition-extractor/tests/fixtures/article_49a_legal_structure/serialized/sources.json",
+      "sha256": "134f2fd832b5968c96e181e9f2945e052e63ee3281069dc97ad37bf02dde71d1",
+      "bytes": 6485,
+      "id_count": 1,
+      "ids_sha256": "c694344e5e1afe69ff969972659a125647843f294a890f5d6b06c5bdc89e5ab0",
+      "list_len": 1
+    }
+  ]
+}

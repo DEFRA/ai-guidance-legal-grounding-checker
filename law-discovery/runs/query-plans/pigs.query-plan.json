@@ -1,0 +1,266 @@
+[
+  {
+    "query": "Pig identification and traceability Pig, swine, hog, and boar identification using slap marks, ear tags, tattoos, herd marks, RFID tags, and electronic movement systems. Covers movement licensing, biosecurity, welfare, farm assurance, and disease control including African Swine Fever, Classical Swine Fever, and swine influenza.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Pig identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "pig",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pig"
+  },
+  {
+    "query": "pigs",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pigs"
+  },
+  {
+    "query": "swine",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: swine"
+  },
+  {
+    "query": "hog",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: hog"
+  },
+  {
+    "query": "hogs",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: hogs"
+  },
+  {
+    "query": "boar",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: boar"
+  },
+  {
+    "query": "boars",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: boars"
+  },
+  {
+    "query": "porcine",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: porcine"
+  },
+  {
+    "query": "slap mark",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slap mark"
+  },
+  {
+    "query": "slap marks",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slap marks"
+  },
+  {
+    "query": "ear tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tag"
+  },
+  {
+    "query": "ear tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tags"
+  },
+  {
+    "query": "tattoo",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoo"
+  },
+  {
+    "query": "tattoos",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoos"
+  },
+  {
+    "query": "herd mark",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: herd mark"
+  },
+  {
+    "query": "herd marks",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: herd marks"
+  },
+  {
+    "query": "RFID tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: RFID tag"
+  },
+  {
+    "query": "electronic movement system",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: electronic movement system"
+  },
+  {
+    "query": "eAML2",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: eAML2"
+  },
+  {
+    "query": "movement licence",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement licence"
+  },
+  {
+    "query": "movement licensing",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement licensing"
+  },
+  {
+    "query": "pig holding register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pig holding register"
+  },
+  {
+    "query": "keeper",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: keeper"
+  },
+  {
+    "query": "biosecurity",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: biosecurity"
+  },
+  {
+    "query": "African Swine Fever",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: African Swine Fever"
+  },
+  {
+    "query": "ASF",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ASF"
+  },
+  {
+    "query": "Classical Swine Fever",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Classical Swine Fever"
+  },
+  {
+    "query": "swine influenza",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: swine influenza"
+  },
+  {
+    "query": "Pig identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Pig identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Pig identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Pig identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Pig identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "pig regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): pig"
+  },
+  {
+    "query": "pig order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): pig"
+  },
+  {
+    "query": "pig act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): pig"
+  },
+  {
+    "query": "pigs regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): pigs"
+  },
+  {
+    "query": "pigs order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): pigs"
+  },
+  {
+    "query": "pigs act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): pigs"
+  },
+  {
+    "query": "swine regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): swine"
+  },
+  {
+    "query": "swine order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): swine"
+  },
+  {
+    "query": "swine act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): swine"
+  }
+]

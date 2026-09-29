@@ -1,0 +1,16 @@
+[
+  {
+    "category": "ssafo-nitrates",
+    "total_pages_audited": 3,
+    "laws_found": 5,
+    "pages_relevant": 3,
+    "proposition_status_counts": {
+      "UNGROUNDED": 55,
+      "GUIDANCE_BROADER": 42,
+      "GUIDANCE_INCOMPLETE": 9,
+      "GROUNDED": 96,
+      "CONFLICTS": 7,
+      "GUIDANCE_MISSING": 358
+    }
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             DocumentURI="http://www.legislation.gov.uk/uksi/2018/3"
+             IdURI="http://www.legislation.gov.uk/id/uksi/2018/3">
+  <Title>Dup Ref</Title>
+  <Body>
+    <P1 id="regulation-1">
+      <Pnumber>1</Pnumber>
+      <P1para>
+        <Text>
+          <Substitution ChangeId="a" CommentaryRef="c-dup">one</Substitution>
+          <Substitution ChangeId="b" CommentaryRef="c-dup">two</Substitution>
+        </Text>
+      </P1para>
+    </P1>
+  </Body>
+  <Commentaries>
+    <Commentary Type="F" id="c-dup">
+      <Para><Text>Words substituted by <Citation URI="http://www.legislation.gov.uk/id/uksi/2019/1"
+        Year="2019" Number="1" Class="UnitedKingdomStatutoryInstrument" Title="X">S.I. 2019/1</Citation>.</Text></Para>
+    </Commentary>
+  </Commentaries>
+</Legislation>

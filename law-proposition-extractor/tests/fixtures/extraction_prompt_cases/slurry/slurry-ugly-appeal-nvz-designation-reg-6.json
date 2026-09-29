@@ -1,0 +1,43 @@
+{
+  "case_id": "slurry-ugly-appeal-nvz-designation-reg-6",
+  "label": "UGLY — appeal and designation procedure (regulation 6)",
+  "source_title": "The Nitrate Pollution Prevention Regulations 2015",
+  "source_record_id": "lex-120b4f9c395b3f94",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "regulation:6",
+  "fragment_text": "61An owner or occupier of a relevant holding who is sent a notice under regulation 5(3)(b) or 5(3A)(b) may appeal to the First-tier Tribunal against the proposals or designation referred to in the notice.2For the purposes of rule 22(2)(g) of the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 (notice of appeal: grounds), the only grounds of an appeal under this regulation are that the relevant holding (or any part of it)—adoes not drain into water which the Secretary of State proposes to identify, or to continue to identify, as polluted or which has been similarly identified in Wales or Scotland, ...aain a case within regulation 5(3A), does not drain into water which the Secretary of State has identified as polluted or which has been similarly identified in Wales or Scotland, orbdrains into water which the Secretary of State should not identify, or should not continue to identify, as polluted.3If the First-tier Tribunal upholds an appeal under paragraph (2)(a), the Secretary of State, when acting under regulation 4(5), must treat the relevant holding (or the part of it in respect of which the appeal was upheld) as not draining into the water concerned.4If the First-tier Tribunal upholds an appeal under paragraph (2)(b), the Secretary of State, when acting under regulation 4(5), must—atreat the water concerned as water which should not be identified, or should not continue to be identified, as polluted, andbtreat any holding (or part of any holding) which drains into that water accordingly (regardless of whether the owner or occupier of the relevant holding appealed under this regulation).",
+  "why_this_case": "Procedural/appeal text with authority (First-tier Tribunal) and conditional grounds; tests appeal effect type and actor structure. Evaluation uses minimum mode: gold anchors the reg 6(1) appeal right; further appeal rows (grounds, Wales/Scotland variants, Secretary of State consequences) in the same fragment are allowed extras unless gold is expanded to reg 6(2)–(4).",
+  "expected_challenges": [
+    "Tribunal_rules_cross_reference",
+    "limited_grounds_of_appeal",
+    "designation_consequences"
+  ],
+  "evaluation": {
+    "mode": "minimum",
+    "strict_proposition_count": false,
+    "allow_extra_actual": true
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "appeal",
+      "proposition_tier": "procedural_rule",
+      "proposition_text": "An owner or occupier may appeal to the First-tier Tribunal against an NVZ designation notice under regulation 5.",
+      "legal_subject": "an owner or occupier of a relevant holding",
+      "action": "may appeal to the First-tier Tribunal",
+      "affected_subjects": [
+        "an owner or occupier of a relevant holding"
+      ],
+      "conditions": [
+        "sent a notice under regulation 5(3)(b) or 5(3A)(b)"
+      ],
+      "exceptions": [],
+      "authority": "First-tier Tribunal",
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "may appeal to the First-tier Tribunal against the proposals or designation"
+    }
+  ]
+}

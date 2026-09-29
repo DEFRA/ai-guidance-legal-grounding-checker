@@ -1,0 +1,30 @@
+{
+  "corpus_id": "equine_law",
+  "focus_scopes": [
+    "equine",
+    "equidae",
+    "equid",
+    "horse",
+    "movement",
+    "import",
+    "trade",
+    "certification",
+    "animal-products"
+  ],
+  "max_propositions_per_source": 12,
+  "extraction_mode": "frontier",
+  "extraction_fallback": "mark_needs_review",
+  "model_error_policy": "stop_repairable",
+  "divergence_reasoning": "none",
+  "equine_source_universe_path": "examples/equine_source_universe.json",
+  "corpus_profile_id": "equine_movement_import_trade_v0_1",
+  "related_source_discovery": { "enabled": false },
+  "inclusion_criteria": [
+    "Staged movement / import / trade profile — excludes pure passport-only devolved identification instruments unless also in this profile."
+  ],
+  "exclusion_criteria": [
+    "Claims of complete equine law coverage",
+    "Treat-all-21 default analysis"
+  ],
+  "source_case_path": "examples/equine_movement_import_trade_case.json"
+}

@@ -1,0 +1,527 @@
+{
+  "strategy_versions": {
+    "proposition_extraction": "v2-structured-list-round-robin"
+  },
+  "topic": {
+    "name": "Equine source universe \u2014 discovery candidates (full 21)",
+    "description": "Staged source universe for equine identification, passports, and import/trade-related UK/EU instruments. Not a claim of complete equine law. Do not treat all instruments as automatically analysed.",
+    "subject_tags": [
+      "equine",
+      "staged-corpus"
+    ]
+  },
+  "cluster": {
+    "name": "animal_identification_traceability",
+    "description": "Identification, import, trade, and control-related duties."
+  },
+  "extraction": {
+    "mode": "frontier",
+    "fallback_policy": "mark_needs_review",
+    "model_error_policy": "continue_with_fallback",
+    "divergence_reasoning": "none",
+    "focus_scopes": [
+      "equine",
+      "equidae",
+      "equid",
+      "horse"
+    ],
+    "max_propositions_per_source": 8
+  },
+  "sources": [],
+  "narrative": {
+    "title": "Full equine source universe (candidates)",
+    "summary": "All staged instruments appear as discovery candidates only; no statutory fetch for this profile."
+  },
+  "run_notes": "candidate_universe mode: sources[] empty; candidates list the staged universe. Not auto-analysed \u2014 use passport/movement profiles for extraction.",
+  "corpus_profile_id": "equine_full_candidate_universe",
+  "equine_source_universe_ref": {
+    "path": "examples/equine_source_universe.json",
+    "universe_id": "equine_import_identification_trade_v1"
+  },
+  "case_analysis_mode": "candidate_universe",
+  "source_family_candidates": [
+    {
+      "id": "uni-uksi-2018-761",
+      "title": "The Equine Identification (England) Regulations 2018",
+      "citation": "UKSI 2018/761",
+      "url": "https://www.legislation.gov.uk/uksi/2018/761",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Core devolved equine identification instrument for England.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "equine_passport_identification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2018/761",
+          "ui_cluster": "equine_identification_passport",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-uksi-2018-1409",
+      "title": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018",
+      "citation": "UKSI 2018/1409",
+      "url": "https://www.legislation.gov.uk/uksi/2018/1409",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "EU Exit amendments to England equine identification.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "eu_exit_amendments",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2018/1409",
+          "ui_cluster": "eu_exit_amendments",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-wsi-2019-57",
+      "title": "The Equine Identification (Wales) Regulations 2019",
+      "citation": "WSI 2019/57",
+      "url": "https://www.legislation.gov.uk/wsi/2019/57",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Wales equine identification.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "equine_passport_identification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "wsi/2019/57",
+          "ui_cluster": "equine_identification_passport",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-wsi-2019-250",
+      "title": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019",
+      "citation": "WSI 2019/250",
+      "url": "https://www.legislation.gov.uk/wsi/2019/250",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "First EU Exit amendment pass for Wales equine identification.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "eu_exit_amendments",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "wsi/2019/250",
+          "ui_cluster": "eu_exit_amendments",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-wsi-2020-1240",
+      "title": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020",
+      "citation": "WSI 2020/1240",
+      "url": "https://www.legislation.gov.uk/wsi/2020/1240",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Further EU Exit amendments (Wales) for equine identification.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "eu_exit_amendments",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "wsi/2020/1240",
+          "ui_cluster": "eu_exit_amendments",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-ssi-2019-30",
+      "title": "The Equine Animal (Identification) (Scotland) Regulations 2019",
+      "citation": "SSI 2019/30",
+      "url": "https://www.legislation.gov.uk/ssi/2019/30",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Scotland equine identification.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "equine_passport_identification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "ssi/2019/30",
+          "ui_cluster": "equine_identification_passport",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-ssi-2019-71",
+      "title": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+      "citation": "SSI 2019/71",
+      "url": "https://www.legislation.gov.uk/ssi/2019/71",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Cross-cutting animal health EU Exit amendments; confirm equine identification hooks when analysing.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "eu_exit_amendments",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "ssi/2019/71",
+          "ui_cluster": "eu_exit_amendments",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-nisr-2019-67",
+      "title": "The Equine Identification Regulations (Northern Ireland) 2019",
+      "citation": "NISR 2019/67",
+      "url": "https://www.legislation.gov.uk/nisr/2019/67",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Northern Ireland equine identification.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "equine_passport_identification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "nisr/2019/67",
+          "ui_cluster": "equine_identification_passport",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-nisr-2022-200",
+      "title": "The Equine Identification (Amendment) Regulations (Northern Ireland) 2022",
+      "citation": "NISR 2022/200",
+      "url": "https://www.legislation.gov.uk/nisr/2022/200",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "NI amendment to equine identification.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "equine_passport_identification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "nisr/2022/200",
+          "ui_cluster": "equine_identification_passport",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-eur-2015-262",
+      "title": "Commission Implementing Regulation (EU) 2015/262",
+      "citation": "EUR 2015/262",
+      "url": "https://www.legislation.gov.uk/eur/2015/262",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "EU passport / identification rules (legislation.gov.uk presentation).",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "equine_passport_identification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "eur/2015/262",
+          "ui_cluster": "equine_identification_passport",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-uksi-2019-591",
+      "title": "The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019",
+      "citation": "UKSI 2019/591",
+      "url": "https://www.legislation.gov.uk/uksi/2019/591",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "EU Exit amendments to equine records, identification and movement (passport profile core).",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "equine_passport_identification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2019/591",
+          "ui_cluster": "equine_identification_passport",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-eur-2018-659",
+      "title": "Commission Implementing Regulation (EU) 2018/659",
+      "citation": "EUR 2018/659",
+      "url": "https://www.legislation.gov.uk/eur/2018/659",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Movement / trade related EU implementing act.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "movement_entry_certification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "eur/2018/659",
+          "ui_cluster": "movement_import_trade",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-uksi-2011-1197",
+      "title": "The Trade in Animals and Related Products Regulations 2011",
+      "citation": "UKSI 2011/1197",
+      "url": "https://www.legislation.gov.uk/uksi/2011/1197",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "TARPR England and Wales baseline.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "movement_entry_certification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2011/1197",
+          "ui_cluster": "movement_import_trade",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-wsi-2011-2379",
+      "title": "The Trade in Animals and Related Products (Wales) Regulations 2011",
+      "citation": "WSI 2011/2379",
+      "url": "https://www.legislation.gov.uk/wsi/2011/2379",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "TARPR Wales.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "movement_entry_certification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "wsi/2011/2379",
+          "ui_cluster": "movement_import_trade",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-ssi-2012-177",
+      "title": "The Trade in Animals and Related Products (Scotland) Regulations 2012",
+      "citation": "SSI 2012/177",
+      "url": "https://www.legislation.gov.uk/ssi/2012/177",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "TARPR Scotland.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "movement_entry_certification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "ssi/2012/177",
+          "ui_cluster": "movement_import_trade",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_core",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-uksi-2019-782",
+      "title": "The Trade in Animals and Related Products (Amendment) (EU Exit) Regulations 2019",
+      "citation": "UKSI 2019/782",
+      "url": "https://www.legislation.gov.uk/uksi/2019/782",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "EU Exit amendments to TARPR.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "movement_entry_certification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2019/782",
+          "ui_cluster": "movement_import_trade",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-uksi-2019-795",
+      "title": "The Import of and Trade in Animals and Animal Products (Amendment etc.) (EU Exit) Regulations 2019",
+      "citation": "UKSI 2019/795",
+      "url": "https://www.legislation.gov.uk/uksi/2019/795",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Import and trade EU Exit layer.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "movement_entry_certification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2019/795",
+          "ui_cluster": "movement_import_trade",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-uksi-2019-1225",
+      "title": "The Trade in Animals and Animal Products (Legislative Functions) and Veterinary Surgeons (Amendment) (EU Exit) Regulations 2019",
+      "citation": "UKSI 2019/1225",
+      "url": "https://www.legislation.gov.uk/uksi/2019/1225",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Legislative functions / veterinary linkages \u2014 movement profile context.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "movement_entry_certification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2019/1225",
+          "ui_cluster": "movement_import_trade",
+          "extraction_default": "candidate_only",
+          "analysis_role": "optional_context",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-uksi-2020-1462",
+      "title": "The Import of, and Trade in, Animals and Animal Products (Miscellaneous Amendments) (EU Exit) Regulations 2020",
+      "citation": "UKSI 2020/1462",
+      "url": "https://www.legislation.gov.uk/uksi/2020/1462",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Miscellaneous import/trade EU Exit amendments.",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "movement_entry_certification",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2020/1462",
+          "ui_cluster": "movement_import_trade",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-uksi-2020-1481",
+      "title": "The Official Controls (Animals, Feed and Food, Plant Health etc.) (Amendment) (EU Exit) Regulations 2020",
+      "citation": "UKSI 2020/1481",
+      "url": "https://www.legislation.gov.uk/uksi/2020/1481",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Official controls amendment (EU Exit).",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "official_controls",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2020/1481",
+          "ui_cluster": "official_controls",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    },
+    {
+      "id": "uni-uksi-2020-1631",
+      "title": "The Official Controls (Animals, Feed and Food, Plant Health etc.) (Amendment) (EU Exit) (No. 2) Regulations 2020",
+      "citation": "UKSI 2020/1631",
+      "url": "https://www.legislation.gov.uk/uksi/2020/1631",
+      "source_role": "unknown",
+      "relationship_to_target": "contextual",
+      "inclusion_status": "candidate_needs_review",
+      "reason": "Further official controls amendment (EU Exit).",
+      "metadata": {
+        "equine_law_discovery": {
+          "family": "official_controls",
+          "lineage": "source_universe"
+        },
+        "equine_source_universe": {
+          "instrument_id": "uksi/2020/1631",
+          "ui_cluster": "official_controls",
+          "extraction_default": "candidate_only",
+          "analysis_role": "required_for_scope",
+          "corpus_profile_id": "equine_full_candidate_universe"
+        }
+      }
+    }
+  ]
+}

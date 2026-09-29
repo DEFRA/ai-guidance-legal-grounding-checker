@@ -1,0 +1,278 @@
+[
+  {
+    "query": "Exotic and other species identification and traceability Covers all animal species not included in other specific animal groupings, including zoo animals, reptiles, amphibians, exotic pets, specialist farmed species, wildlife collections, and emerging commercial species. Identification may include microchips, tattoos, rings, transponders, passports, permits, or specialist registration systems. Covers import controls, traceability, welfare, conservation, and emerging disease risks.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Exotic and other species identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "zoo animal",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: zoo animal"
+  },
+  {
+    "query": "zoo animals",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: zoo animals"
+  },
+  {
+    "query": "reptile",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: reptile"
+  },
+  {
+    "query": "reptiles",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: reptiles"
+  },
+  {
+    "query": "amphibian",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: amphibian"
+  },
+  {
+    "query": "amphibians",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: amphibians"
+  },
+  {
+    "query": "exotic pet",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: exotic pet"
+  },
+  {
+    "query": "exotic pets",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: exotic pets"
+  },
+  {
+    "query": "specialist farmed species",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: specialist farmed species"
+  },
+  {
+    "query": "wildlife collection",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: wildlife collection"
+  },
+  {
+    "query": "wildlife collections",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: wildlife collections"
+  },
+  {
+    "query": "emerging commercial species",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: emerging commercial species"
+  },
+  {
+    "query": "microchip",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchip"
+  },
+  {
+    "query": "microchips",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchips"
+  },
+  {
+    "query": "tattoo",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoo"
+  },
+  {
+    "query": "tattoos",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoos"
+  },
+  {
+    "query": "ring",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ring"
+  },
+  {
+    "query": "rings",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: rings"
+  },
+  {
+    "query": "transponder",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: transponder"
+  },
+  {
+    "query": "transponders",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: transponders"
+  },
+  {
+    "query": "passport",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: passport"
+  },
+  {
+    "query": "permit",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: permit"
+  },
+  {
+    "query": "permits",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: permits"
+  },
+  {
+    "query": "registration system",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: registration system"
+  },
+  {
+    "query": "import controls",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: import controls"
+  },
+  {
+    "query": "conservation",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: conservation"
+  },
+  {
+    "query": "traceability",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: traceability"
+  },
+  {
+    "query": "welfare",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: welfare"
+  },
+  {
+    "query": "emerging disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: emerging disease"
+  },
+  {
+    "query": "Exotic and other species identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Exotic and other species identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Exotic and other species identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Exotic and other species identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Exotic and other species identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Exotic and other species identification and traceability Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "zoo animal regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): zoo animal"
+  },
+  {
+    "query": "zoo animal order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): zoo animal"
+  },
+  {
+    "query": "zoo animal act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): zoo animal"
+  },
+  {
+    "query": "zoo animals regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): zoo animals"
+  },
+  {
+    "query": "zoo animals order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): zoo animals"
+  },
+  {
+    "query": "zoo animals act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): zoo animals"
+  },
+  {
+    "query": "reptile regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): reptile"
+  },
+  {
+    "query": "reptile order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): reptile"
+  },
+  {
+    "query": "reptile act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): reptile"
+  }
+]

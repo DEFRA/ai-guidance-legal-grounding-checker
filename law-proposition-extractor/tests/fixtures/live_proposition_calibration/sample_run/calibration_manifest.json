@@ -1,0 +1,39 @@
+{
+  "artifact_layout": {
+    "calls": "calls/<case>-<repetition>.json",
+    "manifest": "calibration_manifest.json",
+    "report": "calibration_report.md",
+    "result": "calibration_result.json"
+  },
+  "calibration_run_id": "sample_run",
+  "calibration_timestamp": "2026-07-15T00:00:00+00:00",
+  "case_repetitions": 9,
+  "cases": [
+    "article_49a",
+    "uk_regulation_12_spread",
+    "wsi_regulation_36_4"
+  ],
+  "model": {
+    "configured_model_alias": "frontier_extract",
+    "llm_base_url_redacted": true,
+    "prompt_template_identifier": "_v2_model_prompt / EXTRACTION_PROMPT_VERSION=v3",
+    "prompt_version": "v3",
+    "resolved_provider_model": "anthropic/claude-sonnet-4-5-20250929",
+    "seed": null,
+    "seed_note": "production extraction does not supply a seed",
+    "system_prompt": "You extract legal propositions as strict JSON only.",
+    "temperature": 0.0
+  },
+  "notes": [
+    "Offline sample fixture for integrity tests; not a live model run."
+  ],
+  "prompt_template_identifier": "_v2_model_prompt / EXTRACTION_PROMPT_VERSION=v3",
+  "prompt_version": "v3",
+  "provider_call_count": 15,
+  "provider_retry_count": 0,
+  "repetitions": [
+    1,
+    2,
+    3
+  ]
+}

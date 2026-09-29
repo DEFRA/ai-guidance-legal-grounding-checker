@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:atom="http://www.w3.org/2005/Atom"
+             DocumentURI="http://www.legislation.gov.uk/uksi/2020/100"
+             IdURI="http://www.legislation.gov.uk/id/uksi/2020/100"
+             SchemaVersion="2.0">
+  <ukm:Metadata>
+    <ukm:DocumentClassification>
+      <ukm:DocumentStatus Value="revised"/>
+    </ukm:DocumentClassification>
+    <atom:link rel="http://www.legislation.gov.uk/def/legislation/EffectsApplied"
+               href="https://www.legislation.gov.uk/changes/applied/affected/uksi/2020/100"
+               title="Amended by UK"/>
+    <ukm:UnappliedEffects>
+      <ukm:UnappliedEffect EffectId="effect-outstanding-1"
+        Type="words substituted"
+        AffectedProvisions="reg. 5"
+        AffectingURI="http://www.legislation.gov.uk/id/uksi/2021/50"
+        AffectingYear="2021" AffectingNumber="50"
+        AffectingProvisions="reg. 2"
+        RequiresApplied="false"
+        Notes="This amendment not applied to legislation.gov.uk."
+        URI="http://www.legislation.gov.uk/id/effect/effect-outstanding-1">
+        <ukm:AffectingTitle>The Test Amendment Regulations 2021</ukm:AffectingTitle>
+      </ukm:UnappliedEffect>
+    </ukm:UnappliedEffects>
+  </ukm:Metadata>
+  <Title>Test Regulations 2020</Title>
+  <Body>
+    <P1 id="regulation-1">
+      <Pnumber>1</Pnumber>
+      <P1para>
+        <Text>
+          <Addition ChangeId="c1" CommentaryRef="c-insert">Inserted text</Addition>
+          <Substitution ChangeId="c2" CommentaryRef="c-sub">substituted words</Substitution>
+          <Addition ChangeId="c3" CommentaryRef="missing-ref">dangling</Addition>
+        </Text>
+      </P1para>
+    </P1>
+    <P1 id="regulation-2">
+      <Pnumber>2</Pnumber>
+      <P1para>
+        <P2 id="regulation-2-1">
+          <Pnumber>1</Pnumber>
+          <P2para><Text><Substitution ChangeId="c4" CommentaryRef="c-multi">alpha</Substitution></Text></P2para>
+        </P2>
+        <P2 id="regulation-2-2">
+          <Pnumber>2</Pnumber>
+          <P2para><Text><Substitution ChangeId="c5" CommentaryRef="c-multi">beta</Substitution></Text></P2para>
+        </P2>
+      </P1para>
+    </P1>
+    <P1 id="regulation-3">
+      <Pnumber>3</Pnumber>
+      <P1para><Text>Plain text with no amendments.</Text></P1para>
+    </P1>
+  </Body>
+  <Commentaries>
+    <Commentary Type="F" id="c-insert">
+      <Para><Text>Inserted by <Citation URI="http://www.legislation.gov.uk/id/uksi/2021/1"
+        Year="2021" Number="1" Class="UnitedKingdomStatutoryInstrument"
+        Title="Inserting Regulations 2021">S.I. 2021/1</Citation>.</Text></Para>
+    </Commentary>
+    <Commentary Type="F" id="c-sub">
+      <Para><Text>Words in <CitationSubRef SectionRef="regulation-1">reg. 1</CitationSubRef>
+        substituted (01.01.2022) by <Citation URI="http://www.legislation.gov.uk/id/uksi/2021/2"
+        Year="2021" Number="2" Class="UnitedKingdomStatutoryInstrument"
+        Title="Substituting Regulations 2021">S.I. 2021/2</Citation>.</Text></Para>
+    </Commentary>
+    <Commentary Type="F" id="c-multi">
+      <Para><Text>Words substituted in regs. 2(1) and 2(2) by
+        <Citation URI="http://www.legislation.gov.uk/id/uksi/2021/3" Year="2021" Number="3"
+        Class="UnitedKingdomStatutoryInstrument" Title="Multi Regulations 2021">S.I. 2021/3</Citation>.</Text></Para>
+    </Commentary>
+    <Commentary Type="X" id="c-editorial">
+      <Para><Text>Editorial note: formatting corrected. See also related guidance.</Text></Para>
+    </Commentary>
+    <Commentary Type="C" id="c-commencement">
+      <Para><Text>Regulation applied (with modifications) (1.10.2023) by The Test Scheme Regulations 2023.</Text></Para>
+    </Commentary>
+  </Commentaries>
+  <Footnotes>
+    <Footnote id="f00001"><FootnoteText>Opinion of 22 April 2009 (not yet published).</FootnoteText></Footnote>
+  </Footnotes>
+</Legislation>

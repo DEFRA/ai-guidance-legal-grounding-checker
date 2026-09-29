@@ -1,0 +1,32 @@
+{
+  "case_id": "uk_compound_spread_and_measure",
+  "expected_propositions": [
+    {
+      "role": "organic-manure-spread-prohibition",
+      "source_locator": "regulation:12",
+      "short_legal_description": "Occupier must not spread organic manure within 10 metres of surface water.",
+      "legal_effect_type": "prohibition",
+      "required_actor": "occupier",
+      "required_action": "must not spread",
+      "object": "organic manure",
+      "thresholds": ["10 metres"],
+      "evidence_markers": ["must not spread organic manure within 10 metres"],
+      "expected_completeness": "complete",
+      "may_share_source_fragment_with": ["distance-measurement-restatement"]
+    },
+    {
+      "role": "distance-measurement-restatement",
+      "source_locator": "regulation:12:paragraph:2",
+      "short_legal_description": "Occupier must measure the distance from the edge of the surface water before spreading.",
+      "legal_effect_type": "obligation",
+      "required_actor": "occupier",
+      "required_action": "must measure",
+      "object": "distance",
+      "thresholds": [],
+      "conditions": [],
+      "evidence_markers": ["measured from the edge of the surface water"],
+      "expected_completeness": "complete",
+      "may_share_source_fragment_with": ["organic-manure-spread-prohibition"]
+    }
+  ]
+}

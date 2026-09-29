@@ -1,0 +1,33 @@
+<Legislation DocumentURI="http://www.legislation.gov.uk/wsi/2021/77">
+  <Title>The Water Resources (Control of Agricultural Pollution) (Wales) Regulations 2021</Title>
+  <Body id="body">
+    <P1 id="regulation-35">
+      <Pnumber>35.</Pnumber>
+      <Text>Regulation 35 placeholder.</Text>
+    </P1>
+    <P1 id="regulation-36">
+      <Pnumber>36.</Pnumber>
+      <Text>Regulation 36 applies to nitrogen accounting.</Text>
+      <P2 id="regulation-36-1">
+        <Pnumber>1</Pnumber>
+        <Text>Paragraph one of regulation 36.</Text>
+      </P2>
+      <P2 id="regulation-36-2">
+        <Pnumber>2</Pnumber>
+        <Text>Paragraph two of regulation 36.</Text>
+      </P2>
+      <P2 id="regulation-36-3">
+        <Pnumber>3</Pnumber>
+        <Text>Paragraph three of regulation 36.</Text>
+      </P2>
+      <P2 id="regulation-36-4">
+        <Pnumber>4</Pnumber>
+        <Text>The occupier must make a record of the calculations and how the final figures were arrived at.</Text>
+      </P2>
+    </P1>
+    <P1 id="regulation-37">
+      <Pnumber>37.</Pnumber>
+      <Text>Regulation 37 placeholder.</Text>
+    </P1>
+  </Body>
+</Legislation>

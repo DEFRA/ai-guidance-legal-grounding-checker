@@ -1,0 +1,2382 @@
+[
+  {
+    "id": "m-449ab7c0",
+    "guidance_proposition_id": "susan-ef92f343b178a474-1",
+    "law_proposition_id": "bcand:1f6499c81586c44d",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7052,
+    "bert_score_f1": null,
+    "explanation": "The surrounding guidance extensively covers the specific procedural notification requirement (14 days' notice before construction) and the broader storage rules, meaning the guidance as a whole is not incomplete with respect to the law proposition's notice obligation."
+  },
+  {
+    "id": "m-8f3bdc63",
+    "guidance_proposition_id": "susan-ef92f343b178a474-3",
+    "law_proposition_id": "bcand:23630cf4a53b5fc8",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.6795,
+    "bert_score_f1": null,
+    "explanation": "Regulation 7(1) empowers the Agency to serve notice on whoever has 'custody or control' or is 'responsible for' silage, slurry or fuel oil storage, which provides the nearest legal basis for attributing responsibility. The guidance goes further by specifically describing a tenant's ability to prove a leaseholder is jointly or wholly responsible — a nuance not expressly stated in reg 7(1), making the guidance broader than what this clause alone establishes."
+  },
+  {
+    "id": "m-3d54f589",
+    "guidance_proposition_id": "susan-ef92f343b178a474-6",
+    "law_proposition_id": "bcand:17b7cfc3401a7ee1",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.764,
+    "bert_score_f1": null,
+    "explanation": "This clause requires slurry storage tanks, effluent tanks, channels, pipes and reception pits to last at least 20 years with proper maintenance, which aligns with the guidance's first claim that a new or substantially changed store must have an expected lifespan of at least 20 years with maintenance. The match is medium confidence because the guidance says 'store' generically while the law clause is specific to slurry/effluent infrastructure."
+  },
+  {
+    "id": "m-afb31dcf",
+    "guidance_proposition_id": "susan-ef92f343b178a474-6",
+    "law_proposition_id": "bcand:5cb952f51f42ed5e",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7408,
+    "bert_score_f1": null,
+    "explanation": "This clause directly states that where any part of an effluent tank is below ground level, it must satisfy structural integrity and impermeability requirements for at least 20 years without maintenance — precisely matching the guidance's second claim about underground parts of silage effluent tanks."
+  },
+  {
+    "id": "m-e6ff49a6",
+    "guidance_proposition_id": "susan-ef92f343b178a474-7",
+    "law_proposition_id": "bcand:ad86e31a4b211ed2",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.696,
+    "bert_score_f1": null,
+    "explanation": "The law requires that no part of the fuel storage area or its bund may be within 10 metres of inland freshwaters or coastal waters that fuel oil could enter if it escaped. The guidance states the store must be at least 10 metres clear, which broadly matches but omits the bund element and the qualifying condition ('that fuel oil could enter if it were to escape'), making it incomplete."
+  },
+  {
+    "id": "m-e9451f70",
+    "guidance_proposition_id": "susan-ef92f343b178a474-9",
+    "law_proposition_id": "bcand:c278c203f901ce9d",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.6574,
+    "bert_score_f1": null,
+    "explanation": "The exemption in Regulation 6(1)(c)(ii) is conditional on construction/substantial enlargement/reconstruction having been commenced before 1 March 1991 and completed before 1 September 1991. The guidance accurately conveys that undertaking substantial changes (structural changes, increasing capacity, relocating) to a pre-1991 installation removes the exemption, which is the direct legal consequence when those conditions cease to apply."
+  },
+  {
+    "id": "m-43a2e174",
+    "guidance_proposition_id": "susan-ef92f343b178a474-10",
+    "law_proposition_id": "bcand:783f2bc4a00e0ed1",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.6646,
+    "bert_score_f1": null,
+    "explanation": "Regulation 7(2) describes the standard the Agency must apply when specifying required works — reducing to a minimum any significant risk of pollution — which supports the guidance's framing that notices are issued where there is a significant risk of pollution. However, it is a supplementary provision to reg 7(1) rather than the primary anchor."
+  },
+  {
+    "id": "m-5fd1b76a",
+    "guidance_proposition_id": "susan-ef92f343b178a474-10",
+    "law_proposition_id": "bcand:23630cf4a53b5fc8",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.6552,
+    "bert_score_f1": null,
+    "explanation": "Regulation 7(1) is the direct legal basis for the Agency's power to serve a notice requiring works or precautions on persons with custody or control of silage, slurry or fuel oil, accurately reflected by the guidance's statement about the Agency serving notices to bring storage up to standard where there is pollution risk."
+  },
+  {
+    "id": "m-0698f8a5",
+    "guidance_proposition_id": "susan-ef92f343b178a474-12",
+    "law_proposition_id": "bcand:297badcb25473d76",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.6681,
+    "bert_score_f1": null,
+    "explanation": "This regulation sets a specific 50-metre minimum siting distance from watercourses as a floor. The guidance's general statement not to pollute rivers or watercourses when constructing storage is broader than (but consistent with) this specific rule, raising the obligation to a general no-pollution standard rather than a precise distance."
+  },
+  {
+    "id": "m-935df1e9",
+    "guidance_proposition_id": "susan-ef92f343b178a474-12",
+    "law_proposition_id": "bcand:6b2c180707a5d1b9",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.6753,
+    "bert_score_f1": null,
+    "explanation": "This regulation prohibits storage on slopes ≥12 degrees within 30 metres of surface water — a specific anti-pollution rule for storage siting. The guidance mentions not polluting watercourses but omits this specific slope/proximity condition, so the guidance is incomplete relative to this provision."
+  },
+  {
+    "id": "m-3dcf2928",
+    "guidance_proposition_id": "susan-ef92f343b178a474-12",
+    "law_proposition_id": "bcand:a8595c5f41768721",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.659,
+    "bert_score_f1": null,
+    "explanation": "This provision prohibits storage on land liable to flooding or becoming waterlogged — a specific anti-pollution/contamination rule directly relevant to protecting watercourses. The guidance's general no-pollution statement does not capture this specific condition, making it incomplete relative to this provision."
+  },
+  {
+    "id": "m-7ae606c2",
+    "guidance_proposition_id": "susan-ef92f343b178a474-12",
+    "law_proposition_id": "bcand:8485037a34c41a96",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.659,
+    "bert_score_f1": null,
+    "explanation": "This provision requires that a storage facility must not have land drains other than a sealed impermeable pipe — a specific construction requirement to prevent pollution. The guidance mentions not polluting when constructing storage but omits this specific drainage requirement."
+  },
+  {
+    "id": "m-bc81dac4",
+    "guidance_proposition_id": "susan-ef92f343b178a474-14",
+    "law_proposition_id": "bcand:297c76a9383be4bc",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7608,
+    "bert_score_f1": null,
+    "explanation": "This provision places a duty on the person with custody or control of field silage to ensure the Agency receives at least 14 days' notice before first use of a new site — matching the guidance precisely in both the duty-holder (farmer/person in control), the trigger (new site/first use), and the notice period (14 days)."
+  },
+  {
+    "id": "m-079e450b",
+    "guidance_proposition_id": "susan-ef92f343b178a474-16",
+    "law_proposition_id": "bcand:19f24cc250e33a66",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7513,
+    "bert_score_f1": null,
+    "explanation": "This provision directly prohibits opening or removing the wrapping of a silage bale within 10 metres of inland freshwaters or coastal waters, which precisely matches the guidance's unwrapping element. The guidance accurately reflects this part of the law."
+  },
+  {
+    "id": "m-27321bb8",
+    "guidance_proposition_id": "susan-ef92f343b178a474-16",
+    "law_proposition_id": "bcand:548bf1dcf895bf65",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7419,
+    "bert_score_f1": null,
+    "explanation": "This provision requires silage bales to be stored at least 10 metres from inland freshwaters or coastal waters that effluent could enter, directly matching the guidance's storage element for baled silage. The guidance accurately reflects this requirement."
+  },
+  {
+    "id": "m-d009bf8c",
+    "guidance_proposition_id": "susan-ef92f343b178a474-16",
+    "law_proposition_id": "bcand:3ac3047dcfb92297",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.774,
+    "bert_score_f1": null,
+    "explanation": "This provision requires field silage/open-land silage to be at least 10 metres from inland/coastal waters AND at least 50 metres from protected water supply abstraction points. The guidance only states the 10-metre rule and omits the 50-metre requirement for protected water supply sources, meaning the guidance falls short of the full legal requirement."
+  },
+  {
+    "id": "m-e72802f1",
+    "guidance_proposition_id": "susan-ef92f343b178a474-16",
+    "law_proposition_id": "bcand:e7815975e831a82a",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7602,
+    "bert_score_f1": null,
+    "explanation": "Like bcand:3ac3047dcfb92297, this provision requires both the 10-metre rule from inland/coastal waters and the 50-metre rule from protected water supply abstraction points. The guidance only captures the 10-metre element and omits the 50-metre requirement, leaving the guidance incomplete relative to the full legal obligation."
+  },
+  {
+    "id": "m-0b9808cf",
+    "guidance_proposition_id": "susan-ef92f343b178a474-17",
+    "law_proposition_id": "bcand:e7815975e831a82a",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7678,
+    "bert_score_f1": null,
+    "explanation": "The neighbouring proposition 'A farmer must not make or store any silage, or unwrap baled silage, within 10 metres of inland or coastal waters' directly covers the missing 10-metre requirement for inland/coastal waters identified in the verdict, resolving the specific incompleteness concern."
+  },
+  {
+    "id": "m-5933dc0c",
+    "guidance_proposition_id": "susan-ef92f343b178a474-19",
+    "law_proposition_id": "bcand:2181b26c3878844f",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.736,
+    "bert_score_f1": null,
+    "explanation": "The law applies only 'so far as reasonably practicable' and specifies particular components (base, walls, effluent tank, channels, pipe walls), whereas the guidance states that 'all parts' must be resistant without qualification — this exceeds both the scope and the qualified standard set by the law."
+  },
+  {
+    "id": "m-e11cb235",
+    "guidance_proposition_id": "susan-ef92f343b178a474-20",
+    "law_proposition_id": "bcand:a98594415647ccc5",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7462,
+    "bert_score_f1": null,
+    "explanation": "This clause requires the base to extend beyond any walls, which the guidance reflects accurately. However, the guidance adds the impermeability requirement not present in this clause, making the guidance broader than this provision alone."
+  },
+  {
+    "id": "m-60aa2a82",
+    "guidance_proposition_id": "susan-ef92f343b178a474-20",
+    "law_proposition_id": "bcand:1ac481b4a55e5229",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7339,
+    "bert_score_f1": null,
+    "explanation": "This clause requires impermeability of the silo base (among other components), which the guidance captures for the base, but the guidance omits the impermeability requirements for the effluent tank, channels, and pipe walls also mandated by this provision."
+  },
+  {
+    "id": "m-365694c9",
+    "guidance_proposition_id": "susan-ef92f343b178a474-21",
+    "law_proposition_id": "bcand:f06816e1fdb476ed",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7609,
+    "bert_score_f1": null,
+    "explanation": "This provision requires drainage from perimeter channels to an effluent tank via a channel or pipe, which matches the guidance's statement that drainage channels must flow into an effluent tank. The guidance accurately reflects this legal requirement."
+  },
+  {
+    "id": "m-c5c15e02",
+    "guidance_proposition_id": "susan-ef92f343b178a474-21",
+    "law_proposition_id": "bcand:1ac481b4a55e5229",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7245,
+    "bert_score_f1": null,
+    "explanation": "This provision requires the base, channels, effluent tank walls, and pipes to be impermeable, which matches the guidance's requirement that drainage collection channels must be impermeable. The guidance's use of 'impermeable' accurately reflects this statutory standard."
+  },
+  {
+    "id": "m-89c9f93b",
+    "guidance_proposition_id": "susan-ef92f343b178a474-21",
+    "law_proposition_id": "bcand:2cbe6fd2dfb2bab6",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7239,
+    "bert_score_f1": null,
+    "explanation": "This provision directly requires perimeter channels designed to collect silage effluent escaping from the silo, which is the primary obligation the guidance restates when it refers to drainage collection channels around the outside of the silo."
+  },
+  {
+    "id": "m-a69594db",
+    "guidance_proposition_id": "susan-ef92f343b178a474-22",
+    "law_proposition_id": "bcand:2dbae37802b7d461",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.8074,
+    "bert_score_f1": null,
+    "explanation": "The law requires the silo base to comply with BS 8007:1987 only; the guidance adds a further requirement for compliance with BS 8110-1:1997, raising a higher bar than the statutory minimum without contradicting it."
+  },
+  {
+    "id": "m-87465c9c",
+    "guidance_proposition_id": "susan-ef92f343b178a474-23",
+    "law_proposition_id": "bcand:671f943bd922f63c",
+    "relationship": "CONFLICTS",
+    "confidence": "high",
+    "cosine_score": 0.8094,
+    "bert_score_f1": null,
+    "explanation": "Both the guidance and this law clause sit within the same regulatory framework and address the same point — the hot-rolled asphalt standard for silo bases — but they specify different standards (BS 594/EN 13108-4:2006 in the guidance vs. BS 5502:Part 21:1990 in the law), which is a direct substantive conflict on the same requirement."
+  },
+  {
+    "id": "m-a69710b3",
+    "guidance_proposition_id": "susan-ef92f343b178a474-24",
+    "law_proposition_id": "bcand:b7b5741310c907fc",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7859,
+    "bert_score_f1": null,
+    "explanation": "The guidance states that silo walls must withstand wall loadings set in BS 5502-22:2003+A1:2013, which accurately reflects the law's requirement that retaining walls must withstand minimum wall loadings calculated per paragraph 15.6 of BS 5502: Part 22:2003. The reference to the +A1:2013 amendment is a minor addition that does not contradict the law."
+  },
+  {
+    "id": "m-ee03dfd4",
+    "guidance_proposition_id": "susan-ef92f343b178a474-25",
+    "law_proposition_id": "bcand:2cbe6fd2dfb2bab6",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7038,
+    "bert_score_f1": null,
+    "explanation": "The neighbouring proposition 'A silo must have impermeable drainage collection channels around the outside, flowing into an effluent tank' specifically covers the perimeter channel requirement that the reason identified as missing, resolving the incompleteness concern."
+  },
+  {
+    "id": "m-96ccf243",
+    "guidance_proposition_id": "susan-ef92f343b178a474-25",
+    "law_proposition_id": "bcand:f06816e1fdb476ed",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.6946,
+    "bert_score_f1": null,
+    "explanation": "This clause also forms part of the mandatory effluent collection system, requiring drainage from perimeter channels to an effluent tank via channel or pipe; the guidance's generic reference to an 'effluent collection system' does not capture this drainage requirement."
+  },
+  {
+    "id": "m-9877d3f7",
+    "guidance_proposition_id": "susan-ef92f343b178a474-26",
+    "law_proposition_id": "bcand:17b7cfc3401a7ee1",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7657,
+    "bert_score_f1": null,
+    "explanation": "This clause requires slurry storage tanks and effluent tanks to last at least 20 years with proper maintenance, which aligns with the guidance's 20-year with-maintenance standard for above-ground effluent tanks. The guidance accurately reflects this requirement, though it adds the specific condition 'all parts above ground' as the scenario context."
+  },
+  {
+    "id": "m-b7d35520",
+    "guidance_proposition_id": "susan-ef92f343b178a474-27",
+    "law_proposition_id": "bcand:5cb952f51f42ed5e",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8142,
+    "bert_score_f1": null,
+    "explanation": "The neighbouring proposition that underground effluent tank parts must 'last 20 years without maintenance' covers the structural integrity requirement, resolving the specific concern that only impermeability was mentioned."
+  },
+  {
+    "id": "m-5e952888",
+    "guidance_proposition_id": "susan-ef92f343b178a474-29",
+    "law_proposition_id": "bcand:bf5ec8c430177f02",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7442,
+    "bert_score_f1": null,
+    "explanation": "This candidate states exactly that silage bales must be wrapped and sealed in impermeable membranes or enclosed in impermeable bags, which matches the guidance precisely. The guidance accurately reflects this provision."
+  },
+  {
+    "id": "m-2b1db165",
+    "guidance_proposition_id": "susan-ef92f343b178a474-29",
+    "law_proposition_id": "bcand:b62945b66062c10d",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7251,
+    "bert_score_f1": null,
+    "explanation": "This fuller provision also requires that bales be stored at least 10 metres from inland freshwaters or coastal waters, which the guidance omits entirely. The guidance covers only the sealing requirement and not the mandatory setback distance."
+  },
+  {
+    "id": "m-f9b014de",
+    "guidance_proposition_id": "susan-ef92f343b178a474-30",
+    "law_proposition_id": "bcand:548bf1dcf895bf65",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7018,
+    "bert_score_f1": null,
+    "explanation": "The surrounding guidance explicitly states 'A farmer must keep baled silage at least 10 metres clear of inland or coastal waters,' directly covering the specific 10-metre distance requirement identified as missing in the original verdict."
+  },
+  {
+    "id": "m-96679b49",
+    "guidance_proposition_id": "susan-ef92f343b178a474-30",
+    "law_proposition_id": "bcand:b62945b66062c10d",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.6972,
+    "bert_score_f1": null,
+    "explanation": "This is the best anchor: it requires bales to be wrapped in impermeable membranes/bags (addressing leakage) and stored 10 metres from water, but the guidance omits the specific distance requirement and the impermeable wrapping obligation, covering only the general 'cannot leak into a water source' aspect."
+  },
+  {
+    "id": "m-7b5b9029",
+    "guidance_proposition_id": "susan-ef92f343b178a474-31",
+    "law_proposition_id": "bcand:548bf1dcf895bf65",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7531,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately reflects the 10-metre requirement for storing baled silage near inland or coastal waters, but omits the important qualifier that the rule applies to waters 'which effluent escaping from the bales could enter' — a condition that narrows the scope of the obligation. The guidance also omits any mention of protected water supply source abstraction point requirements if such exist for bales."
+  },
+  {
+    "id": "m-dbdaa4bb",
+    "guidance_proposition_id": "susan-ef92f343b178a474-33",
+    "law_proposition_id": "bcand:3ac3047dcfb92297",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7398,
+    "bert_score_f1": null,
+    "explanation": "The surrounding guidance explicitly states 'A farmer must not make or store any silage, or unwrap baled silage, within 10 metres of inland or coastal waters' and 'A farmer must not store field silage within 50 metres of a protected water supply source', directly covering the specific minimum distance requirements identified as missing in the original verdict."
+  },
+  {
+    "id": "m-b91f1c64",
+    "guidance_proposition_id": "susan-ef92f343b178a474-33",
+    "law_proposition_id": "bcand:e7815975e831a82a",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7055,
+    "bert_score_f1": null,
+    "explanation": "This is the best anchor: it imposes a direct obligation on the person with custody of field silage to site it at least 10m from inland/coastal waters and 50m from abstraction points. The guidance vaguely references choosing a suitable site and containing drainage but omits these specific mandatory distances, making it incomplete."
+  },
+  {
+    "id": "m-02f5b206",
+    "guidance_proposition_id": "susan-ef92f343b178a474-34",
+    "law_proposition_id": "bcand:297c76a9383be4bc",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7494,
+    "bert_score_f1": null,
+    "explanation": "This clause directly places the 14-day advance notice obligation on the person with custody or control (i.e., the farmer) for field silage or silage stored on open land, accurately reflecting the guidance's content on timing and subject matter."
+  },
+  {
+    "id": "m-3405dbdf",
+    "guidance_proposition_id": "susan-ef92f343b178a474-36",
+    "law_proposition_id": "bcand:ef69937aae98411b",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7779,
+    "bert_score_f1": null,
+    "explanation": "The law permits placement within 10 metres if the Agency agrees in writing that precautions taken are adequate to avoid significant pollution risk; the guidance states a blanket prohibition without written agreement, omitting the nuance that adequate precautions (not merely written agreement alone) are the operative condition. The guidance thus covers only part of what the law requires, presenting the rule as simpler than it is."
+  },
+  {
+    "id": "m-34f340b5",
+    "guidance_proposition_id": "susan-ef92f343b178a474-37",
+    "law_proposition_id": "bcand:ad85ed0ab1b89ca2",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7675,
+    "bert_score_f1": null,
+    "explanation": "The law requires the base of a slurry storage tank to be impermeable; the guidance states slurry tanks must be impermeable, which is consistent with this requirement (though the guidance may not separately distinguish 'base' from 'walls')."
+  },
+  {
+    "id": "m-1ba7b9fd",
+    "guidance_proposition_id": "susan-ef92f343b178a474-37",
+    "law_proposition_id": "bcand:c932f836e7ac6e40",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7642,
+    "bert_score_f1": null,
+    "explanation": "The law requires pipe walls associated with slurry or effluent storage to be impermeable; the guidance includes pipes in the impermeability requirement, accurately reflecting this clause."
+  },
+  {
+    "id": "m-afdc593f",
+    "guidance_proposition_id": "susan-ef92f343b178a474-37",
+    "law_proposition_id": "bcand:8546db21f3201256",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7939,
+    "bert_score_f1": null,
+    "explanation": "The law requires corrosion protection per BS 5502: Part 50:1993; the guidance specifies the updated version BS 5502-50:1993+A2:2010, which sets a higher or more current bar than the statute's reference. Also, the law covers 'base and walls of the slurry storage tank, effluent tank, channels and reception pit, and walls of pipes,' while the guidance refers to 'slurry tanks, reception pits, pipes and channels' — broadly the same scope but not specifying 'base and walls' distinctions."
+  },
+  {
+    "id": "m-cf287e88",
+    "guidance_proposition_id": "susan-ef92f343b178a474-37",
+    "law_proposition_id": "bcand:6adbc74b0ed8a74e",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7895,
+    "bert_score_f1": null,
+    "explanation": "This clause establishes that the base and walls of effluent tanks, channels, and reception pits must be impermeable, but omits slurry storage tanks; the guidance covers slurry tanks for impermeability, which is addressed separately in bcand:ad85ed0ab1b89ca2. The guidance accurately reflects impermeability for these items but doesn't separately distinguish the base/walls requirement."
+  },
+  {
+    "id": "m-464904db",
+    "guidance_proposition_id": "susan-ef92f343b178a474-38",
+    "law_proposition_id": "bcand:17b7cfc3401a7ee1",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7787,
+    "bert_score_f1": null,
+    "explanation": "The law requires the structures to satisfy the requirements of paragraphs 2 to 4 for at least 20 years with proper maintenance, meaning the 20-year durability is tied to specific structural and containment standards in those paragraphs. The guidance omits this conditional reference to paragraphs 2 to 4 and also omits 'effluent tank' from the list of covered structures, so it covers only part of what the law requires."
+  },
+  {
+    "id": "m-16a28993",
+    "guidance_proposition_id": "susan-ef92f343b178a474-40",
+    "law_proposition_id": "bcand:0aed89945dbf0c53",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7915,
+    "bert_score_f1": null,
+    "explanation": "The law sets a minimum standard prohibiting filling an earth-walled slurry tank to less than 750mm of freeboard, which directly corresponds to the guidance's requirement to include and maintain 750mm of freeboard. The guidance accurately reflects this statutory floor without exceeding or falling short of it."
+  },
+  {
+    "id": "m-58bf8da0",
+    "guidance_proposition_id": "susan-ef92f343b178a474-41",
+    "law_proposition_id": "bcand:8acd97aa5decf2ae",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7369,
+    "bert_score_f1": null,
+    "explanation": "This clause establishes that where slurry is spread on land, the storage tank need not exceed four months' capacity, which directly underpins the guidance statement that capacity must 'normally' be sufficient for at least four months. The guidance accurately reflects this provision as a standard requirement."
+  },
+  {
+    "id": "m-165c834a",
+    "guidance_proposition_id": "susan-ef92f343b178a474-42",
+    "law_proposition_id": "bcand:bc78d29f204f090b",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7688,
+    "bert_score_f1": null,
+    "explanation": "The law sets a floor requiring capacity for the maximum two-day slurry production, but makes no mention of rainfall. The guidance adds 'likely rainfall' as an additional component of the required capacity, which exceeds the statutory minimum without contradicting it — this is a higher bar than the legal floor, so GUIDANCE_BROADER applies under Rule 3."
+  },
+  {
+    "id": "m-b37f8cc1",
+    "guidance_proposition_id": "susan-ef92f343b178a474-43",
+    "law_proposition_id": "bcand:ac0a96d4053ca235",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8008,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the statutory requirement: two valves on the drainage pipe separated by a minimum of 1 metre. The phrase 'in series' in the law is implicit in the guidance's '2 valves separated by at least 1 metre' but no substantive requirement is omitted or contradicted."
+  },
+  {
+    "id": "m-68c67395",
+    "guidance_proposition_id": "susan-ef92f343b178a474-44",
+    "law_proposition_id": "bcand:58ae2bc6ad1395fc",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7511,
+    "bert_score_f1": null,
+    "explanation": "The law requires valves to be 'kept shut and locked when not in use', whereas the guidance only states they must 'be able to shut off the flow' and 'be locked when not in use' — omitting the requirement that valves must also be kept shut (not merely lockable). This is a substantive omission within the same regulatory framework."
+  },
+  {
+    "id": "m-3ba9be14",
+    "guidance_proposition_id": "susan-ef92f343b178a474-45",
+    "law_proposition_id": "bcand:ad85ed0ab1b89ca2",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7117,
+    "bert_score_f1": null,
+    "explanation": "The law requires the base to be impermeable but sets no minimum thickness. The guidance adds a specific requirement of at least 1 metre of impermeable soil, which exceeds the statutory floor without contradicting it."
+  },
+  {
+    "id": "m-454977d8",
+    "guidance_proposition_id": "susan-ef92f343b178a474-47",
+    "law_proposition_id": "bcand:a2fac7f203ce000f",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7524,
+    "bert_score_f1": null,
+    "explanation": "Subparagraph (c) requires that where walls are not impermeable the base must have adequate provision (channel or pipe) to drain collected slurry to an effluent tank — this directly grounds the guidance's requirement that perimeter drains drain into an effluent tank."
+  },
+  {
+    "id": "m-661a3d5f",
+    "guidance_proposition_id": "susan-ef92f343b178a474-47",
+    "law_proposition_id": "bcand:f0d77a6222c01302",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7203,
+    "bert_score_f1": null,
+    "explanation": "Subparagraph (b) directly requires that where walls are not impermeable the base must be provided with channels to collect escaped slurry, which is the legal basis for the guidance's requirement that the base extend beyond the walls with perimeter collection channels."
+  },
+  {
+    "id": "m-88dbc7dc",
+    "guidance_proposition_id": "susan-ef92f343b178a474-49",
+    "law_proposition_id": "bcand:bbe8c65330bf8856",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.6667,
+    "bert_score_f1": null,
+    "explanation": "Regulation 15(1)(d),(e),(f) requires occupiers to produce and maintain a risk map showing sandy/shallow soils, land with incline >12°, and land within 10 metres of surface waters, which directly underpins the guidance obligation to assess run-off risk and identify unsuitable areas for slurry application."
+  },
+  {
+    "id": "m-23756fba",
+    "guidance_proposition_id": "susan-ef92f343b178a474-49",
+    "law_proposition_id": "bcand:0f578512731098c4",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.688,
+    "bert_score_f1": null,
+    "explanation": "Regulation 16(2)(a)-(f) sets out specific factors that must be considered when assessing nitrogen run-off risk to surface water, but the guidance only mentions assessing run-off risk and identifying unsuitable areas without specifying all six mandatory factors (slope, ground cover, proximity to water, weather, soil type, land drains). The guidance covers less than what the law requires."
+  },
+  {
+    "id": "m-f5d90b68",
+    "guidance_proposition_id": "susan-ef92f343b178a474-49",
+    "law_proposition_id": "bcand:909f71968c86dbea",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.6591,
+    "bert_score_f1": null,
+    "explanation": "Regulation 15(1)(b),(c),(g) requires the risk map to show all surface waters, boreholes/springs/wells, and land within 50 metres of such features; the guidance's focus on run-off risk assessment partially overlaps but does not capture these specific mapping obligations, leaving them unaddressed."
+  },
+  {
+    "id": "m-22794a79",
+    "guidance_proposition_id": "susan-ef92f343b178a474-50",
+    "law_proposition_id": "bcand:e7c3e0b931f43c7d",
+    "relationship": "CONFLICTS",
+    "confidence": "medium",
+    "cosine_score": 0.7148,
+    "bert_score_f1": null,
+    "explanation": "Regulation 5(2)(b) exempts farms storing no more than 1,500 litres without any requirement for a new or improved store — the exemption applies universally on the quantity criterion alone. The guidance adds a conjunctive condition (new build or substantial change) that the law does not impose, meaning the guidance asserts a narrower scope of application than the law provides, which positively conflicts with the legal provision."
+  },
+  {
+    "id": "m-6d90c8fb",
+    "guidance_proposition_id": "susan-ef92f343b178a474-52",
+    "law_proposition_id": "bcand:0fa90cee11471cda",
+    "relationship": "CONFLICTS",
+    "confidence": "high",
+    "cosine_score": 0.7011,
+    "bert_score_f1": null,
+    "explanation": "The law requires storage in a tank satisfying Schedule 3 requirements; the guidance asserts ISO 9000 compliance as the standard. Both sit within the same agricultural fuel storage regulatory framework and the guidance substitutes a different standard (ISO 9000) for the legally mandated one (Schedule 3), positively asserting a contradictory rule."
+  },
+  {
+    "id": "m-619b3efd",
+    "guidance_proposition_id": "susan-ef92f343b178a474-53",
+    "law_proposition_id": "bcand:ad86e31a4b211ed2",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7887,
+    "bert_score_f1": null,
+    "explanation": "The law limits the 10-metre zone to waters 'that fuel oil could enter if it were to escape,' whereas the guidance applies the rule unconditionally to all inland or coastal waters including yard drains, dry ditches and land drains, without the qualifying escape-risk condition. The guidance also extends the prohibition to 'yard drains, dry ditches and land drains,' which may fall outside the statutory definition of inland freshwaters or coastal waters, making the guidance broader than the statutor"
+  },
+  {
+    "id": "m-5ff83c8d",
+    "guidance_proposition_id": "susan-ef92f343b178a474-55",
+    "law_proposition_id": "bcand:c8020c60c33d7c96",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7031,
+    "bert_score_f1": null,
+    "explanation": "Schedule 3, paragraph 4 directly requires every part of a fuel storage tank to be situated within a bund, which accurately reflects the guidance that a tank must be surrounded by a secondary containment structure or bund."
+  },
+  {
+    "id": "m-67d2d1e2",
+    "guidance_proposition_id": "susan-ef92f343b178a474-55",
+    "law_proposition_id": "bcand:0fa90cee11471cda",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.6794,
+    "bert_score_f1": null,
+    "explanation": "Regulation 5(1)(a) is the operative obligation requiring farm fuel oil to be stored in a tank within a facility satisfying Schedule 3 (which mandates bunding), making it the correct legal basis for the guidance."
+  },
+  {
+    "id": "m-fe88d809",
+    "guidance_proposition_id": "susan-ef92f343b178a474-56",
+    "law_proposition_id": "bcand:668a0f452928ab85",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.6912,
+    "bert_score_f1": null,
+    "explanation": "The neighbouring proposition explicitly states the bund must be impermeable in both its walls and base, resolving the concern that the base impermeability requirement was omitted; together the two propositions cover what the law requires."
+  },
+  {
+    "id": "m-b9bfc9d5",
+    "guidance_proposition_id": "susan-ef92f343b178a474-57",
+    "law_proposition_id": "bcand:2a2acb853981119c",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.71,
+    "bert_score_f1": null,
+    "explanation": "The law requires impermeability to water and oil in the bund and base, which the guidance reflects; however, the guidance adds the requirement of 'no drain-down pipe,' which exceeds what this clause states, making the guidance broader than the statutory minimum without contradicting it."
+  },
+  {
+    "id": "m-52e3babf",
+    "guidance_proposition_id": "susan-ef92f343b178a474-58",
+    "law_proposition_id": "bcand:ac1854e7a3c845d5",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7726,
+    "bert_score_f1": null,
+    "explanation": "The law requires taps and valves to be within the bund, which the guidance reflects. However, the guidance adds the additional requirements that taps and valves be 'directed down and locked shut when not in use' — these conditions go beyond what the law clause states, making the guidance broader than the legal minimum. The guidance also states the bund must contain 'every part of the tank', which is not addressed by this clause alone."
+  },
+  {
+    "id": "m-9037ba39",
+    "guidance_proposition_id": "susan-ef92f343b178a474-59",
+    "law_proposition_id": "bcand:caac8146813baa12",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7691,
+    "bert_score_f1": null,
+    "explanation": "This clause requires permanently attached flexible pipes to be locked within the bund when not in use, which the guidance reflects. However, the guidance adds the requirement that pipes must be fitted with self-closing taps or valves, which is not stated in this clause, making the guidance broader than the statutory minimum."
+  },
+  {
+    "id": "m-236b09e0",
+    "guidance_proposition_id": "susan-ef92f343b178a474-61",
+    "law_proposition_id": "bcand:23630cf4a53b5fc8",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.6861,
+    "bert_score_f1": null,
+    "explanation": "Regulation 7(1) grants the Agency power to serve a notice requiring works, precautions or other steps without specifying a threshold of 'significant risk of pollution'; the guidance adds that condition, raising the bar above what the statutory text expressly states. Under Rule 4, this is GUIDANCE_BROADER rather than CONFLICTS."
+  },
+  {
+    "id": "m-4c938925",
+    "guidance_proposition_id": "susan-ef92f343b178a474-62",
+    "law_proposition_id": "bcand:bbe74ed3ca233831",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.6912,
+    "bert_score_f1": null,
+    "explanation": "The law clause states the compliance period in a notice requiring works is 28 days, which directly and accurately reflects the guidance that a farmer served a notice must be given at least 28 days to carry out the required work. The guidance accurately restates this statutory requirement."
+  },
+  {
+    "id": "m-4111366e",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-1",
+    "law_proposition_id": "bcand:44654d1fd1959fe9",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8004,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the statutory obligation: the 170 kg per hectare per calendar year ceiling on nitrogen from livestock manure applied to a holding. The guidance characterises this as a permission ('may apply up to') rather than a duty ('must not exceed'), but both formulations describe the same quantitative limit without adding to or subtracting from it."
+  },
+  {
+    "id": "m-97961b87",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-6",
+    "law_proposition_id": "bcand:44654d1fd1959fe9",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7768,
+    "bert_score_f1": null,
+    "explanation": "The surrounding guidance explicitly states that 'A livestock manure holder in a nitrate vulnerable zone may apply up to 170kg per hectare of nitrogen in livestock manure on their holding in each calendar year' and that 'The 170kg per hectare nitrogen loading limit applies as an average across the whole holding, including manure deposited directly by grazing livestock and what is spread', thereby c"
+  },
+  {
+    "id": "m-cb4bdd10",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-7",
+    "law_proposition_id": "bcand:0668981f10fe0172",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.692,
+    "bert_score_f1": null,
+    "explanation": "This Schedule 3 heading (read with Regulation 36(4)) is the direct legal basis for the rule that a derogation is subject to conditions, accurately reflected by the guidance's statement that a successful applicant must comply with the derogation conditions and NVZ rules."
+  },
+  {
+    "id": "m-743b26da",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-7",
+    "law_proposition_id": "bcand:28d85db388e168d8",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7191,
+    "bert_score_f1": null,
+    "explanation": "This clause sets out one specific derogation condition (maintaining ≥80% grass cover). The guidance says farmers must comply with all derogation conditions but does not spell out this specific requirement, so the guidance is incomplete relative to this particular mandatory condition."
+  },
+  {
+    "id": "m-6d76874d",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-7",
+    "law_proposition_id": "bcand:e6b40a3919b91922",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.6885,
+    "bert_score_f1": null,
+    "explanation": "This clause specifies that a derogation ceases to have effect unless the occupier sends a written declaration to the Agency that Schedule 3 conditions will be met — a specific procedural compliance step. The guidance refers only to complying with conditions generally and omits this written-declaration requirement."
+  },
+  {
+    "id": "m-a36c132d",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-8",
+    "law_proposition_id": "bcand:f27d068bf8f73e85",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8035,
+    "bert_score_f1": null,
+    "explanation": "Regulation 36(1) states that an occupier may apply for a derogation where 80% or more of the agricultural area is sown with grass, which precisely matches the guidance's statement about the 80% grass eligibility condition for applying."
+  },
+  {
+    "id": "m-27e1bdd4",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-9",
+    "law_proposition_id": "bcand:2129d3e3b97ea7c2",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7074,
+    "bert_score_f1": null,
+    "explanation": "The law proposition provided is blank/empty, meaning there is no actual legal text to conflict with or be incomplete against; the verdict cannot stand without a law proposition to compare the guidance against."
+  },
+  {
+    "id": "m-8e2736ea",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-10",
+    "law_proposition_id": "bcand:ed78fbaa1f454ae6",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.762,
+    "bert_score_f1": null,
+    "explanation": "The law opens the application window from 1st October, but the guidance starts it on 10 November, narrowing the permitted opening date and imposing a higher bar on farmers (a later start date). This exceeds the statutory floor without contradicting it under rule 3/4."
+  },
+  {
+    "id": "m-7bd939c1",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-11",
+    "law_proposition_id": "bcand:70834a0eeeaaaee9",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7116,
+    "bert_score_f1": null,
+    "explanation": "Regulation 36(6) requires the application to be in the form and manner published by the Secretary of State but does not itself specify the particular data fields. The guidance enumerates specific items (farm name, address, CPH number, map), which adds requirements beyond what the statutory text states — hence broader than the floor set by the statute."
+  },
+  {
+    "id": "m-daadcebf",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-12",
+    "law_proposition_id": "bcand:f27d068bf8f73e85",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7856,
+    "bert_score_f1": null,
+    "explanation": "Regulation 36(1) establishes that an occupier may apply for a derogation where 80% or more of the agricultural area is sown with grass, but does not itself specify what information (agricultural area and grassland area in hectares as at 1 January) must be supplied in the application. The guidance adds a specific data-provision requirement beyond what this clause states, making it broader than the clause without contradicting it."
+  },
+  {
+    "id": "m-c8dd6a3e",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+    "law_proposition_id": "bcand:bd158d02dc68a9bf",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7559,
+    "bert_score_f1": null,
+    "explanation": "This provision directly requires the occupier to record the type and amount of livestock manure intended to be brought onto the holding during the derogation year, which corresponds to the guidance requirement to provide the amount of manure nitrogen from grazing livestock intended to be brought onto the farm. The guidance adds the specific metric (kgN) and extends to send-off, but the core obligation is reflected here."
+  },
+  {
+    "id": "m-82ff2f7c",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+    "law_proposition_id": "bcand:2973cdbe802e63cb",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7528,
+    "bert_score_f1": null,
+    "explanation": "This provision requires recording the type and amount of livestock manure intended to be sent off the holding during the derogation year, directly supporting the part of the guidance about manure sent off the farm."
+  },
+  {
+    "id": "m-ae30c821",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-18",
+    "law_proposition_id": "bcand:8d7162b402e56536",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.755,
+    "bert_score_f1": null,
+    "explanation": "Schedule 3 para 14(2) requires calculating and recording manure nitrogen from livestock as a derogation condition, but the guidance adds the specific restriction to non-grazing livestock and frames this as an application submission requirement, going beyond what the clause states."
+  },
+  {
+    "id": "m-fdb636c2",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-19",
+    "law_proposition_id": "bcand:e6b40a3919b91922",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7075,
+    "bert_score_f1": null,
+    "explanation": "Regulation 36(4) requires the occupier to send the Agency a written declaration that derogation conditions will be met, or the derogation lapses — this directly underpins the guidance that a successful applicant must formally agree in writing to the Environment Agency to fulfil the conditions."
+  },
+  {
+    "id": "m-8bca6a84",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-24",
+    "law_proposition_id": "bcand:3935f9d6579fd87f",
+    "relationship": "CONFLICTS",
+    "confidence": "high",
+    "cosine_score": 0.7349,
+    "bert_score_f1": null,
+    "explanation": "Rule 1 would normally apply (factual_statement → UNGROUNDED), but the guidance is substantively asserting a regulatory rule about when the Agency may refuse. The law says the Agency 'must refuse' when a prior-year breach is found, but the guidance states it 'may refuse', which is a weaker and positively contradictory statement within the same regulatory framework."
+  },
+  {
+    "id": "m-b9bfb2d3",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-26",
+    "law_proposition_id": "bcand:daa6b18304ff4677",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7256,
+    "bert_score_f1": null,
+    "explanation": "This provision directly imposes the obligation on occupiers granted a derogation to meet derogation conditions, which is exactly what the guidance states. The additional reference to nitrogen fertiliser and organic manure storage rules reflects the broader NVZ regulatory framework consistently applied to derogation holders."
+  },
+  {
+    "id": "m-afd2848c",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-29",
+    "law_proposition_id": "bcand:44654d1fd1959fe9",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7649,
+    "bert_score_f1": null,
+    "explanation": "Regulation 7(1) directly imposes the 170kg nitrogen per hectare limit in livestock manure across the holding, which is exactly what the guidance states applies when a derogation is withdrawn. The guidance accurately restates the statutory floor in this provision."
+  },
+  {
+    "id": "m-37a63606",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-30",
+    "law_proposition_id": "bcand:44654d1fd1959fe9",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7691,
+    "bert_score_f1": null,
+    "explanation": "Regulation 7(1) imposes the 170 kg/ha livestock-manure nitrogen limit across the holding, which is precisely the rule the guidance states applies when a derogation is unavailable; the guidance accurately reflects this statutory minimum."
+  },
+  {
+    "id": "m-f91f9007",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-31",
+    "law_proposition_id": "bcand:f049bdaa13cdeba9",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7959,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the statutory requirement in schedule 3, paragraph 10(1)(a): ploughed grassland must be re-sown with a high nitrogen demand crop within four weeks. The examples given (grass, potatoes, sugar beet, maize) are illustrative and consistent with the concept of high nitrogen demand crops."
+  },
+  {
+    "id": "m-f4b673a8",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-32",
+    "law_proposition_id": "bcand:4a537bd92f9ecf0d",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7807,
+    "bert_score_f1": null,
+    "explanation": "The law requires sowing with grass within six weeks beginning with the day after ploughing, and the guidance states planting grass within 6 weeks from the date of ploughing. The minor phrasing difference ('day after ploughing' vs 'date of ploughing') is negligible in practical effect, and the substance accurately reflects the legal requirement."
+  },
+  {
+    "id": "m-95cdee43",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-33",
+    "law_proposition_id": "bcand:e7808fa970b97232",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8198,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the legal prohibition: temporary grassland on sandy soils must not be ploughed between 1 July and 31 December, matching the candidate clause exactly."
+  },
+  {
+    "id": "m-ae27a318",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-34",
+    "law_proposition_id": "bcand:9024af88939a23c9",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8239,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates this provision word-for-word in substance: spreading on sandy soils between 1 September and 31 December triggers a prohibition on ploughing before the following 16 January. The guidance adds 'derogation holder' as subject, which is consistent with the derogation scheme context."
+  },
+  {
+    "id": "m-245c07ab",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-35",
+    "law_proposition_id": "bcand:cc3eed9d3842df42",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8221,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates this provision: livestock manure spread on grass (not on sandy soils) between 15 October and 15 January means no ploughing before the following 16 January. The guidance's phrase 'all other soils' correctly maps to 'not on sandy soils'."
+  },
+  {
+    "id": "m-defc24ac",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-36",
+    "law_proposition_id": "bcand:bbe08030bdcf243a",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7544,
+    "bert_score_f1": null,
+    "explanation": "This sub-paragraph provides the second exception (leguminous plants under-sown with grass), which directly corresponds to the 'legumes under-sown with grass' element of the guidance; the guidance accurately restates this provision."
+  },
+  {
+    "id": "m-cf09d5b9",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-36",
+    "law_proposition_id": "bcand:35ae41d6d9bb5652",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7932,
+    "bert_score_f1": null,
+    "explanation": "This sub-paragraph covers the prohibition and the grass/clover exception, which the guidance reflects accurately, but the guidance also incorporates the second exception (under-sown with grass) from the sibling sub-paragraph — meaning taken alone, this clause only partially grounds the full guidance statement."
+  },
+  {
+    "id": "m-968c28a2",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-37",
+    "law_proposition_id": "bcand:3559c670248ac958",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7124,
+    "bert_score_f1": null,
+    "explanation": "This provision directly requires the derogation holder to calculate the optimum amount of phosphate fertiliser to be spread on the crop, which corresponds to the guidance obligation to plan the amount of phosphate fertiliser put on their land in an NVZ."
+  },
+  {
+    "id": "m-41b4899d",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-38",
+    "law_proposition_id": "bcand:08f7916de240864d",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7589,
+    "bert_score_f1": null,
+    "explanation": "This clause directly requires the occupier to calculate the amount of phosphorus in the soil likely to be available for crop uptake during the growing season, which matches the guidance's description of the obligation to calculate available phosphate before use in a field."
+  },
+  {
+    "id": "m-1a90e127",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-38",
+    "law_proposition_id": "bcand:5c6a379c94a18e10",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7589,
+    "bert_score_f1": null,
+    "explanation": "This is an identical provision to bcand:08f7916de240864d and equally grounds the guidance on the calculation obligation."
+  },
+  {
+    "id": "m-0f19c0b0",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-39",
+    "law_proposition_id": "bcand:3559c670248ac958",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7488,
+    "bert_score_f1": null,
+    "explanation": "The law requires calculating the optimum amount of phosphate fertiliser taking into account available phosphorus, which directly corresponds to the guidance's instruction to calculate the amount of phosphate to get the best crops, accounting for phosphate already in the soil. The guidance accurately reflects this statutory obligation."
+  },
+  {
+    "id": "m-1f55675d",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-39",
+    "law_proposition_id": "bcand:faf27127ac00dc4d",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7158,
+    "bert_score_f1": null,
+    "explanation": "This clause requires the fertilisation plan to record both the calculated soil phosphorus amount and the optimum phosphate fertiliser amount, effectively confirming that both the calculation of available soil phosphorus and the optimum application calculation are statutory requirements. The guidance reflects these underlying substantive obligations, though bcand:3559c670248ac958 is a more direct anchor."
+  },
+  {
+    "id": "m-27846e17",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-39",
+    "law_proposition_id": "bcand:08f7916de240864d",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7332,
+    "bert_score_f1": null,
+    "explanation": "This clause is one part of the two-step calculation process: first calculate available soil phosphorus, then calculate optimum phosphate fertiliser. The guidance conflates both steps into one, so it reflects this clause but incompletely separates the two statutory steps. However, bcand:3559c670248ac958 (item b) is the better anchor as the guidance is specifically about the optimum calculation."
+  },
+  {
+    "id": "m-45f2e643",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-39",
+    "law_proposition_id": "bcand:5c6a379c94a18e10",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7332,
+    "bert_score_f1": null,
+    "explanation": "Identical in text to bcand:08f7916de240864d; same reasoning applies — this is step (a) of the calculation, and the guidance addresses both steps together without fully distinguishing the first step from the second."
+  },
+  {
+    "id": "m-beadc847",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+    "law_proposition_id": "bcand:1a3b4db1707f8376",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.775,
+    "bert_score_f1": null,
+    "explanation": "The law requires all occupiers to record phosphate from organic manure before spreading (no 'first-time use' restriction), whereas the guidance restricts the obligation to derogation holders using phosphate for the first time in a field — a narrower but also differently framed requirement. The guidance also frames this as a calculation step rather than a recording step, and adds the 'first use in a field' qualifier not present in the law, making it broader in specificity relative to a general ob"
+  },
+  {
+    "id": "m-9d720650",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-41",
+    "law_proposition_id": "bcand:3559c670248ac958",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7767,
+    "bert_score_f1": null,
+    "explanation": "The law requires the occupier (not specifically a 'derogation holder') to calculate the optimum phosphate amount before spreading, with no restriction to 'first time in a field'. The guidance narrows the obligation to derogation holders and to first-time use in a field, which adds a condition not present in the law clause, making it broader in one sense and narrower in another; on balance the guidance imposes a higher/more specific bar than the statutory text."
+  },
+  {
+    "id": "m-b07a7f7c",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-42",
+    "law_proposition_id": "bcand:1a3b4db1707f8376",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7523,
+    "bert_score_f1": null,
+    "explanation": "This clause requires recording before spreading organic manure the amount of phosphate likely to be supplied for fertilising the crop in the growing season — this is substantively a phosphate availability calculation per spreading event, aligning with the guidance's description."
+  },
+  {
+    "id": "m-0f3d231c",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-42",
+    "law_proposition_id": "bcand:eda691e6ddc2cd3d",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7635,
+    "bert_score_f1": null,
+    "explanation": "This clause requires recording the amount of manufactured phosphate fertiliser required before spreading — a pre-spread recording obligation. The guidance characterises this as a 'calculation every time they spread', which broadly aligns but conflates recording with calculation and applies it more generally than this specific clause."
+  },
+  {
+    "id": "m-eeaad6d3",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-42",
+    "law_proposition_id": "bcand:1df88bea96d1ea65",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7592,
+    "bert_score_f1": null,
+    "explanation": "This clause requires recording total phosphate content of organic manure before spreading, which is one component of the guidance's described obligation. The guidance generalises this into a broader 'phosphate availability calculation' requirement, going beyond mere recording of total content."
+  },
+  {
+    "id": "m-3e97e037",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-42",
+    "law_proposition_id": "bcand:3559c670248ac958",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7452,
+    "bert_score_f1": null,
+    "explanation": "This clause requires calculating the optimum amount of phosphate fertiliser taking into account available phosphorus, which is the closest match to a phosphate availability calculation. The guidance is broader in that it states this must happen 'every time they spread manure or fertiliser', while this clause applies to fertiliser planning rather than explicitly requiring repetition per spreading event."
+  },
+  {
+    "id": "m-d322aabb",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-43",
+    "law_proposition_id": "bcand:3559c670248ac958",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7477,
+    "bert_score_f1": null,
+    "explanation": "This clause requires the occupier to calculate the optimum amount of phosphate fertiliser to spread on the crop, accounting for available phosphorus — directly corresponding to the phosphate calculation the guidance requires before use. However, it captures only part of the annual timing element."
+  },
+  {
+    "id": "m-a35e7750",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-43",
+    "law_proposition_id": "bcand:e35f247d4fb2ddf0",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7464,
+    "bert_score_f1": null,
+    "explanation": "This clause explicitly requires the phosphate calculation duties (under sub-paragraph 1, including the optimum phosphate amount) to be performed each calendar year before spreading on permanent grassland — directly grounding the guidance's requirement to repeat calculations each growing season."
+  },
+  {
+    "id": "m-807aa25d",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-45",
+    "law_proposition_id": "bcand:e35f247d4fb2ddf0",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7639,
+    "bert_score_f1": null,
+    "explanation": "The law requires the occupier of permanent grassland to comply with phosphate-related duties in each calendar year (i.e. starting 1 January) before spreading phosphate fertiliser, which accurately underpins the guidance that phosphate calculations for permanent grassland must be based on the farming year starting 1 January."
+  },
+  {
+    "id": "m-e4fe31b1",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-46",
+    "law_proposition_id": "bcand:502b73fd8b422b23",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8261,
+    "bert_score_f1": null,
+    "explanation": "The neighbouring proposition explicitly states the five-hectare granularity requirement and the same cropping and soil type qualifier, resolving both specific omissions identified in the original verdict."
+  },
+  {
+    "id": "m-e5e37857",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-47",
+    "law_proposition_id": "bcand:502b73fd8b422b23",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7866,
+    "bert_score_f1": null,
+    "explanation": "The surrounding guidance explicitly states 'A derogation holder must sample and analyse the soil at least once every 4 years to determine the amount of phosphorus available to crops during the growing season,' which directly covers both the four-yearly periodicity and the phosphorus-specific purpose that the original verdict found missing."
+  },
+  {
+    "id": "m-73e9c4fa",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-49",
+    "law_proposition_id": "bcand:b4fb61bf612875ae",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.794,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the legal requirement: where soil sampling data is not less than 4 years old (i.e., not carried out within four years before grant), 75% of the agricultural area must be sampled, and the guidance's 'first year of the derogation' corresponds to 'no later than 12 months after the grant of the derogation'."
+  },
+  {
+    "id": "m-8e346bf7",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-50",
+    "law_proposition_id": "bcand:388559623da4def5",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7915,
+    "bert_score_f1": null,
+    "explanation": "This clause requires 100% sampling by 12 months after the next derogation is granted, meaning the remaining 25% (after 75% was done in year one) must be completed in the year of the next derogation — accurately reflecting the guidance's statement."
+  },
+  {
+    "id": "m-2cae6a77",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-50",
+    "law_proposition_id": "bcand:b4fb61bf612875ae",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.792,
+    "bert_score_f1": null,
+    "explanation": "This clause governs the first-year 75% sampling obligation (within 12 months of the grant of the derogation), which the guidance presupposes but does not restate. The guidance addresses only the follow-on obligation for the remaining 25%, so this clause is only partially reflected."
+  },
+  {
+    "id": "m-229c2a34",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-51",
+    "law_proposition_id": "bcand:8d7162b402e56536",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7426,
+    "bert_score_f1": null,
+    "explanation": "This Schedule 3 derogation condition requires the occupier (derogation holder) to calculate and record the amount of nitrogen and phosphate in manure produced by livestock, which partially supports the guidance's claim that derogation holders must record nitrogen and phosphate use from organic manures."
+  },
+  {
+    "id": "m-1d5ac5d0",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-51",
+    "law_proposition_id": "bcand:0668981f10fe0172",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7462,
+    "bert_score_f1": null,
+    "explanation": "This is a scope/heading clause that identifies Schedule 3 as the derogation conditions under Regulation 36(4). The guidance goes beyond merely restating this scope by specifying substantive recording obligations, so it is broader than what this clause alone states."
+  },
+  {
+    "id": "m-ca67bae7",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-51",
+    "law_proposition_id": "bcand:6e124046da8805bc",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7504,
+    "bert_score_f1": null,
+    "explanation": "This clause under Schedule 3 (derogation conditions) specifically requires derogation holders to record phosphate supplied for crop uptake from organic manure within one week of spreading. The guidance mentions phosphate from organic manures but does not specify the one-week deadline, making it incomplete relative to this specific requirement."
+  },
+  {
+    "id": "m-d30e86f3",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-51",
+    "law_proposition_id": "bcand:b5bdc4ebdaf0b42a",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7415,
+    "bert_score_f1": null,
+    "explanation": "This Schedule 3 derogation condition requires the occupier to record the total phosphorus content within one week of spreading organic manure. The guidance refers to phosphate recording but does not capture this specific timing requirement, making it incomplete."
+  },
+  {
+    "id": "m-35414b1d",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-52",
+    "law_proposition_id": "bcand:8816503298c2ba34",
+    "relationship": "CONFLICTS",
+    "confidence": "medium",
+    "cosine_score": 0.8052,
+    "bert_score_f1": null,
+    "explanation": "Both sit within the same nitrates/manure regulatory framework and address recording nitrogen content of manure brought onto a holding within one week, but the law only requires recording when the nitrogen content is 'not known' and after it is ascertained — whereas the guidance states it must be recorded within one week of bringing the manure onto the holding regardless of prior knowledge. These are substantively inconsistent trigger conditions within the same framework."
+  },
+  {
+    "id": "m-68ebff98",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-54",
+    "law_proposition_id": "bcand:ee54aa7c2d046744",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7661,
+    "bert_score_f1": null,
+    "explanation": "The law requires recording the total agricultural area and grass area by 1st March each calendar year, which matches the guidance's 1 March deadline; however, the guidance adds a requirement to update within one month if the area changes, which goes beyond what this clause states, making the guidance broader."
+  },
+  {
+    "id": "m-2b11fba3",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-55",
+    "law_proposition_id": "bcand:ee54aa7c2d046744",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7738,
+    "bert_score_f1": null,
+    "explanation": "The law requires recording total agricultural area and grass area by 1 March; the guidance specifies the unit (hectares) and adds a requirement to update the record within one month if the area changes, which goes beyond what the statutory text states."
+  },
+  {
+    "id": "m-5e46da81",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-56",
+    "law_proposition_id": "bcand:35295d3e9bfe34b2",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8174,
+    "bert_score_f1": null,
+    "explanation": "The law clause requires the occupier to record a description of livestock housing and manure storage systems including volume of storage by 1 March each calendar year, which matches the guidance accurately. The guidance's limitation to derogation years does not conflict — it may simply be contextualising the applicable years without contradicting the legal text."
+  },
+  {
+    "id": "m-9208fa73",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-57",
+    "law_proposition_id": "bcand:c5f1228f9ce5953e",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7638,
+    "bert_score_f1": null,
+    "explanation": "Paragraph 14(3) sets the 1 March deadline for records required under paragraph 14, directly corroborating the timing element of the guidance. Taken together with paragraph 14(1), this fully supports the guidance."
+  },
+  {
+    "id": "m-437641f3",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-57",
+    "law_proposition_id": "bcand:b78d53d22a69d16a",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7617,
+    "bert_score_f1": null,
+    "explanation": "Paragraph 14(1) precisely requires recording the expected number and category (type) of livestock on the holding during the derogation year, matching the substantive content of the guidance. The guidance accurately restates this obligation."
+  },
+  {
+    "id": "m-d79e2c68",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-58",
+    "law_proposition_id": "bcand:8d7162b402e56536",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7673,
+    "bert_score_f1": null,
+    "explanation": "This provision directly requires the occupier to calculate and record the amount of nitrogen and phosphate in manure expected to be produced by livestock on the holding during the year, which matches the substance of the guidance (an estimate of manure nitrogen and phosphate from livestock)."
+  },
+  {
+    "id": "m-5b6c1101",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-58",
+    "law_proposition_id": "bcand:c5f1228f9ce5953e",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.752,
+    "bert_score_f1": null,
+    "explanation": "This provision establishes the 1 March deadline for the record required under paragraph 14, directly supporting the guidance's statement that the record must be made by 1 March of each year in which the farmer has a derogation."
+  },
+  {
+    "id": "m-77f6d7b8",
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-60",
+    "law_proposition_id": "bcand:1b99ae650c93657e",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.78,
+    "bert_score_f1": null,
+    "explanation": "Neighbouring propositions explicitly cover both omissions: 'other crops' is addressed in the fertilisation account proposition, and the number and category of livestock requirement is covered by the fertilisation plan proposition about livestock numbers and categories."
+  },
+  {
+    "id": "m-8c7eb4a6",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-2",
+    "law_proposition_id": "bcand:00368cd678597285",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7082,
+    "bert_score_f1": null,
+    "explanation": "Regulation 23(1)(c) is one of the storage obligations the guidance points toward, but the guidance only cross-references storage guidance by direction rather than restating the specific impermeable surface requirement, and it bundles multiple regulatory requirements (silage, slurry, agricultural fuel oil) beyond this single clause."
+  },
+  {
+    "id": "m-873412e9",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-5",
+    "law_proposition_id": "bcand:b2f994636dc07182",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7387,
+    "bert_score_f1": null,
+    "explanation": "Regulation 12(1) sets the total nitrogen limit for specified crops, adjusted as specified in the notes; the guidance restates one such note allowing an additional 20 kg/ha per tonne of yield above the standard, which falls within the adjustment mechanism referenced by this provision."
+  },
+  {
+    "id": "m-997f5809",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-8",
+    "law_proposition_id": "bcand:3cb4340de6bef514",
+    "relationship": "CONFLICTS",
+    "confidence": "medium",
+    "cosine_score": 0.7499,
+    "bert_score_f1": null,
+    "explanation": "This clause states nitrogen must not be spread on winter oilseed rape after 31st October, imposing a hard prohibition rather than allowing up to 30 kg/ha of manufactured nitrogen fertiliser in the autumn/closed period. The guidance permits a 30 kg/ha autumn application, which directly contradicts this prohibition within the same NVZ/fertiliser regulatory framework."
+  },
+  {
+    "id": "m-846f1748",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-8",
+    "law_proposition_id": "bcand:b2f994636dc07182",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7417,
+    "bert_score_f1": null,
+    "explanation": "This clause sets a crop-specific total nitrogen ceiling adjusted per the table and notes, which is the correct framework for the 250 kg/ha total figure, but the guidance does not reference the table adjustments or the twelve-month period calculation mechanism, making it incomplete relative to this provision."
+  },
+  {
+    "id": "m-f9d5066a",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-10",
+    "law_proposition_id": "bcand:96df77c061b4b3c3",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7078,
+    "bert_score_f1": null,
+    "explanation": "The surrounding guidance explicitly states the 700kg/ha irrigated and 500kg/ha non-irrigated absolute caps that were identified as missing, directly resolving the specific concern in the original verdict."
+  },
+  {
+    "id": "m-e70cde52",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-10",
+    "law_proposition_id": "bcand:d3fe57e7cc30ab5c",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.6881,
+    "bert_score_f1": null,
+    "explanation": "Regulation 13(3)(a) imposes an absolute ceiling of 700 kg/ha for irrigated grass, which the guidance does not mention. The guidance omits this constraint, making it incomplete relative to the full regulatory picture."
+  },
+  {
+    "id": "m-df360fdf",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-10",
+    "law_proposition_id": "bcand:eaa393f05c361c35",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.6778,
+    "bert_score_f1": null,
+    "explanation": "Regulation 13(3)(b) imposes an absolute ceiling of 500 kg/ha for non-irrigated grass, which the guidance does not mention. Like 13(3)(a), the guidance omits this constraint."
+  },
+  {
+    "id": "m-1e9b629a",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-11",
+    "law_proposition_id": "bcand:d3fe57e7cc30ab5c",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7201,
+    "bert_score_f1": null,
+    "explanation": "The law sets a 700kg nitrogen per hectare limit for irrigated land, which is precisely what the guidance states. The guidance simplifies slightly by saying 'land' rather than specifying grass, but the core regulatory proposition is accurately reflected."
+  },
+  {
+    "id": "m-70b50716",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-12",
+    "law_proposition_id": "bcand:eaa393f05c361c35",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7198,
+    "bert_score_f1": null,
+    "explanation": "The law clause sets a 500 kg/ha nitrogen ceiling for non-irrigated grass, which is exactly what the guidance states; the only minor discrepancy is 'land manager' vs 'occupier', but these are functionally equivalent in context."
+  },
+  {
+    "id": "m-0547f83a",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-13",
+    "law_proposition_id": "bcand:39feb3c288ff4258",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.6849,
+    "bert_score_f1": null,
+    "explanation": "Regulation 13(5) directly requires the occupier to provide a FACTS adviser with soil analyses from representative autumn soil samples for subsequent years, which aligns with the guidance requiring sampling of irrigated or high-nitrogen fields in September–October and providing results to a FACTS-qualified adviser."
+  },
+  {
+    "id": "m-11b835bc",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-14",
+    "law_proposition_id": "bcand:44654d1fd1959fe9",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8111,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the statutory obligation in regulation 7(1): the 170 kg/ha ceiling on nitrogen from livestock manure (whether deposited directly or spread) applied to the holding as a whole in each calendar year. The guidance's phrase 'averaged across the holding' correctly captures the aggregate nature of the limit (total nitrogen ÷ hectares of holding)."
+  },
+  {
+    "id": "m-11ebadb6",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-15",
+    "law_proposition_id": "bcand:e89bc41d40111b1b",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7727,
+    "bert_score_f1": null,
+    "explanation": "The law states the 250kg/ha limit for organic manure nitrogen in any 12-month period, which the guidance accurately reflects. However, the guidance adds the explicit exclusion of nitrogen from livestock manures deposited by grazing animals, which is not stated in this clause (it may appear elsewhere in the regulation). This makes the guidance slightly broader/more specific than what this clause alone says, but does not contradict it."
+  },
+  {
+    "id": "m-0e717b54",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-17",
+    "law_proposition_id": "bcand:44654d1fd1959fe9",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7395,
+    "bert_score_f1": null,
+    "explanation": "The surrounding guidance explicitly states 'A land manager may apply up to 170kg per hectare of nitrogen in livestock manure (including manure deposited directly by livestock and spreading) on their holding in each calendar year as a loading limit averaged across the holding,' which provides the specific 170 kg/ha quantified limit and the calendar-year basis that the original verdict found missing"
+  },
+  {
+    "id": "m-adcb3590",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-18",
+    "law_proposition_id": "bcand:1e371b57abbd94fd",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7513,
+    "bert_score_f1": null,
+    "explanation": "The law sets a 500kg nitrogen limit per hectare in any two-year period for green compost or green/food compost, whether spread as mulch or incorporated into the soil. The guidance accurately restates this same rule, including both application methods."
+  },
+  {
+    "id": "m-e804fbb9",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-19",
+    "law_proposition_id": "bcand:b4fd9e8353dc73a8",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7672,
+    "bert_score_f1": null,
+    "explanation": "The law sets a 1,000kg nitrogen/hectare/four-year ceiling for green or green/food compost spread as mulch on orchard land, which the guidance accurately reflects. However, the guidance adds the restriction that the orchard must be growing fruit of the genera Malus, Prunus, or Pyrus, which is a narrower/higher-bar condition not stated in this candidate clause — making the guidance broader (more restrictive) than what this clause alone specifies."
+  },
+  {
+    "id": "m-96f774b9",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "law_proposition_id": "bcand:4b7aa4105a13e94e",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7025,
+    "bert_score_f1": null,
+    "explanation": "This provision establishes that a plan for spreading nitrogen fertiliser must identify each field by reference or name, directly supporting the guidance's statement that all applications must be planned on each field. It is the closest single anchor to the general planning obligation."
+  },
+  {
+    "id": "m-38887060",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "law_proposition_id": "bcand:cce8e7a09da3a9b0",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7246,
+    "bert_score_f1": null,
+    "explanation": "This provision specifies a detailed content requirement for the fertilisation plan (recording expected planting month), which the guidance does not mention. The guidance only states the general obligation to plan and keep records, omitting this specific element required by law."
+  },
+  {
+    "id": "m-f77f3df9",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "law_proposition_id": "bcand:dbb884c5fab18850",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7133,
+    "bert_score_f1": null,
+    "explanation": "This provision sets specific content requirements for the fertilisation plan (sketch plan of field locations, nature of fertiliser) that the guidance does not mention. The guidance captures the general obligation but omits these mandated specifics."
+  },
+  {
+    "id": "m-d050475c",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "law_proposition_id": "bcand:edf175d3f31a8349",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7133,
+    "bert_score_f1": null,
+    "explanation": "Identical to the previous candidate — specific content requirements for the fertilisation plan not reflected in the guidance. The guidance is incomplete relative to this provision."
+  },
+  {
+    "id": "m-31b308bb",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "law_proposition_id": "bcand:2cc5d1b3a35b1f99",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7069,
+    "bert_score_f1": null,
+    "explanation": "This provision requires the plan to include expected yield for arable land, a specific content element the guidance does not mention. The guidance omits this required detail."
+  },
+  {
+    "id": "m-f3c50486",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "law_proposition_id": "bcand:0f278bcc9d64fcd3",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7059,
+    "bert_score_f1": null,
+    "explanation": "This provision requires the plan to include the area of the field planted or intended to be planted, a specific content element the guidance does not mention. The guidance omits this mandated detail."
+  },
+  {
+    "id": "m-5b37fc18",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "law_proposition_id": "bcand:1bb6b721cd8a6d40",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7029,
+    "bert_score_f1": null,
+    "explanation": "This provision requires the farmer to take into account the optimum nitrogen amount when planning, a substantive planning requirement not mentioned in the guidance. The guidance omits this element."
+  },
+  {
+    "id": "m-7a6a7d63",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "law_proposition_id": "bcand:07c6b3661f6fd903",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7004,
+    "bert_score_f1": null,
+    "explanation": "This provision requires the fertilisation plan to record soil type for each relevant area, a content requirement the guidance does not mention. The guidance omits this mandated detail."
+  },
+  {
+    "id": "m-f8c2edc4",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "law_proposition_id": "bcand:af60dbbae689bec5",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7004,
+    "bert_score_f1": null,
+    "explanation": "This provision specifies content requirements for the fertilisation plan (nature of fertiliser) that the guidance does not include. The guidance captures the general obligation but omits these specifics."
+  },
+  {
+    "id": "m-ad6ad5d2",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-22",
+    "law_proposition_id": "bcand:11d04152ed7b1ffe",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7191,
+    "bert_score_f1": null,
+    "explanation": "This provision directly requires calculating the amount of nitrogen in the soil likely to be available for crop uptake during the growing season when planning nitrogen fertiliser spreading, accurately reflecting the substance of the guidance."
+  },
+  {
+    "id": "m-744a28f7",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-22",
+    "law_proposition_id": "bcand:234d4c5b8f67998f",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7073,
+    "bert_score_f1": null,
+    "explanation": "This provision specifies the timing trigger — the duty under paragraph (1) (which includes the soil nitrogen calculation) must be complied with before spreading nitrogen fertiliser for the first time for a crop planted or intended to be planted, which aligns with the guidance's 'before applying nitrogen for the first time in a field where a crop is to be or has been planted' formulation. It supports the guidance but is a timing/procedural amplifier rather than the primary obligation."
+  },
+  {
+    "id": "m-2371533a",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-23",
+    "law_proposition_id": "bcand:7dd878b3f9ba0440",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7139,
+    "bert_score_f1": null,
+    "explanation": "Regulation 10(1)(b) imposes the obligation to calculate the optimum amount of nitrogen that should be spread on the crop, taking into account nitrogen already in the soil (calculated under sub-paragraph (a)), which is the substantive duty the guidance describes."
+  },
+  {
+    "id": "m-c11d2f98",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-23",
+    "law_proposition_id": "bcand:234d4c5b8f67998f",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7047,
+    "bert_score_f1": null,
+    "explanation": "Regulation 10(3) establishes the timing rule that the calculation duty must be fulfilled before spreading nitrogen fertiliser for the first time for a crop planted or intended to be planted, directly mirroring the 'before applying for the first time' framing in the guidance."
+  },
+  {
+    "id": "m-2893c892",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-24",
+    "law_proposition_id": "bcand:9b870d528b580363",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.773,
+    "bert_score_f1": null,
+    "explanation": "Neighbouring propositions requiring calculations 'before applying livestock manure' (each occasion) and 'before applying any organic manure' resolve the specific concern that the guidance was limited only to the first application."
+  },
+  {
+    "id": "m-7a93246b",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-25",
+    "law_proposition_id": "bcand:dce960e87a56110a",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7386,
+    "bert_score_f1": null,
+    "explanation": "The law requires recording the amount required before spreading manufactured nitrogen fertiliser on each occasion; the guidance restricts this to 'the first time in a field' and uses 'calculate' rather than 'record'. The guidance is narrower in timing scope (first time only) than the law's on-each-occasion requirement, so it falls short of the law's full extent, but it does not positively contradict it — making it GUIDANCE_INCOMPLETE rather than CONFLICTS. However, treating 'first time in a fiel"
+  },
+  {
+    "id": "m-052d6d49",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-26",
+    "law_proposition_id": "bcand:20f9666fd8f4051d",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7331,
+    "bert_score_f1": null,
+    "explanation": "Regulation 10(2) requires the occupier to plan nitrogen fertiliser spreading for permanent grassland each calendar year before the first spreading, which supports the guidance's requirement to repeat the plan for grass in subsequent growing seasons. However, this only covers grassland and not all crops mentioned in the guidance."
+  },
+  {
+    "id": "m-ac62ae00",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-26",
+    "law_proposition_id": "bcand:234d4c5b8f67998f",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7475,
+    "bert_score_f1": null,
+    "explanation": "Regulation 10(3) sets the duty to plan nitrogen fertiliser spreading before first application for crops not covered by the primary rule, which partially matches the guidance. However, the guidance adds the requirement to 'repeat' soil nitrogen supply and optimum nitrogen calculations each growing season, which goes beyond what the text of this provision explicitly states, making the guidance broader than this floor provision."
+  },
+  {
+    "id": "m-838306e6",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-27",
+    "law_proposition_id": "bcand:a529106c873c6652",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7669,
+    "bert_score_f1": null,
+    "explanation": "Regulation 14(2) requires nitrogen content of livestock manure to be calculated using either standard table values (Part 1, Schedule 2) or sampling and analysis (Part 2, Schedule 2), which directly matches the guidance's description of using 'standard values or results from sampling and analysis'."
+  },
+  {
+    "id": "m-c1236acc",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-28",
+    "law_proposition_id": "bcand:9b870d528b580363",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.747,
+    "bert_score_f1": null,
+    "explanation": "This regulation directly requires the occupier to calculate, before each spreading occasion, the amount of nitrogen likely to be available for crop uptake — precisely what the guidance states. The guidance accurately reflects this obligation."
+  },
+  {
+    "id": "m-9c643228",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-29",
+    "law_proposition_id": "bcand:9b870d528b580363",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7206,
+    "bert_score_f1": null,
+    "explanation": "Regulation 11(1) requires calculation of crop-available nitrogen before each spreading occasion, but does not restrict this obligation to crops with an N-max limit nor require use of an 'approved method' — the guidance narrows the trigger to N-max crops and adds the 'approved method' requirement, both of which go beyond the statutory text."
+  },
+  {
+    "id": "m-d28b98e4",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-30",
+    "law_proposition_id": "bcand:cb3bd4b20046dc94",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7532,
+    "bert_score_f1": null,
+    "explanation": "This provision prohibits spreading organic manure directly onto surface water, which partially supports the guidance, but the guidance also covers nitrogen fertiliser and frames the rule as a general 'allowing entry' offence rather than the specific act of spreading — making the guidance broader in scope."
+  },
+  {
+    "id": "m-b53be5b6",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-30",
+    "law_proposition_id": "bcand:fb24c6f60f3a6464",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7148,
+    "bert_score_f1": null,
+    "explanation": "This provision specifically prohibits livestock manure (other than slurry or poultry manure) from being spread directly onto surface water, which partially supports the guidance, but the guidance covers all organic manure and also nitrogen fertiliser, making it broader than this more limited provision."
+  },
+  {
+    "id": "m-12b6d5d4",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-31",
+    "law_proposition_id": "bcand:0f578512731098c4",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7469,
+    "bert_score_f1": null,
+    "explanation": "The guidance correctly captures the requirement to assess the risk of nitrogen entering surface water before spreading, but it omits the six specific factors (slope, ground cover, proximity to surface water, weather, soil type, land drains) that the law explicitly requires to be taken into account. The law sets a floor requiring consideration of all six factors, and the guidance falls short by not mentioning them."
+  },
+  {
+    "id": "m-76935f01",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-32",
+    "law_proposition_id": "bcand:990006a8d2ebd012",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7267,
+    "bert_score_f1": null,
+    "explanation": "This clause prohibits spreading nitrogen fertiliser on waterlogged, flooded, or snow-covered land, matching the manufactured fertiliser limb of the guidance. However, the guidance also extends the prohibition to organic manures, which goes beyond what this clause alone states, making the guidance broader than this single provision."
+  },
+  {
+    "id": "m-35e89793",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-33",
+    "law_proposition_id": "bcand:f8547db58f8014ab",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.708,
+    "bert_score_f1": null,
+    "explanation": "The law prohibits spreading nitrogen fertiliser on frozen land (>12 hours in 24), but the guidance extends this prohibition to all manufactured fertilisers and organic manures, which goes beyond the statutory minimum. Under Rule 3/4, the guidance exceeds the statutory floor without contradicting it."
+  },
+  {
+    "id": "m-a2631071",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-34",
+    "law_proposition_id": "bcand:301fe5d8bca92754",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7973,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the statutory prohibition in regulation 16(4): no spreading of manufactured nitrogen fertiliser within 2 metres of surface water. Replacing 'person' with 'land manager' is consistent with the context and does not narrow or broaden the obligation."
+  },
+  {
+    "id": "m-8d3ce494",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-35",
+    "law_proposition_id": "bcand:1971897df31cd875",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7987,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the statutory obligation: the 50-metre exclusion zone from a spring, well or borehole matches the law exactly in substance, with only an inconsequential difference in the order the water features are listed."
+  },
+  {
+    "id": "m-365adb3d",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-36",
+    "law_proposition_id": "bcand:4f2e7b35715696d7",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7792,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the 10-metre exclusion zone for spreading organic manure near surface water as set out in regulation 17(1). The substitution of 'land manager' for 'person' is a contextual paraphrase that does not alter the substance."
+  },
+  {
+    "id": "m-70feef83",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-38",
+    "law_proposition_id": "bcand:7306bbe1527e203d",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7539,
+    "bert_score_f1": null,
+    "explanation": "The law clause covers nitrogen fertiliser spreading accuracy; the guidance extends the same accuracy requirement to organic manures as well. This is broader than the statute without contradicting it, so GUIDANCE_BROADER applies under Rule 3/4."
+  },
+  {
+    "id": "m-038341d1",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-39",
+    "law_proposition_id": "bcand:4153ede39d43fcc7",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7766,
+    "bert_score_f1": null,
+    "explanation": "The regulation prohibits spreading slurry/sewage sludge/anaerobic digestate using a trailing hose or trailing shoe band spreader within 6 metres of surface water, which directly matches the guidance's statement that band spreaders may be used no less than 6 metres from surface water."
+  },
+  {
+    "id": "m-1594e52b",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-39",
+    "law_proposition_id": "bcand:cf03ffd731b61bc4",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7738,
+    "bert_score_f1": null,
+    "explanation": "The regulation prohibits use of a dribble bar applicator within 6 metres of surface water for the same materials, directly matching the guidance's reference to dribble-bar applicators and the 6-metre rule."
+  },
+  {
+    "id": "m-2752947e",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-39",
+    "law_proposition_id": "bcand:728bf0d230faed85",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.77,
+    "bert_score_f1": null,
+    "explanation": "The regulation prohibits use of a shallow injector (injecting no deeper than 10 cm) within 6 metres of surface water, matching the guidance's reference to shallow injectors and the 6-metre exclusion zone from surface water."
+  },
+  {
+    "id": "m-402b842c",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-40",
+    "law_proposition_id": "bcand:cb3bd4b20046dc94",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7587,
+    "bert_score_f1": null,
+    "explanation": "Regulation 17(2)(c) prohibits spreading organic manure directly onto surface water, which the guidance accurately restates as one of its conditions."
+  },
+  {
+    "id": "m-02f9869a",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-40",
+    "law_proposition_id": "bcand:d4b322214797f299",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.754,
+    "bert_score_f1": null,
+    "explanation": "Regulation 17(2)(d) sets the 12.5 tonnes per hectare annual limit for organic manure spread near surface water, which the guidance accurately reflects as one of its key requirements."
+  },
+  {
+    "id": "m-7678872b",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-40",
+    "law_proposition_id": "bcand:4f2e7b35715696d7",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7719,
+    "bert_score_f1": null,
+    "explanation": "Regulation 17(1) sets a general prohibition on spreading organic manure within 10 metres of surface water. The guidance goes further by permitting an exception (spreading between 1 June and 31 October on SSSI/agri-environment land), which is broader than — but does not contradict — this floor-level prohibition."
+  },
+  {
+    "id": "m-5235005e",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-42",
+    "law_proposition_id": "bcand:3f1752f204f2ca06",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7491,
+    "bert_score_f1": null,
+    "explanation": "Regulation 20(1) states that a person must not spread organic manure with high readily available nitrogen during the closed period, which matches the guidance's prohibition on spreading high readily available nitrogen manures during the closed period dates in the table."
+  },
+  {
+    "id": "m-53f00cab",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-45",
+    "law_proposition_id": "bcand:52f8ea7c13e0b465",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7241,
+    "bert_score_f1": null,
+    "explanation": "The candidate sets a maximum of 30 m³/ha per application, which matches the guidance exactly. The guidance also specifies a temporal window (end of closed period to end of February), which may represent an additional contextual element from a sub-paragraph, but the core quantitative rule is accurately reflected."
+  },
+  {
+    "id": "m-94289b57",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-46",
+    "law_proposition_id": "bcand:00344f88b7d1ba6d",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7185,
+    "bert_score_f1": null,
+    "explanation": "The law states the 8 tonnes/ha per-application maximum for poultry manure without temporal restriction, but the guidance limits the rule to a specific window ('from the end of the closed period until the end of February'), thereby omitting application of this limit at other times — meaning the guidance only partially reflects the law's full scope."
+  },
+  {
+    "id": "m-b2342dbc",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-47",
+    "law_proposition_id": "bcand:06d0f9453e92c5da",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7188,
+    "bert_score_f1": null,
+    "explanation": "The law requires at least three weeks between any spreading of high-RAN organic manure without temporal limitation, while the guidance restricts the rule to the period 'from the end of the closed period until the end of February'. The guidance narrows the temporal scope relative to the law (rather than exceeding it outright), but it does not positively contradict the law — it applies a higher contextual constraint within a sub-period. Under Rule 3, the guidance covers less than the full requirem"
+  },
+  {
+    "id": "m-d1151cce",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-48",
+    "law_proposition_id": "bcand:6a63cadec4e19d42",
+    "relationship": "CONFLICTS",
+    "confidence": "high",
+    "cosine_score": 0.7256,
+    "bert_score_f1": null,
+    "explanation": "This candidate states equipment must have a trajectory of 4 metres or MORE and achieve a maximum rate of 1 mm/hr, whereas the guidance states the trajectory condition is BELOW 4 metres (and the rate condition is an alternative, not a conjunction). These are in the same regulatory framework and substantively oppose each other on the trajectory threshold, making this a genuine conflict."
+  },
+  {
+    "id": "m-4d9ff5c1",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-48",
+    "law_proposition_id": "bcand:75dd71e4555076b5",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7239,
+    "bert_score_f1": null,
+    "explanation": "This candidate grounds the '<4 metres trajectory' limb of the guidance, and the guidance accurately reflects this condition. However, the guidance presents this as one of three alternative conditions (precision equipment or <4m or ≤1mm/hr), whereas the law here addresses only the trajectory condition for broadcasting equipment; the guidance's broader framing of alternatives may not be fully captured by this single provision alone."
+  },
+  {
+    "id": "m-2e27e10a",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-49",
+    "law_proposition_id": "bcand:8b3180a3e77aa48b",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7364,
+    "bert_score_f1": null,
+    "explanation": "The law clause requires incorporation of poultry manure only, whereas the guidance applies the same 24-hour incorporation rule to slurry and liquid-digested sludge as well, raising the bar beyond what this provision requires. Rule 4 applies: the guidance adds requirements beyond the statutory minimum without contradicting it."
+  },
+  {
+    "id": "m-bea75dda",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-50",
+    "law_proposition_id": "bcand:e8e157b181f996de",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7753,
+    "bert_score_f1": null,
+    "explanation": "The law clause applies wherever 'land slopes in such a way that there may be a run-off' to surface water, without restricting this to bare soil or stubble not sown with seed. The guidance narrows the trigger condition to 'bare soil or stubble not sown with seed on sloping land', which is more specific than the statutory provision and potentially excludes other sloping land scenarios covered by the law. However, the guidance also adds the condition about bare soil/stubble which is not in the law,"
+  },
+  {
+    "id": "m-e010686d",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-51",
+    "law_proposition_id": "bcand:cf03ffd731b61bc4",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7137,
+    "bert_score_f1": null,
+    "explanation": "A neighbouring proposition explicitly states that dribble-bar applicators (precision equipment) must be used no less than 6 metres from surface water, thereby covering the specific 6-metre restriction the verdict identified as missing."
+  },
+  {
+    "id": "m-507839af",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-51",
+    "law_proposition_id": "bcand:4153ede39d43fcc7",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7009,
+    "bert_score_f1": null,
+    "explanation": "The law permits trailing hose/shoe band spreaders except within 6 metres of surface water; the guidance correctly identifies these applicators as exempting the land manager from working-in but omits the 6-metre surface-water exclusion, leaving the guidance incomplete."
+  },
+  {
+    "id": "m-add9e5a7",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-51",
+    "law_proposition_id": "bcand:728bf0d230faed85",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.689,
+    "bert_score_f1": null,
+    "explanation": "The law permits injectors (no deeper than 10 cm) except within 6 metres of surface water; the guidance mentions injectors without the depth or proximity-to-surface-water conditions, making it incomplete relative to the legal requirements."
+  },
+  {
+    "id": "m-7f498e43",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-52",
+    "law_proposition_id": "bcand:a896d168aeef910b",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7795,
+    "bert_score_f1": null,
+    "explanation": "Regulation 22(1) prohibits spreading manufactured nitrogen fertiliser on 'land' during the closed period, with no restriction to grassland only. The guidance narrows the prohibition to grassland and specifies dates (15 September to 15 January), which may reflect a specific closed period definition for grassland elsewhere, but as stated the guidance is more restrictive (land-type specific) and date-bounded rather than covering all land as the law does. This means the guidance is narrower in scope"
+  },
+  {
+    "id": "m-3b24900a",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-53",
+    "law_proposition_id": "bcand:a896d168aeef910b",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7679,
+    "bert_score_f1": null,
+    "explanation": "The neighbouring proposition explicitly covers the closed period prohibition for grassland (15 September–15 January), resolving the specific concern that other land types and their closed period dates were omitted from the guidance."
+  },
+  {
+    "id": "m-9f31a525",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-54",
+    "law_proposition_id": "bcand:acb0f8d735316cba",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7972,
+    "bert_score_f1": null,
+    "explanation": "The regulation permits spreading on unlisted crops provided it follows written FACTS adviser advice; the guidance accurately restates this as an obligation to obtain such written advice before spreading — the permissive framing in law and the obligatory framing in guidance are substantively equivalent given that without the advice the activity is not permitted."
+  },
+  {
+    "id": "m-dab73463",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+    "law_proposition_id": "bcand:4b7edfccef2ab9f8",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7346,
+    "bert_score_f1": null,
+    "explanation": "Regulation 9 exempts Part 4 from applying to nitrogen fertiliser on crops in a greenhouse, but the guidance extends this to glasshouses and polytunnels, adds a 'whole calendar year' enclosure condition, and speaks to 'limits on fertiliser use' generally rather than just Part 4 restrictions. The guidance sets a broader/higher bar than this single clause."
+  },
+  {
+    "id": "m-83907fcf",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+    "law_proposition_id": "bcand:38c181bbc6a47521",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7168,
+    "bert_score_f1": null,
+    "explanation": "This clause excludes greenhouse-covered land from the nitrogen limit calculation in paragraph (1) for the 'period concerned', and requires greenhouse coverage for the 'whole of the period'. The guidance adds polytunnels and glasshouses beyond 'greenhouse' and speaks to the 'whole calendar year', which may or may not align with 'the period concerned'."
+  },
+  {
+    "id": "m-146e4d4c",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+    "law_proposition_id": "bcand:cd24c17569dac1a2",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7104,
+    "bert_score_f1": null,
+    "explanation": "Regulation 22 paragraph 9 exempts greenhouses from regulation 22 (closed periods for manufactured nitrogen fertiliser); it supports part of the guidance but does not cover glasshouses, polytunnels, or the 'whole calendar year' condition the guidance states."
+  },
+  {
+    "id": "m-a424f920",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+    "law_proposition_id": "bcand:b54a7cace39b1627",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7053,
+    "bert_score_f1": null,
+    "explanation": "Regulation 16 paragraph 6 exempts greenhouse-covered land from regulation 16, supporting one facet of the guidance, but 'greenhouse' alone does not cover glasshouses and polytunnels mentioned in the guidance, and the 'whole calendar year' condition is not stated here."
+  },
+  {
+    "id": "m-eb61771a",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+    "law_proposition_id": "bcand:c79b38da1dbd2898",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7032,
+    "bert_score_f1": null,
+    "explanation": "This clause excludes greenhouse-covered land from total nitrogen holding calculations under regulation 7 for 'the whole of the year concerned', which aligns with the 'whole calendar year' condition in the guidance, but the guidance also references glasshouses and polytunnels not mentioned here."
+  },
+  {
+    "id": "m-02f458a0",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-56",
+    "law_proposition_id": "bcand:38c181bbc6a47521",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.6935,
+    "bert_score_f1": null,
+    "explanation": "Regulation 8(10) excludes from the annual nitrogen limit only land covered by a greenhouse for the whole period; by necessary implication, land in a greenhouse that is exposed to open air at any point in the year does not satisfy this exclusion and thus the limits apply for the whole year. The guidance accurately reflects this consequence, albeit by stating the positive corollary of the exclusion."
+  },
+  {
+    "id": "m-34246de2",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-57",
+    "law_proposition_id": "bcand:074384636e10a2a0",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7111,
+    "bert_score_f1": null,
+    "explanation": "Regulation 32(1) imposes a duty to record arable crop yield where nitrogen fertiliser has been used, but does not itself state a greenhouse exemption. The guidance adds a carve-out for greenhouse land that goes beyond (but does not contradict) the face of this provision; any such exemption would need to be found in a separate definitional or scope clause."
+  },
+  {
+    "id": "m-9425a39b",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-59",
+    "law_proposition_id": "bcand:6a4026afb476d217",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.6816,
+    "bert_score_f1": null,
+    "explanation": "Regulation 31(1)(c-e) imposes a general record-keeping obligation on all occupiers who spread organic manure with no stated low-intensity exemption; the guidance claims low-intensity farmers are exempt, which goes beyond (and potentially conflicts with) what this provision says — but since the exemption may exist elsewhere in the instrument, GUIDANCE_BROADER is the more appropriate label under rule 4 rather than CONFLICTS."
+  },
+  {
+    "id": "m-ba0f8d0f",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-61",
+    "law_proposition_id": "bcand:04f30441040c6840",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.6581,
+    "bert_score_f1": null,
+    "explanation": "Regulation 10(1)(c) directly imposes the obligation to produce a fertilisation plan for the growing season on any person planning nitrogen fertiliser spreading, which accurately underpins the guidance that a low-intensity farmer must keep a fertilisation plan."
+  },
+  {
+    "id": "m-1957df21",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-62",
+    "law_proposition_id": "bcand:27a4cffbcafd5cf6",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7513,
+    "bert_score_f1": null,
+    "explanation": "The law clause explicitly excludes from the holding area calculation any land where the occupier does not spread fertiliser or work the soil, which directly matches the guidance statement. The guidance accurately restates this statutory exclusion."
+  },
+  {
+    "id": "m-bd8e18cd",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-62",
+    "law_proposition_id": "bcand:003299ab9e66e43b",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7398,
+    "bert_score_f1": null,
+    "explanation": "This clause also excludes land on which the occupier does not spread fertiliser or work the soil from the holding area, but in the context of records of spreading. It supports the same principle, though it applies to records rather than general calculation. The guidance is substantively accurate relative to this provision as well."
+  },
+  {
+    "id": "m-8c3cb796",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-63",
+    "law_proposition_id": "bcand:ac41f99b558aab58",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7547,
+    "bert_score_f1": null,
+    "explanation": "The law specifies that the 5-year retention period runs from when the record 'ceased to be current' and explicitly states the obligation persists even if the land ceases to be in a nitrate vulnerable zone — both nuances the guidance omits. The guidance correctly states the 5-year period but falls short of the full statutory requirement by omitting these conditions."
+  },
+  {
+    "id": "m-e61fcd97",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+    "law_proposition_id": "bcand:af60dbbae689bec5",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7278,
+    "bert_score_f1": null,
+    "explanation": "This clause requires the fertilisation plan to state the nature of fertilizer per field, which is one element of a fertilisation plan. The guidance's claim that records of 'each step' in the fertilisation plan must be kept goes beyond what this specific clause requires, making the guidance broader than this floor."
+  },
+  {
+    "id": "m-61abf573",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+    "law_proposition_id": "bcand:dbb884c5fab18850",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7217,
+    "bert_score_f1": null,
+    "explanation": "This clause requires the fertilisation plan to include a sketch plan and state the nature of fertilizer per field; the guidance's 'each step' framing is broader than these specific requirements."
+  },
+  {
+    "id": "m-818fd1a4",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+    "law_proposition_id": "bcand:edf175d3f31a8349",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7217,
+    "bert_score_f1": null,
+    "explanation": "Identical in substance to bcand:dbb884c5fab18850 — same analysis applies; the guidance's scope exceeds these specific plan contents."
+  },
+  {
+    "id": "m-8cad8c90",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-65",
+    "law_proposition_id": "bcand:82dfbc6085f95ed4",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7334,
+    "bert_score_f1": null,
+    "explanation": "The regulation requires keeping a copy of FACTS adviser advice whenever relied upon 'for any purpose under these Regulations', with no restriction to the fertilisation plan. The guidance narrows the trigger ('with their fertilisation plan') which is actually a stricter/more specific framing than the broader statutory obligation — the guidance imposes a specific locational requirement (kept with the fertilisation plan) that the law does not, making it broader in that respect, while also potential"
+  },
+  {
+    "id": "m-f6d0c15c",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-66",
+    "law_proposition_id": "bcand:b546b09215d6b240",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7681,
+    "bert_score_f1": null,
+    "explanation": "The law requires a one-week record for sowing (where nitrogen fertiliser is spread or intended), but the guidance extends the same one-week deadline to spreading fertiliser and harvesting a crop, which are not covered by this provision. The guidance therefore goes beyond what this clause requires."
+  },
+  {
+    "id": "m-a3a83e97",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-66",
+    "law_proposition_id": "bcand:e864d8ab23089326",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.7634,
+    "bert_score_f1": null,
+    "explanation": "Like the regulation counterpart, this schedule paragraph covers only sowing of a crop where nitrogen fertiliser is spread or intended; the guidance also includes spreading fertiliser and harvesting, making it broader than this provision."
+  },
+  {
+    "id": "m-17ab1fc0",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-69",
+    "law_proposition_id": "bcand:82dfbc6085f95ed4",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7414,
+    "bert_score_f1": null,
+    "explanation": "The regulation requires the occupier to keep a copy of advice from a FACTS adviser when relied upon under the Regulations; the guidance accurately restates this obligation using 'land manager' (synonymous with occupier in this context) and 'written advice' (reflecting the nature of FACTS adviser advice). The guidance accurately reflects the legal requirement without adding or omitting any material element."
+  },
+  {
+    "id": "m-b75f0d99",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-70",
+    "law_proposition_id": "bcand:8eb558cc8c20ab24",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8167,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately reflects regulation 29: both require that a person who uses sampling and analysis to determine nitrogen content in organic manure must keep the original laboratory report. The substitution of 'land manager' for 'person' does not materially narrow or broaden the obligation within this regulatory context."
+  },
+  {
+    "id": "m-98ba47ac",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-71",
+    "law_proposition_id": "bcand:074384636e10a2a0",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8201,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately restates the obligation in this provision: recording crop yield within one week of ascertaining it, where nitrogen fertiliser has been used on that crop. The substitution of 'land manager' for 'occupier of a holding' and 'finding it out' for 'ascertaining it' are equivalent in meaning."
+  },
+  {
+    "id": "m-b1750c09",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-72",
+    "law_proposition_id": "bcand:a7bc9a8f39f0f9a9",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7603,
+    "bert_score_f1": null,
+    "explanation": "The law clause requires updating the record within one month when the size of the holding or the area of grass changes, with no mention of a greenhouse exception. The guidance adds a greenhouse carve-out ('except where the change in area is land covered by a greenhouse') not found in this clause, making the guidance broader (narrower trigger) than the law — it exempts a category the law does not. Under the ceiling/floor rule, the guidance imposes a weaker obligation than the law by exempting gre"
+  },
+  {
+    "id": "m-d779fb8a",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-72",
+    "law_proposition_id": "bcand:b8180af7d7358776",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7323,
+    "bert_score_f1": null,
+    "explanation": "This regulation also requires updating the record within one month when the size of a holding changes, with no greenhouse exception. The guidance's greenhouse carve-out exceeds what this law permits by narrowing the trigger for the obligation, similarly making the guidance broader than the statutory minimum without an explicit textual basis in this clause."
+  },
+  {
+    "id": "m-2435da56",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-73",
+    "law_proposition_id": "bcand:27a4cffbcafd5cf6",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.7491,
+    "bert_score_f1": null,
+    "explanation": "The neighbouring proposition explicitly states that areas where no fertiliser is spread or soil is not worked must be excluded from fertiliser application calculations, directly resolving the specific conflict identified with the law's exclusion criterion."
+  },
+  {
+    "id": "m-a9d8f05b",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-74",
+    "law_proposition_id": "bcand:3791c325fc36470a",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7426,
+    "bert_score_f1": null,
+    "explanation": "Neighbouring propositions explicitly cover the specific risk map content requirements (field areas in hectares, surface waters, springs/wells/boreholes) that the reason identified as missing, resolving the GUIDANCE_INCOMPLETE concern."
+  },
+  {
+    "id": "m-7477c3c5",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-74",
+    "law_proposition_id": "bcand:bbe8c65330bf8856",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7253,
+    "bert_score_f1": null,
+    "explanation": "Regulation 15(1)(d),(e),(f) sets out additional mandatory content for the risk map (sandy/shallow soils, steep land, land near surface waters); the guidance only states that a risk map must be made without capturing these specific content requirements."
+  },
+  {
+    "id": "m-46c9cf99",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-74",
+    "law_proposition_id": "bcand:909f71968c86dbea",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7068,
+    "bert_score_f1": null,
+    "explanation": "Regulation 15(1)(b),(c),(g) requires the risk map to show surface waters, boreholes/springs/wells, and land within 50 metres of such features; the guidance does not mention these specific content requirements, making it incomplete against this provision."
+  },
+  {
+    "id": "m-a0cd6c36",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-74",
+    "law_proposition_id": "bcand:9a97fd4fbcbcf017",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7054,
+    "bert_score_f1": null,
+    "explanation": "Regulation 15(1)(i) requires the risk map to identify suitable sites for temporary field heaps where that storage method is used; the guidance does not mention this specific content requirement, making it incomplete against this provision."
+  },
+  {
+    "id": "m-d0863687",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-75",
+    "law_proposition_id": "bcand:2580f7cecc987027",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7794,
+    "bert_score_f1": null,
+    "explanation": "This sub-paragraph directly requires the risk map to show each field with its area in hectares, which is precisely what the guidance states. The guidance accurately reflects this legal requirement."
+  },
+  {
+    "id": "m-40815a97",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-75",
+    "law_proposition_id": "bcand:3791c325fc36470a",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7719,
+    "bert_score_f1": null,
+    "explanation": "The law sets out the full obligation (produce and maintain a risk map, triggered by spreading organic manure) whereas the guidance only addresses the marking of fields and their areas, omitting the production/maintenance duty and the triggering condition. The guidance covers part of what this law requires."
+  },
+  {
+    "id": "m-d109b954",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-76",
+    "law_proposition_id": "bcand:e4ed0650eb539a50",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8016,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately reflects this specific sub-paragraph, which requires a risk map to identify land within 10 metres of surface waters — precisely what the guidance states."
+  },
+  {
+    "id": "m-574e0471",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-76",
+    "law_proposition_id": "bcand:909f71968c86dbea",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7677,
+    "bert_score_f1": null,
+    "explanation": "This composite provision requires the risk map to show surface waters, boreholes/springs/wells, and land within 50 metres of them; the guidance only addresses the surface-water/10-metre element and omits the borehole/spring/well requirements."
+  },
+  {
+    "id": "m-d536963e",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-76",
+    "law_proposition_id": "bcand:bbe8c65330bf8856",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7617,
+    "bert_score_f1": null,
+    "explanation": "This provision requires the risk map to show sandy/shallow soils and steeply inclined land (>12 degrees) in addition to land within 10 metres of surface waters; the guidance captures only the surface-water/10-metre element, omitting the soil and slope requirements from the same sub-paragraphs."
+  },
+  {
+    "id": "m-78b41e71",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-77",
+    "law_proposition_id": "bcand:909f71968c86dbea",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7626,
+    "bert_score_f1": null,
+    "explanation": "This provision directly requires occupiers to produce a risk map showing any boreholes, springs or wells on the holding or within 50 metres of the boundary, which accurately matches the guidance's requirement for land managers to mark springs, wells and boreholes on or within 50 metres of their land boundary."
+  },
+  {
+    "id": "m-ccf31cf9",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-77",
+    "law_proposition_id": "bcand:9a958c244628b866",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7959,
+    "bert_score_f1": null,
+    "explanation": "This clause only requires identification of land within 50 metres of a borehole, spring or well, not the marking of the boreholes, springs or wells themselves; the guidance covers the latter but this clause alone does not capture the full obligation the guidance describes, making it a partial but not fully matching anchor."
+  },
+  {
+    "id": "m-42dd375f",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-78",
+    "law_proposition_id": "bcand:7d6ab41112245560",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7676,
+    "bert_score_f1": null,
+    "explanation": "The guidance accurately reflects this provision: both require the risk map to be updated within three months of a change in circumstances. The difference in terminology ('land manager' vs 'occupier') does not create a substantive conflict."
+  },
+  {
+    "id": "m-1c3c7d67",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-78",
+    "law_proposition_id": "bcand:d859c667cb1ed136",
+    "relationship": "CONFLICTS",
+    "confidence": "high",
+    "cosine_score": 0.7569,
+    "bert_score_f1": null,
+    "explanation": "This provision requires the risk map to be updated within one month of the change, whereas the guidance states three months. Both provisions operate within the same regulatory framework (risk map obligations) and substantively oppose each other on the same point — the deadline for updating. The guidance therefore conflicts with this law clause by stating a longer (more lenient) deadline."
+  },
+  {
+    "id": "m-863aed87",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-79",
+    "law_proposition_id": "bcand:f0976a42d62cbf16",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.7679,
+    "bert_score_f1": null,
+    "explanation": "This provision requires the nitrogen record to include number of days each animal spent on the holding, which the guidance correctly reflects; however, the guidance adds further requirements (30 April deadline, area of holding, livestock numbers, nitrogen calculation) that go beyond what this single sub-paragraph states, making the guidance broader than this clause alone."
+  },
+  {
+    "id": "m-44e083e9",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-80",
+    "law_proposition_id": "bcand:ad1021da41ceb7ae",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8071,
+    "bert_score_f1": null,
+    "explanation": "This clause requires recording the date on which livestock manure was sent off a holding within one week, directly matching the date-recording element of the guidance for the sending-off scenario."
+  },
+  {
+    "id": "m-790be5bc",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-80",
+    "law_proposition_id": "bcand:fc35bff49511d5c7",
+    "relationship": "GROUNDED",
+    "confidence": "medium",
+    "cosine_score": 0.791,
+    "bert_score_f1": null,
+    "explanation": "This clause states a record must be kept of the date livestock manure was sent off the holding, consistent with the guidance's requirement to record the date; it is a duplicate/restatement of bcand:ad1021da41ceb7ae."
+  },
+  {
+    "id": "m-24a29816",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-80",
+    "law_proposition_id": "bcand:56d1a58b29c9e8c3",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.8134,
+    "bert_score_f1": null,
+    "explanation": "This clause covers recording type and amount when sending livestock manure off a holding within one week, matching part of the guidance. However, the guidance also claims an obligation when bringing manure onto a holding, which this clause does not address — making the guidance potentially broader, but since this specific clause only covers one direction (sending off), and the guidance covers both directions, the clause is only partially matched by the guidance. Actually, from the law's perspect"
+  },
+  {
+    "id": "m-c6c5be90",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-80",
+    "law_proposition_id": "bcand:2b621615ce985b5c",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "high",
+    "cosine_score": 0.7838,
+    "bert_score_f1": null,
+    "explanation": "This clause requires recording the name and address of the recipient when sending livestock manure off a holding within one week — an obligation within the same regulatory framework that the guidance omits entirely."
+  },
+  {
+    "id": "m-1b987eef",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-81",
+    "law_proposition_id": "bcand:8816503298c2ba34",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.8366,
+    "bert_score_f1": null,
+    "explanation": "The neighbouring proposition 'If a land manager does not know the nitrogen content of imported manure, they must find this out by analysis or calculation as soon as possible and then record it within a week' directly resolves the specific concern about the trigger for recording when nitrogen content is unknown, covering the law clause's requirement to record within one week of ascertaining the con"
+  },
+  {
+    "id": "m-14419afb",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-82",
+    "law_proposition_id": "bcand:2b621615ce985b5c",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "high",
+    "cosine_score": 0.8122,
+    "bert_score_f1": null,
+    "explanation": "This candidate covers only the outgoing side (sending off a holding, recording recipient), while the guidance additionally requires recording the supplier's name and address when bringing manure onto a holding. The guidance is broader than this single clause but does not contradict it."
+  },
+  {
+    "id": "m-e5f71af9",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-82",
+    "law_proposition_id": "bcand:a5038f7d96e98ae5",
+    "relationship": "GUIDANCE_INCOMPLETE",
+    "confidence": "medium",
+    "cosine_score": 0.7725,
+    "bert_score_f1": null,
+    "explanation": "This clause requires recording the name and address of the supplier for manure brought onto or sent off a holding, but does not explicitly state the one-week timeframe that the guidance includes; the guidance's timing element is not reflected here, making the law's full obligation only partially captured by the guidance as anchored on this clause alone."
+  },
+  {
+    "id": "m-c8394071",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-83",
+    "law_proposition_id": "bcand:90c9008f4045d88b",
+    "relationship": "GUIDANCE_BROADER",
+    "confidence": "medium",
+    "cosine_score": 0.773,
+    "bert_score_f1": null,
+    "explanation": "The law requires a contingency plan record as part of the records for manure brought on to or sent off a holding, but does not specify a 1-week timeframe for recording the contingency plan itself. The guidance adds the '1 week' timing requirement for this specific element, which goes beyond what this sub-paragraph states (the timing rule in reg 28(2) applies to the broader record, but the guidance attributes it specifically to the contingency plan element). Additionally, the guidance uses 'land "
+  },
+  {
+    "id": "m-002b5555",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-84",
+    "law_proposition_id": "bcand:8816503298c2ba34",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7483,
+    "bert_score_f1": null,
+    "explanation": "The law requires recording within one week of ascertaining the nitrogen content, which matches the guidance's statement that it must be recorded within a week. This is accurately reflected."
+  },
+  {
+    "id": "m-ad8e7d9f",
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-84",
+    "law_proposition_id": "bcand:c26d32863939b629",
+    "relationship": "GROUNDED",
+    "confidence": "high",
+    "cosine_score": 0.7306,
+    "bert_score_f1": null,
+    "explanation": "The law requires ascertaining the nitrogen content as soon as reasonably practicable after arrival, which aligns with the guidance's instruction to find it out 'as soon as possible' by analysis or calculation. The guidance's phrasing is a reasonable plain-English restatement of the statutory standard."
+  }
+]

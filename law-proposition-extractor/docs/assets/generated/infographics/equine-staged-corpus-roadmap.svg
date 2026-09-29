@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #FFFFFF; }
+      .title { fill: #0F172A; font-size: 36px; font-weight: 700; }
+      .subtitle { fill: #475569; font-size: 18px; font-weight: 500; }
+      .footer { fill: #64748B; font-size: 14px; }
+      .panel { fill: #F8FAFC; stroke: #CBD5E1; stroke-width: 1; }
+      .panel-label { fill: #334155; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+      .profile { fill: #EEF2FF; stroke: #4338CA; stroke-width: 2; }
+      .profile-title { fill: #1E1B4B; font-size: 20px; font-weight: 700; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .profile-tag { fill: #4338CA; font-size: 13px; font-weight: 600; }
+      .profile-body { fill: #312E81; font-size: 13px; }
+      .profile-mono { fill: #1E1B4B; font-size: 12px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .umbrella { fill: #F5F3FF; stroke: #7C3AED; stroke-width: 2; }
+      .umbrella-title { fill: #4C1D95; font-size: 18px; font-weight: 700; }
+      .umbrella-body { fill: #5B21B6; font-size: 13px; }
+      .review { fill: #F0F9FF; stroke: #0369A1; stroke-width: 2; }
+      .review-title { fill: #0C4A6E; font-size: 16px; font-weight: 700; }
+      .review-body { fill: #075985; font-size: 13px; }
+      .note-bg { fill: #FFFBEB; stroke: #D97706; stroke-width: 1; }
+      .note-text { fill: #78350F; font-size: 13px; font-weight: 500; }
+    ]]></style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+
+  <text class="title" x="60" y="60">Equine staged corpus roadmap</text>
+  <text class="subtitle" x="60" y="92">Three staged profiles for interactive build and review. Coverage is staged  -  not a complete-corpus claim.</text>
+
+  <!-- Profile 1 -->
+  <rect class="profile" x="60" y="130" width="490" height="430" rx="12" />
+  <text class="profile-title" x="80" y="170">equine_passport_eu_2015_262_v0_1</text>
+  <text class="profile-tag" x="80" y="195">Baseline &#183; EU equine passport</text>
+
+  <text class="profile-body" x="80" y="240">Purpose: EU 2015/262 equine passport baseline.</text>
+
+  <text class="profile-body" x="80" y="285">Corpus config</text>
+  <text class="profile-mono" x="80" y="305">examples/corpus_equine_passport_eu_2015_262_v0_1.json</text>
+
+  <text class="profile-body" x="80" y="345">Case</text>
+  <text class="profile-mono" x="80" y="365">examples/equine_passport_eu_2015_262_case.json</text>
+
+  <text class="profile-body" x="80" y="405">Estimate</text>
+  <text class="profile-mono" x="80" y="425">estimate-corpus-run --profile equine_passport_eu_2015_262_v0_1 --fetch</text>
+
+  <text class="profile-body" x="80" y="465">Build (requires LiteLLM + provider credit)</text>
+  <text class="profile-mono" x="80" y="485">build-equine-corpus \</text>
+  <text class="profile-mono" x="80" y="503">  --corpus-config examples/corpus_equine_passport_eu_2015_262_v0_1.json \</text>
+  <text class="profile-mono" x="80" y="521">  --output-dir dist/static-report --use-llm</text>
+
+  <!-- Profile 2 -->
+  <rect class="profile" x="565" y="130" width="490" height="430" rx="12" />
+  <text class="profile-title" x="585" y="170">equine_passport_england_ukwide_v0_1</text>
+  <text class="profile-tag" x="585" y="195">England + UK-wide retained / EU Exit</text>
+
+  <text class="profile-body" x="585" y="240">Purpose: England + UK-wide retained / EU Exit equine identification layer.</text>
+
+  <text class="profile-body" x="585" y="285">Corpus config</text>
+  <text class="profile-mono" x="585" y="305">examples/corpus_equine_passport_england_ukwide_v0_1.json</text>
+
+  <text class="profile-body" x="585" y="345">Case</text>
+  <text class="profile-mono" x="585" y="365">examples/equine_passport_england_ukwide_case.json</text>
+
+  <text class="profile-body" x="585" y="405">Estimate</text>
+  <text class="profile-mono" x="585" y="425">estimate-corpus-run --profile equine_passport_england_ukwide_v0_1 --fetch</text>
+
+  <text class="profile-body" x="585" y="465">Build</text>
+  <text class="profile-mono" x="585" y="485">build-equine-corpus \</text>
+  <text class="profile-mono" x="585" y="503">  --corpus-config examples/corpus_equine_passport_england_ukwide_v0_1.json \</text>
+  <text class="profile-mono" x="585" y="521">  --output-dir dist/static-report --use-llm</text>
+
+  <!-- Profile 3 -->
+  <rect class="profile" x="1070" y="130" width="470" height="430" rx="12" />
+  <text class="profile-title" x="1090" y="170">equine_passport_devolved_v0_1</text>
+  <text class="profile-tag" x="1090" y="195">Devolved nations</text>
+
+  <text class="profile-body" x="1090" y="240">Purpose: Wales / Scotland / Northern Ireland equine identification layer.</text>
+
+  <text class="profile-body" x="1090" y="285">Corpus config</text>
+  <text class="profile-mono" x="1090" y="305">examples/corpus_equine_passport_devolved_v0_1.json</text>
+
+  <text class="profile-body" x="1090" y="345">Case</text>
+  <text class="profile-mono" x="1090" y="365">examples/equine_passport_devolved_case.json</text>
+
+  <text class="profile-body" x="1090" y="405">Estimate</text>
+  <text class="profile-mono" x="1090" y="425">estimate-corpus-run --profile equine_passport_devolved_v0_1 --fetch</text>
+
+  <text class="profile-body" x="1090" y="465">Build</text>
+  <text class="profile-mono" x="1090" y="485">build-equine-corpus \</text>
+  <text class="profile-mono" x="1090" y="503">  --corpus-config examples/corpus_equine_passport_devolved_v0_1.json \</text>
+  <text class="profile-mono" x="1090" y="521">  --output-dir dist/static-report --use-llm</text>
+
+  <!-- Umbrella + review -->
+  <rect class="umbrella" x="60" y="590" width="720" height="170" rx="12" />
+  <text class="umbrella-title" x="80" y="625">Umbrella profile: equine_passport_identification_v0_1</text>
+  <text class="umbrella-body" x="80" y="655">Larger, batch-oriented profile. Use staged profiles above for interactive frontier extraction</text>
+  <text class="umbrella-body" x="80" y="675">and reviewable runs. Do not run the full 21-source universe interactively unless intentionally</text>
+  <text class="umbrella-body" x="80" y="695">testing scale.</text>
+  <text class="umbrella-body" x="80" y="730">After every build run `lint-export` and inspect the run-quality summary, repair banner,</text>
+  <text class="umbrella-body" x="80" y="750">fallback counts, low-confidence traces, and context-window risks.</text>
+
+  <rect class="review" x="800" y="590" width="740" height="170" rx="12" />
+  <text class="review-title" x="820" y="625">Review &amp; promotion</text>
+  <text class="review-body" x="820" y="655">guidance_ready in equine proposition coverage remains 0 until reviewed. Promotion requires</text>
+  <text class="review-body" x="820" y="675">accepted review decisions across proposition, structured display, scope links, and completeness,</text>
+  <text class="review-body" x="820" y="695">plus high extraction confidence and resolved repairable failures.</text>
+  <text class="review-body" x="820" y="730">Coverage artifacts: equine_source_coverage.json, equine_proposition_coverage.json,</text>
+  <text class="review-body" x="820" y="750">equine_corpus_readiness.json  -  review datasets, not legal sign-off.</text>
+
+  <!-- Notes -->
+  <rect class="note-bg" x="60" y="780" width="1480" height="60" rx="8" />
+  <text class="note-text" x="80" y="805">Staged profiles do not assert complete equine passport law coverage. Each is a deliberately scoped slice.</text>
+  <text class="note-text" x="80" y="825">If repairable failures appear, restore provider credits and repair failed chunks rather than rerunning everything.</text>
+
+  <text class="footer" x="60" y="875">Source of truth: docs/dev/equine-passport-staged-runs.md &#183; profile examples under examples/corpus_equine_*.json.</text>
+</svg>

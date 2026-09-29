@@ -1,0 +1,95 @@
+{
+  "case_id": "slurry-bad-diffuse-2018-reg-1-boilerplate",
+  "label": "BAD — Regulation 1 boilerplate (Diffuse Pollution 2018)",
+  "source_title": "The Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018",
+  "source_record_id": "lex-2459c955ee13be52",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "regulation:1",
+  "fragment_text": "1 These Regulations— a may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018, b come into force on 2nd April 2018, c extend to England and Wales, and d apply to agricultural land in England.",
+  "why_this_case": "Original failure mode: citation, commencement, extent, and application compressed or mis-tiered; application to agricultural land must not be treated as a generic operative duty.",
+  "expected_challenges": [
+    "multiple_instrument_metadata_effects",
+    "territorial_application_vs_extent",
+    "single_paragraph_list_structure"
+  ],
+  "evaluation": {
+    "mode": "exhaustive",
+    "strict_proposition_count": true,
+    "allow_extra_actual": false,
+    "expected_checkable_count": 0
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "citation",
+      "proposition_tier": "instrument_metadata",
+      "proposition_text": "These Regulations may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018.",
+      "legal_subject": "These Regulations",
+      "action": "may be cited as",
+      "affected_subjects": [
+        "These Regulations"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [],
+      "extent": [],
+      "evidence_quote": "may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018"
+    },
+    {
+      "legal_effect_type": "commencement",
+      "proposition_tier": "instrument_metadata",
+      "proposition_text": "These Regulations come into force on 2 April 2018.",
+      "legal_subject": "These Regulations",
+      "action": "come into force on",
+      "affected_subjects": [
+        "These Regulations"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [],
+      "extent": [],
+      "evidence_quote": "come into force on 2nd April 2018"
+    },
+    {
+      "legal_effect_type": "extent",
+      "proposition_tier": "instrument_metadata",
+      "proposition_text": "These Regulations extend to England and Wales.",
+      "legal_subject": "These Regulations",
+      "action": "extend to",
+      "affected_subjects": [
+        "These Regulations"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [],
+      "extent": [
+        "England and Wales"
+      ],
+      "evidence_quote": "extend to England and Wales"
+    },
+    {
+      "legal_effect_type": "application_scope",
+      "proposition_tier": "scope_rule",
+      "proposition_text": "These Regulations apply to agricultural land in England.",
+      "legal_subject": "These Regulations",
+      "action": "apply to",
+      "affected_subjects": [
+        "agricultural land in England"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "apply to agricultural land in England"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "query": "Bees and bee health traceability Honey bee and pollinator identification using hive registration, apiary records, beekeeper registration, and inspection records. Covers pest and disease control, import biosecurity, pollinator resilience, and ecosystem health including Varroa mites and exotic bee diseases.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Bees and bee health traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "bee",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bee"
+  },
+  {
+    "query": "bees",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bees"
+  },
+  {
+    "query": "honey bee",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: honey bee"
+  },
+  {
+    "query": "honey bees",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: honey bees"
+  },
+  {
+    "query": "pollinator",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pollinator"
+  },
+  {
+    "query": "pollinators",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pollinators"
+  },
+  {
+    "query": "hive registration",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: hive registration"
+  },
+  {
+    "query": "apiary",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: apiary"
+  },
+  {
+    "query": "apiaries",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: apiaries"
+  },
+  {
+    "query": "apiary records",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: apiary records"
+  },
+  {
+    "query": "beekeeper",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: beekeeper"
+  },
+  {
+    "query": "beekeeper registration",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: beekeeper registration"
+  },
+  {
+    "query": "bee inspection",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bee inspection"
+  },
+  {
+    "query": "inspection records",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: inspection records"
+  },
+  {
+    "query": "bee health",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bee health"
+  },
+  {
+    "query": "pest control",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pest control"
+  },
+  {
+    "query": "disease control",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: disease control"
+  },
+  {
+    "query": "import biosecurity",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: import biosecurity"
+  },
+  {
+    "query": "Varroa",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Varroa"
+  },
+  {
+    "query": "Varroa mite",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Varroa mite"
+  },
+  {
+    "query": "exotic bee disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: exotic bee disease"
+  },
+  {
+    "query": "small hive beetle",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: small hive beetle"
+  },
+  {
+    "query": "Tropilaelaps",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Tropilaelaps"
+  },
+  {
+    "query": "Bees and bee health traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Bees and bee health traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Bees and bee health traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Bees and bee health traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Bees and bee health traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Bees and bee health traceability Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "bee regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): bee"
+  },
+  {
+    "query": "bee order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): bee"
+  },
+  {
+    "query": "bee act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): bee"
+  },
+  {
+    "query": "bees regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): bees"
+  },
+  {
+    "query": "bees order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): bees"
+  },
+  {
+    "query": "bees act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): bees"
+  },
+  {
+    "query": "honey bee regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): honey bee"
+  },
+  {
+    "query": "honey bee order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): honey bee"
+  },
+  {
+    "query": "honey bee act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): honey bee"
+  }
+]

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #FFFFFF; }
+      .title { fill: #0F172A; font-size: 36px; font-weight: 700; }
+      .subtitle { fill: #475569; font-size: 18px; font-weight: 500; }
+      .footer { fill: #64748B; font-size: 14px; }
+      .col-bg { fill: #F8FAFC; stroke: #CBD5E1; stroke-width: 1; }
+      .col-label { fill: #334155; font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+      .row-name { fill: #1E1B4B; font-size: 15px; font-weight: 700; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .row-purpose { fill: #334155; font-size: 13px; }
+      .pill { font-size: 11px; font-weight: 700; }
+      .pill-stable { fill: #064E3B; }
+      .pill-evolving { fill: #92400E; }
+      .pill-internal { fill: #0C4A6E; }
+      .pill-domain { fill: #5B21B6; }
+      .pill-compat { fill: #7F1D1D; }
+      .pill-bg-stable { fill: #D1FAE5; stroke: #059669; stroke-width: 1; }
+      .pill-bg-evolving { fill: #FEF3C7; stroke: #D97706; stroke-width: 1; }
+      .pill-bg-internal { fill: #E0F2FE; stroke: #0369A1; stroke-width: 1; }
+      .pill-bg-domain { fill: #EDE9FE; stroke: #7C3AED; stroke-width: 1; }
+      .pill-bg-compat { fill: #FEE2E2; stroke: #DC2626; stroke-width: 1; }
+      .legend-text { fill: #475569; font-size: 12px; }
+    ]]></style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+
+  <text class="title" x="60" y="60">Run artifact map at a glance</text>
+  <text class="subtitle" x="60" y="92">What each run/export artifact captures and which surfaces consume it. Stability labels are literal.</text>
+
+  <!-- Column 1: Source &amp; fragment artifacts -->
+  <rect class="col-bg" x="60" y="130" width="500" height="320" rx="12" />
+  <text class="col-label" x="80" y="155">Source &amp; fragment</text>
+
+  <text class="row-name" x="80" y="190">sources.json</text>
+  <text class="row-purpose" x="80" y="208">Source records used/produced in the run.</text>
+  <rect class="pill-bg-stable" x="80" y="217" width="110" height="18" rx="9" />
+  <text class="pill pill-stable" x="86" y="230">stable/operator</text>
+
+  <text class="row-name" x="80" y="263">source_fragments.json</text>
+  <text class="row-purpose" x="80" y="281">Fragments used for extraction targeting.</text>
+  <rect class="pill-bg-stable" x="80" y="290" width="110" height="18" rx="9" />
+  <text class="pill pill-stable" x="86" y="303">stable/operator</text>
+
+  <text class="row-name" x="80" y="336">source_fetch_attempts.json</text>
+  <text class="row-purpose" x="80" y="354">Fetch diagnostics and attempt history.</text>
+  <rect class="pill-bg-evolving" x="80" y="363" width="70" height="18" rx="9" />
+  <text class="pill pill-evolving" x="86" y="376">evolving</text>
+
+  <text class="row-name" x="80" y="409">source_family_candidates.json</text>
+  <text class="row-purpose" x="80" y="427">Candidate related instruments (suggestions).</text>
+  <rect class="pill-bg-compat" x="80" y="436" width="100" height="18" rx="9" />
+  <text class="pill pill-compat" x="86" y="449">compatibility</text>
+
+  <!-- Column 2: Proposition artifacts -->
+  <rect class="col-bg" x="580" y="130" width="500" height="320" rx="12" />
+  <text class="col-label" x="600" y="155">Proposition</text>
+
+  <text class="row-name" x="600" y="190">propositions.json</text>
+  <text class="row-purpose" x="600" y="208">Review/analysis dataset (extracted propositions).</text>
+  <rect class="pill-bg-stable" x="600" y="217" width="110" height="18" rx="9" />
+  <text class="pill pill-stable" x="606" y="230">stable/operator</text>
+
+  <text class="row-name" x="600" y="263">proposition_extraction_traces.json</text>
+  <text class="row-purpose" x="600" y="281">Per-proposition provenance + confidence.</text>
+  <rect class="pill-bg-stable" x="600" y="290" width="110" height="18" rx="9" />
+  <text class="pill pill-stable" x="606" y="303">stable/operator</text>
+
+  <text class="row-name" x="600" y="336">proposition_extraction_jobs.json</text>
+  <text class="row-purpose" x="600" y="354">Selection / fallback / repairability metadata.</text>
+  <rect class="pill-bg-evolving" x="600" y="363" width="70" height="18" rx="9" />
+  <text class="pill pill-evolving" x="606" y="376">evolving</text>
+
+  <text class="row-name" x="600" y="409">proposition_extraction_failures.json</text>
+  <text class="row-purpose" x="600" y="427">Fail-closed rows and validation issues.</text>
+  <rect class="pill-bg-evolving" x="600" y="436" width="70" height="18" rx="9" />
+  <text class="pill pill-evolving" x="606" y="449">evolving</text>
+
+  <!-- Column 3: Quality + run state -->
+  <rect class="col-bg" x="1100" y="130" width="440" height="320" rx="12" />
+  <text class="col-label" x="1120" y="155">Quality &amp; run state</text>
+
+  <text class="row-name" x="1120" y="190">run_quality_summary.json</text>
+  <text class="row-purpose" x="1120" y="208">pass / pass_with_warnings / fail + metrics.</text>
+  <rect class="pill-bg-stable" x="1120" y="217" width="110" height="18" rx="9" />
+  <text class="pill pill-stable" x="1126" y="230">stable/operator</text>
+
+  <text class="row-name" x="1120" y="263">extraction_llm_call_traces.json</text>
+  <text class="row-purpose" x="1120" y="281">LLM / chunk call diagnostics.</text>
+  <rect class="pill-bg-evolving" x="1120" y="290" width="70" height="18" rx="9" />
+  <text class="pill pill-evolving" x="1126" y="303">evolving</text>
+
+  <text class="row-name" x="1120" y="336">runs/&lt;run&gt;/traces/*.json</text>
+  <text class="row-purpose" x="1120" y="354">Stage traces for auditability.</text>
+  <rect class="pill-bg-stable" x="1120" y="363" width="110" height="18" rx="9" />
+  <text class="pill pill-stable" x="1126" y="376">stable/operator</text>
+
+  <text class="row-name" x="1120" y="409">runs/_jobs/&lt;job&gt;/{job,events}.json</text>
+  <text class="row-purpose" x="1120" y="427">Async run job status + event timeline.</text>
+  <rect class="pill-bg-internal" x="1120" y="436" width="70" height="18" rx="9" />
+  <text class="pill pill-internal" x="1126" y="449">internal</text>
+
+  <!-- Column 4: Equine corpus (domain) -->
+  <rect class="col-bg" x="60" y="470" width="720" height="220" rx="12" />
+  <text class="col-label" x="80" y="495">Domain / profile-specific (equine corpus)</text>
+
+  <text class="row-name" x="80" y="530">equine_source_coverage.json</text>
+  <text class="row-purpose" x="80" y="548">Source coverage matrix snapshot (pending review status).</text>
+  <rect class="pill-bg-domain" x="80" y="557" width="130" height="18" rx="9" />
+  <text class="pill pill-domain" x="86" y="570">domain/profile</text>
+
+  <text class="row-name" x="80" y="603">equine_proposition_coverage.json</text>
+  <text class="row-purpose" x="80" y="621">Proposition coverage matrix (guidance_ready &amp; reason_if_not_guidance_ready).</text>
+  <rect class="pill-bg-domain" x="80" y="630" width="130" height="18" rx="9" />
+  <text class="pill pill-domain" x="86" y="643">domain/profile</text>
+
+  <text class="row-name" x="400" y="530">equine_corpus_readiness.json</text>
+  <text class="row-purpose" x="400" y="548">Readiness summary (source-universe context when available).</text>
+  <rect class="pill-bg-domain" x="400" y="557" width="130" height="18" rx="9" />
+  <text class="pill pill-domain" x="406" y="570">domain/profile</text>
+
+  <text class="row-name" x="400" y="603">pipeline_review_decisions.json</text>
+  <text class="row-purpose" x="400" y="621">Append-only governance decisions across runs.</text>
+  <rect class="pill-bg-stable" x="400" y="630" width="110" height="18" rx="9" />
+  <text class="pill pill-stable" x="406" y="643">stable/operator</text>
+
+  <!-- Legend -->
+  <rect class="col-bg" x="800" y="470" width="740" height="220" rx="12" />
+  <text class="col-label" x="820" y="495">Stability legend</text>
+
+  <rect class="pill-bg-stable" x="820" y="520" width="110" height="20" rx="10" />
+  <text class="pill pill-stable" x="828" y="534">stable/operator</text>
+  <text class="legend-text" x="950" y="535">Operator-facing; surface and schema treated as stable inputs to UI/API.</text>
+
+  <rect class="pill-bg-evolving" x="820" y="555" width="70" height="20" rx="10" />
+  <text class="pill pill-evolving" x="828" y="569">evolving</text>
+  <text class="legend-text" x="950" y="570">Field set / semantics still iterating; consumers should pin behavior carefully.</text>
+
+  <rect class="pill-bg-internal" x="820" y="590" width="70" height="20" rx="10" />
+  <text class="pill pill-internal" x="828" y="604">internal</text>
+  <text class="legend-text" x="950" y="605">Operational plumbing (jobs, queues, run state); not a public contract.</text>
+
+  <rect class="pill-bg-domain" x="820" y="625" width="130" height="20" rx="10" />
+  <text class="pill pill-domain" x="828" y="639">domain/profile</text>
+  <text class="legend-text" x="950" y="640">Scoped to a corpus profile (e.g., equine passport); not universal.</text>
+
+  <rect class="pill-bg-compat" x="820" y="660" width="100" height="20" rx="10" />
+  <text class="pill pill-compat" x="828" y="674">compatibility</text>
+  <text class="legend-text" x="950" y="675">Kept for backward compatibility; planned to evolve or merge with newer surfaces.</text>
+
+  <!-- Footer -->
+  <text class="footer" x="60" y="730">Read alongside the artifact map diagram: docs/assets/generated/diagrams/artifact-map.svg.</text>
+  <text class="footer" x="60" y="752">Source of truth: docs/reference/artifacts.md.</text>
+  <text class="footer" x="60" y="774">Notes: source_family_candidates are suggestions until registered; equine readiness is not a complete-coverage claim.</text>
+  <text class="footer" x="60" y="850">Generated from docs/assets/infographics/artifact-map.svg &#183; regenerate with `just infographics`.</text>
+</svg>

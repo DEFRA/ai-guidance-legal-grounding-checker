@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Prospective manifestation: DocumentURI and keyword grounded in legislation.gov.uk URI scheme. -->
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             DocumentURI="http://www.legislation.gov.uk/ukpga/2021/1/prospective"
+             IdURI="http://www.legislation.gov.uk/id/ukpga/2021/1"
+             NumberOfProvisions="1"
+             SchemaVersion="2.0">
+  <ukm:Metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+                xmlns:dct="http://purl.org/dc/terms/"
+                xmlns:atom="http://www.w3.org/2005/Atom"
+                xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata">
+    <dc:identifier>http://www.legislation.gov.uk/ukpga/2021/1/prospective</dc:identifier>
+    <dc:title>Pension Schemes Act 2021</dc:title>
+    <atom:link rel="self" href="http://www.legislation.gov.uk/ukpga/2021/1/prospective/data.xml" type="application/xml"/>
+    <atom:link rel="http://purl.org/dc/terms/isReplacedBy" href="http://www.legislation.gov.uk/ukpga/2021/1/prospective" title="prospective"/>
+    <ukm:PrimaryMetadata>
+      <ukm:DocumentClassification>
+        <ukm:DocumentMainType Value="UnitedKingdomPublicGeneralAct"/>
+        <ukm:DocumentStatus Value="revised"/>
+      </ukm:DocumentClassification>
+      <ukm:Year Value="2021"/>
+      <ukm:Number Value="1"/>
+    </ukm:PrimaryMetadata>
+  </ukm:Metadata>
+  <Title>Pension Schemes Act 2021</Title>
+  <Body id="body">
+    <P1 id="section-1">
+      <Pnumber>1</Pnumber>
+      <P1para>
+        <Text>Prospective provision text.</Text>
+      </P1para>
+    </P1>
+  </Body>
+</Legislation>

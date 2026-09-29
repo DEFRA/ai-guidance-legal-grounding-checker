@@ -1,0 +1,395 @@
+# C2 — Containers for Guidance to Law Comparison (content-audit pipeline).
+# Canonical / locked architecture view. Regenerate: just diagrams (repo root)
+# Treat as final unless the runtime architecture itself changes.
+#
+# Abstraction: major runnable containers + people + externals.
+# Groups runtime responsibilities; not full execution order.
+# Exact stage order lives in docs/diagrams/pipeline/end-to-end.d2 — not here.
+#
+# Model services: Option A — one aggregated edge to the Guidance to Law Comparison
+# software-system boundary (not a runtime container). Several model-backed
+# containers use inference; fanning out those edges would be spaghetti.
+# Per-step routing: docs/architecture/dependencies.md
+#
+# Match Adjudicator: thin Matcher → Adjudicator → Assembler is the normal
+# RUNBOOK path, not an unavoidable hop. Assembler can consume Matcher output
+# directly (aligned schemas). Alternatives stay in pipeline docs.
+#
+# Interior uses a fixed 3-row grid so ELK cannot pull Presentation
+# sideways into a pipeline strip.
+
+...@../shared/classes.d2
+
+direction: down
+
+title: |md
+  **C2 — Guidance to Law Comparison containers**
+|
+title.style.font-size: 24
+title.near: top-center
+
+people: {
+  near: center-left
+  label: "People"
+  class: phase
+  grid-rows: 2
+  grid-gap: 36
+
+  operator: {
+    label: "Operator\ndefines scope, runs audits"
+    class: person
+    width: 220
+    height: 88
+    style: {
+      font-size: 15
+      fill: "#FFFFFF"
+      stroke: "#0369A1"
+      stroke-width: 2
+      border-radius: 10
+      shadow: true
+    }
+  }
+
+  reviewer: {
+    label: "Reviewer\nreviews comparison results"
+    class: person
+    width: 220
+    height: 88
+    style: {
+      font-size: 15
+      fill: "#FFFFFF"
+      stroke: "#0369A1"
+      stroke-width: 2
+      border-radius: 10
+      shadow: true
+    }
+  }
+}
+
+# GOV.UK sits left/top so it feeds Guidance without crossing Law.
+guidance_sources: {
+  near: top-left
+  label: "Guidance sources"
+  class: phase
+
+  govuk: {
+    label: "GOV.UK APIs\nguidance search + content"
+    class: external
+    width: 240
+    height: 80
+    style: {
+      font-size: 14
+      fill: "#FFFFFF"
+      stroke: "#475569"
+      stroke-width: 2
+      stroke-dash: 0
+      border-radius: 10
+      shadow: true
+    }
+  }
+}
+
+law_sources: {
+  near: center-right
+  label: "Law sources"
+  class: phase
+  grid-rows: 2
+  grid-gap: 22
+
+  lex: {
+    label: "Lex\nlegislation search"
+    class: external
+    width: 240
+    height: 80
+    style: {
+      font-size: 14
+      fill: "#FFFFFF"
+      stroke: "#475569"
+      stroke-width: 2
+      stroke-dash: 0
+      border-radius: 10
+      shadow: true
+    }
+  }
+
+  legislation_gov_uk: {
+    label: "legislation.gov.uk\nlegislation source text"
+    class: external
+    width: 240
+    height: 80
+    style: {
+      font-size: 14
+      fill: "#FFFFFF"
+      stroke: "#475569"
+      stroke-width: 2
+      stroke-dash: 0
+      border-radius: 10
+      shadow: true
+    }
+  }
+}
+
+model_services: {
+  near: bottom-right
+  label: "Model services\ncloud/local LLMs + embeddings"
+  class: external
+  width: 240
+  height: 80
+  style: {
+    font-size: 14
+    fill: "#FFFFFF"
+    stroke: "#475569"
+    stroke-width: 2
+    stroke-dash: 0
+    border-radius: 10
+    shadow: true
+  }
+}
+
+legal_comparison: {
+  label: "Guidance to Law Comparison"
+  class: system
+  style: {
+    fill: "#EEF2FF"
+    stroke: "#312E81"
+    stroke-width: 4
+    border-radius: 16
+    font-size: 22
+    font-color: "#1E1B4B"
+    shadow: true
+  }
+
+  # Fixed rows: processing → comparison → presentation (grid locks layout).
+  areas: {
+    grid-rows: 3
+    grid-gap: 36
+    label: ""
+    style: {
+      fill: "transparent"
+      stroke: "transparent"
+    }
+
+    processing: {
+      label: ""
+      grid-columns: 2
+      grid-gap: 40
+      style: {
+        fill: "transparent"
+        stroke: "transparent"
+      }
+
+      guidance: {
+        label: "Guidance processing"
+        class: phase
+        grid-rows: 3
+        grid-gap: 18
+
+        guidance_discovery: {
+          label: "Guidance Discovery\nfinds and fetches guidance"
+          class: container
+          width: 250
+          height: 80
+          style: {
+            font-size: 14
+            fill: "#FFFFFF"
+            stroke: "#4338CA"
+            stroke-width: 2
+            border-radius: 10
+            shadow: true
+          }
+        }
+
+        guidance_relevance_filter: {
+          label: "Guidance Relevance Filter\nkeeps pages on-topic"
+          class: container
+          width: 250
+          height: 80
+          style: {
+            font-size: 14
+            fill: "#FFFFFF"
+            stroke: "#4338CA"
+            stroke-width: 2
+            border-radius: 10
+            shadow: true
+          }
+        }
+
+        guidance_proposition_extractor: {
+          label: "Guidance Proposition Extractor\nextracts guidance propositions"
+          class: container
+          width: 250
+          height: 80
+          style: {
+            font-size: 14
+            fill: "#FFFFFF"
+            stroke: "#4338CA"
+            stroke-width: 2
+            border-radius: 10
+            shadow: true
+          }
+        }
+      }
+
+      law: {
+        label: "Law processing"
+        class: phase
+        grid-rows: 2
+        grid-gap: 18
+
+        law_discovery: {
+          label: "Law Discovery\nfinds candidate legislation"
+          class: container
+          width: 250
+          height: 80
+          style: {
+            font-size: 14
+            fill: "#FFFFFF"
+            stroke: "#4338CA"
+            stroke-width: 2
+            border-radius: 10
+            shadow: true
+          }
+        }
+
+        law_proposition_extractor: {
+          label: "Law Proposition Extractor\nextracts law propositions"
+          class: container
+          width: 250
+          height: 80
+          style: {
+            font-size: 14
+            fill: "#FFFFFF"
+            stroke: "#4338CA"
+            stroke-width: 2
+            border-radius: 10
+            shadow: true
+          }
+        }
+      }
+    }
+
+    comparison: {
+      label: "Comparison and review"
+      class: phase
+      grid-columns: 3
+      grid-gap: 20
+
+      proposition_matcher: {
+        label: "Proposition Matcher\ncompares propositions"
+        class: container
+        width: 230
+        height: 80
+        style: {
+          font-size: 14
+          fill: "#FFFFFF"
+          stroke: "#4338CA"
+          stroke-width: 2
+          border-radius: 10
+          shadow: true
+        }
+      }
+
+      match_adjudicator: {
+        label: "Match Adjudicator\nre-checks uncertain matches"
+        class: container
+        width: 230
+        height: 80
+        style: {
+          font-size: 14
+          fill: "#FFFFFF"
+          stroke: "#4338CA"
+          stroke-width: 2
+          border-radius: 10
+          shadow: true
+        }
+      }
+
+      audit_assembler: {
+        label: "Audit Assembler\nassembles audit pack"
+        class: container
+        width: 230
+        height: 80
+        style: {
+          font-size: 14
+          fill: "#FFFFFF"
+          stroke: "#4338CA"
+          stroke-width: 2
+          border-radius: 10
+          shadow: true
+        }
+      }
+    }
+
+    presentation: {
+      label: "Presentation"
+      class: phase
+
+      audit_frontend: {
+        label: "Audit frontend\npresents assembled audit"
+        class: container
+        width: 250
+        height: 80
+        style: {
+          font-size: 14
+          fill: "#FFFFFF"
+          stroke: "#4338CA"
+          stroke-width: 2
+          border-radius: 10
+          shadow: true
+        }
+      }
+    }
+  }
+}
+
+# People (C1 zoom: Operator → system/run entry; Reviewer → Audit frontend)
+people.operator -> legal_comparison: "defines\nscope" {
+  style: { stroke: "#0369A1"; stroke-width: 2; font-size: 17 }
+}
+people.reviewer -> legal_comparison.areas.presentation.audit_frontend: reviews results {
+  style: { stroke: "#0369A1"; stroke-width: 2; font-size: 17 }
+}
+
+# Externals adjacent to the path they feed
+guidance_sources.govuk -> legal_comparison.areas.processing.guidance.guidance_discovery: supplies guidance {
+  style: { stroke: "#475569"; stroke-width: 2; font-size: 17 }
+}
+law_sources.lex -> legal_comparison.areas.processing.law.law_discovery: "supplies\ncandidates" {
+  style: { stroke: "#475569"; stroke-width: 2; font-size: 17 }
+}
+law_sources.legislation_gov_uk -> legal_comparison.areas.processing.law.law_proposition_extractor: "supplies\ntext" {
+  style: { stroke: "#475569"; stroke-width: 2; font-size: 17 }
+}
+# Aggregated: boundary is not a runtime container (see file header).
+model_services -> legal_comparison: "provides\ninference" {
+  style: { stroke: "#475569"; stroke-width: 2; font-size: 17 }
+}
+
+# Subdued unlabeled internal sequencing
+legal_comparison.areas.processing.guidance.guidance_discovery -> legal_comparison.areas.processing.guidance.guidance_relevance_filter: {
+  style: { stroke: "#CBD5E1"; stroke-width: 1 }
+}
+legal_comparison.areas.processing.guidance.guidance_relevance_filter -> legal_comparison.areas.processing.guidance.guidance_proposition_extractor: {
+  style: { stroke: "#CBD5E1"; stroke-width: 1 }
+}
+legal_comparison.areas.processing.law.law_discovery -> legal_comparison.areas.processing.law.law_proposition_extractor: {
+  style: { stroke: "#CBD5E1"; stroke-width: 1 }
+}
+legal_comparison.areas.comparison.proposition_matcher -> legal_comparison.areas.comparison.match_adjudicator: {
+  style: { stroke: "#CBD5E1"; stroke-width: 1 }
+}
+legal_comparison.areas.comparison.match_adjudicator -> legal_comparison.areas.comparison.audit_assembler: {
+  style: { stroke: "#CBD5E1"; stroke-width: 1 }
+}
+
+# Processing areas feed comparison directly
+legal_comparison.areas.processing.guidance -> legal_comparison.areas.comparison: "supplies\npropositions" {
+  style: { stroke: "#4338CA"; stroke-width: 2; font-size: 17 }
+}
+legal_comparison.areas.processing.law -> legal_comparison.areas.comparison: "supplies\npropositions" {
+  style: { stroke: "#4338CA"; stroke-width: 2; font-size: 17 }
+}
+
+legal_comparison.areas.comparison.audit_assembler -> legal_comparison.areas.presentation.audit_frontend: publishes audit {
+  style: { stroke: "#4338CA"; stroke-width: 2; font-size: 17 }
+}

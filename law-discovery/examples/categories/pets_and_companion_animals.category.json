@@ -1,0 +1,54 @@
+{
+  "category_id": "pets_and_companion_animals",
+  "label": "Pets and companion animals identification and traceability",
+  "description": "Dogs, cats, rabbits, ferrets, and companion animals identification using microchips, tags, tattoos, passports, and registration systems. Covers welfare, breeding, sale, pet travel, responsible ownership, zoonotic disease prevention, and illegal import enforcement.",
+  "synonyms": [
+    "pet",
+    "pets",
+    "companion animal",
+    "companion animals",
+    "dog",
+    "dogs",
+    "cat",
+    "cats",
+    "rabbit",
+    "rabbits",
+    "ferret",
+    "ferrets",
+    "microchip",
+    "microchips",
+    "tag",
+    "tags",
+    "tattoo",
+    "tattoos",
+    "pet passport",
+    "animal health certificate",
+    "pet travel",
+    "registration system",
+    "responsible ownership",
+    "breeding",
+    "sale",
+    "illegal import",
+    "zoonotic disease",
+    "rabies"
+  ],
+  "exclusions": [
+    "pet toys",
+    "pet insurance marketing",
+    "veterinary fees only",
+    "dog racing betting"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland",
+    "Northern Ireland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "pets_and_companion_animals",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

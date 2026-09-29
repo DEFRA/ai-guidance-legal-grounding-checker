@@ -1,0 +1,64 @@
+{
+  "strategy_versions": {
+    "proposition_extraction": "v2-structured-list-round-robin"
+  },
+  "topic": {
+    "name": "Equine passport EU 2015/262 (staged v0.1)",
+    "description": "Staged source universe for equine identification, passports, and import/trade-related UK/EU instruments. Not a claim of complete equine law. Do not treat all instruments as automatically analysed. Active profile: equine_passport_eu_2015_262_v0_1.",
+    "subject_tags": [
+      "equine",
+      "staged-corpus",
+      "equine_passport_eu_2015_262_v0_1"
+    ]
+  },
+  "cluster": {
+    "name": "animal_identification_traceability",
+    "description": "Identification, import, trade, and control-related duties."
+  },
+  "extraction": {
+    "mode": "frontier",
+    "fallback_policy": "mark_needs_review",
+    "model_error_policy": "stop_repairable",
+    "divergence_reasoning": "none",
+    "focus_scopes": [
+      "equine",
+      "equidae",
+      "equid",
+      "horse",
+      "passport",
+      "identification"
+    ],
+    "max_propositions_per_source": 8
+  },
+  "sources": [
+    {
+      "id": "equine-uni-eur-2015-262",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "eur/2015/262",
+      "title": "Commission Implementing Regulation (EU) 2015/262",
+      "version_id": "2015-02-17",
+      "as_of_date": "2015-02-17",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "eur/2015/262",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "passport",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    }
+  ],
+  "narrative": {
+    "title": "Equine passport EU 2015/262 (staged v0.1)",
+    "summary": "Profile equine_passport_eu_2015_262_v0_1: 1 legislation.gov.uk instruments."
+  },
+  "run_notes": "Profile equine_passport_eu_2015_262_v0_1 \u2014 1 instruments. Wider universe: examples/equine_source_universe.json.",
+  "corpus_profile_id": "equine_passport_eu_2015_262_v0_1",
+  "equine_source_universe_ref": {
+    "path": "examples/equine_source_universe.json",
+    "universe_id": "equine_import_identification_trade_v1"
+  },
+  "run_recommendation": "Use this first for interactive frontier extraction of the EU passport baseline. Minimal, high-signal, lowest-cost staged run."
+}

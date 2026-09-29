@@ -1,0 +1,1738 @@
+[
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-1",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 10,
+    "candidate_count": 11
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-2",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-3",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-4",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-5",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-6",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-7",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 6,
+    "candidate_count": 7
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-8",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 6,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-9",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-10",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-11",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "NO_CANDIDATES_FOUND",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-12",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 4,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 7
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-13",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "NO_CANDIDATES_FOUND",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-14",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-15",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-16",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 4,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-17",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-18",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-19",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-20",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-21",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 3,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-22",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-23",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-24",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-25",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-26",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-27",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-28",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-29",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-30",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 6,
+    "candidate_count": 8
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-31",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-32",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 6,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-33",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-34",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-35",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-36",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-37",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 4,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-38",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-39",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-40",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-41",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-42",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-43",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-44",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-45",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-46",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-47",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-48",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-49",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 3,
+    "ungrounded_candidate_count": 7,
+    "candidate_count": 10
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-50",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 5,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-51",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-52",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-53",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-54",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-55",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 5,
+    "candidate_count": 7
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-56",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 5,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-57",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-58",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-59",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-60",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-61",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 5,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-62",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-63",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-64",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "NO_CANDIDATES_FOUND",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "guidance_proposition_id": "susan-ef92f343b178a474-65",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-1",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-2",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-3",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 6,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-4",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 10,
+    "candidate_count": 10
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-5",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 11,
+    "candidate_count": 11
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-6",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-7",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 3,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-8",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-9",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-10",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-11",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-12",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-13",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 13,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-16",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "NO_CANDIDATES_FOUND",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-17",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "NO_CANDIDATES_FOUND",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-18",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 13,
+    "candidate_count": 14
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-19",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 11,
+    "candidate_count": 12
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-20",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 8,
+    "candidate_count": 8
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-21",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-22",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-23",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-24",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 7,
+    "candidate_count": 8
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-25",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-26",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-27",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-28",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-29",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-30",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-31",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-32",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 8,
+    "candidate_count": 9
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-33",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-34",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-35",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-36",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-37",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-38",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 11,
+    "candidate_count": 13
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-39",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 4,
+    "ungrounded_candidate_count": 8,
+    "candidate_count": 12
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 13,
+    "candidate_count": 14
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-41",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 9,
+    "candidate_count": 10
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-42",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 4,
+    "ungrounded_candidate_count": 11,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-43",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 13,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-44",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 9,
+    "candidate_count": 9
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-45",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-46",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-47",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-48",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-49",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-50",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-51",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 4,
+    "ungrounded_candidate_count": 11,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-52",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-53",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 9,
+    "candidate_count": 9
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-54",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-55",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 10,
+    "candidate_count": 11
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-56",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-57",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 7,
+    "candidate_count": 9
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-58",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 12,
+    "candidate_count": 14
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-59",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-60",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 12,
+    "candidate_count": 13
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "NO_CANDIDATES_FOUND",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-62",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-63",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "NO_CANDIDATES_FOUND",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-64",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 10,
+    "candidate_count": 10
+  },
+  {
+    "guidance_proposition_id": "susan-41dbc58cc6ea1113-65",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-1",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-2",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-3",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 11,
+    "candidate_count": 11
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-4",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-5",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-6",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 13,
+    "candidate_count": 13
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-7",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-8",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-9",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-10",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 3,
+    "ungrounded_candidate_count": 12,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-11",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 6,
+    "candidate_count": 7
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-12",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 7,
+    "candidate_count": 8
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-13",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-14",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-15",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "NO_CANDIDATES_FOUND",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 0
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-17",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 8,
+    "candidate_count": 9
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-18",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-19",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-20",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-21",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 9,
+    "ungrounded_candidate_count": 6,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-22",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 7,
+    "candidate_count": 9
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-23",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-24",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-25",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-26",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 5,
+    "candidate_count": 7
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-27",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 8,
+    "candidate_count": 9
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-28",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 13,
+    "candidate_count": 14
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-29",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 9,
+    "candidate_count": 10
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-30",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 11,
+    "candidate_count": 13
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-31",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-32",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-33",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 10,
+    "candidate_count": 11
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-34",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-35",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-36",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-37",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-38",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-39",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 3,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-40",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 3,
+    "ungrounded_candidate_count": 12,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-41",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-42",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-43",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-44",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 5,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-45",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 7,
+    "candidate_count": 8
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-46",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-47",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-48",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-49",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-50",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-51",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 3,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-52",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 5,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-53",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 5,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-54",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 5,
+    "ungrounded_candidate_count": 10,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-56",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 14,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-57",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 7,
+    "candidate_count": 8
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-58",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-59",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 11,
+    "candidate_count": 12
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-60",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 11,
+    "candidate_count": 11
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-61",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 8,
+    "candidate_count": 9
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-62",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 13,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-63",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 3,
+    "ungrounded_candidate_count": 12,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-65",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-66",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-67",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-68",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 7,
+    "candidate_count": 7
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-69",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-70",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-71",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-72",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-73",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-74",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 4,
+    "ungrounded_candidate_count": 2,
+    "candidate_count": 6
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-75",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 3,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-76",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 3,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 4
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-77",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-78",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 2
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-79",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 10,
+    "candidate_count": 11
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-80",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 4,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 8
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-81",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 0,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-82",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-83",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 1,
+    "ungrounded_candidate_count": 4,
+    "candidate_count": 5
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-84",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "HAS_REPORTABLE_COMPARISON",
+    "reportable_comparison_count": 2,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 3
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-85",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 15,
+    "candidate_count": 15
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-86",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 1
+  },
+  {
+    "guidance_proposition_id": "susan-b5cccee08ec65fb7-87",
+    "assessment_status": "COMPLETE",
+    "coverage_result": "ONLY_UNGROUNDED_CANDIDATES",
+    "reportable_comparison_count": 0,
+    "ungrounded_candidate_count": 1,
+    "candidate_count": 1
+  }
+]

@@ -1,0 +1,85 @@
+site_name: Law Proposition Extractor
+site_description: Source-first proposition analysis workbench
+theme:
+  name: material
+
+exclude_docs: |
+  assets/generated/context/
+
+nav:
+  - Home: index.md
+  - Development:
+      - Operations state reset (dev/admin): dev/operations-state-reset.md
+      - Article 109 equine pilot (UI): dev/article-109-equine-pilot.md
+      - Equine passport staged runs: dev/equine-passport-staged-runs.md
+      - Fragment selection and corpus profiles: dev/fragment-selection-and-corpus-profiles.md
+      - Jurisdiction analysis runs: dev/jurisdiction-analysis-runs.md
+      - Quality runs: dev/quality-runs.md
+      - Extraction repair and failure handling: dev/extraction-repair.md
+      - Review governance: dev/review-governance.md
+      - Source registry and discovery: dev/source-registry.md
+      - v1.5 readiness checklist: dev/v1-5-readiness-checklist.md
+  - Architecture:
+      - System overview: architecture/system-overview.md
+      - Pipeline overview: architecture/pipeline-overview.md
+      - Proposition classification: architecture/proposition-classification.md
+      - Effective-law layers: architecture/effective-law-layers.md
+  - Explainability:
+      - Handbook index: explainability/README.md
+      - Concepts: explainability/concepts.md
+      - Pipeline: explainability/pipeline.md
+      - Diagrams: explainability/diagrams.md
+      - Heuristics: explainability/heuristics.md
+      - Artifacts and lineage: explainability/artifacts-and-lineage.md
+      - Article 49a walkthrough: explainability/article-49a-walkthrough.md
+      - Structural-source fixtures: explainability/structural-source-fixtures.md
+      - Proposition-fidelity benchmark: explainability/proposition-fidelity-benchmark.md
+      - Live proposition calibration: explainability/live-proposition-calibration.md
+      - Glossary: explainability/glossary.md
+  - Process:
+      - Method: process/method.md
+      - Asset generation: process/asset-generation.md
+  - Canonical:
+      - Audiences: canonical/audiences.md
+      - Project state: canonical/project-state.md
+      - Roadmap state: canonical/roadmap.md
+      - Visuals: canonical/visuals.md
+  - Assets:
+      - Diagrams: assets/diagrams/README.md
+      - Decks:
+          - Deck assets: assets/decks/README.md
+          - Stakeholder overview source: assets/decks/law-proposition-extractor-stakeholder-overview.md
+          - Technical architecture source: assets/decks/law-proposition-extractor-technical-architecture.md
+          - Operator workflows source: assets/decks/law-proposition-extractor-operator-workflows.md
+      - Infographics:
+          - README: assets/infographics/README.md
+          - Prompt template: assets/infographics/prompt-template.md
+          - Pipeline overview spec: assets/infographics/pipeline-overview.md
+      - Generated outputs: assets/generated-assets.md
+  - Reference:
+      - Overview: reference/README.md
+      - CLI: reference/cli.md
+      - Ops API: reference/api-ops.md
+      - Artifacts: reference/artifacts.md
+  - Roadmap:
+      - v1: roadmap/v1.md
+  - Decisions:
+      - GitHub: decisions/adr-0001-github.md
+      - LiteLLM: decisions/adr-0002-litellm.md
+      - D2: decisions/adr-0003-d2.md
+      - Marp: decisions/adr-0004-marp.md
+      - Source-first ingestion: decisions/adr-0005-source-first-ingestion.md
+      - Proposition-level comparison unit: decisions/adr-0006-proposition-level-comparison-unit.md
+      - Export bundle boundary: decisions/adr-0007-export-bundle-renderer-boundary.md
+      - LiteLLM sidecar gateway: decisions/adr-0008-litellm-sidecar-gateway.md
+      - Source provenance and version-awareness: decisions/adr-0009-source-provenance-version-awareness.md
+      - Human review in core workflow: decisions/adr-0010-human-review-in-core-workflow.md
+      - "ADR-0011: Read-only workbench UI (superseded)": decisions/adr-0011-v1-read-only-workbench-ui.md
+      - Defer evaluation layer beyond v1: decisions/adr-0012-defer-evaluation-layer-beyond-v1.md
+      - Traceable run artifacts: decisions/adr-0013-traceable-pipeline-run-artifacts.md
+      - Proposition-first architecture: decisions/adr-0014-proposition-first-architecture.md
+      - Workflow modes: decisions/adr-0015-workflow-modes-single-jurisdiction-and-divergence.md
+      - Proposition migration compatibility policy: decisions/adr-0016-compatibility-policy-for-proposition-migration.md
+      - Operational history API surface: decisions/adr-0017-operational-history-api-surface.md
+      - Proposition identity and naming: decisions/adr-0018-proposition-identity-and-naming.md
+      - Model usage strategy: decisions/adr-0019-model-usage-strategy.md

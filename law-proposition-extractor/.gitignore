@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build / dist
+build/
+dist/
+wheels/
+*.egg-info
+site/
+# Note: docs/assets/generated/ is committed by policy. See docs/assets/generated-assets.md.
+
+# Env / secrets
+.env
+.env.local
+
+# Node
+node_modules/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Generated source bundles (local intake/export); optional smoke copies at repo root
+/source-bundle-*.json
+runs/**/source-bundle-*.json
+!tests/fixtures/**/source-bundle-*.json
+
+# Live proposition calibration outputs (keep fixtures under tests/)
+calibration/proposition_fidelity/*
+!calibration/proposition_fidelity/.gitkeep
+!tests/fixtures/live_proposition_calibration/

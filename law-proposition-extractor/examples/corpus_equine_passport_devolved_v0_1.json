@@ -1,0 +1,30 @@
+{
+  "corpus_id": "equine_law",
+  "focus_scopes": [
+    "equine",
+    "equidae",
+    "equid",
+    "horse",
+    "passport",
+    "identification"
+  ],
+  "max_propositions_per_source": 12,
+  "extraction_mode": "frontier",
+  "extraction_fallback": "mark_needs_review",
+  "model_error_policy": "stop_repairable",
+  "divergence_reasoning": "none",
+  "equine_source_universe_path": "examples/equine_source_universe.json",
+  "corpus_profile_id": "equine_passport_devolved_v0_1",
+  "related_source_discovery": {
+    "enabled": false
+  },
+  "run_recommendation": "Run this third for devolved coverage and amendments once baseline and England/UK-wide outputs are reviewed.",
+  "inclusion_criteria": [
+    "Staged passport-only profile: equine_passport_devolved_v0_1."
+  ],
+  "exclusion_criteria": [
+    "Broad movement/import/trade instruments and official-controls sources are excluded from this staged passport profile.",
+    "Claims of complete equine law coverage"
+  ],
+  "source_case_path": "examples/equine_passport_devolved_case.json"
+}

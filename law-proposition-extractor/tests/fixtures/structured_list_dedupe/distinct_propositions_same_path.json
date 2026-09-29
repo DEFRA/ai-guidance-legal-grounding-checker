@@ -1,0 +1,53 @@
+{
+  "description": "Two genuinely distinct operative claims sharing structured path 1-a-i. Must not be collapsed; expect structured_list_path_multiple_distinct_propositions.",
+  "base_locator": "regulation:1:paragraph:1",
+  "fragment_text": "(1) A person must not: (a) where acting commercially— (i) use a vehicle to carry hazardous waste; (ii) store hazardous waste outdoors; (b) leave the vehicle unattended.",
+  "frontier_rows": [
+    {
+      "row_id": "cand-prohibition",
+      "proposition_text": "A person must not where acting commercially use a vehicle to carry hazardous waste.",
+      "provision_type": "core",
+      "source_locator": "regulation:1:paragraph:1:list:1-a-i",
+      "evidence_text": "use a vehicle to carry hazardous waste",
+      "conditions": ["where acting commercially"],
+      "exceptions": [],
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Terminal prohibition leaf."
+    },
+    {
+      "row_id": "cand-reporting",
+      "proposition_text": "Where acting commercially, a person who uses a vehicle to carry hazardous waste must notify the agency before departure.",
+      "provision_type": "core",
+      "source_locator": "regulation:1:paragraph:1:(a)(i)",
+      "evidence_text": "use a vehicle to carry hazardous waste",
+      "conditions": ["where acting commercially", "before departure"],
+      "exceptions": [],
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Distinct notification duty grounded on the same leaf text."
+    },
+    {
+      "row_id": "cand-a-ii",
+      "proposition_text": "A person must not where acting commercially store hazardous waste outdoors.",
+      "provision_type": "core",
+      "source_locator": "regulation:1:paragraph:1:list:1-a-ii",
+      "evidence_text": "store hazardous waste outdoors",
+      "conditions": ["where acting commercially"],
+      "exceptions": [],
+      "completeness_status": "complete",
+      "confidence": "high"
+    },
+    {
+      "row_id": "cand-b",
+      "proposition_text": "A person must not leave the vehicle unattended.",
+      "provision_type": "core",
+      "source_locator": "regulation:1:paragraph:1:list:1-b",
+      "evidence_text": "leave the vehicle unattended",
+      "conditions": [],
+      "exceptions": [],
+      "completeness_status": "complete",
+      "confidence": "high"
+    }
+  ]
+}

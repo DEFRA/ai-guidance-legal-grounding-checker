@@ -1,0 +1,57 @@
+{
+  "topic": {
+    "name": "Movement record keeping",
+    "description": "Demo comparison of movement-related record obligations across two jurisdictions.",
+    "subject_tags": ["demo", "movement", "records"]
+  },
+  "cluster": {
+    "name": "traceability",
+    "description": "Traceability and movement records."
+  },
+  "sources": [
+    {
+      "id": "src-eu-001",
+      "title": "Example EU instrument",
+      "jurisdiction": "EU",
+      "citation": "EU-EXAMPLE-001",
+      "kind": "regulation",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-01",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "version_id": "eu-example-001@2026-04-01",
+      "fragment_locator": "article:10",
+      "review_status": "proposed",
+      "text": "Article 10. Operators must maintain a movement register before dispatch. The competent authority may inspect the register on request.",
+      "metadata": {
+        "cluster": "traceability"
+      }
+    },
+    {
+      "id": "src-uk-001",
+      "title": "Example UK instrument",
+      "jurisdiction": "UK",
+      "citation": "UK-EXAMPLE-001",
+      "kind": "retained-regulation",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-01",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "version_id": "uk-example-001@2026-04-01",
+      "fragment_locator": "article:10",
+      "review_status": "proposed",
+      "text": "Article 10. Operators must maintain a movement register before dispatch. The appropriate authority may inspect the register on request.",
+      "metadata": {
+        "cluster": "traceability"
+      }
+    }
+  ],
+  "comparison": {
+    "jurisdiction_a": "EU",
+    "jurisdiction_b": "UK",
+    "proposition_index": 1
+  },
+  "narrative": {
+    "title": "Demo divergence narrative",
+    "summary": "This demo compares one proposition from each jurisdiction and records the result."
+  },
+  "run_notes": "First runnable Judit slice from file-backed input."
+}

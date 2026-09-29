@@ -1,0 +1,20 @@
+{
+  "propositions": [
+    {
+      "proposition_text": "Inspectors may enter premises for enforcement.",
+      "display_label": "Schedule 1 paragraph 3 — Inspection entry power",
+      "subject": "Inspectors",
+      "rule": "may enter premises for enforcement",
+      "object": "premises",
+      "conditions": [],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "schedule:1:paragraph:3",
+      "evidence_text": "Inspectors may enter premises for enforcement.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Operative schedule paragraph. Schedule title is structural context only and must not appear as evidence."
+    }
+  ]
+}

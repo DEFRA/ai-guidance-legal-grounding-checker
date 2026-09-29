@@ -1,0 +1,235 @@
+direction: right
+
+classes: {
+  lane: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#CBD5E1"
+      stroke-width: 1
+      border-radius: 12
+    }
+  }
+  stable: {
+    style: {
+      fill: "#ECFDF5"
+      stroke: "#059669"
+      border-radius: 8
+    }
+  }
+  evolving: {
+    style: {
+      fill: "#FEF9C3"
+      stroke: "#CA8A04"
+      border-radius: 8
+    }
+  }
+  internal: {
+    style: {
+      fill: "#F3F4F6"
+      stroke: "#6B7280"
+      border-radius: 8
+    }
+  }
+  domain: {
+    style: {
+      fill: "#EFF6FF"
+      stroke: "#2563EB"
+      border-radius: 8
+    }
+  }
+  compatibility: {
+    style: {
+      fill: "#F5F3FF"
+      stroke: "#7C3AED"
+      border-radius: 8
+    }
+  }
+  process: {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#64748B"
+      border-radius: 8
+    }
+  }
+  aggregate: {
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#4338CA"
+      stroke-width: 2
+      border-radius: 8
+    }
+  }
+  surface: {
+    style: {
+      fill: "#F0F9FF"
+      stroke: "#0369A1"
+      border-radius: 8
+    }
+  }
+}
+
+lineage: {
+  label: "Lineage"
+  class: lane
+  direction: right
+
+  source_record: "Source record"
+  source_record.class: process
+
+  source_snapshot: "Source snapshot"
+  source_snapshot.class: process
+
+  source_fragments_json: "source_fragments.json\nstable/operator-facing"
+  source_fragments_json.class: stable
+
+  proposition_extraction_jobs_json: "proposition_extraction_jobs.json\nevolving"
+  proposition_extraction_jobs_json.class: evolving
+
+  propositions_json: "propositions.json\nstable/operator-facing"
+  propositions_json.class: stable
+}
+
+extraction_artifacts: {
+  label: "Extraction artifacts"
+  class: lane
+  direction: right
+
+  proposition_extraction_traces_json: "proposition_extraction_traces.json\nstable/operator-facing"
+  proposition_extraction_traces_json.class: stable
+
+  extraction_llm_call_traces_json: "extraction_llm_call_traces.json\nevolving"
+  extraction_llm_call_traces_json.class: evolving
+
+  proposition_extraction_failures_json: "proposition_extraction_failures.json\nevolving"
+  proposition_extraction_failures_json.class: evolving
+}
+
+review_quality: {
+  label: "Review / quality artifacts"
+  class: lane
+  direction: right
+
+  proposition_scope_links: "Proposition scope links"
+  proposition_scope_links.class: process
+
+  proposition_completeness: "Proposition completeness assessments"
+  proposition_completeness.class: process
+
+  pipeline_review_decisions: "Pipeline review decisions"
+  pipeline_review_decisions.class: process
+
+  run_quality_inputs: "Run-quality inputs"
+  run_quality_inputs.class: aggregate
+
+  run_quality_summary_json: "run_quality_summary.json\nstable/operator-facing"
+  run_quality_summary_json.class: stable
+}
+
+storage_consumers: {
+  label: "Storage / consumers"
+  class: lane
+  direction: right
+
+  sources_json: "sources.json\nstable/operator-facing"
+  sources_json.class: stable
+
+  root_export_json_files: "Root export JSON files"
+  root_export_json_files.class: aggregate
+
+  run_scoped_artifacts: "Run-scoped traces/artifacts"
+  run_scoped_artifacts.class: aggregate
+
+  run_artifacts: "runs/<run>/artifacts/*.json\ncompatibility"
+  run_artifacts.class: compatibility
+
+  run_traces: "runs/<run>/traces/*.json\nstable/operator-facing"
+  run_traces.class: stable
+
+  run_job_json: "runs/_jobs/<job>/job.json\ninternal"
+  run_job_json.class: internal
+
+  run_job_events_json: "runs/_jobs/<job>/events.json\ninternal"
+  run_job_events_json.class: internal
+
+  operator_facing_artifacts: "Operator-facing artifacts"
+  operator_facing_artifacts.class: aggregate
+
+  ops_ui: "Ops UI / Proposition Explorer"
+  ops_ui.class: surface
+
+  cli_inspection: "CLI inspection"
+  cli_inspection.class: surface
+
+  lint_export: "lint-export"
+  lint_export.class: surface
+
+  repair_extraction: "repair-extraction"
+  repair_extraction.class: surface
+}
+
+supplementary_profiles: {
+  label: "Supplementary profile/compat artifacts"
+  class: lane
+  direction: right
+
+  source_family_candidates_json: "source_family_candidates.json\ncompatibility"
+  source_family_candidates_json.class: compatibility
+
+  equine_source_coverage_json: "equine_source_coverage.json\ndomain/profile-specific"
+  equine_source_coverage_json.class: domain
+
+  equine_proposition_coverage_json: "equine_proposition_coverage.json\ndomain/profile-specific"
+  equine_proposition_coverage_json.class: domain
+
+  equine_corpus_readiness_json: "equine_corpus_readiness.json\ndomain/profile-specific"
+  equine_corpus_readiness_json.class: domain
+}
+
+lineage.source_record -> storage_consumers.sources_json: "materialize"
+lineage.source_record -> lineage.source_snapshot: "snapshot"
+lineage.source_snapshot -> lineage.source_fragments_json: "fragment"
+lineage.source_fragments_json -> lineage.proposition_extraction_jobs_json: "extract jobs"
+lineage.proposition_extraction_jobs_json -> lineage.propositions_json: "propositions"
+
+lineage.proposition_extraction_jobs_json -> extraction_artifacts.proposition_extraction_traces_json: "produce"
+lineage.proposition_extraction_jobs_json -> extraction_artifacts.extraction_llm_call_traces_json: "produce"
+lineage.proposition_extraction_jobs_json -> extraction_artifacts.proposition_extraction_failures_json: "produce"
+
+lineage.propositions_json -> review_quality.proposition_scope_links: "connect"
+lineage.propositions_json -> review_quality.proposition_completeness: "connect"
+lineage.propositions_json -> review_quality.pipeline_review_decisions: "connect"
+
+lineage.propositions_json -> review_quality.run_quality_inputs
+lineage.proposition_extraction_jobs_json -> review_quality.run_quality_inputs
+extraction_artifacts.proposition_extraction_traces_json -> review_quality.run_quality_inputs
+extraction_artifacts.extraction_llm_call_traces_json -> review_quality.run_quality_inputs
+extraction_artifacts.proposition_extraction_failures_json -> review_quality.run_quality_inputs
+review_quality.run_quality_inputs -> review_quality.run_quality_summary_json: "aggregate"
+
+storage_consumers.sources_json -> storage_consumers.root_export_json_files
+lineage.source_fragments_json -> storage_consumers.root_export_json_files
+lineage.proposition_extraction_jobs_json -> storage_consumers.root_export_json_files
+lineage.propositions_json -> storage_consumers.root_export_json_files
+extraction_artifacts.proposition_extraction_traces_json -> storage_consumers.root_export_json_files
+extraction_artifacts.extraction_llm_call_traces_json -> storage_consumers.root_export_json_files
+extraction_artifacts.proposition_extraction_failures_json -> storage_consumers.root_export_json_files
+review_quality.run_quality_summary_json -> storage_consumers.root_export_json_files
+supplementary_profiles.source_family_candidates_json -> storage_consumers.root_export_json_files
+supplementary_profiles.equine_source_coverage_json -> storage_consumers.root_export_json_files
+supplementary_profiles.equine_proposition_coverage_json -> storage_consumers.root_export_json_files
+supplementary_profiles.equine_corpus_readiness_json -> storage_consumers.root_export_json_files
+
+storage_consumers.root_export_json_files -> storage_consumers.run_artifacts: "persist"
+storage_consumers.run_artifacts -> storage_consumers.run_scoped_artifacts
+storage_consumers.run_traces -> storage_consumers.run_scoped_artifacts
+storage_consumers.run_scoped_artifacts -> storage_consumers.operator_facing_artifacts
+
+lineage.proposition_extraction_jobs_json -> storage_consumers.run_job_json: "async jobs"
+lineage.proposition_extraction_jobs_json -> storage_consumers.run_job_events_json: "async events"
+storage_consumers.run_job_json -> storage_consumers.operator_facing_artifacts
+storage_consumers.run_job_events_json -> storage_consumers.operator_facing_artifacts
+
+storage_consumers.operator_facing_artifacts -> storage_consumers.ops_ui
+storage_consumers.operator_facing_artifacts -> storage_consumers.cli_inspection
+storage_consumers.operator_facing_artifacts -> storage_consumers.lint_export
+storage_consumers.operator_facing_artifacts -> storage_consumers.repair_extraction

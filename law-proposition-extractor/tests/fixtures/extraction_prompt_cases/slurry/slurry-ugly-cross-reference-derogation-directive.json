@@ -1,0 +1,60 @@
+{
+  "case_id": "slurry-ugly-cross-reference-derogation-directive",
+  "label": "UGLY — cross-reference-heavy derogation (regulation 36)",
+  "source_title": "The Nitrate Pollution Prevention Regulations 2015",
+  "source_record_id": "lex-120b4f9c395b3f94",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "regulation:36",
+  "fragment_text": "361The occupier of a holding may apply to the Agency for a derogation in a case where 80% or more of the agricultural area of the holding is sown with grass.2“Derogation” means a derogation granted under this Part from the limit on the total amount of nitrogen in livestock manure that can be applied to land each year in accordance with paragraph 2(b) of Annex III to Council Directive 91/676/EEC.2AFor the purposes of paragraph (2), paragraph 2(b) of Annex 3 to Council Directive 91/676/EEC is to be read as if the third subparagraph were omitted.3The reference in paragraph (1) to the agricultural area does not include a reference to any land which is covered by a greenhouse.4A derogation granted under this regulation ceases to have effect unless the occupier to whom the derogation is granted has sent to the Agency a written declaration that the conditions set out in Schedule 3 (“the derogation conditions”) will be met in relation to the holding.4AThe written declaration must be sent to the Agency within 28 calendar days of the derogation being granted.5The application must be submitted between 1st October and 31stDecember in the calendar year preceding that to which the application relates.5ABut an application relating to the calendar year commencing on 1st January 2017 may be submitted by 20th March 2017.6The application must be made in the form and manner published by the Secretary of State.7As part of the review conducted under regulation 39, the Secretary of State must review the overall position of derogations granted under this regulation against—aobjective criteria, including—ithe existence, in designated nitrate vulnerable zones, of long growing seasons, crops with high nitrogen uptake, and soils with exceptionally high denitrification capacity;iithe net rainfall in designated nitrate vulnerable zones;bthe following objectives—ireducing water pollution caused or induced by nitrates from agricultural sources;iipreventing further such pollution.",
+  "why_this_case": "Tests explicit Directive/Annex targets and powers without labelling every sentence as a generic cross_reference. Evaluation uses minimum mode with current legal-effect equivalence (permission↔application_scope, definition↔derogation for means clauses): two gold anchor rows; remaining reg 36 procedural rows are allowed extras.",
+  "expected_challenges": [
+    "EU_directive_references",
+    "defined_term_derogation",
+    "agency_role"
+  ],
+  "evaluation": {
+    "mode": "minimum",
+    "strict_proposition_count": false,
+    "allow_extra_actual": true
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "permission",
+      "proposition_tier": "substantive_rule",
+      "proposition_text": "The occupier of a holding may apply to the Agency for a derogation where at least 80% of the agricultural area is sown with grass.",
+      "legal_subject": "the occupier of a holding",
+      "action": "may apply to the Agency for a derogation",
+      "affected_subjects": [
+        "the occupier of a holding"
+      ],
+      "conditions": [
+        "80% or more of agricultural area sown with grass"
+      ],
+      "exceptions": [],
+      "authority": "the Agency",
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "The occupier of a holding may apply to the Agency for a derogation"
+    },
+    {
+      "legal_effect_type": "definition",
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "'Derogation' means a derogation from the Annex III livestock manure nitrogen limit under Council Directive 91/676/EEC.",
+      "legal_subject": "derogation",
+      "action": "means",
+      "affected_subjects": [
+        "derogation"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [],
+      "extent": [],
+      "evidence_quote": "Derogation” means a derogation granted under this Part from the limit"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "slurry-ugly-transitional-nvz-wales-reg-2",
+  "label": "UGLY — transitional commencement (Wales NVZ reg 2)",
+  "source_title": "The Water Resources (Control of Agricultural Pollution) (Wales) Regulations 2021",
+  "source_record_id": "lex-805b03f284dcf364",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "regulation:2",
+  "fragment_text": "2In a holding or part of a holding that was not previously situated within a nitrate vulnerable zone as shown on the relevant map marked “Nitrate Vulnerable Zones Index Map 2013” (the “NVZ index map”)—aregulations 5 to 11, 15, 23, 27, 33 to 35, and 37 to 43 do not apply until 1 January 2023,bregulations 4 and 36 do not apply until 1 January 2024 however, regulation 4 does not apply to qualifying grassland holdings until 1 January 2025, andcregulations 17 to 21, 25, 26, and 28 to 31 do not apply until 1 August 2024.",
+  "why_this_case": "Multiple staggered dates and regulation lists; export had long labels merging commencement and application scope. Evaluation uses minimum mode: two gold commencement bundles; duplicate application_scope rows restating the same transitional rules are allowed extras (commencement vs application_scope classifier tolerance).",
+  "expected_challenges": [
+    "lists_of_regulations",
+    "multiple_dates",
+    "qualifying_grassland_exception"
+  ],
+  "evaluation": {
+    "mode": "minimum",
+    "strict_proposition_count": false,
+    "allow_extra_actual": true
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "commencement",
+      "proposition_tier": "instrument_metadata",
+      "proposition_text": "Specified regulations do not apply until 1 January 2023 for holdings newly within the NVZ on the 2013 index map.",
+      "legal_subject": "regulations 5 to 11, 15, 23, 27, 33 to 35, and 37 to 43",
+      "action": "do not apply until",
+      "affected_subjects": [
+        "holdings not previously in an NVZ"
+      ],
+      "conditions": [
+        "holding not previously in NVZ per 2013 index map"
+      ],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "Wales"
+      ],
+      "extent": [],
+      "evidence_quote": "do not apply until 1 January 2023"
+    },
+    {
+      "legal_effect_type": "commencement",
+      "proposition_tier": "instrument_metadata",
+      "proposition_text": "Regulations 4 and 36 do not apply until 1 January 2024 (or 1 January 2025 for qualifying grassland holdings).",
+      "legal_subject": "regulations 4 and 36",
+      "action": "do not apply until",
+      "affected_subjects": [
+        "holdings not previously in an NVZ"
+      ],
+      "conditions": [],
+      "exceptions": [
+        "qualifying grassland holdings until 1 January 2025"
+      ],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "Wales"
+      ],
+      "extent": [],
+      "evidence_quote": "regulations 4 and 36 do not apply until 1 January 2024"
+    }
+  ]
+}

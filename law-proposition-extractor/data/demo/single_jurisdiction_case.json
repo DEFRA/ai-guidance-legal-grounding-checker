@@ -1,0 +1,36 @@
+{
+  "analysis_mode": "single_jurisdiction",
+  "topic": {
+    "name": "UK movement record duties",
+    "description": "Single-jurisdiction inventory of legal obligations for traceability.",
+    "subject_tags": ["demo", "single-jurisdiction", "records"]
+  },
+  "cluster": {
+    "name": "traceability",
+    "description": "Record retention and reporting duties."
+  },
+  "sources": [
+    {
+      "id": "src-uk-003",
+      "title": "UK movement controls (single jurisdiction extract)",
+      "jurisdiction": "UK",
+      "citation": "UK-EXAMPLE-003",
+      "kind": "retained-regulation",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-15",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "version_id": "uk-example-003@2026-04-15",
+      "fragment_locator": "regulation:14",
+      "review_status": "proposed",
+      "text": "Regulation 14. Keepers must maintain movement records for 5 years and submit a monthly compliance return by the 10th day of the following month. The appropriate authority may inspect records on request.",
+      "metadata": {
+        "cluster": "traceability"
+      }
+    }
+  ],
+  "narrative": {
+    "title": "Single-jurisdiction proposition inventory",
+    "summary": "This run inventories legal propositions for one jurisdiction and prepares them for review and cross-reference."
+  },
+  "run_notes": "Demo single-jurisdiction proposition inventory."
+}

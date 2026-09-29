@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #FFFFFF; }
+      .title { fill: #0F172A; font-size: 36px; font-weight: 700; }
+      .subtitle { fill: #475569; font-size: 18px; font-weight: 500; }
+      .footer { fill: #64748B; font-size: 14px; }
+      .panel { fill: #F8FAFC; stroke: #CBD5E1; stroke-width: 1; }
+      .panel-label { fill: #334155; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+      .pass-bg { fill: #ECFDF5; stroke: #059669; stroke-width: 2; }
+      .pass-title { fill: #064E3B; font-size: 20px; font-weight: 700; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .pass-body { fill: #065F46; font-size: 13px; }
+      .warn-bg { fill: #FFFBEB; stroke: #D97706; stroke-width: 2; }
+      .warn-title { fill: #78350F; font-size: 20px; font-weight: 700; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .warn-body { fill: #92400E; font-size: 13px; }
+      .fail-bg { fill: #FEF2F2; stroke: #DC2626; stroke-width: 2; }
+      .fail-title { fill: #7F1D1D; font-size: 20px; font-weight: 700; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .fail-body { fill: #991B1B; font-size: 13px; }
+      .means-bg { fill: #F0F9FF; stroke: #0369A1; stroke-width: 1.5; }
+      .not-bg { fill: #FEF2F2; stroke: #DC2626; stroke-width: 1.5; }
+      .means-title { fill: #0C4A6E; font-size: 18px; font-weight: 700; }
+      .means-body { fill: #075985; font-size: 14px; }
+      .not-title { fill: #7F1D1D; font-size: 18px; font-weight: 700; }
+      .not-body { fill: #991B1B; font-size: 14px; }
+      .check { fill: #059669; font-weight: 700; }
+      .cross { fill: #DC2626; font-weight: 700; }
+      .body-text { fill: #334155; font-size: 14px; }
+    ]]></style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+
+  <text class="title" x="60" y="60">What "run quality" means (and doesn't)</text>
+  <text class="subtitle" x="60" y="92">run_quality_summary.json is an artifact-integrity gate. It is not legal approval.</text>
+
+  <!-- Three statuses row -->
+  <rect class="pass-bg" x="60" y="130" width="490" height="200" rx="12" />
+  <text class="pass-title" x="80" y="170">pass</text>
+  <text class="pass-body" x="80" y="200">All quality gates satisfied with no warnings flagged.</text>
+  <text class="pass-body" x="80" y="225">Indicates artifact integrity and gate compliance, not</text>
+  <text class="pass-body" x="80" y="245">that propositions are legally correct.</text>
+  <text class="pass-body" x="80" y="280">Review may still be required by governance policy</text>
+  <text class="pass-body" x="80" y="300">before promotion to guidance-ready.</text>
+
+  <rect class="warn-bg" x="565" y="130" width="490" height="200" rx="12" />
+  <text class="warn-title" x="585" y="170">pass_with_warnings</text>
+  <text class="warn-body" x="585" y="200">Gates satisfied, but actionable warnings are present.</text>
+  <text class="warn-body" x="585" y="225">Expected during extraction/review work  -  should be</text>
+  <text class="warn-body" x="585" y="245">triaged, not ignored.</text>
+  <text class="warn-body" x="585" y="280">Common drivers: fallback usage, low-confidence traces,</text>
+  <text class="warn-body" x="585" y="300">context-window risks, scope-link noise.</text>
+
+  <rect class="fail-bg" x="1070" y="130" width="470" height="200" rx="12" />
+  <text class="fail-title" x="1090" y="170">fail</text>
+  <text class="fail-body" x="1090" y="200">One or more gates failed.</text>
+  <text class="fail-body" x="1090" y="225">Treat as a halt for downstream consumption.</text>
+  <text class="fail-body" x="1090" y="265">Drivers include validation_errors, fail-closed</text>
+  <text class="fail-body" x="1090" y="285">extraction failures, or critical lint breakages.</text>
+  <text class="fail-body" x="1090" y="305">Inspect proposition_extraction_failures.json.</text>
+
+  <!-- What lint pass means / doesn't -->
+  <rect class="means-bg" x="60" y="360" width="730" height="320" rx="12" />
+  <text class="means-title" x="80" y="395">What a lint pass means</text>
+
+  <text class="check" x="80" y="435">&#10003;</text>
+  <text class="means-body" x="105" y="435">All expected artifacts are present and well-formed.</text>
+
+  <text class="check" x="80" y="465">&#10003;</text>
+  <text class="means-body" x="105" y="465">Cross-references between artifacts are consistent.</text>
+
+  <text class="check" x="80" y="495">&#10003;</text>
+  <text class="means-body" x="105" y="495">Schemas validate; required fields are populated.</text>
+
+  <text class="check" x="80" y="525">&#10003;</text>
+  <text class="means-body" x="105" y="525">Operational gates (counts, ratios, repairable share) within thresholds.</text>
+
+  <text class="check" x="80" y="555">&#10003;</text>
+  <text class="means-body" x="105" y="555">Run is safe to inspect, hand off, and review.</text>
+
+  <text class="means-body" x="80" y="610">Inspect via:</text>
+  <text class="means-body" x="80" y="635">uv run --package judit-pipeline python -m judit_pipeline \</text>
+  <text class="means-body" x="80" y="655">  lint-export --export-dir dist/static-report</text>
+
+  <rect class="not-bg" x="810" y="360" width="730" height="320" rx="12" />
+  <text class="not-title" x="830" y="395">What a lint pass does not mean</text>
+
+  <text class="cross" x="830" y="435">&#10007;</text>
+  <text class="not-body" x="855" y="435">Propositions are legally correct or court-ready.</text>
+
+  <text class="cross" x="830" y="465">&#10007;</text>
+  <text class="not-body" x="855" y="465">Coverage of the legal area is complete.</text>
+
+  <text class="cross" x="830" y="495">&#10007;</text>
+  <text class="not-body" x="855" y="495">Promotion to guidance-ready is automatic.</text>
+
+  <text class="cross" x="830" y="525">&#10007;</text>
+  <text class="not-body" x="855" y="525">Fallback / repairable / low-confidence rows are accepted.</text>
+
+  <text class="cross" x="830" y="555">&#10007;</text>
+  <text class="not-body" x="855" y="555">Human legal review can be skipped.</text>
+
+  <text class="cross" x="830" y="585">&#10007;</text>
+  <text class="not-body" x="855" y="585">A model-assisted stage produced a deterministic answer.</text>
+
+  <text class="not-body" x="830" y="635">Decisions, overrides, and supersession are recorded in</text>
+  <text class="not-body" x="830" y="655">pipeline_review_decisions.json  -  that is the governance trail.</text>
+
+  <!-- Promotion path -->
+  <rect class="panel" x="60" y="710" width="1480" height="130" rx="12" />
+  <text class="panel-label" x="80" y="735">Promotion path</text>
+  <text class="body-text" x="80" y="765">run  &#8594;  quality pass / pass_with_warnings  &#8594;  reviewer decisions across layers (proposition, structured display, scope links, completeness)  &#8594; </text>
+  <text class="body-text" x="80" y="788">extraction confidence is high &#183; completeness not fragmentary &#183; no unresolved repairable failures  &#8594;  guidance-ready candidacy  &#8594; </text>
+  <text class="body-text" x="80" y="811">documented sign-off under operator/legal governance (not enforced globally by code).</text>
+
+  <text class="footer" x="60" y="880">Source of truth: docs/dev/quality-runs.md &#183; docs/dev/review-governance.md &#183; docs/dev/extraction-repair.md.</text>
+</svg>

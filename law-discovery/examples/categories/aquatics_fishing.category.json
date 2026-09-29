@@ -1,0 +1,46 @@
+{
+  "category_id": "aquatics_fishing",
+  "label": "Aquatic animals, aquaculture and fisheries traceability",
+  "description": "Fish, shellfish, crustacean, and aquatic species identification using stock records, vessel licensing, batch traceability, and aquaculture registration systems. Covers aquatic animal health, fisheries management, sustainability, environmental protection, and seafood trade controls.",
+  "synonyms": [
+    "fish",
+    "shellfish",
+    "crustacean",
+    "crustaceans",
+    "aquatic species",
+    "aquatic animal",
+    "aquatic animals",
+    "aquaculture",
+    "fish farm",
+    "fish farms",
+    "stock record",
+    "stock records",
+    "vessel licensing",
+    "batch traceability",
+    "aquaculture registration",
+    "aquatic animal health",
+    "fisheries management",
+    "seafood trade",
+    "sustainability",
+    "environmental protection"
+  ],
+  "exclusions": [
+    "recreational angling only",
+    "sport fishing tourism",
+    "aquarium hobby only",
+    "fish recipes"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland",
+    "Northern Ireland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "aquatics_fishing",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

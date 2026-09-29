@@ -1,0 +1,188 @@
+set dotenv-load := true
+
+default:
+    @just --list
+
+setup:
+    uv sync
+    npm install
+    npm --prefix apps/web install
+
+test:
+    uv run --all-packages pytest
+    just check-legacy-component-names
+    just check-explainability-docs
+    just check-structural-fixtures
+    just check-proposition-fidelity-benchmark
+
+# AC-8: reject unapproved personal component codenames / former slugs.
+check-legacy-component-names:
+    python ../scripts/check_legacy_component_names.py --root ..
+    python ../scripts/render_component_table.py --check
+
+# Offline Article 49a legal-structure acceptance (backend + mutations + frontend view-models).
+# No network, LLM, or secrets. See tests/fixtures/article_49a_legal_structure/README.md.
+test-acceptance-article-49a:
+    uv run --all-packages pytest tests/acceptance/test_article_49a_legal_structure.py tests/acceptance/test_article_49a_legal_structure_mutations.py -q
+    npm --prefix apps/web test -- lib/article-49a-acceptance.test.ts lib/article-49a-reference-contract.test.ts
+
+# Offline Article 49a relative-reference / trigger-card contract inspection.
+# Compares historical 7-prop export, current-code comparison export, frontend
+# acceptance bundle, and a freshly regenerated current-code run. No model calls.
+inspect-article-49a-reference-contract *args:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.article_49a_reference_contract_inspector {{args}}
+
+# Regenerate the committed current-code comparison export (does not overwrite historical).
+regenerate-article-49a-current-code-bundle:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.article_49a_reference_contract_inspector regenerate
+
+# Offline multi-instrument structural-source fidelity contract (hierarchy, headings,
+# operative-text boundaries). No network, LLM, Node, or D2.
+inspect-structural-fixtures:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.source_structure_inspector inspect-suite
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.source_structure_inspector generate-report
+
+check-structural-fixtures:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.source_structure_inspector check
+
+# Focused structural-source pytest suite (also covered by `just test`).
+test-structural-fixtures:
+    just check-structural-fixtures
+    uv run --all-packages pytest tests/unit/test_structural_source_fidelity.py tests/unit/test_structural_source_fidelity_mutations.py -q
+
+# Offline multi-instrument proposition-fidelity benchmark (Law Proposition Extractor-only; no network/LLM).
+run-proposition-fidelity-benchmark:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.proposition_fidelity run --write-baseline
+
+check-proposition-fidelity-benchmark:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.proposition_fidelity check
+
+test-proposition-fidelity:
+    just check-proposition-fidelity-benchmark
+    uv run --all-packages pytest tests/unit/test_proposition_fidelity_benchmark.py tests/unit/test_proposition_fidelity_mutations.py tests/unit/test_action_fidelity.py -q
+
+# Live frontier calibration against proposition-fidelity gold (requires network + credentials).
+# Not wired into `just test` / CI. Inspect/check are offline after artifacts exist.
+run-live-proposition-calibration:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.live_proposition_calibration run
+
+inspect-live-proposition-calibration run_id:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.live_proposition_calibration inspect {{run_id}}
+
+check-live-proposition-calibration run_id:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.live_proposition_calibration check {{run_id}}
+
+# Offline: replay saved Article 49a live responses through corrected deterministic stages.
+replay-live-article-49a-relationships run_id:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.live_proposition_calibration replay-article-49a {{run_id}}
+
+# Offline: replay saved UK regulation 12 live responses through dependent-qualification fix.
+replay-live-uk-regulation-12 run_id:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.live_proposition_calibration replay-uk-regulation-12 {{run_id}}
+
+# Offline: complete current-code recheck of all saved live-calibration responses.
+# Replays untouched raw responses through current deterministic code + corrected
+# proposition-fidelity evaluator. Writes current_code_recheck.json/.md only.
+# Does not modify historical calibration artifacts. No model/network calls.
+recheck-live-proposition-calibration run_id:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.live_proposition_calibration recheck {{run_id}}
+
+test-live-proposition-calibration:
+    uv run --all-packages pytest tests/unit/test_live_proposition_calibration.py tests/unit/test_article_49a_trigger_cue_replay.py tests/unit/test_uk_regulation_12_measurement_replay.py tests/unit/test_current_code_recheck.py -q
+
+# Explainability handbook: regenerate / check generated Markdown sections (offline, no LLM).
+# Also regenerates / checks the explainability D2→SVG diagram suite.
+generate-explainability-docs:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.explainability_docs generate
+
+check-explainability-docs:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.explainability_docs check
+
+# Explainability diagram suite only (D2 sources + committed SVGs; offline, no LLM).
+generate-explainability-diagrams:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.explainability_docs.diagrams generate
+
+check-explainability-diagrams:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.explainability_docs.diagrams check
+
+lint:
+    uv run --all-packages ruff check .
+    uv run --all-packages basedpyright --level error
+    just frontend-lint
+    npm run format:check
+
+format:
+    uv run --all-packages ruff format .
+    just frontend-format
+    npm run format
+
+frontend-lint:
+    npm --prefix apps/web run lint
+
+frontend-format:
+    npm --prefix apps/web run lint:fix
+    npm --prefix apps/web run format
+
+api:
+    uv run --package law-proposition-extractor-api uvicorn law_proposition_extractor_api.main:app --reload --host 127.0.0.1 --port 8010
+
+web:
+    npm --prefix apps/web run dev
+
+docs port="8001" host="127.0.0.1":
+    NO_MKDOCS_2_WARNING=true uv run mkdocs serve --dev-addr {{host}}:{{port}}
+
+build-docs:
+    NO_MKDOCS_2_WARNING=true uv run mkdocs build
+
+diagrams:
+    ./scripts/render_diagrams.sh
+
+decks:
+    ./scripts/render_decks.sh
+
+infographics:
+    ./scripts/render_infographics.sh
+
+infographic-context:
+    ./scripts/build_infographic_prompt_context.sh
+
+assets:
+    just diagrams
+    just infographics
+    just decks
+    just infographic-context
+
+all-docs-assets:
+    just assets
+    just build-docs
+
+docs-refresh:
+    just generate-explainability-docs
+    just assets
+    just build-docs
+
+litellm:
+    env -u DATABASE_URL uvx 'litellm[proxy]==1.83.14' --config config/litellm.yaml
+
+demo-export:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline.demo
+
+run-case case="data/demo/example_case.json":
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline run-case {{case}}
+
+export-case case="data/demo/example_case.json" out="dist/static-report":
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline export-case {{case}} --output-dir {{out}}
+
+# Equine corpus: merge family discovery, export bundle + equine_*_coverage artifacts (default heuristic; add flags for frontier/LLM)
+build-equine-corpus:
+    uv run --package law-proposition-extractor-pipeline python -m law_proposition_extractor_pipeline build-equine-corpus
+
+# Dev/demo: Article 109 equine pilot → OPERATIONS_EXPORT_DIR (default dist/static-report); prints Propositions URL
+run-art109-equine-pilot:
+    ./scripts/run-art109-equine-pilot.sh
+
+pre-demo:
+    just lint
+    just test
+    just docs-refresh

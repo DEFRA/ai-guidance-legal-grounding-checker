@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/pyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+  "typeCheckingMode": "recommended",
+  "venvPath": ".",
+  "venv": ".venv",
+  "reportMissingTypeStubs": false,
+  "reportImplicitRelativeImport": "error",
+  "reportUnusedImport": "warning",
+  "reportUnusedVariable": "warning",
+  "include": [
+    "apps/api/src",
+    "packages/domain/src",
+    "packages/exporters/src",
+    "packages/llm/src",
+    "packages/pipeline/src",
+    "packages/storage/src",
+    "tests"
+  ],
+  "exclude": [".venv", "node_modules", "site", "docs/assets/generated"],
+  "executionEnvironments": [
+    {
+      "root": "apps/api/src",
+      "extraPaths": [
+        "packages/domain/src",
+        "packages/exporters/src",
+        "packages/llm/src",
+        "packages/pipeline/src",
+        "packages/storage/src"
+      ]
+    },
+    {
+      "root": "tests",
+      "extraPaths": [
+        "apps/api/src",
+        "packages/domain/src",
+        "packages/exporters/src",
+        "packages/llm/src",
+        "packages/pipeline/src",
+        "packages/storage/src"
+      ]
+    }
+  ]
+}

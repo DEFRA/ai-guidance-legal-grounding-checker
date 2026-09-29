@@ -1,0 +1,44 @@
+{
+  "category_id": "animal_by_products",
+  "label": "Animal by-products traceability and controls",
+  "description": "Animal By-Products covers identification, tracking, transport documentation, batch traceability, processing records, and disposal controls for materials not intended for human consumption. Includes rendering, fallen stock, pet food manufacture, environmental protection, and disease transmission controls.",
+  "synonyms": [
+    "animal by-products",
+    "animal by products",
+    "ABP",
+    "ABPs",
+    "not intended for human consumption",
+    "fallen stock",
+    "rendering",
+    "pet food manufacture",
+    "transport documentation",
+    "commercial document",
+    "batch traceability",
+    "processing record",
+    "processing records",
+    "disposal controls",
+    "category 1 material",
+    "category 2 material",
+    "category 3 material",
+    "disease transmission",
+    "environmental protection"
+  ],
+  "exclusions": [
+    "human food product labelling only",
+    "restaurant waste only",
+    "pet food retail marketing only"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland",
+    "Northern Ireland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "animal_by_products",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

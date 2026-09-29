@@ -1,0 +1,47 @@
+{
+  "case_id": "compound_rule_exception_shared",
+  "expected_propositions": [
+    {
+      "role": "slurry-storage-proximity-prohibition",
+      "source_locator": "regulation:synthetic:paragraph:1",
+      "short_legal_description": "Person must not store slurry within 10 metres of a watercourse.",
+      "legal_effect_type": "prohibition",
+      "required_actor": "person",
+      "required_action": "must not store",
+      "object": "slurry",
+      "thresholds": ["10 metres"],
+      "exceptions": ["unless the storage is covered"],
+      "evidence_markers": ["must not store slurry within 10 metres"],
+      "expected_completeness": "complete",
+      "may_share_source_fragment_with": [
+        "covered-storage-exception",
+        "risk-assessment-condition"
+      ]
+    },
+    {
+      "role": "covered-storage-exception",
+      "source_locator": "regulation:synthetic:paragraph:2",
+      "short_legal_description": "Proximity prohibition does not apply where storage is covered and a risk assessment is kept.",
+      "legal_effect_type": "derogation",
+      "required_action": "does not apply",
+      "object": "prohibition",
+      "conditions": ["storage is covered", "written risk assessment"],
+      "exceptions": ["does not apply"],
+      "evidence_markers": ["does not apply"],
+      "expected_completeness": "complete"
+    },
+    {
+      "role": "risk-assessment-condition",
+      "source_locator": "regulation:synthetic:paragraph:1",
+      "short_legal_description": "Exception requires the person keeps a written risk assessment.",
+      "legal_effect_type": "unknown",
+      "required_actor": "person",
+      "required_action": "keeps a written risk assessment",
+      "object": "written risk assessment",
+      "conditions": ["storage is covered"],
+      "evidence_markers": ["keeps a written risk assessment"],
+      "expected_completeness": "context_dependent",
+      "completeness_severity": "warning"
+    }
+  ]
+}

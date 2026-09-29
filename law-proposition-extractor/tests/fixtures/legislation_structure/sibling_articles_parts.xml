@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Legislation DocumentURI="http://www.legislation.gov.uk/eur/2009/1224"
+             IdURI="http://www.legislation.gov.uk/id/eur/2009/1224"
+             SchemaVersion="2.0">
+  <Title>Council Regulation (EC) No 1224/2009</Title>
+  <EURetained>
+    <EUBody>
+      <Part id="part-1" DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/part/1">
+        <Title>Part 1 General provisions</Title>
+        <P1group>
+          <P1 id="article-1"
+              DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/1">
+            <Pnumber>Article 1</Pnumber>
+            <P1para>
+              <Text>This Regulation establishes a control system.</Text>
+              <P2 id="article-1-1"
+                  DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/1/1">
+                <Pnumber>1</Pnumber>
+                <P2para>
+                  <Text>Article 1 paragraph 1 applies to fishing vessels.</Text>
+                </P2para>
+              </P2>
+            </P1para>
+          </P1>
+        </P1group>
+        <P1group>
+          <P1 id="article-2"
+              DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/2">
+            <Pnumber>Article 2</Pnumber>
+            <P1para>
+              <Text>Article 2 defines terms for the purposes of this Regulation.</Text>
+            </P1para>
+          </P1>
+        </P1group>
+      </Part>
+      <Part id="part-4" DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/part/4">
+        <Title>Part 4 Control of fleets</Title>
+        <Chapter id="chapter-2" DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/part/4/chapter/2">
+          <Title>Chapter 2 Stowage</Title>
+          <P1group>
+            <P1 id="article-49a"
+                DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a">
+              <Pnumber>Article 49a</Pnumber>
+              <P1para>
+                <Text>Separate stowage of catches below the minimum conservation reference sizes.</Text>
+                <P2 id="article-49a-1"
+                    DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a/1">
+                  <Pnumber>1</Pnumber>
+                  <P2para>
+                    <Text>All catches below the applicable minimum conservation reference size shall be placed in boxes.</Text>
+                  </P2para>
+                </P2>
+                <P2 id="article-49a-2"
+                    DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a/2">
+                  <Pnumber>2</Pnumber>
+                  <P2para>
+                    <Text>Paragraph 1 shall not apply where catches contain more than 80% of listed species.</Text>
+                    <P3 id="article-49a-2-a">
+                      <Pnumber>a</Pnumber>
+                      <P3para>
+                        <Text>small pelagic species listed in Annex I.</Text>
+                      </P3para>
+                    </P3>
+                  </P2para>
+                </P2>
+                <P2 id="article-49a-3"
+                    DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a/3">
+                  <Pnumber>3</Pnumber>
+                  <P2para>
+                    <Text>In the cases referred to in paragraph 2, a fisheries administration must monitor catch composition.</Text>
+                  </P2para>
+                </P2>
+              </P1para>
+            </P1>
+          </P1group>
+          <P1group>
+            <P1 id="article-50"
+                DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/50">
+              <Pnumber>Article 50</Pnumber>
+              <P1para>
+                <Text>Article 50 concerns transport of fishery products.</Text>
+              </P1para>
+            </P1>
+          </P1group>
+        </Chapter>
+      </Part>
+    </EUBody>
+  </EURetained>
+</Legislation>

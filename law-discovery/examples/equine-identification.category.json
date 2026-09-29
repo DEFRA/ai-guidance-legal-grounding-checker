@@ -1,0 +1,25 @@
+{
+  "category_id": "equine_identification",
+  "label": "Equine identification and traceability",
+  "description": "Rules about horse, equine or equid identification, passports, microchips, keeper duties, databases, movement records and registration.",
+  "synonyms": [
+    "equine",
+    "equidae",
+    "equid",
+    "horse",
+    "horse passport",
+    "identification document",
+    "microchip",
+    "keeper",
+    "traceability"
+  ],
+  "exclusions": [
+    "horse racing betting",
+    "tourism"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England"
+  ]
+}

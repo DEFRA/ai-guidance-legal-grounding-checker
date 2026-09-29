@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- No usable manifestation metadata (legacy simplified fixture shape). -->
+<Legislation DocumentURI="http://www.legislation.gov.uk/eur/2009/1224">
+  <Title>Council Regulation (EC) No 1224/2009</Title>
+  <Body id="body">
+    <P1 id="article-49a">
+      <Pnumber>49a</Pnumber>
+      <P1para>
+        <Text>Catches below the applicable minimum conservation reference size.</Text>
+      </P1para>
+    </P1>
+  </Body>
+</Legislation>

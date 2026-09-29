@@ -1,0 +1,93 @@
+[
+  {
+    "id": "src-eur-2009-1224",
+    "title": "Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy",
+    "jurisdiction": "United Kingdom",
+    "citation": "EUR 2009/1224",
+    "kind": "assimilated_eu_law",
+    "authoritative_text": "TITLE I\nArticle 1. This Regulation establishes a ... system for control, inspection and enforcement ... to ensure compliance with Fisheries Rules.\nTITLE IV\nArticle 14. Without prejudice to specific provisions, the master of each United Kingdom fishing vessel shall keep a fishing logbook of operations (Article 14).\nArticle 49a. (1) All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers. Those catches shall not be mixed with any other fishery products. (2) Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes); (b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation. (3) In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.\n(1) All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers. Those catches shall not be mixed with any other fishery products.\n(2) Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes); (b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.\n(a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes);\n(b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.\n(3) In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+    "authoritative_locator": "title:i",
+    "status": "working",
+    "review_status": "accepted",
+    "provenance": "acceptance.article_49a",
+    "as_of_date": null,
+    "retrieved_at": "2026-07-14T21:22:45.133803Z",
+    "content_hash": "8580c04e2ca3b3ea0562bc9daf8174040872eb0ab57cb2145fdc84101860778b",
+    "version_id": "v1",
+    "current_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "authority": "legislation_gov_uk",
+      "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/49a-acc2-8zkijnyp/source/470b63e825ec88dc25fd47637baa89124f29d46ba538edc2bd722805dd286eb4.json",
+      "parser_name": "legislation_gov_uk_data_xml_v1",
+      "parser_version": "v1",
+      "parsed_at": "2026-07-14T21:22:45.134706Z"
+    }
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "query": "Slurry, manure, and agricultural effluent management Slurry, manure, and agricultural effluent management covering storage, spreading, and disposal of livestock waste including pig slurry, poultry manure, farmyard manure (FYM), liquid manure, silage effluent, and digestate. Covers storage infrastructure requirements such as slurry tanks, lagoons, slurry stores, reception pits, lined lagoons, freeboard, structural integrity, and secondary containment. Includes land application controls covering application rates, buffer zones, closed periods, and muck spreading. Covers environmental protection requirements including ammonia emissions, runoff prevention.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Slurry, manure, and agricultural effluent management",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "slurry",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurry"
+  },
+  {
+    "query": "slurries",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurries"
+  },
+  {
+    "query": "manure",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: manure"
+  },
+  {
+    "query": "livestock manure",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: livestock manure"
+  },
+  {
+    "query": "farmyard manure",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: farmyard manure"
+  },
+  {
+    "query": "FYM",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: FYM"
+  },
+  {
+    "query": "pig slurry",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pig slurry"
+  },
+  {
+    "query": "poultry manure",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: poultry manure"
+  },
+  {
+    "query": "liquid manure",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: liquid manure"
+  },
+  {
+    "query": "agricultural effluent",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: agricultural effluent"
+  },
+  {
+    "query": "farm effluent",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: farm effluent"
+  },
+  {
+    "query": "silage effluent",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: silage effluent"
+  },
+  {
+    "query": "digestate",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: digestate"
+  },
+  {
+    "query": "anaerobic digestate",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: anaerobic digestate"
+  },
+  {
+    "query": "livestock waste",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: livestock waste"
+  },
+  {
+    "query": "organic manure",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: organic manure"
+  },
+  {
+    "query": "organic fertiliser",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: organic fertiliser"
+  },
+  {
+    "query": "slurry storage",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurry storage"
+  },
+  {
+    "query": "slurry store",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurry store"
+  },
+  {
+    "query": "slurry stores",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurry stores"
+  },
+  {
+    "query": "slurry tank",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurry tank"
+  },
+  {
+    "query": "slurry tanks",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurry tanks"
+  },
+  {
+    "query": "slurry lagoon",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurry lagoon"
+  },
+  {
+    "query": "slurry lagoons",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurry lagoons"
+  },
+  {
+    "query": "lined lagoon",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: lined lagoon"
+  },
+  {
+    "query": "lined lagoons",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: lined lagoons"
+  },
+  {
+    "query": "reception pit",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: reception pit"
+  },
+  {
+    "query": "reception pits",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: reception pits"
+  },
+  {
+    "query": "freeboard",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: freeboard"
+  },
+  {
+    "query": "secondary containment",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: secondary containment"
+  },
+  {
+    "query": "structural integrity",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: structural integrity"
+  },
+  {
+    "query": "muck spreading",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: muck spreading"
+  },
+  {
+    "query": "manure spreading",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: manure spreading"
+  },
+  {
+    "query": "slurry spreading",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: slurry spreading"
+  },
+  {
+    "query": "land application",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: land application"
+  },
+  {
+    "query": "application rate",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: application rate"
+  },
+  {
+    "query": "application rates",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: application rates"
+  },
+  {
+    "query": "closed period",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: closed period"
+  },
+  {
+    "query": "closed periods",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: closed periods"
+  },
+  {
+    "query": "buffer zone",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: buffer zone"
+  },
+  {
+    "query": "buffer zones",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: buffer zones"
+  },
+  {
+    "query": "runoff prevention",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: runoff prevention"
+  },
+  {
+    "query": "agricultural runoff",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: agricultural runoff"
+  },
+  {
+    "query": "ammonia emissions",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ammonia emissions"
+  },
+  {
+    "query": "nitrate vulnerable zone",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: nitrate vulnerable zone"
+  },
+  {
+    "query": "NVZ",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: NVZ"
+  },
+  {
+    "query": "water pollution",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: water pollution"
+  },
+  {
+    "query": "controlled waters",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: controlled waters"
+  },
+  {
+    "query": "groundwater protection",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: groundwater protection"
+  },
+  {
+    "query": "Slurry, manure, and agricultural effluent management UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Slurry, manure, and agricultural effluent management Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Slurry, manure, and agricultural effluent management England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Slurry, manure, and agricultural effluent management Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Slurry, manure, and agricultural effluent management Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Slurry, manure, and agricultural effluent management Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "slurry regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): slurry"
+  },
+  {
+    "query": "slurry order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): slurry"
+  },
+  {
+    "query": "slurry act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): slurry"
+  },
+  {
+    "query": "slurries regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): slurries"
+  },
+  {
+    "query": "slurries order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): slurries"
+  },
+  {
+    "query": "slurries act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): slurries"
+  },
+  {
+    "query": "manure regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): manure"
+  },
+  {
+    "query": "manure order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): manure"
+  },
+  {
+    "query": "manure act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): manure"
+  }
+]

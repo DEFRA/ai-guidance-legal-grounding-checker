@@ -1,0 +1,114 @@
+direction: down
+
+classes: {
+  tier: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#CBD5E1"
+      stroke-width: 1
+      border-radius: 12
+    }
+  }
+  boundary: {
+    style: {
+      fill: "#EFF6FF"
+      stroke: "#2563EB"
+      border-radius: 8
+    }
+  }
+  runtime: {
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#4338CA"
+      stroke-width: 2
+      border-radius: 8
+    }
+  }
+  state: {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#64748B"
+      border-radius: 8
+    }
+  }
+  routing: {
+    style: {
+      fill: "#F5F3FF"
+      stroke: "#7C3AED"
+      border-radius: 8
+    }
+  }
+}
+
+product_surfaces: {
+  label: "Product surfaces"
+  class: tier
+  direction: right
+
+  analysis_workbench: "Analysis workbench (/)"
+  analysis_workbench.class: boundary
+
+  operations_registry_surface: "Operations / registry surface (/ops)"
+  operations_registry_surface.class: boundary
+}
+
+application_core: {
+  label: "Application core"
+  class: tier
+  direction: right
+
+  fastapi_api: "FastAPI API"
+  fastapi_api.class: runtime
+
+  source_registry: "Source registry"
+  source_registry.class: state
+
+  pipeline_runner: "Pipeline runner"
+  pipeline_runner.class: runtime
+}
+
+state_and_artifacts: {
+  label: "State, caches, and artifacts"
+  class: tier
+  direction: right
+
+  source_cache: "Source cache"
+  source_cache.class: state
+
+  derived_artifact_cache: "Derived-artifact cache"
+  derived_artifact_cache.class: state
+
+  run_artifacts: "Run artifacts / traces / export bundle"
+  run_artifacts.class: state
+}
+
+model_routing: {
+  label: "Model routing"
+  class: tier
+  direction: right
+
+  litellm: "LiteLLM"
+  litellm.class: routing
+
+  local_models: "Local models"
+  local_models.class: routing
+
+  frontier_models: "Cloud frontier models"
+  frontier_models.class: routing
+}
+
+product_surfaces.analysis_workbench -> application_core.fastapi_api: "analysis reads"
+product_surfaces.operations_registry_surface -> application_core.fastapi_api: "ops and registry inspection"
+
+application_core.fastapi_api -> application_core.source_registry: "registry read/write"
+application_core.fastapi_api -> application_core.pipeline_runner: "run trigger and status"
+application_core.fastapi_api -> state_and_artifacts.run_artifacts: "read-only inspection endpoints"
+
+application_core.pipeline_runner -> application_core.source_registry: "resolve source references"
+application_core.pipeline_runner -> state_and_artifacts.source_cache: "cache source material"
+application_core.pipeline_runner -> state_and_artifacts.derived_artifact_cache: "cache derived artifacts"
+application_core.pipeline_runner -> state_and_artifacts.run_artifacts: "persist manifests, traces, export bundle"
+application_core.pipeline_runner -> model_routing.litellm: "model calls"
+
+model_routing.litellm -> model_routing.local_models: "route by policy"
+model_routing.litellm -> model_routing.frontier_models: "route by policy"

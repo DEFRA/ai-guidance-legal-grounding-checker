@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #FFFFFF; }
+      .title { fill: #0F172A; font-size: 36px; font-weight: 700; }
+      .subtitle { fill: #475569; font-size: 18px; font-weight: 500; }
+      .footer { fill: #64748B; font-size: 14px; }
+      .panel { fill: #F8FAFC; stroke: #CBD5E1; stroke-width: 1; }
+      .panel-label { fill: #334155; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+      .mode-bg { fill: #EEF2FF; stroke: #4338CA; stroke-width: 2; }
+      .mode-title { fill: #1E1B4B; font-size: 22px; font-weight: 700; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .mode-tag { fill: #4338CA; font-size: 13px; font-weight: 600; }
+      .mode-body { fill: #312E81; font-size: 14px; }
+      .bullet { fill: #6366F1; }
+      .audit-bg { fill: #F5F3FF; stroke: #7C3AED; stroke-width: 2; }
+      .audit-title { fill: #4C1D95; font-size: 16px; font-weight: 700; }
+      .audit-body { fill: #5B21B6; font-size: 13px; }
+      .audit-mono { fill: #4C1D95; font-size: 13px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .note-bg { fill: #FFFBEB; stroke: #D97706; stroke-width: 1; }
+      .note-text { fill: #78350F; font-size: 13px; font-weight: 500; }
+      .arrow { stroke: #7C3AED; stroke-width: 2; fill: none; }
+    ]]></style>
+    <marker id="arrowhead-p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7C3AED" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+
+  <text class="title" x="60" y="60">Fragment selection modes</text>
+  <text class="subtitle" x="60" y="92">Three policies trade reviewability, exploration, and cost. Every selection is auditable.</text>
+
+  <!-- required_only -->
+  <rect class="mode-bg" x="60" y="130" width="470" height="380" rx="12" />
+  <text class="mode-title" x="80" y="170">required_only</text>
+  <text class="mode-tag" x="80" y="192">Reviewable / staged profiles</text>
+
+  <circle class="bullet" cx="92" cy="225" r="4" />
+  <text class="mode-body" x="108" y="230">Only fragments matching</text>
+  <text class="mode-body" x="108" y="250">`required_fragment_locators` run.</text>
+
+  <circle class="bullet" cx="92" cy="285" r="4" />
+  <text class="mode-body" x="108" y="290">Explicit annex inclusion only;</text>
+  <text class="mode-body" x="108" y="310">no focus-term auto-selection.</text>
+
+  <circle class="bullet" cx="92" cy="345" r="4" />
+  <text class="mode-body" x="108" y="350">Best for staged reviewable</text>
+  <text class="mode-body" x="108" y="370">profiles where each fragment</text>
+  <text class="mode-body" x="108" y="390">must be triable by a reviewer.</text>
+
+  <circle class="bullet" cx="92" cy="425" r="4" />
+  <text class="mode-body" x="108" y="430">Lowest cost / noise.</text>
+  <text class="mode-body" x="108" y="450">Tight scope  -  confirms what</text>
+  <text class="mode-body" x="108" y="470">was deliberately registered.</text>
+
+  <!-- required_plus_focus -->
+  <rect class="mode-bg" x="565" y="130" width="470" height="380" rx="12" />
+  <text class="mode-title" x="585" y="170">required_plus_focus</text>
+  <text class="mode-tag" x="585" y="192">Exploratory profile</text>
+
+  <circle class="bullet" cx="597" cy="225" r="4" />
+  <text class="mode-body" x="613" y="230">Required locators always run.</text>
+
+  <circle class="bullet" cx="597" cy="285" r="4" />
+  <text class="mode-body" x="613" y="290">Adds fragments whose text</text>
+  <text class="mode-body" x="613" y="310">matches configured focus terms</text>
+  <text class="mode-body" x="613" y="330">(e.g., scope keywords).</text>
+
+  <circle class="bullet" cx="597" cy="365" r="4" />
+  <text class="mode-body" x="613" y="370">Broader exploratory coverage</text>
+  <text class="mode-body" x="613" y="390">without going wide on every</text>
+  <text class="mode-body" x="613" y="410">match in the corpus.</text>
+
+  <circle class="bullet" cx="597" cy="445" r="4" />
+  <text class="mode-body" x="613" y="450">Moderate cost / noise; useful</text>
+  <text class="mode-body" x="613" y="470">when extending a staged profile.</text>
+
+  <!-- all_matching -->
+  <rect class="mode-bg" x="1070" y="130" width="470" height="380" rx="12" />
+  <text class="mode-title" x="1090" y="170">all_matching</text>
+  <text class="mode-tag" x="1090" y="192">Broad / exploratory</text>
+
+  <circle class="bullet" cx="1102" cy="225" r="4" />
+  <text class="mode-body" x="1118" y="230">Broad matching  -  close to the</text>
+  <text class="mode-body" x="1118" y="250">historical default behaviour.</text>
+
+  <circle class="bullet" cx="1102" cy="285" r="4" />
+  <text class="mode-body" x="1118" y="290">Useful for early exploration of</text>
+  <text class="mode-body" x="1118" y="310">an unknown corpus or sweep runs.</text>
+
+  <circle class="bullet" cx="1102" cy="345" r="4" />
+  <text class="mode-body" x="1118" y="350">Highest cost / noise risk.</text>
+  <text class="mode-body" x="1118" y="370">Pair with strong quality gates</text>
+  <text class="mode-body" x="1118" y="390">and triage budget.</text>
+
+  <circle class="bullet" cx="1102" cy="425" r="4" />
+  <text class="mode-body" x="1118" y="430">Not recommended as the default</text>
+  <text class="mode-body" x="1118" y="450">for staged reviewable profiles.</text>
+
+  <!-- Audit output -->
+  <rect class="audit-bg" x="60" y="540" width="1480" height="200" rx="12" />
+  <text class="audit-title" x="80" y="575">Selection audit (always written to proposition_extraction_jobs.json)</text>
+
+  <text class="audit-mono" x="80" y="615">selected_for_extraction</text>
+  <text class="audit-body" x="80" y="635">Whether the fragment was actually selected to run extraction.</text>
+
+  <text class="audit-mono" x="80" y="675">selection_reason</text>
+  <text class="audit-body" x="80" y="695">Why the fragment was chosen (required, focus match, broad match, etc.).</text>
+
+  <text class="audit-mono" x="540" y="615">skip_reason</text>
+  <text class="audit-body" x="540" y="635">Why a candidate fragment was skipped under the active policy.</text>
+
+  <text class="audit-mono" x="540" y="675">extraction_mode &amp; model_alias</text>
+  <text class="audit-body" x="540" y="695">heuristic / local / frontier mode and the model alias used when applicable.</text>
+
+  <text class="audit-mono" x="1020" y="615">estimated_input_tokens</text>
+  <text class="audit-body" x="1020" y="635">Conservative chunk size estimate used for context-window safety.</text>
+
+  <text class="audit-mono" x="1020" y="675">repairable, repair_reason</text>
+  <text class="audit-body" x="1020" y="695">Marks rows eligible for the repair workflow (not legal acceptance).</text>
+
+  <!-- Notes -->
+  <rect class="note-bg" x="60" y="770" width="1480" height="60" rx="8" />
+  <text class="note-text" x="80" y="795">Selection controls cost, noise, and reviewability. Audit fields make every run inspectable, regardless of mode.</text>
+  <text class="note-text" x="80" y="815">Lint pass on a run means artifact integrity / quality-gate pass, not legal approval of the selected fragments.</text>
+
+  <text class="footer" x="60" y="870">Source of truth: docs/dev/fragment-selection-and-corpus-profiles.md &#183; Diagram: docs/assets/generated/diagrams/fragment-selection-modes.svg.</text>
+</svg>

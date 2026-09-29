@@ -1,0 +1,18 @@
+{
+  "case_id": "uk_regulation_12_spread",
+  "expected_propositions": [
+    {
+      "role": "organic-manure-spread-prohibition",
+      "source_locator": "regulation:12",
+      "short_legal_description": "Occupier must not spread organic manure within 10 metres of surface water.",
+      "legal_effect_type": "prohibition",
+      "required_actor": "occupier",
+      "required_action": "must not spread",
+      "object": "organic manure",
+      "conditions": [],
+      "thresholds": ["10 metres"],
+      "evidence_markers": ["must not spread organic manure within 10 metres"],
+      "expected_completeness": "complete"
+    }
+  ]
+}

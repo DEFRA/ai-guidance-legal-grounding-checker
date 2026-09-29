@@ -1,0 +1,926 @@
+[
+  {
+    "id": "frag-src-eur-2009-1224-001",
+    "fragment_id": "frag-src-eur-2009-1224-001",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "title",
+    "locator": "title:i",
+    "fragment_text": "TITLE I",
+    "fragment_hash": "a5c6d1159f564ddd17e54d558204b528884a15278980ddabf3629222f0ce3a59",
+    "text_hash": "a5c6d1159f564ddd17e54d558204b528884a15278980ddabf3629222f0ce3a59",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": null,
+    "order_index": 0,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "title/i",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/title/i",
+      "fragment_kind": "title",
+      "possible_target_citation": null,
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  },
+  {
+    "id": "frag-src-eur-2009-1224-002",
+    "fragment_id": "frag-src-eur-2009-1224-002",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "article",
+    "locator": "article:1",
+    "fragment_text": "Article 1. This Regulation establishes a ... system for control, inspection and enforcement ... to ensure compliance with Fisheries Rules.",
+    "fragment_hash": "f598cd2c785197067481ccd4f4cd76e6819af6d84caa95620b868e2aea82a928",
+    "text_hash": "f598cd2c785197067481ccd4f4cd76e6819af6d84caa95620b868e2aea82a928",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": "frag-src-eur-2009-1224-001",
+    "order_index": 1,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [
+      "sourceeffect:3873e92c2c94a084",
+      "sourceeffect:de7b79ba858e6c53"
+    ],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "article/1",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/article/1",
+      "fragment_kind": "amendment_provision",
+      "possible_target_citation": "article:1",
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  },
+  {
+    "id": "frag-src-eur-2009-1224-003",
+    "fragment_id": "frag-src-eur-2009-1224-003",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "title",
+    "locator": "title:iv",
+    "fragment_text": "TITLE IV",
+    "fragment_hash": "d7347e37e7f606d3076634d223fc982b4171a500e2a185610102a12fa24dbf47",
+    "text_hash": "d7347e37e7f606d3076634d223fc982b4171a500e2a185610102a12fa24dbf47",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": null,
+    "order_index": 2,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "title/iv",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/title/iv",
+      "fragment_kind": "title",
+      "possible_target_citation": null,
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  },
+  {
+    "id": "frag-src-eur-2009-1224-004",
+    "fragment_id": "frag-src-eur-2009-1224-004",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "article",
+    "locator": "article:14",
+    "fragment_text": "Article 14. Without prejudice to specific provisions, the master of each United Kingdom fishing vessel shall keep a fishing logbook of operations (Article 14).",
+    "fragment_hash": "e6c9546ff146b95214dc0175ca77d230b6a7bf6920793e7b679692ea3991ee84",
+    "text_hash": "e6c9546ff146b95214dc0175ca77d230b6a7bf6920793e7b679692ea3991ee84",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": "frag-src-eur-2009-1224-003",
+    "order_index": 3,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "article/14",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/article/14",
+      "fragment_kind": "operative_provision",
+      "possible_target_citation": "article:14",
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  },
+  {
+    "id": "frag-src-eur-2009-1224-005",
+    "fragment_id": "frag-src-eur-2009-1224-005",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "article",
+    "locator": "article:49a",
+    "fragment_text": "Article 49a. (1) All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers. Those catches shall not be mixed with any other fishery products. (2) Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes); (b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation. (3) In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+    "fragment_hash": "30db460960a58be0ab6841dbe785b25ffd4bfbaea18e6789032bc642c68587db",
+    "text_hash": "30db460960a58be0ab6841dbe785b25ffd4bfbaea18e6789032bc642c68587db",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": "frag-src-eur-2009-1224-003",
+    "order_index": 4,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [
+      "sourceeffect:b5d33367edba15ad"
+    ],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "article/49a",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/article/49a",
+      "fragment_kind": "amendment_provision",
+      "possible_target_citation": "article:49a",
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  },
+  {
+    "id": "frag-src-eur-2009-1224-006",
+    "fragment_id": "frag-src-eur-2009-1224-006",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "article",
+    "locator": "article:49a:paragraph:1",
+    "fragment_text": "(1) All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers. Those catches shall not be mixed with any other fishery products.",
+    "fragment_hash": "85d485f5ff179fb4f29ea53471dbe22967f7f74541c1c464c10013efde398ab7",
+    "text_hash": "85d485f5ff179fb4f29ea53471dbe22967f7f74541c1c464c10013efde398ab7",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": "frag-src-eur-2009-1224-005",
+    "order_index": 5,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [
+      "sourceeffect:41ea03b9ab623c36",
+      "sourceeffect:b5d33367edba15ad"
+    ],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "article/49a/paragraph/1",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/article/49a/paragraph/1",
+      "fragment_kind": "operative_provision",
+      "possible_target_citation": null,
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  },
+  {
+    "id": "frag-src-eur-2009-1224-007",
+    "fragment_id": "frag-src-eur-2009-1224-007",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "article",
+    "locator": "article:49a:paragraph:2",
+    "fragment_text": "(2) Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes); (b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+    "fragment_hash": "f3f48488131b1f8252da5c58ce9442a3b164f19f7577dfc35ad28640862b00b5",
+    "text_hash": "f3f48488131b1f8252da5c58ce9442a3b164f19f7577dfc35ad28640862b00b5",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": "frag-src-eur-2009-1224-005",
+    "order_index": 6,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [
+      "sourceeffect:5c99b84e6cb59ef4",
+      "sourceeffect:b5d33367edba15ad"
+    ],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "article/49a/paragraph/2",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/article/49a/paragraph/2",
+      "fragment_kind": "amendment_provision",
+      "possible_target_citation": "article:14",
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  },
+  {
+    "id": "frag-src-eur-2009-1224-008",
+    "fragment_id": "frag-src-eur-2009-1224-008",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "article",
+    "locator": "article:49a:paragraph:2:subparagraph:a",
+    "fragment_text": "(a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes);",
+    "fragment_hash": "7a9a1d4d6f4dce502757d0430370efd011ae8bec03ac2780fa72485d679e2495",
+    "text_hash": "7a9a1d4d6f4dce502757d0430370efd011ae8bec03ac2780fa72485d679e2495",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": "frag-src-eur-2009-1224-007",
+    "order_index": 7,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "article/49a/paragraph/2/subparagraph/a",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/article/49a/paragraph/2/subparagraph/a",
+      "fragment_kind": "amendment_provision",
+      "possible_target_citation": null,
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  },
+  {
+    "id": "frag-src-eur-2009-1224-009",
+    "fragment_id": "frag-src-eur-2009-1224-009",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "article",
+    "locator": "article:49a:paragraph:2:subparagraph:b",
+    "fragment_text": "(b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+    "fragment_hash": "9ab3f55dca60466699494db895924a64fe139bb6ac214e232df76de03fd24aaa",
+    "text_hash": "9ab3f55dca60466699494db895924a64fe139bb6ac214e232df76de03fd24aaa",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": "frag-src-eur-2009-1224-007",
+    "order_index": 8,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "article/49a/paragraph/2/subparagraph/b",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/article/49a/paragraph/2/subparagraph/b",
+      "fragment_kind": "unknown",
+      "possible_target_citation": "article:14",
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  },
+  {
+    "id": "frag-src-eur-2009-1224-010",
+    "fragment_id": "frag-src-eur-2009-1224-010",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "fragment_type": "article",
+    "locator": "article:49a:paragraph:3",
+    "fragment_text": "(3) In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+    "fragment_hash": "93a1192d20abee32adabf134c00909b7882615aa19d1b482794120e652c694f2",
+    "text_hash": "93a1192d20abee32adabf134c00909b7882615aa19d1b482794120e652c694f2",
+    "char_start": null,
+    "char_end": null,
+    "parent_fragment_id": "frag-src-eur-2009-1224-005",
+    "order_index": 9,
+    "review_status": "accepted",
+    "source_legal_effect_ids": [
+      "sourceeffect:b5d33367edba15ad",
+      "sourceeffect:b9b4a3a67487dd6e"
+    ],
+    "metadata": {
+      "acceptance_audit": "prompt-18-br1-qualified",
+      "target_article": "49a",
+      "authority_source_id": "eur/2009/1224",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "series": "eur",
+      "http_meta": {
+        "status": 200,
+        "content_type": "application/xml",
+        "response_bytes": 74511
+      },
+      "extracted_chunk_count": 10,
+      "structural_fragment_count": 10,
+      "locator_scoped_chunk_count": 19,
+      "operative_chunk_count": 19,
+      "manifestation": {
+        "type": "revised",
+        "basis": "source_metadata",
+        "requested_manifestation": null,
+        "resolved_manifestation": "revised",
+        "requested_as_of_date": null,
+        "resolved_as_of_date": null,
+        "source_revision_date": "2025-02-27",
+        "requested_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "resolved_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+        "evidence": [
+          {
+            "kind": "source_metadata",
+            "field": "Legislation/@RestrictStartDate",
+            "value": "2025-02-27",
+            "source_location": "CLML root attribute"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentStatus",
+            "value": "revised",
+            "source_location": "ukm:DocumentStatus/@Value"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dct:valid",
+            "value": "2025-02-27",
+            "source_location": "CLML Metadata/valid"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:modified",
+            "value": "2025-04-04",
+            "source_location": "CLML Metadata/modified"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "dc:identifier",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "CLML Metadata/identifier"
+          },
+          {
+            "kind": "source_metadata",
+            "field": "DocumentURI",
+            "value": "http://www.legislation.gov.uk/eur/2009/1224",
+            "source_location": "Legislation/@DocumentURI"
+          }
+        ],
+        "conflicts": []
+      },
+      "source_path": "article/49a/paragraph/3",
+      "legislation_uri": "http://www.legislation.gov.uk/eur/2009/1224/article/49a/paragraph/3",
+      "fragment_kind": "operative_provision",
+      "possible_target_citation": null,
+      "fragmentation_strategy": "legislation_structural",
+      "fragmentation_parent_fragment_id": "frag-src-eur-2009-1224-001"
+    }
+  }
+]

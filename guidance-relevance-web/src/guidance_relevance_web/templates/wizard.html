@@ -1,0 +1,408 @@
+{% extends "base.html" %}
+{% block title %}{% if job %}{{ job.title }} — Run {{ job.run_at }}{% else %}Create New Category{% endif %} — Guidance Relevance Filter{% endblock %}
+{% block body %}
+{% set form = form|default({}) %}
+{% set orgs = form.organisations|default([]) %}
+{% set types = form.document_types|default([]) %}
+{% if job %}
+<h1 class="govuk-heading-xl govuk-!-margin-bottom-2">{{ job.title }} — Run {{ job.run_at }}</h1>
+<p class="govuk-caption-m">Job {{ job.id }}</p>
+{% else %}
+<h1 class="govuk-heading-xl">Create New Category</h1>
+<p class="govuk-body-l">
+  This form creates a shortlist of gov.uk pages that fit these parameters.
+</p>
+{% endif %}
+
+<div class="govuk-error-summary" id="form-error" hidden>
+  <div role="alert">
+    <h2 class="govuk-error-summary__title">There is a problem</h2>
+    <div class="govuk-error-summary__body">
+      <ul class="govuk-list govuk-error-summary__list">
+        <li><a href="#email" id="form-error-link"></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="govuk-tabs" data-module="govuk-tabs">
+  <h2 class="govuk-tabs__title">Create category</h2>
+  <ul class="govuk-tabs__list">
+    <li class="govuk-tabs__list-item{% if not job %} govuk-tabs__list-item--selected{% endif %}">
+      <a class="govuk-tabs__tab" href="#definition">Definition</a>
+    </li>
+    <li class="govuk-tabs__list-item">
+      <a class="govuk-tabs__tab" href="#preview-run">Preview and run</a>
+    </li>
+    <li class="govuk-tabs__list-item{% if job %} govuk-tabs__list-item--selected{% endif %}">
+      <a class="govuk-tabs__tab" href="#results">Results</a>
+    </li>
+  </ul>
+
+  <form id="wizard" class="wizard-tabs-form" novalidate>
+    <div class="govuk-tabs__panel{% if job %} govuk-tabs__panel--hidden{% endif %}" id="definition">
+      <h2 class="govuk-heading-l">Definition</h2>
+
+      <div class="govuk-form-group">
+        <label class="govuk-label govuk-label--m" for="template-select">Start from an example</label>
+        <div id="template-select-hint" class="govuk-hint">Fills in every field below, replacing anything you have typed.</div>
+        <details class="govuk-details">
+          <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">More about the examples</span>
+          </summary>
+          <div class="govuk-details__text">
+            <p class="govuk-body">Two examples are included: slurry and fish. Slurry is the better one to copy. It shows a tight description of what to include, a clear list of look-alikes to rule out, and a keyword list made of specific phrases rather than broad words like “farm” or “water”.</p>
+          </div>
+        </details>
+        <select class="govuk-select" id="template-select" aria-describedby="template-select-hint">
+          <option value="">—</option>
+          <option value="slurry">slurry</option>
+          <option value="fish">fish</option>
+        </select>
+      </div>
+
+      <div class="govuk-form-group" id="group-email">
+        <label class="govuk-label govuk-label--m" for="email">Your email address</label>
+        <div id="email-hint" class="govuk-hint">
+          We email you when a run finishes. This is not a login.
+        </div>
+        <details class="govuk-details">
+          <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">More about the emails</span>
+          </summary>
+          <div class="govuk-details__text">
+            <p class="govuk-body">You get one email per run: when it finishes, when it fails, or when it stops because it has reached the daily page limit. The email links to the results, so you do not need to keep this page open. Your address is stored with the run record only.</p>
+          </div>
+        </details>
+        <input class="govuk-input govuk-!-width-two-thirds" id="email" name="email" type="email" required autocomplete="email" aria-describedby="email-hint" value="">
+      </div>
+
+      <div class="govuk-form-group" id="group-name">
+        <label class="govuk-label govuk-label--m" for="name">Name for this category</label>
+        <div id="name-hint" class="govuk-hint">
+          Lowercase letters, numbers and underscores, for example <code>animal_liquid_waste</code>.
+        </div>
+        <details class="govuk-details">
+          <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">How to choose a name</span>
+          </summary>
+          <div class="govuk-details__text">
+            <p class="govuk-body">This name identifies the category wherever its results appear, so pick one you will still recognise in a few months. Up to 64 characters.</p>
+            <p class="govuk-body">Keep it the same once you have started. Renaming it part-way through starts a separate set of results, which makes it hard to compare one run against another.</p>
+          </div>
+        </details>
+        <input class="govuk-input govuk-!-width-one-third" id="name" name="name" required pattern="[a-z][a-z0-9_]{0,63}" placeholder="animal_liquid_waste" aria-describedby="name-hint" value="{{ form.name|default('') }}">
+      </div>
+
+      <div class="govuk-form-group" id="group-corpus_id">
+        <label class="govuk-label govuk-label--m" for="corpus_id">Which version of GOV.UK to search</label>
+        <div id="corpus_id-hint" class="govuk-hint">
+          Leave this as it is. The newest version is already selected.
+        </div>
+        <details class="govuk-details">
+          <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">Why there is a choice</span>
+          </summary>
+          <div class="govuk-details__text">
+            <p class="govuk-body">GOV.UK changes over time, so we keep a dated copy of its pages each time we collect them. Every run searches one of those copies, which means a run can be repeated later and give the same answer.</p>
+            <p class="govuk-body">Older copies are kept, not overwritten. Choosing one is useful when testing changes to this tool: you can rerun against the same pages and see what the change did. For normal use, the newest copy is the one you want.</p>
+          </div>
+        </details>
+        <select class="govuk-select" id="corpus_id" name="corpus_id" aria-describedby="corpus_id-hint"{% if not snapshots %} disabled{% endif %}>
+          {% for s in snapshots %}
+            <option value="{{ s.id }}"{% if (form.corpus_id|default('') and s.id == form.corpus_id) or (not form.corpus_id|default('') and loop.first) %} selected{% endif %}>{{ s.label }}{% if loop.first %} (newest){% endif %}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="govuk-form-group" id="group-organisations">
+        <fieldset class="govuk-fieldset" id="organisations" aria-describedby="organisations-hint organisations-meta">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+            Organisations <span class="field-stage">(Pre-Inference Filtering: 1)</span>
+          </legend>
+          <div id="organisations-hint" class="govuk-hint">
+            Tick the organisations whose pages you want to search. Tick none to search all of them.
+          </div>
+          <details class="govuk-details">
+            <summary class="govuk-details__summary">
+              <span class="govuk-details__summary-text">How this narrows your search</span>
+            </summary>
+            <div class="govuk-details__text">
+              <p class="govuk-body">A page is kept if one of the organisations you tick published it, or is named on it. Everything after this point looks only at those pages, so a tighter choice means a faster, cheaper run and fewer irrelevant results.</p>
+              <p class="govuk-body">Type part of a name to find it, for example “environment” or “rural”. If you are not sure who publishes the guidance you want, tick none and narrow it after you have seen the first results.</p>
+            </div>
+          </details>
+          <div class="scope-selected" id="organisations-selected" hidden>
+            <h3 class="govuk-heading-s scope-selected__heading" id="organisations-selected-heading" aria-live="polite">Selected organisations (0)</h3>
+            <ul class="scope-selected__list"></ul>
+            <button type="button" class="govuk-link scope-selected__clear">Clear all</button>
+          </div>
+          <label class="govuk-label" for="organisations-filter">Search the list</label>
+          <input class="govuk-input" id="organisations-filter" type="search" autocomplete="off" spellcheck="false" aria-controls="organisations-list">
+          <p class="govuk-hint" id="organisations-meta" aria-live="polite">{{ organisation_options | length }} organisations</p>
+          <div class="govuk-checkboxes govuk-checkboxes--small scope-picker-list" data-module="govuk-checkboxes" id="organisations-list">
+            {% for value, label, aliases in organisation_options %}
+            <div class="govuk-checkboxes__item" data-search="{{ value }} {{ label }} {{ aliases | join(' ') }}">
+              <input class="govuk-checkboxes__input" id="organisations-{{ value }}" name="organisations" type="checkbox" value="{{ value }}"{% if value in orgs %} checked{% endif %}>
+              <label class="govuk-label govuk-checkboxes__label" for="organisations-{{ value }}">{{ label }}</label>
+            </div>
+            {% endfor %}
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="govuk-form-group" id="group-document_types">
+        <fieldset class="govuk-fieldset" id="document_types" aria-describedby="document_types-hint">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+            Page Types <span class="field-stage">(Pre-Inference Filtering: 2)</span>
+          </legend>
+          <div id="document_types-hint" class="govuk-hint">
+            Tick the kinds of page you want to search. Tick none to search every kind.
+          </div>
+          <details class="govuk-details">
+            <summary class="govuk-details__summary">
+              <span class="govuk-details__summary-text">How this narrows your search</span>
+            </summary>
+            <div class="govuk-details__text">
+              <p class="govuk-body">GOV.UK labels every page with the kind of thing it is: guidance, a form, a manual, and so on. This narrows your search further, because a page has to match both an organisation you ticked and a type you ticked.</p>
+              <p class="govuk-body">If you are not sure, leave it blank. It is easier to see what comes back first and then rule out types you do not want.</p>
+            </div>
+          </details>
+          <div class="govuk-checkboxes govuk-checkboxes--small" data-module="govuk-checkboxes" id="document_types-list">
+            {% for value, label in document_type_options %}
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="document_types-{{ value }}" name="document_types" type="checkbox" value="{{ value }}"{% if value in types %} checked{% endif %}>
+              <label class="govuk-label govuk-checkboxes__label" for="document_types-{{ value }}">{{ label }}</label>
+            </div>
+            {% endfor %}
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="govuk-form-group" id="group-lexicon">
+        <label class="govuk-label govuk-label--m" for="lexicon">
+          Inclusion Keyword(s) <span class="field-stage">(Pre-Inference Filtering: 3)</span>
+        </label>
+        <div id="lexicon-hint" class="govuk-hint">
+          One term per line. A term is a single word, or a pair of words that sit next to each other on the page.
+        </div>
+        <details class="govuk-details">
+          <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">How your terms are matched</span>
+          </summary>
+          <div class="govuk-details__text">
+            <p class="govuk-body">This is a word match, not a search for a phrase or an idea. We look through the title and the text of every page for the terms you list. A page that contains none of them is skipped, so this list decides how long a run takes and how much it costs.</p>
+            <p class="govuk-body">Each line can only be one word, such as <strong>slurry</strong>, or two words that appear together, such as <strong>catch certificate</strong>. Write three or more words and nothing will ever match it: “animal slurry and manure” is not looked for as a phrase, and it is not broken up into separate words for you either. If you want those words, put them on separate lines.</p>
+            <p class="govuk-body">Word endings are matched for you, so <strong>lagoon</strong> also finds lagoons, and <strong>store</strong> also finds stores and storage. Capital letters do not matter. Anything after a # on a line is ignored, so you can leave yourself notes.</p>
+            <ul class="govuk-list govuk-list--bullet">
+              <li>Avoid broad words such as farm, water, waste or animal. They match thousands of pages and will use up the {{ max_routed }} page limit for a run.</li>
+              <li>Prefer the specific term: slurry, lagoon, catch certificate. Slurry finds around 540 pages.</li>
+              <li>Preview before you run. If the preview would read more than {{ max_routed }} pages, tighten the terms rather than raising the limit.</li>
+            </ul>
+          </div>
+        </details>
+        <textarea class="govuk-textarea" id="lexicon" name="lexicon" required rows="4" aria-describedby="lexicon-hint">{{ form.lexicon|default('') }}</textarea>
+      </div>
+
+      <div class="govuk-form-group" id="group-description">
+        <label class="govuk-label govuk-label--m" for="description">
+          What to Include <span class="field-stage">(LLM Inference: 1)</span>
+        </label>
+        <div id="description-hint" class="govuk-hint">
+          Describe your topic in your own words. Be generous: this is about keeping anything relevant.
+        </div>
+        <details class="govuk-details">
+          <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">How to write this well</span>
+          </summary>
+          <div class="govuk-details__text">
+            <p class="govuk-body">Your words are used for a quick first check of each page. That check has one job: to decide whether the page is using your words in the sense you meant. A page kept here still gets a closer look afterwards, so it is better to keep too much than too little.</p>
+            <ul class="govuk-list govuk-list--bullet">
+              <li>Say what the thing is. For example, what counts as slurry, or as fish.</li>
+              <li>Do not insist the page is mainly about your topic. A single mention in a table can still be the page you need.</li>
+              <li>Do not list what you are not interested in. That belongs in “What to exclude”, and putting it here loses good pages.</li>
+            </ul>
+            <p class="govuk-body"><strong>An example of what good looks like</strong></p>
+            <div class="copy-example">
+              <p class="govuk-body">Slurry is liquid or semi-liquid livestock manure: cattle and pig slurry, dirty water, digestate from farm anaerobic digestion, and silage effluent held with it.</p>
+              <p class="govuk-body">Include a page if it mentions slurry in this farming sense anywhere, even once, and even if the page is mainly about something else. A mention in a table, a list of grants, or a single paragraph of a long manual all count.</p>
+              <p class="govuk-body">Storing, spreading, transporting, testing, permitting and funding slurry are all in scope.</p>
+            </div>
+          </div>
+        </details>
+        <textarea class="govuk-textarea" id="description" name="description" required rows="4" aria-describedby="description-hint">{{ form.description|default('') }}</textarea>
+      </div>
+
+      <div class="govuk-form-group" id="group-exclusion_criteria">
+        <label class="govuk-label govuk-label--m" for="exclusion_criteria">
+          What to Exclude <span class="field-stage">(LLM Inference: 2)</span>
+        </label>
+        <div id="exclusion_criteria-hint" class="govuk-hint">
+          List the things that look relevant but are not. Be as specific as you can.
+        </div>
+        <details class="govuk-details">
+          <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">How to write this well</span>
+          </summary>
+          <div class="govuk-details__text">
+            <p class="govuk-body">Your words are used for a second, closer read of the pages kept by the first check. Only pages that are clearly out of scope are dropped, so writing a lot here is safe.</p>
+            <ul class="govuk-list govuk-list--bullet">
+              <li>Words with another meaning, such as coal slurry, or fish as in phishing.</li>
+              <li>The wrong subject area, such as sewage sludge when you mean animal slurry.</li>
+              <li>Pages that mention your topic once in passing, such as a list of 40 schemes.</li>
+            </ul>
+            <p class="govuk-body">Being concrete works better. “Sewage sludge, biosolids and digestate liquor, not animal slurry” is much more useful than “not sewage”.</p>
+            <p class="govuk-body"><strong>An example of what good looks like</strong></p>
+            <div class="copy-example">
+              <p class="govuk-body">Exclude pages where slurry means something other than livestock manure: coal slurry, mining and quarry slurry, concrete and cement slurry, ceramic slip, and industrial slurry pipelines.</p>
+              <p class="govuk-body">Exclude human and industrial waste treatment: sewage sludge, biosolids, septic tank waste, and municipal anaerobic digestion that does not handle farm slurry.</p>
+              <p class="govuk-body">Exclude pages where the word appears once in passing with no guidance attached, such as a list of 40 funding schemes with one slurry store grant in it.</p>
+            </div>
+          </div>
+        </details>
+        <textarea class="govuk-textarea" id="exclusion_criteria" name="exclusion_criteria" required rows="4" aria-describedby="exclusion_criteria-hint">{{ form.exclusion_criteria|default('') }}</textarea>
+      </div>
+
+      <fieldset class="govuk-fieldset">
+        <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+          Examples of tricky pages <span class="field-stage">(LLM Inference: 3, optional)</span>
+        </legend>
+        <div class="govuk-hint">One example per line. Skip this unless you already know which pages cause trouble.</div>
+        <details class="govuk-details">
+          <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">When these help</span>
+          </summary>
+          <div class="govuk-details__text">
+            <p class="govuk-body">These are worked examples for the closer read, and they help most when two kinds of page are easily confused.</p>
+            <p class="govuk-body">Under Keep, put borderline pages that should stay in, for example a farm payment page that happens to fund slurry stores. Under Drop, put the near misses you want ruled out, for example sewage sludge guidance.</p>
+            <p class="govuk-body">Do not repeat what you have already written above. If you cannot decide which side an example belongs on, leave it out.</p>
+            <p class="govuk-body">The useful ones usually come from looking at a set of results and finding a page you disagree with. Write that page down here as one short line, then run it again.</p>
+            <p class="govuk-body"><strong>An example of what good looks like</strong></p>
+            <div class="copy-example">
+              <p class="govuk-body"><strong>Keep</strong></p>
+              <p class="govuk-body">Farm payment scheme page that funds slurry stores, even though most of it is about payments.</p>
+              <p class="govuk-body">Environmental permit page that covers slurry lagoons alongside other farm waste.</p>
+              <p class="govuk-body">Manual chapter that mentions dirty water only in its rules on spreading.</p>
+              <p class="govuk-body"><strong>Drop</strong></p>
+              <p class="govuk-body">Sewage sludge and biosolids guidance for treatment works.</p>
+              <p class="govuk-body">Digestate guidance where the feedstock is food waste, not farm slurry.</p>
+              <p class="govuk-body">Coal slurry or quarry slurry pages.</p>
+            </div>
+          </div>
+        </details>
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="keep_hints">Keep</label>
+          <textarea class="govuk-textarea" id="keep_hints" name="keep_hints" rows="3" placeholder="Grant page that funds slurry stores even if the rest is about payments">{{ form.keep_hints|default('') }}</textarea>
+        </div>
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="drop_hints">Drop</label>
+          <textarea class="govuk-textarea" id="drop_hints" name="drop_hints" rows="3" placeholder="Sewage sludge or biosolids, not animal slurry">{{ form.drop_hints|default('') }}</textarea>
+        </div>
+      </fieldset>
+
+      <button type="button" class="govuk-button" id="preview-btn" data-module="govuk-button">Preview and Wordsearch</button>
+    </div>
+
+    <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="preview-run">
+      <h2 class="govuk-heading-l">Preview and run</h2>
+      <p class="govuk-body">
+        Preview is wordsearch only (no Anthropic, no budget debit). Run filter starts
+        the two-pass job and emails the owner when it finishes.
+      </p>
+      <details class="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Preview vs Run</span>
+        </summary>
+        <div class="govuk-details__text">
+          <p class="govuk-body"><strong>Preview</strong> runs wordsearch against the selected snapshot. No Anthropic, does not debit the daily routed budget. The first preview of a snapshot Porter-stems every page into a disk index (a few minutes) and writes <code>stem_index/*.sqlite</code> next to that snapshot; later previews are lexicon lookups, and an identical lexicon is instant.</p>
+          <p class="govuk-body"><strong>Run filter</strong> needs a successful preview with <code>would_route ≤ {{ max_routed }}</code> and enough daily budget ({{ daily_used }} / {{ daily_max }} used today, UTC). It starts the Haiku + Sonnet job in the mode you pick below and emails you when it finishes.</p>
+        </div>
+      </details>
+
+      <div class="govuk-form-group">
+        <fieldset class="govuk-fieldset">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">How to run the model</legend>
+          <div id="llm_mode-hint" class="govuk-hint">Batch is half price. Synchronous costs twice as much.</div>
+          <div class="govuk-radios" data-module="govuk-radios">
+            <div class="govuk-radios__item">
+              <input class="govuk-radios__input" id="llm_mode-batch" name="llm_mode" type="radio" value="batch" checked aria-describedby="llm_mode-hint llm_mode-batch-hint">
+              <label class="govuk-label govuk-radios__label" for="llm_mode-batch">
+                Batch (recommended) — half price
+              </label>
+              <div id="llm_mode-batch-hint" class="govuk-hint govuk-radios__hint">
+                Anthropic Message Batches. Tokens billed at 0.5× on-demand. Can take hours.
+              </div>
+            </div>
+            <div class="govuk-radios__item">
+              <input class="govuk-radios__input" id="llm_mode-sync" name="llm_mode" type="radio" value="sync" data-aria-controls="sync-warning" aria-describedby="llm_mode-hint llm_mode-sync-hint">
+              <label class="govuk-label govuk-radios__label" for="llm_mode-sync">
+                Synchronous — full price, faster
+              </label>
+              <div id="llm_mode-sync-hint" class="govuk-hint govuk-radios__hint">
+                Anthropic Messages API. Tokens billed at on-demand (1×) rates. Finishes sooner.
+              </div>
+            </div>
+            <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="sync-warning">
+              <div class="govuk-warning-text">
+                <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+                <strong class="govuk-warning-text__text">
+                  <span class="govuk-visually-hidden">Warning</span>
+                  Synchronous mode costs twice as much as batch. Use it only if you cannot wait.
+                </strong>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+
+      <div id="preview-empty">
+        <p class="govuk-inset-text">Fill in the definition, then preview the wordsearch. Nothing is sent to the model until you run the filter.</p>
+      </div>
+
+      <div id="preview-panel" hidden>
+        <div id="preview-progress" hidden>
+          <p id="preview-progress-label" class="govuk-body">Wordsearching the frozen index…</p>
+          <div
+            class="progress"
+            id="preview-progress-bar"
+            role="progressbar"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+            aria-labelledby="preview-progress-label"
+          >
+            <div class="progress-fill" id="preview-progress-fill"></div>
+          </div>
+        </div>
+        <p id="preview-cap" class="govuk-body"></p>
+        <p id="preview-cost" class="govuk-inset-text" hidden></p>
+        <ul id="preview-warnings" class="govuk-list govuk-list--bullet"></ul>
+        <div id="funnel" class="funnel"></div>
+        <div id="funnel-urls"></div>
+      </div>
+
+      <div class="govuk-button-group">
+        <button type="button" class="govuk-button govuk-button--secondary" id="preview-again-btn" data-module="govuk-button">Preview wordsearch</button>
+        <button type="submit" class="govuk-button" id="submit-btn" data-module="govuk-button" disabled>Run filter</button>
+      </div>
+    </div>
+  </form>
+
+  <div class="govuk-tabs__panel{% if not job %} govuk-tabs__panel--hidden{% endif %}" id="results">
+    {% include "_results.html" %}
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script type="application/json" id="templates-data">{{ templates_json | tojson }}</script>
+<script type="application/json" id="snapshots-data">{{ snapshots | tojson }}</script>
+<script>
+  window.GRF_TEMPLATES = JSON.parse(document.getElementById("templates-data").textContent);
+  window.GRF_SNAPSHOTS = JSON.parse(document.getElementById("snapshots-data").textContent);
+  {% if job %}
+  window.GRF_JOB_ID = {{ job.id | tojson }};
+  window.GRF_FUNNEL = {{ funnel | tojson }};
+  if (!location.hash) history.replaceState(null, "", "#results");
+  {% endif %}
+</script>
+{% endblock %}

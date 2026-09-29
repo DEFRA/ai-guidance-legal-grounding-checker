@@ -1,0 +1,111 @@
+direction: down
+
+classes: {
+  artifact: {
+    style: {
+      fill: "#F5F3FF"
+      stroke: "#7C3AED"
+      border-radius: 10
+    }
+  }
+  layer: {
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#4338CA"
+      stroke-width: 2
+      border-radius: 8
+    }
+  }
+  governance: {
+    style: {
+      fill: "#F0F9FF"
+      stroke: "#0369A1"
+      border-radius: 8
+    }
+  }
+  promoted: {
+    style: {
+      fill: "#ECFDF5"
+      stroke: "#059669"
+      border-radius: 8
+    }
+  }
+  caution: {
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#D97706"
+      border-radius: 8
+    }
+  }
+}
+
+title: "Proposition review governance workflow"
+
+proposition_artifacts: "Proposition artifacts"
+proposition_artifacts.class: artifact
+
+review_layers: {
+  label: "Review layers"
+  class: layer
+  direction: right
+
+  proposition: "proposition"
+  proposition.class: layer
+
+  structured_display: "structured display"
+  structured_display.class: layer
+
+  scope_links: "scope links"
+  scope_links.class: layer
+
+  completeness: "completeness"
+  completeness.class: layer
+
+  extraction_trace: "extraction trace"
+  extraction_trace.class: layer
+}
+
+review_decision: "review decision"
+review_decision.class: governance
+
+append_only: "append-only record"
+append_only.class: governance
+
+supersession: "supersession if needed"
+supersession.class: governance
+
+reload: "run/export reload"
+reload.class: governance
+
+guidance_ready: "guidance-ready candidacy"
+guidance_ready.class: promoted
+
+proposition_artifacts -> review_layers.proposition
+proposition_artifacts -> review_layers.structured_display
+proposition_artifacts -> review_layers.scope_links
+proposition_artifacts -> review_layers.completeness
+proposition_artifacts -> review_layers.extraction_trace
+
+review_layers.proposition -> review_decision
+review_layers.structured_display -> review_decision
+review_layers.scope_links -> review_decision
+review_layers.completeness -> review_decision
+review_layers.extraction_trace -> review_decision
+
+review_decision -> append_only
+append_only -> supersession
+supersession -> reload
+reload -> guidance_ready
+
+note_lint: "lint pass is not legal approval"
+note_lint.class: caution
+
+note_promotion_evidence: "accepted review decisions are promotion evidence"
+note_promotion_evidence.class: caution
+
+note_not_default: "guidance-ready is promoted state, not default"
+note_not_default.class: caution
+
+append_only -> note_lint
+reload -> note_promotion_evidence
+guidance_ready -> note_not_default

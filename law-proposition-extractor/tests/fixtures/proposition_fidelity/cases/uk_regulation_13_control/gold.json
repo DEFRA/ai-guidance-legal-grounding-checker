@@ -1,0 +1,16 @@
+{
+  "case_id": "uk_regulation_13_control",
+  "expected_propositions": [
+    {
+      "role": "unheaded-regulation-validity-statement",
+      "source_locator": "regulation:13",
+      "short_legal_description": "Single control proposition from unheaded regulation 13.",
+      "legal_effect_type": "unknown",
+      "required_actor": "Regulation 13",
+      "required_action": "remains valid",
+      "object": "heading",
+      "evidence_markers": ["remains valid without a heading"],
+      "expected_completeness": "complete"
+    }
+  ]
+}

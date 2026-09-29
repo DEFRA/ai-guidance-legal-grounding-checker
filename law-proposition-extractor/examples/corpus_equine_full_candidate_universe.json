@@ -1,0 +1,19 @@
+{
+  "corpus_id": "equine_law",
+  "focus_scopes": ["equine", "equidae", "equid", "horse"],
+  "max_propositions_per_source": 8,
+  "extraction_mode": "frontier",
+  "extraction_fallback": "mark_needs_review",
+  "model_error_policy": "continue_with_fallback",
+  "divergence_reasoning": "none",
+  "equine_source_universe_path": "examples/equine_source_universe.json",
+  "corpus_profile_id": "equine_full_candidate_universe",
+  "related_source_discovery": { "enabled": false },
+  "inclusion_criteria": [
+    "List all staged universe instruments as discovery candidates without fetching statutory XML for this profile."
+  ],
+  "exclusion_criteria": [
+    "Silent auto-ingestion of every candidate row as an analysed legal source"
+  ],
+  "source_case_path": "examples/equine_full_candidate_universe_case.json"
+}

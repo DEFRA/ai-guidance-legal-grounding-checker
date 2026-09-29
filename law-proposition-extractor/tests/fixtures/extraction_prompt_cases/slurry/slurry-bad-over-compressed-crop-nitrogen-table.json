@@ -1,0 +1,45 @@
+{
+  "case_id": "slurry-bad-over-compressed-crop-nitrogen-table",
+  "label": "BAD — crop nitrogen table (regulation 12, long label risk)",
+  "source_title": "The Nitrate Pollution Prevention Regulations 2015",
+  "source_record_id": "lex-120b4f9c395b3f94",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "regulation:12",
+  "fragment_text": "12 1 The occupier of a holding must ensure that the total amount of nitrogen spread on a crop or group of crops specified in the table in paragraph (4) does not exceed the figure specified in the second column in any twelve-month period, adjusted as specified in the notes and multiplied by the total area in hectares of the crop or group sown on the holding. 2 The “total amount of nitrogen” means the total of— a the amount of nitrogen from manufactured nitrogen fertiliser, and b the amount of nitrogen available for crop uptake from organic manure in the growing season in which it is spread (calculated in accordance with regulation 14). 3 This regulation is subject to regulation 13 and applies irrespective of the figure given in the fertilisation plan. 4 This is the table referred to in paragraph (1)— CropPermitted amount of nitrogen (kg)Standard yield (tonne/ha) (1) An additional 80kg per hectare is permitted to all crops grown in fields if the current or previous crop has had straw or paper sludge applied to it. (2) An additional 20kg per hectare is permitted on fields with shallow soil (other than shallow soils over sandstone). (3) An additional 20kg per hectare is permitted for every tonne that the expected yield exceeds the standard yield specified in the third column. (4) An additional 40kg per hectare is permitted to milling wheat varieties. (5) This is inclusive of any nitrogen that is applied as an exemption to the closed period for manufactured nitrogen fertiliser. The permitted amount may be increased by up to 30kg per hectare for every half tonne that expected yield exceeds the standard yield specified in the third column. (6) An additional 40kg per hectare is permitted to grass that is cut at least three times a year. Autumn or early winter sown wheat220 8Spring-sown wheat180 7Winter barley180 6.5Spring barley1505.5Winter oilseed rape2503.5Sugar beet120n/aPotatoes270n/aForage maize150n/aField beans0n/aPeas0n/aGrass300n/aAsparagus, carrots, radishes, swedes (individually or in combination)180n/aCelery, courgettes, dwarf beans, lettuce, onions, parsnips, runner beans, sweetcorn, turnips (individually or in combination)280n/aBeetroot, Brussels sprouts, cabbage, calabrese, cauliflower, leeks (individually or in combination)370n/a",
+  "why_this_case": "Frontier export produced over-long combined labels for table-driven limits; expect separate propositions per crop/limit where appropriate. Evaluation uses minimum mode: one gold obligation on the table cap; sibling definitions, reg 12↔13 cross-refs, and footnote permission uplifts in the same fragment are allowed extras (prompt-lab triage 2026-06).",
+  "expected_challenges": [
+    "embedded_table",
+    "footnotes_and_adjustments",
+    "cross_reference_to_regulation_13_and_14"
+  ],
+  "evaluation": {
+    "mode": "minimum",
+    "strict_proposition_count": false,
+    "allow_extra_actual": true
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "obligation",
+      "proposition_tier": "substantive_rule",
+      "proposition_text": "The occupier must ensure that nitrogen spread on a listed crop does not exceed the permitted amount in the table for that crop in any twelve-month period.",
+      "legal_subject": "the occupier of a holding",
+      "action": "must ensure that the total amount of nitrogen spread does not exceed the table limit",
+      "affected_subjects": [
+        "the occupier of a holding"
+      ],
+      "conditions": [
+        "per crop or group in the table",
+        "adjusted per notes",
+        "multiplied by hectares sown"
+      ],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "must ensure that the total amount of nitrogen spread on a crop or group of crops specified in the table"
+    }
+  ]
+}

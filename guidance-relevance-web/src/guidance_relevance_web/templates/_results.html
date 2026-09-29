@@ -1,0 +1,120 @@
+<h2 class="govuk-heading-l">Results</h2>
+{% if not job %}
+  <p class="govuk-inset-text">Run the filter to see results here. You can leave this page — we email a link when it finishes.</p>
+{% else %}
+<dl class="govuk-summary-list">
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">Status</dt>
+    <dd class="govuk-summary-list__value">
+      <strong id="job-status-tag" class="govuk-tag {% if job.status == 'done' %}govuk-tag--green{% elif job.status == 'failed' %}govuk-tag--red{% elif job.status == 'running' %}govuk-tag--blue{% elif job.status == 'blocked_cap' %}govuk-tag--yellow{% else %}govuk-tag--grey{% endif %}" data-status="{{ job.status }}">{{ job.status_label }}</strong>
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">Category</dt>
+    <dd class="govuk-summary-list__value">{{ job.title }} ({{ job.category }})</dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">Organisations</dt>
+    <dd class="govuk-summary-list__value">{{ job.organisations | join(", ") or "—" }}</dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">Document types</dt>
+    <dd class="govuk-summary-list__value">{{ job.document_types | join(", ") or "—" }}</dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">Keywords</dt>
+    <dd class="govuk-summary-list__value">{{ job.keywords | join(", ") or "—" }}</dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">Mode</dt>
+    <dd class="govuk-summary-list__value" id="job-llm-mode">
+      {% if job.llm_mode == "sync" %}
+        <strong class="govuk-tag govuk-tag--red">Synchronous 1×</strong>
+      {% else %}
+        <strong class="govuk-tag govuk-tag--green">Batch 0.5×</strong>
+      {% endif %}
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">Cost</dt>
+    <dd class="govuk-summary-list__value" id="job-cost">
+      {% if job.cost %}
+        {% if job.cost.capped %}
+          {{ job.cost.label }}
+          <span class="govuk-hint">No Anthropic calls (over the routed cap).</span>
+        {% else %}
+          {{ job.cost.detail }}
+        {% endif %}
+      {% elif job.cost_estimate %}
+        {{ job.cost_estimate.html | safe }}
+      {% else %}
+        <span class="govuk-hint">After the run writes metrics.json</span>
+      {% endif %}
+    </dd>
+  </div>
+</dl>
+
+<section id="job-progress" class="job-progress"{% if not job.progress.visible %} hidden{% endif %}>
+  <p id="job-progress-label" class="govuk-body">{{ job.progress.label }}</p>
+  <div class="progress" id="job-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ job.progress.pct }}" aria-labelledby="job-progress-label">
+    <div class="progress-fill" id="job-progress-fill" style="width: {{ job.progress.pct }}%"></div>
+  </div>
+  <ol class="job-steps">
+    {% for s in job.progress.steps %}
+    <li class="job-steps__item job-steps__item--{{ s.state }}" data-step="{{ s.n }}">
+      <span class="job-steps__n" aria-hidden="true">{{ s.n }}</span>
+      {{ s.title }}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section>
+  <h2 class="govuk-heading-l">Funnel</h2>
+  <div id="job-funnel" class="funnel">
+    {% if not funnel %}
+      <p class="govuk-hint">Funnel appears when the run writes funnel.json (after both passes, or a cap abort).</p>
+    {% endif %}
+  </div>
+  <div id="job-funnel-urls"></div>
+</section>
+
+{% if job.status == "failed" %}
+  {% if job.error %}
+  <div class="govuk-inset-text" id="job-error">
+    <p class="govuk-error-message">{{ job.error }}</p>
+  </div>
+  {% endif %}
+  <form action="/jobs/{{ job.id }}/retry" method="post" class="govuk-!-margin-bottom-6">
+    <button type="submit" class="govuk-button govuk-button--secondary" data-module="govuk-button">Retry run</button>
+    <p class="govuk-hint">{% if job.llm_mode == "sync" %}Reattaches to checkpointed replies when a checkpoint is present. Does not re-debit the daily budget.{% else %}Reattaches to the existing Anthropic batch when a checkpoint is present. Does not submit a second batch or re-debit the daily budget.{% endif %}</p>
+  </form>
+{% endif %}
+{% if job.status in ["done", "blocked_cap", "failed"] %}
+  <div class="govuk-button-group">
+    <a class="govuk-button" href="/jobs/{{ job.id }}/download.zip" data-module="govuk-button">Download zip</a>
+    {% if job.status == "done" or job.status == "blocked_cap" %}
+      <a class="govuk-button govuk-button--secondary" href="/jobs/{{ job.id }}/pages.xlsx" data-module="govuk-button">Download spreadsheet</a>
+    {% endif %}
+  </div>
+  <form action="/jobs/{{ job.id }}/pages" method="post" enctype="multipart/form-data" class="upload">
+    <fieldset class="govuk-fieldset">
+      <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">Upload edited spreadsheet → pages.json (GPE input)</legend>
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="file">Spreadsheet file</label>
+        <input class="govuk-file-upload" id="file" name="file" type="file" accept=".xlsx" required>
+      </div>
+      <button type="submit" class="govuk-button" data-module="govuk-button">Convert</button>
+    </fieldset>
+  </form>
+{% endif %}
+
+<details class="govuk-details" id="job-log-details"{% if job.status == "failed" %} open{% endif %}>
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">Technical log</span>
+  </summary>
+  <div class="govuk-details__text">
+    <pre id="job-log" class="log">{{ job.log_tail | join("\n") }}</pre>
+  </div>
+</details>
+{% endif %}

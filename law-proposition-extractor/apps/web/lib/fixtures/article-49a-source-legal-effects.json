@@ -1,0 +1,375 @@
+{
+  "run_id": "run-demo-49a-effects",
+  "schema_version": "1",
+  "outstanding_effects_status": "source_status_unknown",
+  "diagnostics": [],
+  "metadata": {
+    "snapshot_inventory_count": 1,
+    "effect_count": 4,
+    "effect_link_count": 4,
+    "affecting_instrument_consumption_reconciled": true,
+    "consumption_inventory_source_record_count": 2,
+    "consumption_inventory_usable": true
+  },
+  "source_records": [
+    {
+      "id": "src-demo-1224",
+      "title": "Council Regulation (EC) No 1224/2009",
+      "citation": "Council Regulation (EC) No 1224/2009",
+      "jurisdiction": "EU",
+      "kind": "regulation",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/article/49a/data.xml",
+      "as_of_date": null,
+      "retrieved_at": "2026-07-14T15:42:00Z",
+      "content_hash": "revhash49aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "version_id": "v1",
+      "current_snapshot_id": "snap-demo-1224-revised"
+    }
+  ],
+  "source_snapshots": [
+    {
+      "id": "snap-demo-1224-revised",
+      "source_record_id": "src-demo-1224",
+      "version_id": "v1",
+      "as_of_date": null,
+      "retrieved_at": "2026-07-14T15:42:00Z",
+      "content_hash": "revhash49aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "raw_artifact_uri": "file:///private/var/folders/zg/example/T/law-proposition-extractor/source-snapshots/article-49a.json",
+      "parser_name": "legislation_gov_uk_data_xml_v1",
+      "parser_version": "v1",
+      "authority": "legislation_gov_uk",
+      "manifestation_type": "revised",
+      "manifestation_basis": "source_metadata",
+      "has_authoritative_text": false,
+      "authoritative_text": null
+    },
+    {
+      "id": "snap-other-source",
+      "source_record_id": "src-other",
+      "version_id": "v1",
+      "retrieved_at": "2026-07-14T15:42:00Z",
+      "content_hash": "otherhashbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "parser_name": "legislation_gov_uk_data_xml_v1",
+      "authority": "legislation_gov_uk",
+      "manifestation_type": "revised"
+    }
+  ],
+  "source_fragments": [
+    {
+      "id": "frag-demo-49a",
+      "fragment_id": "frag-demo-49a",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "locator": "article:49a",
+      "parent_fragment_id": null,
+      "fragment_text": "Article 49a …",
+      "fragment_hash": "hash-frag-demo-49a"
+    },
+    {
+      "id": "frag-demo-49a-p1",
+      "fragment_id": "frag-demo-49a-p1",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "locator": "article:49a:paragraph:1",
+      "parent_fragment_id": "frag-demo-49a",
+      "fragment_text": "(1) All catches below the applicable minimum conservation reference size…",
+      "fragment_hash": "hash-frag-demo-49a-p1"
+    },
+    {
+      "id": "frag-demo-49a-p2",
+      "fragment_id": "frag-demo-49a-p2",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "locator": "article:49a:paragraph:2",
+      "parent_fragment_id": "frag-demo-49a",
+      "fragment_text": "(2) Paragraph 1 shall not apply…",
+      "fragment_hash": "hash-frag-demo-49a-p2"
+    },
+    {
+      "id": "frag-demo-49a-p3",
+      "fragment_id": "frag-demo-49a-p3",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "locator": "article:49a:paragraph:3",
+      "parent_fragment_id": "frag-demo-49a",
+      "fragment_text": "(3) In the cases referred to in paragraph 2…",
+      "fragment_hash": "hash-frag-demo-49a-p3"
+    }
+  ],
+  "propositions": [
+    {
+      "id": "prop-demo-49a-p1-separate",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "proposition_text": "Catches below the applicable minimum conservation reference size shall be kept separately identifiable."
+    },
+    {
+      "id": "prop-demo-49a-p1-no-mixing",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "proposition_text": "Those catches shall not be mixed with any other fishery products."
+    },
+    {
+      "id": "prop-demo-49a-p2-pelagic",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "proposition_text": "Paragraph 1 shall not apply where the catches contain more than 80% of small pelagic species."
+    },
+    {
+      "id": "prop-demo-49a-p3-monitoring",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "source_fragment_id": "frag-demo-49a-p3",
+      "fragment_locator": "article:49a:paragraph:3",
+      "proposition_text": "A fisheries administration must monitor the catch composition by way of sampling."
+    }
+  ],
+  "effects": [
+    {
+      "id": "sourceeffect:f1aaaaaaaaaaaa",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "annotation_id": "c000004",
+      "annotation_label": "F1",
+      "effect_category": "insertion",
+      "raw_effect_category": "F",
+      "effect_description": "Art. 49a inserted",
+      "affected_locator": "article:49a",
+      "affected_source_fragment_id": "frag-demo-49a",
+      "affecting_instrument_uri": "https://www.legislation.gov.uk/eur/2015/812",
+      "affecting_instrument_citation": "EUR 2015/812",
+      "affecting_instrument_title": "Regulation (EU) 2015/812",
+      "affecting_instrument_provision": null,
+      "effect_date": "2015-06-01",
+      "effect_status": "source_status_unknown",
+      "source_representation_status": "annotation_present",
+      "independent_consumption_status": "not_matched",
+      "source_evidence": {},
+      "metadata": {},
+      "consumption_match_basis": "no_match",
+      "matched_source_record_id": null,
+      "matched_source_snapshot_ids": [],
+      "matched_instrument_identity": "eur/2015/812",
+      "consumption_match_evidence": [
+        {
+          "basis": "canonical_authority_uri",
+          "effect_value": "https://www.legislation.gov.uk/eur/2015/812",
+          "normalized_identity": "eur/2015/812"
+        },
+        {
+          "basis": "normalized_citation",
+          "effect_value": "EUR 2015/812",
+          "normalized_identity": "eur/2015/812"
+        }
+      ]
+    },
+    {
+      "id": "sourceeffect:f2bbbbbbbbbbbb",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "annotation_id": "key-ae688d7efb8d525f494201f970bc3e75",
+      "annotation_label": "F2",
+      "effect_category": "substitution",
+      "raw_effect_category": "F",
+      "effect_description": "Art. 49a(1) substituted",
+      "affected_locator": "article:49a:paragraph:1",
+      "affected_source_fragment_id": "frag-demo-49a-p1",
+      "affecting_instrument_uri": "https://www.legislation.gov.uk/uksi/2019/739",
+      "affecting_instrument_citation": "UKSI 2019/739",
+      "affecting_instrument_title": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019",
+      "affecting_instrument_provision": null,
+      "effect_date": "2019-03-29",
+      "effect_status": "source_status_unknown",
+      "source_representation_status": "annotation_present",
+      "independent_consumption_status": "not_matched",
+      "source_evidence": {},
+      "metadata": {},
+      "consumption_match_basis": "no_match",
+      "matched_source_record_id": null,
+      "matched_source_snapshot_ids": [],
+      "matched_instrument_identity": "uksi/2019/739",
+      "consumption_match_evidence": [
+        {
+          "basis": "canonical_authority_uri",
+          "effect_value": "https://www.legislation.gov.uk/uksi/2019/739",
+          "normalized_identity": "uksi/2019/739"
+        },
+        {
+          "basis": "normalized_citation",
+          "effect_value": "UKSI 2019/739",
+          "normalized_identity": "uksi/2019/739"
+        }
+      ]
+    },
+    {
+      "id": "sourceeffect:f3cccccccccccc",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "annotation_id": "key-cd016a627475b52260f225a4d4ac7ed7",
+      "annotation_label": "F3",
+      "effect_category": "substitution",
+      "raw_effect_category": "F",
+      "effect_description": "Art. 49a(2) substituted",
+      "affected_locator": "article:49a:paragraph:2",
+      "affected_source_fragment_id": "frag-demo-49a-p2",
+      "affecting_instrument_uri": "https://www.legislation.gov.uk/uksi/2019/739",
+      "affecting_instrument_citation": "UKSI 2019/739",
+      "affecting_instrument_title": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019",
+      "affecting_instrument_provision": null,
+      "effect_date": "2019-03-29",
+      "effect_status": "source_status_unknown",
+      "source_representation_status": "annotation_present",
+      "independent_consumption_status": "not_matched",
+      "source_evidence": {},
+      "metadata": {},
+      "consumption_match_basis": "no_match",
+      "matched_source_record_id": null,
+      "matched_source_snapshot_ids": [],
+      "matched_instrument_identity": "uksi/2019/739",
+      "consumption_match_evidence": [
+        {
+          "basis": "canonical_authority_uri",
+          "effect_value": "https://www.legislation.gov.uk/uksi/2019/739",
+          "normalized_identity": "uksi/2019/739"
+        },
+        {
+          "basis": "normalized_citation",
+          "effect_value": "UKSI 2019/739",
+          "normalized_identity": "uksi/2019/739"
+        }
+      ]
+    },
+    {
+      "id": "sourceeffect:f4dddddddddddd",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "annotation_id": "key-c36fcfcb069fb8c51fce93fbce7ea03b",
+      "annotation_label": "F4",
+      "effect_category": "substitution",
+      "raw_effect_category": "F",
+      "effect_description": "Art. 49a(3) substituted",
+      "affected_locator": "article:49a:paragraph:3",
+      "affected_source_fragment_id": "frag-demo-49a-p3",
+      "affecting_instrument_uri": "https://www.legislation.gov.uk/uksi/2019/739",
+      "affecting_instrument_citation": "UKSI 2019/739",
+      "affecting_instrument_title": "The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019",
+      "affecting_instrument_provision": null,
+      "effect_date": "2019-03-29",
+      "effect_status": "source_status_unknown",
+      "source_representation_status": "annotation_present",
+      "independent_consumption_status": "not_matched",
+      "source_evidence": {},
+      "metadata": {},
+      "consumption_match_basis": "no_match",
+      "matched_source_record_id": null,
+      "matched_source_snapshot_ids": [],
+      "matched_instrument_identity": "uksi/2019/739",
+      "consumption_match_evidence": [
+        {
+          "basis": "canonical_authority_uri",
+          "effect_value": "https://www.legislation.gov.uk/uksi/2019/739",
+          "normalized_identity": "uksi/2019/739"
+        },
+        {
+          "basis": "normalized_citation",
+          "effect_value": "UKSI 2019/739",
+          "normalized_identity": "uksi/2019/739"
+        }
+      ]
+    },
+    {
+      "id": "sourceeffect:other-snap-f2",
+      "source_record_id": "src-other",
+      "source_snapshot_id": "snap-other-source",
+      "annotation_id": "other-f2",
+      "annotation_label": "F2",
+      "effect_category": "substitution",
+      "affected_locator": "article:49a:paragraph:1",
+      "affected_source_fragment_id": "frag-other-p1",
+      "affecting_instrument_citation": "UKSI 2019/739",
+      "effect_status": "source_status_unknown",
+      "source_representation_status": "annotation_present",
+      "independent_consumption_status": "not_matched",
+      "consumption_match_basis": "no_match",
+      "matched_source_record_id": null,
+      "matched_source_snapshot_ids": [],
+      "matched_instrument_identity": "uksi/2019/739",
+      "consumption_match_evidence": [
+        {
+          "basis": "normalized_citation",
+          "effect_value": "UKSI 2019/739",
+          "normalized_identity": "uksi/2019/739"
+        }
+      ]
+    }
+  ],
+  "effect_links": [
+    {
+      "id": "sourceeffectlink:f1-article",
+      "effect_id": "sourceeffect:f1aaaaaaaaaaaa",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "source_fragment_id": "frag-demo-49a",
+      "affected_locator": "article:49a",
+      "linkage_status": "linked",
+      "source_evidence": {
+        "kind": "effect_link",
+        "annotation_label": "F1"
+      }
+    },
+    {
+      "id": "sourceeffectlink:f2-p1",
+      "effect_id": "sourceeffect:f2bbbbbbbbbbbb",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "affected_locator": "article:49a:paragraph:1",
+      "linkage_status": "linked",
+      "source_evidence": {
+        "kind": "effect_link",
+        "annotation_label": "F2"
+      }
+    },
+    {
+      "id": "sourceeffectlink:f3-p2",
+      "effect_id": "sourceeffect:f3cccccccccccc",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "affected_locator": "article:49a:paragraph:2",
+      "linkage_status": "linked",
+      "source_evidence": {
+        "kind": "effect_link",
+        "annotation_label": "F3"
+      }
+    },
+    {
+      "id": "sourceeffectlink:f4-p3",
+      "effect_id": "sourceeffect:f4dddddddddddd",
+      "source_record_id": "src-demo-1224",
+      "source_snapshot_id": "snap-demo-1224-revised",
+      "source_fragment_id": "frag-demo-49a-p3",
+      "affected_locator": "article:49a:paragraph:3",
+      "linkage_status": "linked",
+      "source_evidence": {
+        "kind": "effect_link",
+        "annotation_label": "F4"
+      }
+    },
+    {
+      "id": "sourceeffectlink:other-f2",
+      "effect_id": "sourceeffect:other-snap-f2",
+      "source_record_id": "src-other",
+      "source_snapshot_id": "snap-other-source",
+      "source_fragment_id": "frag-other-p1",
+      "affected_locator": "article:49a:paragraph:1",
+      "linkage_status": "linked"
+    }
+  ]
+}

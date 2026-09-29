@@ -1,0 +1,443 @@
+{
+  "description": "Article 49a-shaped structural parent with paragraph children for selection tests. Text mirrors Council Regulation (EC) No 1224/2009 Art 49a layout without binding the selector to that citation. Includes retained proposition rows for legal rule group construction, typed legal relationships (exception_to / triggered_by), and a second instrument proving source-scoped locator isolation.",
+  "source_record_id": "src-control-regulation-demo",
+  "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+  "fragments": [
+    {
+      "id": "frag-demo-doc",
+      "locator": "document:full",
+      "fragment_type": "document",
+      "parent_fragment_id": null,
+      "order_index": 0,
+      "fragment_text": "Document root placeholder."
+    },
+    {
+      "id": "frag-demo-49a",
+      "locator": "article:49a",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 186,
+      "fragment_text": "Article 49a. (1) All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers. Those catches shall not be mixed with any other fishery products. (2) Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species— (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes); (b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation. (3) In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling."
+    },
+    {
+      "id": "frag-demo-49a-p1",
+      "locator": "article:49a:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-49a",
+      "order_index": 187,
+      "fragment_text": "(1) All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers. Those catches shall not be mixed with any other fishery products."
+    },
+    {
+      "id": "frag-demo-49a-p2",
+      "locator": "article:49a:paragraph:2",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-49a",
+      "order_index": 188,
+      "fragment_text": "(2) Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species— (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes); (b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation."
+    },
+    {
+      "id": "frag-demo-49a-p2-suba",
+      "locator": "article:49a:paragraph:2:subparagraph:a",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-49a-p2",
+      "order_index": 1881,
+      "fragment_text": "(a) where the catches contain more than 80% of one or more of the following species— (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes);"
+    },
+    {
+      "id": "frag-demo-49a-p2-suba-i",
+      "locator": "article:49a:paragraph:2:subparagraph:a:item:i",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-49a-p2-suba",
+      "order_index": 1882,
+      "fragment_text": "(i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries);"
+    },
+    {
+      "id": "frag-demo-49a-p2-suba-ii",
+      "locator": "article:49a:paragraph:2:subparagraph:a:item:ii",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-49a-p2-suba",
+      "order_index": 1883,
+      "fragment_text": "(ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes);"
+    },
+    {
+      "id": "frag-demo-49a-p2-subb",
+      "locator": "article:49a:paragraph:2:subparagraph:b",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-49a-p2",
+      "order_index": 1884,
+      "fragment_text": "(b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation."
+    },
+    {
+      "id": "frag-demo-49a-p3",
+      "locator": "article:49a:paragraph:3",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-49a",
+      "order_index": 189,
+      "fragment_text": "(3) In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling."
+    },
+    {
+      "id": "frag-demo-orphan-leaf",
+      "locator": "article:77:paragraph:1:subparagraph:a",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-orphan-parent",
+      "order_index": 770,
+      "fragment_text": "(a) Norwegian pout monitoring samples must be retained for inspection."
+    },
+    {
+      "id": "frag-demo-orphan-parent",
+      "locator": "article:77:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 769,
+      "fragment_text": "(1) Operators shall retain industrial catch samples. (a) Norwegian pout monitoring samples must be retained for inspection."
+    },
+    {
+      "id": "frag-demo-unique-parent",
+      "locator": "article:80:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 800,
+      "fragment_text": "(1) Masters shall keep a catch diary."
+    },
+    {
+      "id": "frag-demo-unique-child",
+      "locator": "article:80:paragraph:1:subparagraph:a",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-unique-parent",
+      "order_index": 801,
+      "fragment_text": "(a) Masters shall also transmit electronic landing summaries that are not present in the parent fragment text."
+    },
+    {
+      "id": "frag-demo-required-nested-parent",
+      "locator": "article:81:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 810,
+      "fragment_text": "(1) Sampling applies: (a) to pelagic landings listed in the annex."
+    },
+    {
+      "id": "frag-demo-required-nested-child",
+      "locator": "article:81:paragraph:1:subparagraph:a",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-required-nested-parent",
+      "order_index": 811,
+      "fragment_text": "(a) to pelagic landings listed in the annex."
+    },
+    {
+      "id": "frag-demo-similar-unrelated",
+      "locator": "article:82:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 820,
+      "fragment_text": "(a) where the catches contain more than 80% of one or more of the following species— (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes);"
+    },
+    {
+      "id": "frag-demo-article-1-p1",
+      "locator": "article:1:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": null,
+      "order_index": 10,
+      "fragment_text": "(1) Noise paragraph 1 in another article."
+    },
+    {
+      "id": "frag-demo-article-1-p2",
+      "locator": "article:1:paragraph:2",
+      "fragment_type": "article",
+      "parent_fragment_id": null,
+      "order_index": 11,
+      "fragment_text": "(2) Noise paragraph 2 in another article."
+    },
+    {
+      "id": "frag-demo-article-14",
+      "locator": "article:14",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 50,
+      "fragment_text": "Article 14. Recording obligations for fishing vessels."
+    },
+    {
+      "id": "frag-demo-article-14-p1",
+      "locator": "article:14:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-article-14",
+      "order_index": 51,
+      "fragment_text": "(1) Masters shall keep a fishing logbook."
+    },
+    {
+      "id": "frag-demo-article-30-p1",
+      "locator": "article:30:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 90,
+      "fragment_text": "(1) Operators shall retain catch records for inspection."
+    },
+    {
+      "id": "frag-demo-article-30-p2",
+      "locator": "article:30:paragraph:2",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 91,
+      "fragment_text": "(2) Paragraph 1 shall not apply to shore-based establishments."
+    },
+    {
+      "id": "frag-demo-article-31-p1",
+      "locator": "article:31:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 92,
+      "fragment_text": "(1) Multi-proposition fragment without a legal rule group in relationship tests (groups withheld)."
+    },
+    {
+      "id": "frag-demo-article-99-p1",
+      "locator": "article:99:paragraph:1",
+      "fragment_type": "article",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 99,
+      "fragment_text": "(1) Unresolved-reference carrier fragment."
+    }
+  ],
+  "exported_propositions": [
+    {
+      "id": "prop-demo-49a-p1-separate",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be kept separately identifiable from other catches.",
+      "legal_effect_type": "obligation"
+    },
+    {
+      "id": "prop-demo-49a-p1-no-mixing",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "source_order": 1,
+      "proposition_text": "Those catches shall not be mixed with any other fishery products.",
+      "legal_effect_type": "prohibition"
+    },
+    {
+      "id": "prop-demo-49a-p2-pelagic",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "source_order": 0,
+      "proposition_text": "Paragraph 1 shall not apply where catches contain more than 80% of specified small pelagic species.",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": ["paragraph 1"],
+      "extraction_debug_meta": {
+        "provision_type": "exception",
+        "composition_basis": "structured_list_leaf",
+        "structured_list_path": "2-a-i",
+        "list_marker": "(a)->(i)",
+        "parent_context": "Paragraph 1 shall not apply",
+        "branch_context": "where the catches contain more than 80% of one or more of the following species"
+      }
+    },
+    {
+      "id": "prop-demo-49a-p2-industrial",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "source_order": 1,
+      "proposition_text": "Paragraph 1 shall not apply where catches contain more than 80% of species for industrial purposes (capelin, sandeel, Norwegian pout).",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": ["paragraph 1"],
+      "extraction_debug_meta": {
+        "provision_type": "exception",
+        "composition_basis": "structured_list_leaf",
+        "structured_list_path": "2-a-ii",
+        "list_marker": "(a)->(ii)",
+        "parent_context": "Paragraph 1 shall not apply",
+        "branch_context": "where the catches contain more than 80% of one or more of the following species"
+      }
+    },
+    {
+      "id": "prop-demo-49a-p2-small-vessels",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "source_order": 2,
+      "proposition_text": "Paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches have been sorted, estimated and recorded in accordance with Article 14.",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": ["paragraph 1", "article 14"],
+      "extraction_debug_meta": {
+        "provision_type": "exception",
+        "composition_basis": "structured_list_leaf",
+        "structured_list_path": "2-b",
+        "list_marker": "(b)",
+        "parent_context": "Paragraph 1 shall not apply"
+      }
+    },
+    {
+      "id": "prop-demo-49a-p3-monitoring",
+      "source_fragment_id": "frag-demo-49a-p3",
+      "fragment_locator": "article:49a:paragraph:3",
+      "source_order": 0,
+      "proposition_text": "In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+      "legal_effect_type": "obligation",
+      "explicit_cross_reference_targets": ["paragraph 2"]
+    },
+    {
+      "id": "prop-demo-article-1-p1",
+      "source_fragment_id": "frag-demo-article-1-p1",
+      "fragment_locator": "article:1:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "Noise paragraph 1 obligation.",
+      "legal_effect_type": "obligation"
+    },
+    {
+      "id": "prop-demo-article-1-p2",
+      "source_fragment_id": "frag-demo-article-1-p2",
+      "fragment_locator": "article:1:paragraph:2",
+      "source_order": 0,
+      "proposition_text": "Noise paragraph 2 obligation.",
+      "legal_effect_type": "obligation"
+    },
+    {
+      "id": "prop-demo-article-14-p1",
+      "source_fragment_id": "frag-demo-article-14-p1",
+      "fragment_locator": "article:14:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "Masters shall keep a fishing logbook in accordance with Article 14.",
+      "legal_effect_type": "obligation",
+      "explicit_cross_reference_targets": ["article 14"]
+    },
+    {
+      "id": "prop-demo-art30-p1-only",
+      "source_fragment_id": "frag-demo-article-30-p1",
+      "fragment_locator": "article:30:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "Operators shall retain catch records for inspection.",
+      "legal_effect_type": "obligation"
+    },
+    {
+      "id": "prop-demo-art30-p2-exception",
+      "source_fragment_id": "frag-demo-article-30-p2",
+      "fragment_locator": "article:30:paragraph:2",
+      "source_order": 0,
+      "proposition_text": "Paragraph 1 shall not apply to shore-based establishments.",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": ["paragraph 1"]
+    },
+    {
+      "id": "prop-demo-art31-p1-a",
+      "source_fragment_id": "frag-demo-article-31-p1",
+      "fragment_locator": "article:31:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "First operative rule in a multi-proposition fragment.",
+      "legal_effect_type": "obligation"
+    },
+    {
+      "id": "prop-demo-art31-p1-b",
+      "source_fragment_id": "frag-demo-article-31-p1",
+      "fragment_locator": "article:31:paragraph:1",
+      "source_order": 1,
+      "proposition_text": "Second operative rule in a multi-proposition fragment.",
+      "legal_effect_type": "obligation"
+    },
+    {
+      "id": "prop-demo-art31-exception",
+      "source_fragment_id": "frag-demo-article-99-p1",
+      "fragment_locator": "article:99:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "Article 31, paragraph 1 shall not apply in experimental fisheries.",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": ["article 31, paragraph 1"]
+    },
+    {
+      "id": "prop-demo-unresolved-exception",
+      "source_fragment_id": "frag-demo-article-99-p1",
+      "fragment_locator": "article:99:paragraph:1",
+      "source_order": 1,
+      "proposition_text": "Paragraph 77 shall not apply where records are incomplete.",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": ["paragraph 77"]
+    }
+  ],
+  "suppressed_propositions": [
+    {
+      "id": "prop-demo-49a-parent-suppressed-a",
+      "source_fragment_id": "frag-demo-49a",
+      "fragment_locator": "article:49a",
+      "source_order": 0,
+      "proposition_text": "Suppressed parent-path extraction: keep catches separately identifiable.",
+      "legal_effect_type": "obligation"
+    },
+    {
+      "id": "prop-demo-49a-parent-suppressed-b",
+      "source_fragment_id": "frag-demo-49a",
+      "fragment_locator": "article:49a",
+      "source_order": 1,
+      "proposition_text": "Suppressed parent-path extraction: do not mix catches with other fishery products.",
+      "legal_effect_type": "prohibition"
+    },
+    {
+      "id": "prop-demo-49a-suba-suppressed-i",
+      "source_fragment_id": "frag-demo-49a-p2-suba",
+      "fragment_locator": "article:49a:paragraph:2:subparagraph:a:item:i",
+      "source_order": 0,
+      "proposition_text": "Where catches contain more than 80% of mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, or sprat (small pelagic fisheries), the relevant provision of Article 49a applies.",
+      "legal_effect_type": "unknown"
+    },
+    {
+      "id": "prop-demo-49a-suba-suppressed-ii",
+      "source_fragment_id": "frag-demo-49a-p2-suba",
+      "fragment_locator": "article:49a:paragraph:2:subparagraph:a:item:ii",
+      "source_order": 1,
+      "proposition_text": "Where catches contain more than 80% of capelin, sandeel, or Norwegian pout (fisheries for industrial purposes), the relevant provision of Article 49a applies.",
+      "legal_effect_type": "unknown"
+    }
+  ],
+  "other_instrument": {
+    "source_record_id": "src-other-regulation-demo",
+    "source_snapshot_id": "snap-src-other-regulation-demo-v1",
+    "fragments": [
+      {
+        "id": "frag-other-49a-p1",
+        "locator": "article:49a:paragraph:1",
+        "fragment_type": "article",
+        "parent_fragment_id": null,
+        "order_index": 1,
+        "fragment_text": "(1) Unrelated instrument paragraph 1 with two retained propositions."
+      },
+      {
+        "id": "frag-other-49a-p2",
+        "locator": "article:49a:paragraph:2",
+        "fragment_type": "article",
+        "parent_fragment_id": null,
+        "order_index": 2,
+        "fragment_text": "(2) Paragraph 1 shall not apply in the other instrument."
+      },
+      {
+        "id": "frag-other-49a-p2-suba",
+        "locator": "article:49a:paragraph:2:subparagraph:a",
+        "fragment_type": "article",
+        "parent_fragment_id": "frag-other-49a-p2",
+        "order_index": 3,
+        "fragment_text": "(a) where the catches contain more than 80% of one or more of the following species— (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes);"
+      }
+    ],
+    "exported_propositions": [
+      {
+        "id": "prop-other-49a-p1-a",
+        "source_fragment_id": "frag-other-49a-p1",
+        "fragment_locator": "article:49a:paragraph:1",
+        "source_order": 0,
+        "proposition_text": "Other instrument first proposition from paragraph 1.",
+        "legal_effect_type": "obligation"
+      },
+      {
+        "id": "prop-other-49a-p1-b",
+        "source_fragment_id": "frag-other-49a-p1",
+        "fragment_locator": "article:49a:paragraph:1",
+        "source_order": 1,
+        "proposition_text": "Other instrument second proposition from paragraph 1.",
+        "legal_effect_type": "obligation"
+      },
+      {
+        "id": "prop-other-49a-p2-exception",
+        "source_fragment_id": "frag-other-49a-p2",
+        "fragment_locator": "article:49a:paragraph:2",
+        "source_order": 0,
+        "proposition_text": "Paragraph 1 shall not apply in the other instrument.",
+        "legal_effect_type": "derogation",
+        "explicit_cross_reference_targets": ["paragraph 1"]
+      }
+    ]
+  }
+}

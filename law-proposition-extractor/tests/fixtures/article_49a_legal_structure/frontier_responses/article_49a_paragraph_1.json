@@ -1,0 +1,42 @@
+{
+  "propositions": [
+    {
+      "proposition_text": "All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.",
+      "display_label": "Article 49a(1) — Segregation of sub-MCRS catches (identifiability requirement)",
+      "subject": "United Kingdom fishing vessel operator retaining catches below minimum conservation reference size",
+      "rule": "must place sub-MCRS catches in boxes, compartments or containers so that they are identifiable from other boxes, compartments or containers",
+      "object": "catches below the applicable minimum conservation reference size retained on board",
+      "conditions": [
+        "catches are below the applicable minimum conservation reference size",
+        "catches are retained on board a United Kingdom fishing vessel"
+      ],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "article:49a:paragraph:1:sentence:1",
+      "evidence_text": "All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "First sentence of Article 49a(1) imposes a clear, self-contained obligation on vessel operators regarding physical segregation and identifiability of sub-MCRS catches."
+    },
+    {
+      "proposition_text": "Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must not be mixed with any other fishery products.",
+      "display_label": "Article 49a(1) — Prohibition on mixing sub-MCRS catches with other fishery products",
+      "subject": "United Kingdom fishing vessel operator retaining catches below minimum conservation reference size",
+      "rule": "must not mix sub-MCRS catches with any other fishery products",
+      "object": "catches below the applicable minimum conservation reference size retained on board",
+      "conditions": [
+        "catches are below the applicable minimum conservation reference size",
+        "catches are retained on board a United Kingdom fishing vessel"
+      ],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "article:49a:paragraph:1:sentence:2",
+      "evidence_text": "Those catches shall not be mixed with any other fishery products.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Second sentence of Article 49a(1) imposes a distinct prohibition — no mixing with other fishery products — which is legally separate from the identifiability/segregation obligation in the first sentence and warrants its own proposition."
+    }
+  ]
+}

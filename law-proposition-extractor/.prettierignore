@@ -1,0 +1,10 @@
+.venv/
+.mypy_cache/
+node_modules/
+.next/
+dist/
+build/
+site/
+docs/assets/generated/
+package-lock.json
+uv.lock

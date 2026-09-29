@@ -1,0 +1,100 @@
+{
+  "strategy_versions": {
+    "proposition_extraction": "v2-structured-list-round-robin"
+  },
+  "topic": {
+    "name": "Equine passport England + UK-wide EU Exit (staged v0.1)",
+    "description": "Staged source universe for equine identification, passports, and import/trade-related UK/EU instruments. Not a claim of complete equine law. Do not treat all instruments as automatically analysed. Active profile: equine_passport_england_ukwide_v0_1.",
+    "subject_tags": [
+      "equine",
+      "staged-corpus",
+      "equine_passport_england_ukwide_v0_1"
+    ]
+  },
+  "cluster": {
+    "name": "animal_identification_traceability",
+    "description": "Identification, import, trade, and control-related duties."
+  },
+  "extraction": {
+    "mode": "frontier",
+    "fallback_policy": "mark_needs_review",
+    "model_error_policy": "stop_repairable",
+    "divergence_reasoning": "none",
+    "focus_scopes": [
+      "equine",
+      "equidae",
+      "equid",
+      "horse",
+      "passport",
+      "identification"
+    ],
+    "max_propositions_per_source": 12
+  },
+  "sources": [
+    {
+      "id": "equine-uni-uksi-2018-761",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2018/761",
+      "title": "The Equine Identification (England) Regulations 2018",
+      "version_id": "2018-06-22",
+      "as_of_date": "2018-06-22",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2018/761",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "equine_identification",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2018-1409",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2018/1409",
+      "title": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018",
+      "version_id": "2018-12-20",
+      "as_of_date": "2018-12-20",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2018/1409",
+          "ui_cluster": "eu_exit_amendments",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2019-591",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2019/591",
+      "title": "The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019",
+      "version_id": "2019-03-14",
+      "as_of_date": "2019-03-14",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2019/591",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    }
+  ],
+  "narrative": {
+    "title": "Equine passport England + UK-wide EU Exit (staged v0.1)",
+    "summary": "Profile equine_passport_england_ukwide_v0_1: 3 legislation.gov.uk instruments."
+  },
+  "run_notes": "Profile equine_passport_england_ukwide_v0_1 \u2014 3 instruments. Wider universe: examples/equine_source_universe.json.",
+  "corpus_profile_id": "equine_passport_england_ukwide_v0_1",
+  "equine_source_universe_ref": {
+    "path": "examples/equine_source_universe.json",
+    "universe_id": "equine_import_identification_trade_v1"
+  },
+  "run_recommendation": "Run this after EU baseline to capture England and UK-wide EU Exit passport deltas."
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Default-namespace variant without ukm: prefix on Metadata children wrappers. -->
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             DocumentURI="http://www.legislation.gov.uk/ukpga/2021/1/enacted"
+             IdURI="http://www.legislation.gov.uk/id/ukpga/2021/1"
+             SchemaVersion="2.0">
+  <Metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata"
+            xmlns="http://www.legislation.gov.uk/namespaces/metadata">
+    <dc:identifier>http://www.legislation.gov.uk/ukpga/2021/1/enacted</dc:identifier>
+    <dc:title>Pension Schemes Act 2021</dc:title>
+    <PrimaryMetadata>
+      <DocumentClassification>
+        <DocumentMainType Value="UnitedKingdomPublicGeneralAct"/>
+        <DocumentStatus Value="final"/>
+      </DocumentClassification>
+      <Year Value="2021"/>
+      <Number Value="1"/>
+    </PrimaryMetadata>
+  </Metadata>
+  <Title xmlns="http://www.legislation.gov.uk/namespaces/legislation">Pension Schemes Act 2021</Title>
+  <Body xmlns="http://www.legislation.gov.uk/namespaces/legislation" id="body">
+    <P1 id="section-1">
+      <Pnumber>1</Pnumber>
+      <P1para>
+        <Text>As enacted text.</Text>
+      </P1para>
+    </P1>
+  </Body>
+</Legislation>

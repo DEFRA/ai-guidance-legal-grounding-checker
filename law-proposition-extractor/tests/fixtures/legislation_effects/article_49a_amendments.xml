@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata"
+             xmlns:dc="http://purl.org/dc/elements/1.1/"
+             xmlns:dct="http://purl.org/dc/terms/"
+             xmlns:atom="http://www.w3.org/2005/Atom"
+             DocumentURI="http://www.legislation.gov.uk/eur/2009/1224"
+             IdURI="http://www.legislation.gov.uk/id/eur/2009/1224"
+             SchemaVersion="2.0"
+             RestrictStartDate="2025-02-27">
+  <ukm:Metadata>
+    <dc:identifier>http://www.legislation.gov.uk/eur/2009/1224/article/49a</dc:identifier>
+    <dc:title>Council Regulation (EC) No 1224/2009</dc:title>
+    <dc:modified>2025-04-04</dc:modified>
+    <dct:valid>2025-02-27</dct:valid>
+    <atom:link rel="http://www.legislation.gov.uk/def/legislation/EffectsApplied"
+               href="https://www.legislation.gov.uk/changes/applied/affected/eur/2009/1224"
+               title="Amended by UK"/>
+    <ukm:EUMetadata>
+      <ukm:DocumentClassification>
+        <ukm:DocumentCategory Value="euretained"/>
+        <ukm:DocumentMainType Value="EuropeanUnionRegulation"/>
+        <ukm:DocumentStatus Value="revised"/>
+      </ukm:DocumentClassification>
+      <ukm:Year Value="2009"/>
+      <ukm:Number Value="1224"/>
+    </ukm:EUMetadata>
+  </ukm:Metadata>
+  <Title>Council Regulation (EC) No 1224/2009</Title>
+  <EURetained>
+    <EUBody>
+      <P1group>
+        <Title><Addition ChangeId="O003001M119" CommentaryRef="c000004">Separate stowage of catches below the minimum conservation reference sizes</Addition></Title>
+        <P1 DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a"
+             IdURI="http://www.legislation.gov.uk/id/eur/2009/1224/article/49a"
+             id="article-49a">
+          <Pnumber><Addition ChangeId="O003001M119" CommentaryRef="c000004">Article 49a</Addition></Pnumber>
+          <P1para>
+            <P2 DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a/1"
+                IdURI="http://www.legislation.gov.uk/id/eur/2009/1224/article/49a/1"
+                id="article-49a-1">
+              <Pnumber PuncBefore="" PuncAfter="."><Addition ChangeId="O003001M119" CommentaryRef="c000004">1</Addition></Pnumber>
+              <P2para>
+                <Text>
+                  <Addition ChangeId="O003001M119" CommentaryRef="c000004">All catches below the applicable minimum conservation reference size retained on board a </Addition>
+                  <Addition ChangeId="O003001M119" CommentaryRef="c000004">
+                    <Substitution ChangeId="key-ae688d7efb8d525f494201f970bc3e75-1691666974278"
+                                  CommentaryRef="key-ae688d7efb8d525f494201f970bc3e75">United Kingdom</Substitution>
+                  </Addition>
+                  <Addition ChangeId="O003001M119" CommentaryRef="c000004"> fishing vessel shall be placed in boxes.</Addition>
+                </Text>
+              </P2para>
+            </P2>
+            <P2 DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a/2"
+                IdURI="http://www.legislation.gov.uk/id/eur/2009/1224/article/49a/2"
+                id="article-49a-2">
+              <Pnumber PuncBefore="" PuncAfter="."><Addition ChangeId="O003001M119" CommentaryRef="c000004">2</Addition></Pnumber>
+              <P2para>
+                <Text>
+                  <Addition ChangeId="O003001M119" CommentaryRef="c000004">Paragraph 1 shall not apply where </Addition>
+                  <Addition ChangeId="O003001M119" CommentaryRef="c000004">
+                    <Substitution ChangeId="key-cd016a627475b52260f225a4d4ac7ed7-1691666994520"
+                                  CommentaryRef="key-cd016a627475b52260f225a4d4ac7ed7">catches contain more than 80%</Substitution>
+                  </Addition>
+                  <Addition ChangeId="O003001M119" CommentaryRef="c000004"> of listed species.</Addition>
+                </Text>
+              </P2para>
+            </P2>
+            <P2 DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a/3"
+                IdURI="http://www.legislation.gov.uk/id/eur/2009/1224/article/49a/3"
+                id="article-49a-3">
+              <Pnumber PuncBefore="" PuncAfter="."><Addition ChangeId="O003001M119" CommentaryRef="c000004">3</Addition></Pnumber>
+              <P2para>
+                <Text>
+                  <Addition ChangeId="O003001M119" CommentaryRef="c000004">In the cases referred to in paragraph 2, </Addition>
+                  <Addition ChangeId="O003001M119" CommentaryRef="c000004">
+                    <Substitution ChangeId="key-c36fcfcb069fb8c51fce93fbce7ea03b-1691667010551"
+                                  CommentaryRef="key-c36fcfcb069fb8c51fce93fbce7ea03b">a fisheries administration must</Substitution>
+                  </Addition>
+                  <Addition ChangeId="O003001M119" CommentaryRef="c000004"> monitor the catch composition by way of sampling.</Addition>
+                </Text>
+              </P2para>
+            </P2>
+          </P1para>
+        </P1>
+      </P1group>
+    </EUBody>
+  </EURetained>
+  <Commentaries>
+    <Commentary Type="F" Source="EU" id="c000004">
+      <Para><Text>Inserted by <Citation URI="http://www.legislation.gov.uk/id/eur/2015/812"
+        id="cit-2015-812" Class="EuropeanUnionRegulation" Year="2015" Number="812"
+        Title="Regulation (EU) 2015/812">Regulation (EU) 2015/812</Citation>.</Text></Para>
+    </Commentary>
+    <Commentary id="key-ae688d7efb8d525f494201f970bc3e75" Type="F">
+      <Para><Text>Words in <CitationSubRef id="csr1" SectionRef="article-49a-1"
+        URI="http://www.legislation.gov.uk/id/eur/2009/1224/article/49a/1">Art. 49a(1)</CitationSubRef>
+        substituted (31.12.2020) by <Citation URI="http://www.legislation.gov.uk/id/uksi/2019/739"
+        id="cit-2019-739" Class="UnitedKingdomStatutoryInstrument" Year="2019" Number="739"
+        Title="The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019">The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019 (S.I. 2019/739)</Citation>,
+        <CitationSubRef CitationRef="cit-2019-739" id="csr2" SectionRef="regulation-4-47-a"
+        URI="http://www.legislation.gov.uk/id/uksi/2019/739/regulation/4/47/a" Operative="true">4(47)(a)</CitationSubRef></Text></Para>
+    </Commentary>
+    <Commentary id="key-cd016a627475b52260f225a4d4ac7ed7" Type="F">
+      <Para><Text><CitationSubRef id="csr3" SectionRef="article-49a-2"
+        URI="http://www.legislation.gov.uk/id/eur/2009/1224/article/49a/2">Art. 49a(2)</CitationSubRef>
+        substituted (31.12.2020) by <Citation URI="http://www.legislation.gov.uk/id/uksi/2019/739"
+        id="cit-2019-739b" Class="UnitedKingdomStatutoryInstrument" Year="2019" Number="739"
+        Title="The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019">S.I. 2019/739</Citation>,
+        <CitationSubRef CitationRef="cit-2019-739b" id="csr4" SectionRef="regulation-4-47-b"
+        URI="http://www.legislation.gov.uk/id/uksi/2019/739/regulation/4/47/b" Operative="true">4(47)(b)</CitationSubRef></Text></Para>
+    </Commentary>
+    <Commentary id="key-c36fcfcb069fb8c51fce93fbce7ea03b" Type="F">
+      <Para><Text>Words in <CitationSubRef id="csr5" SectionRef="article-49a-3"
+        URI="http://www.legislation.gov.uk/id/eur/2009/1224/article/49a/3">Art. 49a(3)</CitationSubRef>
+        substituted (31.12.2020) by <Citation URI="http://www.legislation.gov.uk/id/uksi/2019/739"
+        id="cit-2019-739c" Class="UnitedKingdomStatutoryInstrument" Year="2019" Number="739"
+        Title="The Common Fisheries Policy (Amendment etc.) (EU Exit) Regulations 2019">S.I. 2019/739</Citation>,
+        <CitationSubRef CitationRef="cit-2019-739c" id="csr6" SectionRef="regulation-4-47-c"
+        URI="http://www.legislation.gov.uk/id/uksi/2019/739/regulation/4/47/c" Operative="true">4(47)(c)</CitationSubRef></Text></Para>
+    </Commentary>
+  </Commentaries>
+</Legislation>

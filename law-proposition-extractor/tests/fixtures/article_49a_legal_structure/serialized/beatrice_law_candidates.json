@@ -1,0 +1,681 @@
+{
+  "schema_version": "1",
+  "run_id": "run-001",
+  "candidate_count": 6,
+  "duplicate_summary": {
+    "same_source_duplicate_groups": 0,
+    "same_source_duplicate_candidates": 0
+  },
+  "candidates": [
+    {
+      "id": "bcand:01f3bd854d26b621",
+      "law_statement_id": "lawstmt:1f4b779438235fb6",
+      "statement_text": "In the cases referred to in Article 49a(2), a fisheries administration must monitor the catch composition by way of sampling.",
+      "normalized_statement_text": "in the cases referred to in article 49a(2), a fisheries administration must monitor the catch composition by way of sampling.",
+      "matching_text": "Title: Article 49a(3) \u2014 Mandatory catch composition monitoring by sampling\nLaw: In the cases referred to in Article 49a(2), a fisheries administration must monitor the catch composition by way of sampling.\nSource: EUR 2009/1224, article:49a:paragraph:3\nContext: trigger condition: Art. 49a(2)(a)(i) \u2014 Small pelagic species exception; trigger condition: Art. 49a(2)(a)(ii) \u2014 Industrial fisheries species exception; trigger condition: Art. 49a(2)(b) \u2014 Small vessel exception",
+      "normalized_matching_text": "title: article 49a(3) \u2014 mandatory catch composition monitoring by sampling law: in the cases referred to in article 49a(2), a fisheries administration must monitor the catch composition by way of sampling. source: eur 2009/1224, article:49a:paragraph:3 context: trigger condition: art. 49a(2)(a)(i) \u2014 small pelagic species exception; trigger condition: art. 49a(2)(a)(ii) \u2014 industrial fisheries species exception; trigger condition: art. 49a(2)(b) \u2014 small vessel exception",
+      "match_role": "primary_law_candidate",
+      "candidate_status": "usable_with_context",
+      "risk_flags": [
+        "context_dependent"
+      ],
+      "confidence": "medium",
+      "territory_labels": [],
+      "jurisdiction_label": "",
+      "source_proposition_ids": [
+        "prop:36cacb6e3e555066"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "trigger_condition",
+          "locator": "article:49a:paragraph:2:subparagraph:a:item:i",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:0e651904382dad28"
+          ],
+          "relationship_id": "legalrel:3e72cebb8a92bb46",
+          "relationship_type": "triggered_by",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:ef17d4a9471863f5",
+          "resolution_basis": "explicit",
+          "inference_basis": "explicit_trigger_cue",
+          "referenced_locator": "article:49a:paragraph:2",
+          "reference_text": "Article 49a(2)",
+          "source_fragment_id": "frag-src-eur-2009-1224-010",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_canonical_locator": "article:49a:paragraph:2"
+        },
+        {
+          "kind": "trigger_condition",
+          "locator": "article:49a:paragraph:2:subparagraph:a:item:ii",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:4f1c02b9aa8931ca"
+          ],
+          "relationship_id": "legalrel:3e72cebb8a92bb46",
+          "relationship_type": "triggered_by",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:ef17d4a9471863f5",
+          "resolution_basis": "explicit",
+          "inference_basis": "explicit_trigger_cue",
+          "referenced_locator": "article:49a:paragraph:2",
+          "reference_text": "Article 49a(2)",
+          "source_fragment_id": "frag-src-eur-2009-1224-010",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_canonical_locator": "article:49a:paragraph:2"
+        },
+        {
+          "kind": "trigger_condition",
+          "locator": "article:49a:paragraph:2:subparagraph:b",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:a59c469e896bdc42"
+          ],
+          "relationship_id": "legalrel:3e72cebb8a92bb46",
+          "relationship_type": "triggered_by",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:ef17d4a9471863f5",
+          "resolution_basis": "explicit",
+          "inference_basis": "explicit_trigger_cue",
+          "referenced_locator": "article:49a:paragraph:2",
+          "reference_text": "Article 49a(2)",
+          "source_fragment_id": "frag-src-eur-2009-1224-010",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_canonical_locator": "article:49a:paragraph:2"
+        }
+      ],
+      "connector_context": [],
+      "evidence": {
+        "source_record_ids": [
+          "src-eur-2009-1224"
+        ],
+        "source_fragment_ids": [
+          "frag-src-eur-2009-1224-010",
+          "frag-src-eur-2009-1224-007"
+        ],
+        "fragment_locators": [
+          "article:49a:paragraph:3",
+          "article:49a:paragraph:2:subparagraph:a:item:i",
+          "article:49a:paragraph:2:subparagraph:a:item:ii",
+          "article:49a:paragraph:2:subparagraph:b"
+        ],
+        "citations": [
+          "EUR 2009/1224"
+        ]
+      },
+      "presentation": {
+        "title": "Article 49a(3) \u2014 Mandatory catch composition monitoring by sampling",
+        "summary": "In the cases referred to in Article 49a(2), a fisheries administration must monitor the catch composition by way of sampling.",
+        "source_label": "EUR 2009/1224",
+        "locator_label": "article:49a:paragraph:3",
+        "territory_labels": [],
+        "jurisdiction_label": ""
+      },
+      "provenance": {
+        "source": "effective_law_statements",
+        "method": "deterministic_beatrice_candidate_export"
+      },
+      "jurisdiction": "United Kingdom",
+      "source_jurisdiction": "UK",
+      "dedupe": {
+        "is_canonical": true,
+        "canonical_candidate_id": "bcand:01f3bd854d26b621",
+        "duplicate_count": 1,
+        "dedupe_key": "src-eur-2009-1224|article 49a(3)|in the cases referred to in article 49a(2), a fisheries administration must monitor the catch composition by way of sampling."
+      }
+    },
+    {
+      "id": "bcand:226e79d13252f633",
+      "law_statement_id": "lawstmt:ee75c73358b925c2",
+      "statement_text": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more small pelagic species (mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat).",
+      "normalized_statement_text": "paragraph 1 shall not apply where the catches contain more than 80% of one or more small pelagic species (mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat).",
+      "matching_text": "Title: Art. 49a(2)(a)(i) \u2014 Small pelagic species exception\nLaw: Paragraph 1 shall not apply where the catches contain more than 80% of one or more small pelagic species (mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat).\nSource: EUR 2009/1224, article:49a:paragraph:2:subparagraph:a:item:i\nContext: exception target: Article 49a(1) \u2014 Prohibition on mixing sub-MCRS catches with other fishery products; exception target: Article 49a(1) \u2014 Segregation of sub-MCRS catches (identifiability requirement)\nTags: derogation",
+      "normalized_matching_text": "title: art. 49a(2)(a)(i) \u2014 small pelagic species exception law: paragraph 1 shall not apply where the catches contain more than 80% of one or more small pelagic species (mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat). source: eur 2009/1224, article:49a:paragraph:2:subparagraph:a:item:i context: exception target: article 49a(1) \u2014 prohibition on mixing sub-mcrs catches with other fishery products; exception target: article 49a(1) \u2014 segregation of sub-mcrs catches (identifiability requirement) tags: derogation",
+      "match_role": "primary_law_candidate",
+      "candidate_status": "usable_with_context",
+      "risk_flags": [
+        "context_dependent"
+      ],
+      "confidence": "medium",
+      "territory_labels": [],
+      "jurisdiction_label": "",
+      "source_proposition_ids": [
+        "prop:0e651904382dad28"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1:sentence:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:0aee10e5464a0577"
+          ],
+          "relationship_id": "legalrel:45ddef6fda6809ab",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1:sentence:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:700e513c107639cf"
+          ],
+          "relationship_id": "legalrel:45ddef6fda6809ab",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "evidence": {
+        "source_record_ids": [
+          "src-eur-2009-1224"
+        ],
+        "source_fragment_ids": [
+          "frag-src-eur-2009-1224-007",
+          "frag-src-eur-2009-1224-006"
+        ],
+        "fragment_locators": [
+          "article:49a:paragraph:2:subparagraph:a:item:i",
+          "article:49a:paragraph:1:sentence:2",
+          "article:49a:paragraph:1:sentence:1"
+        ],
+        "citations": [
+          "EUR 2009/1224"
+        ]
+      },
+      "presentation": {
+        "title": "Art. 49a(2)(a)(i) \u2014 Small pelagic species exception",
+        "summary": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more small pelagic species (mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat).",
+        "source_label": "EUR 2009/1224",
+        "locator_label": "article:49a:paragraph:2:subparagraph:a:item:i",
+        "territory_labels": [],
+        "jurisdiction_label": ""
+      },
+      "provenance": {
+        "source": "effective_law_statements",
+        "method": "deterministic_beatrice_candidate_export"
+      },
+      "jurisdiction": "United Kingdom",
+      "source_jurisdiction": "UK",
+      "dedupe": {
+        "is_canonical": true,
+        "canonical_candidate_id": "bcand:226e79d13252f633",
+        "duplicate_count": 1,
+        "dedupe_key": "src-eur-2009-1224|article 49a(2:subparagraph:a:item:i)|paragraph 1 shall not apply where the catches contain more than 80% of one or more small pelagic species (mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat)."
+      }
+    },
+    {
+      "id": "bcand:411914e273ca94af",
+      "law_statement_id": "lawstmt:588c15b2fa7ac255",
+      "statement_text": "Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must not be mixed with any other fishery products.",
+      "normalized_statement_text": "catches below the applicable minimum conservation reference size retained on board a united kingdom fishing vessel must not be mixed with any other fishery products.",
+      "matching_text": "Title: Article 49a(1) \u2014 Prohibition on mixing sub-MCRS catches with other fishery products\nLaw: Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must not be mixed with any other fishery products.\nSource: EUR 2009/1224, article:49a:paragraph:1:sentence:2\nContext: applicable exception: Art. 49a(2)(a)(i) \u2014 Small pelagic species exception; applicable exception: Art. 49a(2)(a)(ii) \u2014 Industrial fisheries species exception; applicable exception: Art. 49a(2)(b) \u2014 Small vessel exception",
+      "normalized_matching_text": "title: article 49a(1) \u2014 prohibition on mixing sub-mcrs catches with other fishery products law: catches below the applicable minimum conservation reference size retained on board a united kingdom fishing vessel must not be mixed with any other fishery products. source: eur 2009/1224, article:49a:paragraph:1:sentence:2 context: applicable exception: art. 49a(2)(a)(i) \u2014 small pelagic species exception; applicable exception: art. 49a(2)(a)(ii) \u2014 industrial fisheries species exception; applicable exception: art. 49a(2)(b) \u2014 small vessel exception",
+      "match_role": "primary_law_candidate",
+      "candidate_status": "usable_with_context",
+      "risk_flags": [
+        "context_dependent"
+      ],
+      "confidence": "medium",
+      "territory_labels": [],
+      "jurisdiction_label": "",
+      "source_proposition_ids": [
+        "prop:0aee10e5464a0577"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2:subparagraph:a:item:i",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:0e651904382dad28"
+          ],
+          "relationship_id": "legalrel:45ddef6fda6809ab",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2:subparagraph:a:item:ii",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:4f1c02b9aa8931ca"
+          ],
+          "relationship_id": "legalrel:acdf8862a1c26477",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2:subparagraph:b",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:a59c469e896bdc42"
+          ],
+          "relationship_id": "legalrel:155ad681f6b96edf",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "evidence": {
+        "source_record_ids": [
+          "src-eur-2009-1224"
+        ],
+        "source_fragment_ids": [
+          "frag-src-eur-2009-1224-006",
+          "frag-src-eur-2009-1224-007"
+        ],
+        "fragment_locators": [
+          "article:49a:paragraph:1:sentence:2",
+          "article:49a:paragraph:2:subparagraph:a:item:i",
+          "article:49a:paragraph:2:subparagraph:a:item:ii",
+          "article:49a:paragraph:2:subparagraph:b"
+        ],
+        "citations": [
+          "EUR 2009/1224"
+        ]
+      },
+      "presentation": {
+        "title": "Article 49a(1) \u2014 Prohibition on mixing sub-MCRS catches with other fishery products",
+        "summary": "Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must not be mixed with any other fishery products.",
+        "source_label": "EUR 2009/1224",
+        "locator_label": "article:49a:paragraph:1:sentence:2",
+        "territory_labels": [],
+        "jurisdiction_label": ""
+      },
+      "provenance": {
+        "source": "effective_law_statements",
+        "method": "deterministic_beatrice_candidate_export"
+      },
+      "jurisdiction": "United Kingdom",
+      "source_jurisdiction": "UK",
+      "dedupe": {
+        "is_canonical": true,
+        "canonical_candidate_id": "bcand:411914e273ca94af",
+        "duplicate_count": 1,
+        "dedupe_key": "src-eur-2009-1224|article 49a(1:sentence:2)|catches below the applicable minimum conservation reference size retained on board a united kingdom fishing vessel must not be mixed with any other fishery products."
+      }
+    },
+    {
+      "id": "bcand:ba3064805d200e09",
+      "law_statement_id": "lawstmt:827ea27d7ca7afa9",
+      "statement_text": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more species used for industrial purposes (capelin, sandeel, Norwegian pout).",
+      "normalized_statement_text": "paragraph 1 shall not apply where the catches contain more than 80% of one or more species used for industrial purposes (capelin, sandeel, norwegian pout).",
+      "matching_text": "Title: Art. 49a(2)(a)(ii) \u2014 Industrial fisheries species exception\nLaw: Paragraph 1 shall not apply where the catches contain more than 80% of one or more species used for industrial purposes (capelin, sandeel, Norwegian pout).\nSource: EUR 2009/1224, article:49a:paragraph:2:subparagraph:a:item:ii\nContext: exception target: Article 49a(1) \u2014 Prohibition on mixing sub-MCRS catches with other fishery products; exception target: Article 49a(1) \u2014 Segregation of sub-MCRS catches (identifiability requirement)\nTags: derogation",
+      "normalized_matching_text": "title: art. 49a(2)(a)(ii) \u2014 industrial fisheries species exception law: paragraph 1 shall not apply where the catches contain more than 80% of one or more species used for industrial purposes (capelin, sandeel, norwegian pout). source: eur 2009/1224, article:49a:paragraph:2:subparagraph:a:item:ii context: exception target: article 49a(1) \u2014 prohibition on mixing sub-mcrs catches with other fishery products; exception target: article 49a(1) \u2014 segregation of sub-mcrs catches (identifiability requirement) tags: derogation",
+      "match_role": "primary_law_candidate",
+      "candidate_status": "usable_with_context",
+      "risk_flags": [
+        "context_dependent"
+      ],
+      "confidence": "medium",
+      "territory_labels": [],
+      "jurisdiction_label": "",
+      "source_proposition_ids": [
+        "prop:4f1c02b9aa8931ca"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1:sentence:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:0aee10e5464a0577"
+          ],
+          "relationship_id": "legalrel:acdf8862a1c26477",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1:sentence:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:700e513c107639cf"
+          ],
+          "relationship_id": "legalrel:acdf8862a1c26477",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "evidence": {
+        "source_record_ids": [
+          "src-eur-2009-1224"
+        ],
+        "source_fragment_ids": [
+          "frag-src-eur-2009-1224-007",
+          "frag-src-eur-2009-1224-006"
+        ],
+        "fragment_locators": [
+          "article:49a:paragraph:2:subparagraph:a:item:ii",
+          "article:49a:paragraph:1:sentence:2",
+          "article:49a:paragraph:1:sentence:1"
+        ],
+        "citations": [
+          "EUR 2009/1224"
+        ]
+      },
+      "presentation": {
+        "title": "Art. 49a(2)(a)(ii) \u2014 Industrial fisheries species exception",
+        "summary": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more species used for industrial purposes (capelin, sandeel, Norwegian pout).",
+        "source_label": "EUR 2009/1224",
+        "locator_label": "article:49a:paragraph:2:subparagraph:a:item:ii",
+        "territory_labels": [],
+        "jurisdiction_label": ""
+      },
+      "provenance": {
+        "source": "effective_law_statements",
+        "method": "deterministic_beatrice_candidate_export"
+      },
+      "jurisdiction": "United Kingdom",
+      "source_jurisdiction": "UK",
+      "dedupe": {
+        "is_canonical": true,
+        "canonical_candidate_id": "bcand:ba3064805d200e09",
+        "duplicate_count": 1,
+        "dedupe_key": "src-eur-2009-1224|article 49a(2:subparagraph:a:item:ii)|paragraph 1 shall not apply where the catches contain more than 80% of one or more species used for industrial purposes (capelin, sandeel, norwegian pout)."
+      }
+    },
+    {
+      "id": "bcand:d78af64d34181660",
+      "law_statement_id": "lawstmt:2c5c92bcccc639fb",
+      "statement_text": "Paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+      "normalized_statement_text": "paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with article 14 of this regulation.",
+      "matching_text": "Title: Art. 49a(2)(b) \u2014 Small vessel exception\nLaw: Paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.\nSource: EUR 2009/1224, article:49a:paragraph:2:subparagraph:b\nContext: exception target: Article 49a(1) \u2014 Prohibition on mixing sub-MCRS catches with other fishery products; exception target: Article 49a(1) \u2014 Segregation of sub-MCRS catches (identifiability requirement); article 14\nTags: derogation",
+      "normalized_matching_text": "title: art. 49a(2)(b) \u2014 small vessel exception law: paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with article 14 of this regulation. source: eur 2009/1224, article:49a:paragraph:2:subparagraph:b context: exception target: article 49a(1) \u2014 prohibition on mixing sub-mcrs catches with other fishery products; exception target: article 49a(1) \u2014 segregation of sub-mcrs catches (identifiability requirement); article 14 tags: derogation",
+      "match_role": "primary_law_candidate",
+      "candidate_status": "usable_with_context",
+      "risk_flags": [
+        "context_dependent"
+      ],
+      "confidence": "medium",
+      "territory_labels": [],
+      "jurisdiction_label": "",
+      "source_proposition_ids": [
+        "prop:a59c469e896bdc42"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1:sentence:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:0aee10e5464a0577"
+          ],
+          "relationship_id": "legalrel:155ad681f6b96edf",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1:sentence:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:700e513c107639cf"
+          ],
+          "relationship_id": "legalrel:155ad681f6b96edf",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "referenced_locator",
+          "locator": "article 14",
+          "resolution_status": "resolved",
+          "proposition_ids": [],
+          "resolution_basis": "explicit"
+        }
+      ],
+      "connector_context": [],
+      "evidence": {
+        "source_record_ids": [
+          "src-eur-2009-1224"
+        ],
+        "source_fragment_ids": [
+          "frag-src-eur-2009-1224-007",
+          "frag-src-eur-2009-1224-006"
+        ],
+        "fragment_locators": [
+          "article:49a:paragraph:2:subparagraph:b",
+          "article:49a:paragraph:1:sentence:2",
+          "article:49a:paragraph:1:sentence:1"
+        ],
+        "citations": [
+          "EUR 2009/1224"
+        ]
+      },
+      "presentation": {
+        "title": "Art. 49a(2)(b) \u2014 Small vessel exception",
+        "summary": "Paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+        "source_label": "EUR 2009/1224",
+        "locator_label": "article:49a:paragraph:2:subparagraph:b",
+        "territory_labels": [],
+        "jurisdiction_label": ""
+      },
+      "provenance": {
+        "source": "effective_law_statements",
+        "method": "deterministic_beatrice_candidate_export"
+      },
+      "jurisdiction": "United Kingdom",
+      "source_jurisdiction": "UK",
+      "dedupe": {
+        "is_canonical": true,
+        "canonical_candidate_id": "bcand:d78af64d34181660",
+        "duplicate_count": 1,
+        "dedupe_key": "src-eur-2009-1224|article 49a(2:subparagraph:b)|paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with article 14 of this regulation."
+      }
+    },
+    {
+      "id": "bcand:d83b150171023ee2",
+      "law_statement_id": "lawstmt:7f71ae3961e6c62d",
+      "statement_text": "All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.",
+      "normalized_statement_text": "all catches below the applicable minimum conservation reference size retained on board a united kingdom fishing vessel must be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.",
+      "matching_text": "Title: Article 49a(1) \u2014 Segregation of sub-MCRS catches (identifiability requirement)\nLaw: All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.\nSource: EUR 2009/1224, article:49a:paragraph:1:sentence:1\nContext: applicable exception: Art. 49a(2)(a)(i) \u2014 Small pelagic species exception; applicable exception: Art. 49a(2)(a)(ii) \u2014 Industrial fisheries species exception; applicable exception: Art. 49a(2)(b) \u2014 Small vessel exception",
+      "normalized_matching_text": "title: article 49a(1) \u2014 segregation of sub-mcrs catches (identifiability requirement) law: all catches below the applicable minimum conservation reference size retained on board a united kingdom fishing vessel must be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers. source: eur 2009/1224, article:49a:paragraph:1:sentence:1 context: applicable exception: art. 49a(2)(a)(i) \u2014 small pelagic species exception; applicable exception: art. 49a(2)(a)(ii) \u2014 industrial fisheries species exception; applicable exception: art. 49a(2)(b) \u2014 small vessel exception",
+      "match_role": "primary_law_candidate",
+      "candidate_status": "usable_with_context",
+      "risk_flags": [
+        "context_dependent"
+      ],
+      "confidence": "medium",
+      "territory_labels": [],
+      "jurisdiction_label": "",
+      "source_proposition_ids": [
+        "prop:700e513c107639cf"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2:subparagraph:a:item:i",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:0e651904382dad28"
+          ],
+          "relationship_id": "legalrel:45ddef6fda6809ab",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2:subparagraph:a:item:ii",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:4f1c02b9aa8931ca"
+          ],
+          "relationship_id": "legalrel:acdf8862a1c26477",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2:subparagraph:b",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop:a59c469e896bdc42"
+          ],
+          "relationship_id": "legalrel:155ad681f6b96edf",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:0d731f3ebe3c83ca",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-src-eur-2009-1224-007",
+          "target_source_fragment_id": "frag-src-eur-2009-1224-006",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "evidence": {
+        "source_record_ids": [
+          "src-eur-2009-1224"
+        ],
+        "source_fragment_ids": [
+          "frag-src-eur-2009-1224-006",
+          "frag-src-eur-2009-1224-007"
+        ],
+        "fragment_locators": [
+          "article:49a:paragraph:1:sentence:1",
+          "article:49a:paragraph:2:subparagraph:a:item:i",
+          "article:49a:paragraph:2:subparagraph:a:item:ii",
+          "article:49a:paragraph:2:subparagraph:b"
+        ],
+        "citations": [
+          "EUR 2009/1224"
+        ]
+      },
+      "presentation": {
+        "title": "Article 49a(1) \u2014 Segregation of sub-MCRS catches (identifiability requirement)",
+        "summary": "All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.",
+        "source_label": "EUR 2009/1224",
+        "locator_label": "article:49a:paragraph:1:sentence:1",
+        "territory_labels": [],
+        "jurisdiction_label": ""
+      },
+      "provenance": {
+        "source": "effective_law_statements",
+        "method": "deterministic_beatrice_candidate_export"
+      },
+      "jurisdiction": "United Kingdom",
+      "source_jurisdiction": "UK",
+      "dedupe": {
+        "is_canonical": true,
+        "canonical_candidate_id": "bcand:d83b150171023ee2",
+        "duplicate_count": 1,
+        "dedupe_key": "src-eur-2009-1224|article 49a(1:sentence:1)|all catches below the applicable minimum conservation reference size retained on board a united kingdom fishing vessel must be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers."
+      }
+    }
+  ]
+}

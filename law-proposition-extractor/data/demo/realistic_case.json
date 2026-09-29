@@ -1,0 +1,66 @@
+{
+  "topic": {
+    "name": "Movement records and submission duties",
+    "description": "More realistic comparison with uneven drafting style and mixed obligation patterns.",
+    "subject_tags": ["demo", "movement", "records", "reporting"]
+  },
+  "cluster": {
+    "name": "traceability",
+    "description": "Traceability, record retention, and reporting workflow controls."
+  },
+  "sources": [
+    {
+      "id": "src-eu-002",
+      "title": "Consolidated EU movement controls (extract)",
+      "jurisdiction": "EU",
+      "citation": "EU-EXAMPLE-002",
+      "kind": "regulation",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-15",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "version_id": "eu-example-002@2026-04-15",
+      "fragment_locator": "article:12",
+      "review_status": "proposed",
+      "text": "Article 12(1). Operators must keep a digital movement register and upload each dispatch entry within 24 hours; where the platform is unavailable, a paper log may be kept and transcribed within 48 hours. Article 12(3). The competent authority may inspect records on request. Recital note (non-binding): operators are encouraged to retain backup scans.",
+      "metadata": {
+        "cluster": "traceability",
+        "quality": "messy-consolidated-text"
+      }
+    },
+    {
+      "id": "src-uk-002",
+      "title": "UK retained movement controls (extract)",
+      "jurisdiction": "UK",
+      "citation": "UK-EXAMPLE-002",
+      "kind": "retained-regulation",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-15",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "version_id": "uk-example-002@2026-04-15",
+      "fragment_locator": "regulation:12",
+      "review_status": "proposed",
+      "text": "Regulation 12(1) Keepers must retain movement records for 5 years and submit a monthly return to the authority no later than the 10th day of the following month. Regulation 12(2) The appropriate authority may inspect records on request. Transitional note: until 31 March 2027, small operators may keep paper-only logs.",
+      "metadata": {
+        "cluster": "traceability",
+        "quality": "messy-consolidated-text"
+      }
+    }
+  ],
+  "comparison": {
+    "jurisdiction_a": "EU",
+    "jurisdiction_b": "UK",
+    "candidates": [
+      {
+        "proposition_index": 0
+      },
+      {
+        "proposition_index": 1
+      }
+    ]
+  },
+  "narrative": {
+    "title": "Realistic divergence narrative",
+    "summary": "This case intentionally includes mixed drafting quality, layered obligations, and two proposition pairings for comparison."
+  },
+  "run_notes": "Second demo case with multiple candidate comparisons and less tidy source drafting."
+}

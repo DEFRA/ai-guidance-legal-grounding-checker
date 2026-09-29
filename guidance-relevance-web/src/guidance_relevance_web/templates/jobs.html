@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Categories — Guidance Relevance Filter{% endblock %}
+{% block body %}
+<h1 class="govuk-heading-xl">Categories</h1>
+{% if not jobs %}
+  <p class="govuk-body">No runs yet. <a class="govuk-link" href="/">Create a category</a> to start one.</p>
+{% else %}
+  <table class="govuk-table">
+    <caption class="govuk-table__caption govuk-table__caption--m">{{ jobs | length }} run{% if jobs | length != 1 %}s{% endif %}</caption>
+    <thead class="govuk-table__head">
+      <tr class="govuk-table__row">
+        <th scope="col" class="govuk-table__header">When</th>
+        <th scope="col" class="govuk-table__header">Category</th>
+        <th scope="col" class="govuk-table__header">Status</th>
+        <th scope="col" class="govuk-table__header">Duration</th>
+        <th scope="col" class="govuk-table__header">Result</th>
+        <th scope="col" class="govuk-table__header">Cost</th>
+      </tr>
+    </thead>
+    <tbody class="govuk-table__body">
+      {% for job in jobs %}
+      <tr class="govuk-table__row">
+        <td class="govuk-table__cell">{{ job.when }}</td>
+        <td class="govuk-table__cell">
+          <a class="govuk-link" href="/jobs/{{ job.id }}">{{ job.category }}</a>
+          {% if job.corpus %}
+            <p class="govuk-hint govuk-!-margin-bottom-0">{{ job.corpus }}</p>
+          {% endif %}
+          {% if job.scope_hint %}
+            <p class="govuk-hint govuk-!-margin-bottom-0">{{ job.scope_hint }}</p>
+          {% endif %}
+        </td>
+        <td class="govuk-table__cell">
+          <strong class="govuk-tag {% if job.status == 'done' %}govuk-tag--green{% elif job.status == 'failed' %}govuk-tag--red{% elif job.status == 'running' %}govuk-tag--blue{% elif job.status == 'blocked_cap' %}govuk-tag--yellow{% else %}govuk-tag--grey{% endif %}">{{ job.status_label }}</strong>
+        </td>
+        <td class="govuk-table__cell">{{ job.duration.label if job.duration else "—" }}</td>
+        <td class="govuk-table__cell">{{ job.result }}</td>
+        <td class="govuk-table__cell">
+          {% if job.cost %}
+            {{ job.cost.label }}
+          {% elif job.cost_estimate %}
+            est. {{ job.cost_estimate.label }}
+          {% else %}
+            —
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "prop-eval-pass-0",
+    "proposition_text": "These Regulations may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018.",
+    "legal_subject": "These Regulations",
+    "action": "may be cited as",
+    "conditions": [],
+    "legal_effect_type": "citation",
+    "proposition_tier": "instrument_metadata",
+    "is_compliance_relevant": false,
+    "notes": "judit_extraction_meta:{\"evidence_quote\": \"may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018\"}"
+  },
+  {
+    "id": "prop-eval-pass-1",
+    "proposition_text": "These Regulations come into force on 2 April 2018.",
+    "legal_subject": "These Regulations",
+    "action": "come into force on",
+    "conditions": [],
+    "legal_effect_type": "commencement",
+    "proposition_tier": "instrument_metadata",
+    "is_compliance_relevant": false,
+    "notes": "judit_extraction_meta:{\"evidence_quote\": \"come into force on 2nd April 2018\"}"
+  },
+  {
+    "id": "prop-eval-pass-2",
+    "proposition_text": "These Regulations extend to England and Wales.",
+    "legal_subject": "These Regulations",
+    "action": "extend to",
+    "conditions": [],
+    "legal_effect_type": "extent",
+    "proposition_tier": "instrument_metadata",
+    "is_compliance_relevant": false,
+    "notes": "judit_extraction_meta:{\"evidence_quote\": \"extend to England and Wales\"}"
+  },
+  {
+    "id": "prop-eval-pass-3",
+    "proposition_text": "These Regulations apply to agricultural land in England.",
+    "legal_subject": "These Regulations",
+    "action": "apply to",
+    "conditions": [],
+    "legal_effect_type": "application_scope",
+    "proposition_tier": "scope_rule",
+    "is_compliance_relevant": false,
+    "notes": "judit_extraction_meta:{\"evidence_quote\": \"apply to agricultural land in England\"}"
+  }
+]

@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+node_modules/
+.next/
+*.json
+!package.json
+!package-lock.json
+!tsconfig*.json
+/tmp/
+.idea/
+
+# Local experiment scratch and run outputs — regenerable, kept out of the repo.
+/experiments/
+/runs/

@@ -1,0 +1,18 @@
+{
+  "category_id": "equine_identification",
+  "expansion_type": "category_synonym_expansion",
+  "suggested_synonyms": [
+    "equine passport",
+    "central equine database",
+    "unique equine life number",
+    "uln",
+    "commission delegated regulation 2015/262",
+    "equine register",
+    "movement document"
+  ],
+  "suggested_exclusions": [
+    "racecourse admission",
+    "equestrian tourism levy"
+  ],
+  "rationale": "EU-derived equine ID framework and UK central database terminology may surface additional Lex hits. Suggested exclusions refine false positives from tourism and racing-adjacent content not covered by the category brief."
+}

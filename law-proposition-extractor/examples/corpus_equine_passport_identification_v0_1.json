@@ -1,0 +1,20 @@
+{
+  "corpus_id": "equine_law",
+  "focus_scopes": ["equine", "equidae", "equid", "horse", "passport", "identification", "movement"],
+  "max_propositions_per_source": 12,
+  "extraction_mode": "frontier",
+  "extraction_fallback": "mark_needs_review",
+  "model_error_policy": "stop_repairable",
+  "divergence_reasoning": "none",
+  "equine_source_universe_path": "examples/equine_source_universe.json",
+  "corpus_profile_id": "equine_passport_identification_v0_1",
+  "related_source_discovery": { "enabled": false },
+  "inclusion_criteria": [
+    "Staged passport / identification profile only — wider 21-instrument universe is referenced but not auto-ingested here."
+  ],
+  "exclusion_criteria": [
+    "Claims of complete equine law coverage",
+    "Auto-analysis of every source-universe instrument without profile selection"
+  ],
+  "source_case_path": "examples/equine_passport_identification_case.json"
+}

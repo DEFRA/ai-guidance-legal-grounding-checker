@@ -1,0 +1,58 @@
+<Legislation DocumentURI="http://www.legislation.gov.uk/wsi/2021/77">
+  <Title>The Water Resources (Control of Agricultural Pollution) (Wales) Regulations 2021</Title>
+  <Body id="body">
+    <P1 id="regulation-35">
+      <Pnumber>35.</Pnumber>
+      <P1para>
+        <Text>Regulation 35 placeholder.</Text>
+      </P1para>
+    </P1>
+    <P1 id="regulation-36">
+      <Pnumber>36</Pnumber>
+      <P1para>
+        <P2 id="regulation-36-1">
+          <Pnumber>1</Pnumber>
+          <P2para>
+            <Text>Paragraph one of regulation 36.</Text>
+          </P2para>
+        </P2>
+        <P2 id="regulation-36-2">
+          <Pnumber>2</Pnumber>
+          <P2para>
+            <Text>Paragraph two of regulation 36.</Text>
+          </P2para>
+        </P2>
+        <P2 id="regulation-36-3">
+          <Pnumber>3</Pnumber>
+          <P2para>
+            <Text>Paragraph three of regulation 36.</Text>
+          </P2para>
+        </P2>
+        <P2 id="regulation-36-4">
+          <Pnumber>4</Pnumber>
+          <P2para>
+            <Text>The occupier must make a record of the calculations and how the final figures were arrived at.</Text>
+          </P2para>
+        </P2>
+      </P1para>
+    </P1>
+    <P1 id="regulation-37">
+      <Pnumber>37.</Pnumber>
+      <P1para>
+        <Text>Regulation 37 placeholder.</Text>
+      </P1para>
+    </P1>
+    <P1 id="schedule-1">
+      <Title>Schedule 1</Title>
+      <P1para>
+        <Text>Inspection powers.</Text>
+      </P1para>
+    </P1>
+    <P2 id="schedule-1-paragraph-3">
+      <Pnumber>3.</Pnumber>
+      <P2para>
+        <Text>Inspectors may enter premises for enforcement.</Text>
+      </P2para>
+    </P2>
+  </Body>
+</Legislation>

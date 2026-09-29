@@ -1,0 +1,59 @@
+{
+  "topic": {
+    "name": "Article 49a acceptance after qualified-reference relationships (EUR 2009/1224)",
+    "description": "End-to-end acceptance audit of Article 49a against live legislation.gov.uk CLML.",
+    "subject_tags": [
+      "acceptance",
+      "article-49a",
+      "eur-2009-1224",
+      "fish"
+    ]
+  },
+  "cluster": {
+    "name": "article-49a",
+    "description": "Targeted Article 49a paragraph extraction from Council Regulation (EC) No 1224/2009."
+  },
+  "extraction": {
+    "fragment_selection_mode": "required_plus_focus",
+    "required_fragment_locators": [
+      "article:49a:paragraph:1",
+      "article:49a:paragraph:2",
+      "article:49a:paragraph:3"
+    ],
+    "focus_terms": [
+      "Norwegian pout",
+      "boarfish"
+    ],
+    "include_annexes": false,
+    "divergence_reasoning": "none",
+    "mode": "frontier",
+    "fallback_policy": "fail_closed"
+  },
+  "sources": [
+    {
+      "id": "src-eur-2009-1224",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "eur/2009/1224",
+      "title": "Council Regulation (EC) No 1224/2009 of 20 November 2009 establishing a Union control system for ensuring compliance with the rules of the common fisheries policy",
+      "jurisdiction": "United Kingdom",
+      "citation": "EUR 2009/1224",
+      "kind": "assimilated_eu_law",
+      "provenance": "acceptance.article_49a",
+      "review_status": "accepted",
+      "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+      "metadata": {
+        "acceptance_audit": "prompt-18-br1-qualified",
+        "target_article": "49a"
+      }
+    }
+  ],
+  "comparison": {
+    "jurisdiction_a": "EU",
+    "jurisdiction_b": "UK"
+  },
+  "run_notes": "Offline Article 49a legal-structure regression (prompt 19-BR1). Uses captured reduced CLML + captured frontier responses; no network/LLM.",
+  "metadata": {
+    "acceptance_fixture": "article_49a_legal_structure",
+    "offline": true
+  }
+}

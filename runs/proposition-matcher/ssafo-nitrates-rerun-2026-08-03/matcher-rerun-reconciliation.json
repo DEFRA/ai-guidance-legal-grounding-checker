@@ -1,0 +1,1691 @@
+{
+  "generated_at": "2026-08-03T18:44:16",
+  "paths": {
+    "new_run": "/Users/bram/Code/defra/ai-eu-trade-accelerator/runs/proposition-matcher/ssafo-nitrates-rerun-2026-08-03",
+    "beatrice": "/Users/bram/Code/defra/content-audit-data-assets/steps/beatrice/runs/ssafo-nitrates/results.json",
+    "anna": "/Users/bram/Code/defra/content-audit-data-assets/steps/anna/runs/ssafo-nitrates/results.json",
+    "acceptance": "/Users/bram/Code/defra/ai-eu-trade-accelerator/runs/acceptance/ssafo-nitrates-current/results.json"
+  },
+  "run_meta": {
+    "command": "uv run proposition-matcher run --guidance /Users/bram/Code/defra/content-audit-data-assets/steps/susan/runs/ssafo-nvz-3/output.json --law /Users/bram/Code/defra/content-audit-data-assets/steps/judit/runs/ssafo-nitrates-2-export/beatrice_law_candidates.json --law-source candidates --out /Users/bram/Code/defra/ai-eu-trade-accelerator/runs/proposition-matcher/ssafo-nitrates-rerun-2026-08-03",
+    "started_at_utc": "2026-08-03T17:28:43Z",
+    "completed_at_utc": "2026-08-03T17:43:21Z",
+    "model_alias": "claude-sonnet-4-6",
+    "resolved_model": "claude-sonnet-4-6",
+    "embed_model": "nomic-embed-text:v1.5",
+    "retrieval": {
+      "top_k": 15,
+      "threshold": 0.65,
+      "score_gap": 0.04
+    },
+    "cache": {
+      "pipeline_cache": "none (README: nothing cached between runs)",
+      "anthropic_cache_read_tokens_group_rerank": 0,
+      "anthropic_cache_read_tokens_summarise": 0
+    },
+    "batches": {
+      "group_rerank": "msgbatch_01TdrhR4R3oB1KA7aPZkSWgC",
+      "summarise": "msgbatch_01GEKbLJ6veuWshA5Q5ytfcR"
+    },
+    "cost_usd_total": 2.4021,
+    "tokens": {
+      "input": 519019,
+      "output": 216471
+    },
+    "git": {
+      "ai-eu-trade-accelerator": "a32aa99224ae749772efc1710e326fdb0f28d81f",
+      "content-audit-data-assets": "187dab170767feff8dece9317f8f3961c7140b65",
+      "note": "Matcher code dirty at run time (validate/reconcile helpers added in same session after run started)"
+    },
+    "input_hashes": {
+      "guidance_sha256": "3e6582fe693658e7c928c2138ab328e195c5b2b2545869b60ef69ff2c1e1ae10",
+      "law_candidates_sha256": "1c06b1d02173c5e707ad5fd995f63d739704b15ba5bc4705725781bd06c87317",
+      "results_sha256": "4ab096d1c029650e3c4f951350560207d2f515a1389c48047f3f5352feb91637"
+    },
+    "incomplete_propositions": [
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "classification": "failed",
+        "failure_reason": "group_rerank_parse_failed",
+        "candidate_count": 15,
+        "match_rows": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "classification": "failed",
+        "failure_reason": "group_rerank_parse_failed",
+        "candidate_count": 15,
+        "match_rows": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-16",
+        "classification": "failed",
+        "failure_reason": "group_rerank_parse_failed",
+        "candidate_count": 15,
+        "match_rows": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-17",
+        "classification": "failed",
+        "failure_reason": "group_rerank_parse_failed",
+        "candidate_count": 15,
+        "match_rows": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "classification": "failed",
+        "failure_reason": "group_rerank_parse_failed",
+        "candidate_count": 14,
+        "match_rows": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-58",
+        "classification": "partial",
+        "failure_reason": "not_all_candidates_classified",
+        "candidate_count": 14,
+        "match_rows": 13
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-63",
+        "classification": "failed",
+        "failure_reason": "group_rerank_parse_failed",
+        "candidate_count": 15,
+        "match_rows": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-7",
+        "classification": "partial",
+        "failure_reason": "not_all_candidates_classified",
+        "candidate_count": 15,
+        "match_rows": 14
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-79",
+        "classification": "failed",
+        "failure_reason": "group_rerank_parse_failed",
+        "candidate_count": 11,
+        "match_rows": 0
+      }
+    ],
+    "likely_parse_failure_note": "7 group_rerank_parse_failed rows had candidate_count 11\u201315; CLASSIFY_MAX_TOKENS=2048 may truncate large group-rerank JSON. No config change made in this increment."
+  },
+  "validation": {
+    "ok": true,
+    "ready_for_adjudication": false,
+    "input_guidance_count": 217,
+    "result_guidance_count": 217,
+    "distinct_result_ids": 217,
+    "classification_counts": {
+      "complete": 208,
+      "failed": 7,
+      "partial": 2
+    },
+    "incomplete_guidance_proposition_ids": [
+      "susan-41dbc58cc6ea1113-14",
+      "susan-41dbc58cc6ea1113-15",
+      "susan-41dbc58cc6ea1113-16",
+      "susan-41dbc58cc6ea1113-17",
+      "susan-41dbc58cc6ea1113-40",
+      "susan-41dbc58cc6ea1113-58",
+      "susan-41dbc58cc6ea1113-63",
+      "susan-b5cccee08ec65fb7-7",
+      "susan-b5cccee08ec65fb7-79"
+    ],
+    "candidate_count_mismatches": [],
+    "duplicate_pairs": [],
+    "unknown_relationships": [],
+    "unresolved_law_ids": [],
+    "errors": [],
+    "warnings": []
+  },
+  "run_summary": {
+    "historic_beatrice": {
+      "guidance_propositions": 217,
+      "native_processing_records": 0,
+      "complete": 0,
+      "failed": 0,
+      "partial": 0,
+      "not_attempted": 0,
+      "zero_survivors": 0,
+      "empty_matches_rows": 8,
+      "pair_rows": 1424,
+      "distinct_pairs": 1424,
+      "multi_hit_guidance_propositions": 49,
+      "only_ungrounded_guidance_propositions": 55,
+      "reportable_pair_rows": 238,
+      "relationship_distribution": {
+        "GROUNDED": 98,
+        "UNGROUNDED": 1186,
+        "CONFLICTS": 11,
+        "GUIDANCE_INCOMPLETE": 71,
+        "GUIDANCE_BROADER": 58,
+        "GUIDANCE_MISSING": 0
+      },
+      "unknown_relationships": {}
+    },
+    "anna_adjudicated": {
+      "guidance_propositions": 217,
+      "native_processing_records": 0,
+      "complete": 0,
+      "failed": 0,
+      "partial": 0,
+      "not_attempted": 0,
+      "zero_survivors": 0,
+      "empty_matches_rows": 8,
+      "pair_rows": 1424,
+      "distinct_pairs": 1424,
+      "multi_hit_guidance_propositions": 49,
+      "only_ungrounded_guidance_propositions": 55,
+      "reportable_pair_rows": 238,
+      "relationship_distribution": {
+        "GROUNDED": 118,
+        "UNGROUNDED": 1186,
+        "CONFLICTS": 8,
+        "GUIDANCE_INCOMPLETE": 54,
+        "GUIDANCE_BROADER": 58,
+        "GUIDANCE_MISSING": 0
+      },
+      "unknown_relationships": {}
+    },
+    "acceptance_derived": {
+      "guidance_propositions": 217,
+      "native_processing_records": 217,
+      "complete": 217,
+      "failed": 0,
+      "partial": 0,
+      "not_attempted": 0,
+      "zero_survivors": 8,
+      "empty_matches_rows": 8,
+      "pair_rows": 1424,
+      "distinct_pairs": 1424,
+      "multi_hit_guidance_propositions": 49,
+      "only_ungrounded_guidance_propositions": 55,
+      "reportable_pair_rows": 238,
+      "relationship_distribution": {
+        "GROUNDED": 118,
+        "UNGROUNDED": 1186,
+        "CONFLICTS": 8,
+        "GUIDANCE_INCOMPLETE": 54,
+        "GUIDANCE_BROADER": 58,
+        "GUIDANCE_MISSING": 0
+      },
+      "unknown_relationships": {}
+    },
+    "new_matcher": {
+      "guidance_propositions": 217,
+      "native_processing_records": 217,
+      "complete": 208,
+      "failed": 7,
+      "partial": 2,
+      "not_attempted": 0,
+      "zero_survivors": 2,
+      "empty_matches_rows": 9,
+      "pair_rows": 1399,
+      "distinct_pairs": 1399,
+      "multi_hit_guidance_propositions": 49,
+      "only_ungrounded_guidance_propositions": 52,
+      "reportable_pair_rows": 233,
+      "relationship_distribution": {
+        "GROUNDED": 96,
+        "UNGROUNDED": 1166,
+        "CONFLICTS": 8,
+        "GUIDANCE_INCOMPLETE": 71,
+        "GUIDANCE_BROADER": 58,
+        "GUIDANCE_MISSING": 0
+      },
+      "unknown_relationships": {}
+    }
+  },
+  "pair_churn_historic_vs_new": {
+    "unchanged_distinct_pairs": 1367,
+    "new_pairs": 32,
+    "removed_pairs": 57,
+    "same_pair_relationship_changed": 81,
+    "changed_top_pairs": 34,
+    "new_pair_samples": [
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:074384636e10a2a0"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:07c6b3661f6fd903"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:0f278bcc9d64fcd3"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:1d79a3b7109fd20d"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:35ae41d6d9bb5652"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:49b5038f52e0ed80"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:4b7aa4105a13e94e"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:4b7edfccef2ab9f8"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:98c8fb10c970a6d1"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:acb0f8d735316cba"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:af60dbbae689bec5"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:cce8e7a09da3a9b0"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:dbb884c5fab18850"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:e864d8ab23089326"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "law_proposition_id": "bcand:edf175d3f31a8349"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:1bb6b721cd8a6d40"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:29f3ae25971be033"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:3c74aa78646b1a88"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:44654d1fd1959fe9"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:5c443b0204f0c6fc"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:5c92f5fd6316e040"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:7605dd58659f3c15"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:87ba7509cce5c642"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:8816503298c2ba34"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:9092684bd55cd929"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:9b870d528b580363"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:a529106c873c6652"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:b2f994636dc07182"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:c26d32863939b629"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "law_proposition_id": "bcand:fe09cb75f84685fe"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-45",
+        "law_proposition_id": "bcand:4c86ff5f2b81454c"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-11",
+        "law_proposition_id": "bcand:1f6499c81586c44d"
+      }
+    ],
+    "removed_pair_samples": [
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:0668981f10fe0172"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:28d85db388e168d8"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:2973cdbe802e63cb"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:44654d1fd1959fe9"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:4b7edfccef2ab9f8"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:5915e86eb3e72569"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:7605dd58659f3c15"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:8816503298c2ba34"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:8d7162b402e56536"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:9b870d528b580363"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:bd158d02dc68a9bf"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:c26d32863939b629"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:e6b40a3919b91922"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:f27d068bf8f73e85"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "law_proposition_id": "bcand:fe09cb75f84685fe"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:0668981f10fe0172"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:28d85db388e168d8"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:2973cdbe802e63cb"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:44654d1fd1959fe9"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:5915e86eb3e72569"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:7605dd58659f3c15"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:8816503298c2ba34"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:8d7162b402e56536"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:9b870d528b580363"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:b2f994636dc07182"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:bd158d02dc68a9bf"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:c26d32863939b629"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:e6b40a3919b91922"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:f27d068bf8f73e85"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "law_proposition_id": "bcand:fe09cb75f84685fe"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:0668981f10fe0172"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:08f7916de240864d"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:1a3b4db1707f8376"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:1df88bea96d1ea65"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:2f6eb0b62509e678"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:3559c670248ac958"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:388559623da4def5"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:502b73fd8b422b23"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:5c6a379c94a18e10"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:6e124046da8805bc"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:9b870d528b580363"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:b4fb61bf612875ae"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:b5bdc4ebdaf0b42a"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "law_proposition_id": "bcand:eda691e6ddc2cd3d"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-58",
+        "law_proposition_id": "bcand:388559623da4def5"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-7",
+        "law_proposition_id": "bcand:cce8e7a09da3a9b0"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-79",
+        "law_proposition_id": "bcand:074384636e10a2a0"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-79",
+        "law_proposition_id": "bcand:35295d3e9bfe34b2"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-79",
+        "law_proposition_id": "bcand:56d1a58b29c9e8c3"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-79",
+        "law_proposition_id": "bcand:8816503298c2ba34"
+      }
+    ],
+    "same_pair_relationship_changed_samples": [
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-13",
+        "law_proposition_id": "bcand:8d7162b402e56536",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-19",
+        "law_proposition_id": "bcand:e6b40a3919b91922",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-26",
+        "law_proposition_id": "bcand:daa6b18304ff4677",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-28",
+        "law_proposition_id": "bcand:3935f9d6579fd87f",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-29",
+        "law_proposition_id": "bcand:5915e86eb3e72569",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-39",
+        "law_proposition_id": "bcand:faf27127ac00dc4d",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-41",
+        "law_proposition_id": "bcand:3559c670248ac958",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-42",
+        "law_proposition_id": "bcand:eda691e6ddc2cd3d",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-42",
+        "law_proposition_id": "bcand:1a3b4db1707f8376",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-42",
+        "law_proposition_id": "bcand:1df88bea96d1ea65",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-45",
+        "law_proposition_id": "bcand:e35f247d4fb2ddf0",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-48",
+        "law_proposition_id": "bcand:2f6eb0b62509e678",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-50",
+        "law_proposition_id": "bcand:b4fb61bf612875ae",
+        "historic_relationship": "GUIDANCE_INCOMPLETE",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-51",
+        "law_proposition_id": "bcand:8d7162b402e56536",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-51",
+        "law_proposition_id": "bcand:0668981f10fe0172",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-54",
+        "law_proposition_id": "bcand:ee54aa7c2d046744",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-62",
+        "law_proposition_id": "bcand:a4b4bbc61c41f9be",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-7",
+        "law_proposition_id": "bcand:0668981f10fe0172",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-7",
+        "law_proposition_id": "bcand:e6b40a3919b91922",
+        "historic_relationship": "GUIDANCE_INCOMPLETE",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-13",
+        "law_proposition_id": "bcand:39feb3c288ff4258",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-17",
+        "law_proposition_id": "bcand:44654d1fd1959fe9",
+        "historic_relationship": "GUIDANCE_INCOMPLETE",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-2",
+        "law_proposition_id": "bcand:00368cd678597285",
+        "historic_relationship": "GUIDANCE_INCOMPLETE",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-25",
+        "law_proposition_id": "bcand:dce960e87a56110a",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-26",
+        "law_proposition_id": "bcand:234d4c5b8f67998f",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-29",
+        "law_proposition_id": "bcand:9b870d528b580363",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-30",
+        "law_proposition_id": "bcand:c281793bdb7fc761",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-40",
+        "law_proposition_id": "bcand:4f2e7b35715696d7",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-40",
+        "law_proposition_id": "bcand:d4b322214797f299",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-42",
+        "law_proposition_id": "bcand:0dadd175dec16ccc",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-45",
+        "law_proposition_id": "bcand:52f8ea7c13e0b465",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-46",
+        "law_proposition_id": "bcand:00344f88b7d1ba6d",
+        "historic_relationship": "GUIDANCE_INCOMPLETE",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-47",
+        "law_proposition_id": "bcand:06d0f9453e92c5da",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-48",
+        "law_proposition_id": "bcand:75dd71e4555076b5",
+        "historic_relationship": "GUIDANCE_INCOMPLETE",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-52",
+        "law_proposition_id": "bcand:a896d168aeef910b",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-53",
+        "law_proposition_id": "bcand:a896d168aeef910b",
+        "historic_relationship": "GUIDANCE_INCOMPLETE",
+        "new_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+        "law_proposition_id": "bcand:b54a7cace39b1627",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+        "law_proposition_id": "bcand:38c181bbc6a47521",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+        "law_proposition_id": "bcand:cd24c17569dac1a2",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-55",
+        "law_proposition_id": "bcand:c79b38da1dbd2898",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-57",
+        "law_proposition_id": "bcand:074384636e10a2a0",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-57",
+        "law_proposition_id": "bcand:003299ab9e66e43b",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+        "law_proposition_id": "bcand:dce960e87a56110a",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+        "law_proposition_id": "bcand:af60dbbae689bec5",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+        "law_proposition_id": "bcand:dbb884c5fab18850",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+        "law_proposition_id": "bcand:4b7aa4105a13e94e",
+        "historic_relationship": "UNGROUNDED",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+        "law_proposition_id": "bcand:edf175d3f31a8349",
+        "historic_relationship": "GUIDANCE_BROADER",
+        "new_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-73",
+        "law_proposition_id": "bcand:27a4cffbcafd5cf6",
+        "historic_relationship": "CONFLICTS",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-75",
+        "law_proposition_id": "bcand:2580f7cecc987027",
+        "historic_relationship": "GROUNDED",
+        "new_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-75",
+        "law_proposition_id": "bcand:3791c325fc36470a",
+        "historic_relationship": "GUIDANCE_INCOMPLETE",
+        "new_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-76",
+        "law_proposition_id": "bcand:bbe8c65330bf8856",
+        "historic_relationship": "GUIDANCE_INCOMPLETE",
+        "new_relationship": "GROUNDED"
+      }
+    ],
+    "changed_top_pair_samples": [
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-13",
+        "historic_top_law_id": "bcand:5915e86eb3e72569",
+        "historic_top_relationship": "UNGROUNDED",
+        "new_top_law_id": "bcand:8d7162b402e56536",
+        "new_top_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-14",
+        "historic_top_law_id": "bcand:bd158d02dc68a9bf",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": null,
+        "new_top_relationship": null
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-15",
+        "historic_top_law_id": "bcand:5915e86eb3e72569",
+        "historic_top_relationship": "UNGROUNDED",
+        "new_top_law_id": null,
+        "new_top_relationship": null
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-28",
+        "historic_top_law_id": "bcand:28d85db388e168d8",
+        "historic_top_relationship": "UNGROUNDED",
+        "new_top_law_id": "bcand:3935f9d6579fd87f",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-29",
+        "historic_top_law_id": "bcand:44654d1fd1959fe9",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:5915e86eb3e72569",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-40",
+        "historic_top_law_id": "bcand:1a3b4db1707f8376",
+        "historic_top_relationship": "GUIDANCE_BROADER",
+        "new_top_law_id": null,
+        "new_top_relationship": null
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-42",
+        "historic_top_law_id": "bcand:1a3b4db1707f8376",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:3559c670248ac958",
+        "new_top_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-50",
+        "historic_top_law_id": "bcand:388559623da4def5",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:b4fb61bf612875ae",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-51",
+        "historic_top_law_id": "bcand:8d7162b402e56536",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:0668981f10fe0172",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "historic_top_law_id": null,
+        "historic_top_relationship": null,
+        "new_top_law_id": "bcand:dbb884c5fab18850",
+        "new_top_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-62",
+        "historic_top_law_id": "bcand:dbb884c5fab18850",
+        "historic_top_relationship": "UNGROUNDED",
+        "new_top_law_id": "bcand:a4b4bbc61c41f9be",
+        "new_top_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-7",
+        "historic_top_law_id": "bcand:0668981f10fe0172",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:e6b40a3919b91922",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "historic_top_law_id": null,
+        "historic_top_relationship": null,
+        "new_top_law_id": "bcand:5c92f5fd6316e040",
+        "new_top_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-2",
+        "historic_top_law_id": "bcand:00368cd678597285",
+        "historic_top_relationship": "GUIDANCE_INCOMPLETE",
+        "new_top_law_id": "bcand:c26d32863939b629",
+        "new_top_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-26",
+        "historic_top_law_id": "bcand:20f9666fd8f4051d",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:234d4c5b8f67998f",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-48",
+        "historic_top_law_id": "bcand:6a63cadec4e19d42",
+        "historic_top_relationship": "CONFLICTS",
+        "new_top_law_id": "bcand:75dd71e4555076b5",
+        "new_top_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-64",
+        "historic_top_law_id": "bcand:af60dbbae689bec5",
+        "historic_top_relationship": "GUIDANCE_BROADER",
+        "new_top_law_id": "bcand:dce960e87a56110a",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-73",
+        "historic_top_law_id": "bcand:27a4cffbcafd5cf6",
+        "historic_top_relationship": "CONFLICTS",
+        "new_top_law_id": "bcand:9c5afe85947e4eea",
+        "new_top_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-75",
+        "historic_top_law_id": "bcand:2580f7cecc987027",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:3791c325fc36470a",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-76",
+        "historic_top_law_id": "bcand:e4ed0650eb539a50",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:bbe8c65330bf8856",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-79",
+        "historic_top_law_id": "bcand:f0976a42d62cbf16",
+        "historic_top_relationship": "GUIDANCE_BROADER",
+        "new_top_law_id": null,
+        "new_top_relationship": null
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-8",
+        "historic_top_law_id": "bcand:3cb4340de6bef514",
+        "historic_top_relationship": "CONFLICTS",
+        "new_top_law_id": "bcand:b2f994636dc07182",
+        "new_top_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-80",
+        "historic_top_law_id": "bcand:ad1021da41ceb7ae",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:56d1a58b29c9e8c3",
+        "new_top_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-11",
+        "historic_top_law_id": null,
+        "historic_top_relationship": null,
+        "new_top_law_id": "bcand:1f6499c81586c44d",
+        "new_top_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-12",
+        "historic_top_law_id": "bcand:297badcb25473d76",
+        "historic_top_relationship": "GUIDANCE_BROADER",
+        "new_top_law_id": "bcand:6b2c180707a5d1b9",
+        "new_top_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-17",
+        "historic_top_law_id": "bcand:e7815975e831a82a",
+        "historic_top_relationship": "GUIDANCE_INCOMPLETE",
+        "new_top_law_id": "bcand:3ac3047dcfb92297",
+        "new_top_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-18",
+        "historic_top_law_id": "bcand:909f71968c86dbea",
+        "historic_top_relationship": "UNGROUNDED",
+        "new_top_law_id": "bcand:3ac3047dcfb92297",
+        "new_top_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-21",
+        "historic_top_law_id": "bcand:f06816e1fdb476ed",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:2cbe6fd2dfb2bab6",
+        "new_top_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-3",
+        "historic_top_law_id": "bcand:23630cf4a53b5fc8",
+        "historic_top_relationship": "GUIDANCE_BROADER",
+        "new_top_law_id": "bcand:b546b09215d6b240",
+        "new_top_relationship": "UNGROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-33",
+        "historic_top_law_id": "bcand:3ac3047dcfb92297",
+        "historic_top_relationship": "GUIDANCE_INCOMPLETE",
+        "new_top_law_id": "bcand:e7815975e831a82a",
+        "new_top_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-37",
+        "historic_top_law_id": "bcand:ad85ed0ab1b89ca2",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:6adbc74b0ed8a74e",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-51",
+        "historic_top_law_id": "bcand:87841ad30c37313a",
+        "historic_top_relationship": "UNGROUNDED",
+        "new_top_law_id": "bcand:23630cf4a53b5fc8",
+        "new_top_relationship": "GUIDANCE_BROADER"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-55",
+        "historic_top_law_id": "bcand:c8020c60c33d7c96",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:0fa90cee11471cda",
+        "new_top_relationship": "GROUNDED"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-6",
+        "historic_top_law_id": "bcand:17b7cfc3401a7ee1",
+        "historic_top_relationship": "GROUNDED",
+        "new_top_law_id": "bcand:5cb952f51f42ed5e",
+        "new_top_relationship": "GROUNDED"
+      }
+    ]
+  },
+  "adjudication_portability_anna_vs_new": {
+    "historic_adjudications_count": 20,
+    "portability_counts": {
+      "UNCHANGED_PAIR_PRESENT": 3,
+      "PAIR_PRESENT_RELATIONSHIP_DIFFERS": 17
+    },
+    "safe_to_review_same_pair": [
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-1",
+        "law_proposition_id": "bcand:1f6499c81586c44d",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GROUNDED",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-25",
+        "law_proposition_id": "bcand:2cbe6fd2dfb2bab6",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-27",
+        "law_proposition_id": "bcand:5cb952f51f42ed5e",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-30",
+        "law_proposition_id": "bcand:548bf1dcf895bf65",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-56",
+        "law_proposition_id": "bcand:668a0f452928ab85",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GROUNDED",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-6",
+        "law_proposition_id": "bcand:44654d1fd1959fe9",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-9",
+        "law_proposition_id": "bcand:2129d3e3b97ea7c2",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-46",
+        "law_proposition_id": "bcand:502b73fd8b422b23",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-47",
+        "law_proposition_id": "bcand:502b73fd8b422b23",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-60",
+        "law_proposition_id": "bcand:1b99ae650c93657e",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-10",
+        "law_proposition_id": "bcand:96df77c061b4b3c3",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-17",
+        "law_proposition_id": "bcand:44654d1fd1959fe9",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GROUNDED",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-24",
+        "law_proposition_id": "bcand:9b870d528b580363",
+        "beatrice_relationship": "CONFLICTS",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "CONFLICTS",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-51",
+        "law_proposition_id": "bcand:cf03ffd731b61bc4",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-53",
+        "law_proposition_id": "bcand:a896d168aeef910b",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_BROADER",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-74",
+        "law_proposition_id": "bcand:3791c325fc36470a",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-81",
+        "law_proposition_id": "bcand:8816503298c2ba34",
+        "beatrice_relationship": "CONFLICTS",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "CONFLICTS",
+        "new_rank": 0
+      }
+    ],
+    "pair_disappeared": [],
+    "adjudication_now_non_top": [
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-17",
+        "law_proposition_id": "bcand:e7815975e831a82a",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "GUIDANCE_INCOMPLETE",
+        "new_rank": 1
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-33",
+        "law_proposition_id": "bcand:3ac3047dcfb92297",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "UNGROUNDED",
+        "new_rank": 1
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-73",
+        "law_proposition_id": "bcand:27a4cffbcafd5cf6",
+        "beatrice_relationship": "CONFLICTS",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_relationship": "UNGROUNDED",
+        "new_rank": 1
+      }
+    ],
+    "raw_matcher_already_agrees_with_anna": [
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-1",
+        "law_proposition_id": "bcand:1f6499c81586c44d",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-56",
+        "law_proposition_id": "bcand:668a0f452928ab85",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-17",
+        "law_proposition_id": "bcand:44654d1fd1959fe9",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0
+      }
+    ],
+    "blind_copy_would_change_different_pair": [
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-17",
+        "law_proposition_id": "bcand:e7815975e831a82a",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_top_law_id": "bcand:3ac3047dcfb92297",
+        "new_top_relationship": "GUIDANCE_INCOMPLETE",
+        "adjudicated_pair_new_rank": 1
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-33",
+        "law_proposition_id": "bcand:3ac3047dcfb92297",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_top_law_id": "bcand:e7815975e831a82a",
+        "new_top_relationship": "GUIDANCE_INCOMPLETE",
+        "adjudicated_pair_new_rank": 1
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-73",
+        "law_proposition_id": "bcand:27a4cffbcafd5cf6",
+        "beatrice_relationship": "CONFLICTS",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "new_top_law_id": "bcand:9c5afe85947e4eea",
+        "new_top_relationship": "UNGROUNDED",
+        "adjudicated_pair_new_rank": 1
+      }
+    ],
+    "new_top_pairs_without_historic_adjudication": [
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-17",
+        "new_top_law_id": "bcand:3ac3047dcfb92297",
+        "new_top_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-33",
+        "new_top_law_id": "bcand:e7815975e831a82a",
+        "new_top_relationship": "GUIDANCE_INCOMPLETE"
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-73",
+        "new_top_law_id": "bcand:9c5afe85947e4eea",
+        "new_top_relationship": "UNGROUNDED"
+      }
+    ],
+    "propositions_needing_fresh_adjudication": [
+      "susan-41dbc58cc6ea1113-46",
+      "susan-41dbc58cc6ea1113-47",
+      "susan-41dbc58cc6ea1113-6",
+      "susan-41dbc58cc6ea1113-60",
+      "susan-41dbc58cc6ea1113-9",
+      "susan-b5cccee08ec65fb7-10",
+      "susan-b5cccee08ec65fb7-24",
+      "susan-b5cccee08ec65fb7-51",
+      "susan-b5cccee08ec65fb7-53",
+      "susan-b5cccee08ec65fb7-73",
+      "susan-b5cccee08ec65fb7-74",
+      "susan-b5cccee08ec65fb7-81",
+      "susan-ef92f343b178a474-17",
+      "susan-ef92f343b178a474-25",
+      "susan-ef92f343b178a474-27",
+      "susan-ef92f343b178a474-30",
+      "susan-ef92f343b178a474-33"
+    ],
+    "details": [
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-1",
+        "law_proposition_id": "bcand:1f6499c81586c44d",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "UNCHANGED_PAIR_PRESENT",
+        "new_top_law_id": "bcand:1f6499c81586c44d",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-17",
+        "law_proposition_id": "bcand:e7815975e831a82a",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:3ac3047dcfb92297",
+        "new_rank": 1
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-25",
+        "law_proposition_id": "bcand:2cbe6fd2dfb2bab6",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:2cbe6fd2dfb2bab6",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-27",
+        "law_proposition_id": "bcand:5cb952f51f42ed5e",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:5cb952f51f42ed5e",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-30",
+        "law_proposition_id": "bcand:548bf1dcf895bf65",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:548bf1dcf895bf65",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-33",
+        "law_proposition_id": "bcand:3ac3047dcfb92297",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:e7815975e831a82a",
+        "new_rank": 1
+      },
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-56",
+        "law_proposition_id": "bcand:668a0f452928ab85",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "UNCHANGED_PAIR_PRESENT",
+        "new_top_law_id": "bcand:668a0f452928ab85",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-6",
+        "law_proposition_id": "bcand:44654d1fd1959fe9",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:44654d1fd1959fe9",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-9",
+        "law_proposition_id": "bcand:2129d3e3b97ea7c2",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:2129d3e3b97ea7c2",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-46",
+        "law_proposition_id": "bcand:502b73fd8b422b23",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:502b73fd8b422b23",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-47",
+        "law_proposition_id": "bcand:502b73fd8b422b23",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:502b73fd8b422b23",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-60",
+        "law_proposition_id": "bcand:1b99ae650c93657e",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:1b99ae650c93657e",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-10",
+        "law_proposition_id": "bcand:96df77c061b4b3c3",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:96df77c061b4b3c3",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-17",
+        "law_proposition_id": "bcand:44654d1fd1959fe9",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "UNCHANGED_PAIR_PRESENT",
+        "new_top_law_id": "bcand:44654d1fd1959fe9",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-24",
+        "law_proposition_id": "bcand:9b870d528b580363",
+        "beatrice_relationship": "CONFLICTS",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:9b870d528b580363",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-51",
+        "law_proposition_id": "bcand:cf03ffd731b61bc4",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:cf03ffd731b61bc4",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-53",
+        "law_proposition_id": "bcand:a896d168aeef910b",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:a896d168aeef910b",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-73",
+        "law_proposition_id": "bcand:27a4cffbcafd5cf6",
+        "beatrice_relationship": "CONFLICTS",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:9c5afe85947e4eea",
+        "new_rank": 1
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-74",
+        "law_proposition_id": "bcand:3791c325fc36470a",
+        "beatrice_relationship": "GUIDANCE_INCOMPLETE",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:3791c325fc36470a",
+        "new_rank": 0
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-81",
+        "law_proposition_id": "bcand:8816503298c2ba34",
+        "beatrice_relationship": "CONFLICTS",
+        "anna_relationship": "GROUNDED",
+        "historic_rank": 0,
+        "portability": "PAIR_PRESENT_RELATIONSHIP_DIFFERS",
+        "new_top_law_id": "bcand:8816503298c2ba34",
+        "new_rank": 0
+      }
+    ]
+  },
+  "acceptance_vs_native_processing": {
+    "note": "Acceptance copy reconstructed candidate_count from distinct law IDs in matches[] and forced classification=complete. It is not authoritative production Matcher evidence.",
+    "guidance_propositions_acceptance": 217,
+    "guidance_propositions_new": 217,
+    "native_processing_records_new": 217,
+    "reconstructed_processing_records_acceptance": 217,
+    "candidate_count_differences": 7,
+    "candidate_count_difference_samples": [
+      {
+        "guidance_proposition_id": "susan-ef92f343b178a474-11",
+        "acceptance_candidate_count": 0,
+        "native_candidate_count": 1
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-16",
+        "acceptance_candidate_count": 0,
+        "native_candidate_count": 15
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-17",
+        "acceptance_candidate_count": 0,
+        "native_candidate_count": 15
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-61",
+        "acceptance_candidate_count": 0,
+        "native_candidate_count": 15
+      },
+      {
+        "guidance_proposition_id": "susan-41dbc58cc6ea1113-63",
+        "acceptance_candidate_count": 0,
+        "native_candidate_count": 15
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-16",
+        "acceptance_candidate_count": 0,
+        "native_candidate_count": 15
+      },
+      {
+        "guidance_proposition_id": "susan-b5cccee08ec65fb7-45",
+        "acceptance_candidate_count": 8,
+        "native_candidate_count": 9
+      }
+    ],
+    "only_ungrounded_acceptance": 55,
+    "only_ungrounded_new": 52,
+    "zero_survivors_acceptance": 8,
+    "zero_survivors_new": 2,
+    "reportable_pairs_acceptance": 238,
+    "reportable_pairs_new": 233,
+    "multi_hit_acceptance": 49,
+    "multi_hit_new": 49,
+    "relationship_distribution_acceptance": {
+      "GROUNDED": 118,
+      "UNGROUNDED": 1186,
+      "CONFLICTS": 8,
+      "GUIDANCE_INCOMPLETE": 54,
+      "GUIDANCE_BROADER": 58,
+      "GUIDANCE_MISSING": 0
+    },
+    "relationship_distribution_new": {
+      "GROUNDED": 96,
+      "UNGROUNDED": 1166,
+      "CONFLICTS": 8,
+      "GUIDANCE_INCOMPLETE": 71,
+      "GUIDANCE_BROADER": 58,
+      "GUIDANCE_MISSING": 0
+    }
+  },
+  "recommendation": {
+    "strategy": "FULL_ADJUDICATOR_RERUN_REQUIRED",
+    "reasons": [
+      "native run is not ready for adjudication (incomplete processing)"
+    ],
+    "reportable_relationships": [
+      "CONFLICTS",
+      "GROUNDED",
+      "GUIDANCE_BROADER",
+      "GUIDANCE_INCOMPLETE",
+      "GUIDANCE_MISSING"
+    ]
+  },
+  "conditional_recommendation_if_completed": {
+    "note": "If a later retry reaches 217/217 complete with similar churn, pairwise reconciliation is plausible: 0 Anna pairs disappeared; 20 historic adjudications still joinable by exact pair (portability={'UNCHANGED_PAIR_PRESENT': 3, 'PAIR_PRESENT_RELATIONSHIP_DIFFERS': 17}; churn new=32, removed=57, changed_top=34).",
+    "strategy_if_complete": "PAIRWISE_ADJUDICATION_RECONCILIATION_POSSIBLE"
+  }
+}

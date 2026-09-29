@@ -1,0 +1,126 @@
+# explainability-diagram: law-proposition-extractor-system-map
+# compatible-registry-version: 1
+# compatible-fixture-hash: 1773194120d6
+# authorship: hand-authored
+# title: Law Proposition Extractor system map
+# audience: product stakeholders, lawyers, developers
+# purpose: Show where Law Proposition Extractor sits between Law Discovery, review, and Proposition Matcher — with humans in the loop.
+# source-of-truth: docs/explainability/README.md; docs/architecture/system-overview.md
+
+direction: down
+
+classes: {
+  external: {
+    shape: cylinder
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#475569"
+      stroke-dash: 4
+      font-size: 13
+    }
+  }
+  system: {
+    shape: rectangle
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#3730A3"
+      stroke-width: 2
+      border-radius: 8
+      font-size: 14
+    }
+  }
+  human: {
+    shape: person
+    style: {
+      fill: "#F0F9FF"
+      stroke: "#0369A1"
+      stroke-width: 2
+      font-size: 13
+    }
+  }
+  reviewed: {
+    shape: rectangle
+    style: {
+      fill: "#ECFDF5"
+      stroke: "#047857"
+      stroke-width: 2
+      border-radius: 8
+      font-size: 13
+    }
+  }
+  optional: {
+    shape: rectangle
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#B45309"
+      stroke-dash: 5
+      border-radius: 8
+      font-size: 13
+    }
+  }
+  note: {
+    shape: page
+    style: {
+      fill: "#FFF7ED"
+      stroke: "#C2410C"
+      font-size: 12
+    }
+  }
+}
+
+title: |md
+  **Law Proposition Extractor system map** — Law Discovery finds sources; Law Proposition Extractor models rules; humans review; Proposition Matcher compares guidance
+|
+title.style.font-size: 16
+
+sources: {
+  label: "External source authorities"
+  style.fill: "#F8FAFC"
+  style.stroke: "#94A3B8"
+
+  leg: "legislation.gov.uk"
+  leg.class: external
+  eur: "EUR-Lex"
+  eur.class: external
+}
+
+law-discovery: "[Law Discovery] Source register\nfinds and registers sources"
+law-discovery.class: system
+
+intake: "Law Proposition Extractor intake and source capture\nconsumes source snapshots"
+intake.class: system
+
+pipeline: "Law Proposition Extractor proposition and\nlegal-structure pipeline\nmodels legal rules from snapshots"
+pipeline.class: system
+
+divergence: "[optional] Law Proposition Extractor divergence branch\nproposition / effective-law comparison"
+divergence.class: optional
+
+workbench: "Review Workbench\nhuman review of legal structure\nand decision explanations"
+workbench.class: system
+
+reviewers: "Reviewers (human)"
+reviewers.class: human
+
+reviewed: "Reviewed effective-law output\n(reviewed — not automatically authoritative)"
+reviewed.class: reviewed
+
+proposition-matcher: "Proposition Matcher guidance comparison\ncompares reviewed law with guidance"
+proposition-matcher.class: system
+
+boundary: |md
+  **Boundary:** Neither Law Proposition Extractor nor Proposition Matcher independently publishes law without review.
+|
+boundary.class: note
+
+sources.leg -> law-discovery: "discovered URIs"
+sources.eur -> law-discovery: "discovered URIs"
+law-discovery -> intake: "registered sources"
+intake -> pipeline
+pipeline -> workbench
+pipeline -> divergence: "optional"
+divergence -> workbench: "optional findings"
+reviewers -> workbench: "review verdicts"
+workbench -> reviewed: "after human review"
+reviewed -> proposition-matcher: "reviewed law only"
+boundary -> reviewed

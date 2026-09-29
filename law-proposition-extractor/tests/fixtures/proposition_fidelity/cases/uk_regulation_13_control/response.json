@@ -1,0 +1,20 @@
+{
+  "propositions": [
+    {
+      "proposition_text": "Regulation 13 has no group Title and remains valid without a heading.",
+      "display_label": "Regulation 13 — unheaded control provision",
+      "subject": "Regulation 13",
+      "rule": "remains valid without a heading",
+      "object": "group Title / heading",
+      "conditions": [],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "regulation:13",
+      "evidence_text": "Regulation 13 has no group Title and remains valid without a heading.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Control case: exactly one proposition; unheaded provision."
+    }
+  ]
+}

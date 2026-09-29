@@ -1,0 +1,52 @@
+model_list:
+  - model_name: local_extract
+    litellm_params:
+      model: ollama/qwen3:14b
+      api_base: http://127.0.0.1:11434
+
+  - model_name: qwen3_14b_schema
+    litellm_params:
+      model: ollama/qwen3:14b
+      api_base: http://127.0.0.1:11434
+
+  - model_name: llama31_8b_schema
+    litellm_params:
+      model: ollama/llama3.1:8b
+      api_base: http://127.0.0.1:11434
+
+  - model_name: gemma3_12b_schema
+    litellm_params:
+      model: ollama/gemma3:12b
+      api_base: http://127.0.0.1:11434
+
+  - model_name: local_classify
+    litellm_params:
+      model: ollama/qwen3:14b
+      api_base: http://127.0.0.1:11434
+
+  - model_name: frontier_extract
+    litellm_params:
+      model: anthropic/claude-sonnet-4-5-20250929
+      api_key: "os.environ/ANTHROPIC_API_KEY"
+
+  - model_name: frontier_reason
+    litellm_params:
+      model: anthropic/claude-sonnet-4-5-20250929
+      api_key: "os.environ/ANTHROPIC_API_KEY"
+
+  # Law Discovery discovery triage (alias for frontier_reason; must match LAW_DISCOVERY_AI_MODEL in law-discovery/.env)
+  - model_name: law-discovery-fast
+    litellm_params:
+      model: anthropic/claude-sonnet-4-5-20250929
+      api_key: "os.environ/ANTHROPIC_API_KEY"
+
+  - model_name: frontier_writeup
+    litellm_params:
+      model: anthropic/claude-sonnet-4-5-20250929
+      api_key: "os.environ/ANTHROPIC_API_KEY"
+
+litellm_settings:
+  drop_params: false
+
+general_settings:
+  master_key: "os.environ/LITELLM_MASTER_KEY"

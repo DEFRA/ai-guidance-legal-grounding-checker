@@ -1,0 +1,13 @@
+[
+  {
+    "id": "prop-eval-fail-1",
+    "proposition_text": "These Regulations may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018, come into force on 2 April 2018, extend to England and Wales, and apply to agricultural land in England.",
+    "legal_subject": "These Regulations",
+    "action": "must comply with all provisions",
+    "conditions": [],
+    "legal_effect_type": "obligation",
+    "proposition_tier": "substantive_rule",
+    "is_compliance_relevant": true,
+    "notes": "judit_extraction_meta:{\"evidence_quote\": \"These Regulations\"}"
+  }
+]

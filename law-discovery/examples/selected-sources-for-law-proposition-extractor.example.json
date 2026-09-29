@@ -1,0 +1,48 @@
+{
+  "export_type": "ada_selected_sources_for_judit",
+  "export_version": "0.1",
+  "category_id": "equine_identification",
+  "created_at": "2026-05-26T00:00:00Z",
+  "sources": [
+    {
+      "source_id": "lex-6ba7b8119dad11d1",
+      "title": "Equine Identification (England) Regulations 2018",
+      "citation": "SI 2018/123",
+      "source_type": "uksi",
+      "canonical_uri": "https://www.legislation.gov.uk/uksi/2018/123",
+      "source_system": "lex",
+      "relationship_to_category": "directly_regulates",
+      "confidence": "high",
+      "ada_review_status": "accepted",
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Equine Identification (England) Regulations 2018",
+          "uri": "https://www.legislation.gov.uk/uksi/2018/123",
+          "locator": null,
+          "source_field": null
+        }
+      ]
+    },
+    {
+      "source_id": "lex-6ba7b8139dad11d1",
+      "title": "Horse identification and traceability: guidance for keepers",
+      "citation": "DEFRA guidance (example)",
+      "source_type": "guidance",
+      "canonical_uri": "https://www.gov.uk/guidance/horse-passport-and-equine-identification",
+      "source_system": "lex",
+      "relationship_to_category": "operationalises",
+      "confidence": "medium",
+      "ada_review_status": "accepted",
+      "evidence": [
+        {
+          "evidence_type": "text_snippet",
+          "text": "Interpretive guidance on keeper duties, passports and microchipping.",
+          "uri": "https://www.gov.uk/guidance/horse-passport-and-equine-identification",
+          "locator": null,
+          "source_field": null
+        }
+      ]
+    }
+  ]
+}

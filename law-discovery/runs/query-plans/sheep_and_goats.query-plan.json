@@ -1,0 +1,266 @@
+[
+  {
+    "query": "Sheep and goats identification and traceability Sheep, lambs, goats, and caprines identification using electronic ear tags, RFID tags, tattoos, paint marks, and movement records. Covers traceability, grazing system management, disease surveillance, and outbreak response including Scrapie, Foot and Mouth Disease, and Bluetongue.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Sheep and goats identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "sheep",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: sheep"
+  },
+  {
+    "query": "lamb",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: lamb"
+  },
+  {
+    "query": "lambs",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: lambs"
+  },
+  {
+    "query": "goat",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: goat"
+  },
+  {
+    "query": "goats",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: goats"
+  },
+  {
+    "query": "caprine",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: caprine"
+  },
+  {
+    "query": "caprines",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: caprines"
+  },
+  {
+    "query": "ovine",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ovine"
+  },
+  {
+    "query": "ovines",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ovines"
+  },
+  {
+    "query": "electronic identification",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: electronic identification"
+  },
+  {
+    "query": "EID",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: EID"
+  },
+  {
+    "query": "electronic ear tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: electronic ear tag"
+  },
+  {
+    "query": "ear tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tag"
+  },
+  {
+    "query": "ear tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tags"
+  },
+  {
+    "query": "RFID tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: RFID tag"
+  },
+  {
+    "query": "tattoo",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoo"
+  },
+  {
+    "query": "tattoos",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoos"
+  },
+  {
+    "query": "paint mark",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: paint mark"
+  },
+  {
+    "query": "paint marks",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: paint marks"
+  },
+  {
+    "query": "movement record",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement record"
+  },
+  {
+    "query": "movement reporting",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement reporting"
+  },
+  {
+    "query": "flock register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: flock register"
+  },
+  {
+    "query": "herd register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: herd register"
+  },
+  {
+    "query": "keeper",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: keeper"
+  },
+  {
+    "query": "Scrapie",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Scrapie"
+  },
+  {
+    "query": "Foot and Mouth Disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Foot and Mouth Disease"
+  },
+  {
+    "query": "FMD",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: FMD"
+  },
+  {
+    "query": "Bluetongue",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Bluetongue"
+  },
+  {
+    "query": "Sheep and goats identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Sheep and goats identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Sheep and goats identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Sheep and goats identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Sheep and goats identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "sheep regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): sheep"
+  },
+  {
+    "query": "sheep order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): sheep"
+  },
+  {
+    "query": "sheep act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): sheep"
+  },
+  {
+    "query": "lamb regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): lamb"
+  },
+  {
+    "query": "lamb order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): lamb"
+  },
+  {
+    "query": "lamb act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): lamb"
+  },
+  {
+    "query": "lambs regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): lambs"
+  },
+  {
+    "query": "lambs order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): lambs"
+  },
+  {
+    "query": "lambs act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): lambs"
+  }
+]

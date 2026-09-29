@@ -1,0 +1,17 @@
+{
+  "case_id": "wsi_schedule_inspection_power",
+  "expected_propositions": [
+    {
+      "role": "inspector-entry-power",
+      "source_locator": "schedule:1:paragraph:3",
+      "short_legal_description": "Inspectors may enter premises for enforcement.",
+      "legal_effect_type": "enforcement",
+      "required_actor": "Inspectors",
+      "required_action": "may enter premises",
+      "object": "premises",
+      "evidence_markers": ["may enter premises for enforcement"],
+      "expected_completeness": "complete",
+      "context_dependencies": ["schedule:1"]
+    }
+  ]
+}

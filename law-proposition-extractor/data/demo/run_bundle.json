@@ -1,0 +1,2504 @@
+{
+  "workflow_mode": "single_jurisdiction",
+  "has_divergence_outputs": false,
+  "topic": {
+    "id": "topic-movement-record-keeping",
+    "name": "Movement record keeping",
+    "description": "Demo comparison of movement-related record obligations across two jurisdictions.",
+    "subject_tags": [
+      "demo",
+      "movement",
+      "records"
+    ]
+  },
+  "clusters": [
+    {
+      "id": "cluster-topic-movement-record-keeping-traceability",
+      "topic_id": "topic-movement-record-keeping",
+      "name": "traceability",
+      "description": "Traceability and movement records.",
+      "source_record_ids": [
+        "src-eu-001",
+        "src-uk-001"
+      ]
+    }
+  ],
+  "run": {
+    "id": "run-001",
+    "topic_id": "topic-movement-record-keeping",
+    "cluster_id": "cluster-topic-movement-record-keeping-traceability",
+    "created_at": "2026-06-03T15:29:04.295123Z",
+    "model_profile": "deterministic-file-input",
+    "workflow_mode": "single_jurisdiction",
+    "source_record_ids": [
+      "src-eu-001",
+      "src-uk-001"
+    ],
+    "source_snapshot_ids": [
+      "snap-src-eu-001-eu-example-001@2026-04-01",
+      "snap-src-uk-001-uk-example-001@2026-04-01"
+    ],
+    "source_fragment_ids": [
+      "frag-src-eu-001-001",
+      "frag-src-uk-001-001"
+    ],
+    "proposition_ids": [
+      "prop:ad7a542e8e5cdeb9",
+      "prop:06f28204c270a39a",
+      "prop:1bcb6c47bbf9881b",
+      "prop:b9934b2ea82950fa"
+    ],
+    "assessment_ids": [],
+    "review_decision_ids": [
+      "review-frag-src-eu-001-001",
+      "review-frag-src-uk-001-001",
+      "review-proposition-prop:ad7a542e8e5cdeb9",
+      "review-proposition-prop:06f28204c270a39a",
+      "review-proposition-prop:1bcb6c47bbf9881b",
+      "review-proposition-prop:b9934b2ea82950fa"
+    ],
+    "run_artifact_ids": [
+      "artifact-run-001-source-records",
+      "artifact-run-001-source-snapshots",
+      "artifact-run-001-source-fragments",
+      "artifact-run-001-source-parse-traces",
+      "artifact-run-001-source-fetch-metadata",
+      "artifact-run-001-source-fetch-attempts",
+      "artifact-run-001-source-inventory",
+      "artifact-run-001-source-target-links",
+      "artifact-run-001-source-categorisation-rationales",
+      "artifact-run-001-propositions",
+      "artifact-run-001-proposition-inventory",
+      "artifact-run-001-proposition-extraction-traces",
+      "artifact-run-001-proposition-extraction-jobs",
+      "artifact-run-001-proposition-completeness-assessments",
+      "artifact-run-001-legal-scopes",
+      "artifact-run-001-proposition-scope-links",
+      "artifact-run-001-scope-inventory",
+      "artifact-run-001-scope-review-candidates",
+      "artifact-run-001-assessments",
+      "artifact-run-001-narrative",
+      "artifact-run-001-review-decisions"
+    ],
+    "notes": "First runnable Judit slice from file-backed input."
+  },
+  "source_records": [
+    {
+      "id": "src-eu-001",
+      "title": "Example EU instrument",
+      "jurisdiction": "EU",
+      "citation": "EU-EXAMPLE-001",
+      "kind": "regulation",
+      "authoritative_text": "Article 10. Operators must maintain a movement register before dispatch. The competent authority may inspect the register on request.",
+      "authoritative_locator": "article:10",
+      "status": "working",
+      "review_status": "proposed",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-01",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "content_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+      "version_id": "eu-example-001@2026-04-01",
+      "current_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+      "source_url": null,
+      "metadata": {
+        "cluster": "traceability",
+        "authority": "case_file",
+        "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95.json",
+        "parser_name": null,
+        "parser_version": null,
+        "parsed_at": "2026-06-03T15:29:04.288776Z"
+      }
+    },
+    {
+      "id": "src-uk-001",
+      "title": "Example UK instrument",
+      "jurisdiction": "UK",
+      "citation": "UK-EXAMPLE-001",
+      "kind": "retained-regulation",
+      "authoritative_text": "Article 10. Operators must maintain a movement register before dispatch. The appropriate authority may inspect the register on request.",
+      "authoritative_locator": "article:10",
+      "status": "working",
+      "review_status": "proposed",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-01",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "content_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+      "version_id": "uk-example-001@2026-04-01",
+      "current_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+      "source_url": null,
+      "metadata": {
+        "cluster": "traceability",
+        "authority": "case_file",
+        "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce.json",
+        "parser_name": null,
+        "parser_version": null,
+        "parsed_at": "2026-06-03T15:29:04.290223Z"
+      }
+    }
+  ],
+  "source_fetch_metadata": [
+    {
+      "id": "fetch-src-eu-001",
+      "source_record_id": "src-eu-001",
+      "authority": "case_file",
+      "authority_source_id": "src-eu-001",
+      "source_identifier": "src-eu-001",
+      "citation": "EU-EXAMPLE-001",
+      "source_url": null,
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "content_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+      "fetch_status": "cache_hit",
+      "response_metadata": {},
+      "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95.json",
+      "parsed_artifact_uri": "bundle://source_records/src-eu-001",
+      "metadata": {
+        "cache_key": "580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95",
+        "version_id": "eu-example-001@2026-04-01"
+      }
+    },
+    {
+      "id": "fetch-src-uk-001",
+      "source_record_id": "src-uk-001",
+      "authority": "case_file",
+      "authority_source_id": "src-uk-001",
+      "source_identifier": "src-uk-001",
+      "citation": "UK-EXAMPLE-001",
+      "source_url": null,
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "content_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+      "fetch_status": "cache_hit",
+      "response_metadata": {},
+      "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce.json",
+      "parsed_artifact_uri": "bundle://source_records/src-uk-001",
+      "metadata": {
+        "cache_key": "60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce",
+        "version_id": "uk-example-001@2026-04-01"
+      }
+    }
+  ],
+  "source_fetch_attempts": [
+    {
+      "id": "fetch-attempt-src-eu-001-001",
+      "source_record_id": "src-eu-001",
+      "attempt_number": 1,
+      "started_at": "2026-06-03T15:29:04.288455Z",
+      "finished_at": "2026-06-03T15:29:04.288736Z",
+      "status": "cache_hit",
+      "url": null,
+      "authority": "case_file",
+      "http_status": null,
+      "error_type": null,
+      "error_message": null,
+      "response_content_type": null,
+      "response_content_length": null,
+      "content_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+      "cache_key": "580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95",
+      "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95.json",
+      "method": "cache",
+      "metadata": {
+        "version_id": "eu-example-001@2026-04-01"
+      }
+    },
+    {
+      "id": "fetch-attempt-src-uk-001-001",
+      "source_record_id": "src-uk-001",
+      "attempt_number": 1,
+      "started_at": "2026-06-03T15:29:04.289996Z",
+      "finished_at": "2026-06-03T15:29:04.290204Z",
+      "status": "cache_hit",
+      "url": null,
+      "authority": "case_file",
+      "http_status": null,
+      "error_type": null,
+      "error_message": null,
+      "response_content_type": null,
+      "response_content_length": null,
+      "content_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+      "cache_key": "60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce",
+      "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce.json",
+      "method": "cache",
+      "metadata": {
+        "version_id": "uk-example-001@2026-04-01"
+      }
+    }
+  ],
+  "source_target_links": [
+    {
+      "id": "target-link-src-eu-001",
+      "source_record_id": "src-eu-001",
+      "target_source_record_id": "src-eu-001",
+      "target_citation": "EU-EXAMPLE-001",
+      "target_instrument_id": "EU-EXAMPLE-001",
+      "link_type": "is_target",
+      "confidence": "high",
+      "method": "deterministic",
+      "reason": "Source marked/resolved as primary analysis target.",
+      "evidence": [
+        "source_record_id=src-eu-001",
+        "target_source_record_id=src-eu-001"
+      ],
+      "signals": {
+        "target_reference_match": true,
+        "primary_target_source_id": "src-eu-001",
+        "primary_target_citation": "EU-EXAMPLE-001",
+        "primary_target_title": "Example EU instrument",
+        "authority": "case_file",
+        "kind": "regulation",
+        "source_url": ""
+      }
+    },
+    {
+      "id": "target-link-src-uk-001",
+      "source_record_id": "src-uk-001",
+      "target_source_record_id": "src-eu-001",
+      "target_citation": "EU-EXAMPLE-001",
+      "target_instrument_id": "EU-EXAMPLE-001",
+      "link_type": "contextual",
+      "confidence": "low",
+      "method": "deterministic",
+      "reason": "Source treated as contextual because no target linkage signals matched.",
+      "evidence": [
+        "title=Example UK instrument"
+      ],
+      "signals": {
+        "target_reference_match": false,
+        "primary_target_source_id": "src-eu-001",
+        "primary_target_citation": "EU-EXAMPLE-001",
+        "primary_target_title": "Example EU instrument",
+        "authority": "case_file",
+        "kind": "retained-regulation",
+        "source_url": ""
+      }
+    }
+  ],
+  "source_inventory": {
+    "id": "artifact-run-001-source-inventory",
+    "run_id": "run-001",
+    "created_at": "2026-06-03T15:29:04.293761Z",
+    "inventory_version": "0.1",
+    "rows": [
+      {
+        "id": "source-inventory-src-eu-001",
+        "source_record_id": "src-eu-001",
+        "jurisdiction": "EU",
+        "instrument_id": "EU-EXAMPLE-001",
+        "title": "Example EU instrument",
+        "instrument_type": "regulation",
+        "status": "working",
+        "version_id": "eu-example-001@2026-04-01",
+        "consolidation_date": "2026-04-01",
+        "source_url": null,
+        "citation": "EU-EXAMPLE-001",
+        "content_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+        "source_role": "case_file",
+        "relationship_to_analysis": "analysis_target",
+        "fetch_metadata_id": "fetch-src-eu-001",
+        "target_link_id": "target-link-src-eu-001",
+        "metadata": {
+          "provenance": "demo.case_file",
+          "authoritative_locator": "article:10"
+        }
+      },
+      {
+        "id": "source-inventory-src-uk-001",
+        "source_record_id": "src-uk-001",
+        "jurisdiction": "UK",
+        "instrument_id": "UK-EXAMPLE-001",
+        "title": "Example UK instrument",
+        "instrument_type": "retained-regulation",
+        "status": "working",
+        "version_id": "uk-example-001@2026-04-01",
+        "consolidation_date": "2026-04-01",
+        "source_url": null,
+        "citation": "UK-EXAMPLE-001",
+        "content_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+        "source_role": "case_file",
+        "relationship_to_analysis": "contextual_source",
+        "fetch_metadata_id": "fetch-src-uk-001",
+        "target_link_id": "target-link-src-uk-001",
+        "metadata": {
+          "provenance": "demo.case_file",
+          "authoritative_locator": "article:10"
+        }
+      }
+    ],
+    "content_hash": "25082558e9d30f98c2963706bc898381eae5b563c2c19c7a3db1cf8902339dde",
+    "metadata": {
+      "row_count": 2
+    }
+  },
+  "source_categorisation_rationales": [
+    {
+      "source_record_id": "src-eu-001",
+      "source_inventory_row_id": "source-inventory-src-eu-001",
+      "source_target_link_id": "target-link-src-eu-001",
+      "source_role": "case_file",
+      "relationship_to_analysis": "analysis_target",
+      "confidence": "high",
+      "method": "deterministic",
+      "reason": "Case-file authority source treated as direct analysis input.",
+      "evidence": [
+        "authority=case_file",
+        "source_record_id=src-eu-001"
+      ],
+      "signals": {
+        "target_linked": true,
+        "authority": "case_file",
+        "citation": "EU-EXAMPLE-001",
+        "source_url": "",
+        "kind": "regulation",
+        "instrument_id": ""
+      }
+    },
+    {
+      "source_record_id": "src-uk-001",
+      "source_inventory_row_id": "source-inventory-src-uk-001",
+      "source_target_link_id": "target-link-src-uk-001",
+      "source_role": "case_file",
+      "relationship_to_analysis": "contextual_source",
+      "confidence": "medium",
+      "method": "deterministic",
+      "reason": "Case-file authority source treated as direct analysis input.",
+      "evidence": [
+        "authority=case_file",
+        "source_record_id=src-uk-001"
+      ],
+      "signals": {
+        "target_linked": false,
+        "authority": "case_file",
+        "citation": "UK-EXAMPLE-001",
+        "source_url": "",
+        "kind": "retained-regulation",
+        "instrument_id": ""
+      }
+    }
+  ],
+  "source_snapshots": [
+    {
+      "id": "snap-src-eu-001-eu-example-001@2026-04-01",
+      "source_record_id": "src-eu-001",
+      "version_id": "eu-example-001@2026-04-01",
+      "authoritative_text": "Article 10. Operators must maintain a movement register before dispatch. The competent authority may inspect the register on request.",
+      "authoritative_locator": "article:10",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-01",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "content_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+      "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95.json",
+      "parser_name": null,
+      "parser_version": null,
+      "parsed_at": "2026-06-03T15:29:04.288776Z",
+      "authority": "case_file",
+      "metadata": {
+        "cluster": "traceability",
+        "authority": "case_file",
+        "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95.json",
+        "parser_name": null,
+        "parser_version": null,
+        "parsed_at": "2026-06-03T15:29:04.288776Z"
+      }
+    },
+    {
+      "id": "snap-src-uk-001-uk-example-001@2026-04-01",
+      "source_record_id": "src-uk-001",
+      "version_id": "uk-example-001@2026-04-01",
+      "authoritative_text": "Article 10. Operators must maintain a movement register before dispatch. The appropriate authority may inspect the register on request.",
+      "authoritative_locator": "article:10",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-01",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "content_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+      "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce.json",
+      "parser_name": null,
+      "parser_version": null,
+      "parsed_at": "2026-06-03T15:29:04.290223Z",
+      "authority": "case_file",
+      "metadata": {
+        "cluster": "traceability",
+        "authority": "case_file",
+        "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce.json",
+        "parser_name": null,
+        "parser_version": null,
+        "parsed_at": "2026-06-03T15:29:04.290223Z"
+      }
+    }
+  ],
+  "source_fragments": [
+    {
+      "id": "frag-src-eu-001-001",
+      "fragment_id": "frag-src-eu-001-001",
+      "source_record_id": "src-eu-001",
+      "source_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+      "fragment_type": "article",
+      "locator": "article:10",
+      "fragment_text": "Article 10. Operators must maintain a movement register before dispatch. The competent authority may inspect the register on request.",
+      "fragment_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+      "text_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+      "char_start": null,
+      "char_end": null,
+      "parent_fragment_id": null,
+      "order_index": null,
+      "review_status": "proposed",
+      "metadata": {
+        "cluster": "traceability"
+      }
+    },
+    {
+      "id": "frag-src-uk-001-001",
+      "fragment_id": "frag-src-uk-001-001",
+      "source_record_id": "src-uk-001",
+      "source_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+      "fragment_type": "article",
+      "locator": "article:10",
+      "fragment_text": "Article 10. Operators must maintain a movement register before dispatch. The appropriate authority may inspect the register on request.",
+      "fragment_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+      "text_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+      "char_start": null,
+      "char_end": null,
+      "parent_fragment_id": null,
+      "order_index": null,
+      "review_status": "proposed",
+      "metadata": {
+        "cluster": "traceability"
+      }
+    }
+  ],
+  "source_parse_traces": [
+    {
+      "id": "parse-trace-snap-src-eu-001-eu-example-001-2026-04-01",
+      "source_record_id": "src-eu-001",
+      "source_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+      "parser_name": "unknown_parser",
+      "parser_version": "unknown",
+      "started_at": "2026-06-03T15:29:04.288776Z",
+      "finished_at": "2026-06-03T15:29:04.288776Z",
+      "status": "success",
+      "input_content_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+      "output_fragment_ids": [
+        "frag-src-eu-001-001"
+      ],
+      "fragment_count": 1,
+      "warning_count": 0,
+      "error_count": 0,
+      "warnings": [],
+      "errors": [],
+      "metrics": {
+        "fragment_count": 1,
+        "input_char_count": 133
+      }
+    },
+    {
+      "id": "parse-trace-snap-src-uk-001-uk-example-001-2026-04-01",
+      "source_record_id": "src-uk-001",
+      "source_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+      "parser_name": "unknown_parser",
+      "parser_version": "unknown",
+      "started_at": "2026-06-03T15:29:04.290223Z",
+      "finished_at": "2026-06-03T15:29:04.290223Z",
+      "status": "success",
+      "input_content_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+      "output_fragment_ids": [
+        "frag-src-uk-001-001"
+      ],
+      "fragment_count": 1,
+      "warning_count": 0,
+      "error_count": 0,
+      "warnings": [],
+      "errors": [],
+      "metrics": {
+        "fragment_count": 1,
+        "input_char_count": 135
+      }
+    }
+  ],
+  "proposition_extraction_traces": [
+    {
+      "id": "extract-trace:06725d19455f7c4e",
+      "proposition_id": "prop:ad7a542e8e5cdeb9",
+      "proposition_key": "src-eu-001:article-10:p001",
+      "source_record_id": "src-eu-001",
+      "source_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+      "source_fragment_id": "frag-src-eu-001-001",
+      "extraction_method": "heuristic",
+      "extractor_name": "judit_pipeline.extract.heuristic",
+      "extractor_version": "v1",
+      "extraction_mode": "heuristic",
+      "model_alias": null,
+      "fallback_policy": "fallback",
+      "fallback_used": false,
+      "validation_errors": [],
+      "schema_version": "none",
+      "started_at": null,
+      "finished_at": null,
+      "status": "success",
+      "prompt_id": null,
+      "prompt_version": null,
+      "rule_id": "extract.heuristic.normative_sentences",
+      "rule_version": "v1",
+      "evidence_text": "Operators must maintain a movement register before dispatch.",
+      "evidence_locator": "article:10",
+      "confidence": "medium",
+      "reason": "Normative sentence selection over parsed source fragments.",
+      "warnings": [],
+      "errors": [],
+      "signals": {
+        "pipeline_version": "0.1.0",
+        "strategy_version": "v1",
+        "derived_artifact_cache_status": "cache_hit",
+        "extraction_mode": "heuristic",
+        "fallback_used": false,
+        "fallback_policy": "fallback"
+      }
+    },
+    {
+      "id": "extract-trace:3600ed486c7be408",
+      "proposition_id": "prop:06f28204c270a39a",
+      "proposition_key": "src-eu-001:article-10:p002",
+      "source_record_id": "src-eu-001",
+      "source_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+      "source_fragment_id": "frag-src-eu-001-001",
+      "extraction_method": "heuristic",
+      "extractor_name": "judit_pipeline.extract.heuristic",
+      "extractor_version": "v1",
+      "extraction_mode": "heuristic",
+      "model_alias": null,
+      "fallback_policy": "fallback",
+      "fallback_used": false,
+      "validation_errors": [],
+      "schema_version": "none",
+      "started_at": null,
+      "finished_at": null,
+      "status": "success",
+      "prompt_id": null,
+      "prompt_version": null,
+      "rule_id": "extract.heuristic.normative_sentences",
+      "rule_version": "v1",
+      "evidence_text": "The competent authority may inspect the register on request.",
+      "evidence_locator": "article:10",
+      "confidence": "medium",
+      "reason": "Normative sentence selection over parsed source fragments.",
+      "warnings": [],
+      "errors": [],
+      "signals": {
+        "pipeline_version": "0.1.0",
+        "strategy_version": "v1",
+        "derived_artifact_cache_status": "cache_hit",
+        "extraction_mode": "heuristic",
+        "fallback_used": false,
+        "fallback_policy": "fallback"
+      }
+    },
+    {
+      "id": "extract-trace:1d863bd751fd4a71",
+      "proposition_id": "prop:1bcb6c47bbf9881b",
+      "proposition_key": "src-uk-001:article-10:p001",
+      "source_record_id": "src-uk-001",
+      "source_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+      "source_fragment_id": "frag-src-uk-001-001",
+      "extraction_method": "heuristic",
+      "extractor_name": "judit_pipeline.extract.heuristic",
+      "extractor_version": "v1",
+      "extraction_mode": "heuristic",
+      "model_alias": null,
+      "fallback_policy": "fallback",
+      "fallback_used": false,
+      "validation_errors": [],
+      "schema_version": "none",
+      "started_at": null,
+      "finished_at": null,
+      "status": "success",
+      "prompt_id": null,
+      "prompt_version": null,
+      "rule_id": "extract.heuristic.normative_sentences",
+      "rule_version": "v1",
+      "evidence_text": "Operators must maintain a movement register before dispatch.",
+      "evidence_locator": "article:10",
+      "confidence": "medium",
+      "reason": "Normative sentence selection over parsed source fragments.",
+      "warnings": [],
+      "errors": [],
+      "signals": {
+        "pipeline_version": "0.1.0",
+        "strategy_version": "v1",
+        "derived_artifact_cache_status": "cache_hit",
+        "extraction_mode": "heuristic",
+        "fallback_used": false,
+        "fallback_policy": "fallback"
+      }
+    },
+    {
+      "id": "extract-trace:e3e516976bba657c",
+      "proposition_id": "prop:b9934b2ea82950fa",
+      "proposition_key": "src-uk-001:article-10:p002",
+      "source_record_id": "src-uk-001",
+      "source_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+      "source_fragment_id": "frag-src-uk-001-001",
+      "extraction_method": "heuristic",
+      "extractor_name": "judit_pipeline.extract.heuristic",
+      "extractor_version": "v1",
+      "extraction_mode": "heuristic",
+      "model_alias": null,
+      "fallback_policy": "fallback",
+      "fallback_used": false,
+      "validation_errors": [],
+      "schema_version": "none",
+      "started_at": null,
+      "finished_at": null,
+      "status": "success",
+      "prompt_id": null,
+      "prompt_version": null,
+      "rule_id": "extract.heuristic.normative_sentences",
+      "rule_version": "v1",
+      "evidence_text": "The appropriate authority may inspect the register on request.",
+      "evidence_locator": "article:10",
+      "confidence": "medium",
+      "reason": "Normative sentence selection over parsed source fragments.",
+      "warnings": [],
+      "errors": [],
+      "signals": {
+        "pipeline_version": "0.1.0",
+        "strategy_version": "v1",
+        "derived_artifact_cache_status": "cache_hit",
+        "extraction_mode": "heuristic",
+        "fallback_used": false,
+        "fallback_policy": "fallback"
+      }
+    }
+  ],
+  "has_proposition_extraction_traces": true,
+  "proposition_extraction_trace_count": 4,
+  "proposition_extraction_jobs": [
+    {
+      "id": "pexjob-run-001-0001",
+      "run_id": "run-001",
+      "source_record_id": "src-eu-001",
+      "source_title": "Example EU instrument",
+      "source_fragment_id": "frag-src-eu-001-001",
+      "fragment_locator": "article:10",
+      "fragment_type": "article",
+      "fragment_text_length": 133,
+      "selected_for_extraction": true,
+      "selection_reason": "focus_term_match",
+      "skip_reason": null,
+      "extraction_mode": "heuristic",
+      "model_alias": null,
+      "estimated_input_tokens": null,
+      "configured_context_limit": null,
+      "llm_invoked": false,
+      "fallback_used": false,
+      "fallback_strategy": null,
+      "context_window_risk": false,
+      "proposition_count": 2,
+      "cache_status": "aggregate_cache_hit",
+      "started_at": null,
+      "finished_at": null,
+      "duration_ms": 0,
+      "errors": [],
+      "warnings": [],
+      "repairable": false,
+      "repair_reason": null,
+      "estimated_retry_tokens": null,
+      "raw_model_output_excerpt": null,
+      "raw_model_output_truncated": null,
+      "parse_error_message": null,
+      "parse_error_line": null,
+      "parse_error_column": null
+    },
+    {
+      "id": "pexjob-run-001-0002",
+      "run_id": "run-001",
+      "source_record_id": "src-uk-001",
+      "source_title": "Example UK instrument",
+      "source_fragment_id": "frag-src-uk-001-001",
+      "fragment_locator": "article:10",
+      "fragment_type": "article",
+      "fragment_text_length": 135,
+      "selected_for_extraction": true,
+      "selection_reason": "focus_term_match",
+      "skip_reason": null,
+      "extraction_mode": "heuristic",
+      "model_alias": null,
+      "estimated_input_tokens": null,
+      "configured_context_limit": null,
+      "llm_invoked": false,
+      "fallback_used": false,
+      "fallback_strategy": null,
+      "context_window_risk": false,
+      "proposition_count": 2,
+      "cache_status": "aggregate_cache_hit",
+      "started_at": null,
+      "finished_at": null,
+      "duration_ms": 0,
+      "errors": [],
+      "warnings": [],
+      "repairable": false,
+      "repair_reason": null,
+      "estimated_retry_tokens": null,
+      "raw_model_output_excerpt": null,
+      "raw_model_output_truncated": null,
+      "parse_error_message": null,
+      "parse_error_line": null,
+      "parse_error_column": null
+    }
+  ],
+  "has_proposition_extraction_jobs": true,
+  "proposition_extraction_job_count": 2,
+  "proposition_extraction_failures": [],
+  "has_proposition_extraction_failures": false,
+  "proposition_completeness_assessments": [
+    {
+      "id": "pca-prop:ad7a542e8e5cdeb9",
+      "proposition_id": "prop:ad7a542e8e5cdeb9",
+      "proposition_key": "src-eu-001:article-10:p001",
+      "status": "complete",
+      "confidence": "high",
+      "reason": "Readable as a standalone extracted proposition (no deictic opener; operative language present).",
+      "missing_context": [],
+      "suggested_display_statement": null,
+      "context_injections": {},
+      "evidence": [],
+      "method": "deterministic",
+      "signals": {
+        "text_char_length": 60
+      }
+    },
+    {
+      "id": "pca-prop:06f28204c270a39a",
+      "proposition_id": "prop:06f28204c270a39a",
+      "proposition_key": "src-eu-001:article-10:p002",
+      "status": "complete",
+      "confidence": "high",
+      "reason": "Readable as a standalone extracted proposition (no deictic opener; operative language present).",
+      "missing_context": [],
+      "suggested_display_statement": null,
+      "context_injections": {},
+      "evidence": [],
+      "method": "deterministic",
+      "signals": {
+        "text_char_length": 60
+      }
+    },
+    {
+      "id": "pca-prop:1bcb6c47bbf9881b",
+      "proposition_id": "prop:1bcb6c47bbf9881b",
+      "proposition_key": "src-uk-001:article-10:p001",
+      "status": "complete",
+      "confidence": "high",
+      "reason": "Readable as a standalone extracted proposition (no deictic opener; operative language present).",
+      "missing_context": [],
+      "suggested_display_statement": null,
+      "context_injections": {},
+      "evidence": [],
+      "method": "deterministic",
+      "signals": {
+        "text_char_length": 60
+      }
+    },
+    {
+      "id": "pca-prop:b9934b2ea82950fa",
+      "proposition_id": "prop:b9934b2ea82950fa",
+      "proposition_key": "src-uk-001:article-10:p002",
+      "status": "complete",
+      "confidence": "high",
+      "reason": "Readable as a standalone extracted proposition (no deictic opener; operative language present).",
+      "missing_context": [],
+      "suggested_display_statement": null,
+      "context_injections": {},
+      "evidence": [],
+      "method": "deterministic",
+      "signals": {
+        "text_char_length": 62
+      }
+    }
+  ],
+  "has_proposition_completeness_assessments": true,
+  "proposition_completeness_assessment_count": 4,
+  "sources": [
+    {
+      "id": "src-eu-001",
+      "title": "Example EU instrument",
+      "jurisdiction": "EU",
+      "citation": "EU-EXAMPLE-001",
+      "kind": "regulation",
+      "authoritative_text": "Article 10. Operators must maintain a movement register before dispatch. The competent authority may inspect the register on request.",
+      "authoritative_locator": "article:10",
+      "status": "working",
+      "review_status": "proposed",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-01",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "content_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+      "version_id": "eu-example-001@2026-04-01",
+      "current_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+      "source_url": null,
+      "metadata": {
+        "cluster": "traceability",
+        "authority": "case_file",
+        "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95.json",
+        "parser_name": null,
+        "parser_version": null,
+        "parsed_at": "2026-06-03T15:29:04.288776Z"
+      }
+    },
+    {
+      "id": "src-uk-001",
+      "title": "Example UK instrument",
+      "jurisdiction": "UK",
+      "citation": "UK-EXAMPLE-001",
+      "kind": "retained-regulation",
+      "authoritative_text": "Article 10. Operators must maintain a movement register before dispatch. The appropriate authority may inspect the register on request.",
+      "authoritative_locator": "article:10",
+      "status": "working",
+      "review_status": "proposed",
+      "provenance": "demo.case_file",
+      "as_of_date": "2026-04-01",
+      "retrieved_at": "2026-04-27T18:00:00Z",
+      "content_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+      "version_id": "uk-example-001@2026-04-01",
+      "current_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+      "source_url": null,
+      "metadata": {
+        "cluster": "traceability",
+        "authority": "case_file",
+        "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce.json",
+        "parser_name": null,
+        "parser_version": null,
+        "parsed_at": "2026-06-03T15:29:04.290223Z"
+      }
+    }
+  ],
+  "proposition_inventory": {
+    "proposition_count": 4,
+    "proposition_ids": [
+      "prop:ad7a542e8e5cdeb9",
+      "prop:06f28204c270a39a",
+      "prop:1bcb6c47bbf9881b",
+      "prop:b9934b2ea82950fa"
+    ],
+    "by_jurisdiction": {
+      "EU": [
+        "prop:ad7a542e8e5cdeb9",
+        "prop:06f28204c270a39a"
+      ],
+      "UK": [
+        "prop:1bcb6c47bbf9881b",
+        "prop:b9934b2ea82950fa"
+      ]
+    },
+    "categories": {
+      "conditional": [
+        "prop:ad7a542e8e5cdeb9",
+        "prop:1bcb6c47bbf9881b"
+      ],
+      "documentary": [
+        "prop:ad7a542e8e5cdeb9",
+        "prop:06f28204c270a39a",
+        "prop:1bcb6c47bbf9881b",
+        "prop:b9934b2ea82950fa"
+      ],
+      "obligation": [
+        "prop:ad7a542e8e5cdeb9",
+        "prop:06f28204c270a39a",
+        "prop:1bcb6c47bbf9881b",
+        "prop:b9934b2ea82950fa"
+      ],
+      "record_keeping": [
+        "prop:ad7a542e8e5cdeb9",
+        "prop:06f28204c270a39a",
+        "prop:1bcb6c47bbf9881b",
+        "prop:b9934b2ea82950fa"
+      ],
+      "institutional": [
+        "prop:06f28204c270a39a",
+        "prop:b9934b2ea82950fa"
+      ],
+      "oversight": [
+        "prop:06f28204c270a39a",
+        "prop:b9934b2ea82950fa"
+      ]
+    },
+    "tags": {
+      "eu": [
+        "prop:ad7a542e8e5cdeb9",
+        "prop:06f28204c270a39a"
+      ],
+      "operator": [
+        "prop:ad7a542e8e5cdeb9",
+        "prop:1bcb6c47bbf9881b"
+      ],
+      "authority": [
+        "prop:06f28204c270a39a",
+        "prop:b9934b2ea82950fa"
+      ],
+      "competent-authority": [
+        "prop:06f28204c270a39a"
+      ],
+      "uk": [
+        "prop:1bcb6c47bbf9881b",
+        "prop:b9934b2ea82950fa"
+      ],
+      "appropriate-authority": [
+        "prop:b9934b2ea82950fa"
+      ]
+    },
+    "cross_reference_index": {
+      "eu:operator:maintain-a-movement-register-before-dispatch": [
+        "prop:ad7a542e8e5cdeb9"
+      ],
+      "eu:authority:inspect-the-register-on-request": [
+        "prop:06f28204c270a39a"
+      ],
+      "uk:operator:maintain-a-movement-register-before-dispatch": [
+        "prop:1bcb6c47bbf9881b"
+      ],
+      "uk:authority:inspect-the-register-on-request": [
+        "prop:b9934b2ea82950fa"
+      ]
+    },
+    "lineage_index": {
+      "src-eu-001:article-10:p001": [
+        "pver:src-eu-001:article-10:p001:snap-src-eu-001-eu-example-001-2026-04-01:run-001"
+      ],
+      "src-eu-001:article-10:p002": [
+        "pver:src-eu-001:article-10:p002:snap-src-eu-001-eu-example-001-2026-04-01:run-001"
+      ],
+      "src-uk-001:article-10:p001": [
+        "pver:src-uk-001:article-10:p001:snap-src-uk-001-uk-example-001-2026-04-01:run-001"
+      ],
+      "src-uk-001:article-10:p002": [
+        "pver:src-uk-001:article-10:p002:snap-src-uk-001-uk-example-001-2026-04-01:run-001"
+      ]
+    }
+  },
+  "propositions": [
+    {
+      "id": "prop:ad7a542e8e5cdeb9",
+      "proposition_key": "src-eu-001:article-10:p001",
+      "proposition_version_id": "pver:src-eu-001:article-10:p001:snap-src-eu-001-eu-example-001-2026-04-01:run-001",
+      "observed_in_run_id": "run-001",
+      "topic_id": "topic-movement-record-keeping",
+      "cluster_id": "cluster-topic-movement-record-keeping-traceability",
+      "source_record_id": "src-eu-001",
+      "source_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+      "source_fragment_id": "frag-src-eu-001-001",
+      "fragment_locator": "article:10",
+      "jurisdiction": "EU",
+      "article_reference": "article 10",
+      "proposition_text": "Operators must maintain a movement register before dispatch.",
+      "label": "article:10 \u2014 operator maintain a movement register before dispatch",
+      "short_name": "operator maintain a movement register before dispatch",
+      "slug": "article-10-operator-maintain-a-movement-register-before-dispatch",
+      "legal_subject": "operator",
+      "action": "maintain a movement register before dispatch",
+      "conditions": [
+        "before dispatch"
+      ],
+      "authority": null,
+      "required_documents": [
+        "register"
+      ],
+      "affected_subjects": [
+        "operator"
+      ],
+      "categories": [
+        "conditional",
+        "documentary",
+        "obligation",
+        "record_keeping"
+      ],
+      "tags": [
+        "eu",
+        "operator"
+      ],
+      "cross_reference_key": "eu:operator:maintain-a-movement-register-before-dispatch",
+      "cross_reference_targets": [],
+      "review_status": "proposed",
+      "notes": "judit_extraction_meta:{\"extraction_mode\": \"heuristic\", \"fallback_policy\": \"fallback\", \"fallback_used\": false, \"model_alias\": null, \"prompt_version\": \"v2\", \"schema_version\": \"none\", \"validation_errors\": []}\nheuristic extraction",
+      "proposition_tier": "substantive_rule",
+      "legal_effect_type": "obligation",
+      "territorial_application": [],
+      "extent": [],
+      "is_compliance_relevant": true,
+      "is_comparison_anchor": true,
+      "review_notes": null,
+      "extraction_trace_id": "extract-trace:06725d19455f7c4e"
+    },
+    {
+      "id": "prop:06f28204c270a39a",
+      "proposition_key": "src-eu-001:article-10:p002",
+      "proposition_version_id": "pver:src-eu-001:article-10:p002:snap-src-eu-001-eu-example-001-2026-04-01:run-001",
+      "observed_in_run_id": "run-001",
+      "topic_id": "topic-movement-record-keeping",
+      "cluster_id": "cluster-topic-movement-record-keeping-traceability",
+      "source_record_id": "src-eu-001",
+      "source_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+      "source_fragment_id": "frag-src-eu-001-001",
+      "fragment_locator": "article:10",
+      "jurisdiction": "EU",
+      "article_reference": "article 10",
+      "proposition_text": "The competent authority may inspect the register on request.",
+      "label": "article:10 \u2014 authority inspect the register on request",
+      "short_name": "authority inspect the register on request",
+      "slug": "article-10-authority-inspect-the-register-on-request",
+      "legal_subject": "authority",
+      "action": "inspect the register on request",
+      "conditions": [],
+      "authority": "competent authority",
+      "required_documents": [
+        "register"
+      ],
+      "affected_subjects": [
+        "authority"
+      ],
+      "categories": [
+        "documentary",
+        "institutional",
+        "obligation",
+        "oversight",
+        "record_keeping"
+      ],
+      "tags": [
+        "authority",
+        "competent-authority",
+        "eu"
+      ],
+      "cross_reference_key": "eu:authority:inspect-the-register-on-request",
+      "cross_reference_targets": [],
+      "review_status": "proposed",
+      "notes": "judit_extraction_meta:{\"extraction_mode\": \"heuristic\", \"fallback_policy\": \"fallback\", \"fallback_used\": false, \"model_alias\": null, \"prompt_version\": \"v2\", \"schema_version\": \"none\", \"validation_errors\": []}\nheuristic extraction",
+      "proposition_tier": "substantive_rule",
+      "legal_effect_type": "recordkeeping",
+      "territorial_application": [],
+      "extent": [],
+      "is_compliance_relevant": true,
+      "is_comparison_anchor": true,
+      "review_notes": null,
+      "extraction_trace_id": "extract-trace:3600ed486c7be408"
+    },
+    {
+      "id": "prop:1bcb6c47bbf9881b",
+      "proposition_key": "src-uk-001:article-10:p001",
+      "proposition_version_id": "pver:src-uk-001:article-10:p001:snap-src-uk-001-uk-example-001-2026-04-01:run-001",
+      "observed_in_run_id": "run-001",
+      "topic_id": "topic-movement-record-keeping",
+      "cluster_id": "cluster-topic-movement-record-keeping-traceability",
+      "source_record_id": "src-uk-001",
+      "source_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+      "source_fragment_id": "frag-src-uk-001-001",
+      "fragment_locator": "article:10",
+      "jurisdiction": "UK",
+      "article_reference": "article 10",
+      "proposition_text": "Operators must maintain a movement register before dispatch.",
+      "label": "article:10 \u2014 operator maintain a movement register before dispatch",
+      "short_name": "operator maintain a movement register before dispatch",
+      "slug": "article-10-operator-maintain-a-movement-register-before-dispatch",
+      "legal_subject": "operator",
+      "action": "maintain a movement register before dispatch",
+      "conditions": [
+        "before dispatch"
+      ],
+      "authority": null,
+      "required_documents": [
+        "register"
+      ],
+      "affected_subjects": [
+        "operator"
+      ],
+      "categories": [
+        "conditional",
+        "documentary",
+        "obligation",
+        "record_keeping"
+      ],
+      "tags": [
+        "operator",
+        "uk"
+      ],
+      "cross_reference_key": "uk:operator:maintain-a-movement-register-before-dispatch",
+      "cross_reference_targets": [],
+      "review_status": "proposed",
+      "notes": "judit_extraction_meta:{\"extraction_mode\": \"heuristic\", \"fallback_policy\": \"fallback\", \"fallback_used\": false, \"model_alias\": null, \"prompt_version\": \"v2\", \"schema_version\": \"none\", \"validation_errors\": []}\nheuristic extraction",
+      "proposition_tier": "substantive_rule",
+      "legal_effect_type": "obligation",
+      "territorial_application": [],
+      "extent": [],
+      "is_compliance_relevant": true,
+      "is_comparison_anchor": true,
+      "review_notes": null,
+      "extraction_trace_id": "extract-trace:1d863bd751fd4a71"
+    },
+    {
+      "id": "prop:b9934b2ea82950fa",
+      "proposition_key": "src-uk-001:article-10:p002",
+      "proposition_version_id": "pver:src-uk-001:article-10:p002:snap-src-uk-001-uk-example-001-2026-04-01:run-001",
+      "observed_in_run_id": "run-001",
+      "topic_id": "topic-movement-record-keeping",
+      "cluster_id": "cluster-topic-movement-record-keeping-traceability",
+      "source_record_id": "src-uk-001",
+      "source_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+      "source_fragment_id": "frag-src-uk-001-001",
+      "fragment_locator": "article:10",
+      "jurisdiction": "UK",
+      "article_reference": "article 10",
+      "proposition_text": "The appropriate authority may inspect the register on request.",
+      "label": "article:10 \u2014 authority inspect the register on request",
+      "short_name": "authority inspect the register on request",
+      "slug": "article-10-authority-inspect-the-register-on-request",
+      "legal_subject": "authority",
+      "action": "inspect the register on request",
+      "conditions": [],
+      "authority": "appropriate authority",
+      "required_documents": [
+        "register"
+      ],
+      "affected_subjects": [
+        "authority"
+      ],
+      "categories": [
+        "documentary",
+        "institutional",
+        "obligation",
+        "oversight",
+        "record_keeping"
+      ],
+      "tags": [
+        "appropriate-authority",
+        "authority",
+        "uk"
+      ],
+      "cross_reference_key": "uk:authority:inspect-the-register-on-request",
+      "cross_reference_targets": [],
+      "review_status": "proposed",
+      "notes": "judit_extraction_meta:{\"extraction_mode\": \"heuristic\", \"fallback_policy\": \"fallback\", \"fallback_used\": false, \"model_alias\": null, \"prompt_version\": \"v2\", \"schema_version\": \"none\", \"validation_errors\": []}\nheuristic extraction",
+      "proposition_tier": "substantive_rule",
+      "legal_effect_type": "recordkeeping",
+      "territorial_application": [],
+      "extent": [],
+      "is_compliance_relevant": true,
+      "is_comparison_anchor": true,
+      "review_notes": null,
+      "extraction_trace_id": "extract-trace:e3e516976bba657c"
+    }
+  ],
+  "divergence_findings": [],
+  "divergence_observations": [],
+  "divergence_assessments": [],
+  "review_decisions": [
+    {
+      "id": "review-frag-src-eu-001-001",
+      "target_type": "source_fragment",
+      "target_id": "frag-src-eu-001-001",
+      "previous_status": null,
+      "new_status": "proposed",
+      "reviewer": "system:intake",
+      "timestamp": "2026-06-03T15:29:04.288831Z",
+      "note": "Initial intake registration.",
+      "edited_fields": null,
+      "review_status": "proposed",
+      "rationale": "Initial intake registration.",
+      "decided_by": "system:intake",
+      "decided_at": "2026-06-03T15:29:04.288831Z",
+      "metadata": {
+        "source_record_id": "src-eu-001",
+        "source_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+        "cache_key": "580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95",
+        "authority": "case_file",
+        "authority_source_id": "src-eu-001"
+      }
+    },
+    {
+      "id": "review-frag-src-uk-001-001",
+      "target_type": "source_fragment",
+      "target_id": "frag-src-uk-001-001",
+      "previous_status": null,
+      "new_status": "proposed",
+      "reviewer": "system:intake",
+      "timestamp": "2026-06-03T15:29:04.290259Z",
+      "note": "Initial intake registration.",
+      "edited_fields": null,
+      "review_status": "proposed",
+      "rationale": "Initial intake registration.",
+      "decided_by": "system:intake",
+      "decided_at": "2026-06-03T15:29:04.290259Z",
+      "metadata": {
+        "source_record_id": "src-uk-001",
+        "source_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+        "cache_key": "60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce",
+        "authority": "case_file",
+        "authority_source_id": "src-uk-001"
+      }
+    },
+    {
+      "id": "review-proposition-prop:ad7a542e8e5cdeb9",
+      "target_type": "proposition",
+      "target_id": "prop:ad7a542e8e5cdeb9",
+      "previous_status": null,
+      "new_status": "proposed",
+      "reviewer": "system:extract",
+      "timestamp": "2026-06-03T15:29:04.295024Z",
+      "note": "Initial proposition inventory registration.",
+      "edited_fields": null,
+      "review_status": "proposed",
+      "rationale": "Initial proposition inventory registration.",
+      "decided_by": "system:extract",
+      "decided_at": "2026-06-03T15:29:04.295024Z",
+      "metadata": {
+        "source_record_id": "src-eu-001",
+        "source_fragment_id": "frag-src-eu-001-001",
+        "cross_reference_key": "eu:operator:maintain-a-movement-register-before-dispatch"
+      }
+    },
+    {
+      "id": "review-proposition-prop:06f28204c270a39a",
+      "target_type": "proposition",
+      "target_id": "prop:06f28204c270a39a",
+      "previous_status": null,
+      "new_status": "proposed",
+      "reviewer": "system:extract",
+      "timestamp": "2026-06-03T15:29:04.295031Z",
+      "note": "Initial proposition inventory registration.",
+      "edited_fields": null,
+      "review_status": "proposed",
+      "rationale": "Initial proposition inventory registration.",
+      "decided_by": "system:extract",
+      "decided_at": "2026-06-03T15:29:04.295031Z",
+      "metadata": {
+        "source_record_id": "src-eu-001",
+        "source_fragment_id": "frag-src-eu-001-001",
+        "cross_reference_key": "eu:authority:inspect-the-register-on-request"
+      }
+    },
+    {
+      "id": "review-proposition-prop:1bcb6c47bbf9881b",
+      "target_type": "proposition",
+      "target_id": "prop:1bcb6c47bbf9881b",
+      "previous_status": null,
+      "new_status": "proposed",
+      "reviewer": "system:extract",
+      "timestamp": "2026-06-03T15:29:04.295034Z",
+      "note": "Initial proposition inventory registration.",
+      "edited_fields": null,
+      "review_status": "proposed",
+      "rationale": "Initial proposition inventory registration.",
+      "decided_by": "system:extract",
+      "decided_at": "2026-06-03T15:29:04.295034Z",
+      "metadata": {
+        "source_record_id": "src-uk-001",
+        "source_fragment_id": "frag-src-uk-001-001",
+        "cross_reference_key": "uk:operator:maintain-a-movement-register-before-dispatch"
+      }
+    },
+    {
+      "id": "review-proposition-prop:b9934b2ea82950fa",
+      "target_type": "proposition",
+      "target_id": "prop:b9934b2ea82950fa",
+      "previous_status": null,
+      "new_status": "proposed",
+      "reviewer": "system:extract",
+      "timestamp": "2026-06-03T15:29:04.295038Z",
+      "note": "Initial proposition inventory registration.",
+      "edited_fields": null,
+      "review_status": "proposed",
+      "rationale": "Initial proposition inventory registration.",
+      "decided_by": "system:extract",
+      "decided_at": "2026-06-03T15:29:04.295038Z",
+      "metadata": {
+        "source_record_id": "src-uk-001",
+        "source_fragment_id": "frag-src-uk-001-001",
+        "cross_reference_key": "uk:authority:inspect-the-register-on-request"
+      }
+    }
+  ],
+  "pipeline_review_decisions": [],
+  "run_artifacts": [
+    {
+      "id": "artifact-run-001-source-records",
+      "run_id": "run-001",
+      "artifact_type": "source_records",
+      "provenance": "pipeline.intake",
+      "created_at": "2026-06-03T15:29:04.299144Z",
+      "content_hash": "ab376da5557e70a11226d8eee0b81aa5c4730c311119939690043f02b2b882c3",
+      "storage_uri": null,
+      "metadata": {
+        "source_record_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-source-snapshots",
+      "run_id": "run-001",
+      "artifact_type": "source_snapshots",
+      "provenance": "pipeline.intake",
+      "created_at": "2026-06-03T15:29:04.299215Z",
+      "content_hash": "444d22230e885f9f01385603b40735f0bc0c113911b1a55cfd28fa009a462d59",
+      "storage_uri": null,
+      "metadata": {
+        "source_snapshot_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-source-fragments",
+      "run_id": "run-001",
+      "artifact_type": "source_fragments",
+      "provenance": "pipeline.intake",
+      "created_at": "2026-06-03T15:29:04.299248Z",
+      "content_hash": "369769e648b2bdc13ad06ea4103da2959dcbe780b25dadf42eb1669e91b08834",
+      "storage_uri": null,
+      "metadata": {
+        "source_fragment_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-source-parse-traces",
+      "run_id": "run-001",
+      "artifact_type": "source_parse_traces",
+      "provenance": "pipeline.intake",
+      "created_at": "2026-06-03T15:29:04.299280Z",
+      "content_hash": "bf1f35d5cda568143c332a0945ff0f29c17c314eb70d0558457aad72a76e32d2",
+      "storage_uri": null,
+      "metadata": {
+        "source_parse_trace_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-source-fetch-metadata",
+      "run_id": "run-001",
+      "artifact_type": "source_fetch_metadata",
+      "provenance": "pipeline.intake",
+      "created_at": "2026-06-03T15:29:04.299305Z",
+      "content_hash": "aeac4332bb2aea27980c4f1ad04cf966f25578b6c65724aeacd9293e14cff87a",
+      "storage_uri": null,
+      "metadata": {
+        "source_fetch_metadata_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-source-fetch-attempts",
+      "run_id": "run-001",
+      "artifact_type": "source_fetch_attempts",
+      "provenance": "pipeline.intake",
+      "created_at": "2026-06-03T15:29:04.299331Z",
+      "content_hash": "4df0e193a147ae2051a0c6ae7387f4d81961d573181ef5c999914aa7e71282ca",
+      "storage_uri": null,
+      "metadata": {
+        "source_fetch_attempt_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-source-inventory",
+      "run_id": "run-001",
+      "artifact_type": "source_inventory",
+      "provenance": "pipeline.intake",
+      "created_at": "2026-06-03T15:29:04.299332Z",
+      "content_hash": "25082558e9d30f98c2963706bc898381eae5b563c2c19c7a3db1cf8902339dde",
+      "storage_uri": null,
+      "metadata": {
+        "source_inventory_row_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-source-target-links",
+      "run_id": "run-001",
+      "artifact_type": "source_target_links",
+      "provenance": "pipeline.intake",
+      "created_at": "2026-06-03T15:29:04.299356Z",
+      "content_hash": "6951d13767bb1e43579b6c4b7367bc3017c9a02e0e5db5a3e9c8c6fcad34a3f1",
+      "storage_uri": null,
+      "metadata": {
+        "source_target_link_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-source-categorisation-rationales",
+      "run_id": "run-001",
+      "artifact_type": "source_categorisation_rationales",
+      "provenance": "pipeline.intake",
+      "created_at": "2026-06-03T15:29:04.299377Z",
+      "content_hash": "b4eca3cf4c018c63048e7c34b668a9e295aa8b225f7648fc53a9da98de4d100e",
+      "storage_uri": null,
+      "metadata": {
+        "source_categorisation_rationale_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-propositions",
+      "run_id": "run-001",
+      "artifact_type": "propositions",
+      "provenance": "pipeline.extract",
+      "created_at": "2026-06-03T15:29:04.299453Z",
+      "content_hash": "26ee65b482ef494d8c1c74bd6c88cf25e2bdabc718283b20189d906149a0617e",
+      "storage_uri": null,
+      "metadata": {
+        "proposition_count": 4
+      }
+    },
+    {
+      "id": "artifact-run-001-proposition-inventory",
+      "run_id": "run-001",
+      "artifact_type": "proposition_inventory",
+      "provenance": "pipeline.extract",
+      "created_at": "2026-06-03T15:29:04.299473Z",
+      "content_hash": "856e8b1fa11a260fe532e023d1b8ee6d81c22fb6cc1006fbd4f4b6982fe6f0a6",
+      "storage_uri": null,
+      "metadata": {
+        "category_count": 6
+      }
+    },
+    {
+      "id": "artifact-run-001-proposition-extraction-traces",
+      "run_id": "run-001",
+      "artifact_type": "proposition_extraction_traces",
+      "provenance": "pipeline.extract",
+      "created_at": "2026-06-03T15:29:04.299529Z",
+      "content_hash": "0fd12ef95f809ed3dbb92aa8205e8b21c61c17d879a5c91b8523937ec122465e",
+      "storage_uri": null,
+      "metadata": {
+        "proposition_extraction_trace_count": 4
+      }
+    },
+    {
+      "id": "artifact-run-001-proposition-extraction-jobs",
+      "run_id": "run-001",
+      "artifact_type": "proposition_extraction_jobs",
+      "provenance": "pipeline.extract",
+      "created_at": "2026-06-03T15:29:04.299552Z",
+      "content_hash": "65a895ad3defbb1a133abc9da2c3ece85133501406e7ce531b2d7b36a5b65ccf",
+      "storage_uri": null,
+      "metadata": {
+        "proposition_extraction_job_count": 2
+      }
+    },
+    {
+      "id": "artifact-run-001-proposition-completeness-assessments",
+      "run_id": "run-001",
+      "artifact_type": "proposition_completeness_assessments",
+      "provenance": "pipeline.proposition_completeness",
+      "created_at": "2026-06-03T15:29:04.299578Z",
+      "content_hash": "a965a8e4d56d64396aa2d2950c1e1efd95e11e212e2d83a709d1af68c017a092",
+      "storage_uri": null,
+      "metadata": {
+        "proposition_completeness_assessment_count": 4
+      }
+    },
+    {
+      "id": "artifact-run-001-legal-scopes",
+      "run_id": "run-001",
+      "artifact_type": "legal_scopes",
+      "provenance": "pipeline.scope_link",
+      "created_at": "2026-06-03T15:29:04.299629Z",
+      "content_hash": "bc3e5bab5387037c05aa3f59ef0f64a3286e4862d62cac3ed87d8e117401f894",
+      "storage_uri": null,
+      "metadata": {
+        "legal_scope_count": 11
+      }
+    },
+    {
+      "id": "artifact-run-001-proposition-scope-links",
+      "run_id": "run-001",
+      "artifact_type": "proposition_scope_links",
+      "provenance": "pipeline.scope_link",
+      "created_at": "2026-06-03T15:29:04.299666Z",
+      "content_hash": "d026fe7633ccfdfe51c171d90d7b1ecad9a9067679706e43c3c4047ada28ba1c",
+      "storage_uri": null,
+      "metadata": {
+        "proposition_scope_link_count": 4
+      }
+    },
+    {
+      "id": "artifact-run-001-scope-inventory",
+      "run_id": "run-001",
+      "artifact_type": "scope_inventory",
+      "provenance": "pipeline.scope_link",
+      "created_at": "2026-06-03T15:29:04.299676Z",
+      "content_hash": "43ee29be39957d60327ddf95606acb1b8d41274ae906eb54970848c658212556",
+      "storage_uri": null,
+      "metadata": {}
+    },
+    {
+      "id": "artifact-run-001-scope-review-candidates",
+      "run_id": "run-001",
+      "artifact_type": "scope_review_candidates",
+      "provenance": "pipeline.scope_link",
+      "created_at": "2026-06-03T15:29:04.299680Z",
+      "content_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "storage_uri": null,
+      "metadata": {
+        "scope_review_candidate_count": 0
+      }
+    },
+    {
+      "id": "artifact-run-001-assessments",
+      "run_id": "run-001",
+      "artifact_type": "divergence_assessments",
+      "provenance": "pipeline.compare",
+      "created_at": "2026-06-03T15:29:04.299683Z",
+      "content_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "storage_uri": null,
+      "metadata": {
+        "assessment_count": 0
+      }
+    },
+    {
+      "id": "artifact-run-001-narrative",
+      "run_id": "run-001",
+      "artifact_type": "narrative_export",
+      "provenance": "pipeline.export",
+      "created_at": "2026-06-03T15:29:04.299692Z",
+      "content_hash": "4cf84480c7c6bf2f778991c31150d3b63417c8aea3dfe3a1c76f11dc2de0214f",
+      "storage_uri": null,
+      "metadata": {
+        "title": "Demo divergence narrative"
+      }
+    },
+    {
+      "id": "artifact-run-001-review-decisions",
+      "run_id": "run-001",
+      "artifact_type": "review_decisions",
+      "provenance": "pipeline.review",
+      "created_at": "2026-06-03T15:29:04.299749Z",
+      "content_hash": "b231a40ab858593690ea88b111d34e920ff1ec6f75a7a436a1e5a10b9e90d10f",
+      "storage_uri": null,
+      "metadata": {
+        "review_decision_count": 6
+      }
+    }
+  ],
+  "source_family_candidates": [],
+  "has_source_family_candidates": false,
+  "source_family_candidate_count": 0,
+  "narrative": {
+    "title": "Demo divergence narrative",
+    "summary": "This demo compares one proposition from each jurisdiction and records the result.",
+    "sections": [
+      "Topic: Movement record keeping",
+      "Cluster: traceability",
+      "Propositions extracted: 4",
+      "Proposition categories: conditional, documentary, institutional, obligation, oversight, record_keeping",
+      "Divergence analysis skipped in single-jurisdiction mode.",
+      "No divergence observations produced."
+    ]
+  },
+  "legal_scopes": [
+    {
+      "id": "animal",
+      "slug": "animal",
+      "label": "Animal",
+      "description": "Animals within scope of animal health law.",
+      "parent_scope_id": null,
+      "scope_type": "species",
+      "synonyms": [],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "terrestrial_animal",
+      "slug": "terrestrial_animal",
+      "label": "Terrestrial animal",
+      "description": "",
+      "parent_scope_id": "animal",
+      "scope_type": "species",
+      "synonyms": [
+        "terrestrial"
+      ],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "kept_terrestrial_animal",
+      "slug": "kept_terrestrial_animal",
+      "label": "Kept terrestrial animal",
+      "description": "",
+      "parent_scope_id": "terrestrial_animal",
+      "scope_type": "species",
+      "synonyms": [],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "equine",
+      "slug": "equine",
+      "label": "Equine",
+      "description": "Horses and other equidae.",
+      "parent_scope_id": "kept_terrestrial_animal",
+      "scope_type": "species",
+      "synonyms": [
+        "equidae",
+        "equid",
+        "horse",
+        "horses"
+      ],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "bovine",
+      "slug": "bovine",
+      "label": "Bovine",
+      "description": "Cattle and other bovidae.",
+      "parent_scope_id": "kept_terrestrial_animal",
+      "scope_type": "species",
+      "synonyms": [
+        "cattle",
+        "bovidae"
+      ],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "identification_traceability",
+      "slug": "identification_traceability",
+      "label": "Identification and traceability",
+      "description": "",
+      "parent_scope_id": null,
+      "scope_type": "subject",
+      "synonyms": [
+        "identification",
+        "traceability",
+        "tagging",
+        "ear tag"
+      ],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "movement_control",
+      "slug": "movement_control",
+      "label": "Movement control",
+      "description": "",
+      "parent_scope_id": null,
+      "scope_type": "process",
+      "synonyms": [
+        "movement",
+        "movement licence",
+        "transport"
+      ],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "certification",
+      "slug": "certification",
+      "label": "Certification",
+      "description": "",
+      "parent_scope_id": null,
+      "scope_type": "process",
+      "synonyms": [
+        "certificate",
+        "certified"
+      ],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "establishments",
+      "slug": "establishments",
+      "label": "Establishments",
+      "description": "Premises, holdings, and approved establishments.",
+      "parent_scope_id": null,
+      "scope_type": "institution",
+      "synonyms": [
+        "establishment",
+        "premises",
+        "holding"
+      ],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "disease_control",
+      "slug": "disease_control",
+      "label": "Disease control",
+      "description": "",
+      "parent_scope_id": null,
+      "scope_type": "disease",
+      "synonyms": [
+        "disease",
+        "biosecurity",
+        "surveillance"
+      ],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    },
+    {
+      "id": "database_registration",
+      "slug": "database_registration",
+      "label": "Database registration",
+      "description": "",
+      "parent_scope_id": null,
+      "scope_type": "process",
+      "synonyms": [
+        "database",
+        "registry",
+        "registration"
+      ],
+      "status": "active",
+      "metadata": {
+        "taxonomy_seed": "judit.v1"
+      }
+    }
+  ],
+  "proposition_scope_links": [
+    {
+      "id": "psl:ebb5dc0d6e58a7e0",
+      "proposition_id": "prop:ad7a542e8e5cdeb9",
+      "proposition_key": "src-eu-001:article-10:p001",
+      "scope_id": "movement_control",
+      "relevance": "direct",
+      "inheritance": "explicit",
+      "confidence": "high",
+      "method": "deterministic",
+      "reason": "Matched term 'movement' in proposition_text (direct applicability, classifier confidence tier).",
+      "evidence": [
+        "operators must maintain a movement register before dispatch."
+      ],
+      "signals": {
+        "matched_term": "movement",
+        "evidence_field": "proposition_text",
+        "evidence_by_field": {
+          "proposition_text": "operators must maintain a movement register before dispatch."
+        },
+        "evidence_excerpts_detail": {
+          "proposition_text": "operators must maintain a movement register before dispatch."
+        }
+      }
+    },
+    {
+      "id": "psl:11894fdb89758c00",
+      "proposition_id": "prop:06f28204c270a39a",
+      "proposition_key": "src-eu-001:article-10:p002",
+      "scope_id": "movement_control",
+      "relevance": "direct",
+      "inheritance": "explicit",
+      "confidence": "high",
+      "method": "deterministic",
+      "reason": "Matched term 'movement' in source_fragment_text (direct applicability, classifier confidence tier).",
+      "evidence": [
+        "article 10. operators must maintain a movement register before dispatch. the competent authority may inspect the register on request."
+      ],
+      "signals": {
+        "matched_term": "movement",
+        "evidence_field": "source_fragment_text",
+        "evidence_by_field": {
+          "source_fragment_text": "article 10. operators must maintain a movement register before dispatch. the competent authority may inspect the register on request."
+        },
+        "evidence_excerpts_detail": {
+          "source_fragment_text": "article 10. operators must maintain a movement register before dispatch. the competent authority may inspect the register on request."
+        }
+      }
+    },
+    {
+      "id": "psl:e24876051e9b8cd6",
+      "proposition_id": "prop:1bcb6c47bbf9881b",
+      "proposition_key": "src-uk-001:article-10:p001",
+      "scope_id": "movement_control",
+      "relevance": "direct",
+      "inheritance": "explicit",
+      "confidence": "high",
+      "method": "deterministic",
+      "reason": "Matched term 'movement' in proposition_text (direct applicability, classifier confidence tier).",
+      "evidence": [
+        "operators must maintain a movement register before dispatch."
+      ],
+      "signals": {
+        "matched_term": "movement",
+        "evidence_field": "proposition_text",
+        "evidence_by_field": {
+          "proposition_text": "operators must maintain a movement register before dispatch."
+        },
+        "evidence_excerpts_detail": {
+          "proposition_text": "operators must maintain a movement register before dispatch."
+        }
+      }
+    },
+    {
+      "id": "psl:d73ee8991ba907af",
+      "proposition_id": "prop:b9934b2ea82950fa",
+      "proposition_key": "src-uk-001:article-10:p002",
+      "scope_id": "movement_control",
+      "relevance": "direct",
+      "inheritance": "explicit",
+      "confidence": "high",
+      "method": "deterministic",
+      "reason": "Matched term 'movement' in source_fragment_text (direct applicability, classifier confidence tier).",
+      "evidence": [
+        "article 10. operators must maintain a movement register before dispatch. the appropriate authority may inspect the register on request."
+      ],
+      "signals": {
+        "matched_term": "movement",
+        "evidence_field": "source_fragment_text",
+        "evidence_by_field": {
+          "source_fragment_text": "article 10. operators must maintain a movement register before dispatch. the appropriate authority may inspect the register on request."
+        },
+        "evidence_excerpts_detail": {
+          "source_fragment_text": "article 10. operators must maintain a movement register before dispatch. the appropriate authority may inspect the register on request."
+        }
+      }
+    }
+  ],
+  "scope_inventory": {
+    "inventory_version": "0.1",
+    "run_id": "run-001",
+    "taxonomy_seed_version": "judit.v1",
+    "scope_count": 11,
+    "scope_counts_by_type": {
+      "species": 5,
+      "subject": 1,
+      "process": 3,
+      "institution": 1,
+      "disease": 1
+    },
+    "proposition_scope_link_count": 4,
+    "explicit_link_count": 4,
+    "inherited_link_count": 0,
+    "link_counts_by_relevance": {
+      "direct": 4
+    },
+    "link_counts_by_inheritance": {
+      "explicit": 4
+    },
+    "link_counts_by_scope_id": {
+      "movement_control": 4
+    }
+  },
+  "scope_review_candidates": [],
+  "has_legal_scopes": true,
+  "has_proposition_scope_links": true,
+  "has_scope_inventory": true,
+  "legal_scope_count": 11,
+  "proposition_scope_link_count": 4,
+  "stage_traces": [
+    {
+      "stage_name": "source intake",
+      "run_id": "run-001",
+      "timestamp": "2026-06-03T15:29:04.288304Z",
+      "started_at": "2026-06-03T15:29:04.288304Z",
+      "finished_at": "2026-06-03T15:29:04.293784Z",
+      "status": "ok",
+      "inputs": {
+        "source_count": 2,
+        "source_ids": [
+          "src-eu-001",
+          "src-uk-001"
+        ],
+        "cache_paths": {
+          "source_cache_dir": "/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots",
+          "derived_cache_dir": "/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/derived-artifacts"
+        },
+        "cache_path_resolution": {
+          "source_cache_dir": "default_temp",
+          "derived_cache_dir": "default_temp"
+        }
+      },
+      "outputs": {
+        "source_record_ids": [
+          "src-eu-001",
+          "src-uk-001"
+        ],
+        "source_snapshot_ids": [
+          "snap-src-eu-001-eu-example-001@2026-04-01",
+          "snap-src-uk-001-uk-example-001@2026-04-01"
+        ],
+        "source_fragment_ids": [
+          "frag-src-eu-001-001",
+          "frag-src-uk-001-001"
+        ],
+        "source_parse_trace_ids": [
+          "parse-trace-snap-src-eu-001-eu-example-001-2026-04-01",
+          "parse-trace-snap-src-uk-001-uk-example-001-2026-04-01"
+        ],
+        "source_fetch_metadata_ids": [
+          "fetch-src-eu-001",
+          "fetch-src-uk-001"
+        ],
+        "source_fetch_attempt_ids": [
+          "fetch-attempt-src-eu-001-001",
+          "fetch-attempt-src-uk-001-001"
+        ],
+        "source_inventory_id": "artifact-run-001-source-inventory",
+        "source_target_link_ids": [
+          "target-link-src-eu-001",
+          "target-link-src-uk-001"
+        ],
+        "source_categorisation_rationale_count": 2,
+        "review_decision_ids": [
+          "review-frag-src-eu-001-001",
+          "review-frag-src-uk-001-001"
+        ],
+        "review_transitions": [
+          {
+            "target_type": "source_fragment",
+            "target_id": "frag-src-eu-001-001",
+            "previous_status": null,
+            "new_status": "proposed",
+            "reviewer": "system:intake"
+          },
+          {
+            "target_type": "source_fragment",
+            "target_id": "frag-src-uk-001-001",
+            "previous_status": null,
+            "new_status": "proposed",
+            "reviewer": "system:intake"
+          }
+        ],
+        "fetch_cache_traces": [
+          {
+            "authority": "case_file",
+            "authority_source_id": "src-eu-001",
+            "version_id": "eu-example-001@2026-04-01",
+            "adapter": "CaseFileAuthorityAdapter",
+            "requested_content_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+            "cache_dir": "/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots",
+            "decision": "cache_hit",
+            "fetch_status": "cache_hit",
+            "cache_key": "580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95",
+            "content_hash": "2041299c109fa8f915485e2906b5d6db21997e42086239a83f29c44bd29e70fa",
+            "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/580279493856a60e433228a4d355b7635d513e9fa91a366ad5113b7ce51d9a95.json",
+            "attempt_count": 1,
+            "source_record_id": "src-eu-001",
+            "source_snapshot_id": "snap-src-eu-001-eu-example-001@2026-04-01",
+            "source_fragment_id": "frag-src-eu-001-001",
+            "source_fragment_ids": [
+              "frag-src-eu-001-001"
+            ],
+            "provenance": "demo.case_file",
+            "retrieved_at": "2026-04-27T18:00:00Z"
+          },
+          {
+            "authority": "case_file",
+            "authority_source_id": "src-uk-001",
+            "version_id": "uk-example-001@2026-04-01",
+            "adapter": "CaseFileAuthorityAdapter",
+            "requested_content_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+            "cache_dir": "/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots",
+            "decision": "cache_hit",
+            "fetch_status": "cache_hit",
+            "cache_key": "60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce",
+            "content_hash": "2c6ef2c744c19ac9eaca8f732d8cb2b8bc894a3a893ec43f65fb129234a1d26b",
+            "raw_artifact_uri": "file:///private/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/source-snapshots/60232c918203b24708b542aeb24c1fb7626fdaeae92cf6ae2b72423c5a8733ce.json",
+            "attempt_count": 1,
+            "source_record_id": "src-uk-001",
+            "source_snapshot_id": "snap-src-uk-001-uk-example-001@2026-04-01",
+            "source_fragment_id": "frag-src-uk-001-001",
+            "source_fragment_ids": [
+              "frag-src-uk-001-001"
+            ],
+            "provenance": "demo.case_file",
+            "retrieved_at": "2026-04-27T18:00:00Z"
+          }
+        ]
+      },
+      "strategy_used": "authority_adapter_fetch_with_snapshot_cache",
+      "model_alias_used": null,
+      "duration_ms": 5,
+      "input_artifact_ids": [],
+      "output_artifact_ids": [
+        "artifact-run-001-source-records",
+        "artifact-run-001-source-snapshots",
+        "artifact-run-001-source-fragments",
+        "artifact-run-001-source-parse-traces",
+        "artifact-run-001-source-fetch-metadata",
+        "artifact-run-001-source-fetch-attempts",
+        "artifact-run-001-source-inventory",
+        "artifact-run-001-source-target-links",
+        "artifact-run-001-source-categorisation-rationales"
+      ],
+      "metrics": {
+        "source_count": 2,
+        "source_snapshot_count": 2,
+        "source_fragment_count": 2,
+        "source_target_link_count": 2,
+        "source_categorisation_rationale_count": 2,
+        "cache_hit_count": 2,
+        "live_fetch_count": 0,
+        "success_count": 0,
+        "retryable_error_count": 0,
+        "fatal_error_count": 0,
+        "skipped_count": 0,
+        "unique_content_hash_count": 2,
+        "snapshot_count": 2,
+        "parsed_snapshot_count": 2,
+        "fragment_count": 2,
+        "parser_success_count": 2,
+        "parser_partial_success_count": 0,
+        "parser_failed_count": 0,
+        "parser_skipped_count": 0,
+        "unique_fragment_hash_count": 2
+      },
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "stage_name": "proposition extraction",
+      "run_id": "run-001",
+      "timestamp": "2026-06-03T15:29:04.293829Z",
+      "started_at": "2026-06-03T15:29:04.293829Z",
+      "finished_at": "2026-06-03T15:29:04.294921Z",
+      "status": "ok",
+      "inputs": {
+        "source_record_ids": [
+          "src-eu-001",
+          "src-uk-001"
+        ],
+        "source_count": 2,
+        "use_llm": false,
+        "extraction_mode": "heuristic",
+        "extraction_mode_requested": "heuristic",
+        "extraction_mode_effective": "heuristic",
+        "extraction_execution_mode": "interactive",
+        "extraction_fallback": "fallback",
+        "divergence_reasoning": "none",
+        "focus_scopes": [],
+        "max_propositions_per_source": 4,
+        "effective_required_fragment_locators": [],
+        "effective_focus_terms": [],
+        "effective_include_annexes": false,
+        "effective_fragment_selection_mode": "all_matching",
+        "effective_focus_scopes": [],
+        "effective_model_error_policy": "continue_with_fallback",
+        "effective_max_propositions_per_source": 4,
+        "available_fragment_locators_count": 1,
+        "available_fragment_locators_sample": [
+          "article:10"
+        ],
+        "max_extract_input_tokens": null,
+        "extract_model_context_limit": null,
+        "extraction_llm_call_traces": [],
+        "derived_artifact_cache": {
+          "prompt_name": "extract.propositions.default",
+          "prompt_version": "v2",
+          "pipeline_version": "0.1.0",
+          "strategy_version": "v1",
+          "model_alias": null,
+          "source_snapshot_ids": [
+            "snap-src-eu-001-eu-example-001@2026-04-01",
+            "snap-src-uk-001-uk-example-001@2026-04-01"
+          ],
+          "source_fragment_ids": [
+            "frag-src-eu-001-001",
+            "frag-src-uk-001-001"
+          ],
+          "derived_artifact_cache_key": "087bf14a32a1daeb1b0094bfd7c523815f01cb8ad3f7ce01f463840b632ff520",
+          "cache_status": "cache_hit",
+          "cache_dir": "/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/derived-artifacts",
+          "cache_storage_uri": "/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/derived-artifacts/proposition_extraction/087bf14a32a1daeb1b0094bfd7c523815f01cb8ad3f7ce01f463840b632ff520.json",
+          "cached_at": "2026-06-03T10:07:47.063406Z"
+        }
+      },
+      "outputs": {
+        "proposition_ids": [
+          "prop:ad7a542e8e5cdeb9",
+          "prop:06f28204c270a39a",
+          "prop:1bcb6c47bbf9881b",
+          "prop:b9934b2ea82950fa"
+        ],
+        "proposition_count": 4,
+        "proposition_extraction_trace_ids": [
+          "extract-trace:06725d19455f7c4e",
+          "extract-trace:3600ed486c7be408",
+          "extract-trace:1d863bd751fd4a71",
+          "extract-trace:e3e516976bba657c"
+        ],
+        "proposition_extraction_failure_count": 0,
+        "source_fragment_links": {
+          "prop:ad7a542e8e5cdeb9": "frag-src-eu-001-001",
+          "prop:06f28204c270a39a": "frag-src-eu-001-001",
+          "prop:1bcb6c47bbf9881b": "frag-src-uk-001-001",
+          "prop:b9934b2ea82950fa": "frag-src-uk-001-001"
+        },
+        "selected_by_required_locator": 0,
+        "selected_by_focus_term": 2,
+        "selected_by_annex_included": 0,
+        "skipped_not_required_count": 0,
+        "extraction_jobs_created": 2,
+        "extraction_jobs_selected": 2,
+        "extraction_jobs_executed": 2,
+        "extraction_jobs_skipped": 0,
+        "extraction_jobs_total": 2,
+        "extraction_jobs_successful": 2,
+        "extraction_jobs_failed": 0,
+        "extraction_jobs_cached": 2,
+        "live_llm_calls_attempted": 0,
+        "live_llm_calls_successful": 0,
+        "live_llm_calls_failed": 0,
+        "cached_llm_results_successful": 0,
+        "cached_llm_results_failed": 0,
+        "cached_successful_llm_results": 0,
+        "cached_failed_llm_results": 0,
+        "llm_results_reused_from_cache": 0,
+        "attempted_llm_calls": 0,
+        "successful_llm_calls": 0,
+        "failed_llm_calls": 0,
+        "llm_extraction_call_count": 0,
+        "llm_extraction_skipped_count": 0,
+        "max_estimated_input_tokens": null,
+        "context_window_risk_count": 0,
+        "largest_extraction_fragment_locator": null,
+        "largest_extraction_source_record_id": null,
+        "first_attempt_failed": 0,
+        "retry_attempted": 0,
+        "retry_successful": 0,
+        "retry_failed": 0,
+        "skip_reasons_by_type": {},
+        "source_fragments_total": 2,
+        "extraction_jobs_selected_preview": 2
+      },
+      "strategy_used": "heuristic_extraction|fallback=fallback",
+      "model_alias_used": null,
+      "duration_ms": 1,
+      "input_artifact_ids": [],
+      "output_artifact_ids": [],
+      "metrics": {
+        "proposition_count": 4,
+        "traced_proposition_count": 4,
+        "heuristic_extraction_count": 4,
+        "llm_extraction_count": 0,
+        "manual_extraction_count": 0,
+        "imported_extraction_count": 0,
+        "fallback_extraction_count": 0,
+        "extraction_warning_count": 0,
+        "extraction_error_count": 0,
+        "extraction_jobs_created": 2,
+        "extraction_jobs_selected": 2,
+        "extraction_jobs_executed": 2,
+        "extraction_jobs_skipped": 0,
+        "extraction_jobs_total": 2,
+        "extraction_jobs_successful": 2,
+        "extraction_jobs_failed": 0,
+        "extraction_jobs_cached": 2,
+        "live_llm_calls_attempted": 0,
+        "live_llm_calls_successful": 0,
+        "live_llm_calls_failed": 0,
+        "cached_llm_results_successful": 0,
+        "cached_llm_results_failed": 0,
+        "cached_successful_llm_results": 0,
+        "cached_failed_llm_results": 0,
+        "llm_results_reused_from_cache": 0,
+        "attempted_llm_calls": 0,
+        "successful_llm_calls": 0,
+        "failed_llm_calls": 0,
+        "llm_extraction_call_count": 0,
+        "llm_extraction_skipped_count": 0,
+        "max_estimated_input_tokens": null,
+        "context_window_risk_count": 0,
+        "largest_extraction_fragment_locator": null,
+        "largest_extraction_source_record_id": null,
+        "first_attempt_failed": 0,
+        "retry_attempted": 0,
+        "retry_successful": 0,
+        "retry_failed": 0,
+        "skip_reasons_by_type": {},
+        "source_fragments_total": 2,
+        "extraction_jobs_selected_preview": 2
+      },
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "stage_name": "proposition inventory",
+      "run_id": "run-001",
+      "timestamp": "2026-06-03T15:29:04.295045Z",
+      "started_at": "2026-06-03T15:29:04.295045Z",
+      "finished_at": "2026-06-03T15:29:04.295049Z",
+      "status": "ok",
+      "inputs": {
+        "proposition_ids": [
+          "prop:ad7a542e8e5cdeb9",
+          "prop:06f28204c270a39a",
+          "prop:1bcb6c47bbf9881b",
+          "prop:b9934b2ea82950fa"
+        ]
+      },
+      "outputs": {
+        "proposition_ids": [
+          "prop:ad7a542e8e5cdeb9",
+          "prop:06f28204c270a39a",
+          "prop:1bcb6c47bbf9881b",
+          "prop:b9934b2ea82950fa"
+        ],
+        "category_count": 6,
+        "tag_count": 6,
+        "review_decision_ids": [
+          "review-proposition-prop:ad7a542e8e5cdeb9",
+          "review-proposition-prop:06f28204c270a39a",
+          "review-proposition-prop:1bcb6c47bbf9881b",
+          "review-proposition-prop:b9934b2ea82950fa"
+        ]
+      },
+      "strategy_used": "deterministic_proposition_inventory_enrichment",
+      "model_alias_used": null,
+      "duration_ms": 0,
+      "input_artifact_ids": [],
+      "output_artifact_ids": [],
+      "metrics": {},
+      "warnings": [
+        "Cross references are deterministic keys, not semantic legal citation parsing yet."
+      ],
+      "errors": []
+    },
+    {
+      "stage_name": "proposition pairing",
+      "run_id": "run-001",
+      "timestamp": "2026-06-03T15:29:04.295094Z",
+      "started_at": "2026-06-03T15:29:04.295094Z",
+      "finished_at": "2026-06-03T15:29:04.295097Z",
+      "status": "ok",
+      "inputs": {
+        "comparison_config": {
+          "jurisdiction_a": "EU",
+          "jurisdiction_b": "UK",
+          "proposition_index": 1
+        }
+      },
+      "outputs": {
+        "pair_count": 0,
+        "pairs": []
+      },
+      "strategy_used": "pairing_skipped_single_jurisdiction",
+      "model_alias_used": null,
+      "duration_ms": 0,
+      "input_artifact_ids": [],
+      "output_artifact_ids": [],
+      "metrics": {},
+      "warnings": [
+        "Divergence pairing skipped: single-jurisdiction analysis mode enabled."
+      ],
+      "errors": []
+    },
+    {
+      "stage_name": "divergence classification",
+      "run_id": "run-001",
+      "timestamp": "2026-06-03T15:29:04.295107Z",
+      "started_at": "2026-06-03T15:29:04.295107Z",
+      "finished_at": "2026-06-03T15:29:04.295110Z",
+      "status": "ok",
+      "inputs": {
+        "pair_count": 0,
+        "pair_ids": [],
+        "use_llm": false,
+        "derived_artifact_cache": {}
+      },
+      "outputs": {
+        "assessment_ids": [],
+        "divergence_types": [],
+        "review_decision_ids": [],
+        "evidence_context": [],
+        "review_transitions": []
+      },
+      "strategy_used": "divergence_skipped_single_jurisdiction",
+      "model_alias_used": null,
+      "duration_ms": 0,
+      "input_artifact_ids": [],
+      "output_artifact_ids": [],
+      "metrics": {},
+      "warnings": [
+        "Divergence classification skipped: single-jurisdiction analysis mode enabled."
+      ],
+      "errors": []
+    },
+    {
+      "stage_name": "narrative generation",
+      "run_id": "run-001",
+      "timestamp": "2026-06-03T15:29:04.295129Z",
+      "started_at": "2026-06-03T15:29:04.295129Z",
+      "finished_at": "2026-06-03T15:29:04.295394Z",
+      "status": "ok",
+      "inputs": {
+        "assessment_ids": [],
+        "assessment_count": 0,
+        "narrative_overrides": {
+          "title": true,
+          "summary": true
+        },
+        "derived_artifact_cache": {
+          "prompt_name": "narrative.template.default",
+          "prompt_version": "v1",
+          "pipeline_version": "0.1.0",
+          "strategy_version": "v1",
+          "model_alias": null,
+          "source_snapshot_ids": [
+            "snap-src-eu-001-eu-example-001@2026-04-01",
+            "snap-src-uk-001-uk-example-001@2026-04-01"
+          ],
+          "source_fragment_ids": [
+            "frag-src-eu-001-001",
+            "frag-src-uk-001-001"
+          ],
+          "derived_artifact_cache_key": "8a9d1ad37f58babc543c24f37b8d16b877fa1cf16321827c8fb0cc3126368e5c",
+          "cache_status": "cache_hit",
+          "cache_dir": "/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/derived-artifacts",
+          "cache_storage_uri": "/var/folders/zg/y_4dnc8n1c72_fnd9knx6fvr0000gn/T/judit/derived-artifacts/narrative_generation/8a9d1ad37f58babc543c24f37b8d16b877fa1cf16321827c8fb0cc3126368e5c.json",
+          "cached_at": "2026-06-03T10:07:47.064468Z"
+        }
+      },
+      "outputs": {
+        "narrative_title": "Demo divergence narrative",
+        "section_count": 6
+      },
+      "strategy_used": "template_narrative_synthesis",
+      "model_alias_used": null,
+      "duration_ms": 0,
+      "input_artifact_ids": [],
+      "output_artifact_ids": [],
+      "metrics": {},
+      "warnings": [],
+      "errors": []
+    }
+  ],
+  "extraction_llm_call_traces": [],
+  "pipeline_case_inputs": {
+    "comparison": {
+      "jurisdiction_a": "EU",
+      "jurisdiction_b": "UK",
+      "proposition_index": 1
+    },
+    "narrative": {
+      "title": "Demo divergence narrative",
+      "summary": "This demo compares one proposition from each jurisdiction and records the result."
+    },
+    "extraction": {},
+    "prompts": {},
+    "analysis_mode": "auto",
+    "analysis_scope": "selected_sources",
+    "strategy_versions": {},
+    "pipeline_version": "0.1.0"
+  },
+  "missing_required_fragment_locators": [],
+  "run_model_metadata": {
+    "schema_version": "1",
+    "generated_at": "2026-06-03T15:29:04.301510Z",
+    "description": "Movement record keeping",
+    "input_pipeline": "Judit case file",
+    "input_asset": "traceability",
+    "run_id": "run-001",
+    "workflow_mode": "single_jurisdiction",
+    "completed_at": "2026-06-03T15:29:04.300281Z",
+    "output_directory": ".",
+    "run_quality": {
+      "status": "pass_with_warnings",
+      "warning_count": 2
+    },
+    "litellm_resolution": {
+      "sources": [
+        "config:/Users/bram/Code/defra/ai-eu-trade-accelerator/judit/config/litellm.yaml"
+      ],
+      "config_path": "/Users/bram/Code/defra/ai-eu-trade-accelerator/judit/config/litellm.yaml",
+      "proxy_reachable": false
+    },
+    "models_used": [],
+    "runtime": {
+      "stages": [
+        {
+          "stage": "source intake",
+          "duration": "0s"
+        },
+        {
+          "stage": "proposition extraction",
+          "duration": "0s"
+        },
+        {
+          "stage": "proposition inventory",
+          "duration": "0s"
+        },
+        {
+          "stage": "proposition pairing",
+          "duration": "0s"
+        },
+        {
+          "stage": "divergence classification",
+          "duration": "0s"
+        },
+        {
+          "stage": "narrative generation",
+          "duration": "0s"
+        },
+        {
+          "stage": "\u03a3 stage traces (excl. export)",
+          "duration": "0s"
+        }
+      ],
+      "extraction_timing": {
+        "extraction_jobs_total": 2
+      }
+    },
+    "approx_cost": {
+      "estimated_input_tokens_total": 0,
+      "estimated_input_tokens_live_only": 0,
+      "estimated_input_tokens_cached_only": 0,
+      "indicative_usd": null,
+      "pricing_note": "No USD estimate for heuristic runs.",
+      "has_output_token_data": false
+    },
+    "additional_cost_estimates": {},
+    "settings_summary": {
+      "sources": 2,
+      "propositions": 4,
+      "extraction_mode": "heuristic",
+      "extraction_mode_requested": "heuristic",
+      "extraction_mode_effective": "heuristic",
+      "fallback_count": 0,
+      "low_confidence_count": 0,
+      "validation_warning_count": 2,
+      "output_directory": "/Users/bram/Code/defra/ai-eu-trade-accelerator/judit/data/demo",
+      "run_quality_status": "pass_with_warnings"
+    },
+    "observability": {
+      "extraction_jobs_created": 2,
+      "extraction_jobs_selected": 2,
+      "extraction_jobs_executed": 2,
+      "extraction_jobs_skipped": 0,
+      "extraction_jobs_total": 2,
+      "extraction_jobs_successful": 2,
+      "extraction_jobs_failed": 0,
+      "extraction_jobs_cached": 2,
+      "live_llm_calls_attempted": 0,
+      "live_llm_calls_successful": 0,
+      "live_llm_calls_failed": 0,
+      "cached_llm_results_successful": 0,
+      "cached_llm_results_failed": 0,
+      "cached_successful_llm_results": 0,
+      "cached_failed_llm_results": 0,
+      "llm_results_reused_from_cache": 0,
+      "attempted_llm_calls": 0,
+      "successful_llm_calls": 0,
+      "failed_llm_calls": 0,
+      "llm_extraction_call_count": 0,
+      "llm_extraction_skipped_count": 0,
+      "max_estimated_input_tokens": null,
+      "context_window_risk_count": 0,
+      "largest_extraction_fragment_locator": null,
+      "largest_extraction_source_record_id": null,
+      "first_attempt_failed": 0,
+      "retry_attempted": 0,
+      "retry_successful": 0,
+      "retry_failed": 0,
+      "skip_reasons_by_type": {}
+    },
+    "operator_notes": "",
+    "settings_lines": [
+      "**Extraction mode:** `heuristic` (requested `heuristic`)",
+      "**Fallback policy:** `fallback`",
+      "**Sources / bundled propositions:** 2 / 4",
+      "**Run quality:** pass_with_warnings (2 warnings)",
+      "**Pipeline version:** `0.1.0`"
+    ]
+  }
+}

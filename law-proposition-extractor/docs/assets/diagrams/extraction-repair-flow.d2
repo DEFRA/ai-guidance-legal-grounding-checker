@@ -1,0 +1,106 @@
+direction: down
+
+classes: {
+  step: {
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#4338CA"
+      stroke-width: 2
+      border-radius: 10
+    }
+  }
+  decision: {
+    style: {
+      fill: "#F0F9FF"
+      stroke: "#0369A1"
+      border-radius: 8
+    }
+  }
+  outcome: {
+    style: {
+      fill: "#F5F3FF"
+      stroke: "#7C3AED"
+      border-radius: 8
+    }
+  }
+  caution: {
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#D97706"
+      border-radius: 8
+    }
+  }
+}
+
+title: "Extraction fallback and repair flow"
+
+fragment_selected: "Fragment selected"
+fragment_selected.class: step
+
+preflight: "Token/context preflight"
+preflight.class: step
+
+extraction_path: "Model call or heuristic path"
+extraction_path.class: step
+
+validation: "JSON/schema/evidence validation"
+validation.class: decision
+
+fragment_selected -> preflight
+preflight -> extraction_path
+extraction_path -> validation
+
+clean_extraction: "clean extraction"
+clean_extraction.class: outcome
+
+fallback_used: "fallback_used"
+fallback_used.class: outcome
+
+mark_needs_review: "mark_needs_review"
+mark_needs_review.class: outcome
+
+fail_closed: "fail_closed"
+fail_closed.class: outcome
+
+repairable_failure: "repairable json_parse_or_llm_failure"
+repairable_failure.class: outcome
+
+definition_fallback: "deterministic definition fallback"
+definition_fallback.class: outcome
+
+raw_excerpt: "raw_model_output_excerpt captured"
+raw_excerpt.class: outcome
+
+repair_command: "repair-extraction command"
+repair_command.class: outcome
+
+human_review: "human review required"
+human_review.class: outcome
+
+validation -> clean_extraction: "valid"
+validation -> fallback_used: "invalid output or model error"
+validation -> mark_needs_review: "review-flag path"
+validation -> fail_closed: "strict fail policy"
+validation -> repairable_failure: "repairable classification"
+
+fallback_used -> definition_fallback: "definition-like clauses"
+repairable_failure -> raw_excerpt
+repairable_failure -> repair_command
+repair_command -> human_review
+clean_extraction -> human_review
+mark_needs_review -> human_review
+fail_closed -> human_review
+definition_fallback -> human_review
+
+note_fallback: "fallback != legal approval"
+note_fallback.class: caution
+
+note_repairable: "repairable != accepted"
+note_repairable.class: caution
+
+note_confidence: "low-confidence traces require review"
+note_confidence.class: caution
+
+human_review -> note_fallback
+human_review -> note_repairable
+human_review -> note_confidence

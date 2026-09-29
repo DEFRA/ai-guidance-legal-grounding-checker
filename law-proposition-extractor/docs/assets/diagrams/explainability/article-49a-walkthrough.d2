@@ -1,0 +1,270 @@
+# explainability-diagram: article-49a-walkthrough
+# title: Article 49a — fragments to effective law
+# audience: lawyers, policy specialists, developers, auditors
+# purpose: Walk Article 49a from hierarchy through six propositions to typed context.
+# authorship: generated
+# source-of-truth: tests/fixtures/article_49a_legal_structure; article_49a_legal_structure_acceptance.py
+# compatible-registry-version: 1
+# compatible-fixture-hash: 1773194120d6
+# note: Opaque proposition/relationship IDs are intentionally omitted from labels.
+
+direction: down
+
+classes: {
+  section: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#64748B"
+      stroke-width: 1
+      border-radius: 10
+      font-size: 14
+    }
+  }
+  structural: {
+    shape: rectangle
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#334155"
+      stroke-width: 1
+      border-radius: 6
+      font-size: 13
+    }
+  }
+  selected: {
+    shape: rectangle
+    style: {
+      fill: "#ECFDF5"
+      stroke: "#047857"
+      stroke-width: 2
+      border-radius: 6
+      font-size: 13
+    }
+  }
+  suppressed: {
+    shape: rectangle
+    style: {
+      fill: "#F1F5F9"
+      stroke: "#64748B"
+      stroke-dash: 4
+      border-radius: 6
+      font-size: 12
+    }
+  }
+  semantic_prop: {
+    shape: rectangle
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#3730A3"
+      stroke-width: 2
+      border-radius: 6
+      font-size: 13
+    }
+  }
+  group: {
+    shape: hexagon
+    style: {
+      fill: "#F5F3FF"
+      stroke: "#5B21B6"
+      stroke-width: 2
+      font-size: 13
+    }
+  }
+  det: {
+    shape: rectangle
+    style: {
+      fill: "#F0FDF4"
+      stroke: "#166534"
+      stroke-width: 2
+      border-radius: 4
+      font-size: 12
+    }
+  }
+  llm: {
+    shape: diamond
+    style: {
+      fill: "#FFF7ED"
+      stroke: "#C2410C"
+      stroke-width: 2
+      stroke-dash: 5
+      font-size: 12
+    }
+  }
+  ref: {
+    shape: parallelogram
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#475569"
+      stroke-dash: 3
+      font-size: 12
+    }
+  }
+  note: {
+    shape: page
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#B45309"
+      font-size: 12
+    }
+  }
+}
+
+title: |md
+  **Article 49a walkthrough** — hierarchy → frontier → six propositions → groups → relationships → effective law
+|
+title.style.font-size: 16
+
+hierarchy: {
+  label: "1. Source hierarchy (structural fragments)"
+  class: section
+
+  art: "Article 49a"
+  art.class: structural
+  p1: "paragraph 1"
+  p1.class: structural
+  p2: "paragraph 2"
+  p2.class: structural
+  a: "branch (a)"
+  a.class: structural
+  ai: "point (i) → path 2-a-i"
+  ai.class: structural
+  aii: "point (ii) → path 2-a-ii"
+  aii.class: structural
+  b: "branch (b) → path 2-b"
+  b.class: structural
+  p3: "paragraph 3"
+  p3.class: structural
+
+  art -> p1
+  art -> p2
+  art -> p3
+  p2 -> a
+  p2 -> b
+  a -> ai
+  a -> aii
+}
+
+frontier: {
+  label: "2. Structural extraction frontier"
+  class: section
+
+  f_parent: "[suppressed] Article 49a parent"
+  f_parent.class: suppressed
+  f_p1: "[selected] paragraph 1"
+  f_p1.class: selected
+  f_p2: "[selected] paragraph 2"
+  f_p2.class: selected
+  f_a: "[suppressed] paragraph 2(a) descendant"
+  f_a.class: suppressed
+  f_p3: "[selected] paragraph 3"
+  f_p3.class: selected
+}
+
+props: {
+  label: "3. Six semantic propositions (no opaque IDs)"
+  class: section
+
+  P1: "P1 — separate-identification obligation"
+  P1.class: semantic_prop
+  P2: "P2 — no-mixing prohibition"
+  P2.class: semantic_prop
+  E1: "E1 — derogation 2-a-i"
+  E1.class: semantic_prop
+  E2: "E2 — derogation 2-a-ii"
+  E2.class: semantic_prop
+  E3: "E3 — derogation 2-b"
+  E3.class: semantic_prop
+  P3: "P3 — monitoring obligation"
+  P3.class: semantic_prop
+}
+
+groups: {
+  label: "4. Legal rule groups"
+  class: section
+
+  g1: "paragraph-1 group\n= P1 + P2\n(2 members)"
+  g1.class: group
+  g2: "paragraph-2 group\n= E1 + E2 + E3\n(3 members)"
+  g2.class: group
+}
+
+rels: {
+  label: "5. Typed legal relationships"
+  class: section
+
+  E1n: "E1"
+  E1n.class: semantic_prop
+  E2n: "E2"
+  E2n.class: semantic_prop
+  E3n: "E3"
+  E3n.class: semantic_prop
+  P3n: "P3"
+  P3n.class: semantic_prop
+  g1n: "paragraph-1 group"
+  g1n.class: group
+  g2n: "paragraph-2 group"
+  g2n.class: group
+
+  E1n -> g1n: "exception_to"
+  E2n -> g1n: "exception_to"
+  E3n -> g1n: "exception_to"
+  P3n -> g2n: "triggered_by"
+}
+
+eff: {
+  label: "6. Effective-law projection (required context)"
+  class: section
+
+  e_p1: "P1 / P2 statements\nreceive E1, E2, E3\nas applicable exceptions"
+  e_p1.class: det
+  e_ex: "E1 / E2 / E3 statements\nshow P1 / P2\nas rules displaced"
+  e_ex.class: det
+  e_p3: "P3 statement\nreceives E1, E2, E3\nas trigger conditions"
+  e_p3.class: det
+}
+
+art14: {
+  label: "7. Article 14 (ordinary reference only)"
+  class: section
+
+  a14: "Article 14\nordinary reference on E3\nNOT an exception_to target"
+  a14.class: ref
+}
+
+e2_method: {
+  label: "8. E2 processing sequence (LLM proposal → deterministic finish)"
+  class: section
+
+  m1: "[LLM] Model-proposed candidate\n(path 2-a-ii)"
+  m1.class: llm
+  m2: "[DET] Deterministic terminal composition"
+  m2.class: det
+  m3: "[DET] Deterministic derogation classification"
+  m3.class: det
+  m4: "[DET] Deterministic exception relationship"
+  m4.class: det
+  m5: "[DET] Deterministic group expansion\n(exception targets paragraph-1 group)"
+  m5.class: det
+
+  m1 -> m2 -> m3 -> m4 -> m5
+}
+
+cautions: {
+  label: "Cautions"
+  class: section
+
+  c1: "Fixture is an offline regression slice — not authoritative current law."
+  c1.class: note
+  c2: "Revised manifestation ≠ independently applied amendments."
+  c2.class: note
+  c3: "Human review remains required."
+  c3.class: note
+}
+
+hierarchy -> frontier: "coverage rules"
+frontier -> props: "extract + reconcile"
+props -> groups: "shared-fragment grouping"
+props -> rels: "typed inference"
+groups -> rels
+rels -> eff: "context expansion"
+props -> art14: "ordinary cross-reference"
+props.E2 -> e2_method: "method detail for E2"

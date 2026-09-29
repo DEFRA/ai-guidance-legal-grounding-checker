@@ -1,0 +1,53 @@
+{
+  "category_id": "cattle",
+  "label": "Cattle identification and traceability",
+  "description": "Cattle, bovines, cows, calves, and bison identification using ear tags, RFID tags, passports, and digital movement records. Covers traceability, movement reporting, welfare, trade assurance, farm compliance, and disease control including bovine tuberculosis (bTB), Bluetongue, and Foot and Mouth Disease.",
+  "synonyms": [
+    "cattle",
+    "bovine",
+    "bovines",
+    "cow",
+    "cows",
+    "calf",
+    "calves",
+    "bison",
+    "ear tag",
+    "ear tags",
+    "cattle passport",
+    "cattle passports",
+    "RFID tag",
+    "RFID tags",
+    "digital movement record",
+    "movement reporting",
+    "cattle tracing system",
+    "CTS",
+    "British Cattle Movement Service",
+    "BCMS",
+    "holding register",
+    "herd register",
+    "keeper",
+    "bovine tuberculosis",
+    "bTB",
+    "Bluetongue",
+    "Foot and Mouth Disease",
+    "FMD"
+  ],
+  "exclusions": [
+    "dairy product marketing only",
+    "beef labelling only",
+    "cowboy entertainment",
+    "cattle futures trading"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "cattle",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

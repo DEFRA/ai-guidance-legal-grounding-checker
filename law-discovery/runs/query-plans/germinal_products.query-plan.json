@@ -1,0 +1,224 @@
+[
+  {
+    "query": "Germinal products identification, certification and traceability Germinal Products covers identification, certification, storage, movement tracking, and traceability of semen, ova, embryos, and reproductive materials used in breeding and trade. Supports biosecurity, veterinary standards, genetic quality, and disease prevention.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Germinal products identification, certification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "germinal products",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: germinal products"
+  },
+  {
+    "query": "semen",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: semen"
+  },
+  {
+    "query": "ova",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ova"
+  },
+  {
+    "query": "ovum",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ovum"
+  },
+  {
+    "query": "embryo",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: embryo"
+  },
+  {
+    "query": "embryos",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: embryos"
+  },
+  {
+    "query": "reproductive material",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: reproductive material"
+  },
+  {
+    "query": "reproductive materials",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: reproductive materials"
+  },
+  {
+    "query": "breeding material",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: breeding material"
+  },
+  {
+    "query": "artificial insemination",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: artificial insemination"
+  },
+  {
+    "query": "embryo transfer",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: embryo transfer"
+  },
+  {
+    "query": "storage",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: storage"
+  },
+  {
+    "query": "movement tracking",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement tracking"
+  },
+  {
+    "query": "traceability",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: traceability"
+  },
+  {
+    "query": "certification",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: certification"
+  },
+  {
+    "query": "health certificate",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: health certificate"
+  },
+  {
+    "query": "veterinary standards",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: veterinary standards"
+  },
+  {
+    "query": "genetic quality",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: genetic quality"
+  },
+  {
+    "query": "disease prevention",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: disease prevention"
+  },
+  {
+    "query": "biosecurity",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: biosecurity"
+  },
+  {
+    "query": "Germinal products identification, certification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Germinal products identification, certification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Germinal products identification, certification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Germinal products identification, certification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Germinal products identification, certification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Germinal products identification, certification and traceability Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "germinal products regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): germinal products"
+  },
+  {
+    "query": "germinal products order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): germinal products"
+  },
+  {
+    "query": "germinal products act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): germinal products"
+  },
+  {
+    "query": "semen regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): semen"
+  },
+  {
+    "query": "semen order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): semen"
+  },
+  {
+    "query": "semen act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): semen"
+  },
+  {
+    "query": "ova regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): ova"
+  },
+  {
+    "query": "ova order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): ova"
+  },
+  {
+    "query": "ova act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): ova"
+  }
+]

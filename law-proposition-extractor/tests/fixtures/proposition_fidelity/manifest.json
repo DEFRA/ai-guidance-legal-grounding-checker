@@ -1,0 +1,238 @@
+{
+  "contract_id": "judit.proposition_fidelity",
+  "contract_version": "1",
+  "description": "Offline multi-instrument proposition-fidelity benchmark for Judit.",
+  "cases": [
+    {
+      "case_id": "article_49a",
+      "source_fixture": "tests/fixtures/article_49a_legal_structure/source.xml",
+      "jurisdiction": "EU retained / UK",
+      "instrument_style": "EU regulation (EUR)",
+      "source_locator": "article:49a",
+      "structural_pattern": "compound_paragraph + structured_list_derogations + trigger + headed_article",
+      "heading_present": true,
+      "heading_text": "Separate stowage of catches below the minimum conservation reference sizes",
+      "sibling_heading_forbidden": ["Subject matter", "CONTROL OF FISHERIES"],
+      "expected_proposition_count": 6,
+      "expected_legal_effect_types": [
+        "obligation",
+        "prohibition",
+        "derogation",
+        "obligation"
+      ],
+      "expected_relationship_features": [
+        "exception_to",
+        "triggered_by",
+        "legal_rule_groups"
+      ],
+      "provenance_kind": "reduced_real",
+      "provenance_note": "Directly reduced from EUR 2009/1224 Article 49a offline acceptance fixture (real legislation wording).",
+      "runner": "article_49a_pipeline",
+      "case_dir": "cases/article_49a",
+      "response": {
+        "relative_path": "../article_49a_legal_structure/frontier_responses/article_49a_paragraph_1.json",
+        "prompt_version": "v2",
+        "model_alias": "frontier_extract",
+        "reflects_prompt_v3": false,
+        "notes": "Full case uses all three frontier_responses via acceptance pipeline; responses predate prompt v3."
+      },
+      "accepted_limitations": [],
+      "notes": "Principal compound + structured-list + relationship case."
+    },
+    {
+      "case_id": "uk_regulation_12_spread",
+      "source_fixture": "tests/fixtures/structural_source/uk_regulation_headed.xml",
+      "jurisdiction": "UK",
+      "instrument_style": "UK statutory instrument (UKSI-shaped)",
+      "source_locator": "regulation:12",
+      "structural_pattern": "regulation_heading + actor + prohibition + threshold + paragraph_hierarchy",
+      "heading_present": true,
+      "heading_text": "Spreading controls near surface water",
+      "sibling_heading_forbidden": ["Action programme", "Calculating nitrogen in organic manure"],
+      "expected_proposition_count": 1,
+      "expected_legal_effect_types": ["prohibition"],
+      "expected_relationship_features": [],
+      "provenance_kind": "adapted_repository_fixture",
+      "provenance_note": "Adapted from structural-source uk_regulation_headed.xml (UKSI-shaped offline fixture; illustrative wording, not a live CLML slice of SI 2015/668).",
+      "runner": "dry_fragment",
+      "case_dir": "cases/uk_regulation_12",
+      "response": {
+        "relative_path": "cases/uk_regulation_12/response.json",
+        "prompt_version": "v3",
+        "model_alias": "fixture_offline_v3_contract",
+        "reflects_prompt_v3": true,
+        "notes": "Offline response contract exercising prompt-v3 structural heading block via dry parse + prompt assembly."
+      },
+      "accepted_limitations": [],
+      "notes": "Headed UK regulation-style prohibition with 10-metre threshold."
+    },
+    {
+      "case_id": "uk_regulation_13_control",
+      "source_fixture": "tests/fixtures/structural_source/uk_regulation_headed.xml",
+      "jurisdiction": "UK",
+      "instrument_style": "UK statutory instrument (UKSI-shaped)",
+      "source_locator": "regulation:13",
+      "structural_pattern": "exactly_one_control + unheaded_regulation",
+      "heading_present": false,
+      "expected_proposition_count": 1,
+      "expected_legal_effect_types": ["unknown"],
+      "expected_relationship_features": [],
+      "provenance_kind": "adapted_repository_fixture",
+      "provenance_note": "Adapted from uk_regulation_headed.xml regulation 13 (unheaded sibling control).",
+      "runner": "dry_fragment",
+      "case_dir": "cases/uk_regulation_13_control",
+      "response": {
+        "relative_path": "cases/uk_regulation_13_control/response.json",
+        "prompt_version": "v3",
+        "model_alias": "fixture_offline",
+        "reflects_prompt_v3": true,
+        "notes": "Unheaded control — prompt continues without structural heading block."
+      },
+      "accepted_limitations": [],
+      "notes": "Simple control against over-decomposition."
+    },
+    {
+      "case_id": "wsi_regulation_36_4",
+      "source_fixture": "tests/fixtures/regulation_paragraph_fragmentation/wsi_2021_77_regulation_36_live_clml.xml",
+      "jurisdiction": "Wales",
+      "instrument_style": "Welsh statutory instrument (WSI)",
+      "source_locator": "regulation:36:paragraph:4",
+      "structural_pattern": "regulation_paragraph_hierarchy + record_obligation + missing_regulation_heading",
+      "heading_present": false,
+      "expected_proposition_count": 1,
+      "expected_legal_effect_types": ["recordkeeping"],
+      "expected_relationship_features": [],
+      "provenance_kind": "reduced_real",
+      "provenance_note": "Reduced from WSI 2021/77 regulation 36 live-CLML offline fixture (paragraph 4 operative record duty).",
+      "runner": "dry_fragment",
+      "case_dir": "cases/wsi_regulation_36_4",
+      "response": {
+        "relative_path": "cases/wsi_regulation_36_4/response.json",
+        "prompt_version": "v3",
+        "model_alias": "fixture_offline",
+        "reflects_prompt_v3": true,
+        "notes": "Unheaded WSI paragraph hierarchy."
+      },
+      "accepted_limitations": [],
+      "notes": "Relative paragraph under regulation 36."
+    },
+    {
+      "case_id": "wsi_schedule_inspection_power",
+      "source_fixture": "tests/fixtures/regulation_paragraph_fragmentation/wsi_2021_77_regulation_36_live_clml.xml",
+      "jurisdiction": "Wales",
+      "instrument_style": "Welsh statutory instrument (WSI)",
+      "source_locator": "schedule:1:paragraph:3",
+      "structural_pattern": "schedule_heading + schedule_paragraph + structural_title_vs_operative",
+      "heading_present": true,
+      "heading_text": "Schedule 1",
+      "expected_proposition_count": 1,
+      "expected_legal_effect_types": ["enforcement"],
+      "expected_relationship_features": [],
+      "provenance_kind": "adapted_repository_fixture",
+      "provenance_note": "Schedule paragraph operative power from the WSI 2021/77 offline live-CLML fixture (reduced). Schedule title is structural context, not the operative rule.",
+      "runner": "dry_fragment",
+      "case_dir": "cases/wsi_schedule_inspection_power",
+      "response": {
+        "relative_path": "cases/wsi_schedule_inspection_power/response.json",
+        "prompt_version": "v3",
+        "model_alias": "fixture_offline",
+        "reflects_prompt_v3": true,
+        "notes": "Schedule heading vs operative entry power."
+      },
+      "accepted_limitations": [
+        "uk_schedule_1_nitrogen_descriptive_only: UK headed Schedule 1 text is descriptive calculation framing without a clear standalone operative duty; WSI schedule paragraph used instead."
+      ],
+      "notes": "Schedule/annex-style operative rule."
+    },
+    {
+      "case_id": "uk_compound_spread_and_measure",
+      "source_fixture": "tests/fixtures/structural_source/uk_regulation_headed.xml",
+      "jurisdiction": "UK",
+      "instrument_style": "UK statutory instrument (UKSI-shaped)",
+      "source_locator": "regulation:12",
+      "structural_pattern": "compound_obligation_style_restatement + shared_distance_condition",
+      "heading_present": true,
+      "heading_text": "Spreading controls near surface water",
+      "expected_proposition_count": 2,
+      "expected_legal_effect_types": ["prohibition", "obligation"],
+      "expected_relationship_features": [],
+      "provenance_kind": "synthetic_structural_edge",
+      "provenance_note": "Synthetic offline response over the headed UK regulation 12 fixture to exercise compound-rule dimensions (prohibition + independent measurement obligation). Role id distance-measurement-restatement retained for suite stability; wording is an independently operative measurement duty so dependent-qualification suppression must not collapse it. Not presented as authoritative law.",
+      "runner": "dry_fragment",
+      "case_dir": "cases/uk_compound_spread_and_measure",
+      "response": {
+        "relative_path": "cases/uk_compound_spread_and_measure/response.json",
+        "prompt_version": "v3",
+        "model_alias": "fixture_offline",
+        "reflects_prompt_v3": true,
+        "notes": "Compound: prohibition plus independent measurement obligation sharing the distance concept."
+      },
+      "accepted_limitations": [],
+      "notes": "Compound-rule regression companion; second role is an independent measurement duty (negative control for dependent-qualification suppression)."
+    },
+    {
+      "case_id": "slurry_170kg_holding_cap",
+      "source_fixture": "tests/fixtures/extraction_prompt_cases/slurry/slurry-good-simple-obligation-170kg-n.json",
+      "jurisdiction": "UK",
+      "instrument_style": "UK statutory instrument (prompt-lab fragment)",
+      "source_locator": "regulation:7",
+      "structural_pattern": "obligation + exception + schedule_cross_reference + threshold",
+      "heading_present": false,
+      "expected_proposition_count": 3,
+      "expected_legal_effect_types": ["obligation", "derogation", "obligation"],
+      "expected_relationship_features": [],
+      "provenance_kind": "adapted_repository_fixture",
+      "provenance_note": "Adapted from slurry prompt-lab fixture slurry-good-simple-obligation-170kg-n.json (NPP regulation 7 fragment text). Offline response is fixture-authored; not a live model trace.",
+      "runner": "dry_fragment",
+      "case_dir": "cases/slurry_170kg_holding_cap",
+      "response": {
+        "relative_path": "cases/slurry_170kg_holding_cap/response.json",
+        "prompt_version": "v3",
+        "model_alias": "fixture_offline",
+        "reflects_prompt_v3": true,
+        "notes": "Uses fragment_text.txt override from the prompt-lab case."
+      },
+      "accepted_limitations": [],
+      "notes": "Quantified holding cap with derogation and Schedule 1 cross-reference."
+    },
+    {
+      "case_id": "compound_rule_exception_shared",
+      "source_fixture": "tests/fixtures/structural_source/uk_regulation_headed.xml",
+      "jurisdiction": "UK",
+      "instrument_style": "synthetic structural edge (not authoritative law)",
+      "source_locator": "regulation:synthetic",
+      "structural_pattern": "rule_plus_exception + shared_condition + threshold",
+      "heading_present": false,
+      "expected_proposition_count": 3,
+      "expected_legal_effect_types": ["prohibition", "derogation", "unknown"],
+      "expected_relationship_features": [],
+      "provenance_kind": "synthetic_structural_edge",
+      "provenance_note": "Synthetic wording only for compound rule/exception/shared-condition dimensions. Not presented as authoritative law. Host XML is uk_regulation_headed.xml; operative text is fragment_text.txt override.",
+      "runner": "dry_fragment",
+      "case_dir": "cases/compound_rule_exception_shared",
+      "response": {
+        "relative_path": "cases/compound_rule_exception_shared/response.json",
+        "prompt_version": "v3",
+        "model_alias": "fixture_offline",
+        "reflects_prompt_v3": true,
+        "notes": "Synthetic edge-case response contract."
+      },
+      "accepted_limitations": [],
+      "notes": "Rule + exception + shared condition control."
+    }
+  ],
+  "known_corpus_gaps": [
+    "Dedicated Annex (EU) operative fixture with table-adjacent text",
+    "SSI / NISR headed offline fixtures",
+    "Live frontier prompt-v3 traces for non-Article-49a instruments",
+    "UK Schedule 1 in uk_regulation_headed.xml is descriptive calculation framing only — no clear atomic operative duty suitable as gold; WSI schedule paragraph used instead",
+    "Shared-condition representation via legal_rule_groups for dry_fragment cases (groups require full pipeline)"
+  ],
+  "inventory_notes": {
+    "no_live_fetch": true,
+    "no_llm_calls": true,
+    "beatrice_out_of_scope": true,
+    "divergence_out_of_scope": true,
+    "production_prompts_unchanged": true
+  }
+}

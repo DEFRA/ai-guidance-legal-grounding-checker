@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #FFFFFF; }
+      .title { fill: #0F172A; font-size: 36px; font-weight: 700; }
+      .subtitle { fill: #475569; font-size: 18px; font-weight: 500; }
+      .footer { fill: #64748B; font-size: 14px; }
+      .panel { fill: #F8FAFC; stroke: #CBD5E1; stroke-width: 1; }
+      .panel-label { fill: #334155; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+      .layer { fill: #EEF2FF; stroke: #4338CA; stroke-width: 2; }
+      .layer-title { fill: #1E1B4B; font-size: 14px; font-weight: 700; }
+      .layer-body { fill: #312E81; font-size: 12px; }
+      .gov { fill: #F0F9FF; stroke: #0369A1; stroke-width: 2; }
+      .gov-title { fill: #0C4A6E; font-size: 16px; font-weight: 700; }
+      .gov-body { fill: #075985; font-size: 13px; }
+      .promo { fill: #ECFDF5; stroke: #059669; stroke-width: 2; }
+      .promo-title { fill: #064E3B; font-size: 16px; font-weight: 700; }
+      .promo-body { fill: #065F46; font-size: 13px; }
+      .note-bg { fill: #FFFBEB; stroke: #D97706; stroke-width: 1; }
+      .note-text { fill: #78350F; font-size: 13px; font-weight: 500; }
+      .arrow { stroke: #0369A1; stroke-width: 2; fill: none; }
+      .decision-pill { font-size: 12px; font-weight: 700; fill: #0C4A6E; }
+      .decision-bg { fill: #E0F2FE; stroke: #0369A1; stroke-width: 1; }
+    ]]></style>
+    <marker id="arrowhead-b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0369A1" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+
+  <text class="title" x="60" y="60">Review governance workflow</text>
+  <text class="subtitle" x="60" y="92">Append-only decisions across review layers  -  promotion to guidance-ready is earned, not default.</text>
+
+  <!-- Reviewable layers -->
+  <rect class="panel" x="60" y="130" width="700" height="380" rx="12" />
+  <text class="panel-label" x="80" y="155">Review layers (per proposition row)</text>
+
+  <rect class="layer" x="80" y="180" width="320" height="80" rx="8" />
+  <text class="layer-title" x="100" y="208">proposition</text>
+  <text class="layer-body" x="100" y="228">The atomic legal statement extracted</text>
+  <text class="layer-body" x="100" y="246">from a fragment.</text>
+
+  <rect class="layer" x="420" y="180" width="320" height="80" rx="8" />
+  <text class="layer-title" x="440" y="208">structured_proposition_display</text>
+  <text class="layer-body" x="440" y="228">Subject / rule / object / condition</text>
+  <text class="layer-body" x="440" y="246">view shown in the UI.</text>
+
+  <rect class="layer" x="80" y="280" width="320" height="80" rx="8" />
+  <text class="layer-title" x="100" y="308">proposition_scope_links</text>
+  <text class="layer-body" x="100" y="328">Links to scope taxonomy (equine,</text>
+  <text class="layer-body" x="100" y="346">bovine, etc.) - quieter by default.</text>
+
+  <rect class="layer" x="420" y="280" width="320" height="80" rx="8" />
+  <text class="layer-title" x="440" y="308">proposition_completeness</text>
+  <text class="layer-body" x="440" y="328">Self-contained vs fragmentary;</text>
+  <text class="layer-body" x="440" y="346">context-aware display.</text>
+
+  <rect class="layer" x="80" y="380" width="660" height="80" rx="8" />
+  <text class="layer-title" x="100" y="408">proposition_extraction_trace &#183; source_target_link &#183; source_categorisation_rationale &#183; source_inventory_row</text>
+  <text class="layer-body" x="100" y="428">Lineage and structure rows are reviewable too: confidence, role assignments,</text>
+  <text class="layer-body" x="100" y="446">target links, and source-inventory entries can each carry a decision.</text>
+
+  <!-- Decision values -->
+  <rect class="panel" x="780" y="130" width="760" height="380" rx="12" />
+  <text class="panel-label" x="800" y="155">Decision values (pipeline_review_decisions.json)</text>
+
+  <rect class="decision-bg" x="800" y="180" width="120" height="32" rx="16" />
+  <text class="decision-pill" x="824" y="201">approved</text>
+  <text class="layer-body" x="940" y="201">Accepted under governance policy.</text>
+
+  <rect class="decision-bg" x="800" y="230" width="120" height="32" rx="16" />
+  <text class="decision-pill" x="826" y="251">rejected</text>
+  <text class="layer-body" x="940" y="251">Not acceptable as-is; remediation or drop required.</text>
+
+  <rect class="decision-bg" x="800" y="280" width="120" height="32" rx="16" />
+  <text class="decision-pill" x="819" y="301">needs_review</text>
+  <text class="layer-body" x="940" y="301">Held for further reviewer attention.</text>
+
+  <rect class="decision-bg" x="800" y="330" width="120" height="32" rx="16" />
+  <text class="decision-pill" x="819" y="351">overridden</text>
+  <text class="layer-body" x="940" y="351">Field-scoped replacement_value applied with rationale.</text>
+
+  <rect class="decision-bg" x="800" y="380" width="120" height="32" rx="16" />
+  <text class="decision-pill" x="828" y="401">deferred</text>
+  <text class="layer-body" x="940" y="401">Acknowledged, decision postponed with explicit reason.</text>
+
+  <text class="layer-body" x="800" y="445">Decisions are run-scoped, append-only, and may carry `supersedes_decision_id` to retire</text>
+  <text class="layer-body" x="800" y="463">prior rows. Effective decision is the latest non-superseded row for the artifact (+ optional field).</text>
+  <text class="layer-body" x="800" y="486">Mutation: POST /ops/runs/{run_id}/pipeline-review-decisions &#183; CLI: add-review-decision.</text>
+
+  <!-- Pipeline -->
+  <rect class="panel" x="60" y="540" width="1480" height="220" rx="12" />
+  <text class="panel-label" x="80" y="565">Decision pipeline</text>
+
+  <rect class="gov" x="80" y="590" width="220" height="140" rx="8" />
+  <text class="gov-title" x="100" y="620">Review decision</text>
+  <text class="gov-body" x="100" y="645">Reviewer chooses a value</text>
+  <text class="gov-body" x="100" y="663">for the artifact + optional</text>
+  <text class="gov-body" x="100" y="681">applies_to_field. Reason and</text>
+  <text class="gov-body" x="100" y="699">evidence may be recorded.</text>
+
+  <rect class="gov" x="320" y="590" width="220" height="140" rx="8" />
+  <text class="gov-title" x="340" y="620">Append-only record</text>
+  <text class="gov-body" x="340" y="645">New row written with</text>
+  <text class="gov-body" x="340" y="663">unique id, reviewer,</text>
+  <text class="gov-body" x="340" y="681">reviewed_at, run_id,</text>
+  <text class="gov-body" x="340" y="699">artifact_type/id linkage.</text>
+
+  <rect class="gov" x="560" y="590" width="220" height="140" rx="8" />
+  <text class="gov-title" x="580" y="620">Supersession (opt.)</text>
+  <text class="gov-body" x="580" y="645">If a prior decision was</text>
+  <text class="gov-body" x="580" y="663">superseded, the new row sets</text>
+  <text class="gov-body" x="580" y="681">supersedes_decision_id  - </text>
+  <text class="gov-body" x="580" y="699">no edits, only replacements.</text>
+
+  <rect class="gov" x="800" y="590" width="220" height="140" rx="8" />
+  <text class="gov-title" x="820" y="620">Run/export reload</text>
+  <text class="gov-body" x="820" y="645">Decisions are persisted in</text>
+  <text class="gov-body" x="820" y="663">export artifacts and surface</text>
+  <text class="gov-body" x="820" y="681">on next read via</text>
+  <text class="gov-body" x="820" y="699">/ops/pipeline-review-decisions.</text>
+
+  <rect class="promo" x="1040" y="590" width="480" height="140" rx="8" />
+  <text class="promo-title" x="1060" y="620">guidance-ready candidacy</text>
+  <text class="promo-body" x="1060" y="645">Currently most explicit in equine coverage:</text>
+  <text class="promo-body" x="1060" y="663">accepted (or accepted_with_edits) &#183; extraction confidence high &#183;</text>
+  <text class="promo-body" x="1060" y="681">completeness not fragmentary &#183; scope-links accepted or deferred &#183;</text>
+  <text class="promo-body" x="1060" y="699">no unresolved repairable failure affecting the proposition.</text>
+
+  <path class="arrow" d="M 300 660 L 320 660" marker-end="url(#arrowhead-b)" />
+  <path class="arrow" d="M 540 660 L 560 660" marker-end="url(#arrowhead-b)" />
+  <path class="arrow" d="M 780 660 L 800 660" marker-end="url(#arrowhead-b)" />
+  <path class="arrow" d="M 1020 660 L 1040 660" marker-end="url(#arrowhead-b)" />
+
+  <!-- Notes -->
+  <rect class="note-bg" x="60" y="780" width="1480" height="60" rx="8" />
+  <text class="note-text" x="80" y="805">Lint pass is not legal approval. Review decisions are governance metadata, not a global legal sign-off engine.</text>
+  <text class="note-text" x="80" y="825">guidance-ready is a promoted state earned through review; it is not the default output of any run.</text>
+
+  <text class="footer" x="60" y="880">Source of truth: docs/dev/review-governance.md &#183; Diagram: docs/assets/generated/diagrams/proposition-review-workflow.svg.</text>
+</svg>

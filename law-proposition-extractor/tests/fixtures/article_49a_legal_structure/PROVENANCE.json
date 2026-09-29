@@ -1,0 +1,41 @@
+{
+  "fixture_id": "article_49a_legal_structure",
+  "purpose": "Offline end-to-end regression for Article 49a legal structure. Not an authoritative current-law snapshot.",
+  "capture_date": "2026-07-14",
+  "source_url": "https://www.legislation.gov.uk/eur/2009/1224/data.xml",
+  "live_source_content_hash": "07ae5ba8a1315df7693a6c24649f07e6c154dcdd0efc60f5ed790ca793f75ac9",
+  "live_raw_xml_sha256": "071c008886901f11b495c2ea00ce0013d344b10484479b714b696be2399e04bb",
+  "live_raw_xml_bytes": 1028398,
+  "live_run_path": "runs/fish/article-49a-acceptance-2026-07-14-br1-qualified",
+  "live_export_path": "runs/fish/article-49a-acceptance-2026-07-14-br1-qualified-export",
+  "model_provider": "anthropic/claude-sonnet-4-6",
+  "litellm_alias": "frontier_extract",
+  "parser_name": "legislation_gov_uk_data_xml_v1",
+  "parser_version": "v1",
+  "pipeline_version": "0.1.0",
+  "retained": [
+    "ukm:Metadata including DocumentStatus=revised",
+    "Title I container with Article 1 (for Article-1 effect non-leakage)",
+    "Title IV container with Article 14 (cross-reference target) and full Article 49a paragraphs 1\u20133 nested structure",
+    "Commentaries: c000001 (Art.1), c000004 (Art.49a insert), paragraph substitution keys for 49a(1)/(2)/(3)",
+    "Two UnappliedEffect entries (outstanding-effects presence)",
+    "Captured frontier validated proposition rows for paragraphs 1, 2, and 3 from the qualified live run cache"
+  ],
+  "removed": [
+    "All other titles/chapters/articles of EUR 2009/1224",
+    "Full Commentaries corpus (hundreds of Type=F footnotes) \u2014 sequential F-labels in this fixture therefore differ from live F228\u2013F230 ordinals; assert by annotation_id + affected_locator",
+    "Most UnappliedEffects entries (kept 2 for status only)",
+    "Schedules, annexes, tables, and non-49a operative text",
+    "Article 14 body text reduced to a short stub that preserves id/locator for cross-reference resolution"
+  ],
+  "frontier_response_note": "Paragraph 1\u20132 live raw_model_output_excerpt values were truncated at 2048 chars in export traces. Fixture responses are the validated proposition rows from the qualified derived-cache chunk payloads for those exact fragments (same live run). Paragraph 3 raw excerpt is retained separately and was not truncated.",
+  "annotation_ids_retained": [
+    "c000001",
+    "c000004",
+    "key-62638afbee5fb300f2da4a267f3466fa",
+    "key-ae688d7efb8d525f494201f970bc3e75",
+    "key-c36fcfcb069fb8c51fce93fbce7ea03b",
+    "key-cd016a627475b52260f225a4d4ac7ed7"
+  ],
+  "licensing": "Source text \u00a9 legislation.gov.uk / Crown / EU retained law as published; fixture for automated regression only."
+}

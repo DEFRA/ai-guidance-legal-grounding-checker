@@ -1,0 +1,41 @@
+{
+  "case_id": "slurry-good-definition-slurry-sssaho-2010",
+  "label": "GOOD — definition of slurry (SSSAHO England 2010)",
+  "source_title": "The Water Resources (Control of Pollution) (Silage, Slurry and Agricultural Fuel Oil) (England) Regulations 2010",
+  "source_record_id": "lex-e71fbbe3342ac0be",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "regulation:2",
+  "fragment_text": "21In these Regulations—“construct” includes install;“fuel oil” means oil intended for use as a fuel for the production of heat or power but does not include oil intended for use exclusively as a fuel for heating a farmhouse or other residential premises on a farm and stored separately from other oil;“livestock” means—animals kept for the production of food or wool, orbirds kept for the production of food;“reception pit” means a pit used for the collection of slurry before it is transferred into a slurry storage tank or for the collection of slurry discharged from such a tank;“silage” includes a crop being made into silage;“silage effluent” means effluent from silage ...;“silo” means a structure used for making or storing silage;“slurry” means liquid or semi-liquid matter composed of—excreta produced by livestock while in a yard or building (including that held in wood chip corrals); ora mixture wholly or mainly consisting of livestock excreta, livestock bedding, rainwater and washings from a building or yard used by livestock,of a consistency that allows it to be pumped or discharged by gravity at any stage in the handling process;“slurry storage tank” includes a lagoon, a pit (other than a reception pit) or tower used for the storage of slurry.2A reference in these Regulations to a slurry storage system includes a slurry storage tank and—aany reception pit and any effluent tank used in connection with the tank; andbany channels and pipes used in connection with the tank, any reception pit or any effluent tank.3A requirement in these Regulations for a silo or slurry storage tank to conform to a British Standard (in whole or in part) is satisfied if the silo or tank conforms to a standard or specification that provides an equivalent level of protection and performance ....",
+  "why_this_case": "Dense definitions block including the corpus slurry definition; tests definitional tier/effect and not over-extracting operative duties from neighbouring terms. Evaluation uses targeted mode: gold anchors the slurry means clause; sibling interpretation terms and BS-equivalence rows in the same fragment are allowed extras (unknown/derogation classifier tags non-blocking).",
+  "expected_challenges": [
+    "multiple_definitions_in_one_fragment",
+    "nested_list_markers",
+    "cross_refs_to_slurry_storage_system"
+  ],
+  "evaluation": {
+    "mode": "targeted",
+    "strict_proposition_count": false,
+    "allow_extra_actual": true
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "definition",
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "'Slurry' means liquid or semi-liquid matter composed of livestock excreta and related mixtures that can be pumped or discharged by gravity.",
+      "legal_subject": "slurry",
+      "action": "means",
+      "affected_subjects": [
+        "slurry"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "“slurry” means liquid or semi-liquid matter composed of"
+    }
+  ]
+}

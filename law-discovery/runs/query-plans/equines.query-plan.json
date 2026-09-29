@@ -1,0 +1,296 @@
+[
+  {
+    "query": "Equine identification and traceability Horses, ponies, donkeys, mules, and equines identification using microchips, passports, freeze marks, branding, and ownership records. Covers traceability, breeding, welfare, transport, sport, trade, and disease-control requirements.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Equine identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "equine",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: equine"
+  },
+  {
+    "query": "equines",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: equines"
+  },
+  {
+    "query": "equidae",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: equidae"
+  },
+  {
+    "query": "equid",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: equid"
+  },
+  {
+    "query": "equids",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: equids"
+  },
+  {
+    "query": "horse",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: horse"
+  },
+  {
+    "query": "horses",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: horses"
+  },
+  {
+    "query": "pony",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pony"
+  },
+  {
+    "query": "ponies",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ponies"
+  },
+  {
+    "query": "donkey",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: donkey"
+  },
+  {
+    "query": "donkeys",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: donkeys"
+  },
+  {
+    "query": "mule",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: mule"
+  },
+  {
+    "query": "mules",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: mules"
+  },
+  {
+    "query": "microchip",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchip"
+  },
+  {
+    "query": "microchips",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchips"
+  },
+  {
+    "query": "horse passport",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: horse passport"
+  },
+  {
+    "query": "equine passport",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: equine passport"
+  },
+  {
+    "query": "passport",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: passport"
+  },
+  {
+    "query": "passports",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: passports"
+  },
+  {
+    "query": "freeze mark",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: freeze mark"
+  },
+  {
+    "query": "freeze marks",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: freeze marks"
+  },
+  {
+    "query": "branding",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: branding"
+  },
+  {
+    "query": "brand",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: brand"
+  },
+  {
+    "query": "ownership record",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ownership record"
+  },
+  {
+    "query": "keeper",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: keeper"
+  },
+  {
+    "query": "operator",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: operator"
+  },
+  {
+    "query": "registered equidae",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: registered equidae"
+  },
+  {
+    "query": "kept equidae",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: kept equidae"
+  },
+  {
+    "query": "transport",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: transport"
+  },
+  {
+    "query": "breeding",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: breeding"
+  },
+  {
+    "query": "sport horse",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: sport horse"
+  },
+  {
+    "query": "trade",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: trade"
+  },
+  {
+    "query": "Equine identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Equine identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Equine identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Equine identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Equine identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Equine identification and traceability Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "equine regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): equine"
+  },
+  {
+    "query": "equine order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): equine"
+  },
+  {
+    "query": "equine act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): equine"
+  },
+  {
+    "query": "equines regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): equines"
+  },
+  {
+    "query": "equines order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): equines"
+  },
+  {
+    "query": "equines act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): equines"
+  },
+  {
+    "query": "equidae regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): equidae"
+  },
+  {
+    "query": "equidae order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): equidae"
+  },
+  {
+    "query": "equidae act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): equidae"
+  }
+]

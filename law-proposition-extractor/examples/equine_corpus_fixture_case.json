@@ -1,0 +1,99 @@
+{
+  "strategy_versions": {
+    "proposition_extraction": "v2-structured-list-round-robin"
+  },
+  "topic": {
+    "name": "Equine legal corpus (fixture case)",
+    "description": "Fixture sources for corpus coverage tests and local workflow runs.",
+    "subject_tags": ["equine", "corpus-fixture", "animal-health"]
+  },
+  "cluster": {
+    "name": "animal_identification_traceability",
+    "description": "Identification, establishments, movement, certification."
+  },
+  "extraction": {
+    "focus_scopes": ["equine"],
+    "max_propositions_per_source": 6
+  },
+  "sources": [
+    {
+      "id": "fixture-equine-direct",
+      "title": "Fixture — direct equine duty",
+      "jurisdiction": "EU",
+      "citation": "FIX-EQUINE-DIRECT",
+      "kind": "regulation",
+      "provenance": "fixture",
+      "text": "Article 1. Operators keeping animals of the equine species shall record each animal in the national database within 14 days.",
+      "fragment_locator": "article:1",
+      "fragment_type": "article",
+      "review_status": "proposed",
+      "metadata": {
+        "fixture_role": "direct_equine"
+      }
+    },
+    {
+      "id": "fixture-equidae-synonym",
+      "title": "Fixture — equidae synonym",
+      "jurisdiction": "EU",
+      "citation": "FIX-EQUIDAE",
+      "kind": "regulation",
+      "provenance": "fixture",
+      "text": "Article 2. Keepers must identify all equidae individually before movement.",
+      "fragment_locator": "article:2",
+      "fragment_type": "article",
+      "review_status": "proposed",
+      "metadata": {
+        "fixture_role": "equidae_synonym_only"
+      }
+    },
+    {
+      "id": "fixture-contextual-movement",
+      "title": "Fixture — movement context (not species-specific)",
+      "jurisdiction": "EU",
+      "citation": "FIX-CTX-MOVE",
+      "kind": "regulation",
+      "provenance": "fixture",
+      "text": "Article 3. Competent authorities may restrict movements of kept terrestrial animals during disease control operations.",
+      "fragment_locator": "article:3",
+      "fragment_type": "article",
+      "review_status": "proposed",
+      "metadata": {
+        "fixture_role": "contextual_movement",
+        "equine_corpus": {
+          "equine_relevance": "contextual",
+          "relationship_to_target": "contextual",
+          "source_role": "base_act"
+        }
+      }
+    },
+    {
+      "id": "fixture-bovine-only-excluded",
+      "title": "Fixture — bovine-only list item (excluded from equine corpus)",
+      "jurisdiction": "EU",
+      "citation": "FIX-BOVINE-ONLY",
+      "kind": "regulation",
+      "provenance": "fixture",
+      "text": "Article 4. For kept animals of the bovine species, the competent authority shall verify ear tags.",
+      "fragment_locator": "article:4",
+      "fragment_type": "article",
+      "review_status": "proposed",
+      "metadata": {
+        "equine_corpus": {
+          "included_in_corpus": false,
+          "equine_relevance": "none",
+          "exclusion_reason": "Species-only provision for bovidae; no equine hook in text."
+        }
+      }
+    }
+  ],
+  "comparison": {
+    "jurisdiction_a": "EU",
+    "jurisdiction_b": "EU",
+    "proposition_index": 0
+  },
+  "narrative": {
+    "title": "Equine corpus fixture",
+    "summary": "Minimal sources for automated corpus coverage tests; not a complete legal set."
+  },
+  "run_notes": "equine_corpus_fixture_case.json — for tests and build-equine-corpus --extraction-mode heuristic."
+}

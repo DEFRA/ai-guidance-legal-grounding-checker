@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template" data-llm-mode="{{ llm_mode | default('batch') }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Guidance Relevance Filter{% endblock %}</title>
+  <link rel="stylesheet" href="/static/govuk/govuk-frontend-6.5.0.min.css">
+  <link rel="stylesheet" href="/static/style.css?v={{ asset_v }}">
+</head>
+<body class="govuk-template__body"{% if n_pages is not none %} data-n-pages="{{ n_pages }}"{% endif %}>
+  <script>
+    document.body.className += " js-enabled" + ("noModule" in HTMLScriptElement.prototype ? " govuk-frontend-supported" : "");
+  </script>
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+  <header>
+    <div class="govuk-generic-header">
+      <div class="govuk-width-container govuk-generic-header__container">
+        <div class="govuk-generic-header__logo">
+          <a href="/" class="govuk-generic-header__homepage-link">Defra</a>
+        </div>
+      </div>
+    </div>
+    <section class="govuk-service-navigation" data-module="govuk-service-navigation" aria-label="Service information">
+      <div class="govuk-width-container">
+        <div class="govuk-service-navigation__container">
+          <span class="govuk-service-navigation__service-name">
+            <a href="/" class="govuk-service-navigation__link">Guidance Relevance Filter</a>
+          </span>
+          <nav aria-label="Menu" class="govuk-service-navigation__wrapper">
+            <ul class="govuk-service-navigation__list">
+              <li class="govuk-service-navigation__item{% if nav == 'create' %} govuk-service-navigation__item--active{% endif %}">
+                <a class="govuk-service-navigation__link" href="/"{% if nav == 'create' %} aria-current="page"{% endif %}>Create category</a>
+              </li>
+              <li class="govuk-service-navigation__item{% if nav == 'runs' %} govuk-service-navigation__item--active{% endif %}">
+                <a class="govuk-service-navigation__link" href="/jobs"{% if nav == 'runs' %} aria-current="page"{% endif %}>Categories</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </header>
+  <div class="govuk-width-container">
+    <div class="govuk-phase-banner">
+      <p class="govuk-phase-banner__content">
+        <strong class="govuk-tag govuk-phase-banner__content__tag">Alpha</strong>
+        <span class="govuk-phase-banner__text">
+          {% if corpus_error %}
+            Corpus: {{ corpus_error }}
+          {% else %}
+            {{ snapshot_count }} snapshot{% if snapshot_count != 1 %}s{% endif %}
+            · newest {{ built_on_label }} · {{ "{:,}".format(n_pages) if n_pages is not none else n_pages }} pages
+            · cap {{ max_routed }} routed/run
+            · {{ daily_used }} / {{ daily_max }} routed today
+          {% endif %}
+        </span>
+      </p>
+    </div>
+    <main class="govuk-main-wrapper" id="main-content">
+      {% block body %}{% endblock %}
+    </main>
+  </div>
+  {% block scripts %}{% endblock %}
+  <script src="/static/app.js?v={{ asset_v }}"></script>
+  <script type="module">
+    import { initAll } from "/static/govuk/govuk-frontend-6.5.0.min.js";
+    initAll();
+  </script>
+</body>
+</html>

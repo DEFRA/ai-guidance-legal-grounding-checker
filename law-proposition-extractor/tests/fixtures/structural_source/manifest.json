@@ -1,0 +1,140 @@
+{
+  "contract_id": "judit.structural_source_fidelity",
+  "contract_version": "1",
+  "description": "Offline multi-instrument structural-source fidelity fixture matrix for Judit.",
+  "fixtures": [
+    {
+      "fixture_id": "article_49a_eur_2009_1224",
+      "relative_path": "../article_49a_legal_structure/source.xml",
+      "jurisdiction": "EU retained",
+      "instrument_style": "EU regulation (EUR)",
+      "clml_root": "Legislation/EURetained",
+      "authority_source_id": "eur/2009/1224",
+      "patterns": [
+        "title_container",
+        "descriptive_container_heading",
+        "article_p1group_title",
+        "article_paragraphs",
+        "structured_list_branches",
+        "amendment_wrapped_heading",
+        "article_49a",
+        "article_1",
+        "article_14",
+        "sibling_articles"
+      ],
+      "heading_kinds": ["title", "article"],
+      "expects_unassigned_cross_heading": false,
+      "source_kind": "fixture",
+      "notes": "Principal headed Article 49a acceptance source."
+    },
+    {
+      "fixture_id": "sibling_articles_parts",
+      "relative_path": "../legislation_structure/sibling_articles_parts.xml",
+      "jurisdiction": "EU retained",
+      "instrument_style": "EU regulation (EUR)",
+      "clml_root": "Legislation/EURetained",
+      "authority_source_id": "eur/2009/1224",
+      "patterns": [
+        "part_container",
+        "chapter_container",
+        "sibling_articles",
+        "nested_containers",
+        "article_without_group_title",
+        "structured_list_branches"
+      ],
+      "heading_kinds": ["part", "chapter"],
+      "expects_unassigned_cross_heading": false,
+      "source_kind": "fixture",
+      "notes": "Part/Chapter containers with sibling articles; articles lack P1group Title."
+    },
+    {
+      "fixture_id": "single_provision_headed_group",
+      "relative_path": "single_provision_headed_group.xml",
+      "jurisdiction": "EU retained",
+      "instrument_style": "EU regulation (EUR)",
+      "clml_root": "Legislation/EURetained",
+      "authority_source_id": "eur/2009/1224",
+      "patterns": [
+        "title_container",
+        "single_provision_group_title",
+        "amendment_wrapped_heading",
+        "article_paragraph"
+      ],
+      "heading_kinds": ["title", "article"],
+      "expects_unassigned_cross_heading": false,
+      "source_kind": "fixture",
+      "notes": "Safe single-owner P1group Title with Addition provenance."
+    },
+    {
+      "fixture_id": "multi_provision_cross_heading",
+      "relative_path": "multi_provision_cross_heading.xml",
+      "jurisdiction": "EU retained",
+      "instrument_style": "EU regulation (EUR)",
+      "clml_root": "Legislation/EURetained",
+      "authority_source_id": "eur/2009/1224",
+      "patterns": [
+        "multi_provision_group_title",
+        "unassigned_cross_heading",
+        "sibling_articles"
+      ],
+      "heading_kinds": [],
+      "expects_unassigned_cross_heading": true,
+      "source_kind": "fixture",
+      "notes": "Shared Title must not be assigned to either article."
+    },
+    {
+      "fixture_id": "uk_regulation_headed",
+      "relative_path": "uk_regulation_headed.xml",
+      "jurisdiction": "UK",
+      "instrument_style": "UK statutory instrument (UKSI-shaped)",
+      "clml_root": "Legislation/Body",
+      "authority_source_id": "uksi/2015/668",
+      "patterns": [
+        "part_container",
+        "regulation_p1group_title",
+        "regulation_paragraphs",
+        "schedule_heading",
+        "regulation_without_heading",
+        "instrument_title_not_provision_heading"
+      ],
+      "heading_kinds": ["part", "regulation", "schedule"],
+      "expects_unassigned_cross_heading": false,
+      "source_kind": "fixture",
+      "notes": "Reduced UKSI-style Part/regulation/Schedule headings; offline only."
+    },
+    {
+      "fixture_id": "wsi_regulation_36_paragraphs",
+      "relative_path": "../regulation_paragraph_fragmentation/wsi_2021_77_regulation_36_live_clml.xml",
+      "jurisdiction": "Wales",
+      "instrument_style": "Welsh statutory instrument (WSI)",
+      "clml_root": "Legislation/Body",
+      "authority_source_id": "wsi/2021/77",
+      "patterns": [
+        "regulation_number",
+        "regulation_paragraphs",
+        "schedule_number",
+        "missing_regulation_heading",
+        "instrument_title_not_provision_heading"
+      ],
+      "heading_kinds": ["schedule"],
+      "expects_unassigned_cross_heading": false,
+      "source_kind": "fixture",
+      "notes": "WSI reg 36 paragraph parentage; regulations lack P1group Title; schedule Title captured on schedule:1."
+    }
+  ],
+  "known_unrepresented_patterns": [
+    "rule_heading (Rules of Court / tribunal rules CLML)",
+    "Schedule cross-heading shared across multiple schedule paragraphs",
+    "multi-provision cross-heading inheritance model",
+    "nested table headings / table titles adjacent to operative material",
+    "empty Title element that still occupies a P1group",
+    "dedicated offline UKSI live-CLML slice with titled regulations (synthetic UKSI-shaped fixture covers the pattern)",
+    "SSI / NISR offline headed fixtures",
+    "persisted prompt-v3 extraction model traces from live runs"
+  ],
+  "inventory_notes": {
+    "stored_runs": "judit/runs/** exports include source_snapshots/fragments/jobs; older slurry/fish exports predate heading capture and are not reparsed as structural fixtures.",
+    "no_live_fetch": true,
+    "beatrice_out_of_scope": true
+  }
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #FFFFFF; }
+      .title { fill: #0F172A; font-size: 36px; font-weight: 700; }
+      .subtitle { fill: #475569; font-size: 18px; font-weight: 500; }
+      .footer { fill: #64748B; font-size: 14px; }
+      .tier-bg { fill: #F8FAFC; stroke: #CBD5E1; stroke-width: 1; }
+      .tier-label { fill: #334155; font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+      .stage { fill: #EEF2FF; stroke: #4338CA; stroke-width: 2; }
+      .stage-title { fill: #1E1B4B; font-size: 18px; font-weight: 700; }
+      .stage-body { fill: #312E81; font-size: 14px; }
+      .stage-tag { fill: #4338CA; font-size: 12px; font-weight: 600; }
+      .arrow { stroke: #6366F1; stroke-width: 2; fill: none; }
+      .note-bg { fill: #FFFBEB; stroke: #D97706; stroke-width: 1; }
+      .note-text { fill: #78350F; font-size: 13px; font-weight: 500; }
+      .review-bg { fill: #F0F9FF; stroke: #0369A1; stroke-width: 1.5; }
+      .review-title { fill: #0C4A6E; font-size: 16px; font-weight: 700; }
+      .review-body { fill: #075985; font-size: 13px; }
+      .promo-bg { fill: #ECFDF5; stroke: #059669; stroke-width: 1.5; }
+      .promo-title { fill: #064E3B; font-size: 16px; font-weight: 700; }
+      .promo-body { fill: #065F46; font-size: 13px; }
+      .legend-text { fill: #475569; font-size: 12px; }
+    ]]></style>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6366F1" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+
+  <text class="title" x="60" y="60">From legal sources to reviewable propositions</text>
+  <text class="subtitle" x="60" y="92">Judit: source-first, proposition-first, deterministic-first pipeline with controlled model usage.</text>
+
+  <!-- Tier 1: Source intake -->
+  <rect class="tier-bg" x="60" y="130" width="1480" height="140" rx="12" />
+  <text class="tier-label" x="80" y="155">Source intake (no model)</text>
+
+  <rect class="stage" x="80" y="175" width="280" height="80" rx="8" />
+  <text class="stage-title" x="100" y="205">Source registry</text>
+  <text class="stage-body" x="100" y="228">Persisted, selectable</text>
+  <text class="stage-body" x="100" y="246">references for runs</text>
+
+  <rect class="stage" x="380" y="175" width="280" height="80" rx="8" />
+  <text class="stage-title" x="400" y="205">Source record</text>
+  <text class="stage-body" x="400" y="228">Authority, citation,</text>
+  <text class="stage-body" x="400" y="246">CELEX/ELI, locator</text>
+
+  <rect class="stage" x="680" y="175" width="280" height="80" rx="8" />
+  <text class="stage-title" x="700" y="205">Source snapshot</text>
+  <text class="stage-body" x="700" y="228">Versioned text instance,</text>
+  <text class="stage-body" x="700" y="246">content hash, provenance</text>
+
+  <rect class="stage" x="980" y="175" width="280" height="80" rx="8" />
+  <text class="stage-title" x="1000" y="205">Source fragment</text>
+  <text class="stage-body" x="1000" y="228">Article / annex / section /</text>
+  <text class="stage-body" x="1000" y="246">chunk for extraction targeting</text>
+
+  <path class="arrow" d="M 360 215 L 380 215" marker-end="url(#arrowhead)" />
+  <path class="arrow" d="M 660 215 L 680 215" marker-end="url(#arrowhead)" />
+  <path class="arrow" d="M 960 215 L 980 215" marker-end="url(#arrowhead)" />
+
+  <!-- Tier 2: Proposition workflow -->
+  <rect class="tier-bg" x="60" y="290" width="1480" height="200" rx="12" />
+  <text class="tier-label" x="80" y="315">Proposition workflow</text>
+
+  <rect class="stage" x="80" y="335" width="320" height="140" rx="8" />
+  <text class="stage-title" x="100" y="365">Proposition extraction</text>
+  <text class="stage-tag" x="100" y="385">Local / frontier model (controlled)</text>
+  <text class="stage-body" x="100" y="408">heuristic / local / frontier modes</text>
+  <text class="stage-body" x="100" y="426">context-window budgeting</text>
+  <text class="stage-body" x="100" y="444">fallback / mark_needs_review</text>
+  <text class="stage-body" x="100" y="462">definition fallback path</text>
+
+  <rect class="stage" x="420" y="335" width="320" height="140" rx="8" />
+  <text class="stage-title" x="440" y="365">Inventory &amp; pairing</text>
+  <text class="stage-tag" x="440" y="385">Deterministic, no model</text>
+  <text class="stage-body" x="440" y="408">group propositions by</text>
+  <text class="stage-body" x="440" y="426">article / provision</text>
+  <text class="stage-body" x="440" y="444">align across sources when</text>
+  <text class="stage-body" x="440" y="462">divergence is active</text>
+
+  <rect class="stage" x="760" y="335" width="320" height="140" rx="8" />
+  <text class="stage-title" x="780" y="365">Completeness &amp; categorisation</text>
+  <text class="stage-tag" x="780" y="385">Deterministic rules</text>
+  <text class="stage-body" x="780" y="408">flag fragmentary or context-</text>
+  <text class="stage-body" x="780" y="426">dependent propositions; assign</text>
+  <text class="stage-body" x="780" y="444">source roles and relationships</text>
+
+  <rect class="stage" x="1100" y="335" width="320" height="140" rx="8" />
+  <text class="stage-title" x="1120" y="365">Quality &amp; lint gates</text>
+  <text class="stage-tag" x="1120" y="385">Deterministic</text>
+  <text class="stage-body" x="1120" y="408">pass / pass_with_warnings / fail</text>
+  <text class="stage-body" x="1120" y="426">aggregated metrics +</text>
+  <text class="stage-body" x="1120" y="444">recommendations into</text>
+  <text class="stage-body" x="1120" y="462">run_quality_summary.json</text>
+
+  <path class="arrow" d="M 400 405 L 420 405" marker-end="url(#arrowhead)" />
+  <path class="arrow" d="M 740 405 L 760 405" marker-end="url(#arrowhead)" />
+  <path class="arrow" d="M 1080 405 L 1100 405" marker-end="url(#arrowhead)" />
+
+  <!-- Tier 3: Review and downstream -->
+  <rect class="tier-bg" x="60" y="510" width="1480" height="200" rx="12" />
+  <text class="tier-label" x="80" y="535">Review &amp; downstream (human-in-the-loop)</text>
+
+  <rect class="review-bg" x="80" y="555" width="360" height="140" rx="8" />
+  <text class="review-title" x="100" y="585">Operations &amp; analysis UI</text>
+  <text class="review-body" x="100" y="610">Propositions screen, ops inspector,</text>
+  <text class="review-body" x="100" y="628">run quality, repair signals, traces.</text>
+  <text class="review-body" x="100" y="646">Read-mostly with controlled write</text>
+  <text class="review-body" x="100" y="664">paths (registry, decisions, repair).</text>
+
+  <rect class="review-bg" x="460" y="555" width="360" height="140" rx="8" />
+  <text class="review-title" x="480" y="585">Pipeline review decisions</text>
+  <text class="review-body" x="480" y="610">Append-only governance rows per</text>
+  <text class="review-body" x="480" y="628">artifact / field: approved,</text>
+  <text class="review-body" x="480" y="646">rejected, needs_review,</text>
+  <text class="review-body" x="480" y="664">overridden, deferred. Supersession.</text>
+
+  <rect class="promo-bg" x="840" y="555" width="320" height="140" rx="8" />
+  <text class="promo-title" x="860" y="585">Guidance-ready promotion</text>
+  <text class="promo-body" x="860" y="610">Promoted state after review.</text>
+  <text class="promo-body" x="860" y="628">Not a default output. Not legal</text>
+  <text class="promo-body" x="860" y="646">approval. Recorded against</text>
+  <text class="promo-body" x="860" y="664">explicit governance policy.</text>
+
+  <rect class="stage" x="1180" y="555" width="240" height="140" rx="8" />
+  <text class="stage-title" x="1200" y="585">Divergence (optional)</text>
+  <text class="stage-tag" x="1200" y="605">Frontier model, traceable</text>
+  <text class="stage-body" x="1200" y="628">Pair and classify when</text>
+  <text class="stage-body" x="1200" y="646">divergence mode is enabled</text>
+  <text class="stage-body" x="1200" y="664">or multi-jurisdiction input</text>
+  <text class="stage-body" x="1200" y="682">is present.</text>
+
+  <path class="arrow" d="M 440 625 L 460 625" marker-end="url(#arrowhead)" />
+  <path class="arrow" d="M 820 625 L 840 625" marker-end="url(#arrowhead)" />
+  <path class="arrow" d="M 1160 625 L 1180 625" marker-end="url(#arrowhead)" />
+
+  <!-- Connector top tier to middle tier -->
+  <path class="arrow" d="M 1120 255 L 1120 280 L 240 280 L 240 335" marker-end="url(#arrowhead)" />
+
+  <!-- Connector middle to bottom -->
+  <path class="arrow" d="M 1260 475 L 1260 500 L 260 500 L 260 555" marker-end="url(#arrowhead)" />
+
+  <!-- Cautionary notes -->
+  <rect class="note-bg" x="60" y="730" width="720" height="60" rx="8" />
+  <text class="note-text" x="80" y="755">Lint pass means artifact integrity / quality-gate pass  -  not legal approval.</text>
+  <text class="note-text" x="80" y="775">`pass_with_warnings` is expected during extraction/review and should be triaged.</text>
+
+  <rect class="note-bg" x="800" y="730" width="740" height="60" rx="8" />
+  <text class="note-text" x="820" y="755">`guidance-ready` is a promotion state after review/governance, not default output.</text>
+  <text class="note-text" x="820" y="775">Extracted propositions are review datasets, not legally approved conclusions by default.</text>
+
+  <!-- Footer -->
+  <text class="footer" x="60" y="850">Source of truth: docs/architecture/pipeline-overview.md &#183; docs/canonical/roadmap.md &#183; ADR-0019 (model usage strategy).</text>
+  <text class="footer" x="60" y="872">Generated from docs/assets/infographics/pipeline-overview.svg &#183; regenerate with `just infographics`.</text>
+</svg>

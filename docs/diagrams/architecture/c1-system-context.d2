@@ -1,0 +1,185 @@
+# C1 — System Context for Guidance to Law Comparison (content-audit pipeline).
+# Canonical architecture view. Regenerate: just diagrams (repo root)
+#
+# Abstraction: one software system + people + material external systems.
+# Do not add pipeline stages, packages, or the filesystem artifact store here.
+# Source authorities are grouped: Lex vs legislation.gov.uk detail belongs on C2.
+# Audit frontend is a container concern — visible on C2, not on C1.
+#
+# Composition (C4-style): People left, Guidance to Law Comparison centre (dominant),
+# External systems right (stacked).
+# - Plain labels so D2 draws real card shapes (markdown skips borders/width).
+# - Transparent centre frame widens the non-near bbox so near groups leave
+#   room for horizontal edge labels.
+
+...@../shared/classes.d2
+
+direction: down
+
+title: |md
+  **C1 — Guidance to Law Comparison system context**
+|
+title.style.font-size: 24
+title.near: top-center
+
+people: {
+  near: center-left
+  label: "People"
+  class: phase
+  grid-rows: 2
+  grid-gap: 64
+
+  operator: {
+    label: "Operator\ndefines scope, runs audits"
+    class: person
+    width: 250
+    height: 110
+    style: {
+      font-size: 16
+      fill: "#FFFFFF"
+      stroke: "#0369A1"
+      stroke-width: 2
+      border-radius: 10
+      shadow: true
+    }
+  }
+
+  reviewer: {
+    label: "Reviewer\nreviews comparison results"
+    class: person
+    width: 250
+    height: 110
+    style: {
+      font-size: 16
+      fill: "#FFFFFF"
+      stroke: "#0369A1"
+      stroke-width: 2
+      border-radius: 10
+      shadow: true
+    }
+  }
+}
+
+sources: {
+  near: center-right
+  label: "External systems"
+  class: phase
+  grid-rows: 3
+  grid-gap: 64
+
+  govuk: {
+    label: "GOV.UK\nguidance pages and search"
+    class: external
+    width: 290
+    height: 110
+    style: {
+      font-size: 16
+      fill: "#FFFFFF"
+      stroke: "#475569"
+      stroke-width: 2
+      stroke-dash: 0
+      border-radius: 10
+      shadow: true
+    }
+  }
+
+  legislation_sources: {
+    label: "UK legislation sources\nLex search · legislation.gov.uk"
+    class: external
+    width: 290
+    height: 110
+    style: {
+      font-size: 16
+      fill: "#FFFFFF"
+      stroke: "#475569"
+      stroke-width: 2
+      stroke-dash: 0
+      border-radius: 10
+      shadow: true
+    }
+  }
+
+  model_services: {
+    label: "Model services\ncloud/local LLMs + embeddings"
+    class: external
+    width: 290
+    height: 110
+    style: {
+      font-size: 16
+      fill: "#FFFFFF"
+      stroke: "#475569"
+      stroke-width: 2
+      stroke-dash: 0
+      border-radius: 10
+      shadow: true
+    }
+  }
+}
+
+# Wide invisible frame pushes People / External systems outward so
+# relationship labels have a clear horizontal corridor.
+centre: {
+  label: ""
+  width: 1000
+  height: 400
+  style: {
+    fill: "transparent"
+    stroke: "transparent"
+  }
+
+  legal_comparison: {
+    label: "Guidance to Law Comparison\n\ncompares guidance with\nunderlying law for a\nchosen audit topic"
+    class: system
+    width: 520
+    height: 340
+    style: {
+      fill: "#C7D2FE"
+      font-size: 30
+      font-color: "#1E1B4B"
+      stroke: "#312E81"
+      stroke-width: 7
+      border-radius: 18
+      shadow: true
+    }
+  }
+}
+
+people.operator -> centre.legal_comparison: runs audits {
+  style: {
+    stroke: "#0369A1"
+    stroke-width: 2
+    # 18px: italic edge labels read ~card subtitle (16px) at Slack preview scale
+    font-size: 18
+  }
+}
+people.reviewer -> centre.legal_comparison: reviews results {
+  style: {
+    stroke: "#0369A1"
+    stroke-width: 2
+    font-size: 18
+  }
+}
+
+# Two-line labels keep the three right-hand relationships readable
+# when routes converge toward the system box.
+sources.govuk -> centre.legal_comparison: "supplies\nguidance" {
+  style: {
+    stroke: "#475569"
+    stroke-width: 2
+    font-size: 18
+  }
+}
+sources.legislation_sources -> centre.legal_comparison: "supplies\nlegislation" {
+  style: {
+    stroke: "#475569"
+    stroke-width: 2
+    font-size: 18
+  }
+}
+sources.model_services -> centre.legal_comparison: "provides\ninference" {
+  style: {
+    stroke: "#475569"
+    stroke-width: 2
+    font-size: 18
+  }
+}

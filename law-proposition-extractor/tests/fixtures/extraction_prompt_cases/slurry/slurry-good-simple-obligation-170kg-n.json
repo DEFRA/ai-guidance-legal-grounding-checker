@@ -1,0 +1,43 @@
+{
+  "case_id": "slurry-good-simple-obligation-170kg-n",
+  "label": "GOOD — simple obligation (170 kg N per hectare holding limit)",
+  "source_title": "The Nitrate Pollution Prevention Regulations 2015",
+  "source_record_id": "lex-120b4f9c395b3f94",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "regulation:7",
+  "fragment_text": "7 1 The occupier of a holding must ensure that, in any calendar year, the total amount of nitrogen in livestock manure applied to the holding, whether directly by an animal or by spreading, does not exceed 170kg multiplied by the area of the holding in hectares. 2 Paragraph (1) does not apply where the occupier has been granted a derogation. 3 For the purposes of this regulation, the amount of nitrogen is to be calculated in accordance with Schedule 1. 4 In calculating the area of a holding for the purpose of ascertaining the amount of nitrogen permitted to be spread on the holding, no account is to be taken of— a any surface waters, hardstanding, buildings, roads or woodland (unless the woodland is used for grazing), or b any land which is covered by a greenhouse for the whole of the year concerned.",
+  "why_this_case": "Canonical NVZ duty: occupier + must ensure + quantified limit; tests actor/action/object structure. Evaluation uses targeted mode: gold anchors the 170 kg holding cap; derogation, Schedule 1 calculation, and holding-area exclusions in the same regulation are allowed extras.",
+  "expected_challenges": [
+    "derogation_exception_in_paragraph_2",
+    "schedule_1_cross_reference"
+  ],
+  "evaluation": {
+    "mode": "targeted",
+    "strict_proposition_count": false,
+    "allow_extra_actual": true
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "obligation",
+      "proposition_tier": "substantive_rule",
+      "proposition_text": "The occupier of a holding must ensure that the total nitrogen in livestock manure applied to the holding in any calendar year does not exceed 170 kg per hectare of the holding.",
+      "legal_subject": "the occupier of a holding",
+      "action": "must ensure that the total amount of nitrogen in livestock manure applied does not exceed 170kg per hectare",
+      "affected_subjects": [
+        "the occupier of a holding"
+      ],
+      "conditions": [
+        "in any calendar year",
+        "whether applied directly by an animal or by spreading"
+      ],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "The occupier of a holding must ensure that, in any calendar year, the total amount of nitrogen in livestock manure applied to the holding"
+    }
+  ]
+}

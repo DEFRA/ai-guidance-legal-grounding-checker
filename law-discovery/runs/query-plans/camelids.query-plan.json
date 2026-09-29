@@ -1,0 +1,224 @@
+[
+  {
+    "query": "Camelid identification and traceability Alpaca, llama, camel, and camelid identification using ear tags, microchips, tattoos, and herd records. Covers registration, traceability, welfare, husbandry, and disease management aligned with wider livestock control frameworks.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Camelid identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "camelid",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: camelid"
+  },
+  {
+    "query": "camelids",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: camelids"
+  },
+  {
+    "query": "alpaca",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: alpaca"
+  },
+  {
+    "query": "alpacas",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: alpacas"
+  },
+  {
+    "query": "llama",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: llama"
+  },
+  {
+    "query": "llamas",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: llamas"
+  },
+  {
+    "query": "camel",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: camel"
+  },
+  {
+    "query": "camels",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: camels"
+  },
+  {
+    "query": "ear tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tag"
+  },
+  {
+    "query": "ear tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tags"
+  },
+  {
+    "query": "microchip",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchip"
+  },
+  {
+    "query": "microchips",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchips"
+  },
+  {
+    "query": "tattoo",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoo"
+  },
+  {
+    "query": "tattoos",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoos"
+  },
+  {
+    "query": "herd record",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: herd record"
+  },
+  {
+    "query": "herd records",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: herd records"
+  },
+  {
+    "query": "holding register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: holding register"
+  },
+  {
+    "query": "registration",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: registration"
+  },
+  {
+    "query": "keeper",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: keeper"
+  },
+  {
+    "query": "husbandry",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: husbandry"
+  },
+  {
+    "query": "livestock control",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: livestock control"
+  },
+  {
+    "query": "Camelid identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Camelid identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Camelid identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Camelid identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Camelid identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "camelid regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): camelid"
+  },
+  {
+    "query": "camelid order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): camelid"
+  },
+  {
+    "query": "camelid act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): camelid"
+  },
+  {
+    "query": "camelids regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): camelids"
+  },
+  {
+    "query": "camelids order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): camelids"
+  },
+  {
+    "query": "camelids act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): camelids"
+  },
+  {
+    "query": "alpaca regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): alpaca"
+  },
+  {
+    "query": "alpaca order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): alpaca"
+  },
+  {
+    "query": "alpaca act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): alpaca"
+  }
+]

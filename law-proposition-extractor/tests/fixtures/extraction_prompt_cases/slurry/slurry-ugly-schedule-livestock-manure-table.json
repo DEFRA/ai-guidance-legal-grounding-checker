@@ -1,0 +1,89 @@
+{
+  "case_id": "slurry-ugly-schedule-livestock-manure-table",
+  "label": "UGLY — Schedule 1 livestock manure / nitrogen table",
+  "source_title": "The Nitrate Pollution Prevention Regulations 2015",
+  "source_record_id": "lex-120b4f9c395b3f94",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "schedule:1",
+  "fragment_text": "SCHEDULE 1Manure, nitrogen and phosphate produced by livestockRegulations 2(1), 7(3),25(1) and (2), 26(1),27(1) and (2) and 34(4)Grazing livestockCategoryDaily manure produced by each animal (litres)Daily nitrogen produced by each animal (grams)Daily phosphate produced by each animal (grams)(1)In the case of a ewe, the figures include one or more suckled lambs until the lambs are aged 6 months.CattleCalf (all categories except veal) younger than 2 months72312.7Dairy cow—From 2 months to less than 12 months209534From 12 months up to first calf4016769After first calf and—annual milk yield more than 9000 litres64315142annual milk yield between 6000 and 9000 litres53276121annual milk yield less than 6000 litres4221193Beef cow or steer—From 2 months to less than 12 months209133From 12 months to less than 24 months2613743From 24 months—females or steers for slaughter3213760females for breeding—weighing 500kg or less3216765weighing more than 500kg4522786Bulls—Non-breeding, 2 months and over2614824Breeding—from 2 months to less than 24 months2613743from 24 months2613260SheepFrom 6 months up to 9 months1.85.50.76From 9 months to first lambing, first tupping or slaughter1.83.92.1After lambing or tupping—weighing less than 60kg3.3218.8weighing 60kg or more53310Goat, deer and horseGoat3.54118.8Deer—breeding54217.6other3.53311.7Horse245856Non-grazing livestockCategoryDaily manure produced by each animal (litres or, in the case of poultry, kilograms)Daily nitrogen produced by each animal (grams)Daily phosphate produced by each animal (grams)(1)All figures for poultry include litterCattleVeal calf72312.7PoultryChicken used for producing eggs for human consumption—less than 17 weeks0.040.640.47from 17 weeks (caged)0.121.131.0from 17 weeks (not caged)0.121.51.1Chickens raised for meat0.061.060.72Chickens raised for breeding—less than 25 weeks0.040.860.78from 25 weeks0.122.021.5Turkey—male0.163.743.1female0.122.832.3Duck0.12.482.4Ostrich1.63.8318.5PigsWeighing from 7kg to less than 13kg1.34.11.3Weighing from 13kg to less than 31kg214.26Weighing from 31kg to less than 66kg—dry fed3.72412.1liquid fed7.12412.1Weighing from 66kg and—intended for slaughter—dry fed5.13317.9liquid fed103317.9sow intended for breeding that has not yet had first litter5.63820sow (including litter up to 7kg) fed on a diet supplemented with synthetic amino acids10.94437sow (including litter up to 7kg) fed on a diet without synthetic amino acids10.94937breeding boar weighing from 66kg to less than 150kg5.13317.9breeding boar weighing from 150kg8.74828",
+  "why_this_case": "Tabular numeric values with units (litres, grams) challenge evidence matching and row splitting.",
+  "expected_challenges": [
+    "table_structure",
+    "multiple_livestock_categories",
+    "footnotes"
+  ],
+  "evaluation": {
+    "mode": "table_rows",
+    "strict_proposition_count": false,
+    "allow_extra_actual": true
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "definition",
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "A high-yield dairy cow after first calf produces 64 litres manure, 315 grams nitrogen, and 142 grams phosphate daily.",
+      "legal_subject": "Dairy cow after first calf with annual milk yield more than 9000 litres",
+      "action": "produces daily",
+      "affected_subjects": [],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "After first calf and—annual milk yield more than 9000 litres 64 315 142"
+    },
+    {
+      "legal_effect_type": "definition",
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "A sheep after lambing or tupping weighing 60kg or more produces 5 litres manure, 33 grams nitrogen, and 10 grams phosphate daily.",
+      "legal_subject": "Sheep after lambing or tupping weighing 60kg or more",
+      "action": "produces daily",
+      "affected_subjects": [],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "weighing 60kg or more 5 33 10"
+    },
+    {
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "All figures for poultry include litter.",
+      "legal_subject": "All figures for poultry",
+      "action": "include",
+      "affected_subjects": [],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "All figures for poultry include litter"
+    },
+    {
+      "legal_effect_type": "definition",
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "A sow (including litter up to 7kg) fed without synthetic amino acids produces 10.9 litres manure, 49 grams nitrogen, and 37 grams phosphate daily.",
+      "legal_subject": "Sow (including litter up to 7kg) fed on a diet without synthetic amino acids",
+      "action": "produces daily",
+      "affected_subjects": [],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "sow (including litter up to 7kg) fed on a diet without synthetic amino acids 10.9 49 37"
+    }
+  ]
+}

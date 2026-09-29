@@ -1,0 +1,276 @@
+{
+  "run_id": "law-discovery-run-20260526T093000Z",
+  "created_at": "2026-05-26T09:30:00Z",
+  "category": {
+    "category_id": "equine_identification",
+    "label": "Equine identification and traceability",
+    "description": "Rules about horse, equine or equid identification, passports, microchips, keeper duties, databases, movement records and registration.",
+    "synonyms": [
+      "equine",
+      "equidae",
+      "equid",
+      "horse",
+      "horse passport",
+      "identification document",
+      "microchip",
+      "keeper",
+      "traceability"
+    ],
+    "exclusions": [
+      "horse racing betting",
+      "tourism"
+    ],
+    "jurisdiction_hints": [
+      "UK",
+      "Great Britain",
+      "England"
+    ],
+    "metadata": {}
+  },
+  "query_plan": [
+    {
+      "query": "Equine identification and traceability Rules about horse, equine or equid identification, passports, microchips, keeper duties, databases, movement records and registration.",
+      "query_type": "combined",
+      "source_system": "lex",
+      "rationale": "Combined category label and description"
+    },
+    {
+      "query": "Equine identification and traceability",
+      "query_type": "label",
+      "source_system": "lex",
+      "rationale": "Category label"
+    },
+    {
+      "query": "equine",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Category synonym: equine"
+    },
+    {
+      "query": "equidae",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Category synonym: equidae"
+    },
+    {
+      "query": "equid",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Category synonym: equid"
+    },
+    {
+      "query": "horse",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Category synonym: horse"
+    },
+    {
+      "query": "horse passport",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Category synonym: horse passport"
+    },
+    {
+      "query": "identification document",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Category synonym: identification document"
+    },
+    {
+      "query": "microchip",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Category synonym: microchip"
+    },
+    {
+      "query": "keeper",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Category synonym: keeper"
+    },
+    {
+      "query": "traceability",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Category synonym: traceability"
+    },
+    {
+      "query": "Equine identification and traceability UK",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Jurisdiction-expanded query: UK"
+    },
+    {
+      "query": "Equine identification and traceability Great Britain",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Jurisdiction-expanded query: Great Britain"
+    },
+    {
+      "query": "Equine identification and traceability England",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Jurisdiction-expanded query: England"
+    },
+    {
+      "query": "equine regulations",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Source-type expanded query (regulations): equine"
+    },
+    {
+      "query": "equine order",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Source-type expanded query (order): equine"
+    },
+    {
+      "query": "equine act",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Source-type expanded query (act): equine"
+    },
+    {
+      "query": "equidae regulations",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Source-type expanded query (regulations): equidae"
+    },
+    {
+      "query": "equidae order",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Source-type expanded query (order): equidae"
+    },
+    {
+      "query": "equidae act",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Source-type expanded query (act): equidae"
+    },
+    {
+      "query": "equid regulations",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Source-type expanded query (regulations): equid"
+    },
+    {
+      "query": "equid order",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Source-type expanded query (order): equid"
+    },
+    {
+      "query": "equid act",
+      "query_type": "synonym",
+      "source_system": "lex",
+      "rationale": "Source-type expanded query (act): equid"
+    }
+  ],
+  "candidate_sources": [
+    {
+      "source_id": "uksi/2009/1741",
+      "title": "Horse Passports Regulations 2009",
+      "citation": "SI 2009/1741",
+      "source_type": "uksi",
+      "canonical_uri": "https://www.legislation.gov.uk/uksi/2009/1741",
+      "source_system": "lex",
+      "jurisdiction_extent": [],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search",
+        "title_match"
+      ],
+      "matched_terms": [
+        "horse passport",
+        "equine"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Horse Passports Regulations 2009",
+          "uri": "https://www.legislation.gov.uk/uksi/2009/1741",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "unreviewed",
+      "notes": "Strong synonym match; awaiting human review."
+    },
+    {
+      "source_id": "uksi/2018/123",
+      "title": "Equine Identification (England) Regulations 2018",
+      "citation": "SI 2018/123",
+      "source_type": "uksi",
+      "canonical_uri": "https://www.legislation.gov.uk/uksi/2018/123",
+      "source_system": "lex",
+      "jurisdiction_extent": [],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "equine",
+        "microchip"
+      ],
+      "evidence": [],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "Primary instrument for Law Proposition Extractor handoff; England scope confirmed."
+    },
+    {
+      "source_id": "govuk-horse-passport-guidance",
+      "title": "Horse identification and traceability: guidance for keepers",
+      "citation": "DEFRA guidance (example)",
+      "source_type": "guidance",
+      "canonical_uri": "https://www.gov.uk/guidance/horse-passport-and-equine-identification",
+      "source_system": "gov_uk",
+      "jurisdiction_extent": [],
+      "temporal_status": "unknown",
+      "relationship_to_category": "operationalises",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "keeper",
+        "traceability"
+      ],
+      "evidence": [],
+      "confidence": "medium",
+      "review_status": "accepted",
+      "notes": "Include as interpretive material for Law Proposition Extractor context."
+    },
+    {
+      "source_id": "ukpga/1963/2",
+      "title": "Betting, Gaming and Lotteries Act 1963",
+      "citation": "1963 c.2",
+      "source_type": "act",
+      "canonical_uri": "https://www.legislation.gov.uk/ukpga/1963/2",
+      "source_system": "lex",
+      "jurisdiction_extent": [],
+      "temporal_status": "unknown",
+      "relationship_to_category": "possibly_relevant",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "horse"
+      ],
+      "evidence": [],
+      "confidence": "low",
+      "review_status": "rejected",
+      "notes": "Excluded: horse racing betting context, not equine ID."
+    }
+  ],
+  "warnings": [
+    "Example fixture: not produced by a live discovery run."
+  ],
+  "metadata": {
+    "example": true,
+    "use_network": true,
+    "candidate_count": 4
+  }
+}

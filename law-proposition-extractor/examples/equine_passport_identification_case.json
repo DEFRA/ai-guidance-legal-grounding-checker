@@ -1,0 +1,244 @@
+{
+  "strategy_versions": {
+    "proposition_extraction": "v2-structured-list-round-robin"
+  },
+  "topic": {
+    "name": "Equine passport & identification (staged v0.1)",
+    "description": "Staged source universe for equine identification, passports, and import/trade-related UK/EU instruments. Not a claim of complete equine law. Do not treat all instruments as automatically analysed. Active profile: equine_passport_identification_v0_1.",
+    "subject_tags": [
+      "equine",
+      "staged-corpus",
+      "equine_passport_identification_v0_1"
+    ]
+  },
+  "cluster": {
+    "name": "animal_identification_traceability",
+    "description": "Identification, import, trade, and control-related duties."
+  },
+  "extraction": {
+    "mode": "frontier",
+    "fallback_policy": "mark_needs_review",
+    "model_error_policy": "stop_repairable",
+    "divergence_reasoning": "none",
+    "focus_scopes": [
+      "equine",
+      "equidae",
+      "equid",
+      "horse",
+      "passport",
+      "identification",
+      "movement"
+    ],
+    "max_propositions_per_source": 12
+  },
+  "sources": [
+    {
+      "id": "equine-uni-uksi-2018-761",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2018/761",
+      "title": "The Equine Identification (England) Regulations 2018",
+      "version_id": "2018-06-22",
+      "as_of_date": "2018-06-22",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2018/761",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "equine_identification",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2018-1409",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2018/1409",
+      "title": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018",
+      "version_id": "2018-12-20",
+      "as_of_date": "2018-12-20",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2018/1409",
+          "ui_cluster": "eu_exit_amendments",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-wsi-2019-57",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "wsi/2019/57",
+      "title": "The Equine Identification (Wales) Regulations 2019",
+      "version_id": "2019-01-15",
+      "as_of_date": "2019-01-15",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "wsi/2019/57",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "equine_identification",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-wsi-2019-250",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "wsi/2019/250",
+      "title": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019",
+      "version_id": "2019-02-11",
+      "as_of_date": "2019-02-11",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "wsi/2019/250",
+          "ui_cluster": "eu_exit_amendments",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-wsi-2020-1240",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "wsi/2020/1240",
+      "title": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020",
+      "version_id": "2020-11-06",
+      "as_of_date": "2020-11-06",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "wsi/2020/1240",
+          "ui_cluster": "eu_exit_amendments",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-ssi-2019-30",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "ssi/2019/30",
+      "title": "The Equine Animal (Identification) (Scotland) Regulations 2019",
+      "version_id": "2019-02-05",
+      "as_of_date": "2019-02-05",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "ssi/2019/30",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "equine_identification",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-ssi-2019-71",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "ssi/2019/71",
+      "title": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+      "version_id": "2019-02-26",
+      "as_of_date": "2019-02-26",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "ssi/2019/71",
+          "ui_cluster": "eu_exit_amendments",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-nisr-2019-67",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "nisr/2019/67",
+      "title": "The Equine Identification Regulations (Northern Ireland) 2019",
+      "version_id": "2019-03-27",
+      "as_of_date": "2019-03-27",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "nisr/2019/67",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "equine_identification",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-nisr-2022-200",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "nisr/2022/200",
+      "title": "The Equine Identification (Amendment) Regulations (Northern Ireland) 2022",
+      "version_id": "2022-08-10",
+      "as_of_date": "2022-08-10",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "nisr/2022/200",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "equine_identification",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-eur-2015-262",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "eur/2015/262",
+      "title": "Commission Implementing Regulation (EU) 2015/262",
+      "version_id": "2015-02-17",
+      "as_of_date": "2015-02-17",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "eur/2015/262",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "passport",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2019-591",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2019/591",
+      "title": "The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019",
+      "version_id": "2019-03-14",
+      "as_of_date": "2019-03-14",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2019/591",
+          "ui_cluster": "equine_identification_passport",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    }
+  ],
+  "narrative": {
+    "title": "Equine passport & identification (staged v0.1)",
+    "summary": "Profile equine_passport_identification_v0_1: 11 legislation.gov.uk instruments."
+  },
+  "run_notes": "Profile equine_passport_identification_v0_1 \u2014 11 instruments. Wider universe: examples/equine_source_universe.json.",
+  "corpus_profile_id": "equine_passport_identification_v0_1",
+  "equine_source_universe_ref": {
+    "path": "examples/equine_source_universe.json",
+    "universe_id": "equine_import_identification_trade_v1"
+  }
+}

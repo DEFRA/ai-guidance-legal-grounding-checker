@@ -1,0 +1,102 @@
+{
+  "case_id": "slurry-bad-npp-reg-2-definitions",
+  "label": "BAD — NPP 2015 reg 2 interpretation definitions (statutory quotes)",
+  "source_title": "The Nitrate Pollution Prevention Regulations 2015",
+  "source_record_id": "lex-120b4f9c395b3f94",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "regulation:2",
+  "fragment_text": "21In these Regulations—“the Agency” means the Environment Agency;“agricultural” has the meaning given by section 109(3) of the Agriculture Act 1947;“agricultural area” means agricultural land used for agricultural purposes;“anaerobic digestion” has the meaning given in paragraph 1 of section 1.1 of Chapter 1 of Part 2 of Schedule 1 to the Environmental Permitting (England and Wales) Regulations 2016;“derogated holding” means a holding over which a derogation has effect;“derogation” and “derogation conditions” each have the meaning given by regulation 36;“eutrophic”, in relation to water, means enriched by nitrogen compounds, causing an accelerated growth of algae and higher forms of plant life that produces an undesirable disturbance to the balance of organisms present in the water and to the quality of the water;“FACTS adviser” means a person who is a member of the Fertiliser Advisers Certification and Training Scheme and qualified to advise on matters relating to crop nutrient management;“fertilisation plan” has the meaning given by regulation 10(1)(c) (and see also paragraph 4 of Schedule 3);“grass” includes—permanent grassland or temporary grassland (with “temporary” meaning for a period of less than four years) which exists between the sowing and ploughing of the grass, andcrops under-sown with grass,but does not include grassland with at least 50% clover;“greenhouse” means a structure such as a glasshouse or polytunnel in which crops are grown under cover in an enclosed space, but does not include a structure in which livestock are kept;“holding” (except in the phrase “relevant holding”, as to which see regulation 5(5)) means all the land located within a nitrate vulnerable zone and its associated buildings which are at the disposal of the occupier and which are used for the growing of crops in soil or rearing of livestock for agricultural purposes;“livestock” means cattle, sheep, goats, deer, horses, poultry or pigs as specified in Schedule 1;“manufactured nitrogen fertiliser” means a nitrogen fertiliser (other than organic manure) manufactured by an industrial process;“manufactured phosphate fertiliser” means a phosphate fertiliser (other than organic manure) manufactured by an industrial process; “new holding” means—in the case of the designation of nitrate vulnerable zones which took place on 31st December 2016, land and its associated buildings which became a holding on that date (and which were not a holding immediately before that date); andfollowing any subsequent review under regulation 4(5), land and its associated buildings which become a holding as the result of the Secretary of State revising or adding to the designation of nitrate vulnerable zones and which were not a holding immediately before the date of that revision or addition; “nitrogen fertiliser” means a substance containing one or more nitrogen compounds used on land to enhance growth of vegetation;“organic manure” means a nitrogen fertiliser or phosphate fertiliser derived from animal, plant or human sources (and includes livestock manure);“phosphate fertiliser” means any substance containing one or more phosphorus compounds used on land to enhance growth of vegetation;“poultry” means chicken, turkey, duck or ostrich as specified in Schedule 1;“risk map” has the meaning given in regulation 15(1);“sandy soil” means soil over sandstone, and any other soil in which—in the layer up to 40cm deep, there are—more than 50% by weight of particles from 0.06 to 2mm in diameter,less than 18% by weight of particles less than 0.02mm diameter, andless than 5% by weight of organic carbon, andin the layer from 40 to 80cm deep, there are—more than 70% by weight of particles from 0.06 to 2mm in diameter,less than 15% by weight of particles less than 0.02mm diameter, andless than 5% by weight of organic carbon;“shallow soil” means soil that is less than 40cm deep;“slurry” means excreta produced by livestock (other than poultry) while in a yard or building (including any bedding, rainwater or washings mixed with it) that has a consistency that allows it to be pumped or discharged by gravity (and in the case of excreta separated into its liquid and solid fractions, the slurry is the liquid fraction);“spreading”, in relation to land, includes applying to the surface of the land, injecting into the land or mixing with the surface layers of the land, but does not include the direct deposit of excreta on to land by animals.2A reference in these Regulations to polluted water is (subject to regulation 4(6)) a reference to water which—ais freshwater and contains a concentration of nitrates greater than 50 mg/l (or could do so if these Regulations were not to apply there), orbis eutrophic (or may in the near future become so if these Regulations were not to apply there),and a reference in these Regulations to pollution, in relation to water, is to be read accordingly.3In these Regulations—“Council Directive 91/676/EEC” means Council Directive 91/676/EEC of 12 December 1991 concerning the protection of waters against pollution caused by nitrates from agricultural sources;“Council Directive 98/83/EC” means Council Directive 98/83/EC of 3 November 1998 on the quality of water intended for human consumption, as last amended by Commission Directive (EU) 2015/1787;“Council Regulation (EC) 1698/2005” means Council Regulation (EC) No. 1698/2005 of 20 September 2005 on support for rural development by the European Agricultural Fund for Rural Development;“Council Regulation (EC) 834/2007” means Council Regulation (EC) No. 834/2007 of 28 June 2007 on organic production and labelling of organic products and repealing Regulation (EEC) No. 2092/91;“Directive 2000/60/EC” means Directive 2000/60/EC of the European Parliament and of the Council of 23 October 2000 establishing a framework for Community action in the field of water policy;“Regulation (EU) 1305/2013” means Regulation (EU) No. 1305/2013 of the European Parliament and of the Council of 17 December 2013 on support for rural development by the European Agricultural Fund for Rural Development and repealing Council Regulation (EC) No 1698/2005.4For the purposes of these Regulations, a reference to an EU Directive is to be read as if any reference in that Directive to one or more member States in a provision imposing an obligation on, or conferring a discretion on, a member State or member States were a reference to the authority which, immediately before exit day, was responsible for the United Kingdom's compliance with that obligation, or able to exercise that discretion, in respect of England.5In paragraph (4), the “authority” means the Agency or the Secretary of State.",
+  "why_this_case": "NPP 2015 regulation 2 is a dense interpretation block where evidence quotes often contain quoted statutory terms (e.g. \"slurry\" means ...). Production runs hit JSON parse failure or dropped core definitions when model output left those inner quotes unescaped. Evaluation uses minimum mode: four gold definition anchors (slurry, organic manure, agricultural, spreading); sibling terms and polluted-water / EU-directive rows in the same fragment are allowed extras. The parser must tolerate or repair unescaped statutory quotes in model output — this fixture protects against silently empty or incomplete definition coverage from interpretation provisions.",
+  "expected_challenges": [
+    "statutory_quotes_in_evidence_text",
+    "json_parse_unescaped_quotes",
+    "dense_definition_block",
+    "cross_reference_definitions"
+  ],
+  "evaluation": {
+    "mode": "minimum",
+    "strict_proposition_count": false,
+    "allow_extra_actual": true
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "definition",
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "'Slurry' means excreta produced by livestock (other than poultry) while in a yard or building that can be pumped or discharged by gravity.",
+      "legal_subject": "slurry",
+      "action": "means",
+      "affected_subjects": [
+        "slurry"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "\"slurry\" means excreta produced by livestock"
+    },
+    {
+      "legal_effect_type": "definition",
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "'Organic manure' means a nitrogen fertiliser or phosphate fertiliser derived from animal, plant or human sources (and includes livestock manure).",
+      "legal_subject": "organic manure",
+      "action": "means",
+      "affected_subjects": [
+        "organic manure"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "\"organic manure\" means a nitrogen fertiliser or phosphate fertiliser"
+    },
+    {
+      "legal_effect_type": "definition",
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "'Agricultural' has the meaning given by section 109(3) of the Agriculture Act 1947.",
+      "legal_subject": "agricultural",
+      "action": "has the meaning given",
+      "affected_subjects": [
+        "agricultural"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "\"agricultural\" has the meaning given by section 109(3)"
+    },
+    {
+      "legal_effect_type": "definition",
+      "proposition_tier": "definitional_rule",
+      "proposition_text": "'Spreading', in relation to land, includes applying to the surface of the land, injecting into the land or mixing with the surface layers of the land, but does not include the direct deposit of excreta on to land by animals.",
+      "legal_subject": "spreading",
+      "action": "includes",
+      "affected_subjects": [
+        "spreading"
+      ],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "\"spreading\", in relation to land, includes applying to the surface"
+    }
+  ],
+  "dry": {
+    "raw_model_output": "{\"propositions\":[{\"proposition_text\":\"Slurry means excreta produced by livestock (other than poultry) while in a yard or building that has a consistency that allows it to be pumped or discharged by gravity.\",\"display_label\":\"Definition of slurry\",\"subject\":\"slurry\",\"rule\":\"means\",\"object\":\"excreta produced by livestock (other than poultry)\",\"conditions\":[],\"exceptions\":[],\"temporal_condition\":\"\",\"provision_type\":\"definition\",\"source_locator\":\"regulation:2\",\"evidence_text\":\"\"slurry\" means excreta produced by livestock (other than poultry)\",\"completeness_status\":\"complete\",\"confidence\":\"high\",\"reason\":\"Complete statutory definition of slurry.\"},{\"proposition_text\":\"Organic manure means a nitrogen fertiliser or phosphate fertiliser derived from animal, plant or human sources (and includes livestock manure).\",\"display_label\":\"Definition of organic manure\",\"subject\":\"organic manure\",\"rule\":\"means\",\"object\":\"a nitrogen fertiliser or phosphate fertiliser derived from animal, plant or human sources\",\"conditions\":[],\"exceptions\":[],\"temporal_condition\":\"\",\"provision_type\":\"definition\",\"source_locator\":\"regulation:2\",\"evidence_text\":\"\"organic manure\" means a nitrogen fertiliser or phosphate fertiliser derived from animal, plant or human sources\",\"completeness_status\":\"complete\",\"confidence\":\"high\",\"reason\":\"Complete statutory definition of organic manure.\"},{\"proposition_text\":\"Agricultural has the meaning given by section 109(3) of the Agriculture Act 1947.\",\"display_label\":\"Definition of agricultural\",\"subject\":\"agricultural\",\"rule\":\"has the meaning given\",\"object\":\"section 109(3) of the Agriculture Act 1947\",\"conditions\":[],\"exceptions\":[],\"temporal_condition\":\"\",\"provision_type\":\"definition\",\"source_locator\":\"regulation:2\",\"evidence_text\":\"\"agricultural\" has the meaning given by section 109(3) of the Agriculture Act 1947\",\"completeness_status\":\"complete\",\"confidence\":\"high\",\"reason\":\"Cross-reference definition of agricultural.\"},{\"proposition_text\":\"Spreading, in relation to land, includes applying to the surface of the land, injecting into the land or mixing with the surface layers of the land, but does not include the direct deposit of excreta on to land by animals.\",\"display_label\":\"Definition of spreading\",\"subject\":\"spreading\",\"rule\":\"includes\",\"object\":\"applying to the surface of the land, injecting into the land or mixing with the surface layers of the land\",\"conditions\":[],\"exceptions\":[],\"temporal_condition\":\"\",\"provision_type\":\"definition\",\"source_locator\":\"regulation:2\",\"evidence_text\":\"\"spreading\" includes applying to the surface of the land\",\"completeness_status\":\"complete\",\"confidence\":\"high\",\"reason\":\"Complete statutory definition of spreading.\"}]}"
+  }
+}

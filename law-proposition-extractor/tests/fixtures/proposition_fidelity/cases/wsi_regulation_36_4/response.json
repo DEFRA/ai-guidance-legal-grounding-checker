@@ -1,0 +1,20 @@
+{
+  "propositions": [
+    {
+      "proposition_text": "The occupier must make a record of the calculations and how the final figures were arrived at.",
+      "display_label": "Regulation 36(4) — Record of nitrogen calculations",
+      "subject": "The occupier",
+      "rule": "must make a record of the calculations and how the final figures were arrived at",
+      "object": "calculations and final figures",
+      "conditions": [],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "regulation:36:paragraph:4",
+      "evidence_text": "The occupier must make a record of the calculations and how the final figures were arrived at.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Paragraph 4 recordkeeping duty under unheaded WSI regulation 36."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "query": "Deer identification and traceability Farmed deer and cervid identification using ear tags, RFID tags, microchips, and herd records. Covers movement controls, biosecurity, venison production, land management, and disease preparedness including Chronic Wasting Disease.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Deer identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "deer",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: deer"
+  },
+  {
+    "query": "farmed deer",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: farmed deer"
+  },
+  {
+    "query": "cervid",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cervid"
+  },
+  {
+    "query": "cervids",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cervids"
+  },
+  {
+    "query": "venison",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: venison"
+  },
+  {
+    "query": "ear tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tag"
+  },
+  {
+    "query": "ear tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tags"
+  },
+  {
+    "query": "RFID tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: RFID tag"
+  },
+  {
+    "query": "RFID tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: RFID tags"
+  },
+  {
+    "query": "microchip",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchip"
+  },
+  {
+    "query": "microchips",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchips"
+  },
+  {
+    "query": "herd record",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: herd record"
+  },
+  {
+    "query": "herd records",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: herd records"
+  },
+  {
+    "query": "movement control",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement control"
+  },
+  {
+    "query": "biosecurity",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: biosecurity"
+  },
+  {
+    "query": "land management",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: land management"
+  },
+  {
+    "query": "Chronic Wasting Disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Chronic Wasting Disease"
+  },
+  {
+    "query": "CWD",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: CWD"
+  },
+  {
+    "query": "Deer identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Deer identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Deer identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Deer identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Deer identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "deer regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): deer"
+  },
+  {
+    "query": "deer order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): deer"
+  },
+  {
+    "query": "deer act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): deer"
+  },
+  {
+    "query": "farmed deer regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): farmed deer"
+  },
+  {
+    "query": "farmed deer order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): farmed deer"
+  },
+  {
+    "query": "farmed deer act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): farmed deer"
+  },
+  {
+    "query": "cervid regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): cervid"
+  },
+  {
+    "query": "cervid order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): cervid"
+  },
+  {
+    "query": "cervid act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): cervid"
+  }
+]

@@ -1,0 +1,8 @@
+[project]
+name = "law-proposition-extractor-llm"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+  "openai>=1.76.0",
+  "pydantic-settings>=2.8.0",
+]

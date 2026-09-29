@@ -1,0 +1,20 @@
+{
+  "propositions": [
+    {
+      "proposition_text": "An occupier of a holding must not spread organic manure within 10 metres of surface water.",
+      "display_label": "Regulation 12 — Spreading controls near surface water (10m buffer)",
+      "subject": "An occupier of a holding",
+      "rule": "must not spread organic manure within 10 metres of surface water",
+      "object": "organic manure",
+      "conditions": [],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "regulation:12",
+      "evidence_text": "An occupier of a holding must not spread organic manure within 10 metres of surface water.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Clear prohibition with actor, action, object and numeric distance threshold. Heading used only as display context."
+    }
+  ]
+}

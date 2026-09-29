@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #FFFFFF; }
+      .title { fill: #0F172A; font-size: 36px; font-weight: 700; }
+      .subtitle { fill: #475569; font-size: 18px; font-weight: 500; }
+      .footer { fill: #64748B; font-size: 14px; }
+      .panel { fill: #F8FAFC; stroke: #CBD5E1; stroke-width: 1; }
+      .panel-label { fill: #334155; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+      .input { fill: #FFFFFF; stroke: #64748B; stroke-width: 1.5; }
+      .input-title { fill: #0F172A; font-size: 15px; font-weight: 700; }
+      .input-body { fill: #475569; font-size: 13px; }
+      .stage { fill: #EEF2FF; stroke: #4338CA; stroke-width: 2; }
+      .stage-title { fill: #1E1B4B; font-size: 16px; font-weight: 700; }
+      .stage-body { fill: #312E81; font-size: 13px; }
+      .clean { fill: #ECFDF5; stroke: #059669; stroke-width: 2; }
+      .clean-title { fill: #064E3B; font-size: 16px; font-weight: 700; }
+      .clean-body { fill: #065F46; font-size: 13px; }
+      .fallback { fill: #FFFBEB; stroke: #D97706; stroke-width: 2; }
+      .fallback-title { fill: #78350F; font-size: 16px; font-weight: 700; }
+      .fallback-body { fill: #92400E; font-size: 13px; }
+      .repair { fill: #F0F9FF; stroke: #0369A1; stroke-width: 2; }
+      .repair-title { fill: #0C4A6E; font-size: 16px; font-weight: 700; }
+      .repair-body { fill: #075985; font-size: 13px; }
+      .fail { fill: #FEF2F2; stroke: #DC2626; stroke-width: 2; }
+      .fail-title { fill: #7F1D1D; font-size: 16px; font-weight: 700; }
+      .fail-body { fill: #991B1B; font-size: 13px; }
+      .arrow { stroke: #6366F1; stroke-width: 2; fill: none; }
+      .arrow-warm { stroke: #D97706; stroke-width: 2; fill: none; }
+      .arrow-bad { stroke: #DC2626; stroke-width: 2; fill: none; }
+      .arrow-good { stroke: #059669; stroke-width: 2; fill: none; }
+      .branch { fill: #475569; font-size: 12px; font-weight: 600; }
+    ]]></style>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6366F1" />
+    </marker>
+    <marker id="arrowhead-warm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#D97706" />
+    </marker>
+    <marker id="arrowhead-bad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#DC2626" />
+    </marker>
+    <marker id="arrowhead-good" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#059669" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+
+  <text class="title" x="60" y="60">Extraction outcomes &amp; repair</text>
+  <text class="subtitle" x="60" y="92">Fragment-to-validation flow: clean, fallback, repairable, and fail-closed outcomes  -  all reviewable.</text>
+
+  <!-- Input -->
+  <rect class="panel" x="60" y="130" width="280" height="200" rx="12" />
+  <text class="panel-label" x="80" y="155">Input</text>
+  <rect class="input" x="80" y="175" width="240" height="140" rx="8" />
+  <text class="input-title" x="100" y="205">Source fragment</text>
+  <text class="input-body" x="100" y="228">Selected per fragment-selection</text>
+  <text class="input-body" x="100" y="246">mode (required_only / focus / all).</text>
+  <text class="input-body" x="100" y="272">Estimated input tokens checked</text>
+  <text class="input-body" x="100" y="290">before each model call.</text>
+
+  <!-- Extraction -->
+  <rect class="panel" x="380" y="130" width="320" height="200" rx="12" />
+  <text class="panel-label" x="400" y="155">Extraction attempt</text>
+  <rect class="stage" x="400" y="175" width="280" height="140" rx="8" />
+  <text class="stage-title" x="420" y="205">Proposition extraction</text>
+  <text class="stage-body" x="420" y="228">mode: heuristic | local | frontier</text>
+  <text class="stage-body" x="420" y="248">model_alias tracked per call</text>
+  <text class="stage-body" x="420" y="268">context-window risk recorded</text>
+  <text class="stage-body" x="420" y="288">when chunk exceeds limit</text>
+
+  <!-- Validation -->
+  <rect class="panel" x="740" y="130" width="280" height="200" rx="12" />
+  <text class="panel-label" x="760" y="155">Validation</text>
+  <rect class="stage" x="760" y="175" width="240" height="140" rx="8" />
+  <text class="stage-title" x="780" y="205">Parse + validate</text>
+  <text class="stage-body" x="780" y="228">JSON parse, schema validation,</text>
+  <text class="stage-body" x="780" y="248">scope-link integrity, redacted</text>
+  <text class="stage-body" x="780" y="268">raw_model_output_excerpt</text>
+  <text class="stage-body" x="780" y="288">captured on failure.</text>
+
+  <path class="arrow" d="M 340 230 L 380 230" marker-end="url(#arrowhead)" />
+  <path class="arrow" d="M 700 230 L 740 230" marker-end="url(#arrowhead)" />
+
+  <!-- Outcomes panel -->
+  <rect class="panel" x="60" y="360" width="1480" height="320" rx="12" />
+  <text class="panel-label" x="80" y="385">Outcomes</text>
+
+  <!-- Clean -->
+  <rect class="clean" x="80" y="405" width="320" height="140" rx="10" />
+  <text class="clean-title" x="100" y="435">Clean propositions</text>
+  <text class="clean-body" x="100" y="458">extraction_method = model (clean)</text>
+  <text class="clean-body" x="100" y="478">or deterministic / heuristic.</text>
+  <text class="clean-body" x="100" y="498">confidence may still be low /</text>
+  <text class="clean-body" x="100" y="518">medium / high  -  review-prioritise.</text>
+  <text class="branch" x="100" y="538">Review status: review dataset.</text>
+
+  <!-- Fallback -->
+  <rect class="fallback" x="420" y="405" width="320" height="140" rx="10" />
+  <text class="fallback-title" x="440" y="435">Fallback-derived</text>
+  <text class="fallback-body" x="440" y="458">fallback_used = true</text>
+  <text class="fallback-body" x="440" y="478">fallback_strategy =</text>
+  <text class="fallback-body" x="440" y="498">definition_extractor (etc).</text>
+  <text class="fallback-body" x="440" y="518">extraction_fallback policy:</text>
+  <text class="branch" x="440" y="538">fallback / mark_needs_review / fail_closed.</text>
+
+  <!-- Repairable -->
+  <rect class="repair" x="760" y="405" width="320" height="140" rx="10" />
+  <text class="repair-title" x="780" y="435">Repairable failure</text>
+  <text class="repair-body" x="780" y="458">repairable = true</text>
+  <text class="repair-body" x="780" y="478">repair_reason classified for</text>
+  <text class="repair-body" x="780" y="498">triage. raw_model_output_excerpt</text>
+  <text class="repair-body" x="780" y="518">captured (truncated when needed).</text>
+  <text class="branch" x="780" y="538">Re-run via `repair-extraction`.</text>
+
+  <!-- Fail-closed -->
+  <rect class="fail" x="1100" y="405" width="320" height="140" rx="10" />
+  <text class="fail-title" x="1120" y="435">Fail-closed</text>
+  <text class="fail-body" x="1120" y="458">Row written to</text>
+  <text class="fail-body" x="1120" y="478">proposition_extraction_failures.json</text>
+  <text class="fail-body" x="1120" y="498">with validation_errors and</text>
+  <text class="fail-body" x="1120" y="518">failure_reason. No silent accept.</text>
+  <text class="branch" x="1120" y="538">For stricter run modes.</text>
+
+  <path class="arrow-good" d="M 880 320 L 880 380 L 240 380 L 240 405" marker-end="url(#arrowhead-good)" />
+  <path class="arrow-warm" d="M 880 320 L 880 380 L 580 380 L 580 405" marker-end="url(#arrowhead-warm)" />
+  <path class="arrow-bad" d="M 880 320 L 880 380 L 920 380 L 920 405" marker-end="url(#arrowhead-bad)" />
+  <path class="arrow-bad" d="M 880 320 L 880 380 L 1260 380 L 1260 405" marker-end="url(#arrowhead-bad)" />
+
+  <text class="branch" x="100" y="595">Outcomes are recorded across propositions.json, proposition_extraction_traces.json,</text>
+  <text class="branch" x="100" y="615">proposition_extraction_jobs.json, extraction_llm_call_traces.json, and proposition_extraction_failures.json.</text>
+  <text class="branch" x="100" y="640">Run-level quality aggregates land in run_quality_summary.json (pass / pass_with_warnings / fail).</text>
+
+  <!-- Review -->
+  <rect class="panel" x="60" y="705" width="1480" height="120" rx="12" />
+  <text class="panel-label" x="80" y="730">Reviewable</text>
+  <text class="input-body" x="80" y="758">Operator inspects repairable rows, fallback traces, low-confidence traces, and parse-error excerpts via the</text>
+  <text class="input-body" x="80" y="778">operations UI / `/ops/*` endpoints. Reviewers record `pipeline_review_decisions` (approved / rejected /</text>
+  <text class="input-body" x="80" y="798">needs_review / overridden / deferred). Lint pass means artifact integrity, not legal approval. `guidance-ready`</text>
+  <text class="input-body" x="80" y="818">is a promotion state after governance  -  not a default output.</text>
+
+  <text class="footer" x="60" y="870">Source of truth: docs/dev/extraction-repair.md &#183; Diagram: docs/assets/generated/diagrams/extraction-repair-flow.svg.</text>
+</svg>

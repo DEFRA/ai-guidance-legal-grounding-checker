@@ -1,0 +1,146 @@
+{
+  "description": "Live BR1 frontier-shaped Article 49a propositions with qualified reference forms (Paragraph 1 of Article 49a / Article 49a(2)). Used to prove typed relationship inference without requiring relative-only cue wording. Live diagnostic failure modes documented inline.",
+  "source_record_id": "src-control-regulation-demo",
+  "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+  "other_source_record_id": "src-other-regulation-demo",
+  "other_source_snapshot_id": "snap-src-other-regulation-demo-v1",
+  "live_diagnostics_notes": [
+    {
+      "source_proposition_id": "prop:d10e408a08c624e6",
+      "proposition_text": "Paragraph 1 of Article 49a shall not apply where the catches contain more than 80% of one or more small pelagic species…",
+      "cue_text_emitted": "Article 49a shall not apply",
+      "extracted_reference_text": "Article 49a",
+      "normalized_reference": "article 49a",
+      "explicit_cross_reference_targets": [],
+      "locator_resolution_status": "accepted (container)",
+      "locator_resolution_basis": "explicit",
+      "resolved_canonical_locator": null,
+      "failure_stage": "cue_regex_capture",
+      "reason": "Cue regex truncated 'Paragraph 1 of Article 49a' to trailing 'Article 49a'; resolve matched the whole article container → typed_relationship_target_ambiguous."
+    },
+    {
+      "source_proposition_id": "prop:e2683a094dc1b505",
+      "proposition_text": "Paragraph 1 of Article 49a shall not apply where the catches contain more than 80% of one or more species used for industrial purposes…",
+      "cue_text_emitted": "Article 49a shall not apply",
+      "extracted_reference_text": "Article 49a",
+      "normalized_reference": "article 49a",
+      "explicit_cross_reference_targets": [],
+      "locator_resolution_status": "accepted (container)",
+      "locator_resolution_basis": "explicit",
+      "resolved_canonical_locator": null,
+      "failure_stage": "cue_regex_capture",
+      "reason": "Same truncation as pelagic derogation → container ambiguity diagnostic."
+    },
+    {
+      "source_proposition_id": "prop:085fd265b3f56797",
+      "proposition_text": "Paragraph 1 of Article 49a shall not apply … in accordance with Article 14 of the Regulation.",
+      "cue_text_emitted": "Article 49a shall not apply",
+      "extracted_reference_text": "Article 49a",
+      "normalized_reference": "article 49a",
+      "explicit_cross_reference_targets": ["article 49a", "article 14", "paragraph 1"],
+      "locator_resolution_status": "accepted (container)",
+      "locator_resolution_basis": "explicit",
+      "resolved_canonical_locator": null,
+      "failure_stage": "cue_regex_capture",
+      "reason": "Cue associated to structured 'article 49a' (not paragraph 1); Article 14 remained outside the cue span. Container resolve → typed_relationship_target_ambiguous."
+    },
+    {
+      "source_proposition_id": "prop:e357c8f8867d3e1e",
+      "proposition_text": "In the cases referred to in Article 49a(2), a fisheries administration must monitor the catch composition by way of sampling.",
+      "cue_text_emitted": "In the cases referred to in Article 49a(2)",
+      "extracted_reference_text": "Article 49a(2)",
+      "normalized_reference": "article 49a(2)",
+      "explicit_cross_reference_targets": ["article 49a"],
+      "locator_resolution_status": "not reached",
+      "locator_resolution_basis": null,
+      "resolved_canonical_locator": null,
+      "failure_stage": "cue_to_reference_association",
+      "reason": "Cue correctly captured Article 49a(2), but string-normalize match against explicit target 'article 49a' failed; association returned None → typed_relationship_reference_not_uniquely_associated."
+    }
+  ],
+  "qualified_propositions": [
+    {
+      "id": "prop-qual-49a-p1-a",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.",
+      "legal_effect_type": "obligation"
+    },
+    {
+      "id": "prop-qual-49a-p1-b",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "source_order": 1,
+      "proposition_text": "Those catches shall not be mixed with any other fishery products.",
+      "legal_effect_type": "prohibition"
+    },
+    {
+      "id": "prop-qual-49a-e1-pelagic",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "source_order": 0,
+      "proposition_text": "Paragraph 1 of Article 49a shall not apply where the catches contain more than 80% of one or more small pelagic species, namely mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, or sprat.",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": []
+    },
+    {
+      "id": "prop-qual-49a-e2-industrial",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "source_order": 1,
+      "proposition_text": "Article 49a(1) shall not apply where the catches contain more than 80% of one or more species used for industrial purposes, namely capelin, sandeel, or Norwegian pout.",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": ["article 49a(1)"]
+    },
+    {
+      "id": "prop-qual-49a-e3-small-vessels",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "source_order": 2,
+      "proposition_text": "Paragraph 1 of Article 49a shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of the Regulation.",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": ["article 49a", "article 14", "paragraph 1"]
+    },
+    {
+      "id": "prop-qual-49a-p3-monitoring",
+      "source_fragment_id": "frag-demo-49a-p3",
+      "fragment_locator": "article:49a:paragraph:3",
+      "source_order": 0,
+      "proposition_text": "In the cases referred to in Article 49a(2), a fisheries administration must monitor the catch composition by way of sampling.",
+      "legal_effect_type": "obligation",
+      "explicit_cross_reference_targets": ["article 49a"]
+    }
+  ],
+  "equivalence_pairs": {
+    "paragraph_1": [
+      "paragraph 1",
+      "Paragraph 1 of Article 49a",
+      "paragraph (1) of Article 49a",
+      "Article 49a(1)"
+    ],
+    "paragraph_2": [
+      "paragraph 2",
+      "paragraph 2 of Article 49a",
+      "Article 49a(2)"
+    ]
+  },
+  "negative_cases": [
+    {
+      "id": "prop-qual-generic-ref",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "proposition_text": "Masters shall keep records in accordance with Article 14.",
+      "legal_effect_type": "obligation",
+      "explicit_cross_reference_targets": ["article 14"]
+    },
+    {
+      "id": "prop-qual-other-article-exception",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "proposition_text": "Paragraph 1 of Article 99 shall not apply to experimental fisheries.",
+      "legal_effect_type": "derogation",
+      "explicit_cross_reference_targets": ["Paragraph 1 of Article 99"]
+    }
+  ]
+}

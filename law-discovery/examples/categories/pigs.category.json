@@ -1,0 +1,52 @@
+{
+  "category_id": "pigs",
+  "label": "Pig identification and traceability",
+  "description": "Pig, swine, hog, and boar identification using slap marks, ear tags, tattoos, herd marks, RFID tags, and electronic movement systems. Covers movement licensing, biosecurity, welfare, farm assurance, and disease control including African Swine Fever, Classical Swine Fever, and swine influenza.",
+  "synonyms": [
+    "pig",
+    "pigs",
+    "swine",
+    "hog",
+    "hogs",
+    "boar",
+    "boars",
+    "porcine",
+    "slap mark",
+    "slap marks",
+    "ear tag",
+    "ear tags",
+    "tattoo",
+    "tattoos",
+    "herd mark",
+    "herd marks",
+    "RFID tag",
+    "electronic movement system",
+    "eAML2",
+    "movement licence",
+    "movement licensing",
+    "pig holding register",
+    "keeper",
+    "biosecurity",
+    "African Swine Fever",
+    "ASF",
+    "Classical Swine Fever",
+    "swine influenza"
+  ],
+  "exclusions": [
+    "pork product recipes",
+    "piggy banks",
+    "guinea pigs as pets unless animal health context"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "pigs",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

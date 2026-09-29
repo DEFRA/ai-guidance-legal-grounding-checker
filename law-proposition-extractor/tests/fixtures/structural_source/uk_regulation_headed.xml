@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Reduced UK statutory-instrument-style CLML for structural-source fidelity.
+  Patterns: Part container heading, regulation P1group/Title, paragraphs,
+  Schedule with number + descriptive title, sibling regulation without heading.
+  Derived from WSI/UKSI CLML shapes already used in the repository (not live fetch).
+-->
+<Legislation DocumentURI="http://www.legislation.gov.uk/uksi/2015/668"
+             IdURI="http://www.legislation.gov.uk/id/uksi/2015/668"
+             SchemaVersion="2.0">
+  <Title>The Nitrate Pollution Prevention Regulations 2015</Title>
+  <Body id="body">
+    <Part id="part-2" DocumentURI="http://www.legislation.gov.uk/uksi/2015/668/part/2">
+      <Number>PART 2</Number>
+      <Title>Action programme</Title>
+      <P1group>
+        <Title>Spreading controls near surface water</Title>
+        <P1 id="regulation-12"
+            DocumentURI="http://www.legislation.gov.uk/uksi/2015/668/regulation/12">
+          <Pnumber>12.</Pnumber>
+          <P1para>
+            <Text>An occupier of a holding must not spread organic manure within 10 metres of surface water.</Text>
+            <P2 id="regulation-12-1"
+                DocumentURI="http://www.legislation.gov.uk/uksi/2015/668/regulation/12/1">
+              <Pnumber>1</Pnumber>
+              <P2para>
+                <Text>Paragraph 1 restates the spreading distance for organic manure.</Text>
+              </P2para>
+            </P2>
+            <P2 id="regulation-12-2"
+                DocumentURI="http://www.legislation.gov.uk/uksi/2015/668/regulation/12/2">
+              <Pnumber>2</Pnumber>
+              <P2para>
+                <Text>The distance is measured from the edge of the surface water.</Text>
+              </P2para>
+            </P2>
+          </P1para>
+        </P1>
+      </P1group>
+      <P1group>
+        <P1 id="regulation-13"
+            DocumentURI="http://www.legislation.gov.uk/uksi/2015/668/regulation/13">
+          <Pnumber>13.</Pnumber>
+          <P1para>
+            <Text>Regulation 13 has no group Title and remains valid without a heading.</Text>
+          </P1para>
+        </P1>
+      </P1group>
+    </Part>
+    <Schedule id="schedule-1"
+              DocumentURI="http://www.legislation.gov.uk/uksi/2015/668/schedule/1">
+      <Number>SCHEDULE 1</Number>
+      <Title>Calculating nitrogen in organic manure</Title>
+      <P1para>
+        <Text>This Schedule sets out how nitrogen content is calculated.</Text>
+      </P1para>
+    </Schedule>
+  </Body>
+</Legislation>

@@ -1,0 +1,1114 @@
+{
+  "calibration_run_id": "sample_run",
+  "cases": [
+    {
+      "case_fidelity_gate": "pass",
+      "case_id": "article_49a",
+      "evidence_variance": [],
+      "expected_roles": [
+        "separate-identification-obligation",
+        "prohibited-mixing-rule",
+        "small-pelagic-derogation",
+        "industrial-species-derogation",
+        "small-vessel-derogation",
+        "inspection-trigger"
+      ],
+      "findings": [],
+      "proposition_count_variance": 0,
+      "repeatability_gate": "pass",
+      "repetitions": [
+        {
+          "article_49a_detail": null,
+          "benchmark_result": {
+            "accepted_limitations": [],
+            "case_id": "article_49a",
+            "case_status": "pass",
+            "diagnostics": [
+              "sample fixture"
+            ],
+            "dimension_results": [],
+            "expected_roles": [
+              "separate-identification-obligation",
+              "prohibited-mixing-rule",
+              "small-pelagic-derogation",
+              "industrial-species-derogation",
+              "small-vessel-derogation",
+              "inspection-trigger"
+            ],
+            "matched_roles": [
+              "separate-identification-obligation",
+              "prohibited-mixing-rule",
+              "small-pelagic-derogation",
+              "industrial-species-derogation",
+              "small-vessel-derogation",
+              "inspection-trigger"
+            ],
+            "missing_roles": [],
+            "produced_count": 6,
+            "role_results": [
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-separate-identification-obligation",
+                "role": "separate-identification-obligation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-prohibited-mixing-rule",
+                "role": "prohibited-mixing-rule",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-small-pelagic-derogation",
+                "role": "small-pelagic-derogation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-industrial-species-derogation",
+                "role": "industrial-species-derogation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-small-vessel-derogation",
+                "role": "small-vessel-derogation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-inspection-trigger",
+                "role": "inspection-trigger",
+                "status": "matched"
+              }
+            ],
+            "structural_pattern": "fixture",
+            "unexpected_propositions": []
+          },
+          "case_fidelity_gate": "pass",
+          "critical_gate": "pass",
+          "diagnostics": [
+            "sample fixture"
+          ],
+          "failure_origins": [],
+          "heading_boundary": {
+            "heading_present": false
+          },
+          "json_repair_applied": false,
+          "latency_seconds": 1.0,
+          "parse_status": "ok",
+          "proposition_count": 6,
+          "provider_call_count": 1,
+          "provider_retry_count": 0,
+          "raw_response_status": "ok",
+          "repetition": 1,
+          "token_usage": {
+            "completion_tokens": 5,
+            "prompt_tokens": 10,
+            "total_tokens": 15
+          },
+          "validation_status": "ok"
+        },
+        {
+          "article_49a_detail": null,
+          "benchmark_result": {
+            "accepted_limitations": [],
+            "case_id": "article_49a",
+            "case_status": "pass",
+            "diagnostics": [
+              "sample fixture"
+            ],
+            "dimension_results": [],
+            "expected_roles": [
+              "separate-identification-obligation",
+              "prohibited-mixing-rule",
+              "small-pelagic-derogation",
+              "industrial-species-derogation",
+              "small-vessel-derogation",
+              "inspection-trigger"
+            ],
+            "matched_roles": [
+              "separate-identification-obligation",
+              "prohibited-mixing-rule",
+              "small-pelagic-derogation",
+              "industrial-species-derogation",
+              "small-vessel-derogation",
+              "inspection-trigger"
+            ],
+            "missing_roles": [],
+            "produced_count": 6,
+            "role_results": [
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-separate-identification-obligation",
+                "role": "separate-identification-obligation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-prohibited-mixing-rule",
+                "role": "prohibited-mixing-rule",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-small-pelagic-derogation",
+                "role": "small-pelagic-derogation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-industrial-species-derogation",
+                "role": "industrial-species-derogation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-small-vessel-derogation",
+                "role": "small-vessel-derogation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-inspection-trigger",
+                "role": "inspection-trigger",
+                "status": "matched"
+              }
+            ],
+            "structural_pattern": "fixture",
+            "unexpected_propositions": []
+          },
+          "case_fidelity_gate": "pass",
+          "critical_gate": "pass",
+          "diagnostics": [
+            "sample fixture"
+          ],
+          "failure_origins": [],
+          "heading_boundary": {
+            "heading_present": false
+          },
+          "json_repair_applied": false,
+          "latency_seconds": 1.0,
+          "parse_status": "ok",
+          "proposition_count": 6,
+          "provider_call_count": 1,
+          "provider_retry_count": 0,
+          "raw_response_status": "ok",
+          "repetition": 2,
+          "token_usage": {
+            "completion_tokens": 5,
+            "prompt_tokens": 10,
+            "total_tokens": 15
+          },
+          "validation_status": "ok"
+        },
+        {
+          "article_49a_detail": null,
+          "benchmark_result": {
+            "accepted_limitations": [],
+            "case_id": "article_49a",
+            "case_status": "pass",
+            "diagnostics": [
+              "sample fixture"
+            ],
+            "dimension_results": [],
+            "expected_roles": [
+              "separate-identification-obligation",
+              "prohibited-mixing-rule",
+              "small-pelagic-derogation",
+              "industrial-species-derogation",
+              "small-vessel-derogation",
+              "inspection-trigger"
+            ],
+            "matched_roles": [
+              "separate-identification-obligation",
+              "prohibited-mixing-rule",
+              "small-pelagic-derogation",
+              "industrial-species-derogation",
+              "small-vessel-derogation",
+              "inspection-trigger"
+            ],
+            "missing_roles": [],
+            "produced_count": 6,
+            "role_results": [
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-separate-identification-obligation",
+                "role": "separate-identification-obligation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-prohibited-mixing-rule",
+                "role": "prohibited-mixing-rule",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-small-pelagic-derogation",
+                "role": "small-pelagic-derogation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-industrial-species-derogation",
+                "role": "industrial-species-derogation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-small-vessel-derogation",
+                "role": "small-vessel-derogation",
+                "status": "matched"
+              },
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-inspection-trigger",
+                "role": "inspection-trigger",
+                "status": "matched"
+              }
+            ],
+            "structural_pattern": "fixture",
+            "unexpected_propositions": []
+          },
+          "case_fidelity_gate": "pass",
+          "critical_gate": "pass",
+          "diagnostics": [
+            "sample fixture"
+          ],
+          "failure_origins": [],
+          "heading_boundary": {
+            "heading_present": false
+          },
+          "json_repair_applied": false,
+          "latency_seconds": 1.0,
+          "parse_status": "ok",
+          "proposition_count": 6,
+          "provider_call_count": 1,
+          "provider_retry_count": 0,
+          "raw_response_status": "ok",
+          "repetition": 3,
+          "token_usage": {
+            "completion_tokens": 5,
+            "prompt_tokens": 10,
+            "total_tokens": 15
+          },
+          "validation_status": "ok"
+        }
+      ],
+      "semantic_variance": [],
+      "stability": "semantically_stable",
+      "stable_role_coverage": true,
+      "successful_repetitions": 3
+    },
+    {
+      "case_fidelity_gate": "pass",
+      "case_id": "uk_regulation_12_spread",
+      "evidence_variance": [],
+      "expected_roles": [
+        "organic-manure-spread-prohibition"
+      ],
+      "findings": [],
+      "proposition_count_variance": 0,
+      "repeatability_gate": "pass",
+      "repetitions": [
+        {
+          "article_49a_detail": null,
+          "benchmark_result": {
+            "accepted_limitations": [],
+            "case_id": "uk_regulation_12_spread",
+            "case_status": "pass",
+            "diagnostics": [
+              "sample fixture"
+            ],
+            "dimension_results": [],
+            "expected_roles": [
+              "organic-manure-spread-prohibition"
+            ],
+            "matched_roles": [
+              "organic-manure-spread-prohibition"
+            ],
+            "missing_roles": [],
+            "produced_count": 1,
+            "role_results": [
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-organic-manure-spread-prohibition",
+                "role": "organic-manure-spread-prohibition",
+                "status": "matched"
+              }
+            ],
+            "structural_pattern": "fixture",
+            "unexpected_propositions": []
+          },
+          "case_fidelity_gate": "pass",
+          "critical_gate": "pass",
+          "diagnostics": [
+            "sample fixture"
+          ],
+          "failure_origins": [],
+          "heading_boundary": {
+            "heading_present": false
+          },
+          "json_repair_applied": false,
+          "latency_seconds": 1.0,
+          "parse_status": "ok",
+          "proposition_count": 1,
+          "provider_call_count": 1,
+          "provider_retry_count": 0,
+          "raw_response_status": "ok",
+          "repetition": 1,
+          "token_usage": {
+            "completion_tokens": 5,
+            "prompt_tokens": 10,
+            "total_tokens": 15
+          },
+          "validation_status": "ok"
+        },
+        {
+          "article_49a_detail": null,
+          "benchmark_result": {
+            "accepted_limitations": [],
+            "case_id": "uk_regulation_12_spread",
+            "case_status": "pass",
+            "diagnostics": [
+              "sample fixture"
+            ],
+            "dimension_results": [],
+            "expected_roles": [
+              "organic-manure-spread-prohibition"
+            ],
+            "matched_roles": [
+              "organic-manure-spread-prohibition"
+            ],
+            "missing_roles": [],
+            "produced_count": 1,
+            "role_results": [
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-organic-manure-spread-prohibition",
+                "role": "organic-manure-spread-prohibition",
+                "status": "matched"
+              }
+            ],
+            "structural_pattern": "fixture",
+            "unexpected_propositions": []
+          },
+          "case_fidelity_gate": "pass",
+          "critical_gate": "pass",
+          "diagnostics": [
+            "sample fixture"
+          ],
+          "failure_origins": [],
+          "heading_boundary": {
+            "heading_present": false
+          },
+          "json_repair_applied": false,
+          "latency_seconds": 1.0,
+          "parse_status": "ok",
+          "proposition_count": 1,
+          "provider_call_count": 1,
+          "provider_retry_count": 0,
+          "raw_response_status": "ok",
+          "repetition": 2,
+          "token_usage": {
+            "completion_tokens": 5,
+            "prompt_tokens": 10,
+            "total_tokens": 15
+          },
+          "validation_status": "ok"
+        },
+        {
+          "article_49a_detail": null,
+          "benchmark_result": {
+            "accepted_limitations": [],
+            "case_id": "uk_regulation_12_spread",
+            "case_status": "pass",
+            "diagnostics": [
+              "sample fixture"
+            ],
+            "dimension_results": [],
+            "expected_roles": [
+              "organic-manure-spread-prohibition"
+            ],
+            "matched_roles": [
+              "organic-manure-spread-prohibition"
+            ],
+            "missing_roles": [],
+            "produced_count": 1,
+            "role_results": [
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-organic-manure-spread-prohibition",
+                "role": "organic-manure-spread-prohibition",
+                "status": "matched"
+              }
+            ],
+            "structural_pattern": "fixture",
+            "unexpected_propositions": []
+          },
+          "case_fidelity_gate": "pass",
+          "critical_gate": "pass",
+          "diagnostics": [
+            "sample fixture"
+          ],
+          "failure_origins": [],
+          "heading_boundary": {
+            "heading_present": false
+          },
+          "json_repair_applied": false,
+          "latency_seconds": 1.0,
+          "parse_status": "ok",
+          "proposition_count": 1,
+          "provider_call_count": 1,
+          "provider_retry_count": 0,
+          "raw_response_status": "ok",
+          "repetition": 3,
+          "token_usage": {
+            "completion_tokens": 5,
+            "prompt_tokens": 10,
+            "total_tokens": 15
+          },
+          "validation_status": "ok"
+        }
+      ],
+      "semantic_variance": [],
+      "stability": "semantically_stable",
+      "stable_role_coverage": true,
+      "successful_repetitions": 3
+    },
+    {
+      "case_fidelity_gate": "pass",
+      "case_id": "wsi_regulation_36_4",
+      "evidence_variance": [],
+      "expected_roles": [
+        "record-retention-calculations"
+      ],
+      "findings": [],
+      "proposition_count_variance": 0,
+      "repeatability_gate": "pass",
+      "repetitions": [
+        {
+          "article_49a_detail": null,
+          "benchmark_result": {
+            "accepted_limitations": [],
+            "case_id": "wsi_regulation_36_4",
+            "case_status": "pass",
+            "diagnostics": [
+              "sample fixture"
+            ],
+            "dimension_results": [],
+            "expected_roles": [
+              "record-retention-calculations"
+            ],
+            "matched_roles": [
+              "record-retention-calculations"
+            ],
+            "missing_roles": [],
+            "produced_count": 1,
+            "role_results": [
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-record-retention-calculations",
+                "role": "record-retention-calculations",
+                "status": "matched"
+              }
+            ],
+            "structural_pattern": "fixture",
+            "unexpected_propositions": []
+          },
+          "case_fidelity_gate": "pass",
+          "critical_gate": "pass",
+          "diagnostics": [
+            "sample fixture"
+          ],
+          "failure_origins": [],
+          "heading_boundary": {
+            "heading_present": false
+          },
+          "json_repair_applied": false,
+          "latency_seconds": 1.0,
+          "parse_status": "ok",
+          "proposition_count": 1,
+          "provider_call_count": 1,
+          "provider_retry_count": 0,
+          "raw_response_status": "ok",
+          "repetition": 1,
+          "token_usage": {
+            "completion_tokens": 5,
+            "prompt_tokens": 10,
+            "total_tokens": 15
+          },
+          "validation_status": "ok"
+        },
+        {
+          "article_49a_detail": null,
+          "benchmark_result": {
+            "accepted_limitations": [],
+            "case_id": "wsi_regulation_36_4",
+            "case_status": "pass",
+            "diagnostics": [
+              "sample fixture"
+            ],
+            "dimension_results": [],
+            "expected_roles": [
+              "record-retention-calculations"
+            ],
+            "matched_roles": [
+              "record-retention-calculations"
+            ],
+            "missing_roles": [],
+            "produced_count": 1,
+            "role_results": [
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-record-retention-calculations",
+                "role": "record-retention-calculations",
+                "status": "matched"
+              }
+            ],
+            "structural_pattern": "fixture",
+            "unexpected_propositions": []
+          },
+          "case_fidelity_gate": "pass",
+          "critical_gate": "pass",
+          "diagnostics": [
+            "sample fixture"
+          ],
+          "failure_origins": [],
+          "heading_boundary": {
+            "heading_present": false
+          },
+          "json_repair_applied": false,
+          "latency_seconds": 1.0,
+          "parse_status": "ok",
+          "proposition_count": 1,
+          "provider_call_count": 1,
+          "provider_retry_count": 0,
+          "raw_response_status": "ok",
+          "repetition": 2,
+          "token_usage": {
+            "completion_tokens": 5,
+            "prompt_tokens": 10,
+            "total_tokens": 15
+          },
+          "validation_status": "ok"
+        },
+        {
+          "article_49a_detail": null,
+          "benchmark_result": {
+            "accepted_limitations": [],
+            "case_id": "wsi_regulation_36_4",
+            "case_status": "pass",
+            "diagnostics": [
+              "sample fixture"
+            ],
+            "dimension_results": [],
+            "expected_roles": [
+              "record-retention-calculations"
+            ],
+            "matched_roles": [
+              "record-retention-calculations"
+            ],
+            "missing_roles": [],
+            "produced_count": 1,
+            "role_results": [
+              {
+                "competing_candidates": [],
+                "dimension_results": [
+                  {
+                    "actual": "",
+                    "detail": "",
+                    "dimension": "coverage",
+                    "expected": "",
+                    "likely_pipeline_stage": "",
+                    "severity_policy": "hard_failure",
+                    "status": "pass"
+                  }
+                ],
+                "evidence": "sample evidence",
+                "notes": "",
+                "proposition_id": "prop-record-retention-calculations",
+                "role": "record-retention-calculations",
+                "status": "matched"
+              }
+            ],
+            "structural_pattern": "fixture",
+            "unexpected_propositions": []
+          },
+          "case_fidelity_gate": "pass",
+          "critical_gate": "pass",
+          "diagnostics": [
+            "sample fixture"
+          ],
+          "failure_origins": [],
+          "heading_boundary": {
+            "heading_present": false
+          },
+          "json_repair_applied": false,
+          "latency_seconds": 1.0,
+          "parse_status": "ok",
+          "proposition_count": 1,
+          "provider_call_count": 1,
+          "provider_retry_count": 0,
+          "raw_response_status": "ok",
+          "repetition": 3,
+          "token_usage": {
+            "completion_tokens": 5,
+            "prompt_tokens": 10,
+            "total_tokens": 15
+          },
+          "validation_status": "ok"
+        }
+      ],
+      "semantic_variance": [],
+      "stability": "semantically_stable",
+      "stable_role_coverage": true,
+      "successful_repetitions": 3
+    }
+  ],
+  "critical_failures": [],
+  "dimension_totals": {
+    "action_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "actor_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "atomicity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "completeness_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "condition_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "coverage": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "cross_reference_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "evidence_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "exception_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "legal_effect_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "no_false_merge": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "no_false_split": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "object_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "structural_context_boundary": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    },
+    "threshold_fidelity": {
+      "fail": 0,
+      "not_applicable": 0,
+      "pass": 0,
+      "warning": 0
+    }
+  },
+  "estimated_cost_usd": null,
+  "model": {
+    "configured_model_alias": "frontier_extract",
+    "llm_base_url_redacted": true,
+    "prompt_template_identifier": "_v2_model_prompt / EXTRACTION_PROMPT_VERSION=v3",
+    "prompt_version": "v3",
+    "resolved_provider_model": "anthropic/claude-sonnet-4-5-20250929",
+    "seed": null,
+    "seed_note": "production extraction does not supply a seed",
+    "system_prompt": "You extract legal propositions as strict JSON only.",
+    "temperature": 0.0
+  },
+  "promotion_candidates": [],
+  "prompt_version": "v3",
+  "provider_call_count": 15,
+  "provider_retry_count": 0,
+  "repeatability": {
+    "cases": [
+      {
+        "case_fidelity_gate": "pass",
+        "case_id": "article_49a",
+        "proposition_count_variance": 0,
+        "repeatability_gate": "pass",
+        "stability": "semantically_stable"
+      },
+      {
+        "case_fidelity_gate": "pass",
+        "case_id": "uk_regulation_12_spread",
+        "proposition_count_variance": 0,
+        "repeatability_gate": "pass",
+        "stability": "semantically_stable"
+      },
+      {
+        "case_fidelity_gate": "pass",
+        "case_id": "wsi_regulation_36_4",
+        "proposition_count_variance": 0,
+        "repeatability_gate": "pass",
+        "stability": "semantically_stable"
+      }
+    ]
+  },
+  "runtime_seconds": 9.0,
+  "totals": {
+    "case_fidelity_failures": 0,
+    "case_repetitions": 9,
+    "cases": 3,
+    "critical_gate_failures": 0,
+    "repeatability_failures": 0,
+    "warnings": 0
+  },
+  "warnings": []
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "query": "Poultry and captive birds identification and traceability Poultry, chickens, turkeys, ducks, geese, game birds, and other avian livestock identification using leg bands, flock records, holding registration, movement documentation, and housing records. Covers traceability, welfare, biosecurity, egg and meat production, and disease control including Avian Influenza, Newcastle Disease, and Salmonella.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Poultry and captive birds identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "poultry",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: poultry"
+  },
+  {
+    "query": "captive birds",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: captive birds"
+  },
+  {
+    "query": "chicken",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: chicken"
+  },
+  {
+    "query": "chickens",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: chickens"
+  },
+  {
+    "query": "turkey",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: turkey"
+  },
+  {
+    "query": "turkeys",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: turkeys"
+  },
+  {
+    "query": "duck",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: duck"
+  },
+  {
+    "query": "ducks",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ducks"
+  },
+  {
+    "query": "goose",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: goose"
+  },
+  {
+    "query": "geese",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: geese"
+  },
+  {
+    "query": "game bird",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: game bird"
+  },
+  {
+    "query": "game birds",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: game birds"
+  },
+  {
+    "query": "avian livestock",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: avian livestock"
+  },
+  {
+    "query": "leg band",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: leg band"
+  },
+  {
+    "query": "leg bands",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: leg bands"
+  },
+  {
+    "query": "flock record",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: flock record"
+  },
+  {
+    "query": "flock records",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: flock records"
+  },
+  {
+    "query": "holding registration",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: holding registration"
+  },
+  {
+    "query": "poultry register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: poultry register"
+  },
+  {
+    "query": "movement documentation",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement documentation"
+  },
+  {
+    "query": "housing record",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: housing record"
+  },
+  {
+    "query": "housing records",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: housing records"
+  },
+  {
+    "query": "biosecurity",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: biosecurity"
+  },
+  {
+    "query": "egg production",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: egg production"
+  },
+  {
+    "query": "meat production",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: meat production"
+  },
+  {
+    "query": "Avian Influenza",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Avian Influenza"
+  },
+  {
+    "query": "bird flu",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bird flu"
+  },
+  {
+    "query": "Newcastle Disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Newcastle Disease"
+  },
+  {
+    "query": "Salmonella",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Salmonella"
+  },
+  {
+    "query": "Poultry and captive birds identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Poultry and captive birds identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Poultry and captive birds identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Poultry and captive birds identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Poultry and captive birds identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Poultry and captive birds identification and traceability Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "poultry regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): poultry"
+  },
+  {
+    "query": "poultry order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): poultry"
+  },
+  {
+    "query": "poultry act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): poultry"
+  },
+  {
+    "query": "captive birds regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): captive birds"
+  },
+  {
+    "query": "captive birds order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): captive birds"
+  },
+  {
+    "query": "captive birds act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): captive birds"
+  },
+  {
+    "query": "chicken regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): chicken"
+  },
+  {
+    "query": "chicken order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): chicken"
+  },
+  {
+    "query": "chicken act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): chicken"
+  }
+]

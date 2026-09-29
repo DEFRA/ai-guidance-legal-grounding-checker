@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Single-provision titled P1group: Title is safely assigned to the only provision.
+  Patterns: safe ownership rule, amendment-wrapped heading provenance.
+-->
+<Legislation DocumentURI="http://www.legislation.gov.uk/eur/2009/1224"
+             IdURI="http://www.legislation.gov.uk/id/eur/2009/1224"
+             SchemaVersion="2.0">
+  <Title>Council Regulation (EC) No 1224/2009</Title>
+  <EURetained>
+    <EUBody>
+      <Title id="title-iv"
+             DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/title/IV">
+        <Number>TITLE IV</Number>
+        <Title>CONTROL OF FISHERIES</Title>
+        <P1group>
+          <Title>
+            <Addition ChangeId="O003001M119" CommentaryRef="c000004">
+              Separate stowage of catches below the minimum conservation reference sizes
+            </Addition>
+          </Title>
+          <P1 id="article-49a"
+              DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a">
+            <Pnumber>Article 49a</Pnumber>
+            <P1para>
+              <Text>All catches below the applicable minimum conservation reference size shall be placed in boxes.</Text>
+              <P2 id="article-49a-1"
+                  DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/49a/1">
+                <Pnumber>1</Pnumber>
+                <P2para>
+                  <Text>Operative paragraph one body.</Text>
+                </P2para>
+              </P2>
+            </P1para>
+          </P1>
+        </P1group>
+      </Title>
+    </EUBody>
+  </EURetained>
+</Legislation>

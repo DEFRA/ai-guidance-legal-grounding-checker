@@ -1,0 +1,123 @@
+[
+  {
+    "id": "animal",
+    "slug": "animal",
+    "label": "Animal",
+    "description": "Animals within scope of animal health law.",
+    "parent_scope_id": null,
+    "scope_type": "species",
+    "synonyms": [],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "terrestrial_animal",
+    "slug": "terrestrial_animal",
+    "label": "Terrestrial animal",
+    "description": "",
+    "parent_scope_id": "animal",
+    "scope_type": "species",
+    "synonyms": ["terrestrial"],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "kept_terrestrial_animal",
+    "slug": "kept_terrestrial_animal",
+    "label": "Kept terrestrial animal",
+    "description": "",
+    "parent_scope_id": "terrestrial_animal",
+    "scope_type": "species",
+    "synonyms": [],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "equine",
+    "slug": "equine",
+    "label": "Equine",
+    "description": "Horses and other equidae.",
+    "parent_scope_id": "kept_terrestrial_animal",
+    "scope_type": "species",
+    "synonyms": ["equidae", "equid", "horse", "horses"],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "bovine",
+    "slug": "bovine",
+    "label": "Bovine",
+    "description": "Cattle and other bovidae.",
+    "parent_scope_id": "kept_terrestrial_animal",
+    "scope_type": "species",
+    "synonyms": ["cattle", "bovidae"],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "identification_traceability",
+    "slug": "identification_traceability",
+    "label": "Identification and traceability",
+    "description": "",
+    "parent_scope_id": null,
+    "scope_type": "subject",
+    "synonyms": ["identification", "traceability", "tagging", "ear tag"],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "movement_control",
+    "slug": "movement_control",
+    "label": "Movement control",
+    "description": "",
+    "parent_scope_id": null,
+    "scope_type": "process",
+    "synonyms": ["movement", "movement licence", "transport"],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "certification",
+    "slug": "certification",
+    "label": "Certification",
+    "description": "",
+    "parent_scope_id": null,
+    "scope_type": "process",
+    "synonyms": ["certificate", "certified"],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "establishments",
+    "slug": "establishments",
+    "label": "Establishments",
+    "description": "Premises, holdings, and approved establishments.",
+    "parent_scope_id": null,
+    "scope_type": "institution",
+    "synonyms": ["establishment", "premises", "holding"],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "disease_control",
+    "slug": "disease_control",
+    "label": "Disease control",
+    "description": "",
+    "parent_scope_id": null,
+    "scope_type": "disease",
+    "synonyms": ["disease", "biosecurity", "surveillance"],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  },
+  {
+    "id": "database_registration",
+    "slug": "database_registration",
+    "label": "Database registration",
+    "description": "",
+    "parent_scope_id": null,
+    "scope_type": "process",
+    "synonyms": ["database", "registry", "registration"],
+    "status": "active",
+    "metadata": { "taxonomy_seed": "law-proposition-extractor.v1" }
+  }
+]

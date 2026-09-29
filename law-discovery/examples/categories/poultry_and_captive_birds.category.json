@@ -1,0 +1,55 @@
+{
+  "category_id": "poultry_and_captive_birds",
+  "label": "Poultry and captive birds identification and traceability",
+  "description": "Poultry, chickens, turkeys, ducks, geese, game birds, and other avian livestock identification using leg bands, flock records, holding registration, movement documentation, and housing records. Covers traceability, welfare, biosecurity, egg and meat production, and disease control including Avian Influenza, Newcastle Disease, and Salmonella.",
+  "synonyms": [
+    "poultry",
+    "captive birds",
+    "chicken",
+    "chickens",
+    "turkey",
+    "turkeys",
+    "duck",
+    "ducks",
+    "goose",
+    "geese",
+    "game bird",
+    "game birds",
+    "avian livestock",
+    "leg band",
+    "leg bands",
+    "flock record",
+    "flock records",
+    "holding registration",
+    "poultry register",
+    "movement documentation",
+    "housing record",
+    "housing records",
+    "biosecurity",
+    "egg production",
+    "meat production",
+    "Avian Influenza",
+    "bird flu",
+    "Newcastle Disease",
+    "Salmonella"
+  ],
+  "exclusions": [
+    "bird watching tourism",
+    "wild bird conservation only",
+    "poultry recipes",
+    "ornamental feathers"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland",
+    "Northern Ireland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "poultry_and_captive_birds",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

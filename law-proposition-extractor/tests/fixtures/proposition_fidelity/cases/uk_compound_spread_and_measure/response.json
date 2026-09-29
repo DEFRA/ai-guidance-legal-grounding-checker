@@ -1,0 +1,36 @@
+{
+  "propositions": [
+    {
+      "proposition_text": "An occupier of a holding must not spread organic manure within 10 metres of surface water.",
+      "display_label": "Regulation 12 — organic manure spreading prohibition",
+      "subject": "An occupier of a holding",
+      "rule": "must not spread organic manure within 10 metres of surface water",
+      "object": "organic manure",
+      "conditions": [],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "regulation:12",
+      "evidence_text": "An occupier of a holding must not spread organic manure within 10 metres of surface water.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Independent prohibition."
+    },
+    {
+      "proposition_text": "An occupier of a holding must measure the distance from the edge of the surface water before spreading organic manure.",
+      "display_label": "Regulation 12 — independent measurement obligation",
+      "subject": "An occupier of a holding",
+      "rule": "must measure the distance from the edge of the surface water before spreading organic manure",
+      "object": "distance",
+      "conditions": ["before spreading organic manure"],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "core",
+      "source_locator": "regulation:12:paragraph:2",
+      "evidence_text": "The distance is measured from the edge of the surface water.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Independent measurement obligation sharing the distance concept with the prohibition; must not be collapsed as a dependent qualification."
+    }
+  ]
+}

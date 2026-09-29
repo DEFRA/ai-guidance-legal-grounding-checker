@@ -1,0 +1,158 @@
+# Canonical component manifest — machine-readable source of truth for pipeline identity.
+# Root README component table is generated/validated from this file.
+# See NAMES.md for historic glossary; docs/migration-component-rename.md for compat contract.
+
+schema_version: 1
+alias_removal_release: rename+1
+naming_standard: |
+  A component name identifies (1) the corpus or pipeline object it operates on where
+  needed to remove ambiguity, and (2) the capability it provides. Components providing
+  the same capability against different corpora share the same capability suffix.
+  The canonical technical slug is the kebab-case form of the canonical display name.
+  Law is the agreed source term (not qualified by jurisdiction in component names).
+
+platform_exceptions:
+  - rule: python_import_packages_use_underscores
+    reason: Python import paths cannot contain hyphens
+    mapping: "kebab slug → snake_case import package (e.g. law-proposition-extractor → law_proposition_extractor)"
+
+components:
+  - id: scope-planner
+    display_name: Scope Planner
+    slug: scope-planner
+    responsibility: Select the audit category and develop its operational scope definition
+    source_kind: manual
+    capability: scope-planning
+    legacy_codename: Grace
+    deprecated_aliases: [grace, Grace]
+    alias_removal_release: rename+1
+    package: null
+    directory: null
+    frozen_id_patterns: []
+
+  - id: guidance-discovery
+    display_name: Guidance Discovery
+    slug: guidance-discovery
+    responsibility: Find potentially in-scope GOV.UK guidance pages and retrieve their source content
+    source_kind: guidance
+    capability: discovery
+    legacy_codename: Mary
+    deprecated_aliases: [mary, Mary]
+    alias_removal_release: rename+1
+    package: guidance-discovery
+    directory: guidance-discovery
+    python_import: null
+    frozen_id_patterns: []
+
+  - id: law-discovery
+    display_name: Law Discovery
+    slug: law-discovery
+    responsibility: Find candidate legal instruments, rank them and support human selection or review
+    source_kind: law
+    capability: discovery
+    legacy_codename: Ada
+    deprecated_aliases: [ada, Ada, ada-source-discovery]
+    alias_removal_release: rename+1
+    package: law-discovery
+    directory: law-discovery
+    python_import: law_discovery
+    frozen_id_patterns: []
+
+  - id: guidance-relevance-filter
+    display_name: Guidance Relevance Filter
+    slug: guidance-relevance-filter
+    responsibility: Narrow the guidance corpus to pages substantively relevant to the audit scope
+    source_kind: guidance
+    capability: relevance-filter
+    legacy_codename: Radia
+    deprecated_aliases: [radia, Radia]
+    alias_removal_release: rename+1
+    package: guidance-relevance-filter
+    directory: guidance-relevance-filter
+    python_import: guidance_relevance_filter
+    frozen_id_patterns: []
+
+  - id: guidance-proposition-extractor
+    display_name: Guidance Proposition Extractor
+    slug: guidance-proposition-extractor
+    responsibility: Convert guidance content into atomic guidance propositions
+    source_kind: guidance
+    capability: proposition-extractor
+    legacy_codename: Susan
+    deprecated_aliases: [susan, Susan]
+    alias_removal_release: rename+1
+    package: guidance-proposition-extractor
+    directory: guidance-proposition-extractor
+    python_import: guidance_proposition_extractor
+    frozen_id_patterns:
+      - "susan-<slug>-<n> guidance proposition IDs (byte-stable; do not rewrite)"
+      - 'extraction_method="susan" (byte-stable; do not rewrite)'
+
+  - id: law-proposition-extractor
+    display_name: Law Proposition Extractor
+    slug: law-proposition-extractor
+    responsibility: Convert legislation into atomic legal propositions and associated legal structure
+    source_kind: law
+    capability: proposition-extractor
+    legacy_codename: Judit
+    deprecated_aliases: [judit, Judit, judit-workspace, judit-domain, judit-pipeline, judit-llm, judit-storage, judit-exporters, judit-api]
+    alias_removal_release: rename+1
+    package: law-proposition-extractor
+    directory: law-proposition-extractor
+    python_import: law_proposition_extractor
+    workspace_packages:
+      - law-proposition-extractor-domain
+      - law-proposition-extractor-pipeline
+      - law-proposition-extractor-llm
+      - law-proposition-extractor-storage
+      - law-proposition-extractor-exporters
+      - law-proposition-extractor-api
+    frozen_id_patterns:
+      - "prop:<hex> machine proposition IDs"
+      - "lawstmt:… effective-law statement IDs"
+      - "bcand:… guidance-matching candidate IDs"
+      - "judit_extraction_meta: / judit_extraction_reuse: note prefixes (byte-stable)"
+
+  - id: proposition-matcher
+    display_name: Proposition Matcher
+    slug: proposition-matcher
+    responsibility: Retrieve legal candidates for each guidance proposition and classify their relationships
+    source_kind: pipeline
+    capability: proposition-matcher
+    legacy_codename: Beatrice
+    deprecated_aliases: [beatrice, Beatrice]
+    alias_removal_release: rename+1
+    package: proposition-matcher
+    directory: proposition-matcher
+    python_import: proposition_matcher
+    frozen_id_patterns:
+      - "susan-<slug>-<n> guidance IDs assigned at ingest (byte-stable)"
+
+  - id: match-adjudicator
+    display_name: Match Adjudicator
+    slug: match-adjudicator
+    responsibility: Reassess flagged or uncertain findings using broader guidance and legal context
+    source_kind: pipeline
+    capability: match-adjudicator
+    legacy_codename: Anna
+    deprecated_aliases: [anna, Anna]
+    alias_removal_release: rename+1
+    package: match-adjudicator
+    directory: match-adjudicator
+    python_import: match_adjudicator
+    frozen_id_patterns: []
+
+  - id: audit-assembler
+    display_name: Audit Assembler
+    slug: audit-assembler
+    responsibility: Join completed pipeline outputs and prepare the audit representation consumed by the frontend
+    source_kind: pipeline
+    capability: audit-assembler
+    legacy_codename: Esther
+    deprecated_aliases: [esther, Esther]
+    alias_removal_release: rename+1
+    package: audit-assembler
+    directory: audit-assembler
+    python_import: audit_assembler
+    frozen_id_patterns:
+      - "m-<hex> match row IDs"

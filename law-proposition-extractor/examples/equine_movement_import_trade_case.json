@@ -1,0 +1,228 @@
+{
+  "strategy_versions": {
+    "proposition_extraction": "v2-structured-list-round-robin"
+  },
+  "topic": {
+    "name": "Movement, import & trade (staged v0.1)",
+    "description": "Staged source universe for equine identification, passports, and import/trade-related UK/EU instruments. Not a claim of complete equine law. Do not treat all instruments as automatically analysed. Active profile: equine_movement_import_trade_v0_1.",
+    "subject_tags": [
+      "equine",
+      "staged-corpus",
+      "equine_movement_import_trade_v0_1"
+    ]
+  },
+  "cluster": {
+    "name": "animal_identification_traceability",
+    "description": "Identification, import, trade, and control-related duties."
+  },
+  "extraction": {
+    "mode": "frontier",
+    "fallback_policy": "mark_needs_review",
+    "model_error_policy": "stop_repairable",
+    "divergence_reasoning": "none",
+    "focus_scopes": [
+      "equine",
+      "equidae",
+      "equid",
+      "horse",
+      "movement",
+      "import",
+      "trade",
+      "certification",
+      "animal-products"
+    ],
+    "max_propositions_per_source": 12
+  },
+  "sources": [
+    {
+      "id": "equine-uni-eur-2018-659",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "eur/2018/659",
+      "title": "Commission Implementing Regulation (EU) 2018/659",
+      "version_id": "2018-04-12",
+      "as_of_date": "2018-04-12",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "eur/2018/659",
+          "ui_cluster": "movement_import_trade",
+          "source_family": "movement_import_trade",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2011-1197",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2011/1197",
+      "title": "The Trade in Animals and Related Products Regulations 2011",
+      "version_id": "2011-05-09",
+      "as_of_date": "2011-05-09",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2011/1197",
+          "ui_cluster": "movement_import_trade",
+          "source_family": "animal_products_trade",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-wsi-2011-2379",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "wsi/2011/2379",
+      "title": "The Trade in Animals and Related Products (Wales) Regulations 2011",
+      "version_id": "2011-09-28",
+      "as_of_date": "2011-09-28",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "wsi/2011/2379",
+          "ui_cluster": "movement_import_trade",
+          "source_family": "animal_products_trade",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-ssi-2012-177",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "ssi/2012/177",
+      "title": "The Trade in Animals and Related Products (Scotland) Regulations 2012",
+      "version_id": "2012-05-29",
+      "as_of_date": "2012-05-29",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "ssi/2012/177",
+          "ui_cluster": "movement_import_trade",
+          "source_family": "animal_products_trade",
+          "analysis_role": "required_core",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2019-782",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2019/782",
+      "title": "The Trade in Animals and Related Products (Amendment) (EU Exit) Regulations 2019",
+      "version_id": "2019-04-01",
+      "as_of_date": "2019-04-01",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2019/782",
+          "ui_cluster": "movement_import_trade",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2019-795",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2019/795",
+      "title": "The Import of and Trade in Animals and Animal Products (Amendment etc.) (EU Exit) Regulations 2019",
+      "version_id": "2019-04-04",
+      "as_of_date": "2019-04-04",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2019/795",
+          "ui_cluster": "movement_import_trade",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2019-1225",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2019/1225",
+      "title": "The Trade in Animals and Animal Products (Legislative Functions) and Veterinary Surgeons (Amendment) (EU Exit) Regulations 2019",
+      "version_id": "2019-09-04",
+      "as_of_date": "2019-09-04",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2019/1225",
+          "ui_cluster": "movement_import_trade",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "optional_context",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2020-1462",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2020/1462",
+      "title": "The Import of, and Trade in, Animals and Animal Products (Miscellaneous Amendments) (EU Exit) Regulations 2020",
+      "version_id": "2020-12-14",
+      "as_of_date": "2020-12-14",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2020/1462",
+          "ui_cluster": "movement_import_trade",
+          "source_family": "eu_exit_amendment",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2020-1481",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2020/1481",
+      "title": "The Official Controls (Animals, Feed and Food, Plant Health etc.) (Amendment) (EU Exit) Regulations 2020",
+      "version_id": "2020-12-15",
+      "as_of_date": "2020-12-15",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2020/1481",
+          "ui_cluster": "official_controls",
+          "source_family": "official_controls",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    },
+    {
+      "id": "equine-uni-uksi-2020-1631",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2020/1631",
+      "title": "The Official Controls (Animals, Feed and Food, Plant Health etc.) (Amendment) (EU Exit) (No. 2) Regulations 2020",
+      "version_id": "2020-12-29",
+      "as_of_date": "2020-12-29",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "equine_source_universe": {
+          "instrument_id": "uksi/2020/1631",
+          "ui_cluster": "official_controls",
+          "source_family": "official_controls",
+          "analysis_role": "required_for_scope",
+          "extraction_default": "analyse"
+        }
+      }
+    }
+  ],
+  "narrative": {
+    "title": "Movement, import & trade (staged v0.1)",
+    "summary": "Profile equine_movement_import_trade_v0_1: 10 legislation.gov.uk instruments."
+  },
+  "run_notes": "Profile equine_movement_import_trade_v0_1 \u2014 10 instruments. Wider universe: examples/equine_source_universe.json.",
+  "corpus_profile_id": "equine_movement_import_trade_v0_1",
+  "equine_source_universe_ref": {
+    "path": "examples/equine_source_universe.json",
+    "universe_id": "equine_import_identification_trade_v1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1",
+  "run_id": "run-001",
+  "groups": [
+    {
+      "id": "rulegrp:0d731f3ebe3c83ca",
+      "source_record_id": "src-eur-2009-1224",
+      "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+      "source_fragment_id": "frag-src-eur-2009-1224-006",
+      "canonical_locator": "article:49a:paragraph:1",
+      "member_proposition_ids": [
+        "prop:700e513c107639cf",
+        "prop:0aee10e5464a0577"
+      ],
+      "group_basis": "shared_source_fragment",
+      "member_count": 2,
+      "fragment_kind": "article",
+      "parent_fragment_id": "frag-src-eur-2009-1224-005"
+    },
+    {
+      "id": "rulegrp:ef17d4a9471863f5",
+      "source_record_id": "src-eur-2009-1224",
+      "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+      "source_fragment_id": "frag-src-eur-2009-1224-007",
+      "canonical_locator": "article:49a:paragraph:2",
+      "member_proposition_ids": [
+        "prop:0e651904382dad28",
+        "prop:4f1c02b9aa8931ca",
+        "prop:a59c469e896bdc42"
+      ],
+      "group_basis": "shared_source_fragment",
+      "member_count": 3,
+      "fragment_kind": "article",
+      "parent_fragment_id": "frag-src-eur-2009-1224-005"
+    }
+  ]
+}

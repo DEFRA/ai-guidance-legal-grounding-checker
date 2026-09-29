@@ -1,0 +1,58 @@
+{
+  "category_id": "equines",
+  "label": "Equine identification and traceability",
+  "description": "Horses, ponies, donkeys, mules, and equines identification using microchips, passports, freeze marks, branding, and ownership records. Covers traceability, breeding, welfare, transport, sport, trade, and disease-control requirements.",
+  "synonyms": [
+    "equine",
+    "equines",
+    "equidae",
+    "equid",
+    "equids",
+    "horse",
+    "horses",
+    "pony",
+    "ponies",
+    "donkey",
+    "donkeys",
+    "mule",
+    "mules",
+    "microchip",
+    "microchips",
+    "horse passport",
+    "equine passport",
+    "passport",
+    "passports",
+    "freeze mark",
+    "freeze marks",
+    "branding",
+    "brand",
+    "ownership record",
+    "keeper",
+    "operator",
+    "registered equidae",
+    "kept equidae",
+    "transport",
+    "breeding",
+    "sport horse",
+    "trade"
+  ],
+  "exclusions": [
+    "horse racing betting",
+    "gambling",
+    "equestrian tourism",
+    "riding school marketing only"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland",
+    "Northern Ireland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "equines",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

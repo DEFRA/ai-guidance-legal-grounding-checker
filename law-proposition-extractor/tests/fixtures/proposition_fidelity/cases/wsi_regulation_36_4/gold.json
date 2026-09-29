@@ -1,0 +1,17 @@
+{
+  "case_id": "wsi_regulation_36_4",
+  "expected_propositions": [
+    {
+      "role": "record-retention-calculations",
+      "source_locator": "regulation:36:paragraph:4",
+      "short_legal_description": "Occupier must record calculations and how final figures were arrived at.",
+      "legal_effect_type": "recordkeeping",
+      "required_actor": "occupier",
+      "required_action": "must make a record",
+      "object": "calculations",
+      "conditions": [],
+      "evidence_markers": ["make a record of the calculations"],
+      "expected_completeness": "complete"
+    }
+  ]
+}

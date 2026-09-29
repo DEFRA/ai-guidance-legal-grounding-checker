@@ -1,0 +1,2895 @@
+{
+  "run_id": "ada-related-equine_passports-20260601T145943Z",
+  "created_at": "2026-06-01T14:59:43.161740Z",
+  "category_id": "equine_passports",
+  "seed_sources": [
+    {
+      "source_id": "lex-128ece35058270ac",
+      "title": "Commission Implementing Regulation (EU) 2015/262 of 17 February 2015 laying down rules pursuant to Council Directives 90/427/EEC and 2009/156/EC as regards the methods for the identification of equidae (Equine Passport Regulation) (Text with EEA relevance)",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2015/262",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Equine passports and identification documents UK legal controls specifically governing equine passports, horse passports, equine identification documents, and the statutory identification of equidae/equids. Covers issuing, holding, updating, replacing, returning, surrendering, invalidating and producing equine passports or identification documents where those duties are expressly tied to horses, ponies, donkeys, mules or other equidae. Includes equine microchipping/transponders, unique equine lifetime numbers (UELN), passport issuing organisations, central equine databases, equine registers, keeper/owner duties connected to passport records, food-chain status declarations recorded in equine passports, veterinary medicine records recorded in equine passports, imported equines where passport or identification-document duties apply, and enforcement of equine identification duties. Do not treat generic references to animals, horses, owners, keepers, registers, databases, movement, imports, slaughter, medicine, passports, or electronic identification as sufficient unless the source is clearly about equine passports, horse passports, equine identification, identification of equidae, UELNs, equine microchips/transponders, passport issuing organisations, central equine databases, or equine registers.",
+        "Equine passports and identification documents",
+        "equine passport",
+        "equine passports",
+        "equine identification",
+        "equine identification document",
+        "equine identification documents",
+        "horse identification document",
+        "horse identification documents",
+        "identification of equidae",
+        "identification of equines",
+        "methods for the identification of equidae",
+        "identification of equidae regulation",
+        "equine identification regulations",
+        "equine identification order",
+        "equine animal identification regulations",
+        "equine animal identification",
+        "unique equine lifetime number",
+        "unique equine life number",
+        "UELN",
+        "equine UELN",
+        "equine microchip",
+        "equine microchipping",
+        "equine transponder",
+        "horse transponder",
+        "equine passport issuing organisation",
+        "equine passport issuing organisations",
+        "horse passport issuing organisation",
+        "horse passport issuing organisations",
+        "equine issuing body",
+        "equine issuing bodies",
+        "central equine database",
+        "central equine databases",
+        "equine database",
+        "equine databases",
+        "equine register",
+        "equine registers",
+        "equine registration records",
+        "equine passport records",
+        "equine passport food chain status",
+        "equine passport medicines record",
+        "equine passport veterinary medicine record",
+        "equine passport slaughter declaration",
+        "equine passport replacement",
+        "equine passport invalidation",
+        "equine passport enforcement",
+        "equine traceability identification",
+        "equine identification and traceability",
+        "identification and traceability of equidae",
+        "identification and traceability of equines",
+        "imported equine passport",
+        "imported equine identification document",
+        "third country equine identification",
+        "Equine passports and identification documents UK",
+        "Equine passports and identification documents Great Britain",
+        "Equine passports and identification documents England",
+        "Equine passports and identification documents Wales",
+        "Equine passports and identification documents Scotland",
+        "Equine passports and identification documents Northern Ireland",
+        "equine passports act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Commission Implementing Regulation (EU) 2015/262 of 17 February 2015 laying down rules pursuant to Council Directives 90/427/EEC and 2009/156/EC as regards the methods for the identification of equidae (Equine Passport Regulation) (Text with EEA relevance)",
+          "uri": "http://www.legislation.gov.uk/id/eur/2015/262",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: Commission Implementing Regulation (EU) 2015/262 is the Equine Passport Regulation, explicitly addressing methods for identification of equidae. The title and matched terms include all core anchors: equine passports, identification of equidae, methods for identification, UELN, microchipping, transponders, passport issuing organisations, central equine databases, equine registers, food-chain status, medicines records, slaughter declarations, replacement, invalidation, enforcement, and imported equine identification. This is assimilated EU law forming part of the UK legal framework for equine identification. The evidence is extremely strong and directly aligned with the category brief.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references 'methods for the identification of equidae' and '(Equine Passport Regulation)'\n- Assimilated EU law source type indicates post-Brexit UK applicability\n- Matched terms cover the full range of category anchors and synonyms\n- Deterministic confidence is high and relationship marked as directly_regulates",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Commission Implementing Regulation (EU) 2015/262 is the Equine Passport Regulation, explicitly addressing methods for identification of equidae. The title and matched terms include all core anchors: equine passports, identification of equidae, methods for identification, UELN, microchipping, transponders, passport issuing organisations, central equine databases, equine registers, food-chain status, medicines records, slaughter declarations, replacement, invalidation, enforcement, and imported equine identification. This is assimilated EU law forming part of the UK legal framework for equine identification. The evidence is extremely strong and directly aligned with the category brief.",
+        "supporting_signals": [
+          "Title explicitly references 'methods for the identification of equidae' and '(Equine Passport Regulation)'",
+          "Assimilated EU law source type indicates post-Brexit UK applicability",
+          "Matched terms cover the full range of category anchors and synonyms",
+          "Deterministic confidence is high and relationship marked as directly_regulates"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-cf385f44276dacf5",
+      "title": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed)",
+      "citation": null,
+      "source_type": "assimilated_eu_law",
+      "canonical_uri": "http://www.legislation.gov.uk/id/eur/2008/504",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "historical",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Equine passports and identification documents",
+        "identification of equidae",
+        "equine passport medicines record",
+        "equine passport veterinary medicine record",
+        "equine passport invalidation"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed)",
+          "uri": "http://www.legislation.gov.uk/id/eur/2008/504",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: Commission Regulation (EC) 504/2008 implements Council Directives regarding methods for identification of equidae. Although marked as repealed, it is a predecessor to the current regime and directly regulates equine identification. The title explicitly references 'methods for the identification of equidae', and matched terms include identification of equidae, passport medicines record, veterinary medicine record, and invalidation. As a revoked historical instrument, it meets the 'needs_human_review' guidance for predecessors of the current regime, but the clear regulatory focus and high deterministic confidence warrant likely_accept with a note that it is repealed.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly references 'methods for the identification of equidae'\n- Assimilated EU law predecessor to current regulation\n- Directly addresses equine identification methods\n- Matched terms include core passport and identification anchors\n\nEvidence limitations:\n- Regulation is marked as repealed; historical relevance only",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Commission Regulation (EC) 504/2008 implements Council Directives regarding methods for identification of equidae. Although marked as repealed, it is a predecessor to the current regime and directly regulates equine identification. The title explicitly references 'methods for the identification of equidae', and matched terms include identification of equidae, passport medicines record, veterinary medicine record, and invalidation. As a revoked historical instrument, it meets the 'needs_human_review' guidance for predecessors of the current regime, but the clear regulatory focus and high deterministic confidence warrant likely_accept with a note that it is repealed.",
+        "supporting_signals": [
+          "Title explicitly references 'methods for the identification of equidae'",
+          "Assimilated EU law predecessor to current regulation",
+          "Directly addresses equine identification methods",
+          "Matched terms include core passport and identification anchors"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Regulation is marked as repealed; historical relevance only"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-5d5d6f4924652aea",
+      "title": "Horse Passports Regulations (Northern Ireland) 1999",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/nisr/1999/116",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "horse passport",
+        "horse passports",
+        "passport for a horse",
+        "passport for horses",
+        "horse identification",
+        "horse identification document",
+        "horse identification documents",
+        "horse passport regulation",
+        "horse passport regulations",
+        "horse passports regulation",
+        "horse passports regulations",
+        "horse passports order",
+        "horse passports orders",
+        "equine passport issuing organisation",
+        "equine passport issuing organisations",
+        "horse passport issuing organisation",
+        "horse passport issuing organisations",
+        "equine passport replacement",
+        "imported horse passport",
+        "horse passport order",
+        "horse passport act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Horse Passports Regulations (Northern Ireland) 1999",
+          "uri": "http://www.legislation.gov.uk/id/nisr/1999/116",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: Horse Passports Regulations (Northern Ireland) 1999. The title clearly indicates horse passport regulation for Northern Ireland. Matched terms include horse passport, horse passports, horse identification, horse identification documents, horse passport regulation/regulations, passport issuing organisations, replacement, and imported horse passport. This is a Northern Ireland statutory instrument directly governing horse passports. The triage guidance identifies such instruments as likely_accept. Although the instrument may be historical or revoked (not explicitly marked), the clear regulatory focus warrants likely_accept with human review to confirm current status.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly 'Horse Passports Regulations (Northern Ireland)'\n- Multiple matched anchor terms including horse passport, issuing organisations, replacement\n- Northern Ireland jurisdiction aligns with category scope\n- Deterministic confidence high\n\nEvidence limitations:\n- Source type unknown; may require verification of current status",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Horse Passports Regulations (Northern Ireland) 1999. The title clearly indicates horse passport regulation for Northern Ireland. Matched terms include horse passport, horse passports, horse identification, horse identification documents, horse passport regulation/regulations, passport issuing organisations, replacement, and imported horse passport. This is a Northern Ireland statutory instrument directly governing horse passports. The triage guidance identifies such instruments as likely_accept. Although the instrument may be historical or revoked (not explicitly marked), the clear regulatory focus warrants likely_accept with human review to confirm current status.",
+        "supporting_signals": [
+          "Title explicitly 'Horse Passports Regulations (Northern Ireland)'",
+          "Multiple matched anchor terms including horse passport, issuing organisations, replacement",
+          "Northern Ireland jurisdiction aligns with category scope",
+          "Deterministic confidence high"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Source type unknown; may require verification of current status"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-e6ed38c1b8e73f42",
+      "title": "Horse Passports Regulations (Northern Ireland) 2004",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/nisr/2004/497",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Equine passports and identification documents UK legal controls specifically governing equine passports, horse passports, equine identification documents, and the statutory identification of equidae/equids. Covers issuing, holding, updating, replacing, returning, surrendering, invalidating and producing equine passports or identification documents where those duties are expressly tied to horses, ponies, donkeys, mules or other equidae. Includes equine microchipping/transponders, unique equine lifetime numbers (UELN), passport issuing organisations, central equine databases, equine registers, keeper/owner duties connected to passport records, food-chain status declarations recorded in equine passports, veterinary medicine records recorded in equine passports, imported equines where passport or identification-document duties apply, and enforcement of equine identification duties. Do not treat generic references to animals, horses, owners, keepers, registers, databases, movement, imports, slaughter, medicine, passports, or electronic identification as sufficient unless the source is clearly about equine passports, horse passports, equine identification, identification of equidae, UELNs, equine microchips/transponders, passport issuing organisations, central equine databases, or equine registers.",
+        "Equine passports and identification documents",
+        "equine passport",
+        "equine passports",
+        "horse passport",
+        "horse passports",
+        "passport for a horse",
+        "passport for horses",
+        "horse identification",
+        "horse identification document",
+        "horse identification documents",
+        "equine passport regulation",
+        "equine passport regulations",
+        "equine passports regulation",
+        "equine passports regulations",
+        "horse passport regulation",
+        "horse passport regulations",
+        "horse passports regulation",
+        "horse passports regulations",
+        "horse passports order",
+        "horse passports orders",
+        "passport issuing organisation",
+        "passport issuing organisations",
+        "equine passport issuing organisation",
+        "equine passport issuing organisations",
+        "horse passport issuing organisation",
+        "horse passport issuing organisations",
+        "equine passport records",
+        "equine passport food chain status",
+        "equine passport medicines record",
+        "equine passport veterinary medicine record",
+        "equine passport slaughter declaration",
+        "equine passport replacement",
+        "equine passport surrender",
+        "equine passport invalidation",
+        "equine passport enforcement",
+        "imported equine passport",
+        "imported horse passport",
+        "Equine passports and identification documents UK",
+        "Equine passports and identification documents England",
+        "Equine passports and identification documents Wales",
+        "Equine passports and identification documents Scotland",
+        "Equine passports and identification documents Northern Ireland",
+        "equine passport order",
+        "equine passport act",
+        "equine passports order",
+        "equine passports act",
+        "horse passport order",
+        "horse passport act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Horse Passports Regulations (Northern Ireland) 2004",
+          "uri": "http://www.legislation.gov.uk/id/nisr/2004/497",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: Horse Passports Regulations (Northern Ireland) 2004. The title clearly indicates horse passport regulation for Northern Ireland. Matched terms are extensive and include the full category description, equine passport, horse passport, horse identification documents, passport issuing organisations, passport records, food-chain status, medicines record, veterinary medicine record, slaughter declaration, replacement, surrender, invalidation, enforcement, and imported horse/equine passport. This is a Northern Ireland statutory instrument directly governing horse passports and is explicitly aligned with the category brief.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly 'Horse Passports Regulations (Northern Ireland) 2004'\n- Extensive matched terms covering all core category anchors\n- Northern Ireland jurisdiction aligns with category scope\n- Deterministic confidence high\n\nEvidence limitations:\n- Source type unknown; may require verification of current status",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "Horse Passports Regulations (Northern Ireland) 2004. The title clearly indicates horse passport regulation for Northern Ireland. Matched terms are extensive and include the full category description, equine passport, horse passport, horse identification documents, passport issuing organisations, passport records, food-chain status, medicines record, veterinary medicine record, slaughter declaration, replacement, surrender, invalidation, enforcement, and imported horse/equine passport. This is a Northern Ireland statutory instrument directly governing horse passports and is explicitly aligned with the category brief.",
+        "supporting_signals": [
+          "Title explicitly 'Horse Passports Regulations (Northern Ireland) 2004'",
+          "Extensive matched terms covering all core category anchors",
+          "Northern Ireland jurisdiction aligns with category scope",
+          "Deterministic confidence high"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Source type unknown; may require verification of current status"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-b83450512bcf6858",
+      "title": "The Equine Animal (Identification) (Scotland) Regulations 2019",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ssi/2019/30",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Equine passports and identification documents UK legal controls specifically governing equine passports, horse passports, equine identification documents, and the statutory identification of equidae/equids. Covers issuing, holding, updating, replacing, returning, surrendering, invalidating and producing equine passports or identification documents where those duties are expressly tied to horses, ponies, donkeys, mules or other equidae. Includes equine microchipping/transponders, unique equine lifetime numbers (UELN), passport issuing organisations, central equine databases, equine registers, keeper/owner duties connected to passport records, food-chain status declarations recorded in equine passports, veterinary medicine records recorded in equine passports, imported equines where passport or identification-document duties apply, and enforcement of equine identification duties. Do not treat generic references to animals, horses, owners, keepers, registers, databases, movement, imports, slaughter, medicine, passports, or electronic identification as sufficient unless the source is clearly about equine passports, horse passports, equine identification, identification of equidae, UELNs, equine microchips/transponders, passport issuing organisations, central equine databases, or equine registers.",
+        "Equine passports and identification documents",
+        "equine passport",
+        "equine passports",
+        "equine identification",
+        "equine identification document",
+        "equine identification documents",
+        "identification of equines",
+        "equine passport regulation",
+        "equine passport regulations",
+        "equine passports regulation",
+        "equine passports regulations",
+        "equine identification regulations",
+        "equine identification order",
+        "equine animal identification regulations",
+        "equine animal identification",
+        "unique equine life number",
+        "equine UELN",
+        "equine transponder",
+        "horse transponder",
+        "equine passport issuing organisation",
+        "equine passport issuing organisations",
+        "equine issuing body",
+        "equine issuing bodies",
+        "central equine database",
+        "central equine databases",
+        "equine database",
+        "equine databases",
+        "equine register",
+        "equine registers",
+        "equine registration records",
+        "equine passport records",
+        "equine passport medicines record",
+        "equine passport veterinary medicine record",
+        "equine passport slaughter declaration",
+        "equine passport surrender",
+        "equine passport invalidation",
+        "equine passport enforcement",
+        "equine traceability identification",
+        "equine identification and traceability",
+        "identification and traceability of equidae",
+        "identification and traceability of equines",
+        "imported equine identification document",
+        "Equine passports and identification documents UK",
+        "Equine passports and identification documents Great Britain",
+        "Equine passports and identification documents England",
+        "Equine passports and identification documents Wales",
+        "Equine passports and identification documents Scotland",
+        "Equine passports and identification documents Northern Ireland",
+        "equine passport order",
+        "equine passport act",
+        "equine passports order",
+        "equine passports act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Animal (Identification) (Scotland) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2019/30",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Equine Animal (Identification) (Scotland) Regulations 2019 is a Scottish statutory instrument directly governing equine animal identification. The title explicitly references equine animal identification, and matched terms are extensive, covering the full category description, equine passport, equine identification, equine identification documents, identification of equines, passport regulation, UELN, transponder, passport issuing organisations, issuing bodies, central equine database, equine registers, passport records, medicines record, veterinary medicine record, slaughter declaration, surrender, invalidation, enforcement, equine traceability identification, identification and traceability of equidae/equines, and imported equine identification. This is a Scotland-specific instrument directly aligned with the category brief.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly 'The Equine Animal (Identification) (Scotland) Regulations 2019'\n- Extensive matched terms covering all core category anchors\n- Scotland jurisdiction aligns with category scope\n- Deterministic confidence high\n\nEvidence limitations:\n- Source type unknown; may require verification",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Equine Animal (Identification) (Scotland) Regulations 2019 is a Scottish statutory instrument directly governing equine animal identification. The title explicitly references equine animal identification, and matched terms are extensive, covering the full category description, equine passport, equine identification, equine identification documents, identification of equines, passport regulation, UELN, transponder, passport issuing organisations, issuing bodies, central equine database, equine registers, passport records, medicines record, veterinary medicine record, slaughter declaration, surrender, invalidation, enforcement, equine traceability identification, identification and traceability of equidae/equines, and imported equine identification. This is a Scotland-specific instrument directly aligned with the category brief.",
+        "supporting_signals": [
+          "Title explicitly 'The Equine Animal (Identification) (Scotland) Regulations 2019'",
+          "Extensive matched terms covering all core category anchors",
+          "Scotland jurisdiction aligns with category scope",
+          "Deterministic confidence high"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Source type unknown; may require verification"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-067e0e155fe36de7",
+      "title": "The Equine Identification (England) Regulations 2018",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2018/761",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "horse passport",
+        "horse passports",
+        "passport for a horse",
+        "passport for horses",
+        "equine identification",
+        "equine identification document",
+        "equine identification documents",
+        "identification of equines",
+        "equine passport regulation",
+        "equine passports regulation",
+        "horse passport regulation",
+        "horse passport regulations",
+        "horse passports regulation",
+        "horse passports regulations",
+        "horse passports order",
+        "horse passports orders",
+        "equine identification regulations",
+        "equine identification order",
+        "equine animal identification regulations",
+        "equine animal identification",
+        "unique equine lifetime number",
+        "unique equine life number",
+        "equine UELN",
+        "equine transponder",
+        "horse transponder",
+        "horse passport issuing organisation",
+        "equine issuing body",
+        "equine issuing bodies",
+        "central equine database",
+        "central equine databases",
+        "equine database",
+        "equine databases",
+        "equine register",
+        "equine registers",
+        "equine registration records",
+        "equine passport food chain status",
+        "equine passport medicines record",
+        "equine passport veterinary medicine record",
+        "equine passport slaughter declaration",
+        "equine passport surrender",
+        "equine passport invalidation",
+        "equine passport enforcement",
+        "equine traceability identification",
+        "equine identification and traceability",
+        "identification and traceability of equines",
+        "imported horse passport",
+        "imported equine identification document",
+        "third country equine identification",
+        "equine passport act",
+        "horse passport order",
+        "horse passport act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (England) Regulations 2018",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2018/761",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Equine Identification (England) Regulations 2018 is a UK SI directly governing equine identification in England. The title explicitly references equine identification, and matched terms are extensive, covering horse passport, equine identification, equine identification documents, identification of equines, passport regulation/regulations, equine identification regulations, equine animal identification, UELN, transponder, issuing organisations/bodies, central equine database, equine registers, registration records, food-chain status, medicines record, veterinary medicine record, slaughter declaration, surrender, invalidation, enforcement, equine traceability identification, identification and traceability, imported horse/equine identification, and third country equine identification. This is a core England-specific instrument directly aligned with the category brief.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly 'The Equine Identification (England) Regulations 2018'\n- Extensive matched terms covering all core category anchors\n- England jurisdiction aligns with category scope\n- UKSI source type and high deterministic confidence",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Equine Identification (England) Regulations 2018 is a UK SI directly governing equine identification in England. The title explicitly references equine identification, and matched terms are extensive, covering horse passport, equine identification, equine identification documents, identification of equines, passport regulation/regulations, equine identification regulations, equine animal identification, UELN, transponder, issuing organisations/bodies, central equine database, equine registers, registration records, food-chain status, medicines record, veterinary medicine record, slaughter declaration, surrender, invalidation, enforcement, equine traceability identification, identification and traceability, imported horse/equine identification, and third country equine identification. This is a core England-specific instrument directly aligned with the category brief.",
+        "supporting_signals": [
+          "Title explicitly 'The Equine Identification (England) Regulations 2018'",
+          "Extensive matched terms covering all core category anchors",
+          "England jurisdiction aligns with category scope",
+          "UKSI source type and high deterministic confidence"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-8452dd9718ecc2c8",
+      "title": "The Equine Identification (Wales) Regulations 2009 (revoked)",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/wsi/2009/2470",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "revoked",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "horse identification",
+        "horse identification document",
+        "horse identification documents"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) Regulations 2009 (revoked)",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2009/2470",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Equine Identification (Wales) Regulations 2009 (revoked) is a Welsh statutory instrument directly governing equine identification. The title explicitly references equine identification for Wales, and matched terms include horse identification and horse identification documents, which are category anchors. Although marked as revoked, it is a historical predecessor to the current Wales regime and meets the 'needs_human_review' guidance for revoked instruments. The clear regulatory focus and high deterministic confidence warrant likely_accept with a note that it is revoked.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly 'The Equine Identification (Wales) Regulations 2009 (revoked)'\n- Matched terms include horse identification documents, a category anchor\n- Wales jurisdiction aligns with category scope\n- Deterministic confidence high\n\nEvidence limitations:\n- Regulation is marked as revoked; historical relevance only\n- Source type unknown; may require verification",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Equine Identification (Wales) Regulations 2009 (revoked) is a Welsh statutory instrument directly governing equine identification. The title explicitly references equine identification for Wales, and matched terms include horse identification and horse identification documents, which are category anchors. Although marked as revoked, it is a historical predecessor to the current Wales regime and meets the 'needs_human_review' guidance for revoked instruments. The clear regulatory focus and high deterministic confidence warrant likely_accept with a note that it is revoked.",
+        "supporting_signals": [
+          "Title explicitly 'The Equine Identification (Wales) Regulations 2009 (revoked)'",
+          "Matched terms include horse identification documents, a category anchor",
+          "Wales jurisdiction aligns with category scope",
+          "Deterministic confidence high"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Regulation is marked as revoked; historical relevance only",
+          "Source type unknown; may require verification"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-2a6d55517cec9927",
+      "title": "The Equine Identification (Wales) Regulations 2019",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/wsi/2019/57",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "equine identification",
+        "equine identification document",
+        "equine identification documents",
+        "identification of equines",
+        "equine passport regulations",
+        "equine identification regulations",
+        "equine identification order",
+        "equine animal identification regulations",
+        "equine animal identification",
+        "unique equine lifetime number",
+        "unique equine life number",
+        "equine UELN",
+        "equine transponder",
+        "horse transponder",
+        "equine issuing body",
+        "equine issuing bodies",
+        "central equine database",
+        "central equine databases",
+        "equine database",
+        "equine databases",
+        "equine register",
+        "equine registers",
+        "equine registration records",
+        "equine passport medicines record",
+        "equine passport veterinary medicine record",
+        "equine passport slaughter declaration",
+        "equine passport invalidation",
+        "equine traceability identification",
+        "equine identification and traceability",
+        "identification and traceability of equines",
+        "Equine passports and identification documents Wales"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2019/57",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Equine Identification (Wales) Regulations 2019 is a Welsh statutory instrument directly governing equine identification. The title explicitly references equine identification for Wales, and matched terms are extensive, covering equine identification, equine identification documents, identification of equines, passport regulations, equine identification regulations, equine animal identification, UELN, transponder, issuing bodies, central equine database, equine registers, registration records, medicines record, veterinary medicine record, slaughter declaration, invalidation, equine traceability identification, equine identification and traceability, and identification and traceability of equines. This is a core Wales-specific instrument directly aligned with the category brief.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly 'The Equine Identification (Wales) Regulations 2019'\n- Extensive matched terms covering all core category anchors\n- Wales jurisdiction aligns with category scope\n- Deterministic confidence high\n\nEvidence limitations:\n- Source type unknown; may require verification",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Equine Identification (Wales) Regulations 2019 is a Welsh statutory instrument directly governing equine identification. The title explicitly references equine identification for Wales, and matched terms are extensive, covering equine identification, equine identification documents, identification of equines, passport regulations, equine identification regulations, equine animal identification, UELN, transponder, issuing bodies, central equine database, equine registers, registration records, medicines record, veterinary medicine record, slaughter declaration, invalidation, equine traceability identification, equine identification and traceability, and identification and traceability of equines. This is a core Wales-specific instrument directly aligned with the category brief.",
+        "supporting_signals": [
+          "Title explicitly 'The Equine Identification (Wales) Regulations 2019'",
+          "Extensive matched terms covering all core category anchors",
+          "Wales jurisdiction aligns with category scope",
+          "Deterministic confidence high"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Source type unknown; may require verification"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-14913eca211c6bf0",
+      "title": "The Equine Identification Regulations (Northern Ireland) 2019",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/nisr/2019/67",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "horse passport",
+        "horse passports",
+        "passport for a horse",
+        "passport for horses",
+        "horse identification",
+        "horse identification document",
+        "horse identification documents",
+        "identification of equidae",
+        "methods for the identification of equidae",
+        "identification of equidae regulation",
+        "horse passport regulation",
+        "horse passport regulations",
+        "horse passports regulation",
+        "horse passports regulations",
+        "horse passports order",
+        "horse passports orders",
+        "equine animal identification regulations",
+        "equine transponder",
+        "horse transponder",
+        "horse passport issuing organisation",
+        "horse passport issuing organisations",
+        "central equine database",
+        "central equine databases",
+        "equine passport slaughter declaration",
+        "equine passport invalidation",
+        "horse identification and traceability",
+        "identification and traceability of equidae",
+        "imported horse passport",
+        "horse passport order",
+        "horse passport act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification Regulations (Northern Ireland) 2019",
+          "uri": "http://www.legislation.gov.uk/id/nisr/2019/67",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Equine Identification Regulations (Northern Ireland) 2019 is a Northern Ireland statutory instrument directly governing equine identification. The title explicitly references equine identification for Northern Ireland, and matched terms are extensive, covering horse passport, horse identification, horse identification documents, identification of equidae, methods for identification of equidae, identification of equidae regulation, horse passport regulation/regulations, equine animal identification, transponder, issuing organisations, central equine database, slaughter declaration, invalidation, horse identification and traceability, identification and traceability of equidae, and imported horse passport. This is a core Northern Ireland-specific instrument directly aligned with the category brief.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly 'The Equine Identification Regulations (Northern Ireland) 2019'\n- Extensive matched terms covering all core category anchors\n- Northern Ireland jurisdiction aligns with category scope\n- Deterministic confidence high\n\nEvidence limitations:\n- Source type unknown; may require verification",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Equine Identification Regulations (Northern Ireland) 2019 is a Northern Ireland statutory instrument directly governing equine identification. The title explicitly references equine identification for Northern Ireland, and matched terms are extensive, covering horse passport, horse identification, horse identification documents, identification of equidae, methods for identification of equidae, identification of equidae regulation, horse passport regulation/regulations, equine animal identification, transponder, issuing organisations, central equine database, slaughter declaration, invalidation, horse identification and traceability, identification and traceability of equidae, and imported horse passport. This is a core Northern Ireland-specific instrument directly aligned with the category brief.",
+        "supporting_signals": [
+          "Title explicitly 'The Equine Identification Regulations (Northern Ireland) 2019'",
+          "Extensive matched terms covering all core category anchors",
+          "Northern Ireland jurisdiction aligns with category scope",
+          "Deterministic confidence high"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Source type unknown; may require verification"
+        ],
+        "assessment_confidence": null
+      }
+    },
+    {
+      "source_id": "lex-06ceb8fc5c8b7eff",
+      "title": "The Horse Passports (England) Regulations 2003 (revoked)",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2003/2780",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "revoked",
+      "relationship_to_category": "directly_regulates",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Equine passports and identification documents",
+        "horse passport",
+        "horse passports",
+        "passport for a horse",
+        "passport for horses",
+        "identification of equidae",
+        "methods for the identification of equidae",
+        "identification of equidae regulation",
+        "horse passport regulation",
+        "horse passport regulations",
+        "horse passports regulation",
+        "horse passports regulations",
+        "horse passports order",
+        "horse passports orders",
+        "horse passport issuing organisation",
+        "horse passport issuing organisations",
+        "equine database",
+        "equine passport veterinary medicine record",
+        "identification and traceability of equidae",
+        "imported horse passport",
+        "Equine passports and identification documents UK",
+        "Equine passports and identification documents England",
+        "horse passport order",
+        "horse passport act"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Horse Passports (England) Regulations 2003 (revoked)",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2003/2780",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "high",
+      "review_status": "accepted",
+      "notes": "AI triage rationale: The Horse Passports (England) Regulations 2003 (revoked) is a UK SI directly governing horse passports in England. The title explicitly references horse passports for England, and matched terms are extensive, covering the full category description, horse passport, identification of equidae, methods for identification of equidae, identification of equidae regulation, horse passport regulation/regulations, issuing organisations, equine database, veterinary medicine record, identification and traceability of equidae, and imported horse passport. Although marked as revoked, it is a historical predecessor to the current England regime and meets the 'needs_human_review' guidance for revoked instruments. The clear regulatory focus and high deterministic confidence warrant likely_accept with a note that it is revoked.\n\nAI triage relevance: high\n\nAI triage review_priority: likely_accept\n\nAI triage recommended_action: accept_candidate\n\nSupporting signals:\n- Title explicitly 'The Horse Passports (England) Regulations 2003 (revoked)'\n- Extensive matched terms covering all core category anchors\n- England jurisdiction aligns with category scope\n- UKSI source type and high deterministic confidence\n\nEvidence limitations:\n- Regulation is marked as revoked; historical relevance only",
+      "ai_triage": {
+        "relevance": "high",
+        "review_priority": "likely_accept",
+        "relationship_to_category": "directly_regulates",
+        "confidence_after_ai": "high",
+        "recommended_action": "accept_candidate",
+        "rationale": "The Horse Passports (England) Regulations 2003 (revoked) is a UK SI directly governing horse passports in England. The title explicitly references horse passports for England, and matched terms are extensive, covering the full category description, horse passport, identification of equidae, methods for identification of equidae, identification of equidae regulation, horse passport regulation/regulations, issuing organisations, equine database, veterinary medicine record, identification and traceability of equidae, and imported horse passport. Although marked as revoked, it is a historical predecessor to the current England regime and meets the 'needs_human_review' guidance for revoked instruments. The clear regulatory focus and high deterministic confidence warrant likely_accept with a note that it is revoked.",
+        "supporting_signals": [
+          "Title explicitly 'The Horse Passports (England) Regulations 2003 (revoked)'",
+          "Extensive matched terms covering all core category anchors",
+          "England jurisdiction aligns with category scope",
+          "UKSI source type and high deterministic confidence"
+        ],
+        "false_positive_risks": [],
+        "evidence_limitations": [
+          "Regulation is marked as revoked; historical relevance only"
+        ],
+        "assessment_confidence": null
+      }
+    }
+  ],
+  "related_sources": [
+    {
+      "source_id": "lex-aaee22c1dd1c3cc4",
+      "title": "The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/591",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Implementing Regulation (EU) 2015/262 of 17 February 2015 laying down rules pursuant to Council Directives 90/427/EEC and 2009/156/EC as regards the methods for the identification of equidae (Equine Passport Regulation) (Text",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) amendment regulations",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) revocation",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) commencement",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) correction slip",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) explanatory note",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) explanatory memorandum",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) impact assessment",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/591",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-cd5ecbc73a33c829",
+      "title": "The Animal Breeding (Amendment) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/117",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Implementing Regulation (EU) 2015/262 of 17 February 2015 laying down rules pursuant to Council Directives 90/427/EEC and 2009/156/EC as regards the methods for the identification of equidae (Equine Passport Regulation) (Text",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) amendment regulations",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) revocation",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) commencement",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) correction slip",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) explanatory note",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) explanatory memorandum",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) impact assessment",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Animal Breeding (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/117",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "parked",
+      "notes": "Generic EU Exit amendment material; requires legal review before treating as related.",
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-5d68d58988f41b40",
+      "title": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ssi/2019/71",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Implementing Regulation (EU) 2015/262 of 17 February 2015 laying down rules pursuant to Council Directives 90/427/EEC and 2009/156/EC as regards the methods for the identification of equidae (Equine Passport Regulation) (Text",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 amendment regulations",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 revocation",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 commencement",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 correction slip",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 explanatory note",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 explanatory memorandum",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 impact assessment",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 guidance",
+        "The Equine Identification (England) Regulations 2018 correction slip",
+        "The Equine Identification (England) Regulations 2018 explanatory memorandum",
+        "The Equine Identification (England) Regulations 2018 impact assessment",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) amendment regulations",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) correction slip",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory note",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory memorandum",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) impact assessment",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) guidance",
+        "The Equine Identification (Wales) Regulations 2019 amendment regulations",
+        "The Equine Identification (Wales) Regulations 2019 revocation",
+        "The Equine Identification (Wales) Regulations 2019 correction slip",
+        "The Equine Identification (Wales) Regulations 2019 explanatory note",
+        "The Equine Identification (Wales) Regulations 2019 explanatory memorandum",
+        "The Equine Identification (Wales) Regulations 2019 impact assessment",
+        "The Equine Identification (Wales) Regulations 2019 guidance",
+        "The Equine Identification Regulations (Northern Ireland) 2019 impact assessment"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2019/71",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "parked",
+      "notes": "Generic EU Exit amendment material; requires legal review before treating as related.",
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-ee4c9de5a6bcb165",
+      "title": "The Horses (Zootechnical Standards) Regulations (Northern Ireland) 1992",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/nisr/1992/539",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "unknown",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) amendment regulations",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) commencement",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) correction slip",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) explanatory note",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) explanatory memorandum",
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) impact assessment"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Horses (Zootechnical Standards) Regulations (Northern Ireland) 1992",
+          "uri": "http://www.legislation.gov.uk/id/nisr/1992/539",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-ab0d96b48256ea83",
+      "title": "The Veterinary Medicines and Animals and Animal Products (Examination of Residues and Maximum Residue Limits) (Amendment etc.) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/676",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) revocation"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Veterinary Medicines and Animals and Animal Products (Examination of Residues and Maximum Residue Limits) (Amendment etc.) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/676",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "parked",
+      "notes": "Generic EU Exit amendment material; requires legal review before treating as related.",
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-9265850074924de7",
+      "title": "The Livestock (Records, Identification and Movement) (Amendment) (Northern Ireland) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/157",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 1999 amendment regulations",
+        "Horse Passports Regulations (Northern Ireland) 1999 revocation",
+        "Horse Passports Regulations (Northern Ireland) 1999 commencement",
+        "Horse Passports Regulations (Northern Ireland) 1999 correction slip",
+        "Horse Passports Regulations (Northern Ireland) 1999 explanatory note",
+        "Horse Passports Regulations (Northern Ireland) 1999 explanatory memorandum",
+        "Horse Passports Regulations (Northern Ireland) 1999 impact assessment",
+        "Horse Passports Regulations (Northern Ireland) 1999 guidance",
+        "Horse Passports Regulations (Northern Ireland) 2004 amendment regulations",
+        "Horse Passports Regulations (Northern Ireland) 2004 correction slip",
+        "Horse Passports Regulations (Northern Ireland) 2004 explanatory memorandum",
+        "Horse Passports Regulations (Northern Ireland) 2004 guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Livestock (Records, Identification and Movement) (Amendment) (Northern Ireland) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/157",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "parked",
+      "notes": "Generic EU Exit amendment material; requires legal review before treating as related.",
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-f80e7cc89ad8fde8",
+      "title": "Cattle Passport Regulations (Northern Ireland) 1999",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/nisr/1999/324",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "unknown",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 1999 amendment regulations",
+        "Horse Passports Regulations (Northern Ireland) 1999 commencement",
+        "Horse Passports Regulations (Northern Ireland) 1999 correction slip",
+        "Horse Passports Regulations (Northern Ireland) 1999 explanatory note",
+        "Horse Passports Regulations (Northern Ireland) 1999 explanatory memorandum",
+        "Horse Passports Regulations (Northern Ireland) 1999 impact assessment",
+        "Horse Passports Regulations (Northern Ireland) 1999 guidance",
+        "Horse Passports Regulations (Northern Ireland) 2004 amendment regulations",
+        "Horse Passports Regulations (Northern Ireland) 2004 commencement",
+        "Horse Passports Regulations (Northern Ireland) 2004 correction slip",
+        "Horse Passports Regulations (Northern Ireland) 2004 impact assessment"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Cattle Passport Regulations (Northern Ireland) 1999",
+          "uri": "http://www.legislation.gov.uk/nisr/1999/324",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-f9896280f53345e8",
+      "title": "Bovine Spongiform Encephalopathy Monitoring Regulations (Northern Ireland) 2001",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/nisr/2001/292",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "unknown",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 1999 amendment regulations",
+        "Horse Passports Regulations (Northern Ireland) 1999 commencement",
+        "Horse Passports Regulations (Northern Ireland) 1999 correction slip",
+        "Horse Passports Regulations (Northern Ireland) 1999 explanatory note",
+        "Horse Passports Regulations (Northern Ireland) 1999 explanatory memorandum",
+        "Horse Passports Regulations (Northern Ireland) 1999 impact assessment"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "Bovine Spongiform Encephalopathy Monitoring Regulations (Northern Ireland) 2001",
+          "uri": "http://www.legislation.gov.uk/id/nisr/2001/292",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-97648eac999ec742",
+      "title": "The Animals (Identification, Records, Movement and Enforcement) (Amendment) Regulations (Northern Ireland) 2025",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/nisr/2025/11",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 1999 amendment regulations",
+        "Horse Passports Regulations (Northern Ireland) 1999 correction slip",
+        "Horse Passports Regulations (Northern Ireland) 1999 explanatory memorandum",
+        "Horse Passports Regulations (Northern Ireland) 1999 guidance",
+        "Horse Passports Regulations (Northern Ireland) 2004 amendment regulations",
+        "Horse Passports Regulations (Northern Ireland) 2004 correction slip",
+        "Horse Passports Regulations (Northern Ireland) 2004 explanatory memorandum"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Animals (Identification, Records, Movement and Enforcement) (Amendment) Regulations (Northern Ireland) 2025",
+          "uri": "http://www.legislation.gov.uk/id/nisr/2025/11",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-d4dc1f9955eb7385",
+      "title": "The Horse Passports (Wales) Regulations 2005",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/wsi/2005/231",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "unknown",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 1999 revocation",
+        "Horse Passports Regulations (Northern Ireland) 2004 revocation",
+        "Horse Passports Regulations (Northern Ireland) 2004 commencement",
+        "Horse Passports Regulations (Northern Ireland) 2004 explanatory note",
+        "Horse Passports Regulations (Northern Ireland) 2004 impact assessment",
+        "Horse Passports Regulations (Northern Ireland) 2004 guidance",
+        "The Horse Passports (England) Regulations 2003 (revoked) amendment regulations",
+        "The Horse Passports (England) Regulations 2003 (revoked) commencement",
+        "The Horse Passports (England) Regulations 2003 (revoked) correction slip",
+        "The Horse Passports (England) Regulations 2003 (revoked) explanatory note",
+        "The Horse Passports (England) Regulations 2003 (revoked) explanatory memorandum",
+        "The Horse Passports (England) Regulations 2003 (revoked) impact assessment",
+        "The Horse Passports (England) Regulations 2003 (revoked) guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Horse Passports (Wales) Regulations 2005",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2005/231",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-d00e32b7f4ff8ecf",
+      "title": "The Agriculture, Environment and Rural Affairs (Amendment) (Northern Ireland) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2019/1101",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 1999 commencement",
+        "Horse Passports Regulations (Northern Ireland) 1999 explanatory note"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Agriculture, Environment and Rural Affairs (Amendment) (Northern Ireland) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1101",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "parked",
+      "notes": "Generic EU Exit amendment material; requires legal review before treating as related.",
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-2d5095d6ab14eda6",
+      "title": "The Horse Passports (Scotland) Regulations 2005",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/ssi/2005/223",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "unknown",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 2004 revocation",
+        "Horse Passports Regulations (Northern Ireland) 2004 commencement",
+        "The Horse Passports (England) Regulations 2003 (revoked) amendment regulations",
+        "The Horse Passports (England) Regulations 2003 (revoked) commencement",
+        "The Horse Passports (England) Regulations 2003 (revoked) correction slip",
+        "The Horse Passports (England) Regulations 2003 (revoked) explanatory note",
+        "The Horse Passports (England) Regulations 2003 (revoked) explanatory memorandum",
+        "The Horse Passports (England) Regulations 2003 (revoked) impact assessment",
+        "The Horse Passports (England) Regulations 2003 (revoked) guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Horse Passports (Scotland) Regulations 2005",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2005/223",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-5f0a1d32be1d7370",
+      "title": "The Zebras (Control of Importation) Order 1963",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/1963/1004",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "unknown",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 2004 explanatory note"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Zebras (Control of Importation) Order 1963",
+          "uri": "http://www.legislation.gov.uk/id/uksi/1963/1004",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-7e34e911fbc6f4c9",
+      "title": "The Veterinary Medicines Regulations 2007",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2007/2539",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "unknown",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 2004 explanatory note"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Veterinary Medicines Regulations 2007",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2007/2539",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-3ee0d26fa13ce85b",
+      "title": "The Horse Passports Order 1997",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/1997/2789",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "unknown",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "Horse Passports Regulations (Northern Ireland) 2004 explanatory memorandum",
+        "Horse Passports Regulations (Northern Ireland) 2004 guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Horse Passports Order 1997",
+          "uri": "http://www.legislation.gov.uk/id/uksi/1997/2789",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-a1c16a5aeda1d77e",
+      "title": "The Equine Identification (Amendment) Regulations (Northern Ireland) 2022",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/nisr/2022/200",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 amendment regulations",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 revocation",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 correction slip",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 explanatory note",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 explanatory memorandum",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 impact assessment",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 guidance",
+        "The Equine Identification Regulations (Northern Ireland) 2019 amendment regulations",
+        "The Equine Identification Regulations (Northern Ireland) 2019 revocation",
+        "The Equine Identification Regulations (Northern Ireland) 2019 commencement",
+        "The Equine Identification Regulations (Northern Ireland) 2019 correction slip",
+        "The Equine Identification Regulations (Northern Ireland) 2019 explanatory note",
+        "The Equine Identification Regulations (Northern Ireland) 2019 explanatory memorandum",
+        "The Equine Identification Regulations (Northern Ireland) 2019 impact assessment",
+        "The Equine Identification Regulations (Northern Ireland) 2019 guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Amendment) Regulations (Northern Ireland) 2022",
+          "uri": "http://www.legislation.gov.uk/id/nisr/2022/200",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-6fe71b96c0d61d76",
+      "title": "The Equine Identification (Wales) (Amendment) Regulations 2019",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/wsi/2019/614",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 amendment regulations",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 commencement",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 correction slip",
+        "The Equine Identification (England) Regulations 2018 amendment regulations",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) amendment regulations",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) commencement",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) correction slip",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory note",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory memorandum",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) impact assessment",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) guidance",
+        "The Equine Identification (Wales) Regulations 2019 amendment regulations",
+        "The Equine Identification (Wales) Regulations 2019 revocation",
+        "The Equine Identification (Wales) Regulations 2019 commencement",
+        "The Equine Identification (Wales) Regulations 2019 correction slip",
+        "The Equine Identification (Wales) Regulations 2019 explanatory note",
+        "The Equine Identification (Wales) Regulations 2019 explanatory memorandum",
+        "The Equine Identification (Wales) Regulations 2019 impact assessment",
+        "The Equine Identification (Wales) Regulations 2019 guidance",
+        "The Equine Identification Regulations (Northern Ireland) 2019 commencement"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2019/614",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-9c7277d29aeefec7",
+      "title": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/wsi/2019/250",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 amendment regulations",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 revocation",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 correction slip",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 explanatory note",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 explanatory memorandum",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 impact assessment",
+        "The Equine Animal (Identification) (Scotland) Regulations 2019 guidance",
+        "The Equine Identification (England) Regulations 2018 amendment regulations",
+        "The Equine Identification (England) Regulations 2018 correction slip",
+        "The Equine Identification (England) Regulations 2018 explanatory note",
+        "The Equine Identification (England) Regulations 2018 explanatory memorandum",
+        "The Equine Identification (England) Regulations 2018 impact assessment",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) amendment regulations",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) commencement",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) correction slip",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory note",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory memorandum",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) impact assessment",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) guidance",
+        "The Equine Identification (Wales) Regulations 2019 amendment regulations",
+        "The Equine Identification (Wales) Regulations 2019 revocation",
+        "The Equine Identification (Wales) Regulations 2019 commencement",
+        "The Equine Identification (Wales) Regulations 2019 correction slip",
+        "The Equine Identification (Wales) Regulations 2019 explanatory note",
+        "The Equine Identification (Wales) Regulations 2019 explanatory memorandum",
+        "The Equine Identification (Wales) Regulations 2019 impact assessment",
+        "The Equine Identification (Wales) Regulations 2019 guidance",
+        "The Equine Identification Regulations (Northern Ireland) 2019 amendment regulations",
+        "The Equine Identification Regulations (Northern Ireland) 2019 revocation",
+        "The Equine Identification Regulations (Northern Ireland) 2019 commencement",
+        "The Equine Identification Regulations (Northern Ireland) 2019 correction slip",
+        "The Equine Identification Regulations (Northern Ireland) 2019 explanatory note",
+        "The Equine Identification Regulations (Northern Ireland) 2019 explanatory memorandum",
+        "The Equine Identification Regulations (Northern Ireland) 2019 impact assessment",
+        "The Equine Identification Regulations (Northern Ireland) 2019 guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2019/250",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-5800a308bc297703",
+      "title": "The Animals, Aquatic Animal Health, Invasive Alien Species, Plant Propagating Material and Seeds (Amendment) (EU Exit) Regulations 2020",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2020/1388",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Equine Identification (England) Regulations 2018 amendment regulations",
+        "The Equine Identification (England) Regulations 2018 revocation",
+        "The Equine Identification (England) Regulations 2018 commencement",
+        "The Equine Identification (England) Regulations 2018 correction slip",
+        "The Equine Identification (England) Regulations 2018 explanatory note",
+        "The Equine Identification (England) Regulations 2018 explanatory memorandum",
+        "The Equine Identification (England) Regulations 2018 impact assessment",
+        "The Equine Identification (England) Regulations 2018 guidance",
+        "The Equine Identification Regulations (Northern Ireland) 2019 amendment regulations",
+        "The Equine Identification Regulations (Northern Ireland) 2019 correction slip",
+        "The Equine Identification Regulations (Northern Ireland) 2019 explanatory note",
+        "The Equine Identification Regulations (Northern Ireland) 2019 explanatory memorandum",
+        "The Equine Identification Regulations (Northern Ireland) 2019 guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Animals, Aquatic Animal Health, Invasive Alien Species, Plant Propagating Material and Seeds (Amendment) (EU Exit) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2020/1388",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "parked",
+      "notes": "Generic EU Exit amendment material; requires legal review before treating as related.",
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-df1e948bbf4737da",
+      "title": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2018/1409",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Equine Identification (England) Regulations 2018 amendment regulations",
+        "The Equine Identification (England) Regulations 2018 revocation",
+        "The Equine Identification (England) Regulations 2018 commencement",
+        "The Equine Identification (England) Regulations 2018 correction slip",
+        "The Equine Identification (England) Regulations 2018 explanatory note",
+        "The Equine Identification (England) Regulations 2018 explanatory memorandum",
+        "The Equine Identification (England) Regulations 2018 impact assessment",
+        "The Equine Identification (England) Regulations 2018 guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2018/1409",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-72aae0f2da2a5747",
+      "title": "The Exotic Equine Diseases (Compensation) (England) (No. 2) Order 2023",
+      "citation": null,
+      "source_type": "uksi",
+      "canonical_uri": "http://www.legislation.gov.uk/id/uksi/2023/565",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "unknown",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Equine Identification (England) Regulations 2018 revocation"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Exotic Equine Diseases (Compensation) (England) (No. 2) Order 2023",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2023/565",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "unreviewed",
+      "notes": null,
+      "ai_triage": null
+    },
+    {
+      "source_id": "lex-1ef17bcc7b69b4eb",
+      "title": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020",
+      "citation": null,
+      "source_type": "unknown",
+      "canonical_uri": "http://www.legislation.gov.uk/id/wsi/2020/1240",
+      "source_system": "lex",
+      "jurisdiction_extent": [
+        "UK",
+        "Great Britain",
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "temporal_status": "unknown",
+      "relationship_to_category": "amends",
+      "match_basis": [
+        "lex_search"
+      ],
+      "matched_terms": [
+        "The Equine Identification (Wales) Regulations 2009 (revoked) amendment regulations",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) commencement",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) correction slip",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory note",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory memorandum",
+        "The Equine Identification (Wales) Regulations 2009 (revoked) impact assessment",
+        "The Equine Identification (Wales) Regulations 2019 amendment regulations",
+        "The Equine Identification (Wales) Regulations 2019 revocation",
+        "The Equine Identification (Wales) Regulations 2019 commencement",
+        "The Equine Identification (Wales) Regulations 2019 correction slip",
+        "The Equine Identification (Wales) Regulations 2019 explanatory note",
+        "The Equine Identification (Wales) Regulations 2019 explanatory memorandum",
+        "The Equine Identification (Wales) Regulations 2019 impact assessment",
+        "The Equine Identification (Wales) Regulations 2019 guidance",
+        "The Equine Identification Regulations (Northern Ireland) 2019 amendment regulations",
+        "The Equine Identification Regulations (Northern Ireland) 2019 revocation",
+        "The Equine Identification Regulations (Northern Ireland) 2019 correction slip",
+        "The Equine Identification Regulations (Northern Ireland) 2019 explanatory note",
+        "The Equine Identification Regulations (Northern Ireland) 2019 explanatory memorandum",
+        "The Equine Identification Regulations (Northern Ireland) 2019 impact assessment",
+        "The Equine Identification Regulations (Northern Ireland) 2019 guidance"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2020/1240",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "confidence": "unknown",
+      "review_status": "accepted",
+      "notes": null,
+      "ai_triage": null
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_id": "rel:lex-14913eca211c6bf0:lex-aaee22c1dd1c3cc4",
+      "from_source_id": "lex-14913eca211c6bf0",
+      "to_source_id": "lex-aaee22c1dd1c3cc4",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/591",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The Equine Identification Regulations (Northern Ireland) 2019 is a core Northern Ireland equine identification instrument. The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019 is a UK-wide EU Exit statutory instrument whose title and matched terms (including direct references to equine identification regulations and EU equine passport regulations) indicate it amends equine identification frameworks across GB and NI in the context of EU withdrawal. The deterministic guess is amended_by with medium confidence, and the evidence strongly supports that this GB instrument would amend or make consequential changes to the parallel NI equine identification regime to ensure post-Brexit operability. This is a likely_accept instrument under the triage guidance."
+    },
+    {
+      "relationship_id": "rel:lex-128ece35058270ac:lex-aaee22c1dd1c3cc4",
+      "from_source_id": "lex-128ece35058270ac",
+      "to_source_id": "lex-aaee22c1dd1c3cc4",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/591",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Commission Implementing Regulation (EU) 2015/262 is the principal EU Equine Passport Regulation that was assimilated into UK law. The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019 is a UK statutory instrument enacted to amend retained EU equine identification law for UK domestic application following EU withdrawal. The candidate title and matched terms (including explicit references to this Commission Regulation) strongly indicate this UK SI amends or adapts the assimilated EU regulation. This is a clear likely_accept instrument directly addressing equine passport and identification frameworks."
+    },
+    {
+      "relationship_id": "rel:lex-cf385f44276dacf5:lex-aaee22c1dd1c3cc4",
+      "from_source_id": "lex-cf385f44276dacf5",
+      "to_source_id": "lex-aaee22c1dd1c3cc4",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/591",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "Commission Regulation (EC) No 504/2008 is a repealed EU equine identification regulation that was a predecessor to the 2015 Equine Passport Regulation. The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019 is a UK EU Exit statutory instrument whose matched terms include multiple references to this repealed Commission Regulation (amendment regulations, revocation, commencement, guidance, etc.). This indicates the 2019 UK SI addresses or tidies up provisions related to this historical equine identification instrument as part of the EU Exit transition. The relationship appears to be amended_by or addressed_by in the context of EU withdrawal."
+    },
+    {
+      "relationship_id": "rel:lex-b83450512bcf6858:lex-5d68d58988f41b40",
+      "from_source_id": "lex-b83450512bcf6858",
+      "to_source_id": "lex-5d68d58988f41b40",
+      "relationship_type": "amended_by",
+      "confidence": "medium",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2019/71",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "needs_more_research",
+      "notes": "The Equine Animal (Identification) (Scotland) Regulations 2019 is a core Scottish equine identification instrument. The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019 is a broad Scottish statutory instrument addressing animal health in the context of EU Exit. The matched terms include multiple references to the 2019 Scottish equine identification regulations (amendment regulations, revocation, commencement, guidance, etc.), indicating this animal health instrument may amend or make consequential provisions for equine identification in Scotland. However, the candidate title is generic 'Animal Health' rather than specifically equine, so the relevance may be incidental or limited to cross-references. This requires human review to confirm whether substantive equine passport/identification amendments are made or whether the references are merely incidental."
+    },
+    {
+      "relationship_id": "rel:lex-2a6d55517cec9927:lex-5d68d58988f41b40",
+      "from_source_id": "lex-2a6d55517cec9927",
+      "to_source_id": "lex-5d68d58988f41b40",
+      "relationship_type": "cites",
+      "confidence": "low",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2019/71",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "needs_more_research",
+      "notes": "The Equine Identification (Wales) Regulations 2019 is a core Welsh equine identification instrument. The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019 is a Scottish statutory instrument. The matched terms include references to the Welsh 2019 equine identification regulations, but a Scottish instrument would not normally amend Welsh regulations (devolution boundaries). The matched terms most likely reflect cross-references, parallel provisions, or comparative analysis rather than a direct amendment relationship. The relevance is uncertain and confidence is low; human review is needed to determine whether this is a meaningful citation or an incidental match."
+    },
+    {
+      "relationship_id": "rel:lex-14913eca211c6bf0:lex-5d68d58988f41b40",
+      "from_source_id": "lex-14913eca211c6bf0",
+      "to_source_id": "lex-5d68d58988f41b40",
+      "relationship_type": "cites",
+      "confidence": "low",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/ssi/2019/71",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "needs_more_research",
+      "notes": "The Equine Identification Regulations (Northern Ireland) 2019 is a core Northern Ireland equine identification instrument. The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019 is a Scottish statutory instrument. The matched terms include references to the NI 2019 equine identification regulations (impact assessment), but a Scottish instrument would not normally amend Northern Ireland regulations (devolution boundaries). The matched terms most likely reflect cross-references or comparative analysis rather than a direct amendment relationship. The relevance is uncertain and confidence is low; human review is needed to determine whether this is a meaningful citation or an incidental match."
+    },
+    {
+      "relationship_id": "rel:lex-5d5d6f4924652aea:lex-9265850074924de7",
+      "from_source_id": "lex-5d5d6f4924652aea",
+      "to_source_id": "lex-9265850074924de7",
+      "relationship_type": "amended_by",
+      "confidence": "medium",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Livestock (Records, Identification and Movement) (Amendment) (Northern Ireland) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/157",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "needs_more_research",
+      "notes": "Horse Passports Regulations (Northern Ireland) 1999 is a historical Northern Ireland equine passport instrument (predecessor to the 2019 NI regulations). The Livestock (Records, Identification and Movement) (Amendment) (Northern Ireland) (EU Exit) Regulations 2019 is a broad Northern Ireland livestock statutory instrument addressing EU Exit. The matched terms include multiple references to the 1999 horse passports regulations (amendment regulations, revocation, commencement, guidance), indicating this livestock instrument may amend, revoke, or make consequential provisions for historical equine passport frameworks in NI. However, the candidate title is generic 'Livestock' rather than specifically equine, so the relevance may be incidental or the instrument may address multiple livestock species. Human review is needed to confirm whether substantive equine passport provisions are included."
+    },
+    {
+      "relationship_id": "rel:lex-e6ed38c1b8e73f42:lex-9265850074924de7",
+      "from_source_id": "lex-e6ed38c1b8e73f42",
+      "to_source_id": "lex-9265850074924de7",
+      "relationship_type": "amended_by",
+      "confidence": "medium",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Livestock (Records, Identification and Movement) (Amendment) (Northern Ireland) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/157",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "needs_more_research",
+      "notes": "Horse Passports Regulations (Northern Ireland) 2004 is a historical Northern Ireland equine passport instrument (predecessor to the 2019 NI regulations). The Livestock (Records, Identification and Movement) (Amendment) (Northern Ireland) (EU Exit) Regulations 2019 is a broad Northern Ireland livestock statutory instrument addressing EU Exit. The matched terms include multiple references to the 2004 horse passports regulations (amendment regulations, guidance), indicating this livestock instrument may amend or make consequential provisions for historical equine passport frameworks in NI. However, the candidate title is generic 'Livestock' rather than specifically equine, so the relevance may be incidental or the instrument may address multiple livestock species. Human review is needed to confirm whether substantive equine passport provisions are included."
+    },
+    {
+      "relationship_id": "rel:lex-5d5d6f4924652aea:lex-d00e32b7f4ff8ecf",
+      "from_source_id": "lex-5d5d6f4924652aea",
+      "to_source_id": "lex-d00e32b7f4ff8ecf",
+      "relationship_type": "amended_by",
+      "confidence": "low",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Agriculture, Environment and Rural Affairs (Amendment) (Northern Ireland) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2019/1101",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "needs_more_research",
+      "notes": "Horse Passports Regulations (Northern Ireland) 1999 is a historical Northern Ireland equine passport instrument. The Agriculture, Environment and Rural Affairs (Amendment) (Northern Ireland) (EU Exit) Regulations 2019 is a very broad Northern Ireland statutory instrument addressing agriculture, environment, and rural affairs in the context of EU Exit. The matched terms include only two weak references (commencement, explanatory note), which may be index entries or incidental cross-references rather than substantive amendments. The candidate title is extremely broad and does not explicitly reference equines or livestock identification. The relevance is uncertain and confidence is low; human review is needed to determine whether any substantive equine passport provisions are included or whether this is a false match."
+    },
+    {
+      "relationship_id": "rel:lex-14913eca211c6bf0:lex-a1c16a5aeda1d77e",
+      "from_source_id": "lex-14913eca211c6bf0",
+      "to_source_id": "lex-a1c16a5aeda1d77e",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Amendment) Regulations (Northern Ireland) 2022",
+          "uri": "http://www.legislation.gov.uk/id/nisr/2022/200",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The Equine Identification Regulations (Northern Ireland) 2019 is the principal Northern Ireland equine identification instrument. The Equine Identification (Amendment) Regulations (Northern Ireland) 2022 is a later Northern Ireland statutory instrument whose title explicitly indicates it amends the 2019 NI equine identification regulations. The matched terms include multiple references to the 2019 NI regulations (amendment regulations, revocation, commencement, guidance), and the deterministic guess is amended_by with medium confidence. The title and matched terms provide strong evidence that this is a direct amending instrument. This is a clear likely_accept instrument under the triage guidance."
+    },
+    {
+      "relationship_id": "rel:lex-8452dd9718ecc2c8:lex-6fe71b96c0d61d76",
+      "from_source_id": "lex-8452dd9718ecc2c8",
+      "to_source_id": "lex-6fe71b96c0d61d76",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2019/614",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The Equine Identification (Wales) (Amendment) Regulations 2019 clearly amends The Equine Identification (Wales) Regulations 2009 (revoked). Title match is precise, both are Wales equine identification instruments, and 'Amendment' in the candidate title confirms the amending relationship. Both are core equine passport/identification instruments and directly within scope."
+    },
+    {
+      "relationship_id": "rel:lex-2a6d55517cec9927:lex-6fe71b96c0d61d76",
+      "from_source_id": "lex-2a6d55517cec9927",
+      "to_source_id": "lex-6fe71b96c0d61d76",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2019/614",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The Equine Identification (Wales) (Amendment) Regulations 2019 appears to amend The Equine Identification (Wales) Regulations 2019. Title match is exact (base title and 'Amendment' nomenclature), both are Wales equine identification instruments, both are core equine passport/identification sources. The 2019 amendment (wsi/2019/614) came after the base 2019 instrument (wsi/2019/57) and is very likely an amending instrument."
+    },
+    {
+      "relationship_id": "rel:lex-8452dd9718ecc2c8:lex-9c7277d29aeefec7",
+      "from_source_id": "lex-8452dd9718ecc2c8",
+      "to_source_id": "lex-9c7277d29aeefec7",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2019/250",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019 appears to amend The Equine Identification (Wales) Regulations 2009 (revoked). Title match is clear, both are Wales equine identification instruments, and '(Amendment) (EU Exit)' nomenclature confirms this is a Brexit-related amendment. Both are core equine passport/identification instruments and directly within scope."
+    },
+    {
+      "relationship_id": "rel:lex-2a6d55517cec9927:lex-9c7277d29aeefec7",
+      "from_source_id": "lex-2a6d55517cec9927",
+      "to_source_id": "lex-9c7277d29aeefec7",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2019/250",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019 appears to amend The Equine Identification (Wales) Regulations 2019. Title match is exact (base title and '(Amendment) (EU Exit)' nomenclature), both are Wales equine identification instruments, both are core equine passport/identification sources. This is a Brexit-related amendment to the 2019 base regulations."
+    },
+    {
+      "relationship_id": "rel:lex-14913eca211c6bf0:lex-9c7277d29aeefec7",
+      "from_source_id": "lex-14913eca211c6bf0",
+      "to_source_id": "lex-9c7277d29aeefec7",
+      "relationship_type": "cites",
+      "confidence": "low",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2019/250",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "rejected",
+      "notes": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019 is a Wales-only instrument; The Equine Identification Regulations (Northern Ireland) 2019 is a Northern Ireland instrument. Different jurisdictions. The matched terms list includes Northern Ireland queries, but the candidate title is clearly Wales-specific. No direct relationship is plausible. Possibly a cross-reference or coordination clause, but no evidence of amendment, revocation, or principal relationship. Reject as not directly related."
+    },
+    {
+      "relationship_id": "rel:lex-067e0e155fe36de7:lex-df1e948bbf4737da",
+      "from_source_id": "lex-067e0e155fe36de7",
+      "to_source_id": "lex-df1e948bbf4737da",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2018/1409",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018 clearly amends The Equine Identification (England) Regulations 2018. Title match is exact (base title and '(Amendment) (EU Exit)' nomenclature), both are England equine identification instruments, both are core equine passport/identification sources. This is a Brexit-related amendment to the 2018 England regulations."
+    },
+    {
+      "relationship_id": "rel:lex-14913eca211c6bf0:lex-df1e948bbf4737da",
+      "from_source_id": "lex-14913eca211c6bf0",
+      "to_source_id": "lex-df1e948bbf4737da",
+      "relationship_type": "cites",
+      "confidence": "low",
+      "basis": [
+        "title_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018",
+          "uri": "http://www.legislation.gov.uk/id/uksi/2018/1409",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "rejected",
+      "notes": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018 is an England-only instrument; The Equine Identification Regulations (Northern Ireland) 2019 is a Northern Ireland instrument. Different jurisdictions. The candidate title is clearly England-specific. No direct relationship is plausible. Possibly a cross-reference or coordination clause, but no evidence of amendment, revocation, or principal relationship. Reject as not directly related."
+    },
+    {
+      "relationship_id": "rel:lex-8452dd9718ecc2c8:lex-1ef17bcc7b69b4eb",
+      "from_source_id": "lex-8452dd9718ecc2c8",
+      "to_source_id": "lex-1ef17bcc7b69b4eb",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2020/1240",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020 appears to amend The Equine Identification (Wales) Regulations 2009 (revoked). Title match is clear, both are Wales equine identification instruments, and '(Amendment) (EU Exit)' nomenclature confirms this is a Brexit-related amendment. Both are core equine passport/identification instruments and directly within scope. The 2020 amendment likely made further EU Exit adjustments to the 2009 regulations (which were subsequently revoked, but may have been in force when amended)."
+    },
+    {
+      "relationship_id": "rel:lex-2a6d55517cec9927:lex-1ef17bcc7b69b4eb",
+      "from_source_id": "lex-2a6d55517cec9927",
+      "to_source_id": "lex-1ef17bcc7b69b4eb",
+      "relationship_type": "amended_by",
+      "confidence": "high",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2020/1240",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "accepted",
+      "notes": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020 appears to amend The Equine Identification (Wales) Regulations 2019. Title match is exact (base title and '(Amendment) (EU Exit)' nomenclature), both are Wales equine identification instruments, both are core equine passport/identification sources. This is a further Brexit-related amendment to the 2019 base regulations, made in 2020 (after the initial EU Exit date)."
+    },
+    {
+      "relationship_id": "rel:lex-14913eca211c6bf0:lex-1ef17bcc7b69b4eb",
+      "from_source_id": "lex-14913eca211c6bf0",
+      "to_source_id": "lex-1ef17bcc7b69b4eb",
+      "relationship_type": "cites",
+      "confidence": "low",
+      "basis": [
+        "title_match",
+        "query_match",
+        "ai_triage"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "title",
+          "text": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020",
+          "uri": "http://www.legislation.gov.uk/id/wsi/2020/1240",
+          "locator": null,
+          "source_field": null
+        }
+      ],
+      "review_status": "rejected",
+      "notes": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020 is a Wales-only instrument; The Equine Identification Regulations (Northern Ireland) 2019 is a Northern Ireland instrument. Different jurisdictions. The candidate title is clearly Wales-specific. No direct relationship is plausible. Possibly a cross-reference or coordination clause, but no evidence of amendment, revocation, or principal relationship. Reject as not directly related."
+    }
+  ],
+  "warnings": [],
+  "metadata": {
+    "query_plan": [
+      {
+        "query": "Commission Implementing Regulation (EU) 2015/262 of 17 February 2015 laying down rules pursuant to Council Directives 90/427/EEC and 2009/156/EC as regards the methods for the identification of equidae (Equine Passport Regulation) (Text",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-128ece35058270ac': 'amendment regulations'",
+        "seed_source_id": "lex-128ece35058270ac"
+      },
+      {
+        "query": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) amendment regulations",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-cf385f44276dacf5': 'amendment regulations'",
+        "seed_source_id": "lex-cf385f44276dacf5"
+      },
+      {
+        "query": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) revocation",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source revocation query for seed 'lex-cf385f44276dacf5': 'revocation'",
+        "seed_source_id": "lex-cf385f44276dacf5"
+      },
+      {
+        "query": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) commencement",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source commencement query for seed 'lex-cf385f44276dacf5': 'commencement'",
+        "seed_source_id": "lex-cf385f44276dacf5"
+      },
+      {
+        "query": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) correction slip",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source correction query for seed 'lex-cf385f44276dacf5': 'correction slip'",
+        "seed_source_id": "lex-cf385f44276dacf5"
+      },
+      {
+        "query": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) explanatory note",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-cf385f44276dacf5': 'explanatory note'",
+        "seed_source_id": "lex-cf385f44276dacf5"
+      },
+      {
+        "query": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) explanatory memorandum",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-cf385f44276dacf5': 'explanatory memorandum'",
+        "seed_source_id": "lex-cf385f44276dacf5"
+      },
+      {
+        "query": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) impact assessment",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-cf385f44276dacf5': 'impact assessment'",
+        "seed_source_id": "lex-cf385f44276dacf5"
+      },
+      {
+        "query": "Commission Regulation (EC) No 504/2008 of 6 June 2008 implementing Council Directives 90/426/EEC and 90/427/EEC as regards methods for the identification of equidae (Text with EEA relevance) (repealed) guidance",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source guidance_operational query for seed 'lex-cf385f44276dacf5': 'guidance'",
+        "seed_source_id": "lex-cf385f44276dacf5"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 1999 amendment regulations",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-5d5d6f4924652aea': 'amendment regulations'",
+        "seed_source_id": "lex-5d5d6f4924652aea"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 1999 revocation",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source revocation query for seed 'lex-5d5d6f4924652aea': 'revocation'",
+        "seed_source_id": "lex-5d5d6f4924652aea"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 1999 commencement",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source commencement query for seed 'lex-5d5d6f4924652aea': 'commencement'",
+        "seed_source_id": "lex-5d5d6f4924652aea"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 1999 correction slip",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source correction query for seed 'lex-5d5d6f4924652aea': 'correction slip'",
+        "seed_source_id": "lex-5d5d6f4924652aea"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 1999 explanatory note",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-5d5d6f4924652aea': 'explanatory note'",
+        "seed_source_id": "lex-5d5d6f4924652aea"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 1999 explanatory memorandum",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-5d5d6f4924652aea': 'explanatory memorandum'",
+        "seed_source_id": "lex-5d5d6f4924652aea"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 1999 impact assessment",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-5d5d6f4924652aea': 'impact assessment'",
+        "seed_source_id": "lex-5d5d6f4924652aea"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 1999 guidance",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source guidance_operational query for seed 'lex-5d5d6f4924652aea': 'guidance'",
+        "seed_source_id": "lex-5d5d6f4924652aea"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 2004 amendment regulations",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-e6ed38c1b8e73f42': 'amendment regulations'",
+        "seed_source_id": "lex-e6ed38c1b8e73f42"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 2004 revocation",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source revocation query for seed 'lex-e6ed38c1b8e73f42': 'revocation'",
+        "seed_source_id": "lex-e6ed38c1b8e73f42"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 2004 commencement",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source commencement query for seed 'lex-e6ed38c1b8e73f42': 'commencement'",
+        "seed_source_id": "lex-e6ed38c1b8e73f42"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 2004 correction slip",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source correction query for seed 'lex-e6ed38c1b8e73f42': 'correction slip'",
+        "seed_source_id": "lex-e6ed38c1b8e73f42"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 2004 explanatory note",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-e6ed38c1b8e73f42': 'explanatory note'",
+        "seed_source_id": "lex-e6ed38c1b8e73f42"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 2004 explanatory memorandum",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-e6ed38c1b8e73f42': 'explanatory memorandum'",
+        "seed_source_id": "lex-e6ed38c1b8e73f42"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 2004 impact assessment",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-e6ed38c1b8e73f42': 'impact assessment'",
+        "seed_source_id": "lex-e6ed38c1b8e73f42"
+      },
+      {
+        "query": "Horse Passports Regulations (Northern Ireland) 2004 guidance",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source guidance_operational query for seed 'lex-e6ed38c1b8e73f42': 'guidance'",
+        "seed_source_id": "lex-e6ed38c1b8e73f42"
+      },
+      {
+        "query": "The Equine Animal (Identification) (Scotland) Regulations 2019 amendment regulations",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-b83450512bcf6858': 'amendment regulations'",
+        "seed_source_id": "lex-b83450512bcf6858"
+      },
+      {
+        "query": "The Equine Animal (Identification) (Scotland) Regulations 2019 revocation",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source revocation query for seed 'lex-b83450512bcf6858': 'revocation'",
+        "seed_source_id": "lex-b83450512bcf6858"
+      },
+      {
+        "query": "The Equine Animal (Identification) (Scotland) Regulations 2019 commencement",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source commencement query for seed 'lex-b83450512bcf6858': 'commencement'",
+        "seed_source_id": "lex-b83450512bcf6858"
+      },
+      {
+        "query": "The Equine Animal (Identification) (Scotland) Regulations 2019 correction slip",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source correction query for seed 'lex-b83450512bcf6858': 'correction slip'",
+        "seed_source_id": "lex-b83450512bcf6858"
+      },
+      {
+        "query": "The Equine Animal (Identification) (Scotland) Regulations 2019 explanatory note",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-b83450512bcf6858': 'explanatory note'",
+        "seed_source_id": "lex-b83450512bcf6858"
+      },
+      {
+        "query": "The Equine Animal (Identification) (Scotland) Regulations 2019 explanatory memorandum",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-b83450512bcf6858': 'explanatory memorandum'",
+        "seed_source_id": "lex-b83450512bcf6858"
+      },
+      {
+        "query": "The Equine Animal (Identification) (Scotland) Regulations 2019 impact assessment",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-b83450512bcf6858': 'impact assessment'",
+        "seed_source_id": "lex-b83450512bcf6858"
+      },
+      {
+        "query": "The Equine Animal (Identification) (Scotland) Regulations 2019 guidance",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source guidance_operational query for seed 'lex-b83450512bcf6858': 'guidance'",
+        "seed_source_id": "lex-b83450512bcf6858"
+      },
+      {
+        "query": "The Equine Identification (England) Regulations 2018 amendment regulations",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-067e0e155fe36de7': 'amendment regulations'",
+        "seed_source_id": "lex-067e0e155fe36de7"
+      },
+      {
+        "query": "The Equine Identification (England) Regulations 2018 revocation",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source revocation query for seed 'lex-067e0e155fe36de7': 'revocation'",
+        "seed_source_id": "lex-067e0e155fe36de7"
+      },
+      {
+        "query": "The Equine Identification (England) Regulations 2018 commencement",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source commencement query for seed 'lex-067e0e155fe36de7': 'commencement'",
+        "seed_source_id": "lex-067e0e155fe36de7"
+      },
+      {
+        "query": "The Equine Identification (England) Regulations 2018 correction slip",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source correction query for seed 'lex-067e0e155fe36de7': 'correction slip'",
+        "seed_source_id": "lex-067e0e155fe36de7"
+      },
+      {
+        "query": "The Equine Identification (England) Regulations 2018 explanatory note",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-067e0e155fe36de7': 'explanatory note'",
+        "seed_source_id": "lex-067e0e155fe36de7"
+      },
+      {
+        "query": "The Equine Identification (England) Regulations 2018 explanatory memorandum",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-067e0e155fe36de7': 'explanatory memorandum'",
+        "seed_source_id": "lex-067e0e155fe36de7"
+      },
+      {
+        "query": "The Equine Identification (England) Regulations 2018 impact assessment",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-067e0e155fe36de7': 'impact assessment'",
+        "seed_source_id": "lex-067e0e155fe36de7"
+      },
+      {
+        "query": "The Equine Identification (England) Regulations 2018 guidance",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source guidance_operational query for seed 'lex-067e0e155fe36de7': 'guidance'",
+        "seed_source_id": "lex-067e0e155fe36de7"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2009 (revoked) amendment regulations",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-8452dd9718ecc2c8': 'amendment regulations'",
+        "seed_source_id": "lex-8452dd9718ecc2c8"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2009 (revoked) commencement",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source commencement query for seed 'lex-8452dd9718ecc2c8': 'commencement'",
+        "seed_source_id": "lex-8452dd9718ecc2c8"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2009 (revoked) correction slip",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source correction query for seed 'lex-8452dd9718ecc2c8': 'correction slip'",
+        "seed_source_id": "lex-8452dd9718ecc2c8"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory note",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-8452dd9718ecc2c8': 'explanatory note'",
+        "seed_source_id": "lex-8452dd9718ecc2c8"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2009 (revoked) explanatory memorandum",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-8452dd9718ecc2c8': 'explanatory memorandum'",
+        "seed_source_id": "lex-8452dd9718ecc2c8"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2009 (revoked) impact assessment",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-8452dd9718ecc2c8': 'impact assessment'",
+        "seed_source_id": "lex-8452dd9718ecc2c8"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2009 (revoked) guidance",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source guidance_operational query for seed 'lex-8452dd9718ecc2c8': 'guidance'",
+        "seed_source_id": "lex-8452dd9718ecc2c8"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2019 amendment regulations",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-2a6d55517cec9927': 'amendment regulations'",
+        "seed_source_id": "lex-2a6d55517cec9927"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2019 revocation",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source revocation query for seed 'lex-2a6d55517cec9927': 'revocation'",
+        "seed_source_id": "lex-2a6d55517cec9927"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2019 commencement",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source commencement query for seed 'lex-2a6d55517cec9927': 'commencement'",
+        "seed_source_id": "lex-2a6d55517cec9927"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2019 correction slip",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source correction query for seed 'lex-2a6d55517cec9927': 'correction slip'",
+        "seed_source_id": "lex-2a6d55517cec9927"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2019 explanatory note",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-2a6d55517cec9927': 'explanatory note'",
+        "seed_source_id": "lex-2a6d55517cec9927"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2019 explanatory memorandum",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-2a6d55517cec9927': 'explanatory memorandum'",
+        "seed_source_id": "lex-2a6d55517cec9927"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2019 impact assessment",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-2a6d55517cec9927': 'impact assessment'",
+        "seed_source_id": "lex-2a6d55517cec9927"
+      },
+      {
+        "query": "The Equine Identification (Wales) Regulations 2019 guidance",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source guidance_operational query for seed 'lex-2a6d55517cec9927': 'guidance'",
+        "seed_source_id": "lex-2a6d55517cec9927"
+      },
+      {
+        "query": "The Equine Identification Regulations (Northern Ireland) 2019 amendment regulations",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-14913eca211c6bf0': 'amendment regulations'",
+        "seed_source_id": "lex-14913eca211c6bf0"
+      },
+      {
+        "query": "The Equine Identification Regulations (Northern Ireland) 2019 revocation",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source revocation query for seed 'lex-14913eca211c6bf0': 'revocation'",
+        "seed_source_id": "lex-14913eca211c6bf0"
+      },
+      {
+        "query": "The Equine Identification Regulations (Northern Ireland) 2019 commencement",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source commencement query for seed 'lex-14913eca211c6bf0': 'commencement'",
+        "seed_source_id": "lex-14913eca211c6bf0"
+      },
+      {
+        "query": "The Equine Identification Regulations (Northern Ireland) 2019 correction slip",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source correction query for seed 'lex-14913eca211c6bf0': 'correction slip'",
+        "seed_source_id": "lex-14913eca211c6bf0"
+      },
+      {
+        "query": "The Equine Identification Regulations (Northern Ireland) 2019 explanatory note",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-14913eca211c6bf0': 'explanatory note'",
+        "seed_source_id": "lex-14913eca211c6bf0"
+      },
+      {
+        "query": "The Equine Identification Regulations (Northern Ireland) 2019 explanatory memorandum",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-14913eca211c6bf0': 'explanatory memorandum'",
+        "seed_source_id": "lex-14913eca211c6bf0"
+      },
+      {
+        "query": "The Equine Identification Regulations (Northern Ireland) 2019 impact assessment",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-14913eca211c6bf0': 'impact assessment'",
+        "seed_source_id": "lex-14913eca211c6bf0"
+      },
+      {
+        "query": "The Equine Identification Regulations (Northern Ireland) 2019 guidance",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source guidance_operational query for seed 'lex-14913eca211c6bf0': 'guidance'",
+        "seed_source_id": "lex-14913eca211c6bf0"
+      },
+      {
+        "query": "The Horse Passports (England) Regulations 2003 (revoked) amendment regulations",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source amendment query for seed 'lex-06ceb8fc5c8b7eff': 'amendment regulations'",
+        "seed_source_id": "lex-06ceb8fc5c8b7eff"
+      },
+      {
+        "query": "The Horse Passports (England) Regulations 2003 (revoked) commencement",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source commencement query for seed 'lex-06ceb8fc5c8b7eff': 'commencement'",
+        "seed_source_id": "lex-06ceb8fc5c8b7eff"
+      },
+      {
+        "query": "The Horse Passports (England) Regulations 2003 (revoked) correction slip",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source correction query for seed 'lex-06ceb8fc5c8b7eff': 'correction slip'",
+        "seed_source_id": "lex-06ceb8fc5c8b7eff"
+      },
+      {
+        "query": "The Horse Passports (England) Regulations 2003 (revoked) explanatory note",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-06ceb8fc5c8b7eff': 'explanatory note'",
+        "seed_source_id": "lex-06ceb8fc5c8b7eff"
+      },
+      {
+        "query": "The Horse Passports (England) Regulations 2003 (revoked) explanatory memorandum",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-06ceb8fc5c8b7eff': 'explanatory memorandum'",
+        "seed_source_id": "lex-06ceb8fc5c8b7eff"
+      },
+      {
+        "query": "The Horse Passports (England) Regulations 2003 (revoked) impact assessment",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source interpretive query for seed 'lex-06ceb8fc5c8b7eff': 'impact assessment'",
+        "seed_source_id": "lex-06ceb8fc5c8b7eff"
+      },
+      {
+        "query": "The Horse Passports (England) Regulations 2003 (revoked) guidance",
+        "query_type": "manual",
+        "source_system": "lex",
+        "rationale": "Related-source guidance_operational query for seed 'lex-06ceb8fc5c8b7eff': 'guidance'",
+        "seed_source_id": "lex-06ceb8fc5c8b7eff"
+      }
+    ],
+    "query_count": 71,
+    "seed_source_count": 10,
+    "expansion_profile": "standard",
+    "seed_source_type": "principal",
+    "max_seed_sources": 10,
+    "raw_candidate_count": 355,
+    "related_source_count": 22,
+    "relationship_count": 20,
+    "relationship_type_counts": {
+      "amended_by": 15,
+      "cites": 5
+    },
+    "confidence_counts": {
+      "high": 11,
+      "medium": 3,
+      "low": 6,
+      "unknown": 0
+    },
+    "related_source_review_counts": {
+      "accepted": 6,
+      "needs_more_research": 0,
+      "parked": 6,
+      "rejected": 0,
+      "unreviewed": 10
+    },
+    "relationship_review_counts": {
+      "accepted": 11,
+      "needs_more_research": 6,
+      "parked": 0,
+      "rejected": 3,
+      "unreviewed": 0
+    },
+    "orphan_related_source_count": 13,
+    "use_network": true,
+    "use_ai_triage": true,
+    "successful_query_count": 71,
+    "failed_query_count": 0,
+    "partial_results": false,
+    "ai_triage_success_count": 1,
+    "ai_triage_failure_count": 0
+  }
+}

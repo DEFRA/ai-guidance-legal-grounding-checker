@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata"
+             DocumentURI="http://www.legislation.gov.uk/uksi/2018/1"
+             IdURI="http://www.legislation.gov.uk/id/uksi/2018/1">
+  <ukm:Metadata>
+    <ukm:DocumentClassification>
+      <ukm:DocumentStatus Value="revised"/>
+    </ukm:DocumentClassification>
+  </ukm:Metadata>
+  <Title>No Effects Regulations</Title>
+  <Body>
+    <P1 id="regulation-1">
+      <Pnumber>1</Pnumber>
+      <P1para><Text>Nothing to see here.</Text></P1para>
+    </P1>
+  </Body>
+</Legislation>

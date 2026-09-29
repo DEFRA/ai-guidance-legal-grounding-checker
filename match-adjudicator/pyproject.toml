@@ -1,0 +1,47 @@
+[project]
+name = "match-adjudicator"
+version = "0.1.0"
+description = "Match Adjudicator — re-adjudicates Proposition Matcher's flagged findings with page context before Audit Assembler renders them"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.40",
+    "typer>=0.15",
+]
+
+[project.scripts]
+match-adjudicator = "match_adjudicator.cli:app"
+anna = "compat.legacy_cli:anna"  # COMPAT_LEGACY_NAME
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.29",
+    "pytest>=8.3",
+    "ruff>=0.9",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/match_adjudicator", "src/anna"]  # COMPAT_LEGACY_NAME
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.basedpyright]
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+include = ["src", "tests"]
+exclude = ["**/__pycache__"]
+reportMissingTypeStubs = false

@@ -1,0 +1,150 @@
+# explainability-diagram: source-version-and-effects
+# compatible-registry-version: 1
+# compatible-fixture-hash: 1773194120d6
+# authorship: hand-authored
+# title: Source version and legal-effect provenance
+# audience: lawyers, auditors, developers
+# purpose: Keep retrieval, manifestation, source-effects, and independent consumption distinct.
+# source-of-truth: docs/explainability/concepts.md; law_proposition_extractor_domain SourceManifestationType / OutstandingEffectsStatus / AffectingInstrumentConsumptionStatus
+
+direction: down
+
+classes: {
+  det: {
+    shape: rectangle
+    style: {
+      fill: "#ECFDF5"
+      stroke: "#166534"
+      stroke-width: 2
+      border-radius: 4
+      font-size: 12
+    }
+  }
+  status: {
+    shape: rectangle
+    style: {
+      fill: "#F0F9FF"
+      stroke: "#0369A1"
+      stroke-width: 2
+      border-radius: 4
+      font-size: 12
+    }
+  }
+  boundary: {
+    shape: rectangle
+    style: {
+      fill: "#FEF2F2"
+      stroke: "#B91C1C"
+      stroke-width: 3
+      border-radius: 6
+      font-size: 12
+      bold: true
+    }
+  }
+  section: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#94A3B8"
+      border-radius: 10
+    }
+  }
+  warn: {
+    shape: page
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#B45309"
+      font-size: 12
+    }
+  }
+}
+
+title: |md
+  **Source version and legal-effect provenance** — what the source reports vs what Law Proposition Extractor independently consumed
+|
+title.style.font-size: 15
+
+consume: {
+  label: "A. What Law Proposition Extractor consumed"
+  class: section
+
+  url: "[DET] Requested source URL"
+  url.class: det
+  snap: "[DET] Consumed SourceSnapshot\n(immutable bytes + hash)"
+  snap.class: det
+  manif: "[DET] Manifestation classification\n(original | revised | point_in_time |\nprospective | unknown)\n→ DecisionExplanation:\nprovenance.classify_manifestation"
+  manif.class: status
+  asof: "[DET] Legal as-of boundary\n(retrieval ≠ as-of;\nrevision ≠ as-of)\n→ provenance.preserve_as_of_unknown"
+  asof.class: status
+  frags: "[DET] Source fragments and propositions"
+  frags.class: det
+  why: "[DET] Why panel: Source and version\n(projects manifestation + as-of decisions)"
+  why.class: det
+
+  url -> snap -> manif -> asof -> frags
+  manif -> why
+  asof -> why
+}
+
+effects: {
+  label: "B. Source-reported legal effects (separate question)"
+  class: section
+
+  annot: "[DET] CLML source-effect annotation\n(source_legal_effects)\n→ source_effect.parse_authority_annotation"
+  annot.class: det
+  affecting: "[DET] Affecting instrument named by the source\n(citation / URI from annotation)"
+  affecting.class: det
+  outstanding: "[DET] Outstanding-effects status\n(source_reports_none |\nsource_reports_present |\nsource_status_unknown)\n→ source_effect.classify_outstanding_status"
+  outstanding.class: status
+  relevance: "[DET] Statement relevance\n(exact | structural_ancestor | exclude)\n→ Why panel: Source change annotations"
+  relevance.class: det
+
+  annot -> affecting
+  annot -> outstanding
+  annot -> relevance
+}
+
+independent: {
+  label: "C. Independent consumption (not implied by B)"
+  class: section
+
+  q: "Did Law Proposition Extractor separately consume\nthat affecting instrument?"
+  q.class: status
+  statuses: |md
+    Consumption statuses (implemented):
+    - consumed_in_current_run
+    - present_in_source_register_but_not_consumed
+    - not_matched
+    - not_assessed
+
+    Explained by `source_effect.assess_independent_consumption`
+    (visible in Why panel for relevant effects).
+  |
+  statuses.class: det
+
+  q -> statuses
+}
+
+boundaries: {
+  label: "Required ≠ boundaries (visually explicit)"
+  class: section
+
+  b1: "retrieval timestamp ≠ legal as-of date"
+  b1.class: boundary
+  b2: "revised manifestation ≠ Law Proposition Extractor independently applied every amendment"
+  b2.class: boundary
+  b3: "source-effect annotation ≠ independently consumed affecting instrument"
+  b3.class: boundary
+  b4: "consumed affecting instrument ≠ verified amendment application"
+  b4.class: boundary
+}
+
+caution: |md
+  **Do not assume completeness.** A revised manifestation means the publisher labelled the text revised.
+  It does not prove Law Proposition Extractor reconstructed every amendment or that outstanding effects were cleared.
+|
+caution.class: warn
+
+consume -> effects: "parsed from same snapshot XML"
+effects -> independent: "independent question"
+independent -> boundaries
+boundaries -> caution

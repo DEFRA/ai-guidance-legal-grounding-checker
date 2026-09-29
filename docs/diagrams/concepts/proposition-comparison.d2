@@ -1,0 +1,148 @@
+# Proposition comparison — conceptual model (not C1/C2, not an implementation diagram).
+# Status: generalisation DIRECTION. Current product implementation is Guidance → Law.
+# Visual pass: compact top-to-bottom; claims unchanged from abstraction audit.
+# Regenerate: just diagrams (repo root)
+# Detail lives in docs/architecture/proposition-comparison.md
+
+...@../shared/classes.d2
+
+direction: down
+
+title: |md
+  **Proposition comparison — conceptual model**
+  *Generalisation direction — current implementation is Guidance → Law*
+|
+title.style.font-size: 16
+
+# --- Main pattern (centre) -------------------------------------------------
+
+roles: {
+  label: "Roles (not symmetric)"
+  class: path
+  direction: right
+
+  subject_material: |md
+    **SUBJECT material**
+    What we are asking about
+  |
+  subject_material.class: artefact
+
+  reference_material: |md
+    **REFERENCE material**
+    Basis for the assessment
+  |
+  reference_material.class: artefact
+}
+
+props: {
+  label: "Propositions"
+  class: path
+  direction: right
+
+  subject_props: |md
+    **Subject propositions**
+    Claims being assessed
+  |
+  subject_props.class: artefact
+
+  reference_props: |md
+    **Reference propositions**
+    Comparison basis
+  |
+  reference_props.class: artefact
+}
+
+roles.subject_material -> props.subject_props
+roles.reference_material -> props.reference_props
+
+pattern: {
+  label: "Directional comparison pattern"
+  class: phase
+  direction: down
+
+  retrieve: |md
+    **Retrieve candidates**
+    For each subject, find relevant reference propositions
+  |
+  retrieve.class: process
+
+  assess: {
+    label: "Assess pairs"
+    class: path
+    direction: right
+
+    pair_step: |md
+      **Assess pairs**
+      One subject ↔ one reference
+    |
+    pair_step.class: process
+
+    semantics: |md
+      **Comparison semantics**
+      What question are we asking of each pair?
+      Vocabulary and rules vary by comparison type
+    |
+    semantics.class: external
+  }
+
+  aggregate: |md
+    **Aggregate for the subject**
+    Subject-level assessment from its pair results
+  |
+  aggregate.class: process
+
+  retrieve -> assess.pair_step
+  assess.pair_step -> aggregate
+}
+
+props.subject_props -> pattern.retrieve
+props.reference_props -> pattern.retrieve
+
+results: {
+  label: "Assessments"
+  class: path
+  direction: right
+
+  pair_assessment: |md
+    **Pair assessments**
+    Per subject/reference pair
+  |
+  pair_assessment.class: artefact
+
+  subject_assessment: |md
+    **Subject-level assessment**
+    Overall result for that subject proposition
+  |
+  subject_assessment.class: artefact
+}
+
+pattern.assess.pair_step -> results.pair_assessment
+pattern.aggregate -> results.subject_assessment
+
+# --- Specialisations (compact) ---------------------------------------------
+
+specialisations: {
+  label: "Specialisations"
+  class: phase
+  direction: down
+
+  implemented: |md
+    **Implemented today: Guidance → Law**
+    Subject = guidance propositions · Reference = law propositions
+    Pair semantics = guidance-vs-law accuracy / coverage
+    Real specialisation — not just configuration of a generic framework
+  |
+  implemented.class: system
+
+  future: |md
+    **Possible future specialisations**
+    Policy → Law · Law A → Law B · Guidance A → Guidance B
+    Require comparison-specific semantics / adaptation
+    Not plug-and-play into today's Matcher
+  |
+  future.class: external
+
+  implemented -> future
+}
+
+pattern -> specialisations.implemented: specialised as

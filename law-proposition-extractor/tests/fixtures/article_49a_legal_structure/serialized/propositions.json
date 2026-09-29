@@ -1,0 +1,491 @@
+[
+  {
+    "id": "prop:700e513c107639cf",
+    "proposition_key": "src-eur-2009-1224:frag-src-eur-2009-1224-006:p001",
+    "proposition_version_id": "pver:src-eur-2009-1224:frag-src-eur-2009-1224-006:p001:snap-src-eur-2009-1224-v1:run-001",
+    "observed_in_run_id": "run-001",
+    "topic_id": "topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224",
+    "cluster_id": "cluster-topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224-article-49a",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "source_fragment_id": "frag-src-eur-2009-1224-006",
+    "fragment_locator": "article:49a:paragraph:1:sentence:1",
+    "jurisdiction": "United Kingdom",
+    "source_jurisdiction": "UK",
+    "article_reference": "article 49a",
+    "proposition_text": "All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.",
+    "label": "Article 49a(1) \u2014 Segregation of sub-MCRS catches (identifiability requirement)",
+    "short_name": "United Kingdom fishing vessel operator retaining catches below minimum conservation reference size must place sub-MCRS\u2026",
+    "slug": "united-kingdom-fishing-vessel-operator-retaining-catches-below-minimum-conservation-reference-si",
+    "legal_subject": "United Kingdom fishing vessel operator retaining catches below minimum conservation reference size",
+    "action": "must place sub-MCRS catches in boxes, compartments or containers so that they are identifiable from other boxes, compartments or containers",
+    "conditions": [
+      "catches are below the applicable minimum conservation reference size",
+      "catches are retained on board a United Kingdom fishing vessel"
+    ],
+    "authority": null,
+    "required_documents": [],
+    "affected_subjects": [
+      "catches below the applicable minimum conservation reference size retained on board"
+    ],
+    "categories": [],
+    "tags": [
+      "catches-below-the-applicable-minimum-conservation-reference-size-retained-on-board",
+      "conditional",
+      "united-kingdom",
+      "united-kingdom-fishing-vessel-operator-retaining-catches-below-minimum-conservation-reference-size"
+    ],
+    "cross_reference_key": "lex-c694344e5e1afe:obligation:united_kingdom_fishing_vessel_operator_retaining_catches_must_place_sub_mcrs_cat",
+    "source_scoped_key": "lex-c694344e5e1afe:obligation:united_kingdom_fishing_vessel_operator_retaining_catches_must_place_sub_mcrs_cat",
+    "semantic_comparison_key": "obligation:united_kingdom_fishing_vessel_operator_retaining_catches_must_place_sub_mcrs_cat",
+    "explicit_cross_reference_targets": [],
+    "cross_reference_targets": [],
+    "review_status": "proposed",
+    "notes": "First sentence of Article 49a(1) imposes a clear, self-contained obligation on vessel operators regarding physical segregation and identifiability of sub-MCRS catches.",
+    "proposition_tier": "substantive_rule",
+    "legal_effect_type": "obligation",
+    "territorial_application": [],
+    "extent": [],
+    "is_compliance_relevant": true,
+    "is_comparison_anchor": true,
+    "review_notes": "First sentence of Article 49a(1) imposes a clear, self-contained obligation on vessel operators regarding physical segregation and identifiability of sub-MCRS catches.",
+    "extraction_trace_id": "extract-trace:4ce7010273f3ebd0",
+    "extraction_debug_meta": {
+      "extraction_mode": "frontier",
+      "model_alias": "frontier_extract",
+      "fallback_policy": "fail_closed",
+      "fallback_used": false,
+      "validation_errors": [],
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "extraction_chunk_count": 1,
+      "estimated_input_tokens_max": 1241,
+      "provision_type": "core",
+      "completeness_status": "complete",
+      "model_confidence": "high",
+      "evidence_quote": "All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers.",
+      "evidence_match_strategy": "whitespace_quote_fold_lc_substring_match",
+      "trace_warnings": []
+    }
+  },
+  {
+    "id": "prop:0aee10e5464a0577",
+    "proposition_key": "src-eur-2009-1224:frag-src-eur-2009-1224-006:p002",
+    "proposition_version_id": "pver:src-eur-2009-1224:frag-src-eur-2009-1224-006:p002:snap-src-eur-2009-1224-v1:run-001",
+    "observed_in_run_id": "run-001",
+    "topic_id": "topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224",
+    "cluster_id": "cluster-topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224-article-49a",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "source_fragment_id": "frag-src-eur-2009-1224-006",
+    "fragment_locator": "article:49a:paragraph:1:sentence:2",
+    "jurisdiction": "United Kingdom",
+    "source_jurisdiction": "UK",
+    "article_reference": "article 49a",
+    "proposition_text": "Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel must not be mixed with any other fishery products.",
+    "label": "Article 49a(1) \u2014 Prohibition on mixing sub-MCRS catches with other fishery products",
+    "short_name": "United Kingdom fishing vessel operator retaining catches below minimum conservation reference size must not mix sub-MCR\u2026",
+    "slug": "united-kingdom-fishing-vessel-operator-retaining-catches-below-minimum-conservation-reference-si",
+    "legal_subject": "United Kingdom fishing vessel operator retaining catches below minimum conservation reference size",
+    "action": "must not mix sub-MCRS catches with any other fishery products",
+    "conditions": [
+      "catches are below the applicable minimum conservation reference size",
+      "catches are retained on board a United Kingdom fishing vessel"
+    ],
+    "authority": null,
+    "required_documents": [],
+    "affected_subjects": [
+      "catches below the applicable minimum conservation reference size retained on board"
+    ],
+    "categories": [],
+    "tags": [
+      "catches-below-the-applicable-minimum-conservation-reference-size-retained-on-board",
+      "conditional",
+      "united-kingdom",
+      "united-kingdom-fishing-vessel-operator-retaining-catches-below-minimum-conservation-reference-size"
+    ],
+    "cross_reference_key": "lex-c694344e5e1afe:prohibition:united_kingdom_fishing_vessel_operator_retaining_catches_must_not_mix_sub_mcrs_c",
+    "source_scoped_key": "lex-c694344e5e1afe:prohibition:united_kingdom_fishing_vessel_operator_retaining_catches_must_not_mix_sub_mcrs_c",
+    "semantic_comparison_key": "prohibition:united_kingdom_fishing_vessel_operator_retaining_catches_must_not_mix_sub_mcrs_c",
+    "explicit_cross_reference_targets": [],
+    "cross_reference_targets": [],
+    "review_status": "proposed",
+    "notes": "Second sentence of Article 49a(1) imposes a distinct prohibition \u2014 no mixing with other fishery products \u2014 which is legally separate from the identifiability/segregation obligation in the first sentence and warrants its own proposition.",
+    "proposition_tier": "substantive_rule",
+    "legal_effect_type": "prohibition",
+    "territorial_application": [],
+    "extent": [],
+    "is_compliance_relevant": true,
+    "is_comparison_anchor": true,
+    "review_notes": "Second sentence of Article 49a(1) imposes a distinct prohibition \u2014 no mixing with other fishery products \u2014 which is legally separate from the identifiability/segregation obligation in the first sentence and warrants its own proposition.",
+    "extraction_trace_id": "extract-trace:c16d7df6ab731f15",
+    "extraction_debug_meta": {
+      "extraction_mode": "frontier",
+      "model_alias": "frontier_extract",
+      "fallback_policy": "fail_closed",
+      "fallback_used": false,
+      "validation_errors": [],
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "extraction_chunk_count": 1,
+      "estimated_input_tokens_max": 1241,
+      "provision_type": "core",
+      "completeness_status": "complete",
+      "model_confidence": "high",
+      "evidence_quote": "Those catches shall not be mixed with any other fishery products.",
+      "evidence_match_strategy": "whitespace_quote_fold_lc_substring_match",
+      "trace_warnings": []
+    }
+  },
+  {
+    "id": "prop:0e651904382dad28",
+    "proposition_key": "src-eur-2009-1224:frag-src-eur-2009-1224-007:p001",
+    "proposition_version_id": "pver:src-eur-2009-1224:frag-src-eur-2009-1224-007:p001:snap-src-eur-2009-1224-v1:run-001",
+    "observed_in_run_id": "run-001",
+    "topic_id": "topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224",
+    "cluster_id": "cluster-topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224-article-49a",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "source_fragment_id": "frag-src-eur-2009-1224-007",
+    "fragment_locator": "article:49a:paragraph:2:subparagraph:a:item:i",
+    "jurisdiction": "United Kingdom",
+    "source_jurisdiction": "UK",
+    "article_reference": "article 49a",
+    "proposition_text": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more small pelagic species (mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat).",
+    "label": "Art. 49a(2)(a)(i) \u2014 Small pelagic species exception",
+    "short_name": "Paragraph 1 shall not apply",
+    "slug": "paragraph-1-shall-not-apply",
+    "legal_subject": "Paragraph 1",
+    "action": "shall not apply",
+    "conditions": [
+      "catches contain more than 80% of one or more of: mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat"
+    ],
+    "authority": null,
+    "required_documents": [],
+    "affected_subjects": [
+      "catches containing more than 80% of one or more small pelagic species"
+    ],
+    "categories": [],
+    "tags": [
+      "catches-containing-more-than-80-of-one-or-more-small-pelagic-species",
+      "conditional",
+      "paragraph-1",
+      "united-kingdom"
+    ],
+    "cross_reference_key": "lex-c694344e5e1afe:derogation:shall_not_apply",
+    "source_scoped_key": "lex-c694344e5e1afe:derogation:shall_not_apply",
+    "semantic_comparison_key": "derogation:shall_not_apply",
+    "explicit_cross_reference_targets": [],
+    "cross_reference_targets": [
+      "prop:4f1c02b9aa8931ca",
+      "prop:a59c469e896bdc42"
+    ],
+    "review_status": "proposed",
+    "notes": "Terminal leaf (a)(i) carries forward the governing stem 'Paragraph 1 shall not apply' and the intermediate branch condition of >80% species composition; proposition is self-contained.",
+    "proposition_tier": "substantive_rule",
+    "legal_effect_type": "derogation",
+    "territorial_application": [],
+    "extent": [],
+    "is_compliance_relevant": false,
+    "is_comparison_anchor": true,
+    "review_notes": "Terminal leaf (a)(i) carries forward the governing stem 'Paragraph 1 shall not apply' and the intermediate branch condition of >80% species composition; proposition is self-contained.",
+    "extraction_trace_id": "extract-trace:5b16fba2032ea133",
+    "extraction_debug_meta": {
+      "extraction_mode": "frontier",
+      "model_alias": "frontier_extract",
+      "fallback_policy": "fail_closed",
+      "fallback_used": false,
+      "validation_errors": [],
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "extraction_chunk_count": 1,
+      "estimated_input_tokens_max": 1313,
+      "provision_type": "exception",
+      "completeness_status": "complete",
+      "model_confidence": "high",
+      "evidence_quote": "Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries)",
+      "evidence_match_strategy": "whitespace_quote_fold_lc_substring_match",
+      "trace_warnings": [],
+      "composition_basis": "structured_list_leaf",
+      "parent_context": "Paragraph 1 shall not apply:",
+      "branch_context": "where the catches contain more than 80% of one or more of the following species",
+      "list_marker": "(a)->(i)",
+      "structured_list_path": "2-a-i",
+      "source_component_locators": [
+        {
+          "role": "stem",
+          "locator_suffix": "stem",
+          "text": "Paragraph 1 shall not apply:"
+        },
+        {
+          "role": "branch",
+          "locator_suffix": "point:(a)",
+          "text": "where the catches contain more than 80% of one or more of the following species"
+        },
+        {
+          "role": "leaf",
+          "locator_suffix": "point:(a):point:(i)",
+          "text": "mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "prop:4f1c02b9aa8931ca",
+    "proposition_key": "src-eur-2009-1224:frag-src-eur-2009-1224-007:p002",
+    "proposition_version_id": "pver:src-eur-2009-1224:frag-src-eur-2009-1224-007:p002:snap-src-eur-2009-1224-v1:run-001",
+    "observed_in_run_id": "run-001",
+    "topic_id": "topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224",
+    "cluster_id": "cluster-topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224-article-49a",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "source_fragment_id": "frag-src-eur-2009-1224-007",
+    "fragment_locator": "article:49a:paragraph:2:subparagraph:a:item:ii",
+    "jurisdiction": "United Kingdom",
+    "source_jurisdiction": "UK",
+    "article_reference": "article 49a",
+    "proposition_text": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more species used for industrial purposes (capelin, sandeel, Norwegian pout).",
+    "label": "Art. 49a(2)(a)(ii) \u2014 Industrial fisheries species exception",
+    "short_name": "Paragraph 1 shall not apply",
+    "slug": "paragraph-1-shall-not-apply",
+    "legal_subject": "Paragraph 1",
+    "action": "shall not apply",
+    "conditions": [
+      "catches contain more than 80% of one or more of: capelin, sandeel, Norwegian pout"
+    ],
+    "authority": null,
+    "required_documents": [],
+    "affected_subjects": [
+      "catches containing more than 80% of one or more industrial-purpose species"
+    ],
+    "categories": [],
+    "tags": [
+      "catches-containing-more-than-80-of-one-or-more-industrial-purpose-species",
+      "conditional",
+      "paragraph-1",
+      "united-kingdom"
+    ],
+    "cross_reference_key": "lex-c694344e5e1afe:derogation:shall_not_apply",
+    "source_scoped_key": "lex-c694344e5e1afe:derogation:shall_not_apply",
+    "semantic_comparison_key": "derogation:shall_not_apply",
+    "explicit_cross_reference_targets": [],
+    "cross_reference_targets": [
+      "prop:0e651904382dad28",
+      "prop:a59c469e896bdc42"
+    ],
+    "review_status": "proposed",
+    "notes": "Terminal leaf (a)(ii) is legally distinct from (a)(i) in species enumeration and fishery category; governing stem and branch condition carried forward from (a).",
+    "proposition_tier": "substantive_rule",
+    "legal_effect_type": "derogation",
+    "territorial_application": [],
+    "extent": [],
+    "is_compliance_relevant": false,
+    "is_comparison_anchor": true,
+    "review_notes": "Terminal leaf (a)(ii) is legally distinct from (a)(i) in species enumeration and fishery category; governing stem and branch condition carried forward from (a).",
+    "extraction_trace_id": "extract-trace:bcb68c9a5e480644",
+    "extraction_debug_meta": {
+      "extraction_mode": "frontier",
+      "model_alias": "frontier_extract",
+      "fallback_policy": "fail_closed",
+      "fallback_used": false,
+      "validation_errors": [],
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "extraction_chunk_count": 1,
+      "estimated_input_tokens_max": 1313,
+      "provision_type": "exception",
+      "completeness_status": "complete",
+      "model_confidence": "high",
+      "evidence_quote": "(ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes)",
+      "evidence_match_strategy": "whitespace_quote_fold_lc_substring_match",
+      "trace_warnings": [],
+      "composition_basis": "structured_list_leaf",
+      "parent_context": "Paragraph 1 shall not apply:",
+      "branch_context": "where the catches contain more than 80% of one or more of the following species",
+      "list_marker": "(a)->(ii)",
+      "structured_list_path": "2-a-ii",
+      "source_component_locators": [
+        {
+          "role": "stem",
+          "locator_suffix": "stem",
+          "text": "Paragraph 1 shall not apply:"
+        },
+        {
+          "role": "branch",
+          "locator_suffix": "point:(a)",
+          "text": "where the catches contain more than 80% of one or more of the following species"
+        },
+        {
+          "role": "leaf",
+          "locator_suffix": "point:(a):point:(ii)",
+          "text": "capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "prop:a59c469e896bdc42",
+    "proposition_key": "src-eur-2009-1224:frag-src-eur-2009-1224-007:p003",
+    "proposition_version_id": "pver:src-eur-2009-1224:frag-src-eur-2009-1224-007:p003:snap-src-eur-2009-1224-v1:run-001",
+    "observed_in_run_id": "run-001",
+    "topic_id": "topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224",
+    "cluster_id": "cluster-topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224-article-49a",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "source_fragment_id": "frag-src-eur-2009-1224-007",
+    "fragment_locator": "article:49a:paragraph:2:subparagraph:b",
+    "jurisdiction": "United Kingdom",
+    "source_jurisdiction": "UK",
+    "article_reference": "article 49a",
+    "proposition_text": "Paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+    "label": "Art. 49a(2)(b) \u2014 Small vessel exception",
+    "short_name": "Paragraph 1 shall not apply",
+    "slug": "paragraph-1-shall-not-apply",
+    "legal_subject": "Paragraph 1",
+    "action": "shall not apply",
+    "conditions": [
+      "fishing vessel is less than 12 metres' length overall",
+      "catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation"
+    ],
+    "authority": null,
+    "required_documents": [
+      "record"
+    ],
+    "affected_subjects": [
+      "fishing vessels of less than 12 metres' length overall"
+    ],
+    "categories": [],
+    "tags": [
+      "conditional",
+      "documentary",
+      "fishing-vessels-of-less-than-12-metres-length-overall",
+      "paragraph-1",
+      "record_keeping",
+      "united-kingdom"
+    ],
+    "cross_reference_key": "lex-c694344e5e1afe:derogation:shall_not_apply",
+    "source_scoped_key": "lex-c694344e5e1afe:derogation:shall_not_apply",
+    "semantic_comparison_key": "derogation:shall_not_apply",
+    "explicit_cross_reference_targets": [
+      "article 14",
+      "paragraph 1"
+    ],
+    "cross_reference_targets": [
+      "prop:0e651904382dad28",
+      "prop:4f1c02b9aa8931ca"
+    ],
+    "review_status": "proposed",
+    "notes": "Subparagraph (b) is legally distinct from (a)(i) and (a)(ii) \u2014 it applies a vessel-length criterion combined with a recording compliance condition rather than a species-composition threshold.",
+    "proposition_tier": "substantive_rule",
+    "legal_effect_type": "derogation",
+    "territorial_application": [],
+    "extent": [],
+    "is_compliance_relevant": false,
+    "is_comparison_anchor": true,
+    "review_notes": "Subparagraph (b) is legally distinct from (a)(i) and (a)(ii) \u2014 it applies a vessel-length criterion combined with a recording compliance condition rather than a species-composition threshold.",
+    "extraction_trace_id": "extract-trace:809c1fbcbb405713",
+    "extraction_debug_meta": {
+      "extraction_mode": "frontier",
+      "model_alias": "frontier_extract",
+      "fallback_policy": "fail_closed",
+      "fallback_used": false,
+      "validation_errors": [],
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "extraction_chunk_count": 1,
+      "estimated_input_tokens_max": 1313,
+      "provision_type": "exception",
+      "completeness_status": "complete",
+      "model_confidence": "high",
+      "evidence_quote": "to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+      "evidence_match_strategy": "whitespace_quote_fold_lc_substring_match",
+      "trace_warnings": [],
+      "composition_basis": "structured_list_leaf",
+      "parent_context": "Paragraph 1 shall not apply:",
+      "list_marker": "(b)",
+      "structured_list_path": "2-b",
+      "source_component_locators": [
+        {
+          "role": "stem",
+          "locator_suffix": "stem",
+          "text": "Paragraph 1 shall not apply:"
+        },
+        {
+          "role": "leaf",
+          "locator_suffix": "point:(b)",
+          "text": "to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation."
+        }
+      ]
+    }
+  },
+  {
+    "id": "prop:36cacb6e3e555066",
+    "proposition_key": "src-eur-2009-1224:frag-src-eur-2009-1224-010:p001",
+    "proposition_version_id": "pver:src-eur-2009-1224:frag-src-eur-2009-1224-010:p001:snap-src-eur-2009-1224-v1:run-001",
+    "observed_in_run_id": "run-001",
+    "topic_id": "topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224",
+    "cluster_id": "cluster-topic-article-49a-acceptance-after-qualified-reference-relationships-eur-2009-1224-article-49a",
+    "source_record_id": "src-eur-2009-1224",
+    "source_snapshot_id": "snap-src-eur-2009-1224-v1",
+    "source_fragment_id": "frag-src-eur-2009-1224-010",
+    "fragment_locator": "article:49a:paragraph:3",
+    "jurisdiction": "United Kingdom",
+    "source_jurisdiction": "UK",
+    "article_reference": "article 49a",
+    "proposition_text": "In the cases referred to in Article 49a(2), a fisheries administration must monitor the catch composition by way of sampling.",
+    "label": "Article 49a(3) \u2014 Mandatory catch composition monitoring by sampling",
+    "short_name": "fisheries administration must monitor the catch composition by way of sampling",
+    "slug": "fisheries-administration-must-monitor-the-catch-composition-by-way-of-sampling",
+    "legal_subject": "fisheries administration",
+    "action": "must monitor the catch composition by way of sampling",
+    "conditions": [
+      "The case falls within one of the cases referred to in paragraph 2 of Article 49a"
+    ],
+    "authority": null,
+    "required_documents": [],
+    "affected_subjects": [
+      "catch composition"
+    ],
+    "categories": [],
+    "tags": [
+      "catch-composition",
+      "conditional",
+      "fisheries-administration",
+      "united-kingdom"
+    ],
+    "cross_reference_key": "lex-c694344e5e1afe:obligation:fisheries_administration_must_monitor_the_catch_composition_by_way_of_sampling",
+    "source_scoped_key": "lex-c694344e5e1afe:obligation:fisheries_administration_must_monitor_the_catch_composition_by_way_of_sampling",
+    "semantic_comparison_key": "obligation:fisheries_administration_must_monitor_the_catch_composition_by_way_of_sampling",
+    "explicit_cross_reference_targets": [
+      "article 49a"
+    ],
+    "cross_reference_targets": [],
+    "review_status": "proposed",
+    "notes": "The obligation is clear and self-contained within paragraph 3, but its triggering conditions are defined by cross-reference to paragraph 2, making it context_dependent for full application. No omissions required as only one legally distinct proposition is present in this fragment.",
+    "proposition_tier": "substantive_rule",
+    "legal_effect_type": "obligation",
+    "territorial_application": [],
+    "extent": [],
+    "is_compliance_relevant": true,
+    "is_comparison_anchor": true,
+    "review_notes": "The obligation is clear and self-contained within paragraph 3, but its triggering conditions are defined by cross-reference to paragraph 2, making it context_dependent for full application. No omissions required as only one legally distinct proposition is present in this fragment.",
+    "extraction_trace_id": "extract-trace:772b9dcbde3f7a2e",
+    "extraction_debug_meta": {
+      "extraction_mode": "frontier",
+      "model_alias": "frontier_extract",
+      "fallback_policy": "fail_closed",
+      "fallback_used": false,
+      "validation_errors": [],
+      "prompt_version": "v2",
+      "schema_version": "v2",
+      "extraction_chunk_count": 1,
+      "estimated_input_tokens_max": 1174,
+      "provision_type": "core",
+      "completeness_status": "context_dependent",
+      "model_confidence": "high",
+      "evidence_quote": "In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+      "evidence_match_strategy": "whitespace_quote_fold_lc_substring_match",
+      "trace_warnings": []
+    }
+  }
+]

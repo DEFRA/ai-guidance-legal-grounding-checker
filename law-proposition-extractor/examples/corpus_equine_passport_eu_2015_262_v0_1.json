@@ -1,0 +1,66 @@
+{
+  "corpus_id": "equine_law",
+  "focus_scopes": [
+    "equine",
+    "equidae",
+    "equid",
+    "horse",
+    "passport",
+    "identification"
+  ],
+  "focus_terms": [
+    "equidae",
+    "equine",
+    "identification document",
+    "passport",
+    "issuing body",
+    "competent authority",
+    "database",
+    "transponder",
+    "duplicate identification document",
+    "replacement identification document",
+    "slaughter",
+    "movement",
+    "food chain",
+    "veterinary medicinal product"
+  ],
+  "include_annexes": true,
+  "fragment_selection_mode": "required_only",
+  "required_fragment_locators": [
+    "article:1",
+    "article:2",
+    "article:4",
+    "article:5",
+    "article:6",
+    "article:7",
+    "article:9",
+    "article:11",
+    "article:12",
+    "article:23",
+    "article:27",
+    "article:29",
+    "article:32",
+    "annex:i",
+    "annex:ii",
+    "annex:iii"
+  ],
+  "max_propositions_per_source": 8,
+  "extraction_mode": "frontier",
+  "extraction_fallback": "mark_needs_review",
+  "model_error_policy": "continue_repairable",
+  "divergence_reasoning": "none",
+  "equine_source_universe_path": "examples/equine_source_universe.json",
+  "corpus_profile_id": "equine_passport_eu_2015_262_v0_1",
+  "related_source_discovery": {
+    "enabled": false
+  },
+  "run_recommendation": "Use this first for interactive frontier extraction of the EU passport baseline. Minimal, high-signal, lowest-cost staged run.",
+  "inclusion_criteria": [
+    "Staged passport-only profile: equine_passport_eu_2015_262_v0_1."
+  ],
+  "exclusion_criteria": [
+    "Broad movement/import/trade instruments and official-controls sources are excluded from this staged passport profile.",
+    "Claims of complete equine law coverage"
+  ],
+  "source_case_path": "examples/equine_passport_eu_2015_262_case.json"
+}

@@ -1,0 +1,42 @@
+model_list:
+  - model_name: local_embed
+    litellm_params:
+      model: openai/nomic-embed-text:v1.5
+      api_base: http://127.0.0.1:11434/v1
+      api_key: ollama
+
+  - model_name: local_extract
+    litellm_params:
+      model: ollama/llama3.1:8b
+      api_base: http://127.0.0.1:11434
+
+  - model_name: local_classify
+    litellm_params:
+      model: ollama/qwen3:14b
+      api_base: http://127.0.0.1:11434
+
+  - model_name: frontier_reason
+    litellm_params:
+      model: openai/gpt-4.1
+      api_key: "os.environ/OPENAI_API_KEY"
+
+  - model_name: frontier_writeup
+    litellm_params:
+      model: openai/gpt-4.1-mini
+      api_key: "os.environ/OPENAI_API_KEY"
+
+  - model_name: claude_haiku
+    litellm_params:
+      model: anthropic/claude-haiku-4-5-20251001
+      api_key: "os.environ/ANTHROPIC_API_KEY"
+
+  - model_name: claude_sonnet
+    litellm_params:
+      model: anthropic/claude-sonnet-4-6
+      api_key: "os.environ/ANTHROPIC_API_KEY"
+
+litellm_settings:
+  drop_params: true
+
+general_settings:
+  master_key: "os.environ/LITELLM_MASTER_KEY"

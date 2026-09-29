@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.env
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Frozen Guidance Discovery corpus (see docs/updating-the-corpus.md)
+data/corpus/**/with_body.json
+data/corpus/**/funnel.json
+data/corpus/**/stem_index/
+data/corpus/**/embed_index/
+
+# Local job store
+data/jobs/

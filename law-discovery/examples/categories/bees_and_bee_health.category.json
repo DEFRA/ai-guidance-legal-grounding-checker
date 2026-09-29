@@ -1,0 +1,48 @@
+{
+  "category_id": "bees_and_bee_health",
+  "label": "Bees and bee health traceability",
+  "description": "Honey bee and pollinator identification using hive registration, apiary records, beekeeper registration, and inspection records. Covers pest and disease control, import biosecurity, pollinator resilience, and ecosystem health including Varroa mites and exotic bee diseases.",
+  "synonyms": [
+    "bee",
+    "bees",
+    "honey bee",
+    "honey bees",
+    "pollinator",
+    "pollinators",
+    "hive registration",
+    "apiary",
+    "apiaries",
+    "apiary records",
+    "beekeeper",
+    "beekeeper registration",
+    "bee inspection",
+    "inspection records",
+    "bee health",
+    "pest control",
+    "disease control",
+    "import biosecurity",
+    "Varroa",
+    "Varroa mite",
+    "exotic bee disease",
+    "small hive beetle",
+    "Tropilaelaps"
+  ],
+  "exclusions": [
+    "honey food labelling only",
+    "bee tourism",
+    "candles marketing only"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland",
+    "Northern Ireland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "bees_and_bee_health",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

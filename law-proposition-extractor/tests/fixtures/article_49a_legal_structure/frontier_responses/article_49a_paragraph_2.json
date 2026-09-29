@@ -1,0 +1,59 @@
+{
+  "propositions": [
+    {
+      "proposition_text": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more small pelagic species (mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat).",
+      "display_label": "Art. 49a(2)(a)(i) — Small pelagic species exception",
+      "subject": "Paragraph 1",
+      "rule": "shall not apply",
+      "object": "catches containing more than 80% of one or more small pelagic species",
+      "conditions": [
+        "catches contain more than 80% of one or more of: mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat"
+      ],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "exception",
+      "source_locator": "article:49a:paragraph:2:subparagraph:a:item:i",
+      "evidence_text": "Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species— (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries)",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Terminal leaf (a)(i) carries forward the governing stem 'Paragraph 1 shall not apply' and the intermediate branch condition of >80% species composition; proposition is self-contained."
+    },
+    {
+      "proposition_text": "Paragraph 1 shall not apply where the catches contain more than 80% of one or more species used for industrial purposes (capelin, sandeel, Norwegian pout).",
+      "display_label": "Art. 49a(2)(a)(ii) — Industrial fisheries species exception",
+      "subject": "Paragraph 1",
+      "rule": "shall not apply",
+      "object": "catches containing more than 80% of one or more industrial-purpose species",
+      "conditions": [
+        "catches contain more than 80% of one or more of: capelin, sandeel, Norwegian pout"
+      ],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "exception",
+      "source_locator": "article:49a:paragraph:2:subparagraph:a:item:ii",
+      "evidence_text": "(ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes)",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Terminal leaf (a)(ii) is legally distinct from (a)(i) in species enumeration and fishery category; governing stem and branch condition carried forward from (a)."
+    },
+    {
+      "proposition_text": "Paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+      "display_label": "Art. 49a(2)(b) — Small vessel exception",
+      "subject": "Paragraph 1",
+      "rule": "shall not apply",
+      "object": "fishing vessels of less than 12 metres' length overall",
+      "conditions": [
+        "fishing vessel is less than 12 metres' length overall",
+        "catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation"
+      ],
+      "exceptions": [],
+      "temporal_condition": "",
+      "provision_type": "exception",
+      "source_locator": "article:49a:paragraph:2:subparagraph:b",
+      "evidence_text": "to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+      "completeness_status": "complete",
+      "confidence": "high",
+      "reason": "Subparagraph (b) is legally distinct from (a)(i) and (a)(ii) — it applies a vessel-length criterion combined with a recording compliance condition rather than a species-composition threshold."
+    }
+  ]
+}

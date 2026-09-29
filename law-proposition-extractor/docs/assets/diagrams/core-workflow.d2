@@ -1,0 +1,129 @@
+direction: down
+
+classes: {
+  tier: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#CBD5E1"
+      stroke-width: 1
+      border-radius: 12
+    }
+  }
+  source: {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#64748B"
+      border-radius: 8
+    }
+  }
+  core: {
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#4338CA"
+      stroke-width: 2
+      border-radius: 8
+    }
+  }
+  review: {
+    style: {
+      fill: "#F0F9FF"
+      stroke: "#0369A1"
+      border-radius: 8
+    }
+  }
+  output: {
+    style: {
+      fill: "#ECFDF5"
+      stroke: "#059669"
+      border-radius: 8
+    }
+  }
+}
+
+authoritative_sources: {
+  label: "Authoritative legal sources"
+  class: tier
+  direction: right
+
+  legislation: "Legislation and statutory instruments"
+  regulators: "Regulatory and policy publications"
+  official_guidance: "Official guidance and updates"
+}
+
+source_first_substrate: {
+  label: "Source-first substrate"
+  class: tier
+  direction: right
+
+  source_record: "SourceRecord"
+  source_record.class: source
+
+  source_snapshot: "SourceSnapshot"
+  source_snapshot.class: source
+
+  source_fragment: "SourceFragment"
+  source_fragment.class: source
+}
+
+proposition_first_workflow: {
+  label: "Proposition-first workflow"
+  class: tier
+  direction: right
+
+  proposition_extraction: "Proposition extraction"
+  proposition_extraction.class: core
+
+  proposition_inventory: "Proposition inventory"
+  proposition_inventory.class: core
+}
+
+reviewable_context: {
+  label: "Reviewable evidence and context"
+  class: tier
+  direction: right
+
+  evidence_context: "Evidence/context"
+  evidence_context.class: review
+
+  review_decisions: "Review decisions"
+  review_decisions.class: review
+}
+
+outputs: {
+  label: "Outputs"
+  class: tier
+  direction: right
+
+  proposition_outputs: "Proposition outputs"
+  proposition_outputs.class: output
+
+  divergence_observation: "DivergenceObservation"
+  divergence_observation.class: source
+
+  divergence_finding: "DivergenceFinding"
+  divergence_finding.class: source
+
+  divergence_outputs: "Divergence outputs"
+  divergence_outputs.class: output
+}
+
+authoritative_sources.legislation -> source_first_substrate.source_record: "register"
+authoritative_sources.regulators -> source_first_substrate.source_record: "register"
+authoritative_sources.official_guidance -> source_first_substrate.source_record: "register"
+
+source_first_substrate.source_record -> source_first_substrate.source_snapshot: "versioned retrieval"
+source_first_substrate.source_snapshot -> source_first_substrate.source_fragment: "traceable segmentation"
+
+source_first_substrate.source_fragment -> proposition_first_workflow.proposition_extraction: "grounded extraction"
+proposition_first_workflow.proposition_extraction -> proposition_first_workflow.proposition_inventory: "structured inventory"
+
+source_first_substrate.source_fragment -> reviewable_context.evidence_context: "source traceability"
+proposition_first_workflow.proposition_inventory -> reviewable_context.evidence_context: "proposition context"
+reviewable_context.evidence_context -> reviewable_context.review_decisions: "human review"
+reviewable_context.review_decisions -> proposition_first_workflow.proposition_inventory: "review state"
+
+proposition_first_workflow.proposition_inventory -> outputs.proposition_outputs: "primary outputs"
+
+proposition_first_workflow.proposition_inventory -> outputs.divergence_observation: "optional downstream branch"
+outputs.divergence_observation -> outputs.divergence_finding: "group and classify"
+outputs.divergence_finding -> outputs.divergence_outputs: "comparative outputs"

@@ -1,0 +1,365 @@
+{
+  "strategy_versions": {
+    "proposition_extraction": "v2-structured-list-round-robin"
+  },
+  "topic": {
+    "name": "Horse import — identification, traceability, and trade (UK / EU)",
+    "description": "Curated legislation.gov.uk instruments for equine identification (devolved and EU retained/assimilated) and animal import / trade / official controls (EU Exit amendments). Sources are authority-fetched from legislation.gov.uk data.xml at pipeline run.",
+    "subject_tags": [
+      "equine",
+      "horse-import",
+      "identification",
+      "trade",
+      "official-controls",
+      "animal-health"
+    ]
+  },
+  "cluster": {
+    "name": "animal_identification_traceability",
+    "description": "Identification, registration, import, trade, and movement-related duties."
+  },
+  "extraction": {
+    "focus_scopes": [
+      "equine",
+      "equidae",
+      "equid",
+      "horse"
+    ],
+    "max_propositions_per_source": 16,
+    "mode": "frontier",
+    "fallback_policy": "mark_needs_review",
+    "divergence_reasoning": "none"
+  },
+  "corpus_profile_id": "equine_full_ingestion_all_21",
+  "equine_source_universe_ref": {
+    "path": "examples/equine_source_universe.json",
+    "universe_id": "equine_import_identification_trade_v1"
+  },
+  "corpus_run_guard": {
+    "tier": "full_universe",
+    "universe_instrument_count": 21,
+    "requires_explicit_confirmation": true
+  },
+  "sources": [
+    {
+      "id": "horse-import-uksi-2018-761",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2018/761",
+      "title": "The Equine Identification (England) Regulations 2018",
+      "version_id": "2018-06-22",
+      "as_of_date": "2018-06-22",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "equine_identification",
+          "jurisdiction_hint": "England"
+        }
+      }
+    },
+    {
+      "id": "horse-import-uksi-2018-1409",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2018/1409",
+      "title": "The Equine Identification (England) (Amendment) (EU Exit) Regulations 2018",
+      "version_id": "2018-12-20",
+      "as_of_date": "2018-12-20",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "equine_identification",
+          "jurisdiction_hint": "England"
+        }
+      }
+    },
+    {
+      "id": "horse-import-wsi-2019-57",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "wsi/2019/57",
+      "title": "The Equine Identification (Wales) Regulations 2019",
+      "version_id": "2019-01-15",
+      "as_of_date": "2019-01-15",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "equine_identification",
+          "jurisdiction_hint": "Wales"
+        }
+      }
+    },
+    {
+      "id": "horse-import-wsi-2019-250",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "wsi/2019/250",
+      "title": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2019",
+      "version_id": "2019-02-11",
+      "as_of_date": "2019-02-11",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "equine_identification",
+          "jurisdiction_hint": "Wales"
+        }
+      }
+    },
+    {
+      "id": "horse-import-wsi-2020-1240",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "wsi/2020/1240",
+      "title": "The Equine Identification (Wales) (Amendment) (EU Exit) Regulations 2020",
+      "version_id": "2020-11-06",
+      "as_of_date": "2020-11-06",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "equine_identification",
+          "jurisdiction_hint": "Wales"
+        }
+      }
+    },
+    {
+      "id": "horse-import-ssi-2019-30",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "ssi/2019/30",
+      "title": "The Equine Animal (Identification) (Scotland) Regulations 2019",
+      "version_id": "2019-02-05",
+      "as_of_date": "2019-02-05",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "equine_identification",
+          "jurisdiction_hint": "Scotland"
+        }
+      }
+    },
+    {
+      "id": "horse-import-ssi-2019-71",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "ssi/2019/71",
+      "title": "The Animal Health (EU Exit) (Scotland) (Amendment) Regulations 2019",
+      "version_id": "2019-02-26",
+      "as_of_date": "2019-02-26",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "eu_exit_amendment",
+          "jurisdiction_hint": "Scotland"
+        }
+      }
+    },
+    {
+      "id": "horse-import-nisr-2019-67",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "nisr/2019/67",
+      "title": "The Equine Identification Regulations (Northern Ireland) 2019",
+      "version_id": "2019-03-27",
+      "as_of_date": "2019-03-27",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "equine_identification",
+          "jurisdiction_hint": "Northern Ireland"
+        }
+      }
+    },
+    {
+      "id": "horse-import-nisr-2022-200",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "nisr/2022/200",
+      "title": "The Equine Identification (Amendment) Regulations (Northern Ireland) 2022",
+      "version_id": "2022-08-10",
+      "as_of_date": "2022-08-10",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "equine_identification",
+          "jurisdiction_hint": "Northern Ireland"
+        }
+      }
+    },
+    {
+      "id": "horse-import-eur-2015-262",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "eur/2015/262",
+      "title": "Commission Implementing Regulation (EU) 2015/262",
+      "version_id": "2015-02-17",
+      "as_of_date": "2015-02-17",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "eu_equine_passport",
+          "jurisdiction_hint": "EU"
+        }
+      }
+    },
+    {
+      "id": "horse-import-uksi-2019-591",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2019/591",
+      "title": "The Equine (Records, Identification and Movement) (Amendment) (EU Exit) Regulations 2019",
+      "version_id": "2019-03-14",
+      "as_of_date": "2019-03-14",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "equine_movement_records",
+          "jurisdiction_hint": "UK"
+        }
+      }
+    },
+    {
+      "id": "horse-import-eur-2018-659",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "eur/2018/659",
+      "title": "Commission Implementing Regulation (EU) 2018/659",
+      "version_id": "2018-04-12",
+      "as_of_date": "2018-04-12",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "eu_implementing",
+          "jurisdiction_hint": "EU"
+        }
+      }
+    },
+    {
+      "id": "horse-import-uksi-2011-1197",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2011/1197",
+      "title": "The Trade in Animals and Related Products Regulations 2011",
+      "version_id": "2011-05-09",
+      "as_of_date": "2011-05-09",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "trade_tarpr",
+          "jurisdiction_hint": "England and Wales"
+        }
+      }
+    },
+    {
+      "id": "horse-import-wsi-2011-2379",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "wsi/2011/2379",
+      "title": "The Trade in Animals and Related Products (Wales) Regulations 2011",
+      "version_id": "2011-09-28",
+      "as_of_date": "2011-09-28",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "trade_tarpr",
+          "jurisdiction_hint": "Wales"
+        }
+      }
+    },
+    {
+      "id": "horse-import-ssi-2012-177",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "ssi/2012/177",
+      "title": "The Trade in Animals and Related Products (Scotland) Regulations 2012",
+      "version_id": "2012-05-29",
+      "as_of_date": "2012-05-29",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "trade_tarpr",
+          "jurisdiction_hint": "Scotland"
+        }
+      }
+    },
+    {
+      "id": "horse-import-uksi-2019-782",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2019/782",
+      "title": "The Trade in Animals and Related Products (Amendment) (EU Exit) Regulations 2019",
+      "version_id": "2019-04-01",
+      "as_of_date": "2019-04-01",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "trade_tarpr_exit",
+          "jurisdiction_hint": "UK"
+        }
+      }
+    },
+    {
+      "id": "horse-import-uksi-2019-795",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2019/795",
+      "title": "The Import of and Trade in Animals and Animal Products (Amendment etc.) (EU Exit) Regulations 2019",
+      "version_id": "2019-04-04",
+      "as_of_date": "2019-04-04",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "import_trade_exit",
+          "jurisdiction_hint": "UK"
+        }
+      }
+    },
+    {
+      "id": "horse-import-uksi-2019-1225",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2019/1225",
+      "title": "The Trade in Animals and Animal Products (Legislative Functions) and Veterinary Surgeons (Amendment) (EU Exit) Regulations 2019",
+      "version_id": "2019-09-04",
+      "as_of_date": "2019-09-04",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "trade_functions_exit",
+          "jurisdiction_hint": "UK"
+        }
+      }
+    },
+    {
+      "id": "horse-import-uksi-2020-1462",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2020/1462",
+      "title": "The Import of, and Trade in, Animals and Animal Products (Miscellaneous Amendments) (EU Exit) Regulations 2020",
+      "version_id": "2020-12-14",
+      "as_of_date": "2020-12-14",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "import_trade_misc_exit",
+          "jurisdiction_hint": "UK"
+        }
+      }
+    },
+    {
+      "id": "horse-import-uksi-2020-1481",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2020/1481",
+      "title": "The Official Controls (Animals, Feed and Food, Plant Health etc.) (Amendment) (EU Exit) Regulations 2020",
+      "version_id": "2020-12-15",
+      "as_of_date": "2020-12-15",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "official_controls_exit",
+          "jurisdiction_hint": "UK"
+        }
+      }
+    },
+    {
+      "id": "horse-import-uksi-2020-1631",
+      "authority": "legislation_gov_uk",
+      "authority_source_id": "uksi/2020/1631",
+      "title": "The Official Controls (Animals, Feed and Food, Plant Health etc.) (Amendment) (EU Exit) (No. 2) Regulations 2020",
+      "version_id": "2020-12-29",
+      "as_of_date": "2020-12-29",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "horse_import_corpus": {
+          "lens": "official_controls_exit",
+          "jurisdiction_hint": "UK"
+        }
+      }
+    }
+  ],
+  "narrative": {
+    "title": "Horse import pilot corpus",
+    "summary": "Twenty-one instruments: devolved and EU assimilated equine identification, EU implementing acts on legislation.gov.uk, UK TARPR and EU Exit import/trade layers, and official controls amendments. Requires live fetch; not legal advice."
+  },
+  "run_notes": "examples/horse_import_corpus_case.json — each source uses authority legislation_gov_uk (data.xml fetch). Do not set source_url to the HTML page. Use e.g. law_proposition_extractor_pipeline export with network access and an appropriate derived-cache directory for development runs."
+}

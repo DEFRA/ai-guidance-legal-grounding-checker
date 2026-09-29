@@ -1,0 +1,100 @@
+{
+  "strategy_versions": {
+    "proposition_extraction": "v2-structured-list-round-robin"
+  },
+  "topic": {
+    "name": "Equine establishment and database duties (Reg 2016/429 Art 109 pilot)",
+    "description": "Pipeline pilot: terrestrial animal database obligations with equine habitual-keeping and cross-refs to identification rules.",
+    "subject_tags": [
+      "pilot",
+      "equine",
+      "animal-health",
+      "reg-2016-429",
+      "establishment",
+      "database"
+    ]
+  },
+  "cluster": {
+    "name": "animal_identification_traceability",
+    "description": "Identification, registration, establishments, and movement-related record duties."
+  },
+  "extraction": {
+    "focus_scopes": ["equine"],
+    "max_propositions_per_source": 8
+  },
+  "sources": [
+    {
+      "id": "pilot-eu-2016-429-art109",
+      "title": "Regulation (EU) 2016/429 — Article 109 (database of kept terrestrial animals)",
+      "jurisdiction": "EU",
+      "citation": "CELEX 32016R0429 Art 109",
+      "kind": "regulation",
+      "provenance": "pilot.static_capture",
+      "as_of_date": "2024-12-24",
+      "retrieved_at": "2026-04-28T12:00:00Z",
+      "version_id": "32016R0429@2024-12-24",
+      "fragment_locator": "article:109",
+      "fragment_type": "article",
+      "review_status": "proposed",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0429-20191214",
+      "text": "Article 109\nMember States' obligation to establish and maintain a computer database of kept terrestrial animals\n1.\nThe Member States shall establish and maintain a computer database for the recording of at least:\n(a)\nthe following information related to kept animals of the bovine species:\n(i)\ntheir individual identification as provided for in point (a) of Article 112;\n(ii)\nthe establishments keeping them;\n(iii)\ntheir movements into and from those establishments;\n(b)\nthe following information related to kept animals of the ovine and caprine species:\n(i)\ninformation on their identification as provided for in point (a) of Article 113(1) and the number of animals at the establishments keeping them;\n(ii)\nthe establishments keeping them;\n(iii)\ntheir movements into and from those establishments;\n(c)\nthe following information related to kept animals of the porcine species:\n(i)\ninformation on their identification as provided for in Article 115 and the number of animals at the establishments keeping them;\n(ii)\nthe establishments keeping them;\n(iii)\ntheir movements into and from those establishments;\n(d)\nthe following information related to kept animals of the equine species:\n(i)\ntheir unique code as provided for in Article 114;\n(ii)\nthe method of identification provided for in point (b) of Article 114(1) linking the animal concerned with the identification document referred to in point (iii) where relevant;\n(iii)\nthe relevant identification details from the identification document provided for in point (c) of Article 114(1), as determined in the rules adopted pursuant to Articles 118 and 120;\n(iv)\nthe establishments where those animals are habitually kept;\n(e)\ninformation related to kept terrestrial animals of species other than those referred to in points (a), (b), (c) and (d) of this paragraph, when this is provided for in the rules adopted pursuant to paragraph 2.\n2.\nThe Commission shall be empowered to adopt delegated acts in accordance with Article 264 concerning the recording of information related to animal species other than those referred to in points (a), (b), (c) and (d) of paragraph 1 of this Article in the computer database provided for in that paragraph where necessary, due to the specific and significant risks posed by those species, in order to:\n(a)\nensure the efficient application of the disease prevention measures and control measures provided for in this Regulation;\n(b)\nfacilitate the traceability of kept terrestrial animals, their movements between Member States and their entry into the Union.",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "instrument_id": "EU 2016/429",
+        "is_target_source": true,
+        "capture_note": "Substantive text aligned to legislation.gov.uk /eur/2016/429/article/109 plain view; EU authoritative wording may differ editorially on EUR-Lex."
+      }
+    },
+    {
+      "id": "pilot-uk-2016-429-art109",
+      "title": "Regulation (EU) 2016/429 (retained on legislation.gov.uk) — Article 109",
+      "jurisdiction": "UK",
+      "citation": "Retained EU Reg 2016/429 (UK) Art 109",
+      "kind": "retained-regulation",
+      "provenance": "pilot.static_capture",
+      "as_of_date": "2024-12-24",
+      "retrieved_at": "2026-04-28T12:00:00Z",
+      "version_id": "eur-2016-429-art109@uk-2024-12-24",
+      "fragment_locator": "article:109",
+      "fragment_type": "article",
+      "review_status": "proposed",
+      "source_url": "https://www.legislation.gov.uk/eur/2016/429/article/109",
+      "text": "Article 109\nMember States' obligation to establish and maintain a computer database of kept terrestrial animals\n1.\nThe Member States shall establish and maintain a computer database for the recording of at least:\n(a)\nthe following information related to kept animals of the bovine species:\n(i)\ntheir individual identification as provided for in point (a) of Article 112;\n(ii)\nthe establishments keeping them;\n(iii)\ntheir movements into and from those establishments;\n(b)\nthe following information related to kept animals of the ovine and caprine species:\n(i)\ninformation on their identification as provided for in point (a) of Article 113(1) and the number of animals at the establishments keeping them;\n(ii)\nthe establishments keeping them;\n(iii)\ntheir movements into and from those establishments;\n(c)\nthe following information related to kept animals of the porcine species:\n(i)\ninformation on their identification as provided for in Article 115 and the number of animals at the establishments keeping them;\n(ii)\nthe establishments keeping them;\n(iii)\ntheir movements into and from those establishments;\n(d)\nthe following information related to kept animals of the equine species:\n(i)\ntheir unique code as provided for in Article 114;\n(ii)\nthe method of identification provided for in point (b) of Article 114(1) linking the animal concerned with the identification document referred to in point (iii) where relevant;\n(iii)\nthe relevant identification details from the identification document provided for in point (c) of Article 114(1), as determined in the rules adopted pursuant to Articles 118 and 120;\n(iv)\nthe establishments where those animals are habitually kept;\n(e)\ninformation related to kept terrestrial animals of species other than those referred to in points (a), (b), (c) and (d) of this paragraph, when this is provided for in the rules adopted pursuant to paragraph 2.\n2.\nThe Commission shall be empowered to adopt delegated acts in accordance with Article 264 concerning the recording of information related to animal species other than those referred to in points (a), (b), (c) and (d) of paragraph 1 of this Article in the computer database provided for in that paragraph where necessary, due to the specific and significant risks posed by those species, in order to:\n(a)\nensure the efficient application of the disease prevention measures and control measures provided for in this Regulation;\n(b)\nfacilitate the traceability of kept terrestrial animals, their movements between Member States and their entry into the Union.",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "instrument_id": "EU 2016/429"
+      }
+    },
+    {
+      "id": "pilot-eu-2016-429-art114-equine",
+      "title": "Regulation (EU) 2016/429 — Article 114 (equine identification and registration)",
+      "jurisdiction": "EU",
+      "citation": "CELEX 32016R0429 Art 114",
+      "kind": "regulation",
+      "provenance": "pilot.static_capture",
+      "as_of_date": "2024-12-24",
+      "retrieved_at": "2026-04-28T12:00:00Z",
+      "version_id": "32016R0429-art114@2024-12-24",
+      "fragment_locator": "article:114",
+      "fragment_type": "article",
+      "review_status": "proposed",
+      "source_url": "https://www.legislation.gov.uk/eur/2016/429/article/114",
+      "text": "Article 114\nOperators' obligations in respect of the identification and registration of kept animals of the equine species\n1.\nOperators keeping kept animals of the equine species shall ensure that those animals are individually identified by:\n(a)\na unique code which is recorded in the computer database provided for in Article 109(1);\n(b)\na physical means of identification or other method which unequivocally links the kept animal with the identification document provided for in point (c) of this paragraph and issued by the competent authority in accordance with Article 110;\n(c)\na correctly completed single lifetime identification document.\n2.\nOperators of kept animals of the equine species shall ensure that the information on those animals is transmitted to the computer database provided for in Article 109(1).",
+      "metadata": {
+        "cluster": "animal_identification_traceability",
+        "instrument_id": "EU 2016/429",
+        "pilot_role": "contextual_downstream"
+      }
+    }
+  ],
+  "comparison": {
+    "jurisdiction_a": "EU",
+    "jurisdiction_b": "UK",
+    "proposition_index": 0
+  },
+  "narrative": {
+    "title": "Pilot: Art 109 database fields (equine focus)",
+    "summary": "File-backed pilot comparing EU-labelled and UK retained presentations of the same Article 109 text, plus Article 114 as contextual equine identification source."
+  },
+  "run_notes": "Pipeline validation pilot only (not legal advice). Sources: static capture from legislation.gov.uk plain views 2026-04-28; method=file_input via case_file authority. Dev UI: `just run-art109-equine-pilot` exports this JSON to OPERATIONS_EXPORT_DIR (default dist/static-report) with a fresh derived-cache dir."
+}

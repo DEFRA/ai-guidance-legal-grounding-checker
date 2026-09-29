@@ -1,0 +1,163 @@
+direction: down
+
+classes: {
+  tier: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#CBD5E1"
+      stroke-width: 1
+      border-radius: 12
+    }
+  }
+  input: {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#64748B"
+      border-radius: 8
+    }
+  }
+  stage: {
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#4338CA"
+      stroke-width: 2
+      border-radius: 8
+    }
+  }
+  artifact: {
+    style: {
+      fill: "#F5F3FF"
+      stroke: "#7C3AED"
+      border-radius: 8
+    }
+  }
+  review: {
+    style: {
+      fill: "#F0F9FF"
+      stroke: "#0369A1"
+      border-radius: 8
+    }
+  }
+  note: {
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#D97706"
+      border-radius: 8
+    }
+  }
+}
+
+inputs: {
+  label: "Inputs"
+  class: tier
+  direction: right
+
+  source_registry: "Source registry / case config"
+  source_registry.class: input
+
+  source_fetch_record: "Source fetch / source record"
+  source_fetch_record.class: input
+
+  source_snapshot: "Source snapshot"
+  source_snapshot.class: input
+}
+
+pipeline_stages: {
+  label: "Pipeline stages"
+  class: tier
+  direction: right
+
+  source_fragmentation: "Source fragmentation\narticle / annex / section / chunk"
+  source_fragmentation.class: stage
+
+  fragment_selection: "Fragment selection\nrequired_only / required_plus_focus / all_matching"
+  fragment_selection.class: stage
+
+  proposition_extraction: "Proposition extraction\nheuristic / local / frontier\ncontext-window budgeting\nfallback / mark_needs_review / fail_closed\ndefinition fallback"
+  proposition_extraction.class: stage
+
+  quality_lint_gates: "Quality / lint gates\nrun_quality_summary\npass / pass_with_warnings / fail"
+  quality_lint_gates.class: stage
+
+  export_bundle: "Export bundle"
+  export_bundle.class: stage
+}
+
+audit_artifacts: {
+  label: "Audit artifacts"
+  class: tier
+  direction: right
+
+  propositions: "propositions"
+  propositions.class: artifact
+
+  extraction_traces: "extraction traces"
+  extraction_traces.class: artifact
+
+  extraction_jobs: "extraction jobs"
+  extraction_jobs.class: artifact
+
+  llm_call_traces: "LLM call traces"
+  llm_call_traces.class: artifact
+}
+
+review_output_surfaces: {
+  label: "Review / output surfaces"
+  class: tier
+  direction: right
+
+  operations_ui: "Operations UI / Proposition Explorer"
+  operations_ui.class: review
+
+  human_review: "Human review decisions"
+  human_review.class: review
+
+  guidance_ready: "Promotion / guidance-ready status"
+  guidance_ready.class: review
+
+  downstream_divergence: "Optional downstream divergence"
+  downstream_divergence.class: review
+}
+
+framing_notes: {
+  label: "Framing notes"
+  class: tier
+  direction: right
+
+  lint_scope_note: "Lint pass checks artifact quality,\nnot legal approval."
+  lint_scope_note.class: note
+
+  review_gate_note: "Human review gates promotion\nto guidance-ready status."
+  review_gate_note.class: note
+
+  divergence_note: "Divergence is downstream and optional,\nnot mandatory for every run."
+  divergence_note.class: note
+}
+
+inputs.source_registry -> inputs.source_fetch_record: "resolve and fetch"
+inputs.source_fetch_record -> inputs.source_snapshot: "capture snapshot"
+inputs.source_snapshot -> pipeline_stages.source_fragmentation: "fragment"
+
+pipeline_stages.source_fragmentation -> pipeline_stages.fragment_selection: "candidate fragments"
+pipeline_stages.fragment_selection -> pipeline_stages.proposition_extraction: "selected fragments"
+pipeline_stages.proposition_extraction -> pipeline_stages.quality_lint_gates: "evaluate extraction outputs"
+pipeline_stages.quality_lint_gates -> pipeline_stages.export_bundle: "export when quality gate allows"
+
+pipeline_stages.proposition_extraction -> audit_artifacts.propositions: "write artifact"
+pipeline_stages.proposition_extraction -> audit_artifacts.extraction_traces: "write artifact"
+pipeline_stages.proposition_extraction -> audit_artifacts.extraction_jobs: "write artifact"
+pipeline_stages.proposition_extraction -> audit_artifacts.llm_call_traces: "write artifact"
+
+audit_artifacts.propositions -> review_output_surfaces.operations_ui: "inspection dataset"
+audit_artifacts.extraction_traces -> review_output_surfaces.operations_ui: "traceability"
+audit_artifacts.extraction_jobs -> review_output_surfaces.operations_ui: "repairability signals"
+audit_artifacts.llm_call_traces -> review_output_surfaces.operations_ui: "diagnostics"
+
+pipeline_stages.export_bundle -> review_output_surfaces.operations_ui: "serve and inspect"
+review_output_surfaces.operations_ui -> review_output_surfaces.human_review: "review workflow"
+review_output_surfaces.human_review -> review_output_surfaces.guidance_ready: "approve or hold"
+review_output_surfaces.guidance_ready -> review_output_surfaces.downstream_divergence: "optional downstream branch"
+
+pipeline_stages.quality_lint_gates -> framing_notes.lint_scope_note
+review_output_surfaces.human_review -> framing_notes.review_gate_note
+review_output_surfaces.downstream_divergence -> framing_notes.divergence_note

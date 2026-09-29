@@ -1,0 +1,272 @@
+[
+  {
+    "query": "Pets and companion animals identification and traceability Dogs, cats, rabbits, ferrets, and companion animals identification using microchips, tags, tattoos, passports, and registration systems. Covers welfare, breeding, sale, pet travel, responsible ownership, zoonotic disease prevention, and illegal import enforcement.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Pets and companion animals identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "pet",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pet"
+  },
+  {
+    "query": "pets",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pets"
+  },
+  {
+    "query": "companion animal",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: companion animal"
+  },
+  {
+    "query": "companion animals",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: companion animals"
+  },
+  {
+    "query": "dog",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: dog"
+  },
+  {
+    "query": "dogs",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: dogs"
+  },
+  {
+    "query": "cat",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cat"
+  },
+  {
+    "query": "cats",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: cats"
+  },
+  {
+    "query": "rabbit",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: rabbit"
+  },
+  {
+    "query": "rabbits",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: rabbits"
+  },
+  {
+    "query": "ferret",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ferret"
+  },
+  {
+    "query": "ferrets",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ferrets"
+  },
+  {
+    "query": "microchip",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchip"
+  },
+  {
+    "query": "microchips",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchips"
+  },
+  {
+    "query": "tag",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tag"
+  },
+  {
+    "query": "tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tags"
+  },
+  {
+    "query": "tattoo",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoo"
+  },
+  {
+    "query": "tattoos",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoos"
+  },
+  {
+    "query": "pet passport",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pet passport"
+  },
+  {
+    "query": "animal health certificate",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: animal health certificate"
+  },
+  {
+    "query": "pet travel",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: pet travel"
+  },
+  {
+    "query": "registration system",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: registration system"
+  },
+  {
+    "query": "responsible ownership",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: responsible ownership"
+  },
+  {
+    "query": "breeding",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: breeding"
+  },
+  {
+    "query": "sale",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: sale"
+  },
+  {
+    "query": "illegal import",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: illegal import"
+  },
+  {
+    "query": "zoonotic disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: zoonotic disease"
+  },
+  {
+    "query": "rabies",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: rabies"
+  },
+  {
+    "query": "Pets and companion animals identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Pets and companion animals identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Pets and companion animals identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Pets and companion animals identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Pets and companion animals identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Pets and companion animals identification and traceability Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "pet regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): pet"
+  },
+  {
+    "query": "pet order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): pet"
+  },
+  {
+    "query": "pet act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): pet"
+  },
+  {
+    "query": "pets regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): pets"
+  },
+  {
+    "query": "pets order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): pets"
+  },
+  {
+    "query": "pets act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): pets"
+  },
+  {
+    "query": "companion animal regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): companion animal"
+  },
+  {
+    "query": "companion animal order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): companion animal"
+  },
+  {
+    "query": "companion animal act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): companion animal"
+  }
+]

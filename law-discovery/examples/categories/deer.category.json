@@ -1,0 +1,42 @@
+{
+  "category_id": "deer",
+  "label": "Deer identification and traceability",
+  "description": "Farmed deer and cervid identification using ear tags, RFID tags, microchips, and herd records. Covers movement controls, biosecurity, venison production, land management, and disease preparedness including Chronic Wasting Disease.",
+  "synonyms": [
+    "deer",
+    "farmed deer",
+    "cervid",
+    "cervids",
+    "venison",
+    "ear tag",
+    "ear tags",
+    "RFID tag",
+    "RFID tags",
+    "microchip",
+    "microchips",
+    "herd record",
+    "herd records",
+    "movement control",
+    "biosecurity",
+    "land management",
+    "Chronic Wasting Disease",
+    "CWD"
+  ],
+  "exclusions": [
+    "wild deer stalking tourism",
+    "venison recipes",
+    "deer vehicle collisions"
+  ],
+  "jurisdiction_hints": [
+    "UK",
+    "Great Britain",
+    "England",
+    "Wales",
+    "Scotland"
+  ],
+  "metadata": {
+    "source": "converted_from_user_supplied_category_list",
+    "original_name": "deer",
+    "conversion_note": "Initial Law Discovery category brief; synonyms/exclusions are pragmatic discovery terms and should be refined after first query-plan review."
+  }
+}

@@ -1,0 +1,224 @@
+[
+  {
+    "query": "Aquatic animals, aquaculture and fisheries traceability Fish, shellfish, crustacean, and aquatic species identification using stock records, vessel licensing, batch traceability, and aquaculture registration systems. Covers aquatic animal health, fisheries management, sustainability, environmental protection, and seafood trade controls.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Aquatic animals, aquaculture and fisheries traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "fish",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: fish"
+  },
+  {
+    "query": "shellfish",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: shellfish"
+  },
+  {
+    "query": "crustacean",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: crustacean"
+  },
+  {
+    "query": "crustaceans",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: crustaceans"
+  },
+  {
+    "query": "aquatic species",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: aquatic species"
+  },
+  {
+    "query": "aquatic animal",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: aquatic animal"
+  },
+  {
+    "query": "aquatic animals",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: aquatic animals"
+  },
+  {
+    "query": "aquaculture",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: aquaculture"
+  },
+  {
+    "query": "fish farm",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: fish farm"
+  },
+  {
+    "query": "fish farms",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: fish farms"
+  },
+  {
+    "query": "stock record",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: stock record"
+  },
+  {
+    "query": "stock records",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: stock records"
+  },
+  {
+    "query": "vessel licensing",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: vessel licensing"
+  },
+  {
+    "query": "batch traceability",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: batch traceability"
+  },
+  {
+    "query": "aquaculture registration",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: aquaculture registration"
+  },
+  {
+    "query": "aquatic animal health",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: aquatic animal health"
+  },
+  {
+    "query": "fisheries management",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: fisheries management"
+  },
+  {
+    "query": "seafood trade",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: seafood trade"
+  },
+  {
+    "query": "sustainability",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: sustainability"
+  },
+  {
+    "query": "environmental protection",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: environmental protection"
+  },
+  {
+    "query": "Aquatic animals, aquaculture and fisheries traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Aquatic animals, aquaculture and fisheries traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Aquatic animals, aquaculture and fisheries traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Aquatic animals, aquaculture and fisheries traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Aquatic animals, aquaculture and fisheries traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Aquatic animals, aquaculture and fisheries traceability Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "fish regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): fish"
+  },
+  {
+    "query": "fish order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): fish"
+  },
+  {
+    "query": "fish act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): fish"
+  },
+  {
+    "query": "shellfish regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): shellfish"
+  },
+  {
+    "query": "shellfish order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): shellfish"
+  },
+  {
+    "query": "shellfish act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): shellfish"
+  },
+  {
+    "query": "crustacean regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): crustacean"
+  },
+  {
+    "query": "crustacean order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): crustacean"
+  },
+  {
+    "query": "crustacean act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): crustacean"
+  }
+]

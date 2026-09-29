@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Multi-provision titled P1group: the shared Title must remain unassigned.
+  Patterns: cross-heading safety, multi_provision_group_title_unassigned diagnostic.
+-->
+<Legislation DocumentURI="http://www.legislation.gov.uk/eur/2009/1224"
+             IdURI="http://www.legislation.gov.uk/id/eur/2009/1224"
+             SchemaVersion="2.0">
+  <Title>Council Regulation (EC) No 1224/2009</Title>
+  <EURetained>
+    <EUBody>
+      <P1group>
+        <Title>Shared cross-heading for sibling articles</Title>
+        <P1 id="article-10"
+            DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/10">
+          <Pnumber>Article 10</Pnumber>
+          <P1para>
+            <Text>First provision body under the shared cross-heading.</Text>
+          </P1para>
+        </P1>
+        <P1 id="article-11"
+            DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/11">
+          <Pnumber>Article 11</Pnumber>
+          <P1para>
+            <Text>Second provision body under the shared cross-heading.</Text>
+          </P1para>
+        </P1>
+      </P1group>
+    </EUBody>
+  </EURetained>
+</Legislation>

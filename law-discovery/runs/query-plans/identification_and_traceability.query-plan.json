@@ -1,0 +1,344 @@
+[
+  {
+    "query": "Identification and traceability Identification & Traceability covers animal identification and movement systems including RFID tags, ear tags, boluses, passports, microchips, tattoos, paint marks, leg bands, registration databases, and movement reporting. Supports disease control, food safety, trade, enforcement, and outbreak response through rapid tracing of animals, products, and contacts. Includes serious contagious disease monitoring and control for conditions such as Foot and Mouth Disease (FMD), Avian Influenza, African Swine Fever (ASF), Bovine Tuberculosis (bTB), Bluetongue, Scrapie, Classical Swine Fever, Newcastle Disease, Chronic Wasting Disease, Rabies, and other notifiable or transboundary diseases.",
+    "query_type": "combined",
+    "source_system": "lex",
+    "rationale": "Combined category label and description"
+  },
+  {
+    "query": "Identification and traceability",
+    "query_type": "label",
+    "source_system": "lex",
+    "rationale": "Category label"
+  },
+  {
+    "query": "animal identification",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: animal identification"
+  },
+  {
+    "query": "animal traceability",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: animal traceability"
+  },
+  {
+    "query": "livestock identification",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: livestock identification"
+  },
+  {
+    "query": "movement reporting",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement reporting"
+  },
+  {
+    "query": "movement records",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: movement records"
+  },
+  {
+    "query": "RFID tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: RFID tags"
+  },
+  {
+    "query": "ear tags",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ear tags"
+  },
+  {
+    "query": "bolus",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bolus"
+  },
+  {
+    "query": "boluses",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: boluses"
+  },
+  {
+    "query": "passport",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: passport"
+  },
+  {
+    "query": "passports",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: passports"
+  },
+  {
+    "query": "microchip",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchip"
+  },
+  {
+    "query": "microchips",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: microchips"
+  },
+  {
+    "query": "tattoo",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoo"
+  },
+  {
+    "query": "tattoos",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: tattoos"
+  },
+  {
+    "query": "paint mark",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: paint mark"
+  },
+  {
+    "query": "paint marks",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: paint marks"
+  },
+  {
+    "query": "leg band",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: leg band"
+  },
+  {
+    "query": "leg bands",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: leg bands"
+  },
+  {
+    "query": "registration database",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: registration database"
+  },
+  {
+    "query": "holding register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: holding register"
+  },
+  {
+    "query": "keeper register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: keeper register"
+  },
+  {
+    "query": "herd register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: herd register"
+  },
+  {
+    "query": "flock register",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: flock register"
+  },
+  {
+    "query": "disease control",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: disease control"
+  },
+  {
+    "query": "notifiable disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: notifiable disease"
+  },
+  {
+    "query": "transboundary disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: transboundary disease"
+  },
+  {
+    "query": "Foot and Mouth Disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Foot and Mouth Disease"
+  },
+  {
+    "query": "FMD",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: FMD"
+  },
+  {
+    "query": "Avian Influenza",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Avian Influenza"
+  },
+  {
+    "query": "African Swine Fever",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: African Swine Fever"
+  },
+  {
+    "query": "ASF",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: ASF"
+  },
+  {
+    "query": "Bovine Tuberculosis",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Bovine Tuberculosis"
+  },
+  {
+    "query": "bTB",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: bTB"
+  },
+  {
+    "query": "Bluetongue",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Bluetongue"
+  },
+  {
+    "query": "Scrapie",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Scrapie"
+  },
+  {
+    "query": "Classical Swine Fever",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Classical Swine Fever"
+  },
+  {
+    "query": "Newcastle Disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Newcastle Disease"
+  },
+  {
+    "query": "Chronic Wasting Disease",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Chronic Wasting Disease"
+  },
+  {
+    "query": "Rabies",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Category synonym: Rabies"
+  },
+  {
+    "query": "Identification and traceability UK",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: UK"
+  },
+  {
+    "query": "Identification and traceability Great Britain",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Great Britain"
+  },
+  {
+    "query": "Identification and traceability England",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: England"
+  },
+  {
+    "query": "Identification and traceability Wales",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Wales"
+  },
+  {
+    "query": "Identification and traceability Scotland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Scotland"
+  },
+  {
+    "query": "Identification and traceability Northern Ireland",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Jurisdiction-expanded query: Northern Ireland"
+  },
+  {
+    "query": "animal identification regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): animal identification"
+  },
+  {
+    "query": "animal identification order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): animal identification"
+  },
+  {
+    "query": "animal identification act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): animal identification"
+  },
+  {
+    "query": "animal traceability regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): animal traceability"
+  },
+  {
+    "query": "animal traceability order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): animal traceability"
+  },
+  {
+    "query": "animal traceability act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): animal traceability"
+  },
+  {
+    "query": "livestock identification regulations",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (regulations): livestock identification"
+  },
+  {
+    "query": "livestock identification order",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (order): livestock identification"
+  },
+  {
+    "query": "livestock identification act",
+    "query_type": "synonym",
+    "source_system": "lex",
+    "rationale": "Source-type expanded query (act): livestock identification"
+  }
+]

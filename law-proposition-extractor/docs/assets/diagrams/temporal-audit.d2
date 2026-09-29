@@ -1,0 +1,88 @@
+direction: down
+
+classes: {
+  tier: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#CBD5E1"
+      stroke-width: 1
+      border-radius: 12
+    }
+  }
+  chain: {
+    style: {
+      fill: "#FFFFFF"
+      stroke: "#64748B"
+      border-radius: 8
+    }
+  }
+  focal: {
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#4338CA"
+      stroke-width: 2
+      border-radius: 8
+    }
+  }
+  decision: {
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#D97706"
+      border-radius: 8
+    }
+  }
+}
+
+source_history: {
+  label: "Source history"
+  class: tier
+  direction: right
+
+  source_record: "SourceRecord"
+  source_record.class: chain
+
+  source_snapshot_history: "SourceSnapshot history"
+  source_snapshot_history.class: focal
+
+  source_fragment: "SourceFragment"
+  source_fragment.class: chain
+}
+
+analysis_history: {
+  label: "Analysis history"
+  class: tier
+  direction: right
+
+  proposition_history: "Proposition history"
+  proposition_history.class: focal
+
+  divergence_observation_history: "DivergenceObservation history"
+  divergence_observation_history.class: chain
+
+  divergence_finding_history: "DivergenceFinding history"
+  divergence_finding_history.class: focal
+}
+
+review_and_audit: {
+  label: "Review and audit"
+  class: tier
+  direction: right
+
+  review_decisions: "Review decisions"
+  review_decisions.class: decision
+
+  audit_trace: "Audit trail"
+  audit_trace.class: chain
+}
+
+source_history.source_record -> source_history.source_snapshot_history: "version lineage"
+source_history.source_snapshot_history -> source_history.source_fragment: "fragment lineage"
+
+source_history.source_fragment -> analysis_history.proposition_history: "traceability to source fragments"
+analysis_history.proposition_history -> analysis_history.divergence_observation_history: "optional divergence timeline"
+analysis_history.divergence_observation_history -> analysis_history.divergence_finding_history: "finding lineage"
+
+analysis_history.proposition_history -> review_and_audit.review_decisions: "review checkpoints"
+analysis_history.divergence_finding_history -> review_and_audit.review_decisions: "review checkpoints"
+source_history.source_fragment -> review_and_audit.review_decisions: "supporting evidence"
+review_and_audit.review_decisions -> review_and_audit.audit_trace: "temporal decision log"

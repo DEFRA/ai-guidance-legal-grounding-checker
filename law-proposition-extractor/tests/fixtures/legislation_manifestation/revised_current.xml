@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Realistic CLML shape: latest available revised text (no date in DocumentURI). -->
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             DocumentURI="http://www.legislation.gov.uk/eur/2009/1224"
+             IdURI="http://www.legislation.gov.uk/id/eur/2009/1224"
+             NumberOfProvisions="2"
+             SchemaVersion="2.0"
+             RestrictExtent="E+W+S+N.I."
+             RestrictStartDate="2025-02-27">
+  <ukm:Metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+                xmlns:dct="http://purl.org/dc/terms/"
+                xmlns:atom="http://www.w3.org/2005/Atom"
+                xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata">
+    <dc:identifier>http://www.legislation.gov.uk/eur/2009/1224</dc:identifier>
+    <dc:title>Council Regulation (EC) No 1224/2009</dc:title>
+    <dc:modified>2025-04-04</dc:modified>
+    <dct:valid>2025-02-27</dct:valid>
+    <dc:type>text</dc:type>
+    <dc:format>text/xml</dc:format>
+    <atom:link rel="self" href="http://www.legislation.gov.uk/eur/2009/1224/data.xml" type="application/xml"/>
+    <ukm:EUMetadata>
+      <ukm:DocumentClassification>
+        <ukm:DocumentCategory Value="euretained"/>
+        <ukm:DocumentMainType Value="EuropeanUnionRegulation"/>
+        <ukm:DocumentStatus Value="revised"/>
+      </ukm:DocumentClassification>
+      <ukm:Year Value="2009"/>
+      <ukm:Number Value="1224"/>
+    </ukm:EUMetadata>
+  </ukm:Metadata>
+  <Title>Council Regulation (EC) No 1224/2009</Title>
+  <Body id="body">
+    <P1 id="article-1" DocumentURI="http://www.legislation.gov.uk/eur/2009/1224/article/1" RestrictStartDate="2020-12-31">
+      <Pnumber>1</Pnumber>
+      <P1para>
+        <Text>This Regulation establishes a Union control system.</Text>
+      </P1para>
+    </P1>
+  </Body>
+</Legislation>

@@ -1,0 +1,790 @@
+{
+  "propositions": [
+    {
+      "id": "prop-demo-49a-p1-separate",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be kept separately identifiable from other catches.",
+      "legal_effect_type": "obligation",
+      "proposition_tier": "substantive_rule",
+      "is_compliance_relevant": true,
+      "topic_id": "topic-demo",
+      "jurisdiction": "UK",
+      "legal_subject": "operator",
+      "action": "comply",
+      "explicit_cross_reference_targets": [],
+      "extraction_debug_meta": {}
+    },
+    {
+      "id": "prop-demo-49a-p1-no-mixing",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "source_fragment_id": "frag-demo-49a-p1",
+      "fragment_locator": "article:49a:paragraph:1",
+      "source_order": 1,
+      "proposition_text": "Those catches shall not be mixed with any other fishery products.",
+      "legal_effect_type": "prohibition",
+      "proposition_tier": "substantive_rule",
+      "is_compliance_relevant": true,
+      "topic_id": "topic-demo",
+      "jurisdiction": "UK",
+      "legal_subject": "operator",
+      "action": "comply",
+      "explicit_cross_reference_targets": [],
+      "extraction_debug_meta": {}
+    },
+    {
+      "id": "prop-demo-49a-p2-pelagic",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "source_order": 0,
+      "proposition_text": "Paragraph 1 shall not apply where catches contain more than 80% of specified small pelagic species.",
+      "legal_effect_type": "derogation",
+      "proposition_tier": "substantive_rule",
+      "is_compliance_relevant": true,
+      "topic_id": "topic-demo",
+      "jurisdiction": "UK",
+      "legal_subject": "operator",
+      "action": "comply",
+      "explicit_cross_reference_targets": [
+        "paragraph 1"
+      ],
+      "extraction_debug_meta": {
+        "provision_type": "exception",
+        "composition_basis": "structured_list_leaf",
+        "structured_list_path": "2-a-i",
+        "list_marker": "(a)->(i)",
+        "parent_context": "Paragraph 1 shall not apply",
+        "branch_context": "where the catches contain more than 80% of one or more of the following species"
+      }
+    },
+    {
+      "id": "prop-demo-49a-p2-industrial",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "source_order": 1,
+      "proposition_text": "Paragraph 1 shall not apply where catches contain more than 80% of species for industrial purposes (capelin, sandeel, Norwegian pout).",
+      "legal_effect_type": "derogation",
+      "proposition_tier": "substantive_rule",
+      "is_compliance_relevant": true,
+      "topic_id": "topic-demo",
+      "jurisdiction": "UK",
+      "legal_subject": "operator",
+      "action": "comply",
+      "explicit_cross_reference_targets": [
+        "paragraph 1"
+      ],
+      "extraction_debug_meta": {
+        "provision_type": "exception",
+        "composition_basis": "structured_list_leaf",
+        "structured_list_path": "2-a-ii",
+        "list_marker": "(a)->(ii)",
+        "parent_context": "Paragraph 1 shall not apply",
+        "branch_context": "where the catches contain more than 80% of one or more of the following species"
+      }
+    },
+    {
+      "id": "prop-demo-49a-p2-small-vessels",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "source_fragment_id": "frag-demo-49a-p2",
+      "fragment_locator": "article:49a:paragraph:2",
+      "source_order": 2,
+      "proposition_text": "Paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches have been sorted, estimated and recorded in accordance with Article 14.",
+      "legal_effect_type": "derogation",
+      "proposition_tier": "substantive_rule",
+      "is_compliance_relevant": true,
+      "topic_id": "topic-demo",
+      "jurisdiction": "UK",
+      "legal_subject": "operator",
+      "action": "comply",
+      "explicit_cross_reference_targets": [
+        "paragraph 1",
+        "article 14"
+      ],
+      "extraction_debug_meta": {
+        "provision_type": "exception",
+        "composition_basis": "structured_list_leaf",
+        "structured_list_path": "2-b",
+        "list_marker": "(b)",
+        "parent_context": "Paragraph 1 shall not apply"
+      }
+    },
+    {
+      "id": "prop-demo-49a-p3-monitoring",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "source_fragment_id": "frag-demo-49a-p3",
+      "fragment_locator": "article:49a:paragraph:3",
+      "source_order": 0,
+      "proposition_text": "In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+      "legal_effect_type": "obligation",
+      "proposition_tier": "substantive_rule",
+      "is_compliance_relevant": true,
+      "topic_id": "topic-demo",
+      "jurisdiction": "UK",
+      "legal_subject": "operator",
+      "action": "comply",
+      "explicit_cross_reference_targets": [
+        "paragraph 2"
+      ],
+      "extraction_debug_meta": {}
+    },
+    {
+      "id": "prop-demo-article-14-p1",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "source_fragment_id": "frag-demo-article-14-p1",
+      "fragment_locator": "article:14:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "Masters shall keep a fishing logbook in accordance with Article 14.",
+      "legal_effect_type": "obligation",
+      "proposition_tier": "substantive_rule",
+      "is_compliance_relevant": true,
+      "topic_id": "topic-demo",
+      "jurisdiction": "UK",
+      "legal_subject": "operator",
+      "action": "comply",
+      "explicit_cross_reference_targets": [
+        "article 14"
+      ],
+      "extraction_debug_meta": {}
+    },
+    {
+      "id": "prop-demo-art30-p1-only",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "source_fragment_id": "frag-demo-article-30-p1",
+      "fragment_locator": "article:30:paragraph:1",
+      "source_order": 0,
+      "proposition_text": "Operators shall retain catch records for inspection.",
+      "legal_effect_type": "obligation",
+      "proposition_tier": "substantive_rule",
+      "is_compliance_relevant": true,
+      "topic_id": "topic-demo",
+      "jurisdiction": "UK",
+      "legal_subject": "operator",
+      "action": "comply",
+      "explicit_cross_reference_targets": [],
+      "extraction_debug_meta": {}
+    },
+    {
+      "id": "prop-demo-art30-p2-exception",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "source_fragment_id": "frag-demo-article-30-p2",
+      "fragment_locator": "article:30:paragraph:2",
+      "source_order": 0,
+      "proposition_text": "Paragraph 1 shall not apply to shore-based establishments.",
+      "legal_effect_type": "derogation",
+      "proposition_tier": "substantive_rule",
+      "is_compliance_relevant": true,
+      "topic_id": "topic-demo",
+      "jurisdiction": "UK",
+      "legal_subject": "operator",
+      "action": "comply",
+      "explicit_cross_reference_targets": [
+        "paragraph 1"
+      ],
+      "extraction_debug_meta": {}
+    }
+  ],
+  "statements": [
+    {
+      "id": "lawstmt:af4b135f94fc5f0f",
+      "statement_text": "Catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be kept separately identifiable from other catches.",
+      "presentation_role": "guidance_matching_candidate",
+      "standalone_status": "context_dependent",
+      "source_proposition_ids": [
+        "prop-demo-49a-p1-separate"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p2-pelagic"
+          ],
+          "relationship_id": "legalrel:4f8ab8e1110f00d4",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p2-industrial"
+          ],
+          "relationship_id": "legalrel:c456b852ea9dc117",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p2-small-vessels"
+          ],
+          "relationship_id": "legalrel:8dd7f8df5831dde2",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "warnings": [],
+      "confidence": "medium",
+      "provenance": {
+        "source": "derived_from_propositions",
+        "method": "deterministic_export_transform"
+      }
+    },
+    {
+      "id": "lawstmt:a05641337e5fcad0",
+      "statement_text": "Those catches shall not be mixed with any other fishery products.",
+      "presentation_role": "guidance_matching_candidate",
+      "standalone_status": "context_dependent",
+      "source_proposition_ids": [
+        "prop-demo-49a-p1-no-mixing"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p2-pelagic"
+          ],
+          "relationship_id": "legalrel:4f8ab8e1110f00d4",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p2-industrial"
+          ],
+          "relationship_id": "legalrel:c456b852ea9dc117",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "applicable_exception",
+          "locator": "article:49a:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p2-small-vessels"
+          ],
+          "relationship_id": "legalrel:8dd7f8df5831dde2",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "warnings": [],
+      "confidence": "medium",
+      "provenance": {
+        "source": "derived_from_propositions",
+        "method": "deterministic_export_transform"
+      }
+    },
+    {
+      "id": "lawstmt:e7ae74d7924145b3",
+      "statement_text": "Paragraph 1 shall not apply where catches contain more than 80% of specified small pelagic species.",
+      "presentation_role": "guidance_matching_candidate",
+      "standalone_status": "context_dependent",
+      "source_proposition_ids": [
+        "prop-demo-49a-p2-pelagic"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p1-separate"
+          ],
+          "relationship_id": "legalrel:4f8ab8e1110f00d4",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p1-no-mixing"
+          ],
+          "relationship_id": "legalrel:4f8ab8e1110f00d4",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "warnings": [],
+      "confidence": "medium",
+      "provenance": {
+        "source": "derived_from_propositions",
+        "method": "deterministic_export_transform"
+      }
+    },
+    {
+      "id": "lawstmt:81d81b22f5fe9b32",
+      "statement_text": "Paragraph 1 shall not apply where catches contain more than 80% of species for industrial purposes (capelin, sandeel, Norwegian pout).",
+      "presentation_role": "guidance_matching_candidate",
+      "standalone_status": "context_dependent",
+      "source_proposition_ids": [
+        "prop-demo-49a-p2-industrial"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p1-separate"
+          ],
+          "relationship_id": "legalrel:c456b852ea9dc117",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p1-no-mixing"
+          ],
+          "relationship_id": "legalrel:c456b852ea9dc117",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "warnings": [],
+      "confidence": "medium",
+      "provenance": {
+        "source": "derived_from_propositions",
+        "method": "deterministic_export_transform"
+      }
+    },
+    {
+      "id": "lawstmt:8008fcf05b688fb0",
+      "statement_text": "Paragraph 1 shall not apply to fishing vessels of less than 12 metres' length overall where catches have been sorted, estimated and recorded in accordance with Article 14.",
+      "presentation_role": "guidance_matching_candidate",
+      "standalone_status": "context_dependent",
+      "source_proposition_ids": [
+        "prop-demo-49a-p2-small-vessels"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p1-separate"
+          ],
+          "relationship_id": "legalrel:8dd7f8df5831dde2",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "exception_target",
+          "locator": "article:49a:paragraph:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p1-no-mixing"
+          ],
+          "relationship_id": "legalrel:8dd7f8df5831dde2",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:73a754aae75f1ba4",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:49a:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-49a-p2",
+          "target_source_fragment_id": "frag-demo-49a-p1",
+          "target_canonical_locator": "article:49a:paragraph:1"
+        },
+        {
+          "kind": "referenced_locator",
+          "locator": "article 14",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-article-14-p1"
+          ],
+          "resolution_basis": "explicit"
+        }
+      ],
+      "connector_context": [],
+      "warnings": [],
+      "confidence": "medium",
+      "provenance": {
+        "source": "derived_from_propositions",
+        "method": "deterministic_export_transform"
+      }
+    },
+    {
+      "id": "lawstmt:82c3ae87babd09f4",
+      "statement_text": "In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+      "presentation_role": "guidance_matching_candidate",
+      "standalone_status": "context_dependent",
+      "source_proposition_ids": [
+        "prop-demo-49a-p3-monitoring"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "trigger_condition",
+          "locator": "article:49a:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p2-pelagic"
+          ],
+          "relationship_id": "legalrel:dfe37eea6ee36167",
+          "relationship_type": "triggered_by",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:712d00b4abc9f47c",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_trigger_cue",
+          "referenced_locator": "article:49a:paragraph:2",
+          "reference_text": "paragraph 2",
+          "source_fragment_id": "frag-demo-49a-p3",
+          "target_source_fragment_id": "frag-demo-49a-p2",
+          "target_canonical_locator": "article:49a:paragraph:2"
+        },
+        {
+          "kind": "trigger_condition",
+          "locator": "article:49a:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p2-industrial"
+          ],
+          "relationship_id": "legalrel:dfe37eea6ee36167",
+          "relationship_type": "triggered_by",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:712d00b4abc9f47c",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_trigger_cue",
+          "referenced_locator": "article:49a:paragraph:2",
+          "reference_text": "paragraph 2",
+          "source_fragment_id": "frag-demo-49a-p3",
+          "target_source_fragment_id": "frag-demo-49a-p2",
+          "target_canonical_locator": "article:49a:paragraph:2"
+        },
+        {
+          "kind": "trigger_condition",
+          "locator": "article:49a:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-49a-p2-small-vessels"
+          ],
+          "relationship_id": "legalrel:dfe37eea6ee36167",
+          "relationship_type": "triggered_by",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": true,
+          "legal_rule_group_id": "rulegrp:712d00b4abc9f47c",
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_trigger_cue",
+          "referenced_locator": "article:49a:paragraph:2",
+          "reference_text": "paragraph 2",
+          "source_fragment_id": "frag-demo-49a-p3",
+          "target_source_fragment_id": "frag-demo-49a-p2",
+          "target_canonical_locator": "article:49a:paragraph:2"
+        }
+      ],
+      "connector_context": [],
+      "warnings": [],
+      "confidence": "medium",
+      "provenance": {
+        "source": "derived_from_propositions",
+        "method": "deterministic_export_transform"
+      }
+    },
+    {
+      "id": "lawstmt:1a5e882a77d10c50",
+      "statement_text": "Operators shall retain catch records for inspection.",
+      "presentation_role": "guidance_matching_candidate",
+      "standalone_status": "context_dependent",
+      "source_proposition_ids": [
+        "prop-demo-art30-p1-only"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "applicable_exception",
+          "locator": "article:30:paragraph:2",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-art30-p2-exception"
+          ],
+          "relationship_id": "legalrel:280be070f16665be",
+          "relationship_type": "exception_to",
+          "relationship_direction": "incoming",
+          "inherited_via_group": false,
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:30:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-article-30-p2",
+          "target_source_fragment_id": "frag-demo-article-30-p1",
+          "target_canonical_locator": "article:30:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "warnings": [],
+      "confidence": "medium",
+      "provenance": {
+        "source": "derived_from_propositions",
+        "method": "deterministic_export_transform"
+      }
+    },
+    {
+      "id": "lawstmt:539f865a7cb6c31b",
+      "statement_text": "Paragraph 1 shall not apply to shore-based establishments.",
+      "presentation_role": "guidance_matching_candidate",
+      "standalone_status": "context_dependent",
+      "source_proposition_ids": [
+        "prop-demo-art30-p2-exception"
+      ],
+      "supporting_proposition_ids": [],
+      "required_context": [
+        {
+          "kind": "exception_target",
+          "locator": "article:30:paragraph:1",
+          "resolution_status": "resolved",
+          "proposition_ids": [
+            "prop-demo-art30-p1-only"
+          ],
+          "relationship_id": "legalrel:280be070f16665be",
+          "relationship_type": "exception_to",
+          "relationship_direction": "outgoing",
+          "inherited_via_group": false,
+          "resolution_basis": "structural_relative",
+          "inference_basis": "explicit_exception_cue",
+          "referenced_locator": "article:30:paragraph:1",
+          "reference_text": "Paragraph 1",
+          "source_fragment_id": "frag-demo-article-30-p2",
+          "target_source_fragment_id": "frag-demo-article-30-p1",
+          "target_canonical_locator": "article:30:paragraph:1"
+        }
+      ],
+      "connector_context": [],
+      "warnings": [],
+      "confidence": "medium",
+      "provenance": {
+        "source": "derived_from_propositions",
+        "method": "deterministic_export_transform"
+      }
+    }
+  ],
+  "source_fragments": [
+    {
+      "id": "frag-demo-49a",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "locator": "article:49a",
+      "fragment_text": "Article 49a. (1) All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers. Those catches shall not be mixed with any other fishery products. (2) Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes); (b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation. (3) In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 186,
+      "fragment_type": "article",
+      "fragment_hash": "hash-frag-demo-49a"
+    },
+    {
+      "id": "frag-demo-49a-p1",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "locator": "article:49a:paragraph:1",
+      "fragment_text": "(1) All catches below the applicable minimum conservation reference size retained on board a United Kingdom fishing vessel shall be placed in boxes, compartments or containers in such a way that they are identifiable from other boxes, compartments or containers. Those catches shall not be mixed with any other fishery products.",
+      "parent_fragment_id": "frag-demo-49a",
+      "order_index": 187,
+      "fragment_type": "article",
+      "fragment_hash": "hash-frag-demo-49a-p1"
+    },
+    {
+      "id": "frag-demo-49a-p2",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "locator": "article:49a:paragraph:2",
+      "fragment_text": "(2) Paragraph 1 shall not apply: (a) where the catches contain more than 80% of one or more of the following species\u2014 (i)) mackerel, herring, horse mackerel, blue whiting, boarfish, anchovy, argentine, sardine, sprat (i.e. small pelagic fisheries); (ii)) capelin, sandeel, Norwegian pout (i.e. fisheries for industrial purposes); (b) to fishing vessels of less than 12 metres' length overall where catches below the minimum conservation reference size have been sorted, estimated and recorded in accordance with Article 14 of this Regulation.",
+      "parent_fragment_id": "frag-demo-49a",
+      "order_index": 188,
+      "fragment_type": "article",
+      "fragment_hash": "hash-frag-demo-49a-p2"
+    },
+    {
+      "id": "frag-demo-49a-p3",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "locator": "article:49a:paragraph:3",
+      "fragment_text": "(3) In the cases referred to in paragraph 2, a fisheries administration must monitor the catch composition by way of sampling.",
+      "parent_fragment_id": "frag-demo-49a",
+      "order_index": 189,
+      "fragment_type": "article",
+      "fragment_hash": "hash-frag-demo-49a-p3"
+    },
+    {
+      "id": "frag-demo-article-14",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "locator": "article:14",
+      "fragment_text": "Article 14. Recording obligations for fishing vessels.",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 50,
+      "fragment_type": "article",
+      "fragment_hash": "hash-frag-demo-article-14"
+    },
+    {
+      "id": "frag-demo-article-14-p1",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "locator": "article:14:paragraph:1",
+      "fragment_text": "(1) Masters shall keep a fishing logbook.",
+      "parent_fragment_id": "frag-demo-article-14",
+      "order_index": 51,
+      "fragment_type": "article",
+      "fragment_hash": "hash-frag-demo-article-14-p1"
+    },
+    {
+      "id": "frag-demo-article-30-p1",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "locator": "article:30:paragraph:1",
+      "fragment_text": "(1) Operators shall retain catch records for inspection.",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 90,
+      "fragment_type": "article",
+      "fragment_hash": "hash-frag-demo-article-30-p1"
+    },
+    {
+      "id": "frag-demo-article-30-p2",
+      "source_record_id": "src-control-regulation-demo",
+      "source_snapshot_id": "snap-src-control-regulation-demo-v1",
+      "locator": "article:30:paragraph:2",
+      "fragment_text": "(2) Paragraph 1 shall not apply to shore-based establishments.",
+      "parent_fragment_id": "frag-demo-doc",
+      "order_index": 91,
+      "fragment_type": "article",
+      "fragment_hash": "hash-frag-demo-article-30-p2"
+    }
+  ]
+}

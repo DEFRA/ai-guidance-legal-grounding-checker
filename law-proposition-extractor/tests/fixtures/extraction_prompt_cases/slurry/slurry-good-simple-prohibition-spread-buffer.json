@@ -1,0 +1,42 @@
+{
+  "case_id": "slurry-good-simple-prohibition-spread-buffer",
+  "label": "GOOD — simple prohibition (organic manure spreading buffer)",
+  "source_title": "The Nitrate Pollution Prevention Regulations 2015",
+  "source_record_id": "lex-120b4f9c395b3f94",
+  "source_jurisdiction": "UK",
+  "fragment_locator": "regulation:17",
+  "fragment_text": "17 1 A person must not spread organic manure within 10 metres of surface water, except in so far as doing so is permitted by paragraph (2) or (4). 2 Livestock manure (other than slurry or poultry manure) may be spread if— a it is spread on land managed for breeding wader birds or as a species-rich semi-natural grassland and the land comes within paragraph (3), b it is spread in the period that begins with 1st June and ends with the following 31st October, c it is not spread directly on to surface water, and d the total annual amount does not exceed 12.5 tonnes per hectare. 3 Land comes within this paragraph if it is— a notified as a site of special scientific interest under the Wildlife and Countryside Act 1981, or b subject to an agri-environmental commitment entered into under Council Regulation (EC) 1698/2005 or Regulation (EU) 1305/2013. 4 Organic manure in the form of slurry, sewage sludge or anaerobic digestate (or any combination of those) may be spread, except within 6 metres of surface water, if the spreading equipment used is— a a trailing hose band spreader or a trailing shoe band spreader, b an injector which injects the organic manure no deeper than 10cm below the surface of the soil, or c a dribble bar applicator. 5 In paragraph (4)— “anaerobic digestate” means the product of anaerobic digestion other than from sewage or material in a landfill; “sewage sludge” means sludge within the meaning of the Sludge (Use in Agriculture) Regulations 1989 the use of which complies with regulation 3 of those Regulations. 6 A person must not spread organic manure within 50 metres of a borehole, spring or well. 7 This regulation does not apply to land which is covered by a greenhouse.",
+  "why_this_case": "Clear 'must not spread' duty with a measurable distance rule; good baseline for prohibition extraction and evidence spans.",
+  "expected_challenges": [
+    "exception_paragraphs_later_in_fragment",
+    "slurry_named_in_later_paragraphs"
+  ],
+  "evaluation": {
+    "mode": "targeted",
+    "strict_proposition_count": false,
+    "allow_extra_actual": true
+  },
+  "expected_propositions": [
+    {
+      "legal_effect_type": "prohibition",
+      "proposition_tier": "substantive_rule",
+      "proposition_text": "A person must not spread organic manure within 10 metres of surface water, except as permitted by paragraphs (2) or (4).",
+      "legal_subject": "a person",
+      "action": "must not spread organic manure within 10 metres of surface water",
+      "affected_subjects": [
+        "a person"
+      ],
+      "conditions": [],
+      "exceptions": [
+        "except in so far as permitted by paragraph (2) or (4)"
+      ],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [
+        "England"
+      ],
+      "extent": [],
+      "evidence_quote": "A person must not spread organic manure within 10 metres of surface water"
+    }
+  ]
+}

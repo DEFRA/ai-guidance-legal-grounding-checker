@@ -1,0 +1,59 @@
+{
+  "id": "agricultural_land_england_territorial_application",
+  "description": "Regression: frontier extraction mislabels reg 1(d) territorial application as obligation with generic cross_reference_key.",
+  "raw_extraction": {
+    "proposition_text": "These Regulations apply to agricultural land in England.",
+    "fragment_locator": "regulation 1(d)",
+    "jurisdiction": "UK",
+    "categories": ["obligation"],
+    "label": "Territorial application",
+    "short_name": "Territorial application",
+    "slug": "territorial-application",
+    "legal_subject": "These Regulations",
+    "action": "apply to",
+    "affected_subjects": ["agricultural land in England"],
+    "cross_reference_key": "uk:these-regulations:apply-to"
+  },
+  "extraction_meta": {
+    "extraction_mode": "frontier",
+    "display_label": "Territorial application",
+    "evidence_quote": "These Regulations apply to agricultural land in England.",
+    "completeness_status": "complete",
+    "confidence": "high",
+    "reason": "Clear territorial scope provision."
+  },
+  "proposition_record": {
+    "id": "prop-regression-ag-land-england",
+    "topic_id": "topic-regression",
+    "source_record_id": "lex-regression-slurry-2010",
+    "source_fragment_id": "frag-regression-001",
+    "jurisdiction": "UK"
+  },
+  "expected": {
+    "proposition_tier": "scope_rule",
+    "legal_effect_type": "application_scope",
+    "territorial_application": ["England"],
+    "affected_subjects_contains": "agricultural land",
+    "is_compliance_relevant": false,
+    "is_comparison_anchor": true,
+    "label": "Application to agricultural land in England",
+    "short_name": "Agricultural land in England",
+    "slug": "application-agricultural-land-in-england",
+    "review_notes": null,
+    "notes_not_meta_prefix": true,
+    "cross_reference_key_not_prefix": "uk:these-regulations",
+    "source_scoped_key_contains": ["application_scope", "england", "agricultural"],
+    "semantic_comparison_key_contains": ["application_scope", "england"],
+    "explicit_cross_reference_targets": [],
+    "ui": {
+      "tier_label": "Scope rule",
+      "legal_effect_label": "Application scope",
+      "informative_label": "Application to agricultural land in England",
+      "territory": "England",
+      "compliance_relevant": false,
+      "comparison_anchor": true,
+      "hidden_in_compliance_only_filter": true,
+      "hidden_citation_commencement_default": false
+    }
+  }
+}

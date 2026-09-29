@@ -1,0 +1,123 @@
+{
+  "schema_version": "1",
+  "description": "Implementation status for divergence mechanisms and workflow stages shown in divergence-workflow.d2. Grounded in law_proposition_extractor_domain.DivergenceType, law_proposition_extractor_pipeline.compare, and docs/canonical/project-state.md. Not a claim of legal completeness.",
+  "source_of_truth": [
+    "packages/domain/src/law_proposition_extractor_domain/enums.py (DivergenceType)",
+    "packages/pipeline/src/law_proposition_extractor_pipeline/compare.py (_infer_divergence_type)",
+    "docs/canonical/project-state.md",
+    "docs/decisions/adr-0006-proposition-level-comparison-unit.md",
+    "docs/explainability/pipeline.md"
+  ],
+  "mechanisms": [
+    {
+      "id": "textual",
+      "label": "textual",
+      "status": "implemented",
+      "notes": "Heuristic path when actions differ (compare._infer_divergence_type)."
+    },
+    {
+      "id": "structural",
+      "label": "structural",
+      "status": "implemented",
+      "notes": "Fallback when text differs but no more specific heuristic matches."
+    },
+    {
+      "id": "dynamic_reference",
+      "label": "dynamic-reference",
+      "status": "planned",
+      "notes": "Enum member exists; not assigned by current heuristic classifier."
+    },
+    {
+      "id": "territorial",
+      "label": "territorial",
+      "status": "planned",
+      "notes": "Enum member exists; not assigned by current heuristic classifier."
+    },
+    {
+      "id": "institutional",
+      "label": "institutional",
+      "status": "implemented",
+      "notes": "Heuristic when authority differs and action matches."
+    },
+    {
+      "id": "procedural",
+      "label": "procedural",
+      "status": "implemented",
+      "notes": "Heuristic when conditions differ."
+    },
+    {
+      "id": "annex_model_certificate",
+      "label": "annex/model/certificate",
+      "status": "implemented",
+      "notes": "Heuristic when required_documents sets differ."
+    },
+    {
+      "id": "definitional",
+      "label": "definitional",
+      "status": "implemented",
+      "notes": "Heuristic when legal_subject differs."
+    },
+    {
+      "id": "revocation_replacement",
+      "label": "revocation/replacement",
+      "status": "planned",
+      "notes": "Enum member exists; not assigned by current heuristic classifier."
+    }
+  ],
+  "workflow_stages": [
+    {
+      "id": "source_snapshots",
+      "label": "source snapshots",
+      "status": "implemented"
+    },
+    {
+      "id": "propositions",
+      "label": "propositions",
+      "status": "implemented"
+    },
+    {
+      "id": "effective_law_statements",
+      "label": "effective-law statements",
+      "status": "implemented"
+    },
+    {
+      "id": "baseline_current_alignment",
+      "label": "baseline/current alignment",
+      "status": "partially_implemented",
+      "notes": "common_ancestor field exists; full baseline family alignment workflow is incomplete."
+    },
+    {
+      "id": "unchanged_rules_removed",
+      "label": "unchanged rules removed",
+      "status": "partially_implemented",
+      "notes": "NONE type when texts match; dedicated unchanged-rule filtering UI/workflow is limited."
+    },
+    {
+      "id": "candidate_divergence",
+      "label": "candidate divergence",
+      "status": "implemented"
+    },
+    {
+      "id": "scope_resolution_review",
+      "label": "scope-resolution review",
+      "status": "planned"
+    },
+    {
+      "id": "divergence_review",
+      "label": "divergence review",
+      "status": "partially_implemented",
+      "notes": "review_status on DivergenceObservation; fuller governance flow still evolving."
+    },
+    {
+      "id": "guidance_eligibility",
+      "label": "guidance eligibility",
+      "status": "planned"
+    },
+    {
+      "id": "beatrice_comparison",
+      "label": "Proposition Matcher comparison",
+      "status": "partially_implemented",
+      "notes": "Proposition Matcher candidates project from effective-law; guidance comparison consumes reviewed law."
+    }
+  ]
+}

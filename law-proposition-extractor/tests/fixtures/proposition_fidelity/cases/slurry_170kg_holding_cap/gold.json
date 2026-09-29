@@ -1,0 +1,42 @@
+{
+  "case_id": "slurry_170kg_holding_cap",
+  "expected_propositions": [
+    {
+      "role": "livestock-nitrogen-holding-cap",
+      "source_locator": "regulation:7:paragraph:1",
+      "short_legal_description": "Occupier must ensure livestock manure nitrogen applied in a calendar year does not exceed 170kg per hectare.",
+      "legal_effect_type": "obligation",
+      "required_actor": "occupier",
+      "required_action": "must ensure",
+      "object": "nitrogen in livestock manure",
+      "conditions": ["calendar year"],
+      "thresholds": ["170"],
+      "exceptions": [],
+      "cross_references": [],
+      "evidence_markers": ["does not exceed 170kg"],
+      "expected_completeness": "complete"
+    },
+    {
+      "role": "derogation-from-holding-cap",
+      "source_locator": "regulation:7:paragraph:2",
+      "short_legal_description": "Paragraph (1) does not apply where a derogation has been granted.",
+      "legal_effect_type": "derogation",
+      "required_action": "does not apply",
+      "object": "derogation",
+      "exceptions": ["does not apply where the occupier has been granted a derogation"],
+      "evidence_markers": ["granted a derogation"],
+      "expected_completeness": "complete"
+    },
+    {
+      "role": "schedule-1-nitrogen-calculation-crossref",
+      "source_locator": "regulation:7:paragraph:3",
+      "short_legal_description": "Nitrogen amount is calculated in accordance with Schedule 1.",
+      "legal_effect_type": "obligation",
+      "required_action": "calculated in accordance with Schedule 1",
+      "object": "nitrogen",
+      "cross_references": ["Schedule 1"],
+      "evidence_markers": ["calculated in accordance with Schedule 1"],
+      "expected_completeness": "complete"
+    }
+  ]
+}

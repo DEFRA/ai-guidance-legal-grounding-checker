@@ -1,0 +1,69 @@
+{
+  "case_id": "workbench-dry-smoke",
+  "label": "DRY smoke — diffuse 2018 reg 1 (legacy + prompt-lab eval)",
+  "source_title": "Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018",
+  "source_record_id": "lex-diffuse-2018-reg-1-fixture",
+  "source_jurisdiction": "England",
+  "fragment_locator": "regulation:1",
+  "fragment_text": "1 These Regulations— a may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018, b come into force on 2nd April 2018, c extend to England and Wales, and d apply to agricultural land in England.",
+  "why_this_case": "CI dry-run smoke: parses fixture raw_model_output without LLM; optional eval against two review targets.",
+  "expected_challenges": ["dry_mode", "legacy_fixture_shape"],
+  "expected_propositions": [
+    {
+      "legal_effect_type": "citation",
+      "proposition_tier": "instrument_metadata",
+      "proposition_text": "These Regulations may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018.",
+      "legal_subject": "These Regulations",
+      "action": "may be cited as",
+      "affected_subjects": ["These Regulations"],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": [],
+      "extent": [],
+      "evidence_quote": "may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018"
+    },
+    {
+      "legal_effect_type": "application_scope",
+      "proposition_tier": "scope_rule",
+      "proposition_text": "These Regulations apply to agricultural land in England.",
+      "legal_subject": "These Regulations",
+      "action": "apply to",
+      "affected_subjects": ["agricultural land in England"],
+      "conditions": [],
+      "exceptions": [],
+      "authority": null,
+      "required_documents": [],
+      "territorial_application": ["England"],
+      "extent": [],
+      "evidence_quote": "apply to agricultural land in England"
+    }
+  ],
+  "evaluation": {
+    "strict_proposition_count": true,
+    "expected_checkable_count": 0
+  },
+  "topic": {
+    "name": "slurry manure agricultural effluent",
+    "description": "Internal dry-run smoke fixture for unit tests (legacy workbench shape)",
+    "subject_tags": ["slurry", "diffuse"]
+  },
+  "cluster": {
+    "name": "England principal instruments",
+    "description": "Reduction and Prevention of Agricultural Diffuse Pollution (England) 2018"
+  },
+  "source": {
+    "id": "lex-diffuse-2018-reg-1-fixture",
+    "title": "Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018",
+    "jurisdiction": "England",
+    "citation": "SI 2018/151",
+    "kind": "regulation",
+    "fragment_locator": "regulation:1",
+    "fragment_text": "1 These Regulations— a may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018, b come into force on 2nd April 2018, c extend to England and Wales, and d apply to agricultural land in England."
+  },
+  "max_propositions": 6,
+  "dry": {
+    "raw_model_output": "{\"propositions\":[{\"proposition_text\":\"These Regulations may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018.\",\"display_label\":\"Citation title\",\"subject\":\"These Regulations\",\"rule\":\"may be cited as\",\"object\":\"the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018\",\"conditions\":[],\"exceptions\":[],\"temporal_condition\":\"\",\"provision_type\":\"core\",\"source_locator\":\"regulation:1(a)\",\"evidence_text\":\"may be cited as the Reduction and Prevention of Agricultural Diffuse Pollution (England) Regulations 2018\",\"completeness_status\":\"complete\",\"confidence\":\"high\",\"reason\":\"citation in sub-paragraph (a)\"},{\"proposition_text\":\"These Regulations apply to agricultural land in England.\",\"display_label\":\"Application to agricultural land in England\",\"subject\":\"These Regulations\",\"rule\":\"apply to\",\"object\":\"agricultural land in England\",\"conditions\":[],\"exceptions\":[],\"temporal_condition\":\"\",\"provision_type\":\"core\",\"source_locator\":\"regulation:1(d)\",\"evidence_text\":\"apply to agricultural land in England\",\"completeness_status\":\"complete\",\"confidence\":\"high\",\"reason\":\"application in sub-paragraph (d)\"}]}"
+  }
+}

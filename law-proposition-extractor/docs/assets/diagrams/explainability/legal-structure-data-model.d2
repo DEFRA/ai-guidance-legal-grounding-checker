@@ -1,0 +1,119 @@
+# explainability-diagram: legal-structure-data-model
+# compatible-registry-version: 1
+# compatible-fixture-hash: 1773194120d6
+# authorship: hand-authored
+# title: Legal-structure data model
+# audience: lawyers, developers, auditors
+# purpose: Distinguish fragments, propositions, groups, relationships, statements, and explanations.
+# source-of-truth: docs/explainability/concepts.md; docs/explainability/glossary.md
+
+direction: down
+
+classes: {
+  entity: {
+    shape: rectangle
+    style: {
+      fill: "#EEF2FF"
+      stroke: "#3730A3"
+      stroke-width: 2
+      border-radius: 6
+      font-size: 13
+    }
+  }
+  typed: {
+    shape: hexagon
+    style: {
+      fill: "#F5F3FF"
+      stroke: "#5B21B6"
+      stroke-width: 2
+      font-size: 12
+    }
+  }
+  generic: {
+    shape: parallelogram
+    style: {
+      fill: "#F1F5F9"
+      stroke: "#64748B"
+      stroke-dash: 4
+      font-size: 12
+    }
+  }
+  evidence: {
+    shape: page
+    style: {
+      fill: "#FFFBEB"
+      stroke: "#B45309"
+      font-size: 12
+    }
+  }
+  section: {
+    style: {
+      fill: "#F8FAFC"
+      stroke: "#94A3B8"
+      border-radius: 10
+    }
+  }
+}
+
+title: |md
+  **Legal-structure data model** — fragments ≠ propositions ≠ groups ≠ typed relationships ≠ statements
+|
+title.style.font-size: 15
+
+core: {
+  label: "Core objects"
+  class: section
+
+  fragment: "SourceFragment\nstructural source text + locator"
+  fragment.class: entity
+  prop: "Proposition\natomic retained legal statement"
+  prop.class: entity
+  group: "LegalRuleGroup\nshared-fragment targeting set"
+  group.class: entity
+  statement: "EffectiveLawStatement\nreview / matching presentation unit"
+  statement.class: entity
+  context: "RequiredContext\nattached exceptions / triggers / refs"
+  context.class: entity
+  decision: "DecisionExplanation\nrecorded processing decision"
+  decision.class: evidence
+
+  fragment -> prop: "produces zero or more"
+  prop -> group: "two or more from one reliable fragment\nmay form one group"
+  prop -> statement: "becomes"
+  statement -> context: "carries"
+  decision -> prop: "records material decisions about"
+  decision -> group
+  decision -> statement
+}
+
+relationships: {
+  label: "Relationship kinds (do not merge)"
+  class: section
+
+  generic_rel: "Generic locator relationship\nmechanical cross-reference edge\n(resolves references)"
+  generic_rel.class: generic
+
+  typed_rel: "Typed legal relationship\nexception_to | triggered_by\nrequires cue + safe target"
+  typed_rel.class: typed
+
+  target: "Relationship target\nProposition OR LegalRuleGroup"
+  target.class: entity
+
+  prop_src: "Proposition (source of edge)"
+  prop_src.class: entity
+
+  prop_src -> typed_rel: "may source"
+  typed_rel -> target: "targets"
+  typed_rel -> context: "produces RequiredContext\non statements"
+  prop_src -> generic_rel: "may also have"
+  generic_rel -> target: "locator resolution only"
+}
+
+note: |md
+  **Typed ≠ generic.** Ordinary references are not `exception_to` / `triggered_by`.
+  A legal rule group is a targeting set — not a duplicate-group matching cluster.
+|
+note.class: evidence
+
+core -> relationships
+relationships -> note
